@@ -1,0 +1,2 @@
+# localization
+LM Studio localization
