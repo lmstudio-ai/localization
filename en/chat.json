@@ -1,0 +1,10 @@
+{
+  "modelLoaderPlaceholder": "Select a model to load",
+  "systemPromptPlaceholder": "Set system prompt",
+  "userRoleText": "User",
+  "assistantRoleText": "Assistant",
+  "addMessageButtonText": "Add",
+  "sendMessageButtonText": "Send",
+  "ejectButtonText": "Eject",
+  "loadButtonText": "Load"
+}

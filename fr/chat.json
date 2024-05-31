@@ -1,0 +1,10 @@
+{
+  "modelLoaderPlaceholder": "Sélectionnez un modèle",
+  "systemPromptPlaceholder": "Définir la demande système",
+  "userRoleText": "Utilisateur",
+  "assistantRoleText": "Assistant",
+  "addMessageButtonText": "Ajouter un message",
+  "sendMessageButtonText": "Envoyer",
+  "ejectButtonText": "Éjecter",
+  "loadButtonText": "Charger"
+}

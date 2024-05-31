@@ -1,0 +1,10 @@
+{
+  "modelLoaderPlaceholder": "בחר מודל לטעינה",
+  "systemPromptPlaceholder": "בחר הוראות פעולה",
+  "userRoleText": "משתמש",
+  "assistantRoleText": "עוזר",
+  "addMessageButtonText": "הוסף",
+  "sendMessageButtonText": "שלח",
+  "ejectButtonText": "הוצא",
+  "loadButtonText": "טען"
+}

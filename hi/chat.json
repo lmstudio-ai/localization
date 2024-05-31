@@ -1,0 +1,10 @@
+{
+  "modelLoaderPlaceholder": "मॉडल का चयन करें",
+  "systemPromptPlaceholder": "सिस्टम प्रॉम्प्ट सेट करें",
+  "userRoleText": "उपयोगकर्ता",
+  "assistantRoleText": "सहायक",
+  "addMessageButtonText": "जोड़ें",
+  "sendMessageButtonText": "भेजें",
+  "ejectButtonText": "निकालें",
+  "loadButtonText": "लोड"
+}
