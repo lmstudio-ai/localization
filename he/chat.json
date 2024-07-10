@@ -6,5 +6,8 @@
   "addMessageButtonText": "הוסף",
   "sendMessageButtonText": "שלח",
   "ejectButtonText": "הוצא",
-  "loadButtonText": "טען"
+  "unloadTooltip": "הוצא",
+  "cancelButtonText": "בטל",
+  "loadButtonText": "טען",
+  "chatSidebarTitle": "שיחות"
 }

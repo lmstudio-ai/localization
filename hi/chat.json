@@ -6,5 +6,13 @@
   "addMessageButtonText": "जोड़ें",
   "sendMessageButtonText": "भेजें",
   "ejectButtonText": "निकालें",
-  "loadButtonText": "लोड"
+  "unloadTooltip": "निकालें",
+  "cancelButtonText": "रद्द करें",
+  "loadButtonText": "लोड",
+  "markdownSelectOption": "मार्कडाउन",
+  "rawSelectOption": "रॉ टेक्स्ट",
+  "advancedSegmentText": "उन्नत",
+  "chatSegmentText": "चैट",
+  "chatSidebarTitle": "चैट",
+  "viewModeLabel": "दृश्य मोड"
 }

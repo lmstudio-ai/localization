@@ -6,5 +6,8 @@
   "addMessageButtonText": "Ajouter un message",
   "sendMessageButtonText": "Envoyer",
   "ejectButtonText": "Éjecter",
-  "loadButtonText": "Charger"
+  "unloadTooltip": "Unload",
+  "cancelButtonText": "Annuler",
+  "loadButtonText": "Charger",
+  "chatSidebarTitle": "Chats"
 }
