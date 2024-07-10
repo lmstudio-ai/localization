@@ -1,4 +1,11 @@
 {
   "collectionsColumn": "Collections",
-  "bookmarksColumn": "Bookmarks"
+  "bookmarksColumn": "Bookmarks",
+  "searchBar/placeholder": "Search for models on Hugging Face...",
+  "sortBy": "Sort by",
+  "searchSortKey.default/title": "Best Match",
+  "searchSortKey.likes/title": "Most Likes",
+  "searchSortKey.downloads/title": "Most Downloads",
+  "searchSortKey.lastModified/title": "Recently Updated",
+  "searchSortKey.createdAt/title": "Recently Created"
 }
