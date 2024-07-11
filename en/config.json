@@ -14,7 +14,7 @@
   "generationParameters/info": "Experiment with basic parameters which impact text generation.",
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Changing these parameters calls for a model reload",
-  "loadParameters/reload": "Reload model",
+  "loadParameters/reload": "Reload model to apply changes",
   "llm.prediction.systemPrompt/title": "Guidelines for the AI",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements. This field is also often referred to as the \"system prompt\".",
   "llm.prediction.temperature/title": "Temperature",
