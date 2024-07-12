@@ -1,7 +1,8 @@
 {
-    "action.model.delete": "Delete",
-    "action.model.delete.full": "Delete Model",
-    "action.model.delete.confirmation/title": "Delete {{name}}",
-    "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
-    "action.model.delete.confirmation/confirm": "Delete"
-  }
+  "action.model.delete": "Delete",
+  "action.model.delete.full": "Delete Model",
+  "action.model.delete.confirmation/title": "Delete {{name}}",
+  "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
+  "action.model.delete.confirmation/confirm": "Delete",
+  "indexingOngoing": "Still indexing... Some models may be missing."
+}
