@@ -9,6 +9,7 @@
     "yourCurrentVersion": "You are currently on:",
     "latestVersion": "The latest version is:",
     "downloadLabel": "Download",
+    "cancelDownloadLabel": "Cancel",
     "downloadingUpdate": "Downloading update...",
     "updateDownloaded": "Update downloaded!",
     "restartAppToUpdate": "Relaunch app to apply update",
