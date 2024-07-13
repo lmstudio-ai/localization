@@ -42,5 +42,7 @@
     "changeLanguageLabel": "Change Language of the app",
     "developerLabel": "Developer",
     "showExperimentalFeaturesLabel": "Show experimental features",
-    "appFirstLoadLabel": "App first load"
+    "appFirstLoadLabel": "App first load",
+    "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
+    "autoLoadBundledLLMLabel": "Auto load a bundled LLM model on start"
 }
