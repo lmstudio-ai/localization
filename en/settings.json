@@ -3,8 +3,8 @@
     "checkingAppUpdate": "Checking for updates...",
     "checkForUpdates": "Check for updates",
     "failedCheckingAppUpdate": "Failed to check for updates",
-    "newUpdateAvailable": "A new version of LM Studio is available!",
-    "downloadingInProgress": "Downloading...",
+    "newUpdateAvailable": "A new version of LM Studio is available! 🎉",
+    "downloadingInProgress": "Downloading update...",
     "downloadUpdate": "Update to LM Studio {{version}}",
     "yourCurrentVersion": "You are currently on:",
     "latestVersion": "The latest version is:",
@@ -21,7 +21,7 @@
     "remindMeLater": "Remind me later",
     "failedDownloadUpdate": "Failed to download update",
     "installAndRelaunch": "Install and relaunch",
-    "uptodate": "You are all up to date!",
+    "uptodate": "You are all up to date! The current version is {{version}}",
     "preferences": "Preferences",
     "sideButtonLabels": "Show side button labels",
     "colorThemeLabel": "Color Theme",
@@ -45,7 +45,7 @@
     "changeLanguageLabel": "Change Language of the app",
     "developerLabel": "Developer",
     "showExperimentalFeaturesLabel": "Show experimental features",
-    "appFirstLoadLabel": "App first load",
+    "appFirstLoadLabel": "App first load experience",
     "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
     "autoLoadBundledLLMLabel": "Auto load a bundled LLM model on start"
 }
