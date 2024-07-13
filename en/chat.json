@@ -33,9 +33,9 @@
   "actions/loadLastModel/error": "Failed to load last used model.",
   "actions/continueCurrentModel": "Use current model",
   "actions/continueCurrentModel/tooltip": "Current model: {{currentModel}}",
-  "actions/changeToLastUsedModel": "Change to {{lastModel}}",
+  "actions/changeToLastUsedModel": "Load {{lastModel}}",
   "actions/changeToLastUsedModel/error": "Failed to change to last used model.",
-  "actions/changeToLastUsedModel/tooltip": "Click to unload the currently selected model ({{currentModel}}) and load the model that was last used with this chat ({{lastModel}})",
+  "actions/changeToLastUsedModel/tooltip": "You used a different model last time you sent a message in this chat. Click to unload the currently selected model ({{currentModel}}) and load the model that was last used with this chat ({{lastModel}})",
   "actions/switchToLastUsedModel": "Switch to {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "Click to switch to the model that was last used with this chat ({{lastModel}})",
   "actions/loadModel": "Load a model"
