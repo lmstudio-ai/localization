@@ -1,6 +1,7 @@
 {
   "runtimeSettings/title": "Runtime settings",
   "loadSettings/title": "Load settings",
+  "modelSettings/placeholder": "Select a model to configure it",
   "serverOptions/title": "Server Options",
   "serverOptions/port/hint": "Which port to listen on. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/cors/title": "Enable CORS",
