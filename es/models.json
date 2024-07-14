@@ -1,0 +1,8 @@
+{
+  "action.model.delete": "Eliminar",
+  "action.model.delete.full": "Eliminar modelo",
+  "action.model.delete.confirmation/title": "Eliminar {{name}}",
+  "action.model.delete.confirmation/description": "¿Estás seguro? Esto eliminará permanentemente todos los archivos asociados con este modelo de tu máquina. Esta acción no se puede deshacer.",
+  "action.model.delete.confirmation/confirm": "Eliminar",
+  "indexingOngoing": "Indexando aún... Algunos modelos pueden estar ausentes."
+}
