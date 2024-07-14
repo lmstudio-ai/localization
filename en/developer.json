@@ -12,5 +12,7 @@
   "serverOptions/verboseLogging/title": "Verbose Logging",
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
-  "serverOptions/loadModel/error": "Failed to load model"
+  "serverOptions/loadModel/error": "Failed to load model",
+  "serverLogs/scrollToBottom": "Jump to bottom",
+  "serverLogs/clearLogs": "Clear logs"
 }
