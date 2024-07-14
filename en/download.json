@@ -1,4 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing..."
+  "finalizing": "Finalizing...",
+  "noOptions": "No compatible options available for download"
 }
+  
