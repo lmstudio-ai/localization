@@ -23,6 +23,8 @@
   "uiControls/title": "Display Settings",
   "noChatSelectedPlaceholder": "Select a chat",
   "unnamedChat": "Unnamed Chat",
+  "actions/sendMessage/error": "Failed to send message",
+  "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
   "actions/changeRole": "Switch between User and Assistant roles.\n\nThis is useful for steering the conversation in a specific direction.\n\nCan be used for staging 'few-shot learning' or 'in-context learning' scenarios",
   "actions/addImage": "Add image",
