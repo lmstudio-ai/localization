@@ -10,7 +10,7 @@
   "otherParameters/title": "Otros",
   "basicTab": "Básico",
   "advancedTab": "Avanzado",
-  "loadInstanceFirst": "Seleccione primero una instancia del modelo para ver los parámetros",
+  "noParamsAvailable": "No hay otros parámetros ajustables disponibles",
   "generationParameters/info": "Experimentar con parámetros básicos que afectan la generación de texto.",
   "loadParameters/title": "Cargar Parámetros",
   "loadParameters/description": "Cambiar estos parámetros requiere recargar el modelo",

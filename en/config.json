@@ -12,7 +12,7 @@
   "otherParameters/title": "Other",
   "basicTab": "Basic",
   "advancedTab": "Advanced",
-  "loadInstanceFirst": "Load a model to view configurable parameters",
+  "noParamsAvailable": "No other adjustable parameters available",
   "generationParameters/info": "Experiment with basic parameters which impact text generation.",
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Changing these parameters calls for a model reload",
