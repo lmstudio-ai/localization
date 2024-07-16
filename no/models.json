@@ -1,0 +1,13 @@
+{
+  "action.model.delete": "Slett",
+  "action.model.delete.full": "Slett modell",
+  "action.model.delete.confirmation/title": "Slett {{name}}",
+  "action.model.delete.confirmation/description": "Er du sikker? Dette vil permanent slette alle filer knyttet til denne modellen fra maskinen din. Denne handlingen kan ikke angres.",
+  "action.model.delete.confirmation/confirm": "Slett",
+  "indexingOngoing": "Indeksering pågår fortsatt... Noen modeller kan mangle.",
+  "loadState/loaded": "Lastet",
+  "loadState/loading": "Laster",
+  "loadState/unloaded": "Ikke lastet",
+  "loadState/unloading": "Avlaster",
+  "loadState/idle": "Inaktiv"
+}
