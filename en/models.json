@@ -10,5 +10,7 @@
   "loadState/loading": "Loading",
   "loadState/unloaded": "Unloaded",
   "loadState/unloading": "Unloading",
-  "loadState/idle": "Idle"
+  "loadState/idle": "Idle",
+  "contextMenu/copyAbsolutePath": "Copy absolute path",
+  "contextMenu/copyModelName": "Copy model name"
 }
