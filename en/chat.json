@@ -46,5 +46,10 @@
   "actions/changeToLastUsedModel/tooltip": "You used a different model last time you sent a message in this chat. Click to unload the currently selected model ({{currentModel}}) and load the model that was last used with this chat:\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "Switch to {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "Click to switch to the model that was last used with this chat:\n\n{{lastModel}}",
-  "actions/loadModel": "Load a model"
+  "actions/loadModel": "Load a model",
+  "editMessageConfirm/title": "Keep changes?",
+  "editMessageConfirm/message": "You have made changes to a message. Do you want to keep them?",
+  "editMessageConfirm/keepEditing": "Continue Editing",
+  "editMessageConfirm/save": "Save",
+  "editMessageConfirm/discard": "Undo"
 }
