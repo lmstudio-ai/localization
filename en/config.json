@@ -12,6 +12,7 @@
   "basicTab": "Basic",
   "advancedTab": "Advanced",
   "loadInstanceFirst": "Load a model to view configurable parameters",
+  "noListedConfigs": "No configurable parameters",
   "generationParameters/info": "Experiment with basic parameters which impact text generation.",
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Changing these parameters calls for a model reload",
