@@ -1,5 +1,9 @@
 {
   "runtimeSettings/title": "Runtime settings",
+  "runtimeSettings/chooseRuntime/title": "Select Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Choose which runtimes to use.",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
   "loadSettings/title": "Load settings",
   "modelSettings/placeholder": "Select a model to configure it",
   "serverOptions/title": "Server Options",
