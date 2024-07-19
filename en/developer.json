@@ -23,5 +23,11 @@
   "runtimeSettings/chooseRuntime/description": "Set a default runtime for engine type",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each runtime. Enable this option to see all available versions.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime"
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+
+  "runtimeOptions/uninstall": "Uninstall",
+  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
+  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
+  "runtimeOptions/uninstallDialog/cancel": "Cancel"
 }
