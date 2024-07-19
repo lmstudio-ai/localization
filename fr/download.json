@@ -12,7 +12,7 @@
   "deeplink/confirmation/nevermindButton": "Peu importe",
   "deeplink/confirmation/modelPresent/title": "Modèle Hugging Face trouvé ✅",
   "deeplink/confirmation/modelPresent/body": "Bonne nouvelle ! Ce fichier modèle est déjà disponible sur votre machine locale.",
-  "deeplink/confirmation/loadInChat": "Charger {{modelName}} dans une nouvelle discussion",
+  "deeplink/confirmation/loadInChat": "Charger {{ modelName }} dans une nouvelle discussion",
   "deeplink/error/modelNotFound/title": "Ruh roh, nous n'avons pas pu trouver ce modèle",
   "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement."
 }
