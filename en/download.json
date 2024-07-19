@@ -14,6 +14,7 @@
   "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
   "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
   "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
-  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option."
+  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option.",
+  "deeplink/actions/trySearching": "Try searching for {{modelName}} on Hugging Face"
 }
   
