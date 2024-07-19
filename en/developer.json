@@ -1,11 +1,7 @@
 {
-  "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Select Runtimes",
-  "runtimeSettings/chooseRuntime/description": "Choose which runtimes to use.",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
   "loadSettings/title": "Load settings",
   "modelSettings/placeholder": "Select a model to configure it",
+  
   "serverOptions/title": "Server Options",
   "serverOptions/port/hint": "Which port to listen on. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/cors/title": "Enable CORS",
@@ -18,6 +14,13 @@
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
   "serverOptions/loadModel/error": "Failed to load model",
+  
   "serverLogs/scrollToBottom": "Jump to bottom",
-  "serverLogs/clearLogs": "Clear logs ({{shortcut}})"
+  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
+
+  "runtimeSettings/title": "Runtime settings",
+  "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Set a default runtime for engine type",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime"
 }
