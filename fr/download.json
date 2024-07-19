@@ -1,19 +1,18 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing...",
-  "noOptions": "No compatible options available for download",
+  "postDownloadActionExecutor.zipExtraction/status": "Extraction...",
+  "finalizing": "Finalisation...",
+  "noOptions": "Aucune option compatible disponible pour le téléchargement",
   
-  "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
+  "deeplink/confirmation/title": "Télécharger le modèle depuis Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Select recommended",
-  "deeplink/confirmation/selectOption": "Select download option",
-  "deeplink/confirmation/recommendedOption": "Likely the best option for most users",
-  "deeplink/confirmation/downloadButton": "Download",
-  "deeplink/confirmation/nevermindButton": "Nevermind",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Found ✅",
-  "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
-  "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
-  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
-  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option."
+  "deeplink/confirmation/selectRecommended": "Sélectionner recommandé",
+  "deeplink/confirmation/selectOption": "Sélectionner l'option de téléchargement",
+  "deeplink/confirmation/recommendedOption": "Probablement la meilleure option pour la plupart des utilisateurs",
+  "deeplink/confirmation/downloadButton": "Télécharger",
+  "deeplink/confirmation/nevermindButton": "Peu importe",
+  "deeplink/confirmation/modelPresent/title": "Modèle Hugging Face trouvé ✅",
+  "deeplink/confirmation/modelPresent/body": "Bonne nouvelle ! Ce fichier modèle est déjà disponible sur votre machine locale.",
+  "deeplink/confirmation/loadInChat": "Charger {{modelName}} dans une nouvelle discussion",
+  "deeplink/error/modelNotFound/title": "Ruh roh, nous n'avons pas pu trouver ce modèle",
+  "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement."
 }
-  
