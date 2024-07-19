@@ -22,5 +22,6 @@
   "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
   "runtimeSettings/chooseRuntime/description": "Set a default runtime for engine type",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each runtime. Enable this option to see all available versions.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime"
 }
