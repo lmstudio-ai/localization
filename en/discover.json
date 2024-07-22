@@ -1,7 +1,9 @@
 {
   "collectionsColumn": "Collections",
+  "collectionsColumn/collectionError": "Error loading collection details, please try a refresh above",
   "bookmarksColumn": "Bookmarks",
   "searchBar/placeholder": "Search for models on Hugging Face...",
+  "searchBar/huggingFaceError": "There was an error fetching results from Hugging Face, please try again in a little bit",
   "sortBy": "Sort by",
   "searchSortKey.default/title": "Best Match",
   "searchSortKey.likes/title": "Most Likes",
