@@ -49,5 +49,10 @@
     "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
     "autoLoadBundledLLMLabel": "Auto load a bundled LLM model on start",
     "showReleaseNotes": "Show release notes",
-    "hideReleaseNotes": "Hide release notes"
+    "hideReleaseNotes": "Hide release notes",
+
+    "backendDownloadChannel.label": "LM Studio Extension Packs Download Channel",
+    "backendDownloadChannel.value.stable": "Stable",
+    "backendDownloadChannel.value.beta": "Beta",
+    "backendDownloadChannel.value.latest": "Dev"
 }
