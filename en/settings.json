@@ -54,5 +54,7 @@
     "backendDownloadChannel.label": "LM Studio Extension Packs Download Channel",
     "backendDownloadChannel.value.stable": "Stable",
     "backendDownloadChannel.value.beta": "Beta",
-    "backendDownloadChannel.value.latest": "Dev"
+    "backendDownloadChannel.value.latest": "Dev",
+    "backendDownloadChannel.shortLabel": "Runtime download channel",
+    "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users."
 }
