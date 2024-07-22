@@ -1,6 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing...",
+  "finalizing": "Finalizing download... (this may take a few moments)",
   "noOptions": "No compatible options available for download",
   
   "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
