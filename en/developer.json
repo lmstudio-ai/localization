@@ -28,6 +28,8 @@
   "runtimeOptions/uninstall": "Uninstall",
   "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
   "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
+  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
   "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
   "runtimeOptions/uninstallDialog/cancel": "Cancel"
 }
