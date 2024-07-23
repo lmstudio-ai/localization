@@ -1,0 +1,19 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "מחלץ...",
+  "finalizing": "מסיים...",
+  "noOptions": "אין אפשרויות תואמות זמינות להורדה",
+  
+  "deeplink/confirmation/title": "הורד דגם מ- Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "בחר מומלץ",
+  "deeplink/confirmation/selectOption": "בחר באפשרות הורדה",
+  "deeplink/confirmation/recommendedOption": "ככל הנראה האפשרות הטובה ביותר עבור רוב המשתמשים",
+  "deeplink/confirmation/downloadButton": "הורד",
+  "deeplink/confirmation/nevermindButton": "Nevermind",
+  "deeplink/confirmation/modelPresent/title": "מודל Hugging Face נמצא ✅",
+  "deeplink/confirmation/modelPresent/body": "חדשות טובות! קובץ הדגם הזה כבר זמין במחשב המקומי שלך.",
+  "deeplink/confirmation/loadInChat": "טען {{ modelName }} בשיחה חדשה",
+  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
+  "deeplink/error/modelNotFound/body": "בדוק שוב את שם הדגם ושקול לנסות אפשרות הורדה אחרת."
+}
+  

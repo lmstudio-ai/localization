@@ -1,0 +1,19 @@
+{
+  "runtimeSettings/title": "הגדרות זמן ריצה",
+  "loadSettings/title": "הגדרות טעינה",
+  "modelSettings/placeholder": "בחר מודל כדי להגדיר אותו",
+  "serverOptions/title": "אפשרויות שרת",
+  "serverOptions/port/hint": "באיזה פורט להאזין. כברירת מחדל, התוכנה משתמשת בפורט 1234. ייתכן שתצטרך לשנות זאת אם הפורט כבר בשימוש.",
+  "serverOptions/cors/title": "אפשר CORS",
+  "serverOptions/cors/hint1": "הפעלת CORS (שיתוף משאבים בין מקורות) תאפשר לאתרים שאתה מבקר בהם לבצע בקשות לשרת LM Studio.",
+  "serverOptions/cors/hint2": "ייתכן ש-CORS יידרש בעת ביצוע בקשות מדף אינטרנט או מ-VS Code / תוסף אחר.",
+  "serverOptions/network/title": "אפשר חיבורי רשת",
+  "serverOptions/network/hint1": "האם לאפשר חיבורים ממכשירים אחרים ברשת.",
+  "serverOptions/network/hint2": "אם לא מסומן, השרת יאזין רק ל-localhost.",
+  "serverOptions/verboseLogging/title": "רישום מפורט",
+  "serverOptions/contentLogging/title": "רישום הנחיות ותגובות",
+  "serverOptions/contentLogging/hint": "האם לרשום הנחיות ו/או תגובות בקובץ יומן הרישום המקומי של השרת.",
+  "serverOptions/loadModel/error": "טעינת המודל נכשלה",
+  "serverLogs/scrollToBottom": "קפוץ לתחתית",
+  "serverLogs/clearLogs": "נקה יומני רישום ({{shortcut}})"
+}
