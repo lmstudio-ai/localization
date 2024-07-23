@@ -53,5 +53,7 @@
   "editMessageConfirm/message": "You have made changes to a message. Do you want to keep them?",
   "editMessageConfirm/keepEditing": "Continue Editing",
   "editMessageConfirm/save": "Save",
-  "editMessageConfirm/discard": "Discard Changes"
+  "editMessageConfirm/discard": "Discard Changes",
+  "tokenCount/totalNotAvailable": "Tokens: {{current}}",
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}"
 }
