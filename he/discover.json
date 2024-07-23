@@ -1,4 +1,24 @@
 {
   "collectionsColumn": "אוספים",
-  "bookmarksColumn": "סימניות"
+  "bookmarksColumn": "סימניות",
+  "searchBar/placeholder": "חפש מודלים ב-Hugging Face...",
+  "sortBy": "מיין לפי",
+  "searchSortKey.default/title": "ההתאמה הטובה ביותר",
+  "searchSortKey.likes/title": "הכי אהובים",
+  "searchSortKey.downloads/title": "הכי הרבה הורדות",
+  "searchSortKey.lastModified/title": "עודכנו לאחרונה",
+  "searchSortKey.createdAt/title": "נוצרו לאחרונה",
+  "download.option.willFitEstimation.caveat": "ייתכנו גורמים אחרים המונעים טעינה תקינה, כגון ארכיטקטורת המודל, תקינות קובץ המודל או כמות הזיכרון הזמינה במחשב שלך.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "פריקה מלאה ל-GPU אפשרית",
+  "download.option.willFitEstimation.fullGPUOffload/description": "ייתכן שמודל זה יתאים במלואו לזיכרון ה-GPU שלך. הדבר עשוי להאיץ משמעותית את ההסקה.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "פריקה חלקית ל-GPU אפשרית",
+  "download.option.willFitEstimation.partialGPUOffload/description": "ייתכן שמודל זה יתאים באופן חלקי לזיכרון ה-GPU שלך. הדבר עשוי להאיץ משמעותית את ההסקה.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "כנראה יתאים",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "סביר להניח שמודל זה יתאים לזיכרון המחשב שלך.",
+  "download.option.willFitEstimation.willNotFit/title": "כנראה גדול מדי עבור מחשב זה",
+  "download.option.willFitEstimation.willNotFit/description": "דרישות הזיכרון לשימוש בקובץ מודל זה עשויות לחרוג מהמשאבים הזמינים במחשב שלך. הורדת קובץ זה אינה מומלצת.",
+  "download.option.recommended/title": "מומלץ",
+  "download.option.recommended/description": "בהתבסס על החומרה שלך, אפשרות זו מומלצת.",
+  "download.option.downloaded/title": "הורד",
+  "download.option.downloading/title": "מוריד ({{progressPercentile}}%)"
 }
