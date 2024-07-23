@@ -1,0 +1,16 @@
+{
+  "action.model.delete": "מחק",
+  "action.model.delete.full": "מחק מודל",
+  "action.model.delete.confirmation/title": "מחק {{name}}",
+  "action.model.delete.confirmation/description": "האם אתה בטוח? פעולה זו תמחק לצמיתות את כל הקבצים המשויכים לדגם זה מהמחשב שלך. פעולה זו היא בלתי הפיכה.",
+  "action.model.delete.confirmation/confirm": "מחק",
+  "action.cancel": "ביטול",
+  "indexingOngoing": "יוצר אינדקס... ייתכן שחלק מהדגמים חסרים.",
+  "loadState/loaded": "נטען",
+  "loadState/loading": "טוען",
+  "loadState/unloaded": "טעינה בוטלה",
+  "loadState/unloading": "מבטל טעינה",
+  "loadState/idle": "לא פעיל",
+  "contextMenu/copyAbsolutePath": "העתק נתיב מוחלט",
+  "contextMenu/copyModelName": "העתק את שם הדגם"
+}
