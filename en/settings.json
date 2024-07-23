@@ -51,6 +51,9 @@
     "showReleaseNotes": "Show release notes",
     "hideReleaseNotes": "Hide release notes",
 
+    "backendDownloadNewUpdate": "Newer backends are available!",
+    "backendDownloadNewUpdateAction": "Go to developers page",
+
     "backendDownloadChannel.label": "LM Studio Extension Packs Download Channel",
     "backendDownloadChannel.value.stable": "Stable",
     "backendDownloadChannel.value.beta": "Beta",
