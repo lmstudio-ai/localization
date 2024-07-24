@@ -4,6 +4,7 @@
   "showAdvancedSettings": "Show advanced settings",
   "showAll": "Show all",
   "basicSettings": "Basic",
+  "configSubtitle": "Load or save presets and experiment with model parameter overrides",
   "inferenceParameters/title": "Prediction Parameters",
   "inferenceParameters/info": "Experiment with parameters that impact the prediction.",
   "generalParameters/title": "General",
