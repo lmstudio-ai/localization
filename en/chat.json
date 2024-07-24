@@ -23,6 +23,7 @@
   "uiControls/title": "Display Settings",
   "noChatSelectedPlaceholder": "Select a chat",
   "unnamedChat": "Unnamed Chat",
+  "emptyFolder": "Folder is Empty",
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
