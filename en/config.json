@@ -24,6 +24,7 @@
   "discardChanges": "Discard changes",
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements. This field is also often referred to as the \"system prompt\".",
+  "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
   "llm.prediction.temperature/title": "Temperature",
   "llm.prediction.temperature/info": "From llama.cpp help docs: \"The default value is <{{dynamicValue}}>, which provides a balance between randomness and determinism. At the extreme, a temperature of 0 will always pick the most likely next token, leading to identical outputs in each run\"",
   "llm.prediction.llama.topKSampling/title": "Top K Sampling",
