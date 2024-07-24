@@ -70,5 +70,7 @@
     "modelLoadingGuardrails.value.custom": "Custom",
     "modelLoadingGuardrails.custom.label": "Memory Limit: ",
     "modelLoadingGuardrails.custom.unitGB": "GB",
-    "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit."
+    "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
+
+    "expandConfigsOnClick": "Expand configs on click rather than hover"
 }
