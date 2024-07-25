@@ -56,5 +56,8 @@
   "editMessageConfirm/save": "Save",
   "editMessageConfirm/discard": "Discard Changes",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
-  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}"
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
+  "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
+  "modelLoader/manualLoadParams/hint/before": "(or hold ",
+  "modelLoader/manualLoadParams/hint/after": ")"
 }
