@@ -71,6 +71,7 @@
   "llm.prediction.structured/info": "Structured Output",
   "llm.prediction.promptTemplate/title": "Prompt Template",
   "llm.prediction.promptTemplate.types.jinja/label": "Jinja",
+  "llm.prediction.promptTemplate.types.jinja/error": "Failed to parse Jinja template: {{error}}",
   "llm.prediction.promptTemplate.types.manual/label": "Manual",
   "llm.prediction.promptTemplate.manual.subfield.beforeSystem/label": "Before System Prompt",
   "llm.prediction.promptTemplate.manual.subfield.afterSystem/label": "After System Prompt",
