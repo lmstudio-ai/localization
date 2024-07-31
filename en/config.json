@@ -98,5 +98,19 @@
   "llm.load.llama.useFp16ForKVCache/title": "Use FP16 For KV Cache",
   "llm.load.llama.useFp16ForKVCache/info": "Reduces memory usage by storing cache in half-precision (FP16)",
   "llm.load.llama.tryMmap/title": "Try mmap()",
-  "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory"
+  "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
+  "embedding.load.contextLength/title": "Context Length",
+  "embedding.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
+  "embedding.load.llama.ropeFrequencyBase/title": "RoPE Frequency Base",
+  "embedding.load.llama.ropeFrequencyBase/info": "[Advanced] Adjusts the base frequency for Rotary Positional Encoding, affecting how positional information is embedded",
+  "embedding.load.llama.ropeFrequencyScale/title": "RoPE Frequency Scale",
+  "embedding.load.llama.ropeFrequencyScale/info": "[Advanced] Modifies the scaling of frequency for Rotary Positional Encoding to control positional encoding granularity",
+  "embedding.load.llama.gpuOffload/title": "GPU Offload",
+  "embedding.load.llama.gpuOffload/info": "Set the ratio of computation to offload to the GPU. Set to off to disable GPU offloading, or auto to let the model decide.",
+  "embedding.load.llama.keepModelInMemory/title": "Keep Model in Memory",
+  "embedding.load.llama.keepModelInMemory/info": "Prevents the model from being swapped out to disk, ensuring faster access at the cost of higher RAM usage",
+  "embedding.load.llama.tryMmap/title": "Try mmap()",
+  "embedding.load.llama.tryMmap/info": "Load model files directly from disk to memory",
+  "embedding.load.seed/title": "Seed",
+  "embedding.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results"
 }
