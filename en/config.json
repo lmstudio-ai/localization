@@ -13,7 +13,7 @@
   "advancedTab": "Advanced",
   "advancedTab/title": "🧪 Advanced Configuration",
   "advancedTab/expandAll": "Expand all",
-  "advancedTab/overridesTitle": "Active Overrides",
+  "advancedTab/overridesTitle": "Config Overrides",
   "advancedTab/noConfigsText": "You have no unsaved changes - edit values above to see overrides here.",
   "loadInstanceFirst": "Load a model to view configurable parameters",
   "noListedConfigs": "No configurable parameters",

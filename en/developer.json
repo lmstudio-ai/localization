@@ -3,7 +3,7 @@
   "modelSettings/placeholder": "Select a model to configure it",
   
   "serverOptions/title": "Server Options",
-  "serverOptions/port/hint": "Which port to listen on. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
+  "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/cors/title": "Enable CORS",
   "serverOptions/cors/hint1": "Enabling CORS (Cross-origin Resource Sharing) would allow websites you visit to make requests to LM Studio server.",
   "serverOptions/cors/hint2": "CORS might be required when making requests from a web page or VS Code / other extension.",
