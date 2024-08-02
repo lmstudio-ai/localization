@@ -1,0 +1,43 @@
+# PhpStorm specific
+.idea/
+
+# Composer dependencies
+/vendor/
+
+# Node modules
+/node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+
+# Cache files
+/cache/
+/*.cache
+
+# Environment variables
+.env
+
+# PHPUnit
+.phpunit.result.cache
+
+# Coverage reports
+coverage/
+
+# User-specific files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
