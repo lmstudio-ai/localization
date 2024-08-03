@@ -11,6 +11,6 @@
   "loadState/unloaded": "Unloaded",
   "loadState/unloading": "Unloading",
   "loadState/idle": "Idle",
-  "contextMenu/copyAbsolutePath": "Copy absolute path",
-  "contextMenu/copyModelName": "Copy model identifier"
+  "contextMenu/copyAbsolutePath": "Copy Absolute Path",
+  "contextMenu/copyModelName": "Copy Model Identifier"
 }
