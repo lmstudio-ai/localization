@@ -31,6 +31,8 @@
     "powerUserComplexityLevelLabel": "Power User",
     "developerComplexityLevelLabel": "Developer",
     "chatSettingsLabel": "Chat Settings",
+    "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
+
     "firstTimeExperienceLabel": "Chat first time experience",
     "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
     "firstTimeExperienceResetLabel": "Reset",
