@@ -60,5 +60,7 @@
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
   "modelLoader/manualLoadParams/hint/before": "(or hold ",
-  "modelLoader/manualLoadParams/hint/after": ")"
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "Failed to move",
+  "actions/rename/error": "Failed to rename"
 }
