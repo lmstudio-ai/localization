@@ -1,16 +1,17 @@
 {
-  "action.model.delete": "Delete",
-  "action.model.delete.full": "Delete Model",
-  "action.model.delete.confirmation/title": "Delete {{name}}",
-  "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
-  "action.model.delete.confirmation/confirm": "Delete",
-  "action.cancel": "Cancel",
-  "indexingOngoing": "Still indexing... Some models may be missing.",
-  "loadState/loaded": "Loaded",
-  "loadState/loading": "Loading",
-  "loadState/unloaded": "Unloaded",
-  "loadState/unloading": "Unloading",
-  "loadState/idle": "Idle",
-  "contextMenu/copyAbsolutePath": "Copy absolute path",
-  "contextMenu/copyModelName": "Copy model name"
+  "action.model.delete": "Удалить",
+  "action.model.delete.full": "Удалить модель",
+  "action.model.delete.confirmation/title": "Удалить {{name}}",
+  "action.model.delete.confirmation/description": "Вы уверены, что хотите это сделать? Это приведет к полному удалению всех файлов, связанных с этой моделью, с вашего компьютера. Эта операция необратима.",
+  "action.model.delete.confirmation/confirm": "Удалить",
+  "action.cancel": "Отмена",
+  "indexingOngoing": "Продолжается индексация... Некоторые модели могут отсутствовать.",
+  "loadState/loaded": "Загружено",
+  "loadState/loading": "Загрузка",
+  "loadState/unloaded": "Выгружено",
+  "loadState/unloading": "Выгрузка",
+  "loadState/idle": "В режиме ожидания",
+  "contextMenu/copyAbsolutePath": "Копировать абсолютный путь",
+  "contextMenu/copyModelName": "Копировать имя модели"
 }
+
