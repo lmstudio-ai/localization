@@ -36,6 +36,8 @@
   "actions/editMessage": "Edit message",
   "actions/regenerateMessage": "Regenerate message",
   "actions/regenerateMessage/error": "Failed to regenerate message",
+  "actions/branchChat": "Branch chat after this message",
+  "actions/branchChat/error": "Failed to branch chat",
   "actions/continueAssistantMessage": "Continue assistant message",
   "actions/continueAssistantMessage/error": "Failed to continue assistant message",
   "actions/predictNext": "Generate AI Response",
