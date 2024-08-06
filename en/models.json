@@ -12,5 +12,10 @@
   "loadState/unloading": "Unloading",
   "loadState/idle": "Idle",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
-  "contextMenu/copyModelName": "Copy Model Identifier"
+  "contextMenu/copyModelName": "Copy Model Identifier",
+
+  "loader.action.load": "Load Model",
+  "loader.action.clearChanges": "Clear Changes",
+  "loader.info.clickOnModelToLoad": "Click on a model to load it",
+  "loader.info.configureLoadParameters": "Configure the model load parameters"
 }
