@@ -31,6 +31,8 @@
     "powerUserComplexityLevelLabel": "Power User",
     "developerComplexityLevelLabel": "Developer",
     "chatSettingsLabel": "Chat Settings",
+    "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
+
     "firstTimeExperienceLabel": "Chat first time experience",
     "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
     "firstTimeExperienceResetLabel": "Reset",
@@ -49,5 +51,28 @@
     "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
     "autoLoadBundledLLMLabel": "Auto load a bundled LLM model on start",
     "showReleaseNotes": "Show release notes",
-    "hideReleaseNotes": "Hide release notes"
+    "hideReleaseNotes": "Hide release notes",
+
+    "backendDownloadNewUpdate": "Newer backends are available!",
+    "backendDownloadNewUpdateAction": "Go to developers page",
+
+    "backendDownloadChannel.label": "LM Studio Extension Packs Download Channel",
+    "backendDownloadChannel.value.stable": "Stable",
+    "backendDownloadChannel.value.beta": "Beta",
+    "backendDownloadChannel.value.latest": "Dev",
+    "backendDownloadChannel.shortLabel": "Runtime download channel",
+    "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users.",
+
+    "modelLoadingGuardrails.label": "Model Loading Guardrails",
+    "modelLoadingGuardrails.description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
+    "modelLoadingGuardrails.value.off": "OFF (Not Recommended)",
+    "modelLoadingGuardrails.value.low": "Relaxed",
+    "modelLoadingGuardrails.value.medium": "Balanced",
+    "modelLoadingGuardrails.value.high": "Conservative",
+    "modelLoadingGuardrails.value.custom": "Custom",
+    "modelLoadingGuardrails.custom.label": "Memory Limit: ",
+    "modelLoadingGuardrails.custom.unitGB": "GB",
+    "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
+
+    "expandConfigsOnClick": "Expand configs on click rather than hover"
 }

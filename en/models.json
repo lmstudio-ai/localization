@@ -5,12 +5,17 @@
   "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
   "action.model.delete.confirmation/confirm": "Delete",
   "action.cancel": "Cancel",
-  "indexingOngoing": "Still indexing... Some models may be missing.",
+  "indexingOngoing": "Indexing models... This may take a few seconds",
   "loadState/loaded": "Loaded",
   "loadState/loading": "Loading",
   "loadState/unloaded": "Unloaded",
   "loadState/unloading": "Unloading",
   "loadState/idle": "Idle",
-  "contextMenu/copyAbsolutePath": "Copy absolute path",
-  "contextMenu/copyModelName": "Copy model name"
+  "contextMenu/copyAbsolutePath": "Copy Absolute Path",
+  "contextMenu/copyModelName": "Copy Model Identifier",
+
+  "loader.action.load": "Load Model",
+  "loader.action.clearChanges": "Clear Changes",
+  "loader.info.clickOnModelToLoad": "Click on a model to load it",
+  "loader.info.configureLoadParameters": "Configure the model load parameters"
 }

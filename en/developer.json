@@ -1,19 +1,36 @@
 {
-  "runtimeSettings/title": "Runtime settings",
   "loadSettings/title": "Load settings",
   "modelSettings/placeholder": "Select a model to configure it",
+  
   "serverOptions/title": "Server Options",
-  "serverOptions/port/hint": "Which port to listen on. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
+  "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/cors/title": "Enable CORS",
   "serverOptions/cors/hint1": "Enabling CORS (Cross-origin Resource Sharing) would allow websites you visit to make requests to LM Studio server.",
   "serverOptions/cors/hint2": "CORS might be required when making requests from a web page or VS Code / other extension.",
-  "serverOptions/network/title": "Allow Network Connections",
+  "serverOptions/network/title": "Serve on Local Network",
+  "serverOptions/network/subtitle": "Make this server visible to other devices on the network",
   "serverOptions/network/hint1": "Whether to allow connections from other devices on the network.",
   "serverOptions/network/hint2": "If not checked, the server will only listen on localhost.",
   "serverOptions/verboseLogging/title": "Verbose Logging",
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
   "serverOptions/loadModel/error": "Failed to load model",
+  
   "serverLogs/scrollToBottom": "Jump to bottom",
-  "serverLogs/clearLogs": "Clear logs ({{shortcut}})"
+  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
+
+  "runtimeSettings/title": "Runtime settings",
+  "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Set a default runtime for engine type",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each runtime. Enable this option to see all available versions.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+
+  "runtimeOptions/uninstall": "Uninstall",
+  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
+  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
+  "runtimeOptions/uninstallDialog/cancel": "Cancel"
 }
