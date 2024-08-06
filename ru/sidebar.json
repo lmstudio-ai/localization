@@ -1,8 +1,8 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "settings": "Settings" ,
-  "download": "Downloads"
+  "chat": "Чат",
+  "discover": "Обзор моделей",
+  "myModels": "Мои модели",
+  "developer": "Разработка",
+  "settings": "Настройки",
+  "download": "Загрузки"
 }
