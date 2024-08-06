@@ -1,19 +1,18 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing...",
-  "noOptions": "No compatible options available for download",
+  "postDownloadActionExecutor.zipExtraction/status": "Извлечение...",
+  "finalizing": "Завершается...",
+  "noOptions": "Нет совместимых опций, доступных для загрузки",
   
-  "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
+  "deeplink/confirmation/title": "Скачать модель с Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Select recommended",
-  "deeplink/confirmation/selectOption": "Select download option",
-  "deeplink/confirmation/recommendedOption": "Likely the best option for most users",
-  "deeplink/confirmation/downloadButton": "Download",
-  "deeplink/confirmation/nevermindButton": "Nevermind",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Found ✅",
-  "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
-  "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
-  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
-  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option."
+  "deeplink/confirmation/selectRecommended": "Выбрать рекомендуемую",
+  "deeplink/confirmation/selectOption": "Выберите вариант загрузки",
+  "deeplink/confirmation/recommendedOption": "Вероятно, это лучший вариант для большинства пользователей",
+  "deeplink/confirmation/downloadButton": "Загрузить",
+  "deeplink/confirmation/nevermindButton": "Неважно",
+  "deeplink/confirmation/modelPresent/title": "Найдена модель с Hugging Face ✅",
+  "deeplink/confirmation/modelPresent/body": "Хорошие новости! Этот файл модели уже доступен на вашей локальной машине.",
+  "deeplink/confirmation/loadInChat": "Загрузить {{ modelName }} в новый чат",
+  "deeplink/error/modelNotFound/title": "Ох-ох, мы не смогли найти эту модель",
+  "deeplink/error/modelNotFound/body": "Дважды проверьте название модели и попробуйте другой вариант загрузки."
 }
-  
