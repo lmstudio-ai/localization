@@ -1,19 +1,36 @@
 {
-  "runtimeSettings/title": "Çalışma zamanı ayarları",
   "loadSettings/title": "Yükleme ayarları",
   "modelSettings/placeholder": "Yapılandırmak için bir model seçin",
+
   "serverOptions/title": "Sunucu Seçenekleri",
-  "serverOptions/port/hint": "Hangi portun dinleneceği. Varsayılan olarak, LM Studio 1234 portunu kullanır. Port zaten kullanılıyorsa bunu değiştirmeniz gerekebilir.",
+  "serverOptions/port/hint": "Yerel sunucunun kullanacağı ağ bağlantı noktasını ayarlayın. Varsayılan olarak, LM Studio 1234 numaralı bağlantı noktasını kullanır. Bağlantı noktası zaten kullanılıyorsa bunu değiştirmeniz gerekebilir.",
   "serverOptions/cors/title": "CORS'u Etkinleştir",
   "serverOptions/cors/hint1": "CORS (Çapraz Kaynak Paylaşımı) etkinleştirilmesi, ziyaret ettiğiniz web sitelerinin LM Studio sunucusuna istek yapmasına izin verir.",
   "serverOptions/cors/hint2": "CORS, bir web sayfasından veya VS Code / diğer uzantılardan istek yaparken gerekli olabilir.",
-  "serverOptions/network/title": "Ağ Bağlantılarına İzin Ver",
+  "serverOptions/network/title": "Yerel Ağda Sun",
+  "serverOptions/network/subtitle": "Bu sunucuyu ağdaki diğer cihazlara görünür hale getirin",
   "serverOptions/network/hint1": "Ağdaki diğer cihazlardan gelen bağlantılara izin verilip verilmeyeceği.",
   "serverOptions/network/hint2": "İşaretlenmezse, sunucu yalnızca localhost'ta dinleyecektir.",
   "serverOptions/verboseLogging/title": "Ayrıntılı Günlük Kaydı",
   "serverOptions/contentLogging/title": "İstek ve Yanıtları Günlüğe Kaydet",
   "serverOptions/contentLogging/hint": "İsteklerin ve/veya yanıtın yerel sunucu günlük dosyasına kaydedilip kaydedilmeyeceği.",
   "serverOptions/loadModel/error": "Model yüklenemedi",
+
   "serverLogs/scrollToBottom": "En alta atla",
-  "serverLogs/clearLogs": "Günlükleri temizle ({{shortcut}})"
+  "serverLogs/clearLogs": "Günlükleri temizle ({{shortcut}})",
+
+  "runtimeSettings/title": "Çalışma zamanı ayarları",
+  "runtimeSettings/chooseRuntime/title": "Çalışma Zamanlarını Yapılandır",
+  "runtimeSettings/chooseRuntime/description": "Motor türü için varsayılan bir çalışma zamanı ayarlayın",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tüm sürümleri göster",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Varsayılan olarak, LM Studio yalnızca her çalışma zamanının en son sürümünü gösterir. Tüm mevcut sürümleri görmek için bu seçeneği etkinleştirin.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Bir Çalışma Zamanı Seçin",
+
+  "runtimeOptions/uninstall": "Kaldır",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} Kaldırılsın mı?",
+  "runtimeOptions/uninstallDialog/body": "Bu çalışma zamanını kaldırmak, onu sistemden kaldıracaktır. Bu işlem geri alınamaz.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Bazı dosyalar yalnızca LM Studio yeniden başlatıldıktan sonra kaldırılabilir.",
+  "runtimeOptions/uninstallDialog/error": "Çalışma zamanı kaldırılamadı",
+  "runtimeOptions/uninstallDialog/confirm": "Devam Et ve Kaldır",
+  "runtimeOptions/uninstallDialog/cancel": "İptal"
 }
