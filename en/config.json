@@ -79,10 +79,12 @@
   "llm.prediction.promptTemplate.manual.subfield.afterUser/label": "After Each User Message",
   "llm.prediction.promptTemplate.manual.subfield.beforeAssistant/label": "Before Each AI Message",
   "llm.prediction.promptTemplate.manual.subfield.afterAssistant/label": "After Each AI Message",
+  
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
   "llm.load.seed/title": "Seed",
   "llm.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
+  
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
   "llm.load.llama.evalBatchSize/info": "Sets the number of examples processed together in one batch during evaluation, affecting speed and memory usage",
   "llm.load.llama.ropeFrequencyBase/title": "RoPE Frequency Base",
@@ -99,10 +101,13 @@
   "llm.load.llama.useFp16ForKVCache/info": "Reduces memory usage by storing cache in half-precision (FP16)",
   "llm.load.llama.tryMmap/title": "Try mmap()",
   "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
+  
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
   "embedding.load.llama.ropeFrequencyBase/title": "RoPE Frequency Base",
   "embedding.load.llama.ropeFrequencyBase/info": "[Advanced] Adjusts the base frequency for Rotary Positional Encoding, affecting how positional information is embedded",
+  "embedding.load.llama.evalBatchSize/title": "Evaluation Batch Size",
+  "embedding.load.llama.evalBatchSize/info": "Sets the number of tokens processed together in one batch during evaluation",
   "embedding.load.llama.ropeFrequencyScale/title": "RoPE Frequency Scale",
   "embedding.load.llama.ropeFrequencyScale/info": "[Advanced] Modifies the scaling of frequency for Rotary Positional Encoding to control positional encoding granularity",
   "embedding.load.llama.gpuOffload/title": "GPU Offload",
