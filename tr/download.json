@@ -1,0 +1,18 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Çıkarılıyor...",
+  "finalizing": "Sonlandırılıyor...",
+  "noOptions": "İndirilecek uyumlu seçenek yok",
+
+  "deeplink/confirmation/title": "Hugging Face'den model indir 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Önerileni seç",
+  "deeplink/confirmation/selectOption": "İndirme seçeneğini seç",
+  "deeplink/confirmation/recommendedOption": "Çoğu kullanıcı için muhtemelen en iyi seçenek",
+  "deeplink/confirmation/downloadButton": "İndir",
+  "deeplink/confirmation/nevermindButton": "Boşver",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face Modeli Bulundu ✅",
+  "deeplink/confirmation/modelPresent/body": "İyi haber! Bu model dosyası zaten yerel makinenizde mevcut.",
+  "deeplink/confirmation/loadInChat": "{{ modelName }}'i yeni bir sohbette yükle",
+  "deeplink/error/modelNotFound/title": "Üzgünüz, bu modeli bulamadık",
+  "deeplink/error/modelNotFound/body": "Model adını tekrar kontrol edin ve farklı bir indirme seçeneğini denemeyi düşünün."
+}
