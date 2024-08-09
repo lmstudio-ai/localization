@@ -36,7 +36,9 @@
 
   "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
   "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt",
+  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings."
+  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+
+  "apiConfigOptions/title": "API Configuration"
 }
