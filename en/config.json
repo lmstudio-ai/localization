@@ -20,11 +20,7 @@
   "generationParameters/info": "Experiment with basic parameters which impact text generation.",
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Settings to control the way the model is initialized and loaded into memory.",
-<<<<<<< HEAD
   "loadParameters/reload": "Reload to apply changes",
-=======
-  "loadParameters/reload": "Reload to apply load params changes",
->>>>>>> 7a2759a (Developer)
   "discardChanges": "Discard changes",
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements. This field is also often referred to as the \"system prompt\".",
