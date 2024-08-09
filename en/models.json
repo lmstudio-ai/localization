@@ -23,6 +23,7 @@
 
   "loader.action.load": "Load Model",
   "loader.action.clearChanges": "Clear Changes",
+  "loader.action.cancel": "Cancel",
   "loader.info.clickOnModelToLoad": "Click on a model to load it",
   "loader.info.configureLoadParameters": "Configure the model load parameters"
 }
