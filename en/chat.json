@@ -73,5 +73,7 @@
   "actions/createChatAtRoot": "Create New Chat",
   "actions/createChatAtRoot/error": "Failed to create chat at root",
   "actions/createFolderAtRoot": "Create New Folder",
-  "actions/createFolderAtRoot/error": "Failed to create folder at root"
+  "actions/createFolderAtRoot/error": "Failed to create folder at root",
+  
+  "retrieval/user/processingLabel": "The AI is thinking..."
 }
