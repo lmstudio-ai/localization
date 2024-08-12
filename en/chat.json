@@ -12,13 +12,13 @@
   "cancelButtonText": "Cancel",
   "loadButtonText": "Load",
   "markdownSelectOption": "Markdown",
-  "rawSelectOption": "Raw Text",
+  "rawSelectOption": "Plaintext",
   "advancedSegmentText": "Advanced",
   "chatSegmentText": "Chat",
   "chatSidebarTitle": "Chats",
   "newChatButton": "New Chat",
   "newFolderButton": "New Folder",
-  "viewModeLabel": "Chat View Mode",
+  "viewModeLabel": "View Mode",
   "noChatSelected": "No chat selected",
   "chatViewOptions": "Chat view options",
   "uiControls/title": "Display Settings",
@@ -30,6 +30,7 @@
   "notes/add/another": "Add another note",
   "notes/hint": "Save notes to this chat. Notes are for your reference only and are not sent to the model. All changes auto-save.",
   "notes/placeholder": "Type your notes here...",
+  "style": "Chat Appearance",
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
@@ -81,7 +82,7 @@
   "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
 
   "fontSize/label": "Font Size",
-  "fontSize/medium": "Medium",
+  "fontSize/medium": "Default",
   "fontSize/large": "Large",
   "fontSize/small": "Small"
 
