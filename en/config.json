@@ -79,6 +79,8 @@
   "llm.prediction.promptTemplate.manual.subfield.afterUser/label": "After Each User Message",
   "llm.prediction.promptTemplate.manual.subfield.beforeAssistant/label": "Before Each AI Message",
   "llm.prediction.promptTemplate.manual.subfield.afterAssistant/label": "After Each AI Message",
+  "llm.prediction.promptTemplate.stopStrings/label": "Additional Stop Strings",
+  "llm.prediction.promptTemplate.stopStrings/hint": "Template specific stop strings that will be used in addition to user-specified stop strings.",
   
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
