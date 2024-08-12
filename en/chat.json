@@ -78,6 +78,11 @@
   "retrieval/user/processingLabel": "The AI is thinking...",
   "retrieval/powerUser/intermediateStepsHidden": "Intermediate steps hidden. Click to expand.",
   "retrieval/actions/clickToExpand": "Click to expand intermediate steps",
-  "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps"
+  "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
+
+  "fontSize/label": "Font Size",
+  "fontSize/medium": "Medium",
+  "fontSize/large": "Large",
+  "fontSize/small": "Small"
 
 }
