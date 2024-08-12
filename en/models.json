@@ -4,6 +4,7 @@
   "action.model.delete.confirmation/title": "Delete {{name}}",
   "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
   "action.model.delete.confirmation/confirm": "Delete",
+  "loader.model.bundled": "Bundled",
   "action.cancel": "Cancel",
   "indexingOngoing": "Indexing models... This may take a few seconds",
   "index/error": "Failed to index the following folder(s)",
