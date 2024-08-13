@@ -11,8 +11,6 @@
   "unloadTooltip": "Eject the model from memory",
   "cancelButtonText": "Cancel",
   "loadButtonText": "Load",
-  "markdownSelectOption": "Markdown",
-  "rawSelectOption": "Plaintext",
   "advancedSegmentText": "Advanced",
   "chatSegmentText": "Chat",
   "chatSidebarTitle": "Chats",
@@ -30,7 +28,7 @@
   "notes/add/another": "Add another note",
   "notes/hint": "Save notes to this chat. Notes are for your reference only and are not sent to the model. All changes auto-save.",
   "notes/placeholder": "Type your notes here...",
-  "style": "Chat Appearance",
+
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
@@ -81,9 +79,15 @@
   "retrieval/actions/clickToExpand": "Click to expand intermediate steps",
   "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
 
-  "fontSize/label": "Font Size",
-  "fontSize/medium": "Default",
-  "fontSize/large": "Large",
-  "fontSize/small": "Small"
+  "style": "Chat Appearance",
+  
+  "style/viewMode/markdown": "Markdown",
+  "style/viewMode/plaintext": "Plaintext",
+  "style/viewMode/monospace": "Monospace",
+
+  "style/fontSize/label": "Font Size",
+  "style/fontSize/medium": "Default",
+  "style/fontSize/large": "Large",
+  "style/fontSize/small": "Small"
 
 }
