@@ -32,12 +32,16 @@
     "developerComplexityLevelLabel": "Developer",
     "chatSettingsLabel": "Chat Settings",
     "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
+    
+    "chat/keyboardShortcuts/label": "Keyboard Shortcuts",
+    "chat/keyboardShortcuts/verbPrefix": "Use",
+    "chat/keyboardShortcuts/regenerate": "to regenerate the last message in chat",
+    "chat/keyboardShortcuts/sendMessage": "to send message",
 
     "firstTimeExperienceLabel": "Chat first time experience",
     "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
     "firstTimeExperienceResetLabel": "Reset",
     "showPromptSuggestionsLabel": "Show prompt suggestions when creating a new chat",
-    "shiftEnterToSendLabel": "Use Shift + Enter to send message",
     "darkThemeLabel": "Dark",
     "lightThemeLabel": "Light",
     "systemThemeLabel": "Auto",
