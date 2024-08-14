@@ -1,0 +1,26 @@
+{
+  "serverOptions/network/subtitle": "Bu sunucuyu ağdaki diğer cihazlara görünür hale getirin",
+  "serverOptions/network/hint1": "Ağdaki diğer cihazlardan gelen bağlantılara izin verilip verilmeyeceği.",
+  "serverOptions/network/hint2": "İşaretlenmezse, sunucu yalnızca localhost'ta dinleyecektir.",
+  "serverOptions/verboseLogging/title": "Ayrıntılı Günlük Kaydı",
+  "serverOptions/contentLogging/title": "İstek ve Yanıtları Günlüğe Kaydet",
+  "serverOptions/contentLogging/hint": "İsteklerin ve/veya yanıtın yerel sunucu günlük dosyasına kaydedilip kaydedilmeyeceği.",
+  "serverOptions/loadModel/error": "Model yüklenemedi",
+  "serverLogs/scrollToBottom": "En alta atla",
+  "serverLogs/clearLogs": "Günlükleri temizle ({{shortcut}})",
+
+  "runtimeSettings/title": "Çalışma zamanı ayarları",
+  "runtimeSettings/chooseRuntime/title": "Çalışma Zamanlarını Yapılandır",
+  "runtimeSettings/chooseRuntime/description": "Motor türü için varsayılan bir çalışma zamanı ayarlayın",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tüm sürümleri göster",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Varsayılan olarak, LM Studio yalnızca her çalışma zamanının en son sürümünü gösterir. Tüm mevcut sürümleri görmek için bu seçeneği etkinleştirin.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Bir Çalışma Zamanı Seçin",
+
+  "runtimeOptions/uninstall": "Kaldır",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} Kaldırılsın mı?",
+  "runtimeOptions/uninstallDialog/body": "Bu çalışma zamanını kaldırmak, onu sistemden kaldıracaktır. Bu işlem geri alınamaz.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Bazı dosyalar yalnızca LM Studio yeniden başlatıldıktan sonra kaldırılabilir.",
+  "runtimeOptions/uninstallDialog/error": "Çalışma zamanı kaldırılamadı",
+  "runtimeOptions/uninstallDialog/confirm": "Devam Et ve Kaldır",
+  "runtimeOptions/uninstallDialog/cancel": "İptal"
+}
