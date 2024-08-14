@@ -1,6 +1,6 @@
 {
   "modelLoaderPlaceholder": "Chọn mô hình để tải",
-  "systemPromptPlaceholder": "Đặt lệnh hệ thống",
+  "systemPromptPlaceholder": "Đặt prompt hệ thống",
   "userRoleText": "Người dùng",
   "assistantRoleText": "Trợ lý",
   "addMessageButtonText": "Thêm",
