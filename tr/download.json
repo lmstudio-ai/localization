@@ -1,6 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Çıkarılıyor...",
-  "finalizing": "Sonlandırılıyor...",
+  "finalizing": "İndirme tamamlanıyor... (bu birkaç dakika sürebilir)",
   "noOptions": "İndirilecek uyumlu seçenek yok",
 
   "deeplink/confirmation/title": "Hugging Face'den model indir 🤗",
@@ -14,5 +14,6 @@
   "deeplink/confirmation/modelPresent/body": "İyi haber! Bu model dosyası zaten yerel makinenizde mevcut.",
   "deeplink/confirmation/loadInChat": "{{ modelName }}'i yeni bir sohbette yükle",
   "deeplink/error/modelNotFound/title": "Üzgünüz, bu modeli bulamadık",
-  "deeplink/error/modelNotFound/body": "Model adını tekrar kontrol edin ve farklı bir indirme seçeneğini denemeyi düşünün."
+  "deeplink/error/modelNotFound/body": "Model adını tekrar kontrol edin ve farklı bir indirme seçeneğini denemeyi düşünün.",
+  "deeplink/actions/trySearching": "Hugging Face'de {{modelName}} aramayı deneyin"
 }

@@ -11,20 +11,24 @@
   "unloadTooltip": "Eject the model from memory",
   "cancelButtonText": "Cancel",
   "loadButtonText": "Load",
-  "markdownSelectOption": "Markdown",
-  "rawSelectOption": "Raw Text",
   "advancedSegmentText": "Advanced",
   "chatSegmentText": "Chat",
   "chatSidebarTitle": "Chats",
   "newChatButton": "New Chat",
   "newFolderButton": "New Folder",
-  "viewModeLabel": "Chat View Mode",
+  "viewModeLabel": "View Mode",
   "noChatSelected": "No chat selected",
   "chatViewOptions": "Chat view options",
   "uiControls/title": "Display Settings",
   "noChatSelectedPlaceholder": "Select a chat",
   "unnamedChat": "Unnamed Chat",
   "emptyFolder": "Folder is Empty",
+  "notes": "Conversation Notes",
+  "notes/add/first": "Add a note",
+  "notes/add/another": "Add another note",
+  "notes/hint": "Save notes to this chat. Notes are for your reference only and are not sent to the model. All changes auto-save.",
+  "notes/placeholder": "Type your notes here...",
+
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
@@ -68,5 +72,22 @@
   "actions/createChatAtRoot": "Create New Chat",
   "actions/createChatAtRoot/error": "Failed to create chat at root",
   "actions/createFolderAtRoot": "Create New Folder",
-  "actions/createFolderAtRoot/error": "Failed to create folder at root"
+  "actions/createFolderAtRoot/error": "Failed to create folder at root",
+  
+  "retrieval/user/processingLabel": "The AI is thinking...",
+  "retrieval/powerUser/intermediateStepsHidden": "Intermediate steps hidden. Click to expand.",
+  "retrieval/actions/clickToExpand": "Click to expand intermediate steps",
+  "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
+
+  "style": "Chat Appearance",
+  
+  "style/viewMode/markdown": "Markdown",
+  "style/viewMode/plaintext": "Plaintext",
+  "style/viewMode/monospace": "Monospace",
+
+  "style/fontSize/label": "Font Size",
+  "style/fontSize/medium": "Default",
+  "style/fontSize/large": "Large",
+  "style/fontSize/small": "Small"
+
 }

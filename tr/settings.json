@@ -31,6 +31,8 @@
   "powerUserComplexityLevelLabel": "Güç Kullanıcısı",
   "developerComplexityLevelLabel": "Geliştirici",
   "chatSettingsLabel": "Sohbet Ayarları",
+  "chat/alwaysShowPromptTemplate": "Sohbet kenar çubuğunda her zaman istem şablonunu göster",
+
   "firstTimeExperienceLabel": "Sohbet ilk deneyimi",
   "firstTimeExperienceMarkCompletedLabel": "Tamamlandı olarak işaretle",
   "firstTimeExperienceResetLabel": "Sıfırla",
@@ -49,5 +51,28 @@
   "showDebugInfoBlocksInChatLabel": "Sohbette hata ayıklama bilgi bloklarını göster",
   "autoLoadBundledLLMLabel": "Başlangıçta bir paketlenmiş LLM modelini otomatik olarak yükle",
   "showReleaseNotes": "Sürüm notlarını göster",
-  "hideReleaseNotes": "Sürüm notlarını gizle"
+  "hideReleaseNotes": "Sürüm notlarını gizle",
+
+  "backendDownloadNewUpdate": "Yeni arka uçlar mevcut!",
+  "backendDownloadNewUpdateAction": "Geliştirici sayfasına git",
+
+  "backendDownloadChannel.label": "LM Studio Uzantı Paketleri İndirme Kanalı",
+  "backendDownloadChannel.value.stable": "Kararlı",
+  "backendDownloadChannel.value.beta": "Beta",
+  "backendDownloadChannel.value.latest": "Geliştirici",
+  "backendDownloadChannel.shortLabel": "Çalışma zamanı indirme kanalı",
+  "backendDownloadChannel.hint": "LM Studio uzantı paketlerini indirmek için kanalı seçin. \"{{stableName}}\" çoğu kullanıcı için önerilen kanaldır.",
+
+  "modelLoadingGuardrails.label": "Model Yükleme Kılavuzları",
+  "modelLoadingGuardrails.description": "Sistem kaynak sınırlarını aşan modellerin yüklenmesi sistem kararsızlığına veya donmaya neden olabilir. Kılavuzlar, kazara aşırı yüklemeyi önler. Gerekirse bu sınırları burada ayarlayın, ancak sistemin sınırına yakın modellerin yüklenmesinin kararlılığı azaltabileceğini unutmayın.",
+  "modelLoadingGuardrails.value.off": "KAPALI (Önerilmez)",
+  "modelLoadingGuardrails.value.low": "Gevşek",
+  "modelLoadingGuardrails.value.medium": "Dengeli",
+  "modelLoadingGuardrails.value.high": "Koruyucu",
+  "modelLoadingGuardrails.value.custom": "Özel",
+  "modelLoadingGuardrails.custom.label": "Bellek Sınırı: ",
+  "modelLoadingGuardrails.custom.unitGB": "GB",
+  "modelLoadingGuardrails.custom.description": "Model yükleme için özel bir bellek sınırı belirleyin. Bu sınırı aşacak modeller yüklenmez.",
+
+  "expandConfigsOnClick": "Üzerine gelmek yerine tıklayarak yapılandırmaları genişlet"
 }
