@@ -1,7 +1,9 @@
 {
   "collectionsColumn": "Koleksiyonlar",
+  "collectionsColumn/collectionError": "Koleksiyon ayrıntıları yüklenirken hata oluştu, lütfen yukarıdan yenilemeyi deneyin",
   "bookmarksColumn": "Yer İmleri",
   "searchBar/placeholder": "Hugging Face'de modelleri ara...",
+  "searchBar/huggingFaceError": "Hugging Face'den sonuçlar alınırken bir hata oluştu, lütfen birazdan tekrar deneyin",
   "sortBy": "Sırala",
   "searchSortKey.default/title": "En İyi Eşleşme",
   "searchSortKey.likes/title": "En Çok Beğenilenler",
