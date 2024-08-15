@@ -1,0 +1,19 @@
+{
+  "runtimeSettings/title": "Laufzeiteinstellungen",
+  "loadSettings/title": "Einstellungen laden",
+  "modelSettings/placeholder": "Wählen Sie ein Modell aus, um es zu konfigurieren",
+  "serverOptions/title": "Serveroptionen",
+  "serverOptions/port/hint": "Der Port, auf dem gelauscht werden soll. Standardmäßig verwendet LM Studio den Port 1234. Möglicherweise müssen Sie dies ändern, wenn der Port bereits verwendet wird.",
+  "serverOptions/cors/title": "CORS aktivieren",
+  "serverOptions/cors/hint1": "Durch die Aktivierung von CORS (Cross-Origin Resource Sharing) können von Ihnen besuchte Websites Anfragen an den LM Studio-Server senden.",
+  "serverOptions/cors/hint2": "CORS kann erforderlich sein, wenn Anfragen von einer Webseite oder VS Code / einer anderen Erweiterung gestellt werden.",
+  "serverOptions/network/title": "Netzwerkverbindungen zulassen",
+  "serverOptions/network/hint1": "Gibt an, ob Verbindungen von anderen Geräten im Netzwerk zugelassen werden sollen.",
+  "serverOptions/network/hint2": "Wenn diese Option nicht aktiviert ist, lauscht der Server nur auf localhost.",
+  "serverOptions/verboseLogging/title": "Ausführliche Protokollierung",
+  "serverOptions/contentLogging/title": "Prompts und Antworten protokollieren",
+  "serverOptions/contentLogging/hint": "Gibt an, ob Prompts und/oder die Antwort in der lokalen Server-Protokolldatei protokolliert werden sollen.",
+  "serverOptions/loadModel/error": "Fehler beim Laden des Modells",
+  "serverLogs/scrollToBottom": "Zum Ende springen",
+  "serverLogs/clearLogs": "Protokolle löschen ({{shortcut}})"
+}

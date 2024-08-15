@@ -1,0 +1,33 @@
+{
+  "loadSettings/title": "Charger les paramètres",
+  "modelSettings/placeholder": "Sélectionnez un modèle pour le configurer",
+  
+  "serverOptions/title": "Options du serveur",
+  "serverOptions/port/hint": "Quel port écouter. Par défaut, LM Studio utilise le port 1234. Vous devrez peut-être le changer si le port est déjà utilisé.",
+  "serverOptions/cors/title": "Activer CORS",
+  "serverOptions/cors/hint1": "L'activation de CORS (Cross-origin Resource Sharing) permettrait aux sites web que vous visitez de faire des requêtes au serveur LM Studio.",
+  "serverOptions/cors/hint2": "CORS pourrait être requis lors de la réalisation de requêtes à partir d'une page web ou de VS Code / autre extension.",
+  "serverOptions/network/title": "Autoriser les connexions réseau",
+  "serverOptions/network/hint1": "Permettre ou non les connexions à partir d'autres appareils sur le réseau.",
+  "serverOptions/network/hint2": "Si cette option n'est pas cochée, le serveur n'écoutera que sur localhost.",
+  "serverOptions/verboseLogging/title": "Journalisation détaillée",
+  "serverOptions/contentLogging/title": "Journaliser les invites et les réponses",
+  "serverOptions/contentLogging/hint": "Journaliser ou non les invites et/ou les réponses dans le fichier journal du serveur local.",
+  "serverOptions/loadModel/error": "Échec du chargement du modèle",
+  
+  "serverLogs/scrollToBottom": "Aller en bas",
+  "serverLogs/clearLogs": "Effacer les journaux ({{shortcut}})",
+
+  "runtimeSettings/title": "Paramètres d'exécution",
+  "runtimeSettings/chooseRuntime/title": "Configurer les environnements d'exécution",
+  "runtimeSettings/chooseRuntime/description": "Définir un environnement d'exécution par défaut pour le type de moteur",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Afficher toutes les versions",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Par défaut, LM Studio n'affiche que la dernière version de chaque environnement d'exécution. Activez cette option pour voir toutes les versions disponibles.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Sélectionnez un environnement d'exécution",
+
+  "runtimeOptions/uninstall": "Désinstaller",
+  "runtimeOptions/uninstallDialog/title": "Désinstaller {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "La désinstallation de cet environnement d'exécution le supprimera du système. Cette action est irréversible.",
+  "runtimeOptions/uninstallDialog/confirm": "Continuer et désinstaller",
+  "runtimeOptions/uninstallDialog/cancel": "Annuler"
+}

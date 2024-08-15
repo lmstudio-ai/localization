@@ -1,8 +1,16 @@
 {
   "action.model.delete": "Eliminar",
-  "action.model.delete.full": "Eliminar modelo",
+  "action.model.delete.full": "Eliminar Modelo",
   "action.model.delete.confirmation/title": "Eliminar {{name}}",
-  "action.model.delete.confirmation/description": "¿Estás seguro? Esto eliminará permanentemente todos los archivos asociados con este modelo de tu máquina. Esta acción no se puede deshacer.",
+  "action.model.delete.confirmation/description": "¿Estás seguro? Esto eliminará permanentemente todos los archivos asociados con este modelo de tu máquina. Esta acción es irreversible.",
   "action.model.delete.confirmation/confirm": "Eliminar",
-  "indexingOngoing": "Indexando aún... Algunos modelos pueden estar ausentes."
+  "action.cancel": "Cancelar",
+  "indexingOngoing": "Aún indexando... Algunos modelos pueden estar ausentes.",
+  "loadState/loaded": "Cargado",
+  "loadState/loading": "Cargando",
+  "loadState/unloaded": "Descargado",
+  "loadState/unloading": "Descargando",
+  "loadState/idle": "Inactivo",
+  "contextMenu/copyAbsolutePath": "Copiar ruta absoluta",
+  "contextMenu/copyModelName": "Copiar identificador del modelo"
 }

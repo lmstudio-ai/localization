@@ -1,0 +1,21 @@
+{
+  "action.model.delete": "Sil",
+  "action.model.delete.full": "Modeli Sil",
+  "action.model.delete.confirmation/title": "{{name}} Sil",
+  "action.model.delete.confirmation/description": "Emin misiniz? Bu, bu modelle ilişkili tüm dosyaları makinenizden kalıcı olarak silecektir. Bu işlem geri alınamaz.",
+  "action.model.delete.confirmation/confirm": "Sil",
+  "action.cancel": "İptal",
+  "indexingOngoing": "Modeller indeksleniyor... Bu birkaç saniye sürebilir",
+  "loadState/loaded": "Yüklendi",
+  "loadState/loading": "Yükleniyor",
+  "loadState/unloaded": "Yüklenmedi",
+  "loadState/unloading": "Yüklenmiyor",
+  "loadState/idle": "Boşta",
+  "contextMenu/copyAbsolutePath": "Mutlak yolu kopyala",
+  "contextMenu/copyModelName": "Model Tanımlayıcısını Kopyala",
+
+  "loader.action.load": "Modeli Yükle",
+  "loader.action.clearChanges": "Değişiklikleri Temizle",
+  "loader.info.clickOnModelToLoad": "Yüklemek için bir modele tıklayın",
+  "loader.info.configureLoadParameters": "Model yükleme parametrelerini yapılandırın"
+}

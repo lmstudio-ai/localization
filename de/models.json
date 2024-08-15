@@ -1,0 +1,16 @@
+{
+  "action.model.delete": "Löschen",
+  "action.model.delete.full": "Modell löschen",
+  "action.model.delete.confirmation/title": "{{name}} löschen",
+  "action.model.delete.confirmation/description": "Sind Sie sicher? Dadurch werden alle mit diesem Modell verbundenen Dateien dauerhaft von Ihrem Computer gelöscht. Dieser Vorgang kann nicht rückgängig gemacht werden.",
+  "action.model.delete.confirmation/confirm": "Löschen",
+  "action.cancel": "Abbrechen",
+  "indexingOngoing": "Indizierung läuft noch... Einige Modelle fehlen möglicherweise.",
+  "loadState/loaded": "Geladen",
+  "loadState/loading": "Wird geladen",
+  "loadState/unloaded": "Nicht geladen",
+  "loadState/unloading": "Wird entladen",
+  "loadState/idle": "Inaktiv",
+  "contextMenu/copyAbsolutePath": "Absoluten Pfad kopieren",
+  "contextMenu/copyModelName": "Modellnamen kopieren"
+}
