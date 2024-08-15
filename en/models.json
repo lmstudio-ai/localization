@@ -34,7 +34,7 @@
   "modelsDirectory": "Models Directory",
   "modelsDirectory.change": "Change...",
   "modelsDirectory.reset": "Reset to Default Path",
-  "modelsDirectory.reveal.mac": "Reval in Finder",
+  "modelsDirectory.reveal.mac": "Reveal in Finder",
   "modelsDirectory.reveal.nonMac": "Open in File Explorer",
   "modelsDirectory.forceReindex": "Refresh",
   "loadState/loaded": "Loaded",
