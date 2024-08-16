@@ -1,0 +1,19 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Đang giải nén...",
+  "finalizing": "Đang hoàn tất tải xuống... (quá trình này có thể mất vài phút)",
+  "noOptions": "Không có tùy chọn tương thích nào để tải xuống",
+
+  "deeplink/confirmation/title": "Tải mô hình từ Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Chọn từ đề xuất",
+  "deeplink/confirmation/selectOption": "Chọn từ tuỳ chọn tải xuống",
+  "deeplink/confirmation/recommendedOption": "Có thể là lựa chọn tốt nhất cho hầu hết người dùng",
+  "deeplink/confirmation/downloadButton": "Tải xuống",
+  "deeplink/confirmation/nevermindButton": "Đừng bận tâm",
+  "deeplink/confirmation/modelPresent/title": "Tìm thấy mô hình Hugging Face ✅",
+  "deeplink/confirmation/modelPresent/body": "Tin tốt! Tệp mô hình này đã có sẵn trên máy cục bộ của bạn.",
+  "deeplink/confirmation/loadInChat": "Tải {{ modelName }} trong cuộc trò chuyện mới",
+  "deeplink/error/modelNotFound/title": "Ruh roh, chúng tôi không thể tim thấy mô hình này",
+  "deeplink/error/modelNotFound/body": "Kiểm tra lại tên mô hình và cân nhắc thử tuỳ chọn tải xuống khác.",
+  "deeplink/actions/trySearching": "Hãy thử tìm kiếm {{modelName}} trên Hugging Face"
+}
