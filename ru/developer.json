@@ -1,0 +1,36 @@
+{
+  "loadSettings/title": "Настройки загрузки",
+  "modelSettings/placeholder": "Выберите модель, чтобы настроить ее",
+  
+  "serverOptions/title": "Параметры сервера",
+  "serverOptions/port/hint": "Установите, какой сетевой порт будет использовать локальный сервер. По умолчанию LM Studio использует порт 1234. Вам может понадобиться изменить это значение, если порт уже используется.",
+  "serverOptions/cors/title": "Включить CORS",
+  "serverOptions/cors/hint1": "Включение CORS (Cross-origin Resource Sharing) позволит посещаемым вами сайтам делать запросы к серверу LM Studio.",
+  "serverOptions/cors/hint2": "CORS может потребоваться при выполнении запросов с веб-страницы или VS Code / другого расширения.",
+  "serverOptions/network/title": "Видимость в локальной сети",
+  "serverOptions/network/subtitle": "Сделать этот сервер видимым для других устройств в сети",
+  "serverOptions/network/hint1": "Разрешать ли соединения с других устройств в сети",
+  "serverOptions/network/hint2": "Если флажок не установлен, сервер будет слушать только localhost.",
+  "serverOptions/verboseLogging/title": "Verbose Logging",
+  "serverOptions/contentLogging/title": "Подсказки и ответы в журнале",
+  "serverOptions/contentLogging/hint": "Вести ли журнал подсказок и/или ответов в локальном файле журнала сервера.",
+  "serverOptions/loadModel/error": "Не удалось загрузить модель",
+  
+  "serverLogs/scrollToBottom": "Jump to bottom",
+  "serverLogs/clearLogs": "Очистить журналы ({{shortcut}})",
+
+  "runtimeSettings/title": "Настройки времени выполнения",
+  "runtimeSettings/chooseRuntime/title": "Настроить среду выполнения",
+  "runtimeSettings/chooseRuntime/description": "Установка времени выполнения по умолчанию для типа движка",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все версии",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждой среды выполнения. Включите эту опцию, чтобы увидеть все доступные версии.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать среду выполнения",
+
+  "runtimeOptions/uninstall": "Удаление",
+  "runtimeOptions/uninstallDialog/title": "Удалить {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Деинсталляция этой среды приведет удалению её из системы. Это действие необратимо.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Некоторые файлы могут быть удалены только после перезапуска LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Не удалось удалить среду выполнения",
+  "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
+  "runtimeOptions/uninstallDialog/cancel": "Отмена"
+}

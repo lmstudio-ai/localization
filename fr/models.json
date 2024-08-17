@@ -1,0 +1,16 @@
+{
+  "action.model.delete": "Supprimer",
+  "action.model.delete.full": "Supprimer le modèle",
+  "action.model.delete.confirmation/title": "Supprimer {{name}}",
+  "action.model.delete.confirmation/description": "Êtes-vous sûr? Cela supprimera définitivement tous les fichiers associés à ce modèle de votre machine. Cette action est irréversible.",
+  "action.model.delete.confirmation/confirm": "Supprimer",
+  "action.cancel": "Annuler",
+  "indexingOngoing": "Indexation en cours... Certains modèles peuvent manquer.",
+  "loadState/loaded": "Chargé",
+  "loadState/loading": "Chargement",
+  "loadState/unloaded": "Déchargé",
+  "loadState/unloading": "Déchargement",
+  "loadState/idle": "Inactif",
+  "contextMenu/copyAbsolutePath": "Copier le chemin absolu",
+  "contextMenu/copyModelName": "Copier l'identifiant du modèle"
+}

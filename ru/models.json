@@ -1,0 +1,17 @@
+{
+  "action.model.delete": "Удалить",
+  "action.model.delete.full": "Удалить модель",
+  "action.model.delete.confirmation/title": "Удалить {{name}}",
+  "action.model.delete.confirmation/description": "Вы уверены, что хотите это сделать? Это приведет к полному удалению всех файлов, связанных с этой моделью, с вашего компьютера. Эта операция необратима.",
+  "action.model.delete.confirmation/confirm": "Удалить",
+  "action.cancel": "Отмена",
+  "indexingOngoing": "Продолжается индексация... Некоторые модели могут отсутствовать.",
+  "loadState/loaded": "Загружено",
+  "loadState/loading": "Загрузка",
+  "loadState/unloaded": "Выгружено",
+  "loadState/unloading": "Выгрузка",
+  "loadState/idle": "В режиме ожидания",
+  "contextMenu/copyAbsolutePath": "Копировать абсолютный путь",
+  "contextMenu/copyModelName": "Копировать имя модели"
+}
+
