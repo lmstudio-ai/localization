@@ -2,7 +2,7 @@
   "noInstanceSelected": "No model instance selected",
   "resetToDefault": "Reset",
   "showAdvancedSettings": "Show advanced settings",
-  "showAll": "Show all",
+  "showAll": "All",
   "basicSettings": "Basic",
   "configSubtitle": "Load or save presets and experiment with model parameter overrides",
   "inferenceParameters/title": "Prediction Parameters",
