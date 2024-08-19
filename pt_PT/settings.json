@@ -64,7 +64,7 @@
     "backendDownloadChannel.value.stable": "Estável",
     "backendDownloadChannel.value.beta": "Beta",
     "backendDownloadChannel.value.latest": "Dev",
-    "backendDownloadChannel.shortLabel": "Canal de download do runtime",
+    "backendDownloadChannel.shortLabel": "Canal de download do Runtime",
     "backendDownloadChannel.hint": "Escolha o canal a partir do qual descarregar pacotes de extensão do LM Studio. \"{{stableName}}\" é o canal recomendado para a maioria dos utilizadores.",
 
     "modelLoadingGuardrails.label": "Proteções de carregamento de modelo",
