@@ -1,4 +1,24 @@
 {
+
+  "pageTitle": "My Models",
+  "filterModels.placeholder": "Filter models...",
+
+  "noModels.title": "Your local LLMs will show up here.",
+  "noModels.discoverButtonText.prefix": "Click the",
+  "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
+  "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
+
+  "modelsTable.arch/label": "Arch",
+  "modelsTable.params/label": "Params",
+  "modelsTable.publisher/label": "Publisher",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "Embedding Model",
+  "modelsTable.quant/label": "Quant",
+  "modelsTable.size/label": "Size",
+  "modelsTable.dateModified/label": "Date Modified",
+  "modelsTable.actions/label": "Actions",
+
+
   "action.model.delete": "Delete",
   "action.model.delete.full": "Delete Model",
   "action.model.delete.confirmation/title": "Delete {{name}}",
@@ -44,6 +64,14 @@
   "loadState/idle": "Idle",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
   "contextMenu/copyModelName": "Copy Model Identifier",
+  "contextMenu/openOnHuggingFace": "Open on Hugging Face...",
+  "tooltip/moreActions": "More Actions",
+  "tooltip/getInfo": "Get Info",
+  "tooltip/editModelDefaultConfig": "Edit model default config",
+  "tooltip/editModelDefaultConfig/override": "Edit model default config (* currently has overrides",
+  "tooltip/visionBadge": "This model can process image inputs",
+
+  "visionBadge/label": "Vision Enabled",
 
   "loader.action.load": "Load Model",
   "loader.action.clearChanges": "Clear Changes",
