@@ -129,7 +129,7 @@
   "llm.load.llama.useFp16ForKVCache/title": "Use FP16 For KV Cache",
   "llm.load.llama.useFp16ForKVCache/info": "Reduces memory usage by storing cache in half-precision (FP16)",
   "llm.load.llama.tryMmap/title": "Try mmap()",
-  "llm.load.llama.tryMmap/subTitle": "Allows models larger than total system RAM to be loaded, but may increase the risk of paging out to swap space",
+  "llm.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
   
   "embedding.load.contextLength/title": "Context Length",
@@ -151,9 +151,9 @@
   "embedding.load.llama.keepModelInMemory/subTitle": "Reserve system memory for the model, even when offloaded to GPU. Improves performance but requires more system RAM",
   "embedding.load.llama.keepModelInMemory/info": "Prevents the model from being swapped out to disk, ensuring faster access at the cost of higher RAM usage",
   "embedding.load.llama.tryMmap/title": "Try mmap()",
-  "embedding.load.llama.tryMmap/subTitle": "Allows models larger than total system RAM to be loaded, but may increase the risk of paging out to swap space",
+  "embedding.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "embedding.load.llama.tryMmap/info": "Load model files directly from disk to memory",
   "embedding.load.seed/title": "Seed",
-  "embedding.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random",
+  "embedding.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random seed",
   "embedding.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results"
 }
