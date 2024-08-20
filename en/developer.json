@@ -40,5 +40,8 @@
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
   "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
 
+  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
+  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+
   "apiConfigOptions/title": "API Configuration"
 }
