@@ -5,7 +5,7 @@
   "action.finish": "Finish",
 
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents to get answers, insights, and summaries using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
     "instructions": {
       "attach_files": {
         "title": "Attach Files",
@@ -13,15 +13,11 @@
       },
       "be_specific": {
         "title": "Be Specific",
-        "description": "When asking questions, mention the document or section you're referring to. This helps narrow down the answer from the most relevant file."
+        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
       },
       "get_responses": {
-        "title": "Get Responses",
-        "description": "The system will scan your attached files and provide relevant answers based on their content. Ask questions as if you were chatting with the documents themselves."
-      },
-      "images": {
-        "title": "Images",
-        "description": "Vision-based models also allow for image uploads and analysis."
+        "title": "Get Responses and Experiment",
+        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
       }
     }
   }
