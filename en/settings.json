@@ -38,6 +38,12 @@
     "chat/keyboardShortcuts/regenerate": "to regenerate the last message in chat",
     "chat/keyboardShortcuts/sendMessage": "to send message",
 
+    "onboarding/blockTitle": "Onboarding Hints",
+    "onboarding/dismissedHints": "Dismissed Onboarding Hints",
+    "onboarding/resetHintTooltip": "Click to reenable this onboarding hint",
+    "onboarding/resetAllHints": "Reset All Onboarding Hints",
+    "onboarding/noneDismissed": "No dismissed hints, currently all onboarding helper hints will appear until next dismissed",
+
     "firstTimeExperienceLabel": "Chat first time experience",
     "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
     "firstTimeExperienceResetLabel": "Reset",
