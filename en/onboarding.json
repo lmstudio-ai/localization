@@ -1,6 +1,28 @@
 {
-  "action.skipOnboarding": "Omitir introducción, sé lo que estoy haciendo.",
-  "action.next": "Siguiente",
-  "action.back": "Atrás",
-  "action.finish": "Terminar"
+  "action.skipOnboarding": "Skip onboarding",
+  "action.next": "Next",
+  "action.back": "Back",
+  "action.finish": "Finish",
+
+  "dismissable_rag_modal": {
+    "description": "You can now chat with your own documents to get answers, insights, and summaries using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "instructions": {
+      "attach_files": {
+        "title": "Attach Files",
+        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+      },
+      "be_specific": {
+        "title": "Be Specific",
+        "description": "When asking questions, mention the document or section you're referring to. This helps narrow down the answer from the most relevant file."
+      },
+      "get_responses": {
+        "title": "Get Responses",
+        "description": "The system will scan your attached files and provide relevant answers based on their content. Ask questions as if you were chatting with the documents themselves."
+      },
+      "images": {
+        "title": "Images",
+        "description": "Vision-based models also allow for image uploads and analysis."
+      }
+    }
+  }
 }
