@@ -1,0 +1,44 @@
+{
+  "loadSettings/title": "加载设置",
+  "modelSettings/placeholder": "选择一个模型进行配置",
+  
+  "serverOptions/title": "服务器选项",
+  "serverOptions/port/hint": "设置本地服务器使用的网络端口。默认情况下，LM Studio 使用 1234 端口。如果端口已被使用，则可能需要更改。",
+  "serverOptions/cors/title": "启用 CORS (跨源资源共享)",
+  "serverOptions/cors/hint1": "启用 CORS (跨源资源共享) 将允许您访问的网站向 LM Studio 服务器发送请求。",
+  "serverOptions/cors/hint2": "从网页或 VS Code / 其他扩展 请求时可能需要 CORS。",
+  "serverOptions/network/title": "在本地网络上服务",
+  "serverOptions/network/subtitle": "使此服务器对网络上的其他设备可见",
+  "serverOptions/network/hint1": "是否允许来自网络上其他设备的连接.",
+  "serverOptions/network/hint2": "如果不选中，服务器将只监听本地主机.",
+  "serverOptions/verboseLogging/title": "详细日志记录",
+  "serverOptions/contentLogging/title": "日志提示和回复",
+  "serverOptions/contentLogging/hint": "是否将提示 和/或 响应记录到本地服务器日志文件中.",
+  "serverOptions/loadModel/error": "加载模型失败",
+  
+  "serverLogs/scrollToBottom": "跳转到底部",
+  "serverLogs/clearLogs": "清理日志 ({{shortcut}})",
+
+  "runtimeSettings/title": "运行设置",
+  "runtimeSettings/chooseRuntime/title": "运行配置",
+  "runtimeSettings/chooseRuntime/description": "为引擎类型设置默认运行配置",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有版本",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个运行时的最新版本。启用此选项可查看所有可用版本.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行",
+
+  "runtimeOptions/uninstall": "卸载",
+  "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "卸载该运行时将从系统中删除它，此操作不可逆.",
+  "runtimeOptions/uninstallDialog/body/caveats": "某些文件可能只有在重启 LM Studio 后才能删除.",
+  "runtimeOptions/uninstallDialog/error": "卸载运行时失败",
+  "runtimeOptions/uninstallDialog/confirm": "继续卸载",
+  "runtimeOptions/uninstallDialog/cancel": "取消",
+
+  "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "列出当前加载的模型",
+  "endpoints/openaiCompatRest/postCompletions": "文本完成模式。预测给定提示的下一个 token(s) 。注意，OpenAI 认为此端点 ‘已弃用’.",
+  "endpoints/openaiCompatRest/postChatCompletions": "对话完成。向模型发送对话历史记录，以预测下一个助手的回复",
+  "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受一个字符串或字符串数组.",
+
+  "apiConfigOptions/title": "API 配置"
+}
