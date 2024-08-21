@@ -11,7 +11,7 @@
     "downloadLabel": "Update Now",
     "cancelDownloadLabel": "Cancel",
     "downloadingUpdate": "Downloading update...",
-    "updateDownloaded": "Update downloaded!",
+    "updateDownloaded": "New update successfully downloaded. Restart the app to apply the update.",
     "restartAppToUpdate": "Relaunch app to apply update",
     "doItLater": "I'll do it later",
     "failedToUpdate": "App update failed. Please double-check your internet connection or try again later.",
