@@ -88,7 +88,7 @@
     "modelLoadingGuardrails.value.high/subTitle": "Strong precautions against system overload",
     "modelLoadingGuardrails.value.high/detail": "Strict detail",
     "modelLoadingGuardrails.value.custom": "Custom",
-    "modelLoadingGuardrails.value.custom/subTitle": "Set your own limit for maximium model size that can be loaded",
+    "modelLoadingGuardrails.value.custom/subTitle": "Set your own limit for maximum model size that can be loaded",
     "modelLoadingGuardrails.value.custom/detail": "Custom detail",
     "modelLoadingGuardrails.custom.label": "Memory Limit: ",
     "modelLoadingGuardrails.custom.unitGB": "GB",
