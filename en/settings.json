@@ -94,5 +94,16 @@
     "modelLoadingGuardrails.custom.unitGB": "GB",
     "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
 
-    "expandConfigsOnClick": "Expand configs on click rather than hover"
+    "expandConfigsOnClick": "Expand configs on click rather than hover",
+
+    "migrateChats": {
+        "label": "Migrate pre 0.3.0 Chats",
+        "action": "Migrate Chats",
+        "inProgress": "Migrating chats...",
+        "hint": {
+            "primary": "We revamped the internal data structure for v0.3.0+ chats to support features like multi-version chat messages. To make older chats appear in the app they need to be migrated to the new format.",
+            "details": "The migration process will NOT delete your old chats, but rather make a copy of them in the new format. ",
+            "footer":  "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
+        }
+    }
 }
