@@ -3,28 +3,29 @@
   "modelSettings/placeholder": "Выберите модель, чтобы настроить ее",
   
   "serverOptions/title": "Параметры сервера",
-  "serverOptions/port/hint": "Установите, какой сетевой порт будет использовать локальный сервер. По умолчанию LM Studio использует порт 1234. Вам может понадобиться изменить это значение, если порт уже используется.",
+  "serverOptions/port/hint": "Установите, какой сетевой порт будет использовать локальный сервер. По умолчанию LM Studio использует порт 1234. Возможно, вам потребуется изменить его, если этот порт уже занят.",
   "serverOptions/cors/title": "Включить CORS",
-  "serverOptions/cors/hint1": "Включение CORS (Cross-origin Resource Sharing) позволит посещаемым вами сайтам делать запросы к серверу LM Studio.",
+  "serverOptions/cors/hint1": "Включение CORS (Cross-Origin Resource Sharing) позволяет веб-приложениям, запущенным в одном домене, отправлять запросы к ресурсам на сервере LM Studio, который находится в другом домене.",
   "serverOptions/cors/hint2": "CORS может потребоваться при выполнении запросов с веб-страницы или VS Code / другого расширения.",
   "serverOptions/network/title": "Видимость в локальной сети",
   "serverOptions/network/subtitle": "Сделать этот сервер видимым для других устройств в сети",
   "serverOptions/network/hint1": "Разрешать ли соединения с других устройств в сети",
   "serverOptions/network/hint2": "Если флажок не установлен, сервер будет слушать только localhost.",
-  "serverOptions/verboseLogging/title": "Verbose Logging",
+  "serverOptions/verboseLogging/title": "Подробное логирование",
   "serverOptions/contentLogging/title": "Подсказки и ответы в журнале",
   "serverOptions/contentLogging/hint": "Вести ли журнал подсказок и/или ответов в локальном файле журнала сервера.",
   "serverOptions/loadModel/error": "Не удалось загрузить модель",
   
-  "serverLogs/scrollToBottom": "Jump to bottom",
+  "serverLogs/scrollToBottom": "Вверх",
   "serverLogs/clearLogs": "Очистить журналы ({{shortcut}})",
 
-  "runtimeSettings/title": "Настройки времени выполнения",
-  "runtimeSettings/chooseRuntime/title": "Настроить среду выполнения",
-  "runtimeSettings/chooseRuntime/description": "Установка времени выполнения по умолчанию для типа движка",
+  "runtimeSettings/title": "Настройки среды выполнения",
+  "runtimeSettings/chooseRuntime/title": "Конфигурация среды выполнения",
+  "runtimeSettings/chooseRuntime/description": "Задайте среду выполнения и движок по умолчанию",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все версии",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждой среды выполнения. Включите эту опцию, чтобы увидеть все доступные версии.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать среду выполнения",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio отображает только последнюю версию каждой среды выполнения. Включите эту опцию, чтобы увидеть все доступные версии.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Выберите среду выполнения",
+
 
   "runtimeOptions/uninstall": "Удаление",
   "runtimeOptions/uninstallDialog/title": "Удалить {{runtimeName}}?",
@@ -32,5 +33,13 @@
   "runtimeOptions/uninstallDialog/body/caveats": "Некоторые файлы могут быть удалены только после перезапуска LM Studio.",
   "runtimeOptions/uninstallDialog/error": "Не удалось удалить среду выполнения",
   "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
-  "runtimeOptions/uninstallDialog/cancel": "Отмена"
+  "runtimeOptions/uninstallDialog/cancel": "Отмена",
+
+"endpoints/openaiCompatRest/title": "Поддерживаемые эндпоинты (как у OpenAI)",
+"endpoints/openaiCompatRest/getModels": "Перечень загруженных моделей",
+"endpoints/openaiCompatRest/postCompletions": "Дополнение текста. Генерация следующего токена или последовательности токенов на основе заданного контекста. Примечание: этот эндпоинт OpenAI считает 'устаревшим'.",
+"endpoints/openaiCompatRest/postChatCompletions": "Чат-дополнения. Использование истории диалога для предсказания следующего ответа модели.",
+"endpoints/openaiCompatRest/postEmbeddings": "Генерация текстовых эмбеддингов. Создание векторных представлений текста для заданного ввода. Принимает строку или массив строк.",
+
+  "apiConfigOptions/title": "Конфигурация API"
 }

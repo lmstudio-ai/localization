@@ -23,7 +23,7 @@
     "installAndRelaunch": "Установить и перезапустить",
     "uptodate": "Вы используете последнюю версию! Текущая версия: {{version}}",
     "preferences": "Параметры",
-    "sideButtonLabels": "Показывать метки на боковых кнопках",
+    "sideButtonLabels": "Показывать подписи к меню",
     "colorThemeLabel": "Цветовая тема",
     "complexityLevelLabel": "Уровень сложности интерфейса",
     "selectComplexityLevelPlaceholder": "Выберите уровень сложности по умолчанию",
@@ -69,5 +69,10 @@
     "modelLoadingGuardrails.custom.label": "Ограничение памяти: ",
     "modelLoadingGuardrails.custom.unitGB": "ГБ",
     "modelLoadingGuardrails.custom.description": "Установите пользовательский лимит памяти для загрузки моделей. Модели не будут загружаться, если их размер превысит этот лимит.",
-    "expandConfigsOnClick": "Раскрывать настройки при клике, а не при наведении"
+    "expandConfigsOnClick": "Раскрывать настройки при клике, а не при наведении",
+
+    "chat/keyboardShortcuts/label": "Горячие клавиши",
+    "chat/keyboardShortcuts/verbPrefix": "Использовать",
+    "chat/keyboardShortcuts/regenerate": "для повторной генерации последнего сообщения в чате",
+    "chat/keyboardShortcuts/sendMessage": "для отпраки сообщения в чате"
 }
