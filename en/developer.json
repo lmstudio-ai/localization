@@ -31,6 +31,7 @@
   
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Open server logs folder",
 
   "runtimeSettings/title": "Runtime settings",
   "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
