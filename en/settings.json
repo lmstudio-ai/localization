@@ -104,6 +104,8 @@
             "primary": "We revamped the internal data structure for v0.3.0+ chats to support features like multi-version chat messages. To make older chats appear in the app they need to be migrated to the new format.",
             "details": "The migration process will NOT delete your old chats, but rather make a copy of them in the new format. ",
             "footer":  "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
-        }
+        },
+        "success_one": "Successfully migrated 1 chat",
+        "success_other": "Successfully migrated {{count}} chats"
     }
 }
