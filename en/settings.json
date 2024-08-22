@@ -102,7 +102,8 @@
 
     "migrateChats": {
         "label": "Migrate pre 0.3.0 Chats",
-        "action": "Migrate Chats",
+        "action_one": "Migrate 1 Chat",
+        "action_other": "Migrate {{count}} Chats",
         "inProgress": "Migrating chats...",
         "hint": {
             "primary": "We revamped the internal data structure for v0.3.0+ chats to support features like multi-version chat messages. To make older chats appear in the app they need to be migrated to the new format.",
