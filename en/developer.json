@@ -1,6 +1,6 @@
 {
   "tabs/server": "Local Server",
-  "tabs/extensions": "Extensions",
+  "tabs/extensions": "LM Runtimes",
   "loadSettings/title": "Load settings",
   "modelSettings/placeholder": "Select a model to configure it",
 
