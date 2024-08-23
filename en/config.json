@@ -28,6 +28,7 @@
   "llm.prediction.temperature/title": "Temperature",
   "llm.prediction.temperature/subTitle": "How much randomness to introduce. 0 will yield the same result every time, while higher values will increase creativity and variance",
   "llm.prediction.temperature/info": "From llama.cpp help docs: \"The default value is <{{dynamicValue}}>, which provides a balance between randomness and determinism. At the extreme, a temperature of 0 will always pick the most likely next token, leading to identical outputs in each run\"",
+  "llm.prediction.llama.sampling/title": "Sampling",
   "llm.prediction.llama.topKSampling/title": "Top K Sampling",
   "llm.prediction.llama.topKSampling/subTitle": "Limits the next token to one of the top-k most probable tokens. Acts similarly to temperature",
   "llm.prediction.llama.topKSampling/info": "From llama.cpp help docs:\n\nTop-k sampling is a text generation method that selects the next token only from the top k most likely tokens predicted by the model.\n\nIt helps reduce the risk of generating low-probability or nonsensical tokens, but it may also limit the diversity of the output.\n\nA higher value for top-k (e.g., 100) will consider more tokens and lead to more diverse text, while a lower value (e.g., 10) will focus on the most probable tokens and generate more conservative text.\n\n• The default value is <{{dynamicValue}}>",
@@ -128,7 +129,7 @@
   "llm.load.llama.useFp16ForKVCache/title": "Use FP16 For KV Cache",
   "llm.load.llama.useFp16ForKVCache/info": "Reduces memory usage by storing cache in half-precision (FP16)",
   "llm.load.llama.tryMmap/title": "Try mmap()",
-  "llm.load.llama.tryMmap/subTitle": "Allows models larger than total system RAM to be loaded, but may increase the risk of paging out to swap space",
+  "llm.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
   
   "embedding.load.contextLength/title": "Context Length",
@@ -150,9 +151,9 @@
   "embedding.load.llama.keepModelInMemory/subTitle": "Reserve system memory for the model, even when offloaded to GPU. Improves performance but requires more system RAM",
   "embedding.load.llama.keepModelInMemory/info": "Prevents the model from being swapped out to disk, ensuring faster access at the cost of higher RAM usage",
   "embedding.load.llama.tryMmap/title": "Try mmap()",
-  "embedding.load.llama.tryMmap/subTitle": "Allows models larger than total system RAM to be loaded, but may increase the risk of paging out to swap space",
+  "embedding.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "embedding.load.llama.tryMmap/info": "Load model files directly from disk to memory",
   "embedding.load.seed/title": "Seed",
-  "embedding.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random",
+  "embedding.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random seed",
   "embedding.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results"
 }

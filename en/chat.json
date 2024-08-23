@@ -28,6 +28,9 @@
   "notes/add/another": "Add another note",
   "notes/hint": "Save notes to this chat. Notes are for your reference only and are not sent to the model. All changes auto-save.",
   "notes/placeholder": "Type your notes here...",
+  "notes/delete": "Delete note",
+  "notes/noteLabel": "Note",
+  "notes/copyContent": "Copy note content",
 
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
@@ -77,6 +80,23 @@
   "actions/createChatAtRoot/error": "Failed to create chat at root",
   "actions/createFolderAtRoot": "Create New Folder",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
+  "actions/createChat/error": "Failed to create chat",
+
+  "userFile/fileSizeLimit": "File size limit is ",
+  "userFile/noImageSupport": "Model does not support image input",
+  "userFile/errorPrefix": "Error - ",
+  "userFile/supportedImagePrefix": "Unsupported image type - only ",
+  "userFile/supportedImageSuffix": " are supported",
+  "userFile/unsupportedFileType": "Unsupported file type - only images, PDFs and .txt files are supported.",
+  "userFile/maxFilesPerMessage": "Maximum number of files per message reached. Cannot add more than {{files}} files. ",
+  "userFile/maxFileSizePerMessage": "Maximum file size per message reached. Cannot add files larger than {{size}}. ",
+  "errorTitle": "Error",
+
+  "prediction/busyModel/title": "Model is busy",
+  "prediction/busyModel/message": "Please wait until the model finishes and try again",
+  "prediction/noModel/title": "No model selected",
+  "prediction/noModel/message": "Please select a model to send a message",
+  "prediction/unloadModel/error": "Failed to unload the model",
 
   "retrieval/user/processingLabel": "The AI is thinking...",
   "retrieval/powerUser/intermediateStepsHidden": "Intermediate steps hidden. Click to expand.",
