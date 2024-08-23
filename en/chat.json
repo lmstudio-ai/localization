@@ -28,6 +28,10 @@
   "notes/add/another": "Add another note",
   "notes/hint": "Save notes to this chat. Notes are for your reference only and are not sent to the model. All changes auto-save.",
   "notes/placeholder": "Type your notes here...",
+  "notes/delete": "Delete note",
+  "notes/noteLabel": "Note",
+  "notes/copyContent": "Copy note content",
+
   "actions/sendMessage/error": "Failed to send message",
   "actions/loadModel/error": "🥲 Failed to load the model",
   "actions/addFile": "[Experimental] Attach a file to this message\n(.pdf, plaintext, or .docx)",
