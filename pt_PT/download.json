@@ -1,19 +1,19 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "A extrair...",
-  "finalizing": "A finalizar o download... (pode levar alguns momentos)",
-  "noOptions": "Nenhuma opção compatível disponível para download",
+  "postDownloadActionExecutor.zipExtraction/status": "A extrair…",
+  "finalizing": "Perto de descarregar… (pode levar alguns momentos)",
+  "noOptions": "Nenhuma opção compatível está disponível para desczrregar",
 
   "deeplink/confirmation/title": "Descarregar modelo do Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Selecionar recomendado",
-  "deeplink/confirmation/selectOption": "Selecione a opção de download",
+  "deeplink/confirmation/selectOption": "Selecione a opção par a descarregar",
   "deeplink/confirmation/recommendedOption": "Provavelmente a melhor opção para a maioria dos utilizadores",
   "deeplink/confirmation/downloadButton": "Descarregar",
   "deeplink/confirmation/nevermindButton": "Cancelar",
   "deeplink/confirmation/modelPresent/title": "Modelo Hugging Face encontrado ✅",
-  "deeplink/confirmation/modelPresent/body": "Boas notícias! Este ficheiro de modelo já está disponível na sua máquina local.",
+  "deeplink/confirmation/modelPresent/body": "Boas notícias! Este ficheiro de modelo já está disponível no seu computador.",
   "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} num novo chat",
   "deeplink/error/modelNotFound/title": "Oops, não conseguimos encontrar este modelo",
-  "deeplink/error/modelNotFound/body": "Verifique novamente o nome do modelo e tente uma opção de download diferente.",
+  "deeplink/error/modelNotFound/body": "Verifique novamente o nome do modelo e tente uma opção diferente.",
   "deeplink/actions/trySearching": "Tente pesquisar por {{modelName}} no Hugging Face"
 }
