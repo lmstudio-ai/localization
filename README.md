@@ -1,3 +1,3 @@
-# localization
+# localization 🌏
 LM Studio localization
 

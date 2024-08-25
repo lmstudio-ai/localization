@@ -5,7 +5,7 @@
   "action.model.delete.confirmation/description": "Вы уверены, что хотите это сделать? Это приведет к полному удалению всех файлов, связанных с этой моделью, с вашего компьютера. Эта операция необратима.",
   "action.model.delete.confirmation/confirm": "Удалить",
   "action.cancel": "Отмена",
-  "indexingOngoing": "Продолжается индексация... Некоторые модели могут отсутствовать.",
+  "indexingOngoing": "Выполняется индексация... Некоторые модели могут отсутствовать.",
   "loadState/loaded": "Загружено",
   "loadState/loading": "Загрузка",
   "loadState/unloaded": "Выгружено",
