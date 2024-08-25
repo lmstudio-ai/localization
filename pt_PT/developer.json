@@ -37,7 +37,7 @@
   "endpoints/openaiCompatRest/title": "Endpoints suportados (compatíveis com OpenAI)",
   "endpoints/openaiCompatRest/getModels": "Listar os modelos atualmente carregados",
   "endpoints/openaiCompatRest/postCompletions": "Modo de pós-processamento de texto. Prever o próximo token(s) dado um prompt. Nota: A OpenAI considera este endpoint 'obsoleto'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Pós-processamentos de chat. Envia histórico de chat para o modelo para prever a próxima resposta do assistente",
+  "endpoints/openaiCompatRest/postChatCompletions": "Pós-processamento de chat. Envia histórico de chat para o modelo para prever a próxima resposta do assistente",
   "endpoints/openaiCompatRest/postEmbeddings": "Embeddings de texto. Gerar embeddings de texto para uma determinada entrada de texto. Recebe uma string ou matriz de strings.",
 
   "apiConfigOptions/title": "Configuração da API"

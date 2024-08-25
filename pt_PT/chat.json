@@ -38,7 +38,7 @@
   "actions/deleteMessage/confirmation": "Tem a certeza que deseja eliminar esta mensagem?",
   "actions/copyMessage": "Copiar mensagem",
   "actions/editMessage": "Editar mensagem",
-  "actions/regenerateMessage": "Gerar mensagem novamenete",
+  "actions/regenerateMessage": "Gerar mensagem novamente",
   "actions/regenerateMessage/error": "Ocorreu um erro ao gerar a mensagem",
   "actions/branchChat": "Ramificar chat após esta mensagem",
   "actions/branchChat/error": "Ocorreu um erro ao ramificar chat",
