@@ -2,7 +2,7 @@
   "postDownloadActionExecutor.zipExtraction/status": "A extrair…",
   "finalizing": "Perto de descarregar… (pode levar alguns momentos)",
   "noOptions": "Nenhuma opção compatível está disponível para desczrregar",
-
+  
   "deeplink/confirmation/title": "Descarregar modelo do Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Selecionar recomendado",

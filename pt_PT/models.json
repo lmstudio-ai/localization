@@ -1,9 +1,42 @@
 {
+
+  "pageTitle": "My Models",
+  "filterModels.placeholder": "Filter models...",
+
+  "noModels.title": "Your local LLMs will show up here.",
+  "noModels.discoverButtonText.prefix": "Click the",
+  "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
+  "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
+
+  "modelsTable.arch/label": "Arch",
+  "modelsTable.params/label": "Params",
+  "modelsTable.publisher/label": "Publisher",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "Embedding Model",
+  "modelsTable.quant/label": "Quant",
+  "modelsTable.size/label": "Size",
+  "modelsTable.dateModified/label": "Date Modified",
+  "modelsTable.actions/label": "Actions",
+
+
   "action.model.delete": "Eliminar",
   "action.model.delete.full": "Eliminar modelo",
   "action.model.delete.confirmation/title": "Eliminar {{name}}",
   "action.model.delete.confirmation/description": "Tem a certeza? Irá eliminar todos os ficheiros associados a este modelo do seu computador de forma permanente. Esta ação é irreversível.",
   "action.model.delete.confirmation/confirm": "Eliminar",
+
+  "action.createVirtual": "Create Preset",
+  "action.createVirtual.details/title": "Create a Preset",
+  "action.createVirtual.details/create": "Create",
+  "action.createVirtual.details/cancel": "Cancel",
+  "action.createVirtual.details.base/label": "Base Model",
+  "action.createVirtual.details.name/label": "Name",
+  "action.createVirtual.details.includeMachineDependent/label": "Include Machine-Dependent Configs",
+  "action.createVirtual.details.includeMachineDependent/hint": "Whether to include machine-dependent configurations (such as GPU settings) in the preset. Not recommended for sharing.",
+  "action.createVirtual.details.config/label": "Config Overrides",
+  "action.createVirtual.details.config.empty": "No config overrides",
+  "action.createVirtual.details/error": "Failed to create virtual model.",
+
   "loader.model.bundled": "Integrado",
   "action.cancel": "Cancelar",
   "indexingOngoing": "A indexar modelos… Pode levar alguns segundos",
@@ -31,7 +64,15 @@
   "loadState/idle": "Inativo",
   "contextMenu/copyAbsolutePath": "Copiar caminho absoluto",
   "contextMenu/copyModelName": "Copiar identificador do modelo",
+  "contextMenu/openOnHuggingFace": "Open on Hugging Face...",
+  "tooltip/moreActions": "More Actions",
+  "tooltip/getInfo": "Get Info",
+  "tooltip/editModelDefaultConfig": "Edit model default config",
+  "tooltip/editModelDefaultConfig/override": "Edit model default config (* currently has overrides",
+  "tooltip/visionBadge": "This model can process image inputs",
 
+  "visionBadge/label": "Vision Enabled",
+  
   "loader.action.load": "Carregar modelo",
   "loader.action.clearChanges": "Limpar alterações",
   "loader.action.cancel": "Cancelar",

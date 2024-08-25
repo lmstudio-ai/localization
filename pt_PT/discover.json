@@ -22,5 +22,7 @@
   "download.option.recommended/title": "Recomendado",
   "download.option.recommended/description": "Com base nas características do seu hardware, esta é uma opção recomendada.",
   "download.option.downloaded/title": "Descarregado",
-  "download.option.downloading/title": "A descarregar… ({{progressPercentile}}%)"
+  "download.option.downloading/title": "A descarregar… ({{progressPercentile}}%)",
+  
+  "feed.action.refresh": "Refresh feed"
 }
