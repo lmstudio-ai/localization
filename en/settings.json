@@ -101,7 +101,7 @@
   "expandConfigsOnClick": "Expand configs on click rather than hover",
 
   "migrateChats": {
-    "label": "Migrate pre 0.3.0 Chats",
+    "label": "Migrate pre-0.3.0 Chats",
     "action_one": "Migrate 1 Chat",
     "action_other": "Migrate {{count}} Chats",
     "inProgress": "Migrating chats...",
@@ -114,8 +114,8 @@
     "success_one": "Successfully migrated 1 chat",
     "success_other": "Successfully migrated {{count}} chats",
     "showInstructionsButton": "Show Instructions",
-    "footerCardText": "Looks like you have some unmigrated chats",
-    "dismissConfirm": "Got it",
-    "dismissConfirmDescription": "You can always handle chat migrations in the settings"
+    "footerCardText": "Chats from previous versions of LM Studio need to be migrated in order for them to be used in this version.",
+    "dismissConfirm": "Dismiss",
+    "dismissConfirmDescription": "You can always handle chat migration in Settings"
   }
 }
