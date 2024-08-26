@@ -112,6 +112,10 @@
     },
     "success": "Successfully migrated chats!",
     "success_one": "Successfully migrated 1 chat",
-    "success_other": "Successfully migrated {{count}} chats"
+    "success_other": "Successfully migrated {{count}} chats",
+    "showInstructionsButton": "Show Instructions",
+    "footerCardText": "Looks like you have some unmigrated chats",
+    "dismissConfirm": "Got it",
+    "dismissConfirmDescription": "You can always handle chat migrations in the settings"
   }
 }
