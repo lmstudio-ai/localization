@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Pular integração",
+  "action.next": "Próximo",
+  "action.back": "Voltar",
+  "action.finish": "Concluir",
+
+  "dismissable_rag_modal": {
+    "description": "Agora você pode conversar com seus próprios documentos usando Geração Aumentada por Recuperação (RAG). Veja como funciona:",
+    "instructions": {
+      "attach_files": {
+        "title": "Anexar Arquivos",
+        "description": "Envie até 5 arquivos por vez, com um tamanho máximo combinado de 30MB. Os formatos suportados incluem PDF, DOCX, TXT e CSV."
+      },
+      "be_specific": {
+        "title": "Seja Específico",
+        "description": "Ao fazer perguntas, mencione o máximo de detalhes possível. Isso ajuda o sistema a recuperar as informações mais relevantes dos seus documentos."
+      },
+      "get_responses": {
+        "title": "Obtenha Respostas e Experimente",
+        "description": "O LLM analisará sua consulta e os trechos recuperados de seus documentos, e tentará gerar uma resposta. Experimente diferentes consultas para encontrar o que funciona melhor."
+      }
+    }
+  }
+}
