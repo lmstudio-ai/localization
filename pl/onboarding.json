@@ -1,23 +1,22 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
-
+  "action.skipOnboarding": "Pomiń wprowadzenie",
+  "action.next": "Dalej",
+  "action.back": "Wstecz",
+  "action.finish": "Zakończ",
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "Teraz możesz rozmawiać z własnymi dokumentami używając Generacji Wspomaganej Wyszukiwaniem (RAG). Oto jak to działa:",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "Załącz Pliki",
+        "description": "Prześlij do 5 plików jednocześnie, o maksymalnym łącznym rozmiarze 30MB. Obsługiwane formaty to PDF, DOCX, TXT i CSV."
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "Bądź Konkretny",
+        "description": "Zadając pytania, podaj jak najwięcej szczegółów. Pomoże to systemowi pobrać najbardziej odpowiednie informacje z Twoich dokumentów."
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "Otrzymuj Odpowiedzi i Eksperymentuj",
+        "description": "LLM przeanalizuje Twoje zapytanie i pobrane fragmenty z Twoich dokumentów, a następnie spróbuje wygenerować odpowiedź. Eksperymentuj z różnymi zapytaniami, aby znaleźć to, co działa najlepiej."
       }
     }
   }
