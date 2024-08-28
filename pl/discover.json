@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Kolekcje",
+  "collectionsColumn/collectionError": "Błąd podczas wczytywania szczegółów kolekcji, spróbuj odświeżyć powyżej",
+  "bookmarksColumn": "Zakładki",
+  "searchBar/placeholder": "Szukaj modeli na Hugging Face...",
+  "searchBar/huggingFaceError": "Wystąpił błąd podczas pobierania wyników z Hugging Face, spróbuj ponownie za chwilę",
+  "sortBy": "Sortuj według",
+  "searchSortKey.default/title": "Najlepsze dopasowanie",
+  "searchSortKey.likes/title": "Najwięcej polubień",
+  "searchSortKey.downloads/title": "Najwięcej pobrań",
+  "searchSortKey.lastModified/title": "Ostatnio zaktualizowane",
+  "searchSortKey.createdAt/title": "Ostatnio utworzone",
+  "download.option.willFitEstimation.caveat": "Mogą istnieć inne czynniki uniemożliwiające jego załadowanie, takie jak architektura modelu, integralność pliku modelu lub ilość dostępnej pamięci na komputerze.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Możliwe pełne przeniesienie na GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Ten model może zmieścić się całkowicie w pamięci Twojego GPU. Może to znacznie przyspieszyć wnioskowanie.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Możliwe częściowe przeniesienie na GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Ten model może częściowo zmieścić się w pamięci Twojego GPU. Może to często znacznie przyspieszyć wnioskowanie.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Prawdopodobnie się zmieści",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Ten model prawdopodobnie zmieści się w pamięci Twojego urządzenia.",
+  "download.option.willFitEstimation.willNotFit/title": "Prawdopodobnie za duży dla tego urządzenia",
+  "download.option.willFitEstimation.willNotFit/description": "Wymagania pamięciowe do pomyślnego użycia tego pliku modelu mogą przekraczać dostępne zasoby na Twoim urządzeniu. Pobieranie tego pliku NIE jest zalecane.",
+  "download.option.recommended/title": "Zalecane",
+  "download.option.recommended/description": "Na podstawie Twojego sprzętu, ta opcja jest zalecana.",
+  "download.option.downloaded/title": "Pobrane",
+  "download.option.downloading/title": "Pobieranie ({{progressPercentile}}%)",
+  
+  "feed.action.refresh": "Odśwież kanał"
+}

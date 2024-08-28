@@ -1,0 +1,63 @@
+{
+  "tabs/server": "Serwer lokalny",
+  "tabs/extensions": "Rozszerzenia",
+  "loadSettings/title": "Wczytaj ustawienia",
+  "modelSettings/placeholder": "Wybierz model do skonfigurowania",
+
+  "loadedModels/noModels": "Brak załadowanych modeli",
+
+  "serverOptions/title": "Opcje serwera",
+  "serverOptions/configurableTitle": "Opcje konfigurowalne",
+  "serverOptions/port/hint": "Ustaw port sieciowy, który będzie używany przez lokalny serwer. Domyślnie LM Studio używa portu 1234. Możesz potrzebować zmienić to, jeśli port jest już zajęty.",
+  "serverOptions/port/subtitle": "Port, na którym serwer będzie nasłuchiwać",
+  "serverOptions/autostart/title": "Automatyczne uruchamianie serwera",
+  "serverOptions/autostart/hint": "Uruchom lokalny serwer automatycznie po załadowaniu modelu",
+  "serverOptions/port/integerWarning": "Numer portu musi być liczbą całkowitą",
+  "serverOptions/port/invalidPortWarning": "Port musi być w zakresie 1-65535",
+  "serverOptions/cors/title": "Włącz CORS",
+  "serverOptions/cors/hint1": "Włączenie CORS (Cross-origin Resource Sharing) pozwoli stronom, które odwiedzasz, na wykonywanie żądań do serwera LM Studio.",
+  "serverOptions/cors/hint2": "CORS może być wymagany podczas wykonywania żądań z strony internetowej lub VS Code / innego rozszerzenia.",
+  "serverOptions/cors/subtitle": "Zezwalaj na żądania między źródłami",
+  "serverOptions/network/title": "Serwuj w sieci lokalnej",
+  "serverOptions/network/subtitle": "Udostępnij serwer urządzeniom w sieci",
+  "serverOptions/network/hint1": "Czy zezwolić na połączenia z innych urządzeń w sieci.",
+  "serverOptions/network/hint2": "Jeśli nie zaznaczone, serwer będzie nasłuchiwał tylko na localhost.",
+  "serverOptions/verboseLogging/title": "Szczegółowe logowanie",
+  "serverOptions/verboseLogging/subtitle": "Włącz szczegółowe logowanie dla lokalnego serwera",
+  "serverOptions/contentLogging/title": "Loguj zapytania i odpowiedzi",
+  "serverOptions/contentLogging/subtitle": "Ustawienia logowania zapytań / odpowiedzi lokalnych",
+  "serverOptions/contentLogging/hint": "Czy logować zapytania i/lub odpowiedzi w pliku logów serwera lokalnego.",
+  "serverOptions/loadModel/error": "Nie udało się załadować modelu",
+
+  "serverLogs/scrollToBottom": "Przejdź na dół",
+  "serverLogs/clearLogs": "Wyczyść logi ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Otwórz folder logów serwera",
+
+  "runtimeSettings/title": "Ustawienia środowiska uruchomieniowego",
+  "runtimeSettings/chooseRuntime/title": "Skonfiguruj środowiska uruchomieniowe",
+  "runtimeSettings/chooseRuntime/description": "Wybierz środowisko uruchomieniowe dla każdego formatu modelu",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Pokaż wszystkie wersje",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Domyślnie LM Studio pokazuje tylko najnowszą wersję każdego środowiska uruchomieniowego. Włącz tę opcję, aby zobaczyć wszystkie dostępne wersje.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Wybierz środowisko uruchomieniowe",
+
+  "runtimeOptions/uninstall": "Odinstaluj",
+  "runtimeOptions/uninstallDialog/title": "Odinstalować {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Odinstalowanie tego środowiska uruchomieniowego usunie je z systemu. Ta akcja jest nieodwracalna.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Niektóre pliki mogą zostać usunięte tylko po ponownym uruchomieniu LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Nie udało się odinstalować środowiska uruchomieniowego",
+  "runtimeOptions/uninstallDialog/confirm": "Kontynuuj i odinstaluj",
+  "runtimeOptions/uninstallDialog/cancel": "Anuluj",
+
+  "inferenceParams/noParams": "Brak konfigurowalnych parametrów wnioskowania dostępnych dla tego typu modelu",
+
+  "endpoints/openaiCompatRest/title": "Obsługiwane punkty końcowe (podobne do OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Lista aktualnie załadowanych modeli",
+  "endpoints/openaiCompatRest/postCompletions": "Tryb Uzupełnień Tekstowych. Przewiduj następny token(y) na podstawie zapytania. Uwaga: OpenAI uważa ten punkt końcowy za 'przestarzały'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Uzupełnienia czatowe. Wyślij historię czatu do modelu, aby przewidzieć następną odpowiedź asystenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Osadzenia Tekstowe. Generuj osadzenia tekstowe dla podanego wejścia tekstowego. Przyjmuje ciąg lub tablicę ciągów.",
+  
+  "model.createVirtualModelFromInstance": "Zapisz ustawienia jako nowy wirtualny model",
+  "model.createVirtualModelFromInstance/error": "Nie udało się zapisać ustawień jako nowego wirtualnego modelu",
+  
+  "apiConfigOptions/title": "Konfiguracja API"
+}
