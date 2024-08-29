@@ -1,7 +1,8 @@
 {
-
   "pageTitle": "My Models",
   "filterModels.placeholder": "Filter models...",
+  "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space.",
+  "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space.",
 
   "noModels.title": "Your local LLMs will show up here.",
   "noModels.discoverButtonText.prefix": "Click the",
@@ -17,7 +18,6 @@
   "modelsTable.size/label": "Size",
   "modelsTable.dateModified/label": "Date Modified",
   "modelsTable.actions/label": "Actions",
-
 
   "action.model.delete": "Delete",
   "action.model.delete.full": "Delete Model",
@@ -62,9 +62,13 @@
   "loadState/unloaded": "Unloaded",
   "loadState/unloading": "Unloading",
   "loadState/idle": "Idle",
+  "pinned": "This model is pinned. Right click to unpin.",
+  "lastUsed": "Last Used",
+  "contextMenu/pin": "Pin to Top",
+  "contextMenu/unpin": "Unpin from Top",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
-  "contextMenu/copyModelName": "Copy Model Identifier",
-  "contextMenu/openOnHuggingFace": "Open on Hugging Face...",
+  "contextMenu/copyModelName": "Copy Model Path",
+  "contextMenu/openOnHuggingFace": "Open on Hugging Face",
   "tooltip/moreActions": "More Actions",
   "tooltip/getInfo": "Get Info",
   "tooltip/editModelDefaultConfig": "Edit model default config",
