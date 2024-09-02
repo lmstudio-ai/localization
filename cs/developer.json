@@ -1,0 +1,63 @@
+{
+  "tabs/server": "Lokální server",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Nahrát nastavení",
+  "modelSettings/placeholder": "Vyberte model pro konfiguraci",
+
+  "loadedModels/noModels": "Žádné modely nejsou nahrány",
+  
+  "serverOptions/title": "Nastavení serveru",
+  "serverOptions/configurableTitle": "Konfigurovatelné možnosti",
+  "serverOptions/port/hint": "Nastavte, který síťový port bude lokální server používat. Ve výchozím nastavení LM Studio používá port 1234. Možná budete muset tento port změnit, pokud je již použit.",
+  "serverOptions/port/subtitle": "Port, na kterém bude server naslouchat",
+  "serverOptions/autostart/title": "Automatické spuštění serveru",
+  "serverOptions/autostart/hint": "Spustí lokální server automaticky, když je model nahrán",
+  "serverOptions/port/integerWarning": "Port musí být celé číslo",
+  "serverOptions/port/invalidPortWarning": "Port musí být mezi 1 a 65535",
+  "serverOptions/cors/title": "Povolit CORS",
+  "serverOptions/cors/hint1": "Povolení CORS (Cross-origin Resource Sharing) umožní webovým stránkám, které navštívíte, odeslat požadavky na server LM Studio.",
+  "serverOptions/cors/hint2": "CORS může být vyžadováno při odesílání požadavků z webové stránky nebo VS Code / jiného rozšíření.",
+  "serverOptions/cors/subtitle": "Povolit cross-origin požadavky",
+  "serverOptions/network/title": "Serve na místní síti",
+  "serverOptions/network/subtitle": "Povolit přístup k serveru na síti",
+  "serverOptions/network/hint1": "Povolit přístup z jiných zařízení na síti.",
+  "serverOptions/network/hint2": "Pokud není zaškrtnuto, server bude naslouchat pouze na localhost.",
+  "serverOptions/verboseLogging/title": "Podrobné logování",
+  "serverOptions/verboseLogging/subtitle": "Povolit podrobné logování pro lokální server",
+  "serverOptions/contentLogging/title": "Logování dotazů a odpovědí",
+  "serverOptions/contentLogging/subtitle": "Nastavení logování dotazů a odpovědí na místním serveru",
+  "serverOptions/contentLogging/hint": "Zda logovat dotazy a/nebo odpovědi v logovacím souboru místního serveru.",
+  "serverOptions/loadModel/error": "Nepodařilo se nahrát model",
+  
+  "serverLogs/scrollToBottom": "Skočit dolů",
+  "serverLogs/clearLogs": "Vymazat logy ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Otevřít složku s logy",
+
+  "runtimeSettings/title": "Nastavení runtime",
+  "runtimeSettings/chooseRuntime/title": "Nastavení runtime",
+  "runtimeSettings/chooseRuntime/description": "Vyberte runtime pro každý formát modelu",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobrazit všechny verze",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Ve výchozím nastavení LM Studio zobrazuje pouze nejnovější verzi každého runtime. Povolením této možnosti můžete zobrazit všechny dostupné verze.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Vyberte runtime",
+
+  "runtimeOptions/uninstall": "Odinstalovat",
+  "runtimeOptions/uninstallDialog/title": "Odinstalovat {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Odinstalování tohoto runtime odstraní jej ze systému. Tato akce je nevratná.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Některé soubory mohou být odstraněny až po restartování LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Nepodařilo se odinstalovat runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Pokračovat a odinstalovat",
+  "runtimeOptions/uninstallDialog/cancel": "Zrušit",
+
+  "inferenceParams/noParams": "Žádné konfigurovatelné parametry inference pro tento typ modelu",
+
+  "endpoints/openaiCompatRest/title": "Podporované koncovky (jako OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Vypsat nahráné modely",
+  "endpoints/openaiCompatRest/postCompletions": "Režim dokončování textu. Předpovídejte další token (tokeny) na základě příkazu. Poznámka: OpenAI považuje tento koncový bod za 'zastaralý'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Dokončování chatu. Odešlete historii chatu modelu pro předpověď další odpovědi asistenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Textové vložení. Vytvořte textové vložení pro daný textový vstup. Přijímá řetězec nebo pole řetězců.",
+
+  "model.createVirtualModelFromInstance": "Uložit nastavení jako nový virtuální model",
+  "model.createVirtualModelFromInstance/error": "Nepodařilo se uložit nastavení jako nový virtuální model",
+
+  "apiConfigOptions/title": "Nastavení API"
+}
