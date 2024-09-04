@@ -95,7 +95,7 @@
   "prediction/busyModel/title": "Model is busy",
   "prediction/busyModel/message": "Please wait until the model finishes and try again",
   "prediction/noModel/title": "No model selected",
-  "prediction/noModel/message": "Please select a model to send a message",
+  "prediction/noModel/message": "Select a model to send a message",
   "prediction/unloadModel/error": "Failed to unload the model",
 
   "retrieval/user/processingLabel": "The AI is thinking...",

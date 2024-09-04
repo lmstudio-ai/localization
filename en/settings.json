@@ -4,8 +4,10 @@
   "checkForUpdates": "Check for updates",
   "failedCheckingAppUpdate": "Failed to check for updates",
   "newUpdateAvailable": "A new version of LM Studio is available! 🎉",
+  "newBetaUpdateAvailable": "A new beta version of LM Studio is available! 🛠️🎉",
   "downloadingInProgress": "Downloading update...",
   "downloadUpdate": "Update to LM Studio {{version}}",
+  "downloadBetaUpdate": "Update to LM Studio Beta {{version}} (build {{build}})",
   "downloadCompleted": "Download Completed!",
   "updateDownloadComplete": "Update Downloaded Successfully!",
   "updateDownloadFailed": "Update Failed!",
@@ -76,6 +78,12 @@
   "backendDownloadChannel.value.latest": "Dev",
   "backendDownloadChannel.shortLabel": "Runtime download channel",
   "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users.",
+
+  "appUpdateChannel.label": "LM Studio Update Channel",
+  "appUpdateChannel.value.stable": "Stable",
+  "appUpdateChannel.value.beta": "Beta",
+  "appUpdateChannel.shortLabel": "App update channel",
+  "appUpdateChannel.hint": "Choose the channel from which to receive LM Studio app updates. \"{{stableName}}\" is the recommended channel for most users.",
 
   "modelLoadingGuardrails.label": "Model Loading Guardrails",
   "modelLoadingGuardrails.description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
