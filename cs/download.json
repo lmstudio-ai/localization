@@ -1,0 +1,20 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Probíhá rozbalování...",
+  "finalizing": "Dokončování stahování... (to může chvíli trvat)",
+  "noOptions": "Nejsou k dispozici kompatibilní možnosti pro stahování",
+  
+  "deeplink/confirmation/title": "Stáhnout model z Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Vybrat doporučené",
+  "deeplink/confirmation/selectOption": "Vybrat možnost stahování",
+  "deeplink/confirmation/recommendedOption": "Nejlepší možnost pro většinu uživatelů",
+  "deeplink/confirmation/downloadButton": "Stáhnout",
+  "deeplink/confirmation/nevermindButton": "Zapomenout",
+  "deeplink/confirmation/modelPresent/title": "Model Hugging Face nalezen ✅",
+  "deeplink/confirmation/modelPresent/body": "Dobrá zpráva! Tento modelový soubor je již dostupný na vašem místním počítači.",
+  "deeplink/confirmation/loadInChat": "Načíst {{ modelName }} do nového chatu",
+  "deeplink/error/modelNotFound/title": "O ou, nepodařilo se nám najít tento model",
+  "deeplink/error/modelNotFound/body": "Zkontrolujte název modelu a zkuste jinou možnost stahování.",
+  "deeplink/actions/trySearching": "Zkuste vyhledat {{modelName}} na Hugging Face"
+}
+  
