@@ -1,0 +1,63 @@
+{
+  "tabs/server": "Servidor local",
+  "tabs/extensions": "Extensões",
+  "loadSettings/title": "Configurações de carregamento",
+  "modelSettings/placeholder": "Selecione um modelo para configurá-lo",
+
+  "loadedModels/noModels": "Nenhum modelo carregado",
+  
+  "serverOptions/title": "Opções do servidor",
+  "serverOptions/configurableTitle": "Opções configuráveis",
+  "serverOptions/port/hint": "Defina a porta de rede que o servidor local irá usar. Por princípio, o LM Studio usa a porta 1234. Poderá ter que alterar se esta porta já estiver a ser usada.",
+  "serverOptions/port/subtitle": "Porta de rede a usar  ",
+  "serverOptions/autostart/title": "Auto-start servidor",
+  "serverOptions/autostart/hint": "Iniciar o servidor local automaticamente quando um modelo for carregado",
+  "serverOptions/port/integerWarning": "O número da porta deve ser um inteiro",
+  "serverOptions/port/invalidPortWarning": "O número da porta deve ser definifdo entre 1 e 65535",
+  "serverOptions/cors/title": "Ativar CORS",
+  "serverOptions/cors/hint1": "Ativar CORS (Cross-origin Resource Sharing) permite que os sites que visita façam pedidos ao servidor LM Studio.",
+  "serverOptions/cors/hint2": "CORS pode ser necessário ao fazer pedidos a partir de uma página web, extensão VS Code ou outras extensões.",
+  "serverOptions/cors/subtitle": "Permitir pedidos cross-origin",
+  "serverOptions/network/title": "Servir na rede local",
+  "serverOptions/network/subtitle": "Tornar este servidor visível para outros dispositivos na rede.",
+  "serverOptions/network/hint1": "Se deve permitir ligações de outros dispositivos na rede.",
+  "serverOptions/network/hint2": "Se não for selecionado, o servidor ouvirá apenas no localhost.",
+  "serverOptions/verboseLogging/title": "Registo detalhado",
+  "serverOptions/verboseLogging/subtitle": "Ativar registo detalhado para o servidor local",
+  "serverOptions/contentLogging/title": "Registar prompts e respostas",
+  "serverOptions/contentLogging/subtitle": "Configurações de registo de requisição / resposta local",
+  "serverOptions/contentLogging/hint": "Se deve registrar prompts e/ou a resposta no ficheiro de log do servidor local.",
+  "serverOptions/loadModel/error": "Ocorreu um erro ao carregar o modelo",
+  
+  "serverLogs/scrollToBottom": "Ir para o final",
+  "serverLogs/clearLogs": "Limpar Logs ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Abrir pasta de logs do servidor",
+  
+  "runtimeSettings/title": "Configurações Runtime",
+  "runtimeSettings/chooseRuntime/title": "Configurar Runtime",
+  "runtimeSettings/chooseRuntime/description": "Definir um Runtime p para o tipo de mecanismo",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todas as versões",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por princípio, o LM Studio mostra apenas a versão mais recente de cada Runtime. Ative esta opção para ver todas as versões disponíveis.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecione um Runtime",
+  
+  "runtimeOptions/uninstall": "Desinstalar",
+  "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Desinstalar este Runtime irá removê-lo do sistema. Esta ação é irreversível.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Alguns ficheiros só podem ser removidos após reinicializar o LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Ocorreu um erro ao desinstalar Runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Continuar e desinstalar",
+  "runtimeOptions/uninstallDialog/cancel": "Cancelar",
+  
+  "inferenceParams/noParams": "Nenhum parâmetro de inferência configurável disponível para este tipo de modelo",
+  
+  "endpoints/openaiCompatRest/title": "Endpoints suportados (compatíveis com OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Listar os modelos atualmente carregados",
+  "endpoints/openaiCompatRest/postCompletions": "Modo de pós-processamento de texto. Prever o próximo token(s) dado um prompt. Nota: A OpenAI considera este endpoint 'obsoleto'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Pós-processamento de chat. Enviar histórico de chat para o modelo para prever a próxima resposta do assistente",
+  "endpoints/openaiCompatRest/postEmbeddings": "Embeddings de texto. Gerar embeddings de texto para uma determinada entrada de texto. Recebe uma string ou matriz de strings.",
+  
+  "model.createVirtualModelFromInstance": "Guardar Configurações como um Novo Modelo Virtual",
+  "model.createVirtualModelFromInstance/error": "Ocorreu um erro ao guardar configurações como novo modelo virtual",
+  
+  "apiConfigOptions/title": "Configuração da API"
+}
