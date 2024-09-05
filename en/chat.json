@@ -95,7 +95,7 @@
   "prediction/busyModel/title": "Model is busy",
   "prediction/busyModel/message": "Please wait until the model finishes and try again",
   "prediction/noModel/title": "No model selected",
-  "prediction/modelLoading": "Model still loading...",
+  "prediction/modelLoading": "Message queued, will be sent when the model finishes loading",
   "prediction/noModel/message": "Select a model to send a message",
   "prediction/unloadModel/error": "Failed to unload the model",
 
