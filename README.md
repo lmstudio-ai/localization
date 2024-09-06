@@ -14,6 +14,7 @@ LM Studio localization
 - Vietnamese [@trinhvanminh](https://github.com/trinhvanminh)
 - Portuguese (BR) [@Sm1g00l](https://github.com/Sm1g00l)
 - Portuguese (PT) [@catarino](https://github.com/catarino)
-
+- Chinese [@cfwvip](https://github.com/cfwvip)
+  
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
