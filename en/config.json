@@ -172,7 +172,8 @@
     "contextLength": {
       "maxValueTooltip": "This is the maximum number of tokens the model was trained to handle. Click to set the context to this value",
       "maxValueTextStart": "Model supports up to",
-      "maxValueTextEnd": "tokens"
+      "maxValueTextEnd": "tokens",
+      "tooltipHint": "While a model may support up to a certain number of tokens, performance may deteriorate if your machine's resources cannot handle the load - use caution when increasing this value"
     }
   },
 
