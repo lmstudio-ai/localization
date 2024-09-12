@@ -1,23 +1,22 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
-
+  "action.skipOnboarding": "跳过引导",
+  "action.next": "下一步",
+  "action.back": "上一步",
+  "action.finish": "完成",
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "您现在可以通过检索增强生成 (RAG) 使用您自己的文档进行聊天。工作原理如下：",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "附加文件",
+        "description": "一次上传最多 5 个文件，最大总大小为 30MB。支持的格式包括 PDF、DOCX、TXT 和 CSV。"
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "具体说明",
+        "description": "提问时，尽可能多地提及细节。这有助于系统从您的文档中检索最相关的信息。"
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "获取响应并进行实验",
+        "description": "LLM 将查看您的查询和从文档中检索的摘录，并尝试生成响应。通过不同的查询进行实验，找到最适合的方式。"
       }
     }
   }

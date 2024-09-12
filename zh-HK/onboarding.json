@@ -1,23 +1,22 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
-
+  "action.skipOnboarding": "跳過入門",
+  "action.next": "下一步",
+  "action.back": "上一步",
+  "action.finish": "完成",
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "你現在可以通過檔案檢索增強生成 (RAG) 使用你的文件進行聊天。運作方式如下：",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "附加文件",
+        "description": "一次最多上傳 5 個文件，最大總大小為 30MB。支持的格式包括 PDF、DOCX、TXT 和 CSV。"
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "具體說明",
+        "description": "在提問時，請盡可能多提及細節。這有助於系統從你的文件中檢索最相關的信息。"
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "獲取回應並進行測試",
+        "description": "LLM 會查看你的查詢和從文檔中檢索的摘錄，並嘗試生成回應。通過不同的查詢進行測試，找出最佳方式。"
       }
     }
   }
