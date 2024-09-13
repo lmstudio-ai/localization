@@ -56,12 +56,6 @@
   "llm.prediction.contextOverflowPolicy/title": "Conversation Overflow",
   "llm.prediction.contextOverflowPolicy/subTitle": "How the model should behave when the conversation grows too large for it to handle",
   "llm.prediction.contextOverflowPolicy/info": "Decide what to do when the conversation exceeds the size of the model's working memory ('context')",
-  "llm.prediction.contextOverflowPolicy/stopAtLimit": "Stop at Limit",
-  "llm.prediction.contextOverflowPolicy/stopAtLimitSub": "Stop generating once the model's memory gets full",
-  "llm.prediction.contextOverflowPolicy/truncateMiddle": "Truncate Middle",
-  "llm.prediction.contextOverflowPolicy/truncateMiddleSub": "Removes messages from the middle of the conversation to make room for newer ones. The model will still remember the beginning of the conversation",
-  "llm.prediction.contextOverflowPolicy/rollingWindow": "Rolling Window",
-  "llm.prediction.contextOverflowPolicy/rollingWindowSub": "The model will always get the most recent few messages but may forget the beginning of the conversation",
   "llm.prediction.llama.frequencyPenalty/title": "Frequency Penalty",
   "llm.prediction.llama.presencePenalty/title": "Presence Penalty",
   "llm.prediction.llama.tailFreeSampling/title": "Tail-Free Sampling",
@@ -80,23 +74,6 @@
   "llm.prediction.structured/info": "Structured Output",
   "llm.prediction.promptTemplate/title": "Prompt Template",
   "llm.prediction.promptTemplate/subTitle": "The format in which messages in chat are sent to the model. Changing this may introduce unexpected behavior - make sure you know what you're doing!",
-  "llm.prediction.promptTemplate.types.jinja/label": "Jinja",
-  "llm.prediction.promptTemplate.types.jinja/error": "Failed to parse Jinja template: {{error}}",
-  "llm.prediction.promptTemplate.types.manual/label": "Manual",
-  "llm.prediction.promptTemplate.manual.subfield.beforeSystem/label": "Before System",
-  "llm.prediction.promptTemplate.manual.subfield.beforeSystem/placeholder": "Enter System prefix...",
-  "llm.prediction.promptTemplate.manual.subfield.afterSystem/label": "After System",
-  "llm.prediction.promptTemplate.manual.subfield.afterSystem/placeholder": "Enter System suffix...",
-  "llm.prediction.promptTemplate.manual.subfield.beforeUser/label": "Before User",
-  "llm.prediction.promptTemplate.manual.subfield.beforeUser/placeholder": "Enter User prefix...",
-  "llm.prediction.promptTemplate.manual.subfield.afterUser/label": "After User",
-  "llm.prediction.promptTemplate.manual.subfield.afterUser/placeholder": "Enter User suffix...",
-  "llm.prediction.promptTemplate.manual.subfield.beforeAssistant/label": "Before Assistant",
-  "llm.prediction.promptTemplate.manual.subfield.beforeAssistant/placeholder": "Enter Assistant prefix...",
-  "llm.prediction.promptTemplate.manual.subfield.afterAssistant/label": "After Assistant",
-  "llm.prediction.promptTemplate.manual.subfield.afterAssistant/placeholder": "Enter Assistant suffix...",
-  "llm.prediction.promptTemplate.stopStrings/label": "Additional Stop Strings",
-  "llm.prediction.promptTemplate.stopStrings/subTitle": "Template specific stop strings that will be used in addition to user-specified stop strings.",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -160,11 +137,52 @@
   "embedding.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
 
   "customInputs": {
+    "checkboxNumeric": {
+      "off": "OFF"
+    },
+    "stringArray": {
+      "empty": "Empty"
+    },
+    "llmPromptTemplate": {
+      "type": "Type",
+      "types.jinja/label": "Jinja",
+      "jinja.bosToken/label": "BOS Token",
+      "jinja.eosToken/label": "EOS Token",
+      "jinja.template/label": "Template",
+      "jinja/error": "Failed to parse Jinja template: {{error}}",
+      "types.manual/label": "Manual",
+      "manual.subfield.beforeSystem/label": "Before System",
+      "manual.subfield.beforeSystem/placeholder": "Enter System prefix...",
+      "manual.subfield.afterSystem/label": "After System",
+      "manual.subfield.afterSystem/placeholder": "Enter System suffix...",
+      "manual.subfield.beforeUser/label": "Before User",
+      "manual.subfield.beforeUser/placeholder": "Enter User prefix...",
+      "manual.subfield.afterUser/label": "After User",
+      "manual.subfield.afterUser/placeholder": "Enter User suffix...",
+      "manual.subfield.beforeAssistant/label": "Before Assistant",
+      "manual.subfield.beforeAssistant/placeholder": "Enter Assistant prefix...",
+      "manual.subfield.afterAssistant/label": "After Assistant",
+      "manual.subfield.afterAssistant/placeholder": "Enter Assistant suffix...",
+      "stopStrings/label": "Additional Stop Strings",
+      "stopStrings/subTitle": "Template specific stop strings that will be used in addition to user-specified stop strings."
+    },
     "contextLength": {
       "maxValueTooltip": "This is the maximum number of tokens the model was trained to handle. Click to set the context to this value",
       "maxValueTextStart": "Model supports up to",
       "maxValueTextEnd": "tokens",
       "tooltipHint": "While a model may support up to a certain number of tokens, performance may deteriorate if your machine's resources cannot handle the load - use caution when increasing this value"
+    },
+    "contextOverflowPolicy": {
+      "stopAtLimit": "Stop at Limit",
+      "stopAtLimitSub": "Stop generating once the model's memory gets full",
+      "truncateMiddle": "Truncate Middle",
+      "truncateMiddleSub": "Removes messages from the middle of the conversation to make room for newer ones. The model will still remember the beginning of the conversation",
+      "rollingWindow": "Rolling Window",
+      "rollingWindowSub": "The model will always get the most recent few messages but may forget the beginning of the conversation"
+    },
+    "llamaAccelerationOffloadRatio": {
+      "max": "MAX",
+      "off": "OFF"
     }
   },
 
