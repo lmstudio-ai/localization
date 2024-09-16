@@ -199,6 +199,15 @@
       "off": "OFF"
     }
   },
+  "conflictResolution": {
+    "title": "Conflict",
+    "description": "There is a conflict between your unsaved settings and the preset you are trying to apply. How would you like to resolve this?",
+    "userValues": "Your Changes",
+    "presetValues": "Incoming Changes",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "empty": "<Empty>",
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it."
 }
