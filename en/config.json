@@ -151,11 +151,14 @@
   },
 
   "customInputs": {
+    "string": {
+      "emptyParagraph": "<Empty>"
+    },
     "checkboxNumeric": {
       "off": "OFF"
     },
     "stringArray": {
-      "empty": "Empty"
+      "empty": "<Empty>"
     },
     "llmPromptTemplate": {
       "type": "Type",
