@@ -65,7 +65,7 @@
   "pinned": "This model is pinned. Right click to unpin.",
   "lastUsed": "Last Used",
   "contextMenu/pin": "Pin to Top",
-  "contextMenu/unpin": "Unpin from Top",
+  "contextMenu/unpin": "Unpin",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
   "contextMenu/copyModelName": "Copy Model Path",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
