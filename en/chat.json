@@ -25,9 +25,9 @@
   "emptyFolder": "Folder is Empty",
 
   "tokenCount": "Token count",
-  
+  "messageTokenCount": "Input token count",
   "tokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nRequires the model to be loaded.",
-  "messageTokenCount/hint": "The number of tokens in the entire conversation plus the **not yet sent** message. Counted using the currently selected model's tokenizer.",
+  "messageTokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nDoes **NOT** include an estimate of tokens in file attachements.",
 
   "notes": "Conversation Notes",
   "notes/add/first": "Add a note",
@@ -77,6 +77,8 @@
   "editMessageConfirm/discard": "Discard Changes",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Context is {{percentage}}% full",
+  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Oveflow Policy, the context may be truncated or the message may not be sent.",
   "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
   "modelLoader/manualLoadParams/hint/before": "(or hold ",
   "modelLoader/manualLoadParams/hint/after": ")",
