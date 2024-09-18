@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "Select a chat",
   "unnamedChat": "Unnamed Chat",
   "emptyFolder": "Folder is Empty",
+
+  "tokenCount": "Token count",
+  
+  "tokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nRequires the model to be loaded.",
+  "messageTokenCount/hint": "The number of tokens in the entire conversation plus the **not yet sent** message. Counted using the currently selected model's tokenizer.",
+
   "notes": "Conversation Notes",
   "notes/add/first": "Add a note",
   "notes/add/another": "Add another note",
