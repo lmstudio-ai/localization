@@ -211,6 +211,11 @@
     "cancel": "Cancel"
   },
   "empty": "<Empty>",
+  "presets": {
+    "save": "Save",
+    "saveAs": "Save As...",
+    "cannotSaveLegacy": "This is a legacy preset and cannot be saved. You can create a copy by using \"Save As...\"."
+  },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it."
 }
