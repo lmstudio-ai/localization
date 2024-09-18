@@ -1,0 +1,23 @@
+{
+  "action.skipOnboarding": "跳过引导",
+  "action.next": "下一步",
+  "action.back": "上一步",
+  "action.finish": "完成",
+  "dismissable_rag_modal": {
+    "description": "您现在可以通过检索增强生成 (RAG) 使用您自己的文档进行聊天。工作原理如下：",
+    "instructions": {
+      "attach_files": {
+        "title": "附加文件",
+        "description": "一次上传最多 5 个文件，最大总大小为 30MB。支持的格式包括 PDF、DOCX、TXT 和 CSV。"
+      },
+      "be_specific": {
+        "title": "具体说明",
+        "description": "提问时，尽可能多地提及细节。这有助于系统从您的文档中检索最相关的信息。"
+      },
+      "get_responses": {
+        "title": "获取响应并进行实验",
+        "description": "LLM 将查看您的查询和从文档中检索的摘录，并尝试生成响应。通过不同的查询进行实验，找到最适合的方式。"
+      }
+    }
+  }
+}

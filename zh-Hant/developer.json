@@ -1,0 +1,63 @@
+{
+  "tabs/server": "本地伺服器",
+  "tabs/extensions": "擴充套件",
+  "loadSettings/title": "載入設定",
+  "modelSettings/placeholder": "選擇一個模型來配置它",
+  
+  "loadedModels/noModels": "沒有已載入模型",
+
+  "serverOptions/title": "伺服器選項",
+  "serverOptions/configurableTitle": "配置選項",
+  "serverOptions/port/hint": "設定本地伺服器使用的通訊埠。預設情況下，LM Studio 使用通訊埠 1234。如果該通訊埠已被佔用，您可能需要更改此設定。",
+  "serverOptions/port/subtitle": "監聽的通訊埠",
+  "serverOptions/autostart/title": "自動啟動伺服器",
+  "serverOptions/autostart/hint": "載入模型時自動啟動本地伺服器",
+  "serverOptions/port/integerWarning": "通訊埠必須是整數",
+  "serverOptions/port/invalidPortWarning": "通訊埠必須在 1 到 65535 之間",
+  "serverOptions/cors/title": "啟用 CORS",
+  "serverOptions/cors/hint1": "啟用 CORS（跨來源資源共用）將允許您訪問的網站向 LM Studio 伺服器發出請求。",
+  "serverOptions/cors/hint2": "當從網頁或 VS Code/其他擴充功能發出請求時，可能需要啟用 CORS。",
+  "serverOptions/cors/subtitle": "允許跨來源請求",
+  "serverOptions/network/title": "在區域網路上提供服務",
+  "serverOptions/network/subtitle": "使此伺服器對網路上的其他裝置可見",
+  "serverOptions/network/hint1": "是否允許來自網路上其他裝置的連接。",
+  "serverOptions/network/hint2": "如果未選中，伺服器將僅在本地主機上監聽。",
+  "serverOptions/verboseLogging/title": "詳細日誌記錄",
+  "serverOptions/verboseLogging/subtitle": "為本地伺服器啓用詳細日志",
+  "serverOptions/contentLogging/title": "記錄提示和回應",
+  "serverOptions/contentLogging/subtitle": "本地請求/回應日誌記錄設定",
+  "serverOptions/contentLogging/hint": "是否在本地伺服器日誌檔案中記錄提示和/或回應。",
+  "serverOptions/loadModel/error": "載入模型失敗",
+  
+  "serverLogs/scrollToBottom": "跳到底部",
+  "serverLogs/clearLogs": "清除日誌（{{shortcut}}）",
+  "serverLogs/openLogsFolder": "打開伺服器日志資料夾",
+
+  "runtimeSettings/title": "運行時設定",
+  "runtimeSettings/chooseRuntime/title": "配置運行時",
+  "runtimeSettings/chooseRuntime/description": "為每種模型格式設定運行時",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "顯示所有版本",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "預設情況下，LM Studio 僅顯示每個運行時的最新版本。啟用此選項可查看所有可用版本。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "選擇一個運行時",
+
+  "runtimeOptions/uninstall": "卸載",
+  "runtimeOptions/uninstallDialog/title": "卸載 {{runtimeName}}？",
+  "runtimeOptions/uninstallDialog/body": "卸載此運行時將會將其從系統中移除。此操作不可逆。",
+  "runtimeOptions/uninstallDialog/body/caveats": "某些檔案可能僅在重啟 LM Studio 後才能被移除。",
+  "runtimeOptions/uninstallDialog/error": "卸載運行時失敗",
+  "runtimeOptions/uninstallDialog/confirm": "繼續並卸載",
+  "runtimeOptions/uninstallDialog/cancel": "取消",
+
+  "inferenceParams/noParams": "此模型類型沒有可配置的推理參數",
+
+  "endpoints/openaiCompatRest/title": "支援的端點 (OpenAI-like)",
+  "endpoints/openaiCompatRest/getModels": "列出當前已載入的模型",
+  "endpoints/openaiCompatRest/postCompletions": "文本補全模式。根據提示語預測下一個 token。注意：OpenAI 將此端點視為“已棄用”。",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天補全。將聊天對話歷史發送到模型以預測下一個助理回應",
+  "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。為給定的文本輸入生成文本嵌入。接受字符串或字符串數組。",
+
+  "model.createVirtualModelFromInstance": "將設置保存為新虛擬模型",
+  "model.createVirtualModelFromInstance/error": "將設置保存為新虛擬模型失敗",
+
+  "apiConfigOptions/title": "API 配置"
+}
