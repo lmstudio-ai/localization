@@ -84,9 +84,9 @@
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "Failed to move",
   "actions/rename/error": "Failed to rename",
-  "actions/createChatAtRoot": "Create New Chat",
+  "actions/createChatAtRoot": "New Chat...",
   "actions/createChatAtRoot/error": "Failed to create chat at root",
-  "actions/createFolderAtRoot": "Create New Folder",
+  "actions/createFolderAtRoot": "New Folder...",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
   "actions/createChat/error": "Failed to create chat",
 
