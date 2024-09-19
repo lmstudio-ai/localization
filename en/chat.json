@@ -121,5 +121,8 @@
   "style/fontSize/label": "Font Size",
   "style/fontSize/medium": "Default",
   "style/fontSize/large": "Large",
-  "style/fontSize/small": "Small"
+  "style/fontSize/small": "Small",
+
+  "topBarActions/duplicateChat": "Duplicate chat",
+  "topBarActions/clearChat": "Clear all messages"
 }
