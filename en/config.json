@@ -212,9 +212,19 @@
   },
   "empty": "<Empty>",
   "presets": {
-    "save": "Save",
-    "saveAs": "Save As...",
-    "cannotSaveLegacy": "This is a legacy preset and cannot be saved. You can create a copy by using \"Save As...\"."
+    "title": "Preset",
+    "save": "Commit Changes",
+    "saveAs": "Save As New...",
+    "cannotSaveLegacy": "This is a legacy preset and cannot be saved. You can create a copy by using \"Save As...\".",
+    "emptyNoUnsaved": "Select a Preset...",
+    "emptyWithUnsaved": "Unsaved Preset",
+    "saveEmptyWithUnsaved": "Save Preset As...",
+    "saveConfirm": "Save",
+    "saveCancel": "Cancel",
+    "saving": "Saving...",
+    "save/error": "Failed to save preset.",
+    "deselect": "Deselect Preset",
+    "deselect/error": "Failed to deselect preset."
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it."
