@@ -1,0 +1,18 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "解壓縮中...",
+  "finalizing": "正在完成下載...（這可能需要幾分鐘）",
+  "noOptions": "沒有可用的兼容選項下載",
+  "deeplink/confirmation/title": "從 Hugging Face 🤗 下載模型",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "選擇推薦",
+  "deeplink/confirmation/selectOption": "選擇下載選項",
+  "deeplink/confirmation/recommendedOption": "可能是大多數用戶的最佳選擇",
+  "deeplink/confirmation/downloadButton": "下載",
+  "deeplink/confirmation/nevermindButton": "算了",
+  "deeplink/confirmation/modelPresent/title": "發現 Hugging Face 模型 ✅",
+  "deeplink/confirmation.modelPresent/body": "好消息！此模型文件已存在於你的本地機器上。",
+  "deeplink/confirmation/loadInChat": "在新聊天中加載 {{ modelName }}",
+  "deeplink/error/modelNotFound/title": "哎呀，我們找不到此模型",
+  "deeplink/error.modelNotFound/body": "請仔細檢查模型名稱並考慮嘗試其他下載選項。",
+  "deeplink/actions/trySearching": "嘗試在 Hugging Face 上搜索 {{modelName}}"
+}

@@ -5,7 +5,7 @@
   "modelSettings/placeholder": "Select a model to configure it",
 
   "loadedModels/noModels": "No models loaded",
-  
+
   "serverOptions/title": "Server Options",
   "serverOptions/configurableTitle": "Configurable Options",
   "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
@@ -28,7 +28,7 @@
   "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
   "serverOptions/loadModel/error": "Failed to load model",
-  
+
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
   "serverLogs/openLogsFolder": "Open server logs folder",
@@ -47,6 +47,9 @@
   "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
   "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
   "runtimeOptions/uninstallDialog/cancel": "Cancel",
+  "runtimeOptions/noCompatibleRuntimes": "No compatible runtimes found",
+  "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
+  "runtimeOptions/noRuntimes": "No runtimes found",
 
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
