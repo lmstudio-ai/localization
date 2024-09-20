@@ -53,7 +53,7 @@
   "llm.prediction.stopStrings/subTitle": "Strings that should stop the model from generating more tokens",
   "llm.prediction.stopStrings/info": "Specific strings that when encountered will stop the model from generating more tokens",
   "llm.prediction.stopStrings/placeholder": "Enter a string and press ⏎",
-  "llm.prediction.contextOverflowPolicy/title": "Conversation Overflow",
+  "llm.prediction.contextOverflowPolicy/title": "Context Overflow",
   "llm.prediction.contextOverflowPolicy/subTitle": "How the model should behave when the conversation grows too large for it to handle",
   "llm.prediction.contextOverflowPolicy/info": "Decide what to do when the conversation exceeds the size of the model's working memory ('context')",
   "llm.prediction.llama.frequencyPenalty/title": "Frequency Penalty",
@@ -229,7 +229,7 @@
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
 
-  "seedUncheckedHint": "Random seed",
+  "seedUncheckedHint": "Random Seed",
   "ropeFrequencyBaseUncheckedHint": "Auto",
   "ropeFrequencyScaleUncheckedHint": "Auto"
 }
