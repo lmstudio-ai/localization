@@ -109,6 +109,9 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
 
+  "experimentalLoadPresets": "(Experimental) Enable model load configuration support in presets",
+  "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
+
   "expandConfigsOnClick": "Expand configs on click rather than hover",
 
   "migrateChats": {
