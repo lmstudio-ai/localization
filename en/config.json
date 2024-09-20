@@ -227,5 +227,9 @@
     "deselect/error": "Failed to deselect preset."
   },
 
-  "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it."
+  "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
+
+  "seedUncheckedHint": "Random seed",
+  "ropeFrequencyBaseUncheckedHint": "Auto",
+  "ropeFrequencyScaleUncheckedHint": "Auto"
 }
