@@ -162,7 +162,7 @@
     },
     "llmPromptTemplate": {
       "type": "Type",
-      "types.jinja/label": "Jinja",
+      "types.jinja/label": "Template (Jinja)",
       "jinja.bosToken/label": "BOS Token",
       "jinja.eosToken/label": "EOS Token",
       "jinja.template/label": "Template",
