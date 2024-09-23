@@ -1,4 +1,8 @@
 {
+  "settingsDialogTitle": "App Settings",
+  "settingsDialogButtonTooltip": "App Settings",
+  "settingsNewButtonLocationTitle": "New",
+  "settingsNewButtonPopoverPrefix": "App Settings are now here. Open them with",
   "appUpdate": "App Update",
   "checkingAppUpdate": "Checking for updates...",
   "checkForUpdates": "Check for updates",
