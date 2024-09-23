@@ -202,11 +202,21 @@
       "off": "OFF"
     }
   },
-  "conflictResolution": {
-    "title": "Conflict",
+  "saveConflictResolution": {
+    "title": "Choose which values to save",
     "description": "There is a conflict between your unsaved settings and the preset you are trying to apply. How would you like to resolve this?",
-    "userValues": "Your Changes",
-    "presetValues": "Incoming Changes",
+    "instructions": "Click on a value to select it",
+    "userValues": "Your Values",
+    "presetValues": "Incoming Values",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "applyConflictResolution": {
+    "title": "Choose which values to apply",
+    "description": "Your uncommitted settings differ from the incoming preset's values",
+    "instructions": "Click on a value to select it",
+    "userValues": "Current Value",
+    "presetValues": "Incoming Preset Value",
     "confirm": "Confirm",
     "cancel": "Cancel"
   },
