@@ -245,6 +245,7 @@
     "save/error": "Failed to save preset.",
     "deselect": "Deselect Preset",
     "deselect/error": "Failed to deselect preset.",
+    "delete/error": "Failed to delete preset.",
     "discardChanges": "Reset Changes"
   },
 
