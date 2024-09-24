@@ -144,7 +144,7 @@
     "separateLoad/description.1": "The preset also includes the following load-time configuration. Load time config are model-wide and requires reloading the model to take effect. Hold",
     "separateLoad/description.2": "to apply to",
     "separateLoad/description.3": ".",
-    "excluded/title": "Excludes",
+    "excluded/title": "May not apply",
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
     "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable."
