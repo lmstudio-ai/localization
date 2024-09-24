@@ -208,7 +208,7 @@
     "instructions": "Click on a value to include it",
     "userValues": "Previous Value",
     "presetValues": "New Value",
-    "confirm": "Save",
+    "confirm": "Confirm",
     "cancel": "Cancel"
   },
   "applyConflictResolution": {
