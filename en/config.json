@@ -203,18 +203,18 @@
     }
   },
   "saveConflictResolution": {
-    "title": "Choose which values to save",
-    "description": "There is a conflict between your unsaved settings and the preset you are trying to apply. How would you like to resolve this?",
-    "instructions": "Click on a value to select it",
-    "userValues": "Your Values",
-    "presetValues": "Incoming Values",
-    "confirm": "Confirm",
+    "title": "Choose which values to include in the Preset",
+    "description": "Some of your new values don't yet exist in the Preset",
+    "instructions": "Click on a value to include it",
+    "userValues": "Previous Value",
+    "presetValues": "New Value",
+    "confirm": "Save",
     "cancel": "Cancel"
   },
   "applyConflictResolution": {
-    "title": "Choose which values to apply",
-    "description": "Your uncommitted settings differ from the incoming preset's values",
-    "instructions": "Click on a value to select it",
+    "title": "Which values to keep?",
+    "description": "You have uncommitted changes which overlap with the incoming Preset",
+    "instructions": "Click on a value to keep it",
     "userValues": "Current Value",
     "presetValues": "Incoming Preset Value",
     "confirm": "Confirm",
@@ -244,7 +244,8 @@
     "saving": "Saving...",
     "save/error": "Failed to save preset.",
     "deselect": "Deselect Preset",
-    "deselect/error": "Failed to deselect preset."
+    "deselect/error": "Failed to deselect preset.",
+    "discardChanges": "Reset to Preset"
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
