@@ -245,9 +245,12 @@
     "save/error": "Failed to save preset.",
     "deselect": "Deselect Preset",
     "deselect/error": "Failed to deselect preset.",
+    "select/error": "Failed to select preset.",
     "delete/error": "Failed to delete preset.",
     "discardChanges": "Reset Changes",
-    "newEmptyPreset": "+ New Empty Preset"
+    "newEmptyPreset": "+ New Empty Preset",
+    "contextMenuSelect": "Select Preset",
+    "contextMenuDelete": "Delete"
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
