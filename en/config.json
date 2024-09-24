@@ -245,7 +245,7 @@
     "save/error": "Failed to save preset.",
     "deselect": "Deselect Preset",
     "deselect/error": "Failed to deselect preset.",
-    "discardChanges": "Reset to Preset"
+    "discardChanges": "Reset Changes"
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
