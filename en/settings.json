@@ -1,8 +1,12 @@
 {
   "settingsDialogTitle": "App Settings",
   "settingsDialogButtonTooltip": "App Settings",
-  "settingsNewButtonLocationTitle": "New",
-  "settingsNewButtonPopoverPrefix": "App Settings are now here. Open them with",
+  
+  "settingsNewButtonPopover": {
+    "primary": "App Settings are now at the bottom-right corner",
+    "secondary": "Click on the ⚙️ button to open them.",
+    "tertiary": "Or press"
+  },
   "appUpdate": "App Update",
   "checkingAppUpdate": "Checking for updates...",
   "checkForUpdates": "Check for updates",
