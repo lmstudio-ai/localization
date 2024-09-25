@@ -138,7 +138,7 @@
   "embedding.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
 
   "presetTooltip": {
-    "included/title": "Applies",
+    "included/title": "Preset Values",
     "included/description": "The following fields will be applied",
     "included/empty": "No fields of this preset apply in this context.",
     "separateLoad/title": "Load-time Configuration",
@@ -248,8 +248,8 @@
     "deselect/error": "Failed to deselect preset.",
     "select/error": "Failed to select preset.",
     "delete/error": "Failed to delete preset.",
-    "discardChanges": "Reset Changes",
-    "newEmptyPreset": "New Empty Preset",
+    "discardChanges": "Clear Changes",
+    "newEmptyPreset": "Create new empty preset...",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete"
   },
