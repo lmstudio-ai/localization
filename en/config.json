@@ -23,7 +23,7 @@
   "loadParameters/reload": "Reload to apply changes",
   "discardChanges": "Discard changes",
   "llm.prediction.systemPrompt/title": "System Prompt",
-  "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements. This field is also often referred to as the \"system prompt\".",
+  "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
   "llm.prediction.temperature/title": "Temperature",
   "llm.prediction.temperature/subTitle": "How much randomness to introduce. 0 will yield the same result every time, while higher values will increase creativity and variance",
@@ -53,7 +53,7 @@
   "llm.prediction.stopStrings/subTitle": "Strings that should stop the model from generating more tokens",
   "llm.prediction.stopStrings/info": "Specific strings that when encountered will stop the model from generating more tokens",
   "llm.prediction.stopStrings/placeholder": "Enter a string and press ⏎",
-  "llm.prediction.contextOverflowPolicy/title": "Conversation Overflow",
+  "llm.prediction.contextOverflowPolicy/title": "Context Overflow",
   "llm.prediction.contextOverflowPolicy/subTitle": "How the model should behave when the conversation grows too large for it to handle",
   "llm.prediction.contextOverflowPolicy/info": "Decide what to do when the conversation exceeds the size of the model's working memory ('context')",
   "llm.prediction.llama.frequencyPenalty/title": "Frequency Penalty",
@@ -144,7 +144,7 @@
     "separateLoad/description.1": "The preset also includes the following load-time configuration. Load time config are model-wide and requires reloading the model to take effect. Hold",
     "separateLoad/description.2": "to apply to",
     "separateLoad/description.3": ".",
-    "excluded/title": "Excludes",
+    "excluded/title": "May not apply",
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
     "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable."
@@ -162,7 +162,7 @@
     },
     "llmPromptTemplate": {
       "type": "Type",
-      "types.jinja/label": "Jinja",
+      "types.jinja/label": "Template (Jinja)",
       "jinja.bosToken/label": "BOS Token",
       "jinja.eosToken/label": "EOS Token",
       "jinja.template/label": "Template",
@@ -202,15 +202,60 @@
       "off": "OFF"
     }
   },
-  "conflictResolution": {
-    "title": "Conflict",
-    "description": "There is a conflict between your unsaved settings and the preset you are trying to apply. How would you like to resolve this?",
-    "userValues": "Your Changes",
-    "presetValues": "Incoming Changes",
+  "saveConflictResolution": {
+    "title": "Choose which values to include in the Preset",
+    "description": "Some of your new values don't yet exist in the Preset",
+    "instructions": "Click on a value to include it",
+    "userValues": "Previous Value",
+    "presetValues": "New Value",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "applyConflictResolution": {
+    "title": "Which values to keep?",
+    "description": "You have uncommitted changes which overlap with the incoming Preset",
+    "instructions": "Click on a value to keep it",
+    "userValues": "Current Value",
+    "presetValues": "Incoming Preset Value",
     "confirm": "Confirm",
     "cancel": "Cancel"
   },
   "empty": "<Empty>",
+  "presets": {
+    "title": "Preset",
+    "commitChanges": "Commit Changes",
+    "commitChanges/description": "Commit your changes to the preset.",
+    "commitChanges.manual": "You will be able to choose which changes to include in the preset.",
+    "commitChanges.saveAll.0": "Hold",
+    "commitChanges.saveAll.1": "to skip field selection and save all changes instead.",
+    "commitChanges.saveInPreset.0": "Hold",
+    "commitChanges.saveInPreset.1": "to skip field selection and only save changes to fields that are already included in the preset.",
+    "commitChanges/error": "Failed to commit changes to the preset.",
+    "commitChanges.manual/description": "Choose which changes to include in the preset.",
+    "saveAs": "Save As New...",
+    "presetNamePlaceholder": "Enter a name for the preset...",
+    "cannotCommitChangesLegacy": "This is a legacy preset and cannot be modified. You can create a copy by using \"Save As New...\".",
+    "cannotCommitChangesNoChanges": "No changes to commit.",
+    "emptyNoUnsaved": "Select a Preset...",
+    "emptyWithUnsaved": "Unsaved Preset",
+    "saveEmptyWithUnsaved": "Save Preset As...",
+    "saveConfirm": "Save",
+    "saveCancel": "Cancel",
+    "saving": "Saving...",
+    "save/error": "Failed to save preset.",
+    "deselect": "Deselect Preset",
+    "deselect/error": "Failed to deselect preset.",
+    "select/error": "Failed to select preset.",
+    "delete/error": "Failed to delete preset.",
+    "discardChanges": "Reset Changes",
+    "newEmptyPreset": "+ New Empty Preset",
+    "contextMenuSelect": "Select Preset",
+    "contextMenuDelete": "Delete"
+  },
 
-  "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it."
+  "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
+
+  "seedUncheckedHint": "Random Seed",
+  "ropeFrequencyBaseUncheckedHint": "Auto",
+  "ropeFrequencyScaleUncheckedHint": "Auto"
 }
