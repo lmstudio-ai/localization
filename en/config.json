@@ -22,6 +22,7 @@
   "loadParameters/description": "Settings to control the way the model is initialized and loaded into memory.",
   "loadParameters/reload": "Reload to apply changes",
   "discardChanges": "Discard changes",
+  "loadModelToSeeOptions": "Load a model to see options",
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
@@ -248,7 +249,7 @@
     "select/error": "Failed to select preset.",
     "delete/error": "Failed to delete preset.",
     "discardChanges": "Reset Changes",
-    "newEmptyPreset": "+ New Empty Preset",
+    "newEmptyPreset": "New Empty Preset",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete"
   },
