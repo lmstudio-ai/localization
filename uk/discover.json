@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Колекції",
+  "collectionsColumn/collectionError": "Помилка завантаження деталей колекції, будь ласка, спробуйте оновити вище",
+  "bookmarksColumn": "Закладки",
+  "searchBar/placeholder": "Шукати моделі на Hugging Face...",
+  "searchBar/huggingFaceError": "Виникла помилка при отриманні результатів з Hugging Face, будь ласка, спробуйте знову через деякий час",
+  "sortBy": "Сортувати за",
+  "searchSortKey.default/title": "Найкраща відповідність",
+  "searchSortKey.likes/title": "Найбільше вподобань",
+  "searchSortKey.downloads/title": "Найбільше завантажень",
+  "searchSortKey.lastModified/title": "Нещодавно оновлені",
+  "searchSortKey.createdAt/title": "Нещодавно створені",
+  "download.option.willFitEstimation.caveat": "Можуть бути інші фактори, які завадять її завантаженню, такі як архітектура моделі, цілісність файлу моделі або кількість доступної пам'яті на вашому комп'ютері.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Можливе повне вивантаження на GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Ця модель може повністю поміститися в пам'яті вашого GPU. Це може значно прискорити виведення.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Можливе часткове вивантаження на GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Ця модель може частково поміститися в пам'яті вашого GPU. Це часто може значно прискорити виведення.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Ймовірно поміститься",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Ця модель, ймовірно, поміститься в пам'ять вашої машини.",
+  "download.option.willFitEstimation.willNotFit/title": "Ймовірно занадто велика для цієї машини",
+  "download.option.willFitEstimation.willNotFit/description": "Вимоги до пам'яті для успішного використання цього файлу моделі можуть перевищувати наявні ресурси на вашій машині. Завантаження цього файлу НЕ рекомендується.",
+  "download.option.recommended/title": "Рекомендовано",
+  "download.option.recommended/description": "На основі вашого обладнання, ця опція рекомендована.",
+  "download.option.downloaded/title": "Завантажено",
+  "download.option.downloading/title": "Завантаження ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Оновити стрічку"
+}
