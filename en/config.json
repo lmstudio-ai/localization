@@ -141,6 +141,7 @@
     "included/title": "Preset Values",
     "included/description": "The following fields will be applied",
     "included/empty": "No fields of this preset apply in this context.",
+    "included/conflict": "You will be asked to choose whether to apply this value",
     "separateLoad/title": "Load-time Configuration",
     "separateLoad/description.1": "The preset also includes the following load-time configuration. Load time config are model-wide and requires reloading the model to take effect. Hold",
     "separateLoad/description.2": "to apply to",
