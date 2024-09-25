@@ -206,7 +206,7 @@
   },
   "saveConflictResolution": {
     "title": "Choose which values to include in the Preset",
-    "description": "Some of your new values don't yet exist in the Preset",
+    "description": "Pick and choose which values to keep",
     "instructions": "Click on a value to include it",
     "userValues": "Previous Value",
     "presetValues": "New Value",
@@ -249,7 +249,8 @@
     "deselect/error": "Failed to deselect preset.",
     "select/error": "Failed to select preset.",
     "delete/error": "Failed to delete preset.",
-    "discardChanges": "Clear Changes",
+    "discardChanges": "Discard Unsaved",
+    "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
     "newEmptyPreset": "Create new empty preset...",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete"
