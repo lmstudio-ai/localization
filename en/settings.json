@@ -1,7 +1,7 @@
 {
   "settingsDialogTitle": "App Settings",
   "settingsDialogButtonTooltip": "App Settings",
-  
+
   "settingsNewButtonPopover": {
     "primary": "App Settings are now at the bottom-right corner",
     "secondary": "Click on the ⚙️ button to open them.",
@@ -121,6 +121,9 @@
 
   "experimentalLoadPresets": "Enable model load configuration support in presets",
   "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
+
+  "promptWhenCommittingUnsavedChangesWithNewFields": "Prompt field selection when committing changes with new fields to presets",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "Whether to open the \"Choose Fields to Save\" dialog when committing changes that would result in more fields being included in the preset. This is useful if you want to prevent accidentally adding new fields to presets.",
 
   "expandConfigsOnClick": "Expand configs on click rather than hover",
 
