@@ -1,0 +1,66 @@
+{
+  "tabs/server": "Локальний сервер",
+  "tabs/extensions": "Середовища виконання LM",
+  "loadSettings/title": "Налаштування завантаження",
+  "modelSettings/placeholder": "Виберіть модель для її налаштування",
+
+  "loadedModels/noModels": "Немає завантажених моделей",
+
+  "serverOptions/title": "Параметри сервера",
+  "serverOptions/configurableTitle": "Налаштовувані параметри",
+  "serverOptions/port/hint": "Встановіть, який мережевий порт буде використовувати локальний сервер. За замовчуванням LM Studio використовує порт 1234. Можливо, вам потрібно буде змінити це, якщо порт вже використовується.",
+  "serverOptions/port/subtitle": "Порт для прослуховування",
+  "serverOptions/autostart/title": "Автозапуск сервера",
+  "serverOptions/autostart/hint": "Автоматично запускати локальний сервер при завантаженні моделі",
+  "serverOptions/port/integerWarning": "Номер порту має бути цілим числом",
+  "serverOptions/port/invalidPortWarning": "Порт має бути між 1 та 65535",
+  "serverOptions/cors/title": "Увімкнути CORS",
+  "serverOptions/cors/hint1": "Увімкнення CORS (Cross-origin Resource Sharing) дозволить веб-сайтам, які ви відвідуєте, робити запити до сервера LM Studio.",
+  "serverOptions/cors/hint2": "CORS може бути необхідним при виконанні запитів з веб-сторінки або VS Code / інших розширень.",
+  "serverOptions/cors/subtitle": "Дозволити міжсайтові запити",
+  "serverOptions/network/title": "Обслуговувати в локальній мережі",
+  "serverOptions/network/subtitle": "Відкрити сервер для пристроїв у мережі",
+  "serverOptions/network/hint1": "Чи дозволяти підключення з інших пристроїв у мережі.",
+  "serverOptions/network/hint2": "Якщо не вибрано, сервер буде слухати тільки на localhost.",
+  "serverOptions/verboseLogging/title": "Детальне логування",
+  "serverOptions/verboseLogging/subtitle": "Увімкнути детальне логування для локального сервера",
+  "serverOptions/contentLogging/title": "Логувати підказки та відповіді",
+  "serverOptions/contentLogging/subtitle": "Налаштування локального логування запитів / відповідей",
+  "serverOptions/contentLogging/hint": "Чи логувати підказки та/або відповіді в файл логу локального сервера.",
+  "serverOptions/loadModel/error": "Не вдалося завантажити модель",
+
+  "serverLogs/scrollToBottom": "Перейти до кінця",
+  "serverLogs/clearLogs": "Очистити логи ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Відкрити теку з логами сервера",
+
+  "runtimeSettings/title": "Налаштування середовища виконання",
+  "runtimeSettings/chooseRuntime/title": "Налаштувати середовища виконання",
+  "runtimeSettings/chooseRuntime/description": "Виберіть середовище виконання для кожного формату моделі",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показати всі версії",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "За замовчуванням LM Studio показує лише останню версію кожного середовища виконання. Увімкніть цю опцію, щоб побачити всі доступні версії.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Виберіть середовище виконання",
+
+  "runtimeOptions/uninstall": "Видалити",
+  "runtimeOptions/uninstallDialog/title": "Видалити {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Видалення цього середовища виконання призведе до його видалення з системи. Ця дія є незворотною.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Деякі файли можуть бути видалені тільки після перезапуску LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Не вдалося видалити середовище виконання",
+  "runtimeOptions/uninstallDialog/confirm": "Продовжити і видалити",
+  "runtimeOptions/uninstallDialog/cancel": "Скасувати",
+  "runtimeOptions/noCompatibleRuntimes": "Не знайдено сумісних середовищ виконання",
+  "runtimeOptions/downloadIncompatibleRuntime": "Це середовище виконання визначено як несумісне з вашою машиною. Воно, швидше за все, не працюватиме.",
+  "runtimeOptions/noRuntimes": "Не знайдено середовищ виконання",
+
+  "inferenceParams/noParams": "Для цього типу моделі немає налаштовуваних параметрів виведення",
+
+  "endpoints/openaiCompatRest/title": "Підтримувані кінцеві точки (подібні до OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Список поточно завантажених моделей",
+  "endpoints/openaiCompatRest/postCompletions": "Режим завершення тексту. Передбачити наступний токен(и) для даної підказки. Примітка: OpenAI вважає цю кінцеву точку 'застарілою'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Завершення чату. Надіслати історію чату моделі для передбачення наступної відповіді асистента",
+  "endpoints/openaiCompatRest/postEmbeddings": "Вбудовування тексту. Створити вбудовування тексту для даного текстового вводу. Приймає рядок або масив рядків.",
+
+  "model.createVirtualModelFromInstance": "Зберегти налаштування як нову віртуальну модель",
+  "model.createVirtualModelFromInstance/error": "Не вдалося зберегти налаштування як нову віртуальну модель",
+
+  "apiConfigOptions/title": "Конфігурація API"
+}
