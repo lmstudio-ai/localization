@@ -127,5 +127,9 @@
   "topBarActions/clearChat": "Clear all messages",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
   "topBarActions/clearChatCancel": "Cancel",
-  "topBarActions/clearChatDelete": "Clear All"
+  "topBarActions/clearChatDelete": "Clear All",
+
+  "noModels.indexing": "Indexing your models...",
+  "noModels.downloading": "Downloading your first LLM...",
+  "noModels": "No LLMs yet! Download one to get started!"
 }
