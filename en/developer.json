@@ -37,7 +37,7 @@
   "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
   "runtimeSettings/chooseRuntime/description": "Select a runtime for each model format",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all versions",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each runtime. Enable this option to see all available versions.",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
 
   "runtimeOptions/uninstall": "Uninstall",
