@@ -1,0 +1,44 @@
+{
+  "loadSettings/title": "加载设置", 
+  "modelSettings/placeholder": "选择一个模型进行配置", 
+	
+  "serverOptions/title": "服务器选项", 
+  "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio使用端口1234。如果该端口已被占用，你可能需要更改它。",
+  "serverOptions/cors/title": "启用CORS", 
+  "serverOptions/cors/hint1": "启用CORS（跨源资源共享）将允许访问的网站向LM Studio服务器发送请求。",
+  "serverOptions/cors/hint2": "当从网页或VS Code / 其他扩展程序发起请求时，可能需要CORS。",
+  "serverOptions/network/title": "在本地网络上提供服务", 
+  "serverOptions/network/subtitle": "使该服务器对网络上的其他设备可见", 
+  "serverOptions/network/hint1": "是否允许网络上的其他设备连接。",
+  "serverOptions/network/hint2": "如果未选中，服务器将仅监听localhost。",
+  "serverOptions/verboseLogging/title": "详细日志记录", 
+  "serverOptions/contentLogging/title": "记录提示和响应", 
+  "serverOptions/contentLogging/hint": "是否在本地服务器日志文件中记录提示和/或响应。",
+  "serverOptions/loadModel/error": "加载模型失败", 
+
+  "serverLogs/scrollToBottom": "滚动到底部", 
+  "serverLogs/clearLogs": "清除日志（{{shortcut}}）", 
+
+  "runtimeSettings/title": "运行时设置", 
+  "runtimeSettings/chooseRuntime/title": "配置运行时", 
+  "runtimeSettings/chooseRuntime/description": "为引擎类型设置默认运行时",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有版本", 
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "LM Studio默认仅显示每个运行时的最新版本。启用此选项以查看所有可用版本。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行时", 
+
+  "runtimeOptions/uninstall": "卸载", 
+  "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？", 
+  "runtimeOptions/uninstallDialog/body": "卸载此运行时将从系统中移除它。此操作不可逆。",
+  "runtimeOptions/uninstallDialog/body/caveats": "某些文件可能在重启LM Studio后才能被删除。",
+  "runtimeOptions/uninstallDialog/error": "卸载运行时失败", 
+  "runtimeOptions/uninstallDialog/confirm": "继续并卸载", 
+  "runtimeOptions/uninstallDialog/cancel": "取消", 
+
+  "endpoints/openaiCompatRest/title": "支持的端点（OpenAI风格）", 
+  "endpoints/openaiCompatRest/getModels": "列出已加载的模型",
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。根据提示预测下一个或多个令牌。注意：OpenAI认为此端点已被弃用。",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一次助手回复", 
+  "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。可以接受一个字符串或字符串数组。", 
+
+  "apiConfigOptions/title": "API配置"
+}
