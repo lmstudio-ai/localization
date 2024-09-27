@@ -1,18 +1,19 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Извлечение...",
-  "finalizing": "Завершается...",
-  "noOptions": "Нет совместимых опций, доступных для загрузки",
-  
-  "deeplink/confirmation/title": "Скачать модель с Hugging Face 🤗",
+  "finalizing": "Завершение загрузки... (это может занять некоторое время)",
+  "noOptions": "Нет совместимых опций для загрузки",
+
+  "deeplink/confirmation/title": "Загрузить модель с Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Выбрать рекомендуемую",
-  "deeplink/confirmation/selectOption": "Выберите вариант загрузки",
-  "deeplink/confirmation/recommendedOption": "Вероятно, это лучший вариант для большинства пользователей",
+  "deeplink/confirmation/selectRecommended": "Выбрать рекомендованное",
+  "deeplink/confirmation/selectOption": "Выбрать опцию загрузки",
+  "deeplink/confirmation/recommendedOption": "Вероятно, лучший вариант для большинства пользователей",
   "deeplink/confirmation/downloadButton": "Загрузить",
   "deeplink/confirmation/nevermindButton": "Неважно",
-  "deeplink/confirmation/modelPresent/title": "Найдена модель с Hugging Face ✅",
-  "deeplink/confirmation/modelPresent/body": "Хорошие новости! Этот файл модели уже доступен на вашей локальной машине.",
+  "deeplink/confirmation/modelPresent/title": "Модель Hugging Face найдена ✅",
+  "deeplink/confirmation/modelPresent/body": "Хорошие новости! Этот файл модели уже доступен на вашем локальном устройстве.",
   "deeplink/confirmation/loadInChat": "Загрузить {{ modelName }} в новый чат",
-  "deeplink/error/modelNotFound/title": "Ох-ох, мы не смогли найти эту модель",
-  "deeplink/error/modelNotFound/body": "Дважды проверьте название модели и попробуйте другой вариант загрузки."
+  "deeplink/error/modelNotFound/title": "Ой, мы не смогли найти эту модель",
+  "deeplink/error/modelNotFound/body": "Проверьте название модели и попробуйте другую опцию загрузки.",
+  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face"
 }

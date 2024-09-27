@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "跳過導覽",
+  "action.next": "下一步",
+  "action.back": "上一步",
+  "action.finish": "完成",
+
+  "dismissable_rag_modal": {
+    "description": "您現在可以利用檢索增強生成（RAG）帶上您的檔案進行對話。以下是操作方式：",
+    "instructions": {
+      "attach_files": {
+        "title": "附加檔案",
+        "description": "一次上傳最多 5 個檔案，總大小不超過 30MB。支援的格式包括 PDF、DOCX、TXT 和 CSV。"
+      },
+      "be_specific": {
+        "title": "具體說明",
+        "description": "在提問時，請儘量提供詳細資訊，這有助於系統從您的檔案中檢索最相關的資訊。"
+      },
+      "get_responses": {
+        "title": "獲取回應並嘗試",
+        "description": "LLM 會根據您的提問及從檔案中檢索到的摘要來生成回應。嘗試不同的提問以找到最適合的方式。"
+      }
+    }
+  }
+}

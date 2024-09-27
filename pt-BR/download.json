@@ -1,0 +1,19 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Extraindo...",
+  "finalizing": "Finalizando o download... (isso pode levar alguns momentos)",
+  "noOptions": "Nenhuma opção compatível disponível para download",
+  
+  "deeplink/confirmation/title": "Baixar modelo do Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Selecionar recomendado",
+  "deeplink/confirmation/selectOption": "Selecionar opção de download",
+  "deeplink/confirmation/recommendedOption": "Provavelmente a melhor opção para a maioria dos usuários",
+  "deeplink/confirmation/downloadButton": "Baixar",
+  "deeplink/confirmation/nevermindButton": "Deixa pra lá",
+  "deeplink/confirmation/modelPresent/title": "Modelo Hugging Face Encontrado ✅",
+  "deeplink/confirmation/modelPresent/body": "Boas notícias! Este arquivo de modelo já está disponível na sua máquina local.",
+  "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} em um novo chat",
+  "deeplink/error/modelNotFound/title": "Ops, não conseguimos encontrar este modelo",
+  "deeplink/error/modelNotFound/body": "Verifique o nome do modelo e considere tentar uma opção de download diferente.",
+  "deeplink/actions/trySearching": "Tente procurar por {{modelName}} no Hugging Face"
+}

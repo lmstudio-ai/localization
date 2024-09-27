@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Kolekce",
+  "collectionsColumn/collectionError": "Chyba při načítání detailů kolekce, zkuste to znovu obnovením nahoře",
+  "bookmarksColumn": "Oblíbené",
+  "searchBar/placeholder": "Vyhledat modely na Hugging Face...",
+  "searchBar/huggingFaceError": "Došlo k chybě při načítání výsledků z Hugging Face, zkuste to znovu později",
+  "sortBy": "Seřadit podle",
+  "searchSortKey.default/title": "Nejlepší shoda",
+  "searchSortKey.likes/title": "Nejvíce oblíbených",
+  "searchSortKey.downloads/title": "Nejvíce stažených",
+  "searchSortKey.lastModified/title": "Nedávno aktualizováno",
+  "searchSortKey.createdAt/title": "Nedávno vytvořeno",
+  "download.option.willFitEstimation.caveat": "Možná existují další faktory, které brání jeho načtení, jako je architektura modelu, integrity modelového souboru nebo množství paměti dostupné na vašem počítači.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Maximální vytížení GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Tento model může být celý v paměti vaší GPU. To může značně zrychlit inferenci.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Možné částečné vytížení GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Tento model může být částečně v paměti vaší GPU. To může často značně zrychlit inferenci.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Pravděpodobně se vejde",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Tento model pravděpodobně se vejde do paměti vašeho počítače.",
+  "download.option.willFitEstimation.willNotFit/title": "Pravděpodobně je moc velký pro tento počítač",
+  "download.option.willFitEstimation.willNotFit/description": "Požadavky na paměť pro úspěšné použití tohoto modelového souboru mohou překročit dostupné zdroje na vašem počítači. Stahování tohoto souboru není doporučeno.",
+  "download.option.recommended/title": "Doporučeno",
+  "download.option.recommended/description": "Na základě vašeho hardwaru je tato možnost doporučena.",
+  "download.option.downloaded/title": "Stažené",
+  "download.option.downloading/title": "Stahování ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Obnovit feed"
+}
