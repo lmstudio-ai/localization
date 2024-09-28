@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "オンボーディングをスキップ",
+  "action.next": "次へ",
+  "action.back": "戻る",
+  "action.finish": "完了",
+  
+  "dismissable_rag_modal": {
+    "description": "検索拡張生成（RAG）を使用して、あなたのドキュメントを元にチャットができます。使い方はこちら:",
+    "instructions": {
+      "attach_files": {
+        "title": "ファイルを添付",
+        "description": "最大5つ、合計サイズ30MBまでのファイルをアップロードできます。対応フォーマットはPDF、DOCX、TXT、CSVです。"
+      },
+      "be_specific": {
+        "title": "具体的に",
+        "description": "質問する際には、できるだけ詳細を伝えましょう。これにより、システムが最も関連性の高い情報をドキュメントから取得できます。"
+      },
+      "get_responses": {
+        "title": "応答を取得して実験",
+        "description": "LLMがあなたのクエリとドキュメントから抽出された内容を元に、応答を生成します。さまざまなクエリを試して、最適な方法を見つけましょう。"
+      }
+    }
+  }
+}
