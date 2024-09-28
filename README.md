@@ -17,6 +17,7 @@ LM Studio localization
 - Chinese (zh-HK), (zh-TW), (zh-CN) [@neotan](https://github.com/neotan)
 - Chinese (zh-Hant) [@kywarai](https://github.com/kywarai)
 - Ukrainian (uk) [@hmelenok](https://github.com/hmelenok)
+- Japanese (ja) [@digitalsp](https://github.com/digitalsp)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
