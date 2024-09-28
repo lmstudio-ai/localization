@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "コレクション",
+  "collectionsColumn/collectionError": "コレクションの詳細読み込み中にエラーが発生しました。上の更新を試してください。",
+  "bookmarksColumn": "ブックマーク",
+  "searchBar/placeholder": "Hugging Faceでモデルを検索...",
+  "searchBar/huggingFaceError": "Hugging Faceからの結果取得中にエラーが発生しました。しばらくしてから再試行してください。",
+  "sortBy": "並び替え",
+  "searchSortKey.default/title": "ベストマッチ",
+  "searchSortKey.likes/title": "最もいいねされた",
+  "searchSortKey.downloads/title": "最もダウンロードされた",
+  "searchSortKey.lastModified/title": "最近更新された",
+  "searchSortKey.createdAt/title": "最近作成された",
+  "download.option.willFitEstimation.caveat": "モデルのアーキテクチャ、ファイルの整合性、またはコンピューターのメモリ量によっては、読み込みが失敗する場合があります。",
+  "download.option.willFitEstimation.fullGPUOffload/title": "完全なGPUオフロードが可能",
+  "download.option.willFitEstimation.fullGPUOffload/description": "このモデルは完全にGPUのメモリに収まる可能性があります。推論が大幅に高速化されることがあります。",
+  "download.option.willFitEstimation.partialGPUOffload/title": "部分的なGPUオフロードが可能",
+  "download.option.willFitEstimation.partialGPUOffload/description": "このモデルは部分的にGPUメモリに収まる可能性があります。推論が大幅に高速化されることがあります。",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "問題なく読み込み可能",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "このモデルはお使いのマシンのメモリに収まる可能性があります。",
+  "download.option.willFitEstimation.willNotFit/title": "おそらくこのマシンには大きすぎます",
+  "download.option.willFitEstimation.willNotFit/description": "このモデルファイルの使用に必要なメモリが、お使いのマシンのリソースを超える可能性があります。このファイルのダウンロードはお勧めしません。",
+  "download.option.recommended/title": "推奨",
+  "download.option.recommended/description": "お使いのハードウェアに基づいてこのオプションが推奨されます。",
+  "download.option.downloaded/title": "ダウンロード済み",
+  "download.option.downloading/title": "ダウンロード中 ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "フィードを更新"
+}
