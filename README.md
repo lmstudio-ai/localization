@@ -1,7 +1,14 @@
 # localization 🌏
 LM Studio localization
 
-#### Big thank you to community localizers 🙏
+## How to contribute a new language
+1. Fork this repository and clone it to your local machine
+2. Duplicate the English strings folder (`en/`), and rename the duplicate copy based on your language code
+3. Translate the strings (contained in `.json` files) within the newly duplicated folder
+4. Push your changes to your fork
+5. Create a pull request from your fork to this repository
+
+## Huge thank you to community localizers 🙏
 
 - Spanish [@xtianpaiva](https://github.com/xtianpaiva)
 - Norwegian [@Exlo84](https://github.com/Exlo84)
