@@ -95,6 +95,7 @@
   "prediction/busyModel/title": "모델이 사용 중입니다",
   "prediction/busyModel/message": "모델이 작업을 완료할 때까지 기다렸다가 다시 시도하세요",
   "prediction/noModel/title": "모델이 선택되지 않았습니다",
+  "prediction/modelLoading": "메시지가 대기열에 추가되었습니다. 모델 로딩이 완료되면 전송됩니다",
   "prediction/noModel/message": "메시지를 보내려면 모델을 선택하세요",
   "prediction/unloadModel/error": "모델 언로드 실패",
 

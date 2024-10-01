@@ -5,7 +5,7 @@
   "modelSettings/placeholder": "구성할 모델 선택",
 
   "loadedModels/noModels": "로드된 모델 없음",
-  
+
   "serverOptions/title": "서버 옵션",
   "serverOptions/configurableTitle": "구성 가능한 옵션",
   "serverOptions/port/hint": "로컬 서버가 사용할 네트워킹 포트를 설정합니다. 기본적으로 LM Studio는 포트 1234를 사용합니다. 포트가 이미 사용 중인 경우 변경해야 할 수 있습니다.",
@@ -28,7 +28,7 @@
   "serverOptions/contentLogging/subtitle": "로컬 요청 / 응답 로깅 설정",
   "serverOptions/contentLogging/hint": "로컬 서버 로그 파일에 프롬프트 및/또는 응답을 기록할지 여부입니다.",
   "serverOptions/loadModel/error": "모델 로드 실패",
-  
+
   "serverLogs/scrollToBottom": "맨 아래로 이동",
   "serverLogs/clearLogs": "로그 지우기 ({{shortcut}})",
   "serverLogs/openLogsFolder": "서버 로그 폴더 열기",
@@ -47,6 +47,9 @@
   "runtimeOptions/uninstallDialog/error": "런타임 제거 실패",
   "runtimeOptions/uninstallDialog/confirm": "계속하고 제거",
   "runtimeOptions/uninstallDialog/cancel": "취소",
+  "runtimeOptions/noCompatibleRuntimes": "호환되는 런타임을 찾을 수 없습니다",
+  "runtimeOptions/downloadIncompatibleRuntime": "이 런타임은 귀하의 기기와 호환되지 않는 것으로 판단되었습니다. 작동하지 않을 가능성이 높습니다.",
+  "runtimeOptions/noRuntimes": "런타임을 찾을 수 없습니다",
 
   "inferenceParams/noParams": "이 모델 유형에는 구성 가능한 추론 매개변수가 없습니다",
 
