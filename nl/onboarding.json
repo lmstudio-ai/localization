@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Onboarding overslaan",
+  "action.next": "Volgende",
+  "action.back": "Vorige",
+  "action.finish": "Afronden",
+
+  "dismissable_rag_modal": {
+    "description": "U kunt nu chatten met uw eigen documenten met behulp van Retrieval Augmented Generation (RAG). Dit is hoe het werkt:",
+    "instructions": {
+      "attach_files": {
+        "title": "Bestanden bijvoegen",
+        "description": "Upload maximaal 5 bestanden tegelijk, met een maximale gecombineerde grootte van 30 MB. Ondersteunde formaten zijn PDF, DOCX, TXT en CSV."
+      },
+      "be_specific": {
+        "title": "Wees specifiek",
+        "description": "Vermeld bij het stellen van vragen zoveel mogelijk details. Dit helpt het systeem om de meest relevante informatie uit uw documenten te halen."
+      },
+      "get_responses": {
+        "title": "Krijg reacties en experimenteer",
+        "description": "De LLM zal naar uw query en de opgehaalde fragmenten uit uw documenten kijken en proberen een antwoord te genereren. Experimenteer met verschillende query's om te ontdekken wat het beste werkt."
+      }
+    }
+  }
+}

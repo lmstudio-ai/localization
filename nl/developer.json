@@ -1,0 +1,66 @@
+{
+  "tabs/server": "Locale Server",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Laad instellingen",
+  "modelSettings/placeholder": "Selecteer een model om het te configuren",
+
+  "loadedModels/noModels": "Geen modellen geladen",
+
+  "serverOptions/title": "Server opties",
+  "serverOptions/configurableTitle": "Configureerbare opties",
+  "serverOptions/port/hint": "Stel in welke netwerkpoort de lokale server zal gebruiken. Standaard gebruikt LM Studio poort 1234. U moet dit mogelijk wijzigen als de poort al in gebruik is.",
+  "serverOptions/port/subtitle": "De poort om naar te luisteren",
+  "serverOptions/autostart/title": "Auto-start server",
+  "serverOptions/autostart/hint": "Start de lokale server automatisch wanneer een model wordt geladen",
+  "serverOptions/port/integerWarning": "Poortnummer moet een geheel getal zijn",
+  "serverOptions/port/invalidPortWarning": "Poort moet tussen 1 en 65535 liggen",
+  "serverOptions/cors/title": "CORS inschakelen",
+  "serverOptions/cors/hint1": "Als u CORS (Cross-origin Resource Sharing) inschakelt, kunnen de websites die u bezoekt verzoeken indienen bij de LM Studio-server.",
+  "serverOptions/cors/hint2": "CORS is mogelijk vereist bij het doen van verzoeken vanaf een webpagina of VS Code/andere extensie.",
+  "serverOptions/cors/subtitle": "Sta cross-origin-verzoeken toe",
+  "serverOptions/network/title": "Presenteer op lokaal netwerk",
+  "serverOptions/network/subtitle": "Server blootstellen aan apparaten in het netwerk",
+  "serverOptions/network/hint1": "Of verbindingen van andere apparaten op het netwerk toegestaan ​​zijn.",
+  "serverOptions/network/hint2": "Als dit niet is aangevinkt, luistert de server alleen op localhost.",
+  "serverOptions/verboseLogging/title": "Uitgebreide logging",
+  "serverOptions/verboseLogging/subtitle": "Uitgebreide logging inschakelen voor de lokale server",
+  "serverOptions/contentLogging/title": "Logboekprompts en reacties",
+  "serverOptions/contentLogging/subtitle": "Lokale aanvraag / reactie-logging instellingen",
+  "serverOptions/contentLogging/hint": "Of prompts en/of de reacties in het lokale serverlogbestand moeten worden vastgelegd.",
+  "serverOptions/loadModel/error": "Het model kon niet worden geladen",
+
+  "serverLogs/scrollToBottom": "Jump to bottom",
+  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Open de serverlogboekmap",
+
+  "runtimeSettings/title": "Runtime instellingen",
+  "runtimeSettings/chooseRuntime/title": "Configureer Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Selecteer een Runtime voor elk modelformaat",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Toon alle Runtimes",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Standaard toont LM Studio alleen de nieuwste versie van elke compatibele runtime. Schakel deze optie in om alle beschikbare runtimes te zien.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecteer een Runtime",
+
+  "runtimeOptions/uninstall": "Installatie ongedaan maken",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} verwijderen?",
+  "runtimeOptions/uninstallDialog/body": "Het verwijderen van deze runtime verwijdert deze van het systeem. Deze actie is onomkeerbaar.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Sommige bestanden worden pas verwijderd nadat LM Studio opnieuw is opgestart.",
+  "runtimeOptions/uninstallDialog/error": "Runtime kan niet worden verwijderd",
+  "runtimeOptions/uninstallDialog/confirm": "Doorgaan en verwijderen",
+  "runtimeOptions/uninstallDialog/cancel": "Annuleer",
+  "runtimeOptions/noCompatibleRuntimes": "Geen compatibele runtimes gevonden",
+  "runtimeOptions/downloadIncompatibleRuntime": "Deze runtime is als incompatibel met uw machine vastgesteld. Het zal hoogstwaarschijnlijk niet werken.",
+  "runtimeOptions/noRuntimes": "Geen runtimes gevonden",
+
+  "inferenceParams/noParams": "Er zijn geen configureerbare inferentieparameters beschikbaar voor dit modeltype",
+
+  "endpoints/openaiCompatRest/title": "Ondersteunde eindpunten (OpenAI-like)",
+  "endpoints/openaiCompatRest/getModels": "Geef de momenteel geladen modellen weer",
+  "endpoints/openaiCompatRest/postCompletions": "Tekstaanvullingsmodus. Voorspel de volgende token(s) gegeven een prompt. Opmerking: OpenAI beschouwt dit eindpunt als 'verouderd'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chatvoltooiingen. Stuur een chatgeschiedenis naar het model om de volgende assistentreactie te voorspellen",
+  "endpoints/openaiCompatRest/postEmbeddings": "Tekst insluiten. Genereer tekst insluitingen voor een gegeven tekstinvoer. Neemt een string of array van strings.",
+
+  "model.createVirtualModelFromInstance": "Instellingen opslaan als een nieuw virtueel model",
+  "model.createVirtualModelFromInstance/error": "Het is niet gelukt om instellingen op te slaan als een nieuw virtueel model",
+
+  "apiConfigOptions/title": "API-configuratie"
+}

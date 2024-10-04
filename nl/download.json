@@ -1,0 +1,24 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Uitpakken...",
+  "finalizing": "Downloaden wordt afgerond... (dit kan even duren)",
+  "noOptions": "Geen compatibele opties beschikbaar om te downloaden",
+  
+  "deeplink/confirmation/title": "Model downloaden van Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Selecteer aanbevolen",
+  "deeplink/confirmation/selectOption": "Selecteer downloadoptie",
+  "deeplink/confirmation/recommendedOption": "Waarschijnlijk de beste optie voor de meeste gebruikers",
+  "deeplink/confirmation/downloadButton": "Downloaden",
+  "deeplink/confirmation/nevermindButton": "Laat maar",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face Model gevonden ✅",
+  "deeplink/confirmation/modelPresent/body": "Goed nieuws! Dit modelbestand is al beschikbaar op uw lokale machine.",
+  "deeplink/confirmation/loadInChat": "Laad {{ modelName }} in een nieuwe chat",
+  "deeplink/error/modelNotFound/title": "Ruh roh, we konden dit model niet vinden",
+  "deeplink/error/modelNotFound/body": "Controleer de modelnaam en probeer eventueel een andere downloadoptie.",
+  "deeplink/actions/trySearching": "Probeer te zoeken naar {{modelName}} op Hugging Face",
+
+  "downloadsPanel/title": "Downloads",
+  "downloadsPanel/sectionTitle/ongoing": "Aan de gang",
+  "downloadsPanel/sectionTitle/completed": "Voltooid"
+}
+  
