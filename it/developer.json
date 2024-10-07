@@ -1,0 +1,35 @@
+{
+  "loadSettings/title": "Carica configurazioni",
+  "modelSettings/placeholder": "Seleziona un modello per configurarlo",
+
+  "serverOptions/title": "Opzioni del Server",
+  "serverOptions/port/hint": "Quale porta ascoltare. Di default, LM Studio usa la porta 1234. Potrebbe essere necessario cambiarla se la porta è già in uso.",
+  "serverOptions/cors/title": "Abilita CORS",
+  "serverOptions/cors/hint1": "Abilitare CORS (Condivisione delle Risorse tra Origini Diverse) consentirebbe ai siti web che visiti di fare richieste al server di LM Studio.",
+  "serverOptions/cors/hint2": "CORS potrebbe essere necessario per fare richieste da una pagina web o da VS Code / altre estensioni.",
+  "serverOptions/network/title": "Permetti Connessioni di Rete",
+  "serverOptions/network/hint1": "Se consentire connessioni da altri dispositivi nella rete.",
+  "serverOptions/network/hint2": "Se non selezionato, il server ascolterà solo su localhost.",
+  "serverOptions/verboseLogging/title": "Registrazione Dettagliata",
+  "serverOptions/contentLogging/title": "Registra Richieste e Risposte",
+  "serverOptions/contentLogging/hint": "Se registrare richieste e/o risposte nel file di registro del server locale.",
+  "serverOptions/loadModel/error": "Non è stato possibile caricare il modello",
+
+  "serverLogs/scrollToBottom": "Vai in fondo",
+  "serverLogs/clearLogs": "Cancella registri ({{shortcut}})",
+
+  "runtimeSettings/title": "Configurazioni di Esecuzione",
+  "runtimeSettings/chooseRuntime/title": "Configura Ambienti di Esecuzione",
+  "runtimeSettings/chooseRuntime/description": "Imposta un ambiente di esecuzione predefinito per il tipo di motore",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostra tutte le versioni",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per default, LM Studio mostra solo l'ultima versione di ogni ambiente di esecuzione. Abilita questa opzione per vedere tutte le versioni disponibili.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Seleziona un ambiente di esecuzione",
+
+  "runtimeOptions/uninstall": "Disinstalla",
+  "runtimeOptions/uninstallDialog/title": "Disinstallare {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Disinstallare questo ambiente di esecuzione lo rimuoverà dal sistema. Questa azione è irreversibile.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Alcuni file possono essere eliminati solo dopo aver riavviato LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Non è stato possibile disinstallare l'ambiente di esecuzione",
+  "runtimeOptions/uninstallDialog/confirm": "Continua e disinstalla",
+  "runtimeOptions/uninstallDialog/cancel": "Annulla"
+}
