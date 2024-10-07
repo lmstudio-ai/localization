@@ -169,6 +169,8 @@
       "jinja.eosToken/label": "EOS Token",
       "jinja.template/label": "Template",
       "jinja/error": "Failed to parse Jinja template: {{error}}",
+      "jinja/empty": "Please enter a Jinja template above.",
+      "jinja/unlikelyToWork": "The Jinja template you provided above is unlikely to work as it does not reference the variable \"messages\". Please double check if you have entered a correct template.",
       "types.manual/label": "Manual",
       "manual.subfield.beforeSystem/label": "Before System",
       "manual.subfield.beforeSystem/placeholder": "Enter System prefix...",
