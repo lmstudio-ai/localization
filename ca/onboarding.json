@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Saltar introducció",
+  "action.next": "Següent",
+  "action.back": "Enrere",
+  "action.finish": "Finalitzar",
+
+  "dismissable_rag_modal": {
+    "description": "Ara pots xatejar amb els teus propis documents utilitzant la Generació Augmentada amb Recuperació (RAG). Així és com funciona:",
+    "instructions": {
+      "attach_files": {
+        "title": "Adjunta Fitxers",
+        "description": "Puja fins a 5 fitxers alhora, amb una mida combinada màxima de 30 MB. Els formats compatibles inclouen PDF, DOCX, TXT i CSV."
+      },
+      "be_specific": {
+        "title": "Sigues Específic",
+        "description": "Quan facis preguntes, esmenta tants detalls com sigui possible. Això ajuda el sistema a recuperar la informació més rellevant dels teus documents."
+      },
+      "get_responses": {
+        "title": "Obten Respostes i Experimenta",
+        "description": "El LLM analitzarà la teva consulta i els extractes recuperats dels teus documents, i intentarà generar una resposta. Experimenta amb diferents consultes per veure què funciona millor."
+      }
+    }
+  }
+}

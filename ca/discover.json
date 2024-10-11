@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Col·leccions",
+  "collectionsColumn/collectionError": "Error en carregar els detalls de la col·lecció, si us plau intenta actualitzar-ho més amunt",
+  "bookmarksColumn": "Adreces d'interès",
+  "searchBar/placeholder": "Cerca models a Hugging Face...",
+  "searchBar/huggingFaceError": "Hi ha hagut un error en obtenir resultats de Hugging Face, si us plau intenta-ho de nou més tard",
+  "sortBy": "Ordenar per",
+  "searchSortKey.default/title": "Millor Coincidència",
+  "searchSortKey.likes/title": "Més M'agrada",
+  "searchSortKey.downloads/title": "Més Descàrregues",
+  "searchSortKey.lastModified/title": "Actualitzat Recentment",
+  "searchSortKey.createdAt/title": "Creat Recentment",
+  "download.option.willFitEstimation.caveat": "Poden haver-hi altres factors que impedeixin la seva càrrega, com ara l'arquitectura del model, la integritat del fitxer del model o la quantitat de memòria disponible al teu ordinador.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Descàrrega completa a la GPU possible",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Aquest model pot cabre completament a la memòria de la GPU. Això podria accelerar considerablement la inferència.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Descàrrega parcial a la GPU possible",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Aquest model pot cabre parcialment a la memòria de la GPU. Això sovint pot accelerar considerablement la inferència.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "És probable que hi càpiga",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "És probable que aquest model càpiga a la memòria del teu ordinador.",
+  "download.option.willFitEstimation.willNotFit/title": "Probablement massa gran per aquesta màquina",
+  "download.option.willFitEstimation.willNotFit/description": "Els requeriments de memòria per utilitzar amb èxit aquest fitxer de model poden excedir els recursos disponibles a la teva màquina. NO es recomana descarregar aquest fitxer.",
+  "download.option.recommended/title": "Recomanat",
+  "download.option.recommended/description": "Basat en el teu maquinari, aquesta opció és recomanada.",
+  "download.option.downloaded/title": "Descarregat",
+  "download.option.downloading/title": "Descarregant ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Actualitzar feed"
+}

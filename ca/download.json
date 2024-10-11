@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Extraient...",
+  "finalizing": "Finalitzant la descàrrega... (això pot trigar uns moments)",
+  "noOptions": "No hi ha opcions compatibles disponibles per a la descàrrega",
+  
+  "deeplink/confirmation/title": "Descarrega el model de Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Selecciona el recomanat",
+  "deeplink/confirmation/selectOption": "Selecciona opció de descàrrega",
+  "deeplink/confirmation/recommendedOption": "Probablement la millor opció per a la majoria d'usuaris",
+  "deeplink/confirmation/downloadButton": "Descarregar",
+  "deeplink/confirmation/nevermindButton": "Deixa-ho estar",
+  "deeplink/confirmation/modelPresent/title": "Model de Hugging Face Trobat ✅",
+  "deeplink/confirmation/modelPresent/body": "Bones notícies! Aquest fitxer de model ja està disponible a la teva màquina local.",
+  "deeplink/confirmation/loadInChat": "Carrega {{ modelName }} en un nou xat",
+  "deeplink/error/modelNotFound/title": "Oh no, no hem pogut trobar aquest model",
+  "deeplink/error/modelNotFound/body": "Revisa el nom del model i considera provar una opció de descàrrega diferent.",
+  "deeplink/actions/trySearching": "Prova de buscar {{modelName}} a Hugging Face",
+
+  "downloadsPanel/title": "Descàrregues",
+  "downloadsPanel/sectionTitle/ongoing": "En curs",
+  "downloadsPanel/sectionTitle/completed": "Completes"
+}
