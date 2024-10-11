@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtimes",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "Xat",
+  "discover": "Descobreix",
+  "myModels": "Els Meus Models",
+  "developer": "Desenvolupador",
+  "runtimes": "Entorns d'execució",
+  "settings": "Configuració",
+  "download": "Descàrregues"
 }
