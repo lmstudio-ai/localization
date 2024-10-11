@@ -27,6 +27,8 @@
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
+  "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
   "serverOptions/loadModel/error": "Failed to load model",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
