@@ -10,24 +10,28 @@ LM Studio localization
 
 ## Huge thank you to community localizers 🙏
 
-- Spanish [@xtianpaiva](https://github.com/xtianpaiva)
-- Norwegian [@Exlo84](https://github.com/Exlo84)
-- German [@marcelMaier](https://github.com/marcelMaier)
-- Turkish [@progesor](https://github.com/progesor)
-- Russian [@shelomitsky](https://github.com/shelomitsky), [@mlatysh](https://github.com/mlatysh), [@Adjacentai](https://github.com/Adjacentai)
-- Korean [@williamjeong2](https://github.com/williamjeong2)
-- Polish [@danieltechdev](https://github.com/danieltechdev)
+Here is the list sorted alphabetically:
+
+- Catalan (ca) [@hipsotech](https://github.com/hipsotech)
+- Chinese (zh-CN) [@neotan](https://github.com/neotan), [@SweetDream0256](https://github.com/SweetDream0256)
+- Chinese (zh-Hant) [@kywarai](https://github.com/kywarai)
+- Chinese (zh-HK), (zh-TW) [@neotan](https://github.com/neotan)
 - Czech [@ladislavsulc](https://github.com/ladislavsulc)
-- Vietnamese [@trinhvanminh](https://github.com/trinhvanminh)
+- Dutch (nl) [@alaaf11](https://github.com/alaaf11)
+- German [@marcelMaier](https://github.com/marcelMaier)
+- Italian (it) [@fralapo](https://github.com/fralapo)
+- Japanese (ja) [@digitalsp](https://github.com/digitalsp)
+- Korean [@williamjeong2](https://github.com/williamjeong2)
+- Norwegian [@Exlo84](https://github.com/Exlo84)
+- Polish [@danieltechdev](https://github.com/danieltechdev)
 - Portuguese (BR) [@Sm1g00l](https://github.com/Sm1g00l)
 - Portuguese (PT) [@catarino](https://github.com/catarino)
-- Chinese (zh-CN) [@neotan](https://github.com/neotan), [@SweetDream0256](https://github.com/SweetDream0256)
-- Chinese (zh-HK), (zh-TW) [@neotan](https://github.com/neotan)
-- Chinese (zh-Hant) [@kywarai](https://github.com/kywarai)
+- Russian [@shelomitsky](https://github.com/shelomitsky), [@mlatysh](https://github.com/mlatysh), [@Adjacentai](https://github.com/Adjacentai)
+- Spanish [@xtianpaiva](https://github.com/xtianpaiva)
+- Turkish [@progesor](https://github.com/progesor)
 - Ukrainian (uk) [@hmelenok](https://github.com/hmelenok)
-- Japanese (ja) [@digitalsp](https://github.com/digitalsp)
-- Dutch (nl) [@alaaf11](https://github.com/alaaf11)
-- Italian (it) [@fralapo](https://github.com/fralapo)
+- Vietnamese [@trinhvanminh](https://github.com/trinhvanminh)
+
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
