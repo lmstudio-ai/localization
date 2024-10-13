@@ -37,7 +37,6 @@
     "complexityLevelLabel": "Komplexitätsstufe der Benutzeroberfläche",
     "selectComplexityLevelPlaceholder": "Wähle eine Standard-Komplexitätsstufe für die Benutzeroberfläche",
     "userComplexityLevelLabel": "Benutzer",
-    "powerUserComplexityLevelLabel": "Power-User",
     "developerComplexityLevelLabel": "Entwickler",
     "chatSettingsLabel": "Chat-Einstellungen",
 
@@ -113,4 +112,24 @@
     "promptWhenCommittingUnsavedChangesWithNewFields": "Voreinstellungen: Bestätigungsdialog anzeigen, wenn neue Felder zu den Voreinstellungen hinzugefügt werden",
     "promptWhenCommittingUnsavedChangesWithNewFields.description": "Dies ist nützlich, um versehentliches Hinzufügen neuer Felder zu den Voreinstellungen zu verhindern",
 
-    "expandConfigsOnClick": "Konfigurationen durch Klicken erweitern, anstatt durch Hover"
+    "expandConfigsOnClick": "Konfigurationen durch Klicken erweitern, anstatt durch Hover",
+
+    "migrateChats": {
+    "label": "Chats vor Version 0.3.0 migrieren",
+    "action_one": "1 Chat migrieren",
+    "action_other": "{{count}} Chats migrieren",
+    "inProgress": "Chats werden migriert...",
+    "hint": {
+      "primary": "Wir haben die interne Datenstruktur für Chats ab Version 0.3.0 überarbeitet, um Funktionen wie Multi-Version-Chatnachrichten zu unterstützen. Um ältere Chats in der App anzuzeigen, müssen sie in das neue Format migriert werden.",
+      "details": "Der Migrationsprozess wird Ihre alten Chats NICHT löschen, sondern eine Kopie im neuen Format erstellen.",
+      "footer": "Sie können weiterhin über ältere Versionen von LM Studio auf Ihre alten Chats zugreifen. Aktuell werden Bilder nicht automatisch migriert."
+    },
+    "success": "Chats erfolgreich migriert!",
+    "success_one": "1 Chat erfolgreich migriert",
+    "success_other": "{{count}} Chats erfolgreich migriert",
+    "showInstructionsButton": "Anweisungen anzeigen",
+    "footerCardText": "Chats aus früheren Versionen von LM Studio müssen migriert werden, um in dieser Version genutzt werden zu können.",
+    "dismissConfirm": "Verwerfen",
+    "dismissConfirmDescription": "Die Chat-Migration kann jederzeit in den Einstellungen durchgeführt werden"
+  }
+}
