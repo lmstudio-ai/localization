@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Mengekstrak...",
+  "finalizing": "Menyelesaikan unduhan... (ini mungkin memakan waktu beberapa saat)",
+  "noOptions": "Tidak ada opsi yang kompatibel untuk diunduh",
+  
+  "deeplink/confirmation/title": "Unduh model dari Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Pilih yang direkomendasikan",
+  "deeplink/confirmation/selectOption": "Pilih opsi unduhan",
+  "deeplink/confirmation/recommendedOption": "Kemungkinan opsi terbaik untuk sebagian besar pengguna",
+  "deeplink/confirmation/downloadButton": "Unduh",
+  "deeplink/confirmation/nevermindButton": "Tidak jadi",
+  "deeplink/confirmation/modelPresent/title": "Model Hugging Face Ditemukan ✅",
+  "deeplink/confirmation/modelPresent/body": "Kabar baik! File model ini sudah tersedia di mesin lokal Anda.",
+  "deeplink/confirmation/loadInChat": "Muat {{ modelName }} dalam obrolan baru",
+  "deeplink/error/modelNotFound/title": "Ruh roh, kami tidak dapat menemukan model ini",
+  "deeplink/error/modelNotFound/body": "Periksa kembali nama model dan pertimbangkan untuk mencoba opsi unduhan yang berbeda.",
+  "deeplink/actions/trySearching": "Coba cari {{modelName}} di Hugging Face",
+
+  "downloadsPanel/title": "Unduhan",
+  "downloadsPanel/sectionTitle/ongoing": "Sedang Berlangsung",
+  "downloadsPanel/sectionTitle/completed": "Selesai"
+}
