@@ -28,6 +28,7 @@ LM Studio localization
 - Japanese (ja) [@digitalsp](https://github.com/digitalsp)
 - Dutch (nl) [@alaaf11](https://github.com/alaaf11)
 - Italian (it) [@fralapo](https://github.com/fralapo)
+- Indonesian (id) [dwirx](https://github.com/dwirx)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
