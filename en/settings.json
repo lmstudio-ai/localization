@@ -76,6 +76,7 @@
   "languageLabel": "Language",
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
+  "localServiceLabel": "Local LLM Service",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
@@ -126,8 +127,8 @@
   "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
 
-  "autoStartOnLogin": "Start LLM Service on login",
-  "autoStartOnLogin.description": "Automatically start the LLM service when you log in to your computer",
+  "enableLocalService": "Enable Local LLM Service",
+  "enableLocalService.description": "When enabled, the LM Studio Local LLM Service will be launched on startup. Closing LM Studio will also leave the Local LLM Service running in the system tray.",
 
   "expandConfigsOnClick": "Expand configs on click rather than hover",
 
