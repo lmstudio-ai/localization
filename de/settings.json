@@ -1,4 +1,13 @@
 {
+    "settingsDialogTitle": "App-Einstellungen",
+    "settingsDialogButtonTooltip": "App-Einstellungen",
+
+    "settingsNewButtonPopover": {
+        "primary": "App-Einstellungen befinden sich jetzt in der unteren rechten Ecke.",
+        "secondary": "Klicke auf die ⚙️-Schaltfläche, um sie zu öffnen.",
+        "tertiary": "Oder drücke"
+    },
+
     "appUpdate": "App-Update",
     "checkingAppUpdate": "Suche nach Updates...",
     "checkForUpdates": "Nach Updates suchen",
@@ -24,13 +33,28 @@
     "uptodate": "Du bist auf dem neuesten Stand! Die aktuelle Version ist {{version}}",
     "preferences": "Einstellungen",
     "sideButtonLabels": "Seitenleisten-Beschriftungen anzeigen",
-    "colorThemeLabel": "Farbthema",
+    "colorThemeLabel": "Farbschema",
     "complexityLevelLabel": "Komplexitätsstufe der Benutzeroberfläche",
     "selectComplexityLevelPlaceholder": "Wähle eine Standard-Komplexitätsstufe für die Benutzeroberfläche",
     "userComplexityLevelLabel": "Benutzer",
-    "powerUserComplexityLevelLabel": "Power-User",
     "developerComplexityLevelLabel": "Entwickler",
     "chatSettingsLabel": "Chat-Einstellungen",
+
+    "chat/alwaysShowPromptTemplate": "Prompt-Vorlage immer in der Chat-Seitenleiste anzeigen",
+    "chat/highlightChatMessageOnHover": "Chat-Nachricht beim Überfahren mit der Maus hervorheben",
+    "chat/doubleClickMessageToEdit": "Doppelklicken Sie auf eine Chat-Nachricht, um sie zu bearbeiten",
+
+    "chat/keyboardShortcuts/label": "Tastenkürzel",
+    "chat/keyboardShortcuts/verbPrefix": "Verwenden",
+    "chat/keyboardShortcuts/regenerate": "um die letzte Nachricht im Chat neu zu generieren",
+    "chat/keyboardShortcuts/sendMessage": "um eine Nachricht zu senden",
+
+    "onboarding/blockTitle": "Onboarding-Hinweise",
+    "onboarding/dismissedHints": "Verworfene Onboarding-Hinweise",
+    "onboarding/resetHintTooltip": "Klicken, um diesen Onboarding-Hinweis wieder zu aktivieren",
+    "onboarding/resetAllHints": "Alle Onboarding-Hinweise zurücksetzen",
+    "onboarding/noneDismissed": "Keine verworfenen Hinweise, derzeit werden alle Onboarding-Hilfestellungen angezeigt, bis sie verworfen werden",
+
     "firstTimeExperienceLabel": "Chat-Erfahrung beim ersten Mal",
     "firstTimeExperienceMarkCompletedLabel": "Als abgeschlossen markieren",
     "firstTimeExperienceResetLabel": "Zurücksetzen",
@@ -49,5 +73,63 @@
     "showDebugInfoBlocksInChatLabel": "Debug-Infoblöcke im Chat anzeigen",
     "autoLoadBundledLLMLabel": "Beim Start automatisch ein mitgeliefertes LLM-Modell laden",
     "showReleaseNotes": "Versionshinweise anzeigen",
-    "hideReleaseNotes": "Versionshinweise ausblenden"
+    "hideReleaseNotes": "Versionshinweise ausblenden",
+
+    "backendDownloadNewUpdate": "Neuere Backends sind verfügbar!",
+    "backendDownloadNewUpdateAction": "Zur Entwicklerseite gehen",
+
+    "backendDownloadChannel.label": "LM Studio Erweiterungspakete Download-Kanal",
+    "backendDownloadChannel.value.stable": "Stabil",
+    "backendDownloadChannel.value.latest": "Entwicklung",
+    "backendDownloadChannel.shortLabel": "Runtime-Download-Kanal",
+    "backendDownloadChannel.hint": "Wählen Sie den Kanal aus, von dem die LM Studio Erweiterungspakete heruntergeladen werden sollen. \"{{stableName}}\" ist der empfohlene Kanal für die meisten Benutzer.",
+
+    "appUpdateChannel.label": "LM Studio Update-Kanal",
+    "appUpdateChannel.value.stable": "Stabil",
+    "appUpdateChannel.shortLabel": "App-Update-Kanal",
+    "appUpdateChannel.hint": "Wählen Sie den Kanal aus, von dem LM Studio-App-Updates empfangen werden sollen. \"{{stableName}}\" ist der empfohlene Kanal für die meisten Benutzer.",
+
+    "modelLoadingGuardrails.label": "Modell-Ladeschutz",
+    "modelLoadingGuardrails.description": "Das Laden von Modellen über die Systemressourcengrenzen hinaus kann zu Systeminstabilität oder Einfrieren führen. Ladeschutz verhindert versehentliche Überlastung. Passen Sie diese Limits hier an, falls erforderlich, aber beachten Sie, dass das Laden von Modellen nahe der Systemgrenze die Stabilität verringern kann.",
+    "modelLoadingGuardrails.value.off": "AUS (Nicht empfohlen)",
+    "modelLoadingGuardrails.value.off/subTitle": "Keine Vorkehrungen gegen Systemüberlastung",
+    "modelLoadingGuardrails.value.off/detail": "Ausführliche Informationen zu 'AUS'",
+    "modelLoadingGuardrails.value.low": "Entspannt",
+    "modelLoadingGuardrails.value.low/subTitle": "Leichte Vorkehrungen gegen Systemüberlastung",
+    "modelLoadingGuardrails.value.low/detail": "Ausführliche Informationen zu 'Entspannt'",
+    "modelLoadingGuardrails.value.medium": "Ausgewogen",
+    "modelLoadingGuardrails.value.medium/subTitle": "Moderate Vorkehrungen gegen Systemüberlastung",
+    "modelLoadingGuardrails.value.medium/detail": "Ausführliche Informationen zu 'Ausgewogen'",
+    "modelLoadingGuardrails.value.high": "Streng",
+    "modelLoadingGuardrails.value.high/subTitle": "Starke Vorkehrungen gegen Systemüberlastung",
+    "modelLoadingGuardrails.value.high/detail": "Ausführliche Informationen zu 'Streng'",
+    "modelLoadingGuardrails.value.custom": "Benutzerdefiniert",
+    "modelLoadingGuardrails.value.custom/subTitle": "Legen Sie Ihr eigenes Limit für die maximale Modellgröße fest, die geladen werden kann",
+    "modelLoadingGuardrails.value.custom/detail": "Ausführliche Informationen zu 'Benutzerdefiniert'",
+    "modelLoadingGuardrails.custom.label": "Speicherlimit: ",
+    "modelLoadingGuardrails.custom.description": "Legen Sie ein benutzerdefiniertes Speicherlimit für das Laden von Modellen fest. Modelle werden nicht geladen, wenn dieses Limit überschritten wird.",
+
+    "promptWhenCommittingUnsavedChangesWithNewFields": "Voreinstellungen: Bestätigungsdialog anzeigen, wenn neue Felder zu den Voreinstellungen hinzugefügt werden",
+    "promptWhenCommittingUnsavedChangesWithNewFields.description": "Dies ist nützlich, um versehentliches Hinzufügen neuer Felder zu den Voreinstellungen zu verhindern",
+
+    "expandConfigsOnClick": "Konfigurationen durch Klicken erweitern, anstatt durch Hover",
+
+    "migrateChats": {
+    "label": "Chats vor Version 0.3.0 migrieren",
+    "action_one": "1 Chat migrieren",
+    "action_other": "{{count}} Chats migrieren",
+    "inProgress": "Chats werden migriert...",
+    "hint": {
+      "primary": "Wir haben die interne Datenstruktur für Chats ab Version 0.3.0 überarbeitet, um Funktionen wie Multi-Version-Chatnachrichten zu unterstützen. Um ältere Chats in der App anzuzeigen, müssen sie in das neue Format migriert werden.",
+      "details": "Der Migrationsprozess wird Ihre alten Chats NICHT löschen, sondern eine Kopie im neuen Format erstellen.",
+      "footer": "Sie können weiterhin über ältere Versionen von LM Studio auf Ihre alten Chats zugreifen. Aktuell werden Bilder nicht automatisch migriert."
+    },
+    "success": "Chats erfolgreich migriert!",
+    "success_one": "1 Chat erfolgreich migriert",
+    "success_other": "{{count}} Chats erfolgreich migriert",
+    "showInstructionsButton": "Anweisungen anzeigen",
+    "footerCardText": "Chats aus früheren Versionen von LM Studio müssen migriert werden, um in dieser Version genutzt werden zu können.",
+    "dismissConfirm": "Verwerfen",
+    "dismissConfirmDescription": "Die Chat-Migration kann jederzeit in den Einstellungen durchgeführt werden"
+  }
 }
