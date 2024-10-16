@@ -73,6 +73,7 @@
   "llm.prediction.seed/title": "Seed",
   "llm.prediction.structured/title": "Structured Output",
   "llm.prediction.structured/info": "Structured Output",
+  "llm.prediction.structured/description": "Advanced: you can provide a JSON Schema to enforce a particular output format from the model. Read the [documentation](https://lmstudio.ai/docs/advanced/structured-output) to learn more",
   "llm.prediction.promptTemplate/title": "Prompt Template",
   "llm.prediction.promptTemplate/subTitle": "The format in which messages in chat are sent to the model. Changing this may introduce unexpected behavior - make sure you know what you're doing!",
 
@@ -169,6 +170,8 @@
       "jinja.eosToken/label": "EOS Token",
       "jinja.template/label": "Template",
       "jinja/error": "Failed to parse Jinja template: {{error}}",
+      "jinja/empty": "Please enter a Jinja template above.",
+      "jinja/unlikelyToWork": "The Jinja template you provided above is unlikely to work as it does not reference the variable \"messages\". Please double check if you have entered a correct template.",
       "types.manual/label": "Manual",
       "manual.subfield.beforeSystem/label": "Before System",
       "manual.subfield.beforeSystem/placeholder": "Enter System prefix...",
