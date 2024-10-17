@@ -11,7 +11,7 @@
   "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/port/subtitle": "The port to listen on",
   "serverOptions/autostart/title": "Auto-start server",
-  "serverOptions/autostart/hint": "Start the local server automatically when a model is loaded",
+  "serverOptions/autostart/hint": "Automatically turn on LM Studio's local LLMs server on app or service start",
   "serverOptions/port/integerWarning": "Port number must be an integer",
   "serverOptions/port/invalidPortWarning": "Port must be between 1 and 65535",
   "serverOptions/cors/title": "Enable CORS",
