@@ -148,7 +148,7 @@
       "footer": "您仍然可以通过旧版本的 LM Studio 访问您的旧聊天记录。目前，图片不会自动迁移。"
     },
     "success": "聊天记录迁移成功！",
-    "success_one": "1条聊天记录迁移成功",
+    "success_one": "1 条聊天记录迁移成功",
     "success_other": "{{count}} 条聊天记录迁移成功",
     "showInstructionsButton": "显示指南",
     "footerCardText": "来自 LM Studio 早期版本的聊天记录需要迁移才能在此版本中使用。",
