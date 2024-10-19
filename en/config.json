@@ -111,6 +111,9 @@
   "llm.load.llama.tryMmap/title": "Try mmap()",
   "llm.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
+  "llm.load.llama.cpuThreadPoolSize/title": "CPU Thread Pool Size",
+  "llm.load.llama.cpuThreadPoolSize/subTitle": "Number of CPU threads to allocate to a model computation thread pool",
+  "llm.load.llama.cpuThreadPoolSize/info": "The number of CPU threads to allocate to a model computation thread pool. Increasing the number of threads does not always correlate with better performance. The default is <{{dynamicValue}}>.",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
