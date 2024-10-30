@@ -3,4 +3,22 @@
   "action.next": "Siguiente",
   "action.back": "Anterior",
   "action.finish": "Terminar"
+
+  "dismissable_rag_modal": {
+    "description": "Ahora puedes chatear con tus propios documentos utilizando la Generación Aumentada de Recuperación (RAG). Así es como funciona:",
+    "instructions": {
+      "attach_files": {
+        "title": "Adjuntar archivos",
+        "description": "Adjuntar archivos: Sube hasta 5 archivos a la vez, con un tamaño máximo combinado de 30 MB. Los formatos admitidos son PDF, DOCX, TXT y CSV."
+      },
+      "be_specific": {
+        "title": "Sea específico",
+        "description": "Cuando haga preguntas, mencione tantos detalles como sea posible. Esto ayuda al sistema a recuperar la información más relevante de sus documentos."
+      },
+      "get_responses": {
+        "title": "Obtenga respuestas y experimente",
+        "description": "El LLM examinará tu consulta y los extractos recuperados de tus documentos e intentará generar una respuesta. Experimenta con diferentes consultas para encontrar la que mejor funciona."
+      }
+    }
+  }
 }
