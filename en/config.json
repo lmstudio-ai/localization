@@ -23,6 +23,7 @@
   "loadParameters/reload": "Reload to apply changes",
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
+  "schematicsError.title": "The config schematics contains errors in the following fields:",
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
