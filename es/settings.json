@@ -1,11 +1,25 @@
 {
+    "settingsDialogTitle": "Configuración de la aplicación",
+    "settingsDialogButtonTooltip": "Configuración de la aplicación",
+
+    "settingsNewButtonPopover": {
+    "primary": "Los ajustes de la aplicación están ahora en la esquina inferior derecha.",
+    "secondary": "Haga clic en el botón ⚙️ para abrirlas.",
+    "tertiary": "O pulse"
+    },
     "appUpdate": "Actualización de la aplicación",
     "checkingAppUpdate": "Buscando actualizaciones...",
     "checkForUpdates": "Buscar actualizaciones",
     "failedCheckingAppUpdate": "Error al buscar actualizaciones",
     "newUpdateAvailable": "¡Una nueva versión de LM Studio está disponible! 🎉",
+    "newBetaUpdateAvailable": "¡Ya está disponible una nueva versión beta de LM Studio! 🛠️🎉",
     "downloadingInProgress": "Descargando actualización...",
     "downloadUpdate": "Actualizar a LM Studio {{version}}",
+    "downloadBetaUpdate": "Actualizazar a LM Studio Beta {{version}} (compilación {{build}})",
+    "downloadCompleted": "¡Descarga finalizada!",
+    "updateDownloadComplete": "La actualización se ha descargado correctamente.",
+    "updateDownloadFailed": "¡Actualización fallida!",
+    "hasFinishedDownloading": "has finished downloading.",
     "yourCurrentVersion": "Actualmente estás en la versión:",
     "latestVersion": "La última versión es:",
     "downloadLabel": "Actualizar ahora",
@@ -13,6 +27,9 @@
     "downloadingUpdate": "Descargando actualización...",
     "updateDownloaded": "¡Actualización descargada!",
     "restartAppToUpdate": "Reiniciar la aplicación para aplicar la actualización",
+    "appUpdatedToastTitle": "Actualizado a {{title}}",
+    "appUpdatedToastDescriptionPrefix": "Ver las ",
+    "AppUpdatedToastDescriptionReleaseNotes": "Notas de la versión",
     "doItLater": "Lo haré más tarde",
     "failedToUpdate": "La actualización de la aplicación falló. Por favor, verifica tu conexión a internet o intenta nuevamente más tarde.",
     "retryInBackground": "Reintentar en segundo plano",
@@ -23,6 +40,7 @@
     "installAndRelaunch": "Instalar y reiniciar",
     "uptodate": "¡Estás actualizado! La versión actual es {{version}}",
     "preferences": "Preferencias",
+    "general": "General",
     "sideButtonLabels": "Mostrar etiquetas de los botones laterales",
     "colorThemeLabel": "Tema de color",
     "complexityLevelLabel": "Nivel de complejidad de la interfaz de usuario",
@@ -30,7 +48,23 @@
     "userComplexityLevelLabel": "Usuario",
     "powerUserComplexityLevelLabel": "Usuario avanzado",
     "developerComplexityLevelLabel": "Desarrollador",
+    
     "chatSettingsLabel": "Configuraciones de chat",
+    "chat/alwaysShowPromptTemplate": "Mostrar siempre la plantilla de prompts en la barra lateral del chat",
+    "chat/highlightChatMessageOnHover": "Resaltar el mensaje de chat al pasar el ratón por encima",
+    "chat/doubleClickMessageToEdit": "Haz doble clic en un mensaje de chat para editarlo",
+
+    "chat/keyboardShortcuts/label": "Atajos de teclado",
+    "chat/keyboardShortcuts/verbPrefix": "Utilice",
+    "chat/keyboardShortcuts/regenerate": "para regenerar el último mensaje en el chat",
+    "chat/keyboardShortcuts/sendMessage": "para enviar un mensaje",
+
+    "onboarding/blockTitle": "Consejos de Bienvenida",
+    "onboarding/dismissedHints": "Consejos de Bienvenida descartados",
+    "onboarding/resetHintTooltip": "Haga clic para volver a activar los consejos de Bienvenida",
+    "onboarding/resetAllHints": "Reiniciar Todos los Consejos de Bienvenida",
+    "onboarding/noneDismissed": "No hay consejos de bienvenida descartados, actualmente todos los consejos de ayuda de bienvenida aparecerán hasta que se descarten",
+    
     "firstTimeExperienceLabel": "Primera experiencia en el chat",
     "firstTimeExperienceMarkCompletedLabel": "Marcar como completado",
     "firstTimeExperienceResetLabel": "Restablecer",
@@ -42,35 +76,86 @@
     "sepiaThemeLabel": "Sepia",
     "unloadPreviousModelLabel": "Al seleccionar un modelo para cargar, primero descarga cualquier modelo cargado actualmente",
     "languageLabel": "Idioma",
-    "changeLanguageLabel": "Cambiar el idioma de la aplicación",
+    "changeLanguageLabel": "Cambiar el idioma de la aplicación (aún en desarrollo)",
     "developerLabel": "Desarrollador",
     "showExperimentalFeaturesLabel": "Mostrar funciones experimentales",
     "appFirstLoadLabel": "Primera carga de la aplicación",
     "showDebugInfoBlocksInChatLabel": "Mostrar bloques de información de depuración en el chat",
-    "autoLoadBundledLLMLabel": "Cargar automáticamente un modelo LLM incluido al inicio",
+    "autoLoadBundledLLMLabel": "Cargar automáticamente un modelo LLM empaquetado al iniciar",
     "showReleaseNotes": "Mostrar notas de la versión",
     "hideReleaseNotes": "Ocultar notas de la versión",
 
     "backendDownloadNewUpdate": "¡Nuevos backends están disponibles!",
     "backendDownloadNewUpdateAction": "Ir a la página de desarrolladores",
 
-    "backendDownloadChannel.label": "Canal de descarga de paquetes de extensión de LM Studio",
+    "backendDownloadChannel.label": "Canal de descarga de paquetes de extensiones de LM Studio",
     "backendDownloadChannel.value.stable": "Estable",
     "backendDownloadChannel.value.beta": "Beta",
     "backendDownloadChannel.value.latest": "Desarrollo",
     "backendDownloadChannel.shortLabel": "Canal de descarga de entornos de ejecución",
     "backendDownloadChannel.hint": "Elige el canal desde el cual descargar los paquetes de extensión de LM Studio. \"{{stableName}}\" es el canal recomendado para la mayoría de los usuarios.",
 
+    "appUpdateChannel.label": "Canal de actualización de LM Studio",
+    "appUpdateChannel.value.stable": "Estable",
+    "appUpdateChannel.value.beta": "Beta",
+    "appUpdateChannel.shortLabel": "Canal de actualización de la aplicación",
+    "appUpdateChannel.hint": "Elija el canal por el que desea recibir las actualizaciones de la aplicación LM Studio. \"{{stableName}}\" es el canal recomendado para la mayoría de los usuarios.",
+
     "modelLoadingGuardrails.label": "Guardarraíles de carga de modelos",
     "modelLoadingGuardrails.description": "Cargar modelos más allá de los límites de recursos del sistema puede causar inestabilidad o bloqueo del sistema. Los guardarraíles evitan sobrecargas accidentales. Ajusta estos límites aquí si es necesario, pero ten en cuenta que cargar modelos cerca del límite del sistema puede reducir la estabilidad.",
     "modelLoadingGuardrails.value.off": "APAGADO (No recomendado)",
+    "modelLoadingGuardrails.value.off/subTitle": "No hay precauciones contra la sobrecarga del sistema",
+    "modelLoadingGuardrails.value.off/detail": "Sin detalles",
     "modelLoadingGuardrails.value.low": "Relajado",
+    "modelLoadingGuardrails.value.low/subTitle": "Precauciones leves contra la sobrecarga del sistema",
+    "modelLoadingGuardrails.value.low/detail": "Detalles relajados",
     "modelLoadingGuardrails.value.medium": "Balanceado",
-    "modelLoadingGuardrails.value.high": "Conservador",
+    "modelLoadingGuardrails.value.medium/subTitle": "Precauciones moderadas contra la sobrecarga del sistema",
+    "modelLoadingGuardrails.value.medium/detail": "Detalles balanceados",
+    "modelLoadingGuardrails.value.high": "Estricto",
+    "modelLoadingGuardrails.value.high/subTitle": "Fuertes precauciones contra la sobrecarga del sistema",
+    "modelLoadingGuardrails.value.high/detail": "Detalles estrictos",
     "modelLoadingGuardrails.value.custom": "Personalizado",
+    "modelLoadingGuardrails.value.custom/subTitle": "Establece tu propio límite para el tamaño máximo de modelo que se puede cargar",
+    "modelLoadingGuardrails.value.custom/detail": "Detalle personalizado",
     "modelLoadingGuardrails.custom.label": "Límite de Memoria: ",
     "modelLoadingGuardrails.custom.unitGB": "GB",
-    "modelLoadingGuardrails.custom.description": "Establece un límite de memoria personalizado para la carga de modelos. Los modelos no se cargarán si al cargarlos se excede este límite.",
+    "modelLoadingGuardrails.custom.description": "Establece un límite de memoria personalizado para la carga de modelos. Los modelos no se cargarán si al cargarlos se supera este límite.",
 
-    "expandConfigsOnClick": "Expandir configuraciones al hacer clic en lugar de al pasar el cursor"
+    "experimentalLoadPresets": "Activar el soporte de configuración de carga de modelos en los preajustes",
+    "experimentalLoadPresets.description": "Permitir que los preajustes incluyan configuraciones de carga de modelos. Esta función es experimental y agradecemos cualquier comentario.",
+
+    "promptWhenCommittingUnsavedChangesWithNewFields": "Preconfiguraciones: Mostrar diálogo de confirmación al confirmar nuevos campos a la preconfiguración.",
+    "promptWhenCommittingUnsavedChangesWithNewFields.description": "Esto es útil si desea evitar añadir accidentalmente nuevos campos a los preajustes",
+
+    "autoStartOnLogin": "Iniciar el servicio LLM al iniciar sesión",
+    "autoStartOnLogin.description": "Iniciar automáticamente el servicio LLM cuando inicies sesión en tu computadora.",
+    
+    "expandConfigsOnClick": "Expandir configuraciones al hacer clic en lugar de al pasar el cursor por encima"
+
+    "migrateChats": {
+    "label": "Migrar chats anteriores a la versión 0.3.0",
+    "hasBetterLabel": "Volver a migrar los chats anteriores a la versión 0.3.0",
+    "action_one": "Migrar 1 Chat",
+    "action_other": "Migrar {{count}} Chats",
+    "inProgress": "Migrando chats...",
+    "hint": {
+      "primary": "Hemos renovado la estructura interna de datos de los chats de la versión 0.3.0+ para que sean compatibles con funciones como los mensajes de chat multiversión. Para que los chats antiguos aparezcan en la aplicación, es necesario migrarlos al nuevo formato.",
+      "details": "El proceso de migración NO borrará tus chats antiguos, sino que hará una copia de ellos en el nuevo formato. ",
+      "footer": "Puedes seguir accediendo a tus chats antiguos a través de versiones anteriores de LM Studio. Actualmente, las imágenes no se migrarán automáticamente."
+    },
+    "hasBetterHint": {
+      "primary": "Hemos mejorado el migrador de chats desde que migraste tus antiguos chats. Te gustaría volver a utilizarlo?",
+      "details": "El proceso de migración creará una nueva carpeta para contener los chats recién migrados. Tus chats antiguos permanecerán intactos.",
+      "footer": "Puedes seguir accediendo a tus chats antiguos a través de versiones anteriores de LM Studio. Actualmente, las imágenes no se migrarán automáticamente."
+    },
+    "success": "¡Chats migrados correctamente!",
+    "success_one": "Migrado con éxito 1 chat",
+    "success_other": "Migrado con éxito {{count}} chats",
+    "showInstructionsButton": "Mostrar instrucciones",
+    "footerCardText": "Es necesario migrar los chats de versiones anteriores de LM Studio para poder utilizarlos en esta versión.",
+    "hasBetterFooterCardText": "Hemos mejorado el migrador de chats desde que migraste tus chats antiguos. Puedes volver a ejecutar el proceso de migración. (Crearemos una nueva carpeta para contener los chats recién migrados).",
+    "dismissConfirm": "Descartar",
+    "dismissConfirmDescription": "Siempre puedes gestionar la migración del chat en Configuración"
+  }
 }
