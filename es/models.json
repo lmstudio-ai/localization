@@ -68,7 +68,7 @@
   "contextMenu/unpin": "Desanclar",
   "contextMenu/copyAbsolutePath": "Copiar ruta absoluta",
   "contextMenu/copyModelName": "Copiar la ruta del modelo"
-  "contextMenu/openOnHuggingFace": "Abierto en Cara de Abrazo",
+  "contextMenu/openOnHuggingFace": "Abrir en Hugging Face",
   "tooltip/moreActions": "Más acciones",
   "tooltip/getInfo": "Obtener Información",
   "tooltip/editModelDefaultConfig": "Editar la configuración por defecto del modelo",
