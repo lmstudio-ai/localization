@@ -1,4 +1,12 @@
 {
+  "settingsDialogTitle": "앱 설정",
+  "settingsDialogButtonTooltip": "앱 설정",
+
+  "settingsNewButtonPopover": {
+    "primary": "앱 설정이 이제 우측 하단에 있습니다",
+    "secondary": "⚙️ 버튼을 클릭하여 열 수 있습니다",
+    "tertiary": "또는 누르세요"
+  },
   "appUpdate": "앱 업데이트",
   "checkingAppUpdate": "업데이트 확인 중...",
   "checkForUpdates": "업데이트 확인",
@@ -32,6 +40,7 @@
   "installAndRelaunch": "설치하고 다시 시작",
   "uptodate": "모든 업데이트가 완료되었습니다! 현재 버전은 {{version}}입니다",
   "preferences": "환경 설정",
+  "general": "일반",
   "sideButtonLabels": "사이드 버튼 레이블 표시",
   "colorThemeLabel": "색상 테마",
   "complexityLevelLabel": "사용자 인터페이스 복잡도 수준",
@@ -41,6 +50,8 @@
   "developerComplexityLevelLabel": "개발자",
   "chatSettingsLabel": "채팅 설정",
   "chat/alwaysShowPromptTemplate": "채팅 사이드바에 항상 프롬프트 템플릿 표시",
+  "chat/highlightChatMessageOnHover": "마우스를 올리면 채팅 메시지 강조 표시",
+  "chat/doubleClickMessageToEdit": "채팅 메시지를 더블 클릭하여 편집",
 
   "chat/keyboardShortcuts/label": "키보드 단축키",
   "chat/keyboardShortcuts/verbPrefix": "사용",
@@ -109,10 +120,20 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "모델 로딩을 위한 사용자 정의 메모리 한도를 설정하세요. 이 한도를 초과하면 모델이 로드되지 않습니다.",
 
+  "experimentalLoadPresets": "프리셋에서 모델 로드 구성 지원 활성화",
+  "experimentalLoadPresets.description": "프리셋에 모델 로드 구성을 포함할 수 있도록 허용할지 여부입니다. 이 기능은 실험적이며 피드백을 환영합니다.",
+
+  "promptWhenCommittingUnsavedChangesWithNewFields": "프리셋: 새 필드를 프리셋에 커밋할 때 확인 대화 상자 표시",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "프리셋에 실수로 새 필드를 추가하는 것을 방지하고 싶을 때 유용합니다",
+
+  "autoStartOnLogin": "로그인 시 LLM 서비스 시작",
+  "autoStartOnLogin.description": "컴퓨터에 로그인할 때 자동으로 LLM 서비스를 시작합니다",
+
   "expandConfigsOnClick": "클릭 시 구성 확장 (호버 대신)",
 
   "migrateChats": {
     "label": "0.3.0 이전 채팅 마이그레이션",
+    "hasBetterLabel": "0.3.0 이전 채팅 다시 마이그레이션",
     "action_one": "1개의 채팅 마이그레이션",
     "action_other": "{{count}}개의 채팅 마이그레이션",
     "inProgress": "채팅 마이그레이션 중...",
@@ -121,12 +142,18 @@
         "details": "마이그레이션 과정에서 이전 채팅이 삭제되지 않고 새 형식으로 복사됩니다.",
         "footer": "이전 버전의 LM Studio를 통해 여전히 이전 채팅에 접근할 수 있습니다. 현재 이미지는 자동으로 마이그레이션되지 않습니다."
     },
+    "hasBetterHint": {
+      "primary": "이전 채팅을 마이그레이션한 이후 채팅 마이그레이터가 개선되었습니다. 다시 실행하시겠습니까?",
+      "details": "마이그레이션 과정에서 새로 마이그레이션된 채팅을 담을 새 폴더를 만들 것입니다. 이전 채팅은 그대로 유지됩니다.",
+      "footer": "이전 버전의 LM Studio를 통해 여전히 이전 채팅에 접근할 수 있습니다. 현재 이미지는 자동으로 마이그레이션되지 않습니다."
+    },
     "success": "채팅 마이그레이션이 성공적으로 완료되었습니다!",
     "success_one": "1개의 채팅이 성공적으로 마이그레이션되었습니다",
     "success_other": "{{count}}개의 채팅이 성공적으로 마이그레이션되었습니다",
-    "showInstructionsButton": "Show Instructions",
-    "footerCardText": "Chats from previous versions of LM Studio need to be migrated in order for them to be used in this version.",
-    "dismissConfirm": "Dismiss",
-    "dismissConfirmDescription": "You can always handle chat migration in Settings"
+    "showInstructionsButton": "지침(Instructions) 보기",
+    "footerCardText": "이전 버전의 LM Studio의 채팅을 이 버전에서 사용하려면 마이그레이션이 필요합니다.",
+    "hasBetterFooterCardText": "이전 채팅을 마이그레이션한 이후 채팅 마이그레이터가 개선되었습니다. 마이그레이션 과정을 다시 실행할 수 있습니다. (새로 마이그레이션된 채팅을 담을 새 폴더를 만들 것입니다.)",
+    "dismissConfirm": "닫기",
+    "dismissConfirmDescription": "설정에서 언제든지 채팅 마이그레이션을 처리할 수 있습니다"
   }
 }

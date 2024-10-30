@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "채팅을 선택하세요",
   "unnamedChat": "이름 없는 채팅",
   "emptyFolder": "빈 폴더",
+
+  "tokenCount": "토큰 수",
+  "messageTokenCount": "입력 토큰 수",
+  "tokenCount/hint": "메시지의 토큰 수입니다. 현재 선택된 모델의 토크나이저를 사용하여 계산됩니다.\n\n모델이 로드되어 있어야 합니다.",
+  "messageTokenCount/hint": "메시지의 토큰 수입니다. 현재 선택된 모델의 토크나이저를 사용하여 계산됩니다.\n\n파일 첨부의 토큰 수는 포함되지 **않습니다**.",
+
   "notes": "대화 메모",
   "notes/add/first": "메모 추가",
   "notes/add/another": "다른 메모 추가",
@@ -71,6 +77,8 @@
   "editMessageConfirm/discard": "변경 취소",
   "tokenCount/totalNotAvailable": "토큰: {{current}}",
   "tokenCount/totalAvailable": "토큰: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "컨텍스트가 {{percentage}}% 찼습니다",
+  "tokenCount/contextOverflow": "처리되지 않은 컨텍스트가 모델의 최대 토큰 제한을 초과했습니다. 컨텍스트 오버플로우 정책에 따라 컨텍스트가 잘리거나 메시지가 전송되지 않을 수 있습니다.",
   "modelLoader/manualLoadParams/label": "모델 로드 매개변수 수동 선택",
   "modelLoader/manualLoadParams/hint/before": "(또는 ",
   "modelLoader/manualLoadParams/hint/after": " 키 누르기)",
@@ -113,5 +121,15 @@
   "style/fontSize/label": "글꼴 크기",
   "style/fontSize/medium": "기본",
   "style/fontSize/large": "크게",
-  "style/fontSize/small": "작게"
+  "style/fontSize/small": "작게",
+
+  "topBarActions/duplicateChat": "채팅 복제",
+  "topBarActions/clearChat": "모든 메시지 지우기",
+  "topBarActions/clearChatConfirmation": "이 채팅의 모든 메시지를 지우시겠습니까?",
+  "topBarActions/clearChatCancel": "취소",
+  "topBarActions/clearChatDelete": "모두 지우기",
+
+  "noModels.indexing": "모델 파일 인덱싱 중... (잠시 기다려주세요)",
+  "noModels.downloading": "첫 번째 LLM 다운로드 중...",
+  "noModels": "아직 LLM이 없습니다! 시작하려면 하나를 다운로드하세요!"
 }
