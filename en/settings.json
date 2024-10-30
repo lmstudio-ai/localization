@@ -1,4 +1,12 @@
 {
+  "settingsDialogTitle": "App Settings",
+  "settingsDialogButtonTooltip": "App Settings",
+
+  "settingsNewButtonPopover": {
+    "primary": "App Settings are now at the bottom-right corner",
+    "secondary": "Click on the ⚙️ button to open them.",
+    "tertiary": "Or press"
+  },
   "appUpdate": "App Update",
   "checkingAppUpdate": "Checking for updates...",
   "checkForUpdates": "Check for updates",
@@ -32,6 +40,7 @@
   "installAndRelaunch": "Install and relaunch",
   "uptodate": "You are all up to date! The current version is {{version}}",
   "preferences": "Preferences",
+  "general": "General",
   "sideButtonLabels": "Show side button labels",
   "colorThemeLabel": "Color Theme",
   "complexityLevelLabel": "User Interface Complexity Level",
@@ -41,6 +50,8 @@
   "developerComplexityLevelLabel": "Developer",
   "chatSettingsLabel": "Chat Settings",
   "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
+  "chat/highlightChatMessageOnHover": "Highlight chat message on hover",
+  "chat/doubleClickMessageToEdit": "Double click on a chat message to edit",
 
   "chat/keyboardShortcuts/label": "Keyboard Shortcuts",
   "chat/keyboardShortcuts/verbPrefix": "Use",
@@ -63,7 +74,7 @@
   "sepiaThemeLabel": "Sepia",
   "unloadPreviousModelLabel": "When selecting a model to load, first unload any currently loaded ones",
   "languageLabel": "Language",
-  "changeLanguageLabel": "Change Language of the app",
+  "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
@@ -109,10 +120,20 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
 
+  "experimentalLoadPresets": "Enable model load configuration support in presets",
+  "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
+
+  "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
+
+  "autoStartOnLogin": "Start LLM Service on login",
+  "autoStartOnLogin.description": "Automatically start the LLM service when you log in to your computer",
+
   "expandConfigsOnClick": "Expand configs on click rather than hover",
 
   "migrateChats": {
     "label": "Migrate pre-0.3.0 Chats",
+    "hasBetterLabel": "Re-Migrate pre-0.3.0 Chats",
     "action_one": "Migrate 1 Chat",
     "action_other": "Migrate {{count}} Chats",
     "inProgress": "Migrating chats...",
@@ -121,11 +142,17 @@
       "details": "The migration process will NOT delete your old chats, but rather make a copy of them in the new format. ",
       "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
     },
+    "hasBetterHint": {
+      "primary": "We have improved the chat migrator since you have migrated your old chats. Would you like to run it again?",
+      "details": "The migration process will create a new folder to contain the newly migrated chats. Your old chats will remain untouched.",
+      "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
+    },
     "success": "Successfully migrated chats!",
     "success_one": "Successfully migrated 1 chat",
     "success_other": "Successfully migrated {{count}} chats",
     "showInstructionsButton": "Show Instructions",
     "footerCardText": "Chats from previous versions of LM Studio need to be migrated in order for them to be used in this version.",
+    "hasBetterFooterCardText": "We have improved the chat migrator since you have migrated your old chats. You can rerun the migration process. (We will create a new folder to contain the newly migrated chats.)",
     "dismissConfirm": "Dismiss",
     "dismissConfirmDescription": "You can always handle chat migration in Settings"
   }

@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Koleksi",
+  "collectionsColumn/collectionError": "Terjadi kesalahan saat memuat detail koleksi, silakan coba segarkan di atas",
+  "bookmarksColumn": "Penanda",
+  "searchBar/placeholder": "Cari model di Hugging Face...",
+  "searchBar/huggingFaceError": "Terjadi kesalahan saat mengambil hasil dari Hugging Face, silakan coba lagi sebentar lagi",
+  "sortBy": "Urutkan berdasarkan",
+  "searchSortKey.default/title": "Kecocokan Terbaik",
+  "searchSortKey.likes/title": "Paling Disukai",
+  "searchSortKey.downloads/title": "Paling Banyak Diunduh",
+  "searchSortKey.lastModified/title": "Baru Saja Diperbarui",
+  "searchSortKey.createdAt/title": "Baru Saja Dibuat",
+  "download.option.willFitEstimation.caveat": "Mungkin ada faktor lain yang mencegahnya dimuat, seperti arsitektur model, integritas file model, atau jumlah memori yang tersedia di komputer Anda.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Offload GPU Penuh Mungkin",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Model ini mungkin sepenuhnya muat di memori GPU Anda. Ini bisa mempercepat inferensi secara signifikan.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Offload GPU Parsial Mungkin",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Model ini mungkin sebagian muat di memori GPU Anda. Ini sering kali bisa mempercepat inferensi secara signifikan.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Kemungkinan Muat",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Model ini kemungkinan akan muat di memori mesin Anda.",
+  "download.option.willFitEstimation.willNotFit/title": "Kemungkinan terlalu besar untuk mesin ini",
+  "download.option.willFitEstimation.willNotFit/description": "Persyaratan memori untuk menggunakan file model ini mungkin melebihi sumber daya yang tersedia di mesin Anda. Mengunduh file ini TIDAK disarankan.",
+  "download.option.recommended/title": "Direkomendasikan",
+  "download.option.recommended/description": "Berdasarkan perangkat keras Anda, opsi ini direkomendasikan.",
+  "download.option.downloaded/title": "Diunduh",
+  "download.option.downloading/title": "Mengunduh ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Segarkan umpan"
+}

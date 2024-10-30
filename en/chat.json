@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "Select a chat",
   "unnamedChat": "Unnamed Chat",
   "emptyFolder": "Folder is Empty",
+
+  "tokenCount": "Token count",
+  "messageTokenCount": "Input token count",
+  "tokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nRequires the model to be loaded.",
+  "messageTokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nDoes **NOT** include an estimate of tokens in file attachements.",
+
   "notes": "Conversation Notes",
   "notes/add/first": "Add a note",
   "notes/add/another": "Add another note",
@@ -71,14 +77,16 @@
   "editMessageConfirm/discard": "Discard Changes",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Context is {{percentage}}% full",
+  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Oveflow Policy, the context may be truncated or the message may not be sent.",
   "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
   "modelLoader/manualLoadParams/hint/before": "(or hold ",
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "Failed to move",
   "actions/rename/error": "Failed to rename",
-  "actions/createChatAtRoot": "Create New Chat",
+  "actions/createChatAtRoot": "New Chat...",
   "actions/createChatAtRoot/error": "Failed to create chat at root",
-  "actions/createFolderAtRoot": "Create New Folder",
+  "actions/createFolderAtRoot": "New Folder...",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
   "actions/createChat/error": "Failed to create chat",
 
@@ -113,5 +121,15 @@
   "style/fontSize/label": "Font Size",
   "style/fontSize/medium": "Default",
   "style/fontSize/large": "Large",
-  "style/fontSize/small": "Small"
+  "style/fontSize/small": "Small",
+
+  "topBarActions/duplicateChat": "Duplicate chat",
+  "topBarActions/clearChat": "Clear all messages",
+  "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
+  "topBarActions/clearChatCancel": "Cancel",
+  "topBarActions/clearChatDelete": "Clear All",
+
+  "noModels.indexing": "Indexing model files... (this might take a moment)",
+  "noModels.downloading": "Downloading your first LLM...",
+  "noModels": "No LLMs yet! Download one to get started!"
 }

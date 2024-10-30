@@ -1,6 +1,6 @@
 {
   "collectionsColumn": "集合",
-  "collectionsColumn/collectionError": "加载集合详情时出错，请尝试上方的刷新",
+  "collectionsColumn/collectionError": "加载集合详情时出错，请尝试上方的刷新按钮",
   "bookmarksColumn": "书签",
   "searchBar/placeholder": "在 Hugging Face 上搜索模型...",
   "searchBar/huggingFaceError": "从 Hugging Face 获取结果时出现错误，请稍后再试",
@@ -10,18 +10,19 @@
   "searchSortKey.downloads/title": "最多下载",
   "searchSortKey.lastModified/title": "最近更新",
   "searchSortKey.createdAt/title": "最近创建",
-  "download.option.willFitEstimation.caveat": "可能还有其他因素会阻止其加载，例如模型的架构、模型文件的完整性或计算机可用的内存量。",
+  "download.option.willFitEstimation.caveat": "可能存在其他因素阻止其加载，例如模型架构、模型文件完整性或您计算机上的可用内存。",
   "download.option.willFitEstimation.fullGPUOffload/title": "完全 GPU 卸载可能",
-  "download.option.willFitEstimation.fullGPUOffload/description": "此模型可能完全适合您的 GPU 内存。这可以大大加快推理速度。",
+  "download.option.willFitEstimation.fullGPUOffload/description": "此模型可能完全适合您的 GPU 内存。这可以显著加快推理速度。",
   "download.option.willFitEstimation.partialGPUOffload/title": "部分 GPU 卸载可能",
-  "download.option.willFitEstimation.partialGPUOffload/description": "此模型可能部分适合您的 GPU 内存。这通常可以大大加快推理速度。",
+  "download.option.willFitEstimation.partialGPUOffload/description": "此模型可能部分适合您的 GPU 内存。这通常可以显著加快推理速度。",
   "download.option.willFitEstimation.fitWithoutGPU/title": "可能适合",
-  "download.option.willFitEstimation.fitWithoutGPU/description": "此模型可能适合您的计算机内存。",
-  "download.option.willFitEstimation.willNotFit/title": "可能对这台机器来说太大",
-  "download.option.willNotFit/description": "成功使用此模型文件可能需要的内存要求可能超过您的机器可用资源。不推荐下载此文件。",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "此模型可能适合您机器的内存。",
+  "download.option.willFitEstimation.willNotFit/title": "可能对本机来说太大",
+  "download.option.willFitEstimation.willNotFit/description": "成功使用此模型文件所需的内存可能超出您机器上的可用资源。不建议下载此文件。",
   "download.option.recommended/title": "推荐",
-  "download.option.recommended/description": "基于您的硬件，推荐此选项。",
+  "download.option.recommended/description": "基于您的硬件，此选项被推荐。",
   "download.option.downloaded/title": "已下载",
-  "download.option.downloading/title": "下载中 ({{progressPercentile}}%)",
-  "feed.action.refresh": "刷新信息流"
+  "download.option.downloading/title": "正在下载 ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "刷新动态"
 }
