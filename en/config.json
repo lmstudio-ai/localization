@@ -118,6 +118,10 @@
   "llm.load.llama.cpuThreadPoolSize/title": "CPU Thread Pool Size",
   "llm.load.llama.cpuThreadPoolSize/subTitle": "Number of CPU threads to allocate to the thread pool used for model computation",
   "llm.load.llama.cpuThreadPoolSize/info": "The number of CPU threads to allocate to the thread pool used for model computation. Increasing the number of threads does not always correlate with better performance. The default is <{{dynamicValue}}>.",
+  "llm.load.llama.kCacheQuantizationType/title": "K Cache Quantization Type",
+  "llm.load.llama.kCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
+  "llm.load.llama.vCacheQuantizationType/title": "V Cache Quantization Type",
+  "llm.load.llama.vCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -269,6 +273,7 @@
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
+  "kvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. You may need to enable Flash Attention to use it. Some combinations of the KV cache may crash the model. If you encounter problems, try disabling it by setting it to \"F16\".",
 
   "seedUncheckedHint": "Random Seed",
   "ropeFrequencyBaseUncheckedHint": "Auto",
