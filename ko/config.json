@@ -22,6 +22,7 @@
   "loadParameters/description": "모델 초기화 및 메모리 로드 방식을 제어하는 설정입니다.",
   "loadParameters/reload": "변경 사항을 적용하려면 다시 불러오세요",
   "discardChanges": "변경 취소",
+  "loadModelToSeeOptions": "옵션을 보려면 모델을 로드하세요",
   "llm.prediction.systemPrompt/title": "시스템 프롬프트",
   "llm.prediction.systemPrompt/description": "모델에 배경 지침을 제공하는 데 사용합니다. 규칙, 제약 조건 또는 일반 요구 사항 등을 포함할 수 있습니다. 이 필드는 '시스템 프롬프트'라고도 합니다.",
   "llm.prediction.systemPrompt/subTitle": "AI를 위한 지침",
@@ -72,8 +73,10 @@
   "llm.prediction.seed/title": "시드 (Seed)",
   "llm.prediction.structured/title": "구조화된 출력 (Structured Output)",
   "llm.prediction.structured/info": "구조화된 출력",
+  "llm.prediction.structured/description": "고급: JSON 스키마를 제공하여 모델의 특정 출력 형식을 강제할 수 있습니다. 자세한 내용은 [문서](https://lmstudio.ai/docs/advanced/structured-output)를 참조하세요",
   "llm.prediction.promptTemplate/title": "프롬프트 템플릿",
   "llm.prediction.promptTemplate/subTitle": "채팅 메시지가 모델에 전송되는 형식입니다. 이를 변경하면 예상치 못한 동작이 발생할 수 있으므로 신중히 사용하세요!",
+
   "llm.load.contextLength/title": "컨텍스트 길이 (Context Length)",
   "llm.load.contextLength/subTitle": "모델이 하나의 프롬프트에서 처리할 수 있는 최대 토큰 수입니다. '추론 매개변수' 아래의 대화 초과 옵션을 참조하여 이를 관리하는 방법을 확인하세요",
   "llm.load.contextLength/info": "모델이 한 번에 고려할 수 있는 최대 토큰 수를 지정하여 처리 중에 유지되는 컨텍스트 양에 영향을 줍니다",
@@ -138,6 +141,7 @@
   "presetTooltip": {
     "included/title": "적용됨",
     "included/description": "다음 필드가 적용됩니다",
+    "included/conflict": "이 값을 적용할지 선택하라는 메시지가 표시됩니다",
     "included/empty": "이 컨텍스트에서는 이 프리셋의 필드가 적용되지 않습니다.",
     "separateLoad/title": "로드 시간 구성",
     "separateLoad/description.1": "프리셋에는 다음과 같은 로드 시간 구성도 포함됩니다. 로드 시간 구성은 모델 전체에 적용되며 효과를 적용하려면 모델을 다시 로드해야 합니다.",
@@ -166,6 +170,8 @@
       "jinja.eosToken/label": "EOS 토큰",
       "jinja.template/label": "템플릿",
       "jinja/error": "진자 템플릿 파싱 실패: {{error}}",
+      "jinja/empty": "위에 Jinja 템플릿을 입력하세요.",
+      "jinja/unlikelyToWork": "위에 입력한 Jinja 템플릿은 \"messages\" 변수를 참조하지 않아 작동하지 않을 수 있습니다. 올바른 템플릿을 입력했는지 다시 확인해주세요.",
       "types.manual/label": "수동",
       "manual.subfield.beforeSystem/label": "시스템 전",
       "manual.subfield.beforeSystem/placeholder": "시스템 접두사 입력...",
@@ -201,15 +207,63 @@
       "off": "꺼짐"
     }
   },
-  "conflictResolution": {
-    "title": "충돌",
-    "description": "저장되지 않은 설정과 적용하려는 프리셋 사이에 충돌이 있습니다. 어떻게 해결하시겠습니까?",
-    "userValues": "귀하의 변경사항",
-    "presetValues": "들어오는 변경사항",
+  "saveConflictResolution": {
+    "title": "프리셋에 포함할 값 선택",
+    "description": "유지할 값을 선택하세요",
+    "instructions": "포함할 값을 클릭하세요",
+    "userValues": "이전 값",
+    "presetValues": "새 값",
+    "confirm": "확인",
+    "cancel": "취소"
+  },
+  "applyConflictResolution": {
+    "title": "어떤 값을 유지할까요?",
+    "description": "들어오는 프리셋과 저장되지 않은 변경사항이 겹칩니다",
+    "instructions": "유지할 값을 클릭하세요",
+    "userValues": "현재 값",
+    "presetValues": "들어오는 프리셋 값",
     "confirm": "확인",
     "cancel": "취소"
   },
   "empty": "<비어 있음>",
+  "presets": {
+    "title": "프리셋",
+    "commitChanges": "변경사항 커밋",
+    "commitChanges/description": "변경사항을 프리셋에 커밋합니다.",
+    "commitChanges.manual": "새로운 필드가 감지되었습니다. 프리셋에 포함할 변경사항을 선택할 수 있습니다.",
+    "commitChanges.manual.hold.0": "누르고 있으면",
+    "commitChanges.manual.hold.1": "프리셋에 커밋할 변경사항을 선택할 수 있습니다.",
+    "commitChanges.saveAll.hold.0": "누르고 있으면",
+    "commitChanges.saveAll.hold.1": "모든 변경사항을 저장합니다.",
+    "commitChanges.saveInPreset.hold.0": "누르고 있으면",
+    "commitChanges.saveInPreset.hold.1": "프리셋에 이미 포함된 필드의 변경사항만 저장합니다.",
+    "commitChanges/error": "프리셋에 변경사항 커밋 실패.",
+    "commitChanges.manual/description": "프리셋에 포함할 변경사항을 선택하세요.",
+    "saveAs": "새로 저장...",
+    "presetNamePlaceholder": "프리셋 이름을 입력하세요...",
+    "cannotCommitChangesLegacy": "이것은 레거시 프리셋이라 수정할 수 없습니다. \"새로 저장...\"을 사용하여 복사본을 만들 수 있습니다.",
+    "cannotCommitChangesNoChanges": "커밋할 변경사항이 없습니다.",
+    "emptyNoUnsaved": "프리셋 선택...",
+    "emptyWithUnsaved": "저장되지 않은 프리셋",
+    "saveEmptyWithUnsaved": "프리셋 다른 이름으로 저장...",
+    "saveConfirm": "저장",
+    "saveCancel": "취소",
+    "saving": "저장 중...",
+    "save/error": "프리셋 저장 실패.",
+    "deselect": "프리셋 선택 해제",
+    "deselect/error": "프리셋 선택 해제 실패.",
+    "select/error": "프리셋 선택 실패.",
+    "delete/error": "프리셋 삭제 실패.",
+    "discardChanges": "저장되지 않은 항목 취소",
+    "discardChanges/info": "저장되지 않은 모든 변경사항을 취소하고 프리셋을 원래 상태로 복원합니다",
+    "newEmptyPreset": "새 빈 프리셋 만들기...",
+    "contextMenuSelect": "프리셋 선택",
+    "contextMenuDelete": "삭제"
+  },
 
-  "flashAttentionWarning": "플래시 어텐션은 일부 모델에서 문제를 일으킬 수 있는 실험적 기능입니다. 문제가 발생하면 비활성화해 보세요."
+  "flashAttentionWarning": "플래시 어텐션은 일부 모델에서 문제를 일으킬 수 있는 실험적 기능입니다. 문제가 발생하면 비활성화해 보세요.",
+
+  "seedUncheckedHint": "랜덤 시드",
+  "ropeFrequencyBaseUncheckedHint": "자동",
+  "ropeFrequencyScaleUncheckedHint": "자동"
 }

@@ -27,6 +27,8 @@
   "serverOptions/contentLogging/title": "프롬프트 및 응답 로깅",
   "serverOptions/contentLogging/subtitle": "로컬 요청 / 응답 로깅 설정",
   "serverOptions/contentLogging/hint": "로컬 서버 로그 파일에 프롬프트 및/또는 응답을 기록할지 여부입니다.",
+  "serverOptions/jitModelLoading/title": "실시간 모델 로딩",
+  "serverOptions/jitModelLoading/hint": "활성화되면 요청에 로드되지 않은 모델이 지정된 경우 자동으로 로드되어 사용됩니다. 또한 \"/v1/models\" 엔드포인트에는 아직 로드되지 않은 모델도 포함됩니다.",
   "serverOptions/loadModel/error": "모델 로드 실패",
 
   "serverLogs/scrollToBottom": "맨 아래로 이동",
