@@ -10,7 +10,7 @@ LM Studio localization
 
 ## Huge thank you to community localizers 🙏
 
-- Spanish [@xtianpaiva](https://github.com/xtianpaiva)
+- Spanish [@xtianpaiva](https://github.com/xtianpaiva), [@AlexisGross](https://github.com/AlexisGross)
 - Norwegian [@Exlo84](https://github.com/Exlo84)
 - German [@marcelMaier](https://github.com/marcelMaier), [@Goekdeniz-Guelmez](https://github.com/Goekdeniz-Guelmez)
 - Turkish [@progesor](https://github.com/progesor)
@@ -27,8 +27,10 @@ LM Studio localization
 - Ukrainian (uk) [@hmelenok](https://github.com/hmelenok)
 - Japanese (ja) [@digitalsp](https://github.com/digitalsp)
 - Dutch (nl) [@alaaf11](https://github.com/alaaf11)
-- Italian (it) [@fralapo](https://github.com/fralapo)
-- Indonesian (id) [dwirx](https://github.com/dwirx)
+- Italian (it) [@fralapo](https://github.com/fralapo), [@Bl4ck-D0g](https://github.com/Bl4ck-D0g)
+- Indonesian (id) [@dwirx](https://github.com/dwirx)
+- Greek (gr) [@ilikecatgirls](https://github.com/ilikecatgirls)
+- Swedish (sv) [@reinew](https://github.com/reinew)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
