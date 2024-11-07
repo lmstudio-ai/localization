@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Samlingar",
+  "collectionsColumn/collectionError": "Fel vid inläsning av samlingsdetaljer, försök att uppdatera ovan",
+  "bookmarksColumn": "Bokmärken",
+  "searchBar/placeholder": "Sök efter modeller på Hugging Face...",
+  "searchBar/huggingFaceError": "Det uppstod ett fel vid hämtning av resultat från Hugging Face, försök igen om en stund",
+  "sortBy": "Sortera efter",
+  "searchSortKey.default/title": "Bästa träff",
+  "searchSortKey.likes/title": "Mest gillade",
+  "searchSortKey.downloads/title": "Mest nedladdade",
+  "searchSortKey.lastModified/title": "Nyligen uppdaterade",
+  "searchSortKey.createdAt/title": "Nyligen skapade",
+  "download.option.willFitEstimation.caveat": "Det kan finnas andra faktorer som förhindrar att den laddas, såsom modellens arkitektur, modellfilens integritet eller mängden tillgängligt minne på din dator.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Full GPU-avlastning möjlig",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Denna modell kan passa helt i din GPU:s minne. Detta kan avsevärt snabba upp inferensen.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Delvis GPU-avlastning möjlig",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Denna modell kan passa delvis i din GPU:s minne. Detta kan ofta avsevärt snabba upp inferensen.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Troligen passande",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Denna modell passar troligen i din dators minne.",
+  "download.option.willFitEstimation.willNotFit/title": "Troligen för stor för denna dator",
+  "download.option.willFitEstimation.willNotFit/description": "Minneskraven för att framgångsrikt använda denna modellfil kan överstiga de tillgängliga resurserna på din dator. Nedladdning av denna fil rekommenderas INTE.",
+  "download.option.recommended/title": "Rekommenderad",
+  "download.option.recommended/description": "Baserat på din hårdvara rekommenderas detta alternativ.",
+  "download.option.downloaded/title": "Nedladdad",
+  "download.option.downloading/title": "Laddar ner ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Uppdatera flöde"
+}
