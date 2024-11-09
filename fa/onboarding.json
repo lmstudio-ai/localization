@@ -1,23 +1,23 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
+  "action.skipOnboarding": "رد کردن راه‌اندازی اولیه",
+  "action.next": "بعدی",
+  "action.back": "قبلی",
+  "action.finish": "پایان",
 
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "اکنون می‌توانید با استفاده از اسناد خود و با کمک تولید مبتنی بر بازیابی (RAG) چت کنید. این‌گونه کار می‌کند:",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "پیوست فایل‌ها",
+        "description": "تا ۵ فایل با حداکثر اندازه ترکیبی ۳۰ مگابایت بارگذاری کنید. فرمت‌های پشتیبانی‌شده شامل PDF، DOCX، TXT و CSV است."
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "خاص باشید",
+        "description": "در هنگام پرسیدن سوالات، تا حد امکان جزئیات بیشتری را ذکر کنید. این کمک می‌کند تا سیستم، مرتبط‌ترین اطلاعات را از اسناد شما بازیابی کند."
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "پاسخ ها را دریافت و آزمایش کنید",
+        "description": "مدل زبانی (LLM) به سوال شما و قسمت‌های بازیابی شده از اسناد شما نگاه می‌کند و تلاش می‌کند پاسخی تولید کند. با پرسش‌های مختلف امتحان کنید تا بهترین نتیجه را پیدا کنید."
       }
     }
   }

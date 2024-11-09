@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtimes",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "چت",
+  "discover": "کشف کردن",
+  "myModels": "مدل‌های من",
+  "developer": "توسعه‌دهنده",
+  "runtimes": "زمان‌ اجرا ها",
+  "settings": "تنظیمات",
+  "download": "دانلودها"
 }

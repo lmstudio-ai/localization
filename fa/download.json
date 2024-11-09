@@ -1,24 +1,23 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing download... (this may take a few moments)",
-  "noOptions": "No compatible options available for download",
-  
-  "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
-  "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Select recommended",
-  "deeplink/confirmation/selectOption": "Select download option",
-  "deeplink/confirmation/recommendedOption": "Likely the best option for most users",
-  "deeplink/confirmation/downloadButton": "Download",
-  "deeplink/confirmation/nevermindButton": "Nevermind",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Found ✅",
-  "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
-  "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
-  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
-  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option.",
-  "deeplink/actions/trySearching": "Try searching for {{modelName}} on Hugging Face",
+  "postDownloadActionExecutor.zipExtraction/status": "در حال استخراج...",
+  "finalizing": "در حال نهایی‌سازی دانلود... (ممکن است چند لحظه طول بکشد)",
+  "noOptions": "هیچ گزینه سازگاری برای دانلود موجود نیست",
 
-  "downloadsPanel/title": "Downloads",
-  "downloadsPanel/sectionTitle/ongoing": "Ongoing",
-  "downloadsPanel/sectionTitle/completed": "Completed"
+  "deeplink/confirmation/title": "دانلود مدل از Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "گزینه پیشنهادی",
+  "deeplink/confirmation/selectOption": "انتخاب گزینه دانلود",
+  "deeplink/confirmation/recommendedOption": "احتمالاً بهترین گزینه برای اکثر کاربران است",
+  "deeplink/confirmation/downloadButton": "دانلود",
+  "deeplink/confirmation/nevermindButton": "بی‌خیال",
+  "deeplink/confirmation/modelPresent/title": "مدل Hugging Face یافت شد ✅",
+  "deeplink/confirmation/modelPresent/body": "خبر خوب! این فایل مدل در حال حاضر روی دستگاه محلی شما موجود است.",
+  "deeplink/confirmation/loadInChat": "بارگذاری {{modelName}} در چت جدید",
+  "deeplink/error/modelNotFound/title": "اوه، نتوانستیم این مدل را پیدا کنیم",
+  "deeplink/error/modelNotFound/body": "نام مدل را دوباره بررسی کنید و گزینه دانلود دیگری را امتحان کنید.",
+  "deeplink/actions/trySearching": "تلاش برای جستجوی {{modelName}} در Hugging Face",
+
+  "downloadsPanel/title": "دانلودها",
+  "downloadsPanel/sectionTitle/ongoing": "در حال انجام",
+  "downloadsPanel/sectionTitle/completed": "تکمیل شده"
 }
-  
