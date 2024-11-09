@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Local Server",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Load settings",
+  "modelSettings/placeholder": "Select a model to configure it",
+
+  "loadedModels/noModels": "No models loaded",
+
+  "serverOptions/title": "Server Options",
+  "serverOptions/configurableTitle": "Configurable Options",
+  "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
+  "serverOptions/port/subtitle": "The port to listen on",
+  "serverOptions/autostart/title": "Auto-start server",
+  "serverOptions/autostart/hint": "Start the local server automatically when a model is loaded",
+  "serverOptions/port/integerWarning": "Port number must be an integer",
+  "serverOptions/port/invalidPortWarning": "Port must be between 1 and 65535",
+  "serverOptions/cors/title": "Enable CORS",
+  "serverOptions/cors/hint1": "Enabling CORS (Cross-origin Resource Sharing) would allow websites you visit to make requests to LM Studio server.",
+  "serverOptions/cors/hint2": "CORS might be required when making requests from a web page or VS Code / other extension.",
+  "serverOptions/cors/subtitle": "Allow cross-origin requests",
+  "serverOptions/network/title": "Serve on Local Network",
+  "serverOptions/network/subtitle": "Expose server to devices on the network",
+  "serverOptions/network/hint1": "Whether to allow connections from other devices on the network.",
+  "serverOptions/network/hint2": "If not checked, the server will only listen on localhost.",
+  "serverOptions/verboseLogging/title": "Verbose Logging",
+  "serverOptions/verboseLogging/subtitle": "Enable verbose logging for the local server",
+  "serverOptions/contentLogging/title": "Log Prompts and Responses",
+  "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
+  "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
+  "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
+  "serverOptions/loadModel/error": "Failed to load model",
+
+  "serverLogs/scrollToBottom": "Jump to bottom",
+  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Open server logs folder",
+
+  "runtimeSettings/title": "Runtime settings",
+  "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Select a runtime for each model format",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+
+  "runtimeOptions/uninstall": "Uninstall",
+  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
+  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
+  "runtimeOptions/uninstallDialog/cancel": "Cancel",
+  "runtimeOptions/noCompatibleRuntimes": "No compatible runtimes found",
+  "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
+  "runtimeOptions/noRuntimes": "No runtimes found",
+
+  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+
+  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
+  "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
+  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
+  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+
+  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
+  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+
+  "apiConfigOptions/title": "API Configuration"
+}
