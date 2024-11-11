@@ -74,8 +74,10 @@
   "tooltip/editModelDefaultConfig": "Edit model default config",
   "tooltip/editModelDefaultConfig/override": "Edit model default config (* currently has overrides",
   "tooltip/visionBadge": "This model can process image inputs",
+  "tooltip/toolUseBadge": "LM Studio supports native tool use for this model",
 
   "visionBadge/label": "Vision Enabled",
+  "toolUseBadge/label": "Tool Use Enabled",
 
   "loader.action.load": "Load Model",
   "loader.action.clearChanges": "Clear Changes",
