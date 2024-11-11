@@ -131,7 +131,7 @@
     "autoStartOnLogin": "Iniciar el servicio LLM al iniciar sesión",
     "autoStartOnLogin.description": "Iniciar automáticamente el servicio LLM cuando inicies sesión en tu computadora.",
     
-    "expandConfigsOnClick": "Expandir configuraciones al hacer clic en lugar de al pasar el cursor por encima"
+    "expandConfigsOnClick": "Expandir configuraciones al hacer clic en lugar de al pasar el cursor por encima",
 
     "migrateChats": {
     "label": "Migrar chats anteriores a la versión 0.3.0",

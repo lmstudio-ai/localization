@@ -2,7 +2,7 @@
   "action.skipOnboarding": "Omite el tutorial de bienvenida, sé lo que hago",
   "action.next": "Siguiente",
   "action.back": "Anterior",
-  "action.finish": "Terminar"
+  "action.finish": "Terminar",
 
   "dismissable_rag_modal": {
     "description": "Ahora puedes chatear con tus propios documentos utilizando la Generación Aumentada de Recuperación (RAG). Así es como funciona:",

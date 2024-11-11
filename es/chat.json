@@ -86,7 +86,7 @@
   "editMessageConfirm/save": "Guardar",
   "editMessageConfirm/discard": "Descartar cambios",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
-  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}"
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "El contexto está {{percentage}}% lleno",
   "tokenCount/contextOverflow": "El contexto no procesado es mayor que el límite máximo de tokens del modelo. Dependiendo de su Política de Contexto Oveflow, el contexto puede ser truncado o el mensaje puede no ser enviado.",
 
