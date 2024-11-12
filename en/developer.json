@@ -55,6 +55,37 @@
 
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
+  "quickDocs": {
+    "tabChipTitle": "Quick Docs",
+    "newToolUsePopover": "Code Snippets and a tool use example are now available here in \"Quick Docs\"",
+    "newToolUsePopoverTitle": "📚 🔨 New",
+    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Structured Output"
+    },
+    "imageInput": {
+      "title": "Image Input"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Tool Use",
+      "tab": {
+        "saveAsPythonFile": "Save as python file",
+        "runTheScript": "Run the script:",
+        "savePythonFileCopyPaste": "Save as python file for a copy-and-paste command"
+      }
+    },
+    "newBadge": "New"
+  },
+
   "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
   "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
   "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",

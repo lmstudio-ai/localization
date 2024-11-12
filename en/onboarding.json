@@ -20,5 +20,21 @@
         "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Tool Use has landed! 🛠️",
+      "text_0": "Tool Use allows LLMs to request calls to external functions and APIs, expanding their functionality beyond text output",
+      "text_1": "Essentially, you can provide the model with a list of available predefined functions and their input and output types, and the model will decide for you how and when to call these functions"
+    },
+    "step_1": {
+      "title": "How do I get started?",
+      "toolUseCanWorkWithAnyModel": "Tool Use may work with any model, but recommended models for Tool Use are marked with our Tool Use icon",
+      "hasCompatibleModel": "Looks like you have some compatible models already downloaded! Select one to get started:",
+      "downloadRecommendedModel": "Download a recommended model for Tool Use"
+    },
+    "nextButton": "Next",
+    "letsGoButton": "Let's go"
   }
 }
