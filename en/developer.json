@@ -97,7 +97,7 @@
 
   "model": {
     "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use.\n\nOpen <custom-link>quick docs</custom-link> for more information."
+    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
   },
 
   "apiConfigOptions/title": "API Configuration"
