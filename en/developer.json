@@ -58,7 +58,7 @@
   "quickDocs": {
     "tabChipTitle": "Quick Docs",
     "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 🔨 New",
+    "newToolUsePopoverTitle": "📚 Quick Docs",
     "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -78,9 +78,9 @@
     "toolUse": {
       "title": "Tool Use",
       "tab": {
-        "saveAsPythonFile": "Save as python file",
+        "saveAsPythonFile": "Save as Python file",
         "runTheScript": "Run the script:",
-        "savePythonFileCopyPaste": "Save as python file for a copy-and-paste command"
+        "savePythonFileCopyPaste": "Save as Python file for a copy-and-paste command"
       }
     },
     "newBadge": "New"
