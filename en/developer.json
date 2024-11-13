@@ -95,5 +95,10 @@
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
 
+  "model": {
+    "toolUseSectionTitle": "Tool Use",
+    "toolUseDescription": "Tool use enables LLMs to request functions for your code to execute.\n\nYou can specify a list of available functions in the `tools` field of the `chat.completions` API request body. The model can then specify a request for one or more of these functions to be called in its response.\n\nRead the [documentation](https://lmstudio.ai/docs/advanced/tool-use) to learn more."
+  },
+
   "apiConfigOptions/title": "API Configuration"
 }
