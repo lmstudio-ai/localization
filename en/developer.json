@@ -57,7 +57,7 @@
 
   "quickDocs": {
     "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets and a tool use example are now available here in \"Quick Docs\"",
+    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
     "newToolUsePopoverTitle": "📚 🔨 New",
     "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
     "helloWorld": {
