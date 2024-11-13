@@ -31,7 +31,7 @@
     },
     "step_1": {
       "title": "How do I get started?",
-      "toolUseCanWorkWithAnyModel": "All models are compatible with tool use in LM Studio. However, models with `native` tool use support will generally perform better. Read the [documentation](https://lmstudio.ai/docs/advanced/tool-use) to learn more. These models will be marked with a new badge:",
+      "toolUseCanWorkWithAnyModel": "All models are compatible with tool use in LM Studio. However, models with `native` tool use support will generally perform better. Read the <customlink>documentation</customlink> to learn more. These models will be marked with a new badge:",
       "hasCompatibleModel": "You have models with `native` support already downloaded! Select one to get started:",
       "downloadRecommendedModel": "Download your first `native` tool use model:"
     },
