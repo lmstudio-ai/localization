@@ -22,10 +22,12 @@
     }
   },
 
-  "toolUse": {
-    "step_0": {
-      "title": "Tool use has landed! 🛠️",
+  "toolUse": {      "title": "Tool use has landed! 🛠️",
       "text_0": "Tool use enable applications to empower LLMs with external tools and services. You can think of it like giving the LLM a toolbox of functions it can use when needed.",
+
+    "step_0": {
+      "title": "New: Tool Use (Function Calling) 🛠️",
+      "text_0": "Tool use enables applications to empower LLMs with external tools and services. You can think of it like giving the LLM a toolbox of functions it can use when needed.",
       "text_1": "With tool use, you can build applications where LLMs not only understand and respond, but take actions - like searching the web, analyzing data, controlling smart home devices, or interacting with any API.",
       "text_2": "The possibilities are endless - if you can write a function for it, an LLM can intelligently use it."
     },
@@ -37,6 +39,6 @@
     },
     "nextButton": "Next",
     "letsGoButton": "Load model and start server",
-    "doneButton": "Done"
+    "doneButton": "Dismiss"
   }
 }
