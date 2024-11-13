@@ -77,7 +77,7 @@
   "tooltip/toolUseBadge": "LM Studio supports native tool use for this model",
 
   "visionBadge/label": "Vision Enabled",
-  "toolUseBadge/label": "Tool Use Enabled",
+  "toolUseBadge/label": "Native Tool Use",
 
   "loader.action.load": "Load Model",
   "loader.action.clearChanges": "Clear Changes",
