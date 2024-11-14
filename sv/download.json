@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Extraherar...",
+  "finalizing": "Slutför nedladdning... (detta kan ta en stund)",
+  "noOptions": "Inga kompatibla alternativ tillgängliga för nedladdning",
+  
+  "deeplink/confirmation/title": "Ladda ner modell från Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Välj rekommenderad",
+  "deeplink/confirmation/selectOption": "Välj nedladdningsalternativ",
+  "deeplink/confirmation/recommendedOption": "Troligen det bästa alternativet för de flesta användare",
+  "deeplink/confirmation/downloadButton": "Ladda ner",
+  "deeplink/confirmation/nevermindButton": "Strunta i det",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face-modell hittad ✅",
+  "deeplink/confirmation/modelPresent/body": "Goda nyheter! Denna modellfil finns redan på din lokala maskin.",
+  "deeplink/confirmation/loadInChat": "Ladda {{ modelName }} i en ny chatt",
+  "deeplink/error/modelNotFound/title": "Oj då, vi kunde inte hitta denna modell",
+  "deeplink/error/modelNotFound/body": "Kontrollera modellnamnet och överväg att prova ett annat nedladdningsalternativ.",
+  "deeplink/actions/trySearching": "Försök att söka efter {{modelName}} på Hugging Face",
+
+  "downloadsPanel/title": "Nedladdningar",
+  "downloadsPanel/sectionTitle/ongoing": "Pågående",
+  "downloadsPanel/sectionTitle/completed": "Slutförda"
+}
