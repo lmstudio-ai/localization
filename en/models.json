@@ -83,5 +83,6 @@
   "loader.action.clearChanges": "Clear Changes",
   "loader.action.cancel": "Cancel",
   "loader.info.clickOnModelToLoad": "Click on a model to load it",
-  "loader.info.configureLoadParameters": "Configure the model load parameters"
+  "loader.info.configureLoadParameters": "Configure the model load parameters",
+  "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation"
 }
