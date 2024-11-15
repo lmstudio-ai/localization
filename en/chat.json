@@ -131,5 +131,52 @@
 
   "noModels.indexing": "Indexing model files... (this might take a moment)",
   "noModels.downloading": "Downloading your first LLM...",
-  "noModels": "No LLMs yet! Download one to get started!"
+  "noModels": "No LLMs yet! Download one to get started!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin...",
+      "multiplePlugins": "{{dynamicValue}} plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Configure",
+        "disable": "Disable",
+        "fork": "Fork",
+        "uninstall": "Uninstall"
+      },
+      "actionButtons": {
+        "create": "+ Create",
+        "import": "Import",
+        "discover": "Discover"
+      },
+      "recentlyCreated": {
+        "title": "Recently Created Plugins",
+        "placeholder": "Plugins you create will appear here"
+      }
+    },
+    "pluginConfiguration": {
+      "title": "Plugin Configuration",
+      "selectAPlugin": "Select a plugin to edit its configs",
+      "preprocessorAndGenerator": "This plugin contains a custom preprocessor and generator",
+      "generatorOnly": "This plugin contains a custom generator",
+      "preprocessorOnly": "This plugin contains a custom preprocessor"
+    },
+    "instructions": {
+      "runTheFollowing": "To run your plugin, open a terminal and enter",
+      "createdSuccessfully": "Plugin created successfully",
+      "creatingPlugin": "Creating plugin...",
+      "projectFilesTitle": "Project Files",
+      "buttons": {
+        "documentation": "Documentation",
+        "dismiss": "Dismiss",
+        "publish": "Publish",
+        "openInZed": "Open in Zed",
+        "openInVscode": "Open in VS Code",
+        "revealInFinder": "Reveal in Finder",
+        "openInFileExplorer": "Open in File Explorer"
+      }
+    }
+  }
 }
