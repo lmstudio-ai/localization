@@ -123,6 +123,16 @@
   "style/fontSize/large": "Large",
   "style/fontSize/small": "Small",
 
+  "style/debugBlocks/label": "Show Debug Info Blocks",
+
+  "messageBlocks": {
+    "debug": {
+      "label": "DEBUG INFO",
+      "collapseTooltip": "Collapse debug info block",
+      "expandTooltip": "Expand debug info block"
+    }
+  },
+
   "topBarActions/duplicateChat": "Duplicate chat",
   "topBarActions/clearChat": "Clear all messages",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
