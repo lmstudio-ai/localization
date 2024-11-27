@@ -112,7 +112,7 @@
   "retrieval/actions/clickToExpand": "Click to expand intermediate steps",
   "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
 
-  "style": "Chat Appearance",
+  "style": "Appearance",
 
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Plaintext",
@@ -133,8 +133,8 @@
     }
   },
 
-  "topBarActions/duplicateChat": "Duplicate chat",
-  "topBarActions/clearChat": "Clear all messages",
+  "topBarActions/duplicateChat": "Duplicate",
+  "topBarActions/clearChat": "Clear All",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
   "topBarActions/clearChatCancel": "Cancel",
   "topBarActions/clearChatDelete": "Clear All",
