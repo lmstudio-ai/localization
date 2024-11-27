@@ -175,6 +175,7 @@
     },
     "instructions": {
       "runTheFollowing": "To run your plugin, open a terminal and enter",
+      "pushTo": "Share your plugin with others by pushing to the Hub (optional)",
       "createdSuccessfully": "Plugin created successfully",
       "creatingPlugin": "Creating plugin...",
       "projectFilesTitle": "Project Files",
