@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "Выберите чат",
   "unnamedChat": "Безымянный чат",
   "emptyFolder": "Папка пуста",
+
+  "tokenCount": "Количество токенов",
+  "messageTokenCount": "Количество входных токенов",
+  "tokenCount/hint": "Количество токенов в сообщении. Подсчитывается с использованием токенизатора выбранной модели.\n\nТребуется загрузка модели.",
+  "messageTokenCount/hint": "Количество токенов в сообщении. Подсчитывается с использованием токенизатора выбранной модели.\n\n**НЕ** включает оценку количества токенов в прикрепленных файлах.",
+
   "notes": "Заметки к беседе",
   "notes/add/first": "Добавить заметку",
   "notes/add/another": "Добавить еще одну заметку",
@@ -71,10 +77,11 @@
   "editMessageConfirm/discard": "Отменить изменения",
   "tokenCount/totalNotAvailable": "Токенов: {{current}}",
   "tokenCount/totalAvailable": "Токенов: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Контекст заполнен на {{percentage}}%",
+  "tokenCount/contextOverflow": "Непроцессированный контекст превышает максимальный лимит токенов модели. В зависимости от вашей политики переполнения контекста, контекст может быть усечен или сообщение может не быть отправлено.",
   "modelLoader/manualLoadParams/label": "Выберите параметры загрузки модели вручную",
   "modelLoader/manualLoadParams/hint/before": "(или удерживайте ",
   "modelLoader/manualLoadParams/hint/after": ")",
-
   "actions/move/error": "Ошибка перемещения",
   "actions/rename/error": "Ошибка переименования",
   "actions/createChatAtRoot": "Создать новый чат",
@@ -96,6 +103,7 @@
   "prediction/busyModel/title": "Модель занята",
   "prediction/busyModel/message": "Пожалуйста, подождите, пока модель завершит работу, и попробуйте снова",
   "prediction/noModel/title": "Модель не выбрана",
+  "prediction/modelLoading": "Сообщение поставлено в очередь, будет отправлено, когда модель загрузится",
   "prediction/noModel/message": "Выберите модель для отправки сообщения",
   "prediction/unloadModel/error": "Не удалось выгрузить модель",
 
@@ -105,11 +113,23 @@
   "retrieval/actions/clickToCollapse": "Нажмите, чтобы свернуть промежуточные шаги",
 
   "style": "Внешний вид чата",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Текст",
   "style/viewMode/monospace": "Моноширинный",
+
   "style/fontSize/label": "Размер шрифта",
   "style/fontSize/medium": "По умолчанию",
   "style/fontSize/large": "Большой",
-  "style/fontSize/small": "Маленький"
+  "style/fontSize/small": "Маленький",
+
+  "topBarActions/duplicateChat": "Дублировать чат",
+  "topBarActions/clearChat": "Очистить все сообщения",
+  "topBarActions/clearChatConfirmation": "Вы уверены, что хотите очистить все сообщения в этом чате?",
+  "topBarActions/clearChatCancel": "Отмена",
+  "topBarActions/clearChatDelete": "Очистить все",
+
+  "noModels.indexing": "Индексация файлов модели... (это может занять некоторое время)",
+  "noModels.downloading": "Загрузка вашей первой LLM...",
+  "noModels": "Пока нет LLM! Скачайте одну, чтобы начать!"
 }
