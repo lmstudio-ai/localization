@@ -145,7 +145,7 @@
 
   "plugins": {
     "pluginTrigger": {
-      "noPlugins": "Plugin...",
+      "noPlugins": "Plugin",
       "multiplePlugins": "{{dynamicValue}} plugins"
     },
     "pluginSelect": {
