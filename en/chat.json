@@ -164,7 +164,9 @@
       "recentlyCreated": {
         "title": "Recently Created Plugins",
         "placeholder": "Plugins you create will appear here"
-      }
+      },
+      "startRunningDevelopmentPlugin/error": "Failed to start running plugin in development mode",
+      "stopRunningDevelopmentPlugin/error": "Failed to stop running plugin in development mode"
     },
     "pluginConfiguration": {
       "title": "Plugin Configuration",
