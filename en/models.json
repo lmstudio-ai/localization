@@ -68,6 +68,7 @@
   "contextMenu/unpin": "Unpin",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
   "contextMenu/copyModelName": "Copy Model Path",
+  "contextMenu/copyModelDefaultIdentifier": "Copy Default Identifier",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
   "tooltip/moreActions": "More Actions",
   "tooltip/getInfo": "Get Info",
