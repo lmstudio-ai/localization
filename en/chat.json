@@ -101,8 +101,8 @@
   "userFile/maxFileSizePerConversation": "Maximum file size per conversation reached. Cannot add files larger than {{size}}. ",
   "userFile/failedToUploadError/title": "Failed to upload file",
   "errorTitle": "Error",
-  "userFile/chatTerminalDocumentsCount_one": "{{count}} uploaded document",
-  "userFile/chatTerminalDocumentsCount_other": "{{count}} uploaded documents",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} document in chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} documents in chat",
 
   "prediction/busyModel/title": "Model is busy",
   "prediction/busyModel/message": "Please wait until the model finishes and try again",
