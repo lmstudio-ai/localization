@@ -89,6 +89,7 @@
   "actions/createFolderAtRoot": "New Folder...",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
   "actions/createChat/error": "Failed to create chat",
+  "actions/deleteChat/errorTitle": "Failed to delete chat",
 
   "userFile/fileSizeLimit": "File size limit is ",
   "userFile/noImageSupport": "Model does not support image input",
