@@ -97,7 +97,7 @@
   "backendDownloadChannel.shortLabel": "Runtime download channel",
   "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users.",
 
-  "appUpdateChannel.label": "LM Studio Update Channel",
+  "appUpdateChannel.label": "Updates Channel",
   "appUpdateChannel.value.stable": "Stable",
   "appUpdateChannel.value.beta": "Beta",
   "appUpdateChannel.shortLabel": "App update channel",
