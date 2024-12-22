@@ -24,7 +24,7 @@
   "latestVersion": "The latest version is:",
   "downloadLabel": "Update Now",
   "cancelDownloadLabel": "Cancel",
-  "downloadingUpdate": "Downloading update...",
+  "downloadingUpdate": "Downloading {{item}}...",
   "updateDownloaded": "The new update was successfully downloaded",
   "restartAppToUpdate": "Relaunch app to apply update",
   "appUpdatedToastTitle": "Updated to {{title}}",
@@ -100,6 +100,7 @@
   "appUpdateChannel.label": "Updates Channel",
   "appUpdateChannel.value.stable": "Stable",
   "appUpdateChannel.value.beta": "Beta",
+  "appUpdateChannel.value.nightly": "Nightly",
   "appUpdateChannel.shortLabel": "App update channel",
   "appUpdateChannel.hint": "Choose the channel from which to receive LM Studio app updates. \"{{stableName}}\" is the recommended channel for most users.",
 
