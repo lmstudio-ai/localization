@@ -1,3 +1,4 @@
 {
-  "copyLmStudioLinkButton/toolTip": "モデルのダウンロードリンクをコピー"
+  "copyLmStudioLinkButton/toolTip": "モデルのダウンロードリンクをコピー",
+  "filter.noMatches": "一致するものがありません"
 }
