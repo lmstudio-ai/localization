@@ -23,6 +23,7 @@
   "yourCurrentVersion": "You are currently on:",
   "latestVersion": "The latest version is:",
   "downloadLabel": "Update Now",
+  "downloadLabel/Linux": "Download Update",
   "cancelDownloadLabel": "Cancel",
   "downloadingUpdate": "Downloading {{item}}...",
   "updateDownloaded": "The app needs to be restarted to apply the update",
