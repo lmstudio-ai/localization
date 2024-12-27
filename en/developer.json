@@ -53,6 +53,18 @@
   "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
   "runtimeOptions/noRuntimes": "No runtimes found",
 
+  "runtimes": {
+    "manageLMRuntimes": "Manage LM Runtimes",
+    "updateAvailableToast": {
+      "title": "LM Runtime Update Available!"
+    },
+    "updatedToast": {
+      "title": "{{runtime}} updated to {{version}}",
+      "noPreferencesUpdated": "No model type is configured to use this LM Runtime.",
+      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated LM Runtime."
+    }
+  },
+
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
   "quickDocs": {
