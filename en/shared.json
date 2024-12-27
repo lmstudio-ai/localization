@@ -1,5 +1,13 @@
 {
   "copyLmStudioLinkButton/toolTip": "Copy Model Download Link",
 
-  "filter.noMatches": "No matches"
+  "filter.noMatches": "No matches",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Extracting Resources"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Checking Runtime Compatibilities"
+    }
+  }
 }
