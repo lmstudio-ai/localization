@@ -8,6 +8,12 @@
     },
     "performingBackendHardwareSurvey": {
       "badge": "Checking Runtime Compatibilities"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexing Runtimes"
+    },
+    "indexingModels": {
+      "badge": "Indexing Models"
     }
   }
 }
