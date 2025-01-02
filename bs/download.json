@@ -1,0 +1,22 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Ekstraktovanje...",
+  "finalizing": "Finalizacija preuzimanja... (ovo može potrajati nekoliko trenutaka)",
+  "noOptions": "Nema kompatibilnih opcija dostupnih za preuzimanje",
+  "deeplink/confirmation/title": "Preuzmi model sa Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Odaberite preporučeno",
+  "deeplink/confirmation/selectOption": "Odaberite opciju preuzimanja",
+  "deeplink/confirmation/recommendedOption": "Vjerovatno najbolja opcija za većinu korisnika",
+  "deeplink/confirmation/downloadButton": "Preuzmi",
+  "deeplink/confirmation/nevermindButton": "Nema veze",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Pronađen ✅",
+  "deeplink/confirmation/modelPresent/body": "Dobre vijesti! Ovaj model fajl je već dostupan na vašem lokalnom računaru.",
+  "deeplink/confirmation/loadInChat": "Učitaj {{modelName}} u novi chat",
+  "deeplink/error/modelNotFound/title": "Ruh roh, nismo uspjeli pronaći ovaj model",
+  "deeplink/error/modelNotFound/body": "Provjerite naziv modela i razmislite o pokušaju druge opcije preuzimanja.",
+  "deeplink/actions/trySearching": "Pokušajte pretražiti {{modelName}} na Hugging Face",
+  "downloadsPanel/title": "Preuzimanja",
+  "downloadsPanel/sectionTitle/ongoing": "U toku",
+  "downloadsPanel/sectionTitle/completed": "Završeno"
+}
+  
