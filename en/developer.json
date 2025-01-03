@@ -59,7 +59,7 @@
       "title": "LM Runtime Update Available!"
     },
     "updatedToast": {
-      "title": "LM Runtime Updated: {{runtime}} → v{{version}} ✅",
+      "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
       "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
     }
   },
