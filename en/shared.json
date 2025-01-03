@@ -15,5 +15,9 @@
     "indexingModels": {
       "badge": "Indexing Models"
     }
+  },
+  "auth": {
+    "prompt": "Sign In to LM Studio Hub",
+    "authError": "Authentication failed"
   }
 }
