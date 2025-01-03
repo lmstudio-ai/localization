@@ -59,9 +59,8 @@
       "title": "LM Runtime Update Available!"
     },
     "updatedToast": {
-      "title": "{{runtime}} updated to {{version}}",
-      "noPreferencesUpdated": "No model type is configured to use this LM Runtime.",
-      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated LM Runtime."
+      "title": "LM Runtime Updated: {{runtime}} → v{{version}} ✅",
+      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
     }
   },
 
