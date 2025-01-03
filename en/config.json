@@ -275,7 +275,22 @@
     "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
     "newEmptyPreset": "Create new empty preset...",
     "contextMenuSelect": "Select Preset",
-    "contextMenuDelete": "Delete"
+    "contextMenuDelete": "Delete",
+    "contextMenuShare": "Share",
+    "share": {
+      "title": "Share Preset",
+      "action": "Share {{name}} on LM Studio Hub.",
+      "nameLabel": "Name",
+      "uploadAs": "Will upload as {{name}}",
+      "descriptionLabel": "Description",
+      "confirmShareButton": "Share",
+      "error": "Failed to share preset."
+    },
+    "download": {
+      "title": "Download Preset {{owner}}/{{name}}",
+      "button": "Download",
+      "error": "Failed to download preset."
+    }
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
