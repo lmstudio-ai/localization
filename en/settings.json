@@ -114,7 +114,7 @@
   "appUpdateChannel.shortLabel": "App update channel",
   "appUpdateChannel.hint": "Choose the channel from which to receive LM Studio app updates. \"{{stableName}}\" is the recommended channel for most users.",
 
-  "modelLoadingGuardrails.label": "Model Loading Guardrails",
+  "modelLoadingGuardrails.label": "Model loading guardrails",
   "modelLoadingGuardrails.description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
   "modelLoadingGuardrails.value.off": "OFF (Not Recommended)",
   "modelLoadingGuardrails.value.off/subTitle": "No precautions against system overload",
