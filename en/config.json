@@ -273,8 +273,8 @@
     "delete/error": "Failed to delete preset.",
     "discardChanges": "Discard Unsaved",
     "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
-    "newEmptyPreset": "Create new empty preset...",
-    "importPreset": "Import Preset",
+    "newEmptyPreset": "New empty preset...",
+    "importPreset": "Import",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete",
     "contextMenuShare": "Share",
@@ -290,7 +290,7 @@
       "error": "Failed to share preset."
     },
     "import": {
-      "title": "Import Preset",
+      "title": "Import a Preset from File",
       "dragPrompt": "Drag & Drop Preset (.json) Files Here",
       "remove": "Remove",
       "importFromUrl": "Import from URL...",
