@@ -19,5 +19,8 @@
   "auth": {
     "prompt": "Sign In to LM Studio Hub",
     "authError": "Authentication failed"
+  },
+  "artifacts": {
+    "fetchError": "Failed to fetch artifacts"
   }
 }

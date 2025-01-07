@@ -274,9 +274,12 @@
     "discardChanges": "Discard Unsaved",
     "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
     "newEmptyPreset": "Create new empty preset...",
+    "importPreset": "Import Preset",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete",
     "contextMenuShare": "Share",
+    "contextMenuRevealInExplorer": "Reveal in File Explorer",
+    "contextMenuRevealInFinder": "Reveal in Finder",
     "share": {
       "title": "Share Preset",
       "action": "Share {{name}} on LM Studio Hub.",
@@ -285,6 +288,27 @@
       "descriptionLabel": "Description",
       "confirmShareButton": "Share",
       "error": "Failed to share preset."
+    },
+    "import": {
+      "title": "Import Preset",
+      "dragPrompt": "Drag & Drop Preset (.json) Files Here",
+      "remove": "Remove",
+      "importFromUrl": "Import from URL...",
+      "cancel": "Cancel",
+      "importPreset": "Import Preset",
+      "successToastOne": {
+        "title": "Preset Imported",
+        "description": "Preset {{name}} has been imported."
+      },
+      "successToastMany": {
+        "title": "Successfully Imported {{count}} Presets",
+        "description": "The following presets have been imported:"
+      },
+      "partialSuccess": {
+        "title": "Some Presets Failed to Import",
+        "importMore": "Import More",
+        "close": "Close"
+      }
     },
     "download": {
       "title": "Download Preset {{owner}}/{{name}}",
