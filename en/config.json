@@ -293,9 +293,12 @@
       "title": "Import a Preset from File",
       "dragPrompt": "Drag & Drop Preset (.json) Files Here",
       "remove": "Remove",
-      "importFromUrl": "Import from URL...",
       "cancel": "Cancel",
       "importPreset": "Import Preset",
+      "selectDialog": {
+        "title": "Select Preset File (.json)",
+        "button": "Import"
+      },
       "successToastOne": {
         "title": "Preset Imported",
         "description": "Preset {{name}} has been imported."
@@ -308,6 +311,17 @@
         "title": "Some Presets Failed to Import",
         "importMore": "Import More",
         "close": "Close"
+      },
+      "importFromUrl": {
+        "button": "Import from URL...",
+        "title": "Import from URL",
+        "action": "Paste the LM Studio Hub URL of the preset you want to import below.",
+        "invalidUrl": "Invalid URL. Please make sure you are pasting a correct LM Studio Hub URL.",
+        "tip": "Tip: You can install the preset directly using the {{buttonName}} button in LM Studio Hub.",
+        "confirm": "Import",
+        "cancel": "Cancel",
+        "loading": "Resolving...",
+        "error": "Failed to download preset."
       }
     },
     "download": {
