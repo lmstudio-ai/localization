@@ -167,7 +167,9 @@
     "excluded/title": "May not apply",
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
-    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable."
+    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
+    "button/push": "Push",
+    "button/export": "Export"
   },
 
   "customInputs": {
@@ -277,7 +279,8 @@
     "importPreset": "Import",
     "contextMenuSelect": "Select Preset",
     "contextMenuDelete": "Delete",
-    "contextMenuShare": "Share",
+    "contextMenuShare": "Push to Remote",
+    "contextMenuExport": "Export File",
     "contextMenuRevealInExplorer": "Reveal in File Explorer",
     "contextMenuRevealInFinder": "Reveal in Finder",
     "share": {
@@ -288,11 +291,16 @@
       "presetNameLabel": "Preset Name",
       "descriptionLabel": "Description (optional)",
       "loading": "Publishing...",
-      "success": "Success!",
+      "success": "Preset Successfully Pushed ✅",
+      "presetIsLive": "<custom-mono>{{name}}</custom-mono> is now live on the Hub!",
       "close": "Close",
+      "confirmViewOnWeb": "View on web",
+      "confirmCopy": "Copy",
+      "confirmCopied": "Copied!",
       "pushedToHub": "Your preset was pushed to the Hub",
       "descriptionPlaceholder": "Enter a description...",
       "willBePublic": "Publishing your preset will make it public",
+      "publicSubtitle": "Your preset is <custom-bold>Public</custom-bold>. Others can download and fork it on lmstudio.ai",
       "confirmShareButton": "Publish",
       "error": "Failed to publish preset",
       "createFreeAccount": "Create a free account in the Hub to publish presets"
