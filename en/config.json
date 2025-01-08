@@ -295,7 +295,7 @@
       "presetIsLive": "<custom-mono>{{name}}</custom-mono> is now live on the Hub!",
       "close": "Close",
       "confirmViewOnWeb": "View on web",
-      "confirmCopy": "Copy",
+      "confirmCopy": "Copy URL",
       "confirmCopied": "Copied!",
       "pushedToHub": "Your preset was pushed to the Hub",
       "descriptionPlaceholder": "Enter a description...",
