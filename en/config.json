@@ -168,7 +168,8 @@
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
     "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
-    "button/push": "Push",
+    "button/publish": "Publish",
+    "button/pushUpdate": "Push Update",
     "button/export": "Export"
   },
 
@@ -305,6 +306,15 @@
       "error": "Failed to publish preset",
       "createFreeAccount": "Create a free account in the Hub to publish presets"
     },
+    "update": {
+      "title": "Push Changes",
+      "descriptionLabel": "Description (optional)",
+      "descriptionPlaceholder": "Enter a description...",
+      "loading": "Pushing...",
+      "createFreeAccount": "Create a free account in the Hub to publish presets",
+      "error": "Failed to push update",
+      "confirmUpdateButton": "Push"
+    },
     "import": {
       "title": "Import a Preset from File",
       "dragPrompt": "Drag & Drop Preset (.json) Files Here",
@@ -315,16 +325,9 @@
         "title": "Select Preset File (.json)",
         "button": "Import"
       },
-      "successToastOne": {
-        "title": "Preset Imported",
-        "description": "Preset {{name}} has been imported."
-      },
-      "successToastMany": {
-        "title": "Successfully Imported {{count}} Presets",
-        "description": "The following presets have been imported:"
-      },
-      "partialSuccess": {
-        "title": "Some Presets Failed to Import",
+      "error": "Failed to import preset",
+      "resultsModal": {
+        "title": "Presets imported",
         "importMore": "Import More",
         "close": "Close"
       },
@@ -336,7 +339,7 @@
         "tip": "Tip: You can install the preset directly using the {{buttonName}} button in LM Studio Hub.",
         "confirm": "Import",
         "cancel": "Cancel",
-        "loading": "Resolving...",
+        "loading": "Importing...",
         "error": "Failed to download preset."
       }
     },
