@@ -327,7 +327,7 @@
       },
       "error": "Failed to import preset",
       "resultsModal": {
-        "title": "Presets imported",
+        "title": "Import Completed",
         "importMore": "Import More",
         "close": "Close"
       },
