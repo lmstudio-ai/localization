@@ -329,7 +329,12 @@
       "resultsModal": {
         "title": "Import Completed",
         "importMore": "Import More",
-        "close": "Close"
+        "close": "Close",
+        "successBadge": "Success",
+        "alreadyExistsBadge": "Already Exists",
+        "errorBadge": "Error",
+        "invalidFileBadge": "Invalid File",
+        "errorViewDetailsButton": "View Details"
       },
       "importFromUrl": {
         "button": "Import from URL...",
