@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Gyűjtemények",
+  "collectionsColumn/collectionError": "Hiba történt a gyűjtemény részleteinek betöltésekor, kérlek próbáld meg frissíteni a fenti gombbal",
+  "bookmarksColumn": "Könyvjelzők",
+  "searchBar/placeholder": "Modellek keresése a Hugging Face-en...",
+  "searchBar/huggingFaceError": "Hiba történt az eredmények lekérésekor a Hugging Face-ról, kérlek próbáld meg újra egy kis idő múlva",
+  "sortBy": "Rendezés",
+  "searchSortKey.default/title": "Legjobb illeszkedés",
+  "searchSortKey.likes/title": "Legtöbb kedvelés",
+  "searchSortKey.downloads/title": "Legtöbb letöltés",
+  "searchSortKey.lastModified/title": "Legutóbb frissítve",
+  "searchSortKey.createdAt/title": "Legutóbb létrehozva",
+  "download.option.willFitEstimation.caveat": "Lehet, hogy vannak egyéb tényezők is, amelyek megakadályozhatják a betöltést, mint például a modell architektúrája, a modell fájl integritása, vagy a számítógépeden rendelkezésre álló memória mennyisége.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Teljes GPU átvitel lehetséges",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Előfordulhat, hogy a modell teljes egészében elfér a GPU memóriájában. Ez jelentősen felgyorsíthatja az inferenciát.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Részleges GPU átvitel lehetséges",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Előfordulhat, hogy a modell részben elfér a GPU memóriájában. Ez gyakran jelentősen felgyorsíthatja az inferenciát.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Valószínűleg illeszkedik",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Ez a modell valószínűleg elfér a géped memóriájában.",
+  "download.option.willFitEstimation.willNotFit/title": "Valószínűleg túl nagy ehhez a géphez",
+  "download.option.willFitEstimation.willNotFit/description": "A modell fájl sikeres használatához szükséges memória igények meghaladhatják a gépeden rendelkezésre álló erőforrásokat. A fájl letöltése NEM ajánlott.",
+  "download.option.recommended/title": "Ajánlott",
+  "download.option.recommended/description": "A hardvered alapján ez az opció ajánlott.",
+  "download.option.downloaded/title": "Letöltve",
+  "download.option.downloading/title": "Letöltés folyamatban ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Hírcsatorna frissítése"
+}
