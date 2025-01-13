@@ -317,7 +317,7 @@
     },
     "import": {
       "title": "Import a Preset from File",
-      "dragPrompt": "Drag & Drop Preset (.json) Files Here",
+      "dragPrompt": "Drag and drop preset JSON files or <custom-link>select from your computer</custom-link>",
       "remove": "Remove",
       "cancel": "Cancel",
       "importPreset": "Import Preset",
