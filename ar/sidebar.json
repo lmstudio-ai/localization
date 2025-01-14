@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtimes",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "سولف",
+  "discover": "إكتشف",
+  "myModels": "نماذجي",
+  "developer": "المطورين",
+  "runtimes": "بيئات التشغيل",
+  "settings": "الإعدادات",
+  "download": "التحميلات"
 }

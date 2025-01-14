@@ -1,5 +1,4 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Copy Model Download Link",
-
-  "filter.noMatches": "No matches"
+  "copyLmStudioLinkButton/toolTip": "نسخ رابط تحميل النموذج",
+  "filter.noMatches": "لا يوجد مطابقات"
 }
