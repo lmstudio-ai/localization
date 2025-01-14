@@ -1,23 +1,22 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
-
+  "action.skipOnboarding": "تخطي التعرف",
+  "action.next": "التالي",
+  "action.back": "السابق",
+  "action.finish": "إنهاء",
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "يمكنك الآن محادثة نصوصك باستخدام تعزيز استرجاع المعلومات (RAG). إليك كيف يعمل:",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "إرفاق الملفات",
+        "description": "تحميل حتى 5 ملفات في كل مرة، بحجم إجمالي أقصى يبلغ 30 ميجابايت. تدعم الصيغ المسموح بها PDF و DOCX و TXT و CSV."
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "كن دقيقًا",
+        "description": "عند طرح الأسئلة، حاول تضمين أكبر قدر ممكن من التفاصيل. هذا يساعد النظام على استرجاع المعلومات الأكثر صلة من نصوصك."
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "الحصول على ردود وتجربة",
+        "description": "سيقوم LLM بفحص استفسارك والاستخراجات المسترجعة من نصوصك، ومحاولة توليد رد. جرب استفسارات مختلفة لمعرفة ما يناسب أفضل."
       }
     }
   }
