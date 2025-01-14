@@ -34,3 +34,4 @@ LM Studio localization
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
+- Arabic: [@arousi] (https://github.com/arousi)
