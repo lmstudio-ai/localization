@@ -225,6 +225,11 @@
     "llamaAccelerationOffloadRatio": {
       "max": "MAX",
       "off": "OFF"
+    },
+    "splitMode": {
+      "singleGpu": "Single GPU",
+      "layer": "Layer",
+      "row": "Row"
     }
   },
   "saveConflictResolution": {
