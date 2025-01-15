@@ -370,5 +370,15 @@
 
   "seedUncheckedHint": "Random Seed",
   "ropeFrequencyBaseUncheckedHint": "Auto",
-  "ropeFrequencyScaleUncheckedHint": "Auto"
+  "ropeFrequencyScaleUncheckedHint": "Auto",
+
+  "hardware": {
+    "advancedGpuSettings": "Advanced GPU Settings",
+    "environmentVariables": {
+      "title": "Env. Variables",
+      "description": "Active environment variables during model lifetime.",
+      "key.placeholder": "Select var...",
+      "value.placeholder": "Value"
+    }
+  }
 }
