@@ -20,8 +20,12 @@
     }
   },
   "auth": {
-    "prompt": "Sign In to LM Studio Hub",
-    "authError": "Authentication failed"
+    "prompt": "Log into LM Studio Hub",
+    "authError": "Authentication failed",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "havingTrouble": "Having trouble?",
+    "retry": "Retry"
   },
   "artifacts": {
     "fetchError": "Failed to fetch artifacts"
