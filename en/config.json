@@ -379,6 +379,11 @@
       "description": "Active environment variables during model lifetime.",
       "key.placeholder": "Select var...",
       "value.placeholder": "Value"
+    },
+    "mainGpu": {
+      "title": "Main GPU",
+      "description": "The GPU to prioritize for model computation.",
+      "placeholder": "Select main GPU..."
     }
   }
 }
