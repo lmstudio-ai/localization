@@ -354,10 +354,10 @@
       "importFromUrl": {
         "button": "Import from URL...",
         "title": "Import from URL",
-        "back": "Back",
+        "back": "Import from File...",
         "action": "Paste the LM Studio Hub URL of the preset you want to import below",
         "invalidUrl": "Invalid URL. Please make sure you are pasting a correct LM Studio Hub URL.",
-        "tip": "Tip: You can install the preset directly using the {{buttonName}} button in LM Studio Hub",
+        "tip": "You can install the preset directly with the {{buttonName}} button in LM Studio Hub",
         "confirm": "Import",
         "cancel": "Cancel",
         "loading": "Importing...",
