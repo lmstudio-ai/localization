@@ -226,7 +226,7 @@
       "max": "MAX",
       "off": "OFF"
     },
-    "splitMode": {
+    "llamaAccelerationSplitMode": {
       "singleGpu": "Single GPU",
       "layer": "Layer",
       "row": "Row"
