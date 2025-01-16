@@ -226,10 +226,9 @@
       "max": "MAX",
       "off": "OFF"
     },
-    "llamaAccelerationSplitMode": {
-      "singleGpu": "Single GPU",
-      "layer": "Layer",
-      "row": "Row"
+    "llamaAccelerationSplitStrategy": {
+      "evenly": "Evenly",
+      "favorMainGpu": "Favor Main GPU"
     }
   },
   "saveConflictResolution": {
@@ -393,10 +392,10 @@
       "description": "The GPU to prioritize for model computation.",
       "placeholder": "Select main GPU..."
     },
-    "splitMode": {
-      "title": "Split Mode",
+    "splitStrategy": {
+      "title": "Split Strategy",
       "description": "How to split model computation across GPUs.",
-      "placeholder": "Select split mode..."
+      "placeholder": "Select split strategy..."
     }
   }
 }
