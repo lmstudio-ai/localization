@@ -128,6 +128,8 @@
   "llm.load.llama.kCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
   "llm.load.llama.vCacheQuantizationType/title": "V Cache Quantization Type",
   "llm.load.llama.vCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
+  "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ You must disable this value if Flash Attention is not enabled",
+  "llm.load.llama.vCacheQuantizationType/disabledMessage": "Can only be turned on when Flash Attention is enabled",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
