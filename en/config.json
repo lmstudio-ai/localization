@@ -180,6 +180,9 @@
     "checkboxNumeric": {
       "off": "OFF"
     },
+    "llamaCacheQuantizationType": {
+      "off": "OFF"
+    },
     "stringArray": {
       "empty": "<Empty>"
     },
