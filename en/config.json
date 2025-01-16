@@ -380,6 +380,8 @@
 
   "hardware": {
     "advancedGpuSettings": "Advanced GPU Settings",
+    "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
+    "advancedGpuSettings.reset": "Reset to default",
     "environmentVariables": {
       "title": "Env. Variables",
       "description": "Active environment variables during model lifetime.",
