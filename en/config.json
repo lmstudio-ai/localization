@@ -372,7 +372,7 @@
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
-  "kvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. You may need to enable Flash Attention to use it. Some combinations of the KV cache may crash the model. If you encounter problems, try disabling it by setting it to \"F16\".",
+  "llamaKvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantization. If you encounter problems, reset to the default \"F16\".",
 
   "seedUncheckedHint": "Random Seed",
   "ropeFrequencyBaseUncheckedHint": "Auto",
