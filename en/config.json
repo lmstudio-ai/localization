@@ -390,6 +390,11 @@
       "title": "Main GPU",
       "description": "The GPU to prioritize for model computation.",
       "placeholder": "Select main GPU..."
+    },
+    "splitMode": {
+      "title": "Split Mode",
+      "description": "How to split model computation across GPUs.",
+      "placeholder": "Select split mode..."
     }
   }
 }
