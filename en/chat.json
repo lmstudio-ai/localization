@@ -132,6 +132,8 @@
   "style/debugBlocks/label": "Show Debug Info Blocks",
 
   "messageBlocks": {
+    "expandBlockTooltip": "Expand content",
+    "collapseBlockTooltip": "Collapse content",
     "debug": {
       "label": "DEBUG INFO",
       "collapseTooltip": "Collapse debug info block",
