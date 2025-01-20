@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Coleções",
+  "collectionsColumn/collectionError": "Ocorreu um erro ao carregar detalhes da coleção, tente atualizar acima",
+  "bookmarksColumn": "Favoritos",
+  "searchBar/placeholder": "Pesquisar modelos no Hugging Face...",
+  "searchBar/huggingFaceError": "Ocorreu um erro na busca de modelos no Hugging Face, tente novamente",
+  "sortBy": "Ordenar por",
+  "searchSortKey.default/title": "Melhor correspondência",
+  "searchSortKey.likes/title": "Mais favoritas",
+  "searchSortKey.downloads/title": "Mais downloads",
+  "searchSortKey.lastModified/title": "Atualizado recentemente",
+  "searchSortKey.createdAt/title": "Criado recentemente",
+  "download.option.willFitEstimation.caveat": "Pode haver outros fatores que impeçam o carregamento, como a arquitetura do modelo, a integridade do arquivo do modelo ou a quantidade de memória disponível no seu sistema.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "GPU Offload total possível",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Este modelo pode ser carregado inteiramente na memória do seu GPU. Pode acelerar consideravelmente a inferência.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "GPU Offload parcial possível",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Este modelo pode ser carregado parcialmente na memória do seu GPU. Por norma, acelera a inferência.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Carregamento provável",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "É provável que este modelo possa ser carregado na memória do seu sistema.",
+  "download.option.willFitEstimation.willNotFit/title": "É provável que seja demasiado grande para este sistema",
+  "download.option.willFitEstimation.willNotFit/description": "Os requisitos de memória para usar este modelo podem exceder os recursos disponíveis no seu sistema. O download deste arquivo NÃO é recomendado.",
+  "download.option.recommended/title": "Recomendado",
+  "download.option.recommended/description": "Com base nas características do seu hardware, esta é uma opção recomendada.",
+  "download.option.downloaded/title": "Download completo",
+  "download.option.downloading/title": "A fazer download… ({{progressPercentile}}%)",
+  
+  "feed.action.refresh": "Refresh feed"
+}

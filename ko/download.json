@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "추출 중...",
+  "finalizing": "다운로드 마무리 중... (잠시만 기다려 주세요)",
+  "noOptions": "다운로드 가능한 호환 옵션이 없습니다",
+  
+  "deeplink/confirmation/title": "Hugging Face에서 모델 다운로드 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "권장 옵션 선택",
+  "deeplink/confirmation/selectOption": "다운로드 옵션 선택",
+  "deeplink/confirmation/recommendedOption": "대부분의 사용자에게 가장 적합한 옵션일 가능성이 높습니다",
+  "deeplink/confirmation/downloadButton": "다운로드",
+  "deeplink/confirmation/nevermindButton": "취소",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face 모델 발견 ✅",
+  "deeplink/confirmation/modelPresent/body": "좋은 소식입니다! 이 모델 파일은 이미 로컬 기기에 있습니다.",
+  "deeplink/confirmation/loadInChat": "새 채팅에서 {{modelName}} 로드",
+  "deeplink/error/modelNotFound/title": "모델을 찾을 수 없습니다",
+  "deeplink/error/modelNotFound/body": "모델 이름을 다시 확인하고 다른 다운로드 옵션을 시도해 보세요.",
+  "deeplink/actions/trySearching": "Hugging Face에서 {{modelName}} 검색 시도",
+
+  "downloadsPanel/title": "다운로드",
+  "downloadsPanel/sectionTitle/ongoing": "진행 중",
+  "downloadsPanel/sectionTitle/completed": "완료됨"
+}

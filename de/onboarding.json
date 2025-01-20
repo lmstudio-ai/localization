@@ -1,0 +1,24 @@
+{
+    "action.skipOnboarding": "Onboarding überspringen",
+    "action.next": "Weiter",
+    "action.back": "Zurück",
+    "action.finish": "Fertigstellen",
+  
+    "dismissable_rag_modal": {
+      "description": "Sie können jetzt mit Ihren eigenen Dokumenten unter Verwendung von Retrieval Augmented Generation (RAG) chatten. So funktioniert es:",
+      "instructions": {
+        "attach_files": {
+          "title": "Dateien anhängen",
+          "description": "Laden Sie bis zu 5 Dateien gleichzeitig hoch, mit einer maximalen Gesamtgröße von 30 MB. Unterstützte Formate sind PDF, DOCX, TXT und CSV."
+        },
+        "be_specific": {
+          "title": "Seien Sie spezifisch",
+          "description": "Nennen Sie bei Fragen so viele Details wie möglich. Dies hilft dem System, die relevantesten Informationen aus Ihren Dokumenten zu finden."
+        },
+        "get_responses": {
+          "title": "Antworten erhalten und experimentieren",
+          "description": "Das LLM betrachtet Ihre Anfrage und die abgerufenen Auszüge aus Ihren Dokumenten und versucht, eine Antwort zu generieren. Experimentieren Sie mit verschiedenen Anfragen, um herauszufinden, was am besten funktioniert."
+        }
+      }
+    }
+  }

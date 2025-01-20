@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Verzamelingen",
+  "collectionsColumn/collectionError": "Fout bij het laden van de verzamelingsgegevens, probeer hierboven te vernieuwen",
+  "bookmarksColumn": "Bladwijzers",
+  "searchBar/placeholder": "Zoek naar modellen op Hugging Face...",
+  "searchBar/huggingFaceError": "Er is een fout opgetreden bij het ophalen van de resultaten van Hugging Face. Probeer het over een tijdje opnieuw.",
+  "sortBy": "Sorteren op",
+  "searchSortKey.default/title": "Beste overeenkomst",
+  "searchSortKey.likes/title": "Meeste likes",
+  "searchSortKey.downloads/title": "Meeste Downloads",
+  "searchSortKey.lastModified/title": "Onlangs bijgewerkt",
+  "searchSortKey.createdAt/title": "Onlangs aangemaakt",
+  "download.option.willFitEstimation.caveat": "Er kunnen andere factoren zijn die verhinderen dat het wordt geladen, zoals de architectuur van het model, de integriteit van het modelbestand of de hoeveelheid beschikbaar geheugen op uw computer.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Volledige GPU-offload mogelijk",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Dit model past mogelijk volledig in het geheugen van uw GPU. Dit kan de inferentie aanzienlijk versnellen.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Gedeeltelijke GPU-offload mogelijk",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Dit model past mogelijk gedeeltelijk in het geheugen van uw GPU. Dit kan inferentie vaak aanzienlijk versnellen.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Waarschijnlijk geschikt",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Dit model past waarschijnlijk in het geheugen van uw machine.",
+  "download.option.willFitEstimation.willNotFit/title": "Waarschijnlijk te groot voor deze machine",
+  "download.option.willFitEstimation.willNotFit/description": "De geheugenvereisten voor het succesvol gebruiken van dit modelbestand kunnen de beschikbare bronnen op uw machine overschrijden. Het downloaden van dit bestand wordt NIET aanbevolen.",
+  "download.option.recommended/title": "Aanbevolen",
+  "download.option.recommended/description": "Op basis van uw hardware wordt deze optie aanbevolen.",
+  "download.option.downloaded/title": "Gedownload",
+  "download.option.downloading/title": "Downloaden ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Feed vernieuwen"
+}

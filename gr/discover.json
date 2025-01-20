@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Συλλογές",
+  "collectionsColumn/collectionError": "Σφάλμα φόρτωσης λεπτομερειών συλλογής, παρακαλώ δοκιμάστε μια ανανέωση παραπάνω",
+  "bookmarksColumn": "Σελιδοδείκτες",
+  "searchBar/placeholder": "Αναζήτηση για μοντέλα στο Hugging Face...",
+  "searchBar/huggingFaceError": "Προέκυψε σφάλμα κατά την ανάκτηση των αποτελεσμάτων από το Hugging Face, παρακαλώ δοκιμάστε ξανά σε λίγο.",
+  "sortBy": "Ταξινόμηση κατά",
+  "searchSortKey.default/title": "Καλύτερο ταίρι",
+  "searchSortKey.likes/title": "Περισσότερα Likes",
+  "searchSortKey.downloads/title": "Περισσότερες λήψεις",
+  "searchSortKey.lastModified/title": "Πρόσφατα ενημερωμένο",
+  "searchSortKey.createdAt/title": "Πρόσφατα δημιουργημένο",
+  "download.option.willFitEstimation.caveat": "Μπορεί να υπάρχουν άλλοι παράγοντες που εμποδίζουν τη φόρτωσή του, όπως η αρχιτεκτονική του μοντέλου, η ακεραιότητα του αρχείου του μοντέλου ή η διαθέσιμη μνήμη στον υπολογιστή σας.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Πλήρης εκφόρτωση GPU δυνατή",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Αυτό το μοντέλο μπορεί να χωρέσει εξ ολοκλήρου στη μνήμη της GPU σας. Αυτό θα μπορούσε να επιταχύνει αρκετά την εξαγωγή συμπερασμάτων.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Μερική εκφόρτωση GPU δυνατή",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Αυτό το μοντέλο μπορεί να χωράει εν μέρει στη μνήμη της GPU σας.  Αυτό θα μπορούσε συχνά να επιταχύνει σημαντικά την εξαγωγή συμπερασμάτων.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Πιθανώς ταιριάζει",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Αυτό το μοντέλο είναι πιθανό να χωράει στη μνήμη του μηχανήματός σας.",
+  "download.option.willFitEstimation.willNotFit/title": "Πιθανότατα πολύ μεγάλο για αυτό το μηχάνημα",
+  "download.option.willFitEstimation.willNotFit/description": "Οι απαιτήσεις μνήμης για την επιτυχή χρήση αυτού του αρχείου μοντέλου ενδέχεται να υπερβαίνουν τους διαθέσιμους πόρους του υπολογιστή σας. Η λήψη αυτού του αρχείου ΔΕΝ συνιστάται.",
+  "download.option.recommended/title": "Συνιστάται",
+  "download.option.recommended/description": "Με βάση το υλικό σας, συνιστάται αυτή η επιλογή.",
+  "download.option.downloaded/title": "Κατεβασμένο",
+  "download.option.downloading/title": "Λήψη ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Ανανέωση τροφοδοσίας"
+}

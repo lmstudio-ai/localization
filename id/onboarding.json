@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Lewati onboarding",
+  "action.next": "Berikutnya",
+  "action.back": "Kembali",
+  "action.finish": "Selesai",
+
+  "dismissable_rag_modal": {
+    "description": "Anda sekarang dapat mengobrol dengan dokumen Anda sendiri menggunakan Retrieval Augmented Generation (RAG). Berikut cara kerjanya:",
+    "instructions": {
+      "attach_files": {
+        "title": "Lampirkan File",
+        "description": "Unggah hingga 5 file sekaligus, dengan ukuran gabungan maksimum 30MB. Format yang didukung termasuk PDF, DOCX, TXT, dan CSV."
+      },
+      "be_specific": {
+        "title": "Jadilah Spesifik",
+        "description": "Saat mengajukan pertanyaan, sebutkan sebanyak mungkin detail. Ini membantu sistem mengambil informasi yang paling relevan dari dokumen Anda."
+      },
+      "get_responses": {
+        "title": "Dapatkan Tanggapan dan Bereksperimen",
+        "description": "LLM akan melihat pertanyaan Anda dan cuplikan yang diambil dari dokumen Anda, dan mencoba menghasilkan tanggapan. Bereksperimenlah dengan berbagai pertanyaan untuk menemukan apa yang paling cocok."
+      }
+    }
+  }
+}

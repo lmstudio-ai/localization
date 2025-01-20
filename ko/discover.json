@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "컬렉션",
+  "collectionsColumn/collectionError": "컬렉션 세부 정보를 로드하는 중 오류가 발생했습니다. 위에서 새로 고침을 시도하세요",
+  "bookmarksColumn": "북마크",
+  "searchBar/placeholder": "Hugging Face에서 모델 검색...",
+  "searchBar/huggingFaceError": "Hugging Face에서 결과를 가져오는 중 오류가 발생했습니다. 잠시 후 다시 시도하세요",
+  "sortBy": "정렬 기준",
+  "searchSortKey.default/title": "최적",
+  "searchSortKey.likes/title": "가장 많은 좋아요",
+  "searchSortKey.downloads/title": "가장 많이 다운로드",
+  "searchSortKey.lastModified/title": "최근 업데이트",
+  "searchSortKey.createdAt/title": "최근 생성",
+  "download.option.willFitEstimation.caveat": "모델의 아키텍처, 모델 파일 무결성 또는 컴퓨터의 사용 가능한 메모리 양과 같은 다른 요인으로 인해 로드되지 않을 수 있습니다.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "전체 GPU 오프로딩 가능",
+  "download.option.willFitEstimation.fullGPUOffload/description": "이 모델은 GPU 메모리에 완전히 적합할 수 있습니다. 이는 추론 속도를 상당히 높일 수 있습니다.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "부분 GPU 오프로딩 가능",
+  "download.option.willFitEstimation.partialGPUOffload/description": "이 모델은 GPU 메모리에 부분적으로 적합할 수 있습니다. 이는 종종 추론 속도를 상당히 높일 수 있습니다.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "적합 가능",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "이 모델은 기계의 메모리에 적합할 가능성이 높습니다.",
+  "download.option.willFitEstimation.willNotFit/title": "이 기계에 너무 클 가능성이 높음",
+  "download.option.willFitEstimation.willNotFit/description": "이 모델 파일을 성공적으로 사용하기 위한 메모리 요구 사항이 기계의 사용 가능한 리소스를 초과할 수 있습니다. 이 파일을 다운로드하는 것은 권장되지 않습니다.",
+  "download.option.recommended/title": "권장됨",
+  "download.option.recommended/description": "하드웨어를 기반으로 이 옵션이 권장됩니다.",
+  "download.option.downloaded/title": "다운로드됨",
+  "download.option.downloading/title": "다운로드 중 ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "피드 새로 고침"
+}

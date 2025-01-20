@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Τοπικός διακομιστής",
+  "tabs/extensions": "Προγράμματα εκτέλεσης LM",
+  "loadSettings/title": "Ρυθμίσεις φόρτωσης",
+  "modelSettings/placeholder": "Επιλέξτε ένα μοντέλο για να το διαμορφώσετε",
+
+  "loadedModels/noModels": "Δεν έχουν φορτωθεί μοντέλα",
+
+  "serverOptions/title": "Επιλογές διακομιστή",
+  "serverOptions/configurableTitle": "Ρυθμιζόμενες επιλογές",
+  "serverOptions/port/hint": "Ορίστε ποια θύρα δικτύωσης θα χρησιμοποιεί ο τοπικός διακομιστής. Από προεπιλογή, το LM Studio χρησιμοποιεί τη θύρα 1234. Ίσως χρειαστεί να την αλλάξετε, αν η θύρα χρησιμοποιείται ήδη.",
+  "serverOptions/port/subtitle": "Η θύρα ακρόασης",
+  "serverOptions/autostart/title": "Αυτόματη εκκίνηση διακομιστή",
+  "serverOptions/autostart/hint": "Αυτόματη εκκίνηση του τοπικού διακομιστή όταν φορτώνεται ένα μοντέλο",
+  "serverOptions/port/integerWarning": "Ο αριθμός θύρας πρέπει να είναι ακέραιος",
+  "serverOptions/port/invalidPortWarning": "Η θύρα πρέπει να είναι μεταξύ 1 και 65535",
+  "serverOptions/cors/title": "Ενεργοποίηση CORS",
+  "serverOptions/cors/hint1": "Η ενεργοποίηση του CORS (Cross-origin Resource Sharing) θα επιτρέψει στους ιστότοπους που επισκέπτεστε να κάνουν αιτήσεις στον διακομιστή του LM Studio.",
+  "serverOptions/cors/hint2": "Το CORS μπορεί να απαιτείται κατά την υποβολή αιτημάτων από μια ιστοσελίδα ή VS Code / άλλη επέκταση.",
+  "serverOptions/cors/subtitle": "Επιτρέψτε αιτήσεις διαφορετικής προέλευσης",
+  "serverOptions/network/title": "Υπηρετήστε στο τοπικό δίκτυο",
+  "serverOptions/network/subtitle": "Προβολή του διακομιστή σε συσκευές στο δίκτυο",
+  "serverOptions/network/hint1": "Εάν θέλετε να επιτρέπετε συνδέσεις από άλλες συσκευές στο δίκτυο.",
+  "serverOptions/network/hint2": "Αν δεν επιλεγεί, ο διακομιστής θα ακούει μόνο στο localhost.",
+  "serverOptions/verboseLogging/title": "Λεπτομερής καταγραφή",
+  "serverOptions/verboseLogging/subtitle": "Ενεργοποίηση της λεπτομερής καταγραφής για τον τοπικό διακομιστή",
+  "serverOptions/contentLogging/title": "Καταγραφή των προτροπών και των απαντήσεων",
+  "serverOptions/contentLogging/subtitle": "Τοπικές ρυθμίσεις καταγραφής αιτήσεων / απαντήσεων",
+  "serverOptions/contentLogging/hint": "Εάν θα καταγράφονται οι προτροπές ή/και η απάντηση στο αρχείο καταγραφής του τοπικού διακομιστή.",
+  "serverOptions/jitModelLoading/title": "Φόρτωση μοντέλου Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "Όταν είναι ενεργοποιημένη, εάν μια αίτηση προσδιορίζει ένα μοντέλο που δεν έχει φορτωθεί, θα φορτωθεί και θα χρησιμοποιηθεί αυτόματα. Επιπλέον, το τελικό σημείο \"/v1/models\" θα περιλαμβάνει επίσης μοντέλα που δεν έχουν ακόμη φορτωθεί.",
+  "serverOptions/loadModel/error": "Αποτυχία φόρτωσης μοντέλου",
+
+  "serverLogs/scrollToBottom": "Μετάβαση στο τέλος",
+  "serverLogs/clearLogs": "Εκκαθάριση αρχείων καταγραφής ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Ανοίξτε το φάκελο με τα αρχεία καταγραφής του διακομιστή",
+
+  "runtimeSettings/title": "Ρυθμίσεις προγράμματος εκτέλεσης",
+  "runtimeSettings/chooseRuntime/title": "Διαμόρφωση προγραμμάτων εκτέλεσης",
+  "runtimeSettings/chooseRuntime/description": "Επιλέξτε πρόγραμμα εκτέλεσης για κάθε μορφή μοντέλου",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Εμφάνιση όλων των προγραμμάτων εκτέλεσης",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Από προεπιλογή, το LM Studio εμφανίζει μόνο την τελευταία έκδοση κάθε συμβατού προγράμματος εκτέλεσης. Ενεργοποιήστε αυτήν την επιλογή για να δείτε όλα τα διαθέσιμα προγράμματα εκτέλεσης.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Επιλέξτε πρόγραμμα εκτέλεσης",
+
+  "runtimeOptions/uninstall": "Απεγκατάσταση",
+  "runtimeOptions/uninstallDialog/title": "Απεγκατάσταση του {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Η απεγκατάσταση αυτού του προγράμματος εκτέλεσης θα το αφαιρέσει από το σύστημα. Αυτή η ενέργεια είναι μη αναστρέψιμη.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Ορισμένα αρχεία ενδέχεται να αφαιρεθούν μόνο μετά την επανεκκίνηση του LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Αποτυχία απεγκατάστασης προγράμματος εκτέλεσης",
+  "runtimeOptions/uninstallDialog/confirm": "Συνέχεια και απεγκατάσταση",
+  "runtimeOptions/uninstallDialog/cancel": "Ακύρωση",
+  "runtimeOptions/noCompatibleRuntimes": "Δεν βρέθηκαν συμβατά προγράμματα εκτέλεσης",
+  "runtimeOptions/downloadIncompatibleRuntime": "Αυτό το πρόγραμμα εκτέλεσης κρίθηκε ασύμβατο με το μηχάνημά σας. Κατά πάσα πιθανότητα δεν θα λειτουργήσει.",
+  "runtimeOptions/noRuntimes": "Δεν βρέθηκαν προγράμματα εκτέλεσης",
+
+  "inferenceParams/noParams": "Δεν υπάρχουν διαμορφώσιμες παράμετροι εξαγωγής συμπερασμάτων για αυτόν τον τύπο μοντέλου",
+
+  "endpoints/openaiCompatRest/title": "Υποστηριζόμενα τελικά σημεία (τύπου OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Λίστα με τα τρέχοντα φορτωμένα μοντέλα",
+  "endpoints/openaiCompatRest/postCompletions": "Λειτουργία συμπλήρωσης κειμένου. Προβλέψτε το επόμενο token μιας προτροπής. Σημείωση: Το OpenAI θεωρεί αυτό το τελικό σημείο 'απαρχαιωμένο'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Ολοκλήρωση συνομιλιών. Στείλτε ένα ιστορικό συνομιλίας στο μοντέλο για να προβλέψετε την επόμενη απάντηση του βοηθού",
+  "endpoints/openaiCompatRest/postEmbeddings": "Ενσωμάτωση κειμένου. Δημιουργία ενσωμάτωσης κειμένου για ένα δεδομένο κείμενο εισόδου. Δέχεται μια συμβολοσειρά ή έναν πίνακα συμβολοσειρών.",
+
+  "model.createVirtualModelFromInstance": "Αποθήκευση ρυθμίσεων ως νέο εικονικό μοντέλο",
+  "model.createVirtualModelFromInstance/error": "Απέτυχε η αποθήκευση των ρυθμίσεων ως νέο εικονικό μοντέλο",
+
+  "apiConfigOptions/title": "Ρύθμιση API"
+}

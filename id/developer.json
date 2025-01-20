@@ -1,0 +1,66 @@
+{
+  "tabs/server": "Server Lokal",
+  "tabs/extensions": "Runtime LM",
+  "loadSettings/title": "Pengaturan Muat",
+  "modelSettings/placeholder": "Pilih model untuk mengonfigurasinya",
+
+  "loadedModels/noModels": "Tidak ada model yang dimuat",
+
+  "serverOptions/title": "Opsi Server",
+  "serverOptions/configurableTitle": "Opsi yang Dapat Dikonfigurasi",
+  "serverOptions/port/hint": "Tetapkan port jaringan yang akan digunakan server lokal. Secara default, LM Studio menggunakan port 1234. Anda mungkin perlu mengubah ini jika port sudah digunakan.",
+  "serverOptions/port/subtitle": "Port untuk mendengarkan",
+  "serverOptions/autostart/title": "Server Mulai Otomatis",
+  "serverOptions/autostart/hint": "Mulai server lokal secara otomatis saat model dimuat",
+  "serverOptions/port/integerWarning": "Nomor port harus berupa bilangan bulat",
+  "serverOptions/port/invalidPortWarning": "Port harus antara 1 dan 65535",
+  "serverOptions/cors/title": "Aktifkan CORS",
+  "serverOptions/cors/hint1": "Mengaktifkan CORS (Cross-origin Resource Sharing) akan memungkinkan situs web yang Anda kunjungi untuk membuat permintaan ke server LM Studio.",
+  "serverOptions/cors/hint2": "CORS mungkin diperlukan saat membuat permintaan dari halaman web atau VS Code / ekstensi lainnya.",
+  "serverOptions/cors/subtitle": "Izinkan permintaan lintas asal",
+  "serverOptions/network/title": "Layani di Jaringan Lokal",
+  "serverOptions/network/subtitle": "Membuka server untuk perangkat di jaringan",
+  "serverOptions/network/hint1": "Apakah akan mengizinkan koneksi dari perangkat lain di jaringan.",
+  "serverOptions/network/hint2": "Jika tidak dicentang, server hanya akan mendengarkan di localhost.",
+  "serverOptions/verboseLogging/title": "Logging Verbose",
+  "serverOptions/verboseLogging/subtitle": "Aktifkan logging verbose untuk server lokal",
+  "serverOptions/contentLogging/title": "Log Prompt dan Respons",
+  "serverOptions/contentLogging/subtitle": "Pengaturan logging permintaan / respons lokal",
+  "serverOptions/contentLogging/hint": "Apakah akan mencatat prompt dan/atau respons dalam file log server lokal.",
+  "serverOptions/loadModel/error": "Gagal memuat model",
+
+  "serverLogs/scrollToBottom": "Lompat ke bawah",
+  "serverLogs/clearLogs": "Hapus log ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Buka folder log server",
+
+  "runtimeSettings/title": "Pengaturan Runtime",
+  "runtimeSettings/chooseRuntime/title": "Konfigurasi Runtime",
+  "runtimeSettings/chooseRuntime/description": "Pilih runtime untuk setiap format model",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tampilkan semua runtime",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Secara default, LM Studio hanya menampilkan versi terbaru dari setiap runtime yang kompatibel. Aktifkan opsi ini untuk melihat semua runtime yang tersedia.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Pilih Runtime",
+
+  "runtimeOptions/uninstall": "Copot pemasangan",
+  "runtimeOptions/uninstallDialog/title": "Copot pemasangan {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Mencopot pemasangan runtime ini akan menghapusnya dari sistem. Tindakan ini tidak dapat diurungkan.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Beberapa file mungkin hanya dapat dihapus setelah LM Studio dimulai ulang.",
+  "runtimeOptions/uninstallDialog/error": "Gagal mencopot pemasangan runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Lanjutkan dan Copot Pemasangan",
+  "runtimeOptions/uninstallDialog/cancel": "Batal",
+  "runtimeOptions/noCompatibleRuntimes": "Tidak ada runtime yang kompatibel ditemukan",
+  "runtimeOptions/downloadIncompatibleRuntime": "Runtime ini dianggap tidak kompatibel dengan mesin Anda. Kemungkinan besar tidak akan berfungsi.",
+  "runtimeOptions/noRuntimes": "Tidak ada runtime ditemukan",
+
+  "inferenceParams/noParams": "Tidak ada parameter inferensi yang dapat dikonfigurasi untuk jenis model ini",
+
+  "endpoints/openaiCompatRest/title": "Endpoint yang Didukung (Seperti OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Daftar model yang saat ini dimuat",
+  "endpoints/openaiCompatRest/postCompletions": "Mode Penyelesaian Teks. Prediksi token berikutnya yang diberikan prompt. Catatan: OpenAI menganggap endpoint ini 'usang'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Penyelesaian obrolan. Kirim riwayat obrolan ke model untuk memprediksi respons asisten berikutnya",
+  "endpoints/openaiCompatRest/postEmbeddings": "Embedding Teks. Hasilkan embedding teks untuk input teks yang diberikan. Menerima string atau array string.",
+
+  "model.createVirtualModelFromInstance": "Simpan Pengaturan sebagai Model Virtual Baru",
+  "model.createVirtualModelFromInstance/error": "Gagal menyimpan pengaturan sebagai model virtual baru",
+
+  "apiConfigOptions/title": "Konfigurasi API"
+}

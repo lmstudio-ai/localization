@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Přejít dál",
+  "action.next": "Dále",
+  "action.back": "Předchozí",
+  "action.finish": "Dokončit",
+
+  "dismissable_rag_modal": {
+    "description": "Teď můžete chatovat s vašimi vlastními dokumenty pomocí Retrieval Augmented Generation (RAG). Zde najdete, jak to funguje:",
+    "instructions": {
+      "attach_files": {
+        "title": "Připojit soubory",
+        "description": "Nahrát až 5 souborů najednou, s maximálním celkovým rozsahem 30MB. Podporované formáty souborů zahrnují PDF, DOCX, TXT a CSV."
+      },
+      "be_specific": {
+        "title": "Buďte konkrétní",
+        "description": "Při zadávání dotazů zmiňte co nejvíce detailů. To pomůže systému načíst relevantní informace z vašich dokumentů."
+      },
+      "get_responses": {
+        "title": "Získat odpovědi a experimentovat",
+        "description": "LLM bude zkoumat vaši otázku a načtené vstupy z vašich dokumentů a pokusí se vygenerovat odpověď. Experimentujte s různými dotazy, abyste našli to nejlepší."
+      }
+    }
+  }
+}
