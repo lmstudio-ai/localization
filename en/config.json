@@ -372,7 +372,7 @@
       }
     },
     "download": {
-      "title": "Pull {{presetname}} from LM Studio Hub",
+      "title": "Pull <preset-name /> from LM Studio Hub",
       "subtitle": "Save <custom-name /> to your presets. Doing so you will allow you to use this preset in the app",
       "button": "Pull",
       "button/loading": "Pulling...",
