@@ -68,7 +68,8 @@
     "updatedToast": {
       "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
       "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
-    }
+    },
+    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support"
   },
 
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
