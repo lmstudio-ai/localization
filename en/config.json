@@ -302,7 +302,7 @@
       "descriptionLabel": "Description (optional)",
       "loading": "Publishing...",
       "success": "Preset Successfully Pushed ✅",
-      "presetIsLive": "<custom-mono>{{name}}</custom-mono> is now live on the Hub!",
+      "presetIsLive": "<preset-name /> is now live on the Hub!",
       "close": "Close",
       "confirmViewOnWeb": "View on web",
       "confirmCopy": "Copy URL",
