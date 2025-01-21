@@ -29,5 +29,7 @@
   },
   "artifacts": {
     "fetchError": "Failed to fetch artifacts"
-  }
+  },
+  "incompatible": "Incompatible",
+  "compatible": "Compatible"
 }
