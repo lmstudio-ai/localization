@@ -317,9 +317,12 @@
     },
     "update": {
       "title": "Push Changes",
-      "descriptionLabel": "Description (optional)",
+      "title/success": "Preset Successfully Updated ✅",
+      "subtitle": "Make changes to <custom-preset-name /> and push them to the Hub",
+      "descriptionLabel": "Description",
       "descriptionPlaceholder": "Enter a description...",
       "loading": "Pushing...",
+      "cancel": "Cancel",
       "createFreeAccount": "Create a free account in the Hub to publish presets",
       "error": "Failed to push update",
       "confirmUpdateButton": "Push"
@@ -369,8 +372,11 @@
       }
     },
     "download": {
-      "title": "Download Preset {{owner}}/{{name}}",
-      "button": "Download",
+      "title": "Pull {{presetname}} from LM Studio Hub",
+      "subtitle": "Save <custom-name /> to your presets. Doing so you will allow you to use this preset in the app",
+      "button": "Pull",
+      "button/loading": "Pulling...",
+      "cancel": "Cancel",
       "error": "Failed to download preset."
     }
   },
