@@ -143,6 +143,12 @@
   "llm.load.mlx.kvCacheQuantizationStart/title": "KV Cache Quantization: Start quantizing when ctx crosses this length",
   "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Context length threshold to start quantizating the KV cache",
   "llm.load.mlx.kvCacheQuantizationStart/info": "Context length threshold to start quantizating the KV cache",
+  "llm.load.mlx.kvCacheQuantization/title": "KV Cache Quantization",
+  "llm.load.mlx.kvCacheQuantization/groupSize/title": "Group Size",
+  "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Group Size",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Quantized Start",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "Quantized Start",
+  "llm.load.mlx.kvCacheQuantization/customHeaderTooltip": "KV Cache Quantization tooltip here",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
