@@ -133,6 +133,16 @@
   "llm.load.llama.vCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
   "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ You must disable this value if Flash Attention is not enabled",
   "llm.load.llama.vCacheQuantizationType/disabledMessage": "Can only be turned on when Flash Attention is enabled",
+  "llm.load.mlx.kvCacheBits/title": "KV Cache Quantization",
+  "llm.load.mlx.kvCacheBits/subTitle": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheBits/info": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheBits/turnedOnWarning": "Context Length setting is ignored when using KV Cache Quantization",
+  "llm.load.mlx.kvCacheGroupSize/title": "KV Cache Quantization: Group Size",
+  "llm.load.mlx.kvCacheGroupSize/subTitle": "Group size during quantization operation for the KV cache. Higher group size reduces memory usage but may decrease quality",
+  "llm.load.mlx.kvCacheGroupSize/info": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheQuantizationStart/title": "KV Cache Quantization: Start quantizing when ctx crosses this length",
+  "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Context length threshold to start quantizating the KV cache",
+  "llm.load.mlx.kvCacheQuantizationStart/info": "Context length threshold to start quantizating the KV cache",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -186,6 +196,9 @@
       "off": "OFF"
     },
     "llamaCacheQuantizationType": {
+      "off": "OFF"
+    },
+    "mlxKvCacheBits": {
       "off": "OFF"
     },
     "stringArray": {
