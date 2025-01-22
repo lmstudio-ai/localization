@@ -304,7 +304,7 @@
     "newEmptyPreset": "+ New Preset",
     "importPreset": "Import",
     "contextMenuSelect": "Select Preset",
-    "contextMenuDelete": "Delete",
+    "contextMenuDelete": "Delete...",
     "contextMenuShare": "Push to Remote",
     "contextMenuExport": "Export File",
     "contextMenuRevealInExplorer": "Reveal in File Explorer",
