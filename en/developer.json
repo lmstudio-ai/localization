@@ -37,6 +37,9 @@
   "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
   "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
   "serverOptions/loadModel/error": "Failed to load model",
+  "serverOptions/jitModelLoadingTTL/title": "Auto evict unused JIT loaded models",
+  "serverOptions/jitModelLoadingTTL/hint": "When a model is JIT loaded, it will be automatically unloaded after not being used for the specified duration (in seconds).",
+  "serverOptions/jitModelLoadingTTL/ttlSeconds/label": "TTL (seconds):",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
