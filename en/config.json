@@ -277,6 +277,13 @@
     "cancel": "Cancel"
   },
   "empty": "<Empty>",
+  "noModelSelected": "No models selected",
+  "apiIdentifier.label": "API Identifier",
+  "apiIdentifier.hint": "Optionally provide an identifier for this model. This will be used in API requests. Leave blank to use the default identifier.",
+  "idleTTL.label": "Auto Unload If Idle (Idle TTL)",
+  "idleTTL.hint": "If set, the model will be automatically unloaded after being idle for the specified amount of time.",
+  "idleTTL.mins": "mins",
+
   "presets": {
     "title": "Preset",
     "commitChanges": "Commit Changes",
