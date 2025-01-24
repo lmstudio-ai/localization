@@ -138,7 +138,7 @@
   "experimentalLoadPresets": "Enable model load configuration support in presets",
   "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
 
-  "unloadPreviousJITModelOnLoad": "JIT models: allow only 1 loaded API model at once (unloads previous model)",
+  "unloadPreviousJITModelOnLoad": "JIT models auto-evict: ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
