@@ -13,6 +13,7 @@ LM Studio localization
 - Spanish [@xtianpaiva](https://github.com/xtianpaiva), [@AlexisGross](https://github.com/AlexisGross)
 - Norwegian [@Exlo84](https://github.com/Exlo84)
 - German [@marcelMaier](https://github.com/marcelMaier), [@Goekdeniz-Guelmez](https://github.com/Goekdeniz-Guelmez)
+- Romanian (ro) [@alexandrughinea](https://github.com/alexandrughinea)
 - Turkish [@progesor](https://github.com/progesor)
 - Russian [@shelomitsky](https://github.com/shelomitsky), [@mlatysh](https://github.com/mlatysh), [@Adjacentai](https://github.com/Adjacentai)
 - Korean [@williamjeong2](https://github.com/williamjeong2)
