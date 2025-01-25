@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "مجموعه‌ها",
+  "collectionsColumn/collectionError": "خطا در بارگیری جزئیات مجموعه، لطفاً با استفاده از دکمه بروزرسانی مجدداً تلاش کنید",
+  "bookmarksColumn": "نشانک‌ها",
+  "searchBar/placeholder": "جستجو برای مدل‌ها در Hugging Face...",
+  "searchBar/huggingFaceError": "خطا در دریافت نتایج از Hugging Face، لطفاً کمی بعد مجدداً تلاش کنید",
+  "sortBy": "مرتب‌سازی بر اساس",
+  "searchSortKey.default/title": "بهترین تطابق",
+  "searchSortKey.likes/title": "بیشترین لایک",
+  "searchSortKey.downloads/title": "بیشترین دانلود",
+  "searchSortKey.lastModified/title": "آخرین به‌روزرسانی",
+  "searchSortKey.createdAt/title": "جدیداً ایجاد شده",
+  "download.option.willFitEstimation.caveat": "ممکن است عوامل دیگری از بارگذاری جلوگیری کنند مانند معماری مدل، یکپارچگی فایل یا میزان حافظه موجود در سیستم",
+  "download.option.willFitEstimation.fullGPUOffload/title": "امکان خارج‌سازی کامل به GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "این مدل ممکن است کاملاً در حافظه GPU جای گیرد و سرعت پردازش را به شدت افزایش دهد",
+  "download.option.willFitEstimation.partialGPUOffload/title": "امکان خارج‌سازی جزئی به GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "بخشی از مدل ممکن است در حافظه GPU جای گیرد و معمولاً سرعت پردازش را افزایش می‌دهد",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "احتمال جایگیری در حافظه",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "این مدل احتمالاً در حافظه سیستم شما جای می‌گیرد",
+  "download.option.willFitEstimation.willNotFit/title": "احتمالاً برای این سیستم بزرگ است",
+  "download.option.willFitEstimation.willNotFit/description": "نیازمندی‌های حافظه این مدل ممکن است بیش از منابع سیستم شما باشد. دانلود این فایل توصیه نمی‌شود",
+  "download.option.recommended/title": "توصیه شده",
+  "download.option.recommended/description": "با توجه به سخت‌افزار شما، این گزینه توصیه می‌شود",
+  "download.option.downloaded/title": "دانلود شده",
+  "download.option.downloading/title": "در حال دانلود ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "بروزرسانی فید"
+}
