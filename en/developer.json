@@ -42,7 +42,7 @@
   "serverOptions/jitModelLoadingTTL/ttl/label": "Max idle TTL",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",

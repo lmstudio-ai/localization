@@ -4,7 +4,7 @@
   "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space.",
   "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space.",
 
-  "noModels.title": "Your local LLMs will show up here.",
+  "noModels.title": "Your local models will show up here.",
   "noModels.discoverButtonText.prefix": "Click the",
   "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
   "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
@@ -69,11 +69,12 @@
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
   "contextMenu/copyModelName": "Copy Model Path",
   "contextMenu/copyModelDefaultIdentifier": "Copy Default Identifier",
+  "contextMenu/showRawMetadata": "Show Raw Metadata",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
   "tooltip/moreActions": "More Actions",
   "tooltip/getInfo": "Get Info",
   "tooltip/editModelDefaultConfig": "Edit model default config",
-  "tooltip/editModelDefaultConfig/override": "Edit model default config (* currently has overrides",
+  "tooltip/editModelDefaultConfig/override": "Edit model default config (* has overrides)",
   "tooltip/visionBadge": "This model can process image inputs",
   "tooltip/toolUseBadge": "This model has been trained for tool use",
 
