@@ -46,6 +46,7 @@
   "preferences": "Preferences",
   "general": "General",
   "sideButtonLabels": "Show side button labels",
+  "showModelFileNames": "My Models: always show full model file name",
   "colorThemeLabel": "Color Theme",
   "complexityLevelLabel": "User Interface Complexity Level",
   "selectComplexityLevelPlaceholder": "Choose a default UI complexity level",
