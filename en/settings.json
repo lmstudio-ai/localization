@@ -140,6 +140,7 @@
   "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
 
   "unloadPreviousJITModelOnLoad": "JIT models auto-evict: ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "autoUpdateExtensionPacks": "Auto-update active Runtime Extension Packs",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",

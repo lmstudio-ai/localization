@@ -17,6 +17,9 @@
     },
     "authenticating": {
       "badge": "Authenticating"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Updating Extension Pack ({{name}} v{{version}})"
     }
   },
   "auth": {
