@@ -21,6 +21,7 @@
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Settings to control the way the model is initialized and loaded into memory.",
   "loadParameters/reload": "Reload to apply changes",
+  "loadParameters/reload/error": "Failed to reload the model",
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
   "schematicsError.title": "The config schematics contains errors in the following fields:",
