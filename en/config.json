@@ -152,7 +152,7 @@
   "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Context length threshold to start quantizating the KV cache",
   "llm.load.mlx.kvCacheQuantizationStart/info": "Context length threshold to start quantizating the KV cache",
   "llm.load.mlx.kvCacheQuantization/title": "KV Cache Quantization",
-  "llm.load.mlx.kvCacheQuantization/subTitle": "Apply quantization to the model's KV cache. This may result in lower memory usage while potentially degrading the quality of the model output.",
+  "llm.load.mlx.kvCacheQuantization/subTitle": "Quantize the model's KV cache. This may result in faster generation and lower memory footprint,\nat the expense of the quality of the model output.",
   "llm.load.mlx.kvCacheQuantization/bits/title": "KV cache quantization bits",
   "llm.load.mlx.kvCacheQuantization/bits/tooltip": "Number of bits to quantize the KV cache to",
   "llm.load.mlx.kvCacheQuantization/bits/bits": "Bits",
