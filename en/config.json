@@ -160,7 +160,7 @@
   "llm.load.mlx.kvCacheQuantization/groupSize/accuracy": "Accuracy",
   "llm.load.mlx.kvCacheQuantization/groupSize/balanced": "Balanced",
   "llm.load.mlx.kvCacheQuantization/groupSize/speedy": "Speedy",
-  "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Advanced: Quantized 'matmul group size' configuration\n\n• 'Accuracy' = group size 32\n• Balanced = group size 64\n• Speedy = group size 128\n",
+  "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Advanced: Quantized 'matmul group size' configuration\n\n• Accuracy = group size 32\n• Balanced = group size 64\n• Speedy = group size 128\n",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Start quantizing when ctx reaches this length",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "When the context reaches this amount of tokens,\nbegin quantizing the KV cache",
 
