@@ -1,7 +1,9 @@
 # localization 🌏
+
 LM Studio localization
 
 ## How to contribute a new language
+
 1. Fork this repository and clone it to your local machine
 2. Duplicate the English strings folder (`en/`), and rename the duplicate copy based on your language code
 3. Translate the strings (contained in `.json` files) within the newly duplicated folder
@@ -31,6 +33,8 @@ LM Studio localization
 - Indonesian (id) [@dwirx](https://github.com/dwirx)
 - Greek (gr) [@ilikecatgirls](https://github.com/ilikecatgirls)
 - Swedish (sv) [@reinew](https://github.com/reinew)
+- Malay (ms) [@rusdyahmad](https://github.com/rusdyahmad)
 
 Still under development (due to lack of RTL support in LM Studio)
+
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
