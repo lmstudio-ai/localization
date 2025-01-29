@@ -142,6 +142,7 @@
   "llm.load.llama.vCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
   "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ You must disable this value if Flash Attention is not enabled",
   "llm.load.llama.vCacheQuantizationType/disabledMessage": "Can only be turned on when Flash Attention is enabled",
+  "llm.load.llama.vCacheQuantizationType/invalidF32MetalState": "⚠️ You must disable flash attention when using F32",
   "llm.load.mlx.kvCacheBits/title": "KV Cache Quantization",
   "llm.load.mlx.kvCacheBits/subTitle": "Number of bits that the KV cache should be quantized to",
   "llm.load.mlx.kvCacheBits/info": "Number of bits that the KV cache should be quantized to",
