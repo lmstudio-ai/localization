@@ -68,6 +68,7 @@
 
   "runtimes": {
     "manageLMRuntimes": "Manage LM Runtimes",
+    "dismiss": "Dismiss",
     "updateAvailableToast": {
       "title": "LM Runtime Update Available!"
     },
