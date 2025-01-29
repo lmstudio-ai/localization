@@ -143,6 +143,8 @@
   "autoUpdateExtensionPacks": "Auto-update selected Runtime Extension Packs",
   "useHFProxy.label": "Use LM Studio's Hugging Face Proxy",
   "useHFProxy.hint": "Use LM Studio's Hugging Face Proxy to search and download models. This can help users who have trouble accessing Hugging Face directly.",
+  "separateReasoningContentInResponses": "When applicable, separate `reasoning_content` and `content` in API responses",
+  "separateReasoningContentInResponses/hint": "This setting will only work for 'reasoning' models such as DeepSeek R1, its distilled variants, and other models that produce CoT in `<think>` and `</think>` tags.",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
