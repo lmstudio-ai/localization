@@ -25,6 +25,16 @@
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
   "schematicsError.title": "The config schematics contains errors in the following fields:",
+
+  "manifestSections": {
+    "structuredOutput/title": "Structured Output",
+    "speculativeDecoding/title": "Speculative Decoding",
+    "sampling/title": "Sampling",
+    "settings/title": "Settings",
+    "toolUse/title": "Tool Use",
+    "promptTemplate/title": "Prompt Template"
+  },
+
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
