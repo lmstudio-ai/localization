@@ -114,7 +114,6 @@
   "llm.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random",
   "llm.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
   "llm.load.speculativeDecoding.draftModel/title": "Speculative Decoding",
-  "llm.load.speculativeDecoding.draftModel/subTitle": "The model to use for speculative decoding",
   "llm.load.speculativeDecoding.draftModel/selectPlaceholder": "Select a compatible draft model",
 
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
