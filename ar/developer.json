@@ -1,0 +1,68 @@
+{
+  "tabs/server": "الخادم المحلي",
+  "tabs/extensions": "بيئات التشغيل LM",
+  "loadSettings/title": "تحميل الإعدادات",
+  "modelSettings/placeholder": "اختر نموذجًا لضبطه",
+
+  "loadedModels/noModels": "لا توجد نماذج محمّلة",
+
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/configurableTitle": "خيارات قابلة للتهيئة",
+  "serverOptions/port/hint": "حدد المنفذ الذي سيستخدمه الخادم المحلي. بشكل افتراضي، يستخدم LM Studio المنفذ 1234. قد تحتاج لتغييره إذا كان هذا المنفذ مستخدمًا بالفعل.",
+  "serverOptions/port/subtitle": "المنفذ الذي سيستمع الخادم إليه",
+  "serverOptions/autostart/title": "بدء الخادم تلقائيًا",
+  "serverOptions/autostart/hint": "ابدأ الخادم المحلي تلقائيًا عند تحميل نموذج",
+  "serverOptions/port/integerWarning": "يجب أن يكون رقم المنفذ عددًا صحيحًا",
+  "serverOptions/port/invalidPortWarning": "يجب أن يكون رقم المنفذ بين 1 و65535",
+  "serverOptions/cors/title": "تفعيل CORS",
+  "serverOptions/cors/hint1": "تفعيل CORS (المشاركة في الموارد عبر المواقع) سيسمح للمواقع التي تزورها بإرسال طلبات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد تحتاج إلى CORS عند تنفيذ الطلبات من صفحة ويب أو من خلال VS Code / إضافات أخرى.",
+  "serverOptions/cors/subtitle": "السماح بالطلبات عبر النطاقات",
+  "serverOptions/network/title": "التخديم على الشبكة المحلية",
+  "serverOptions/network/subtitle": "إتاحة الخادم للأجهزة على الشبكة",
+  "serverOptions/network/hint1": "تحديد ما إذا كان سيتم السماح بالاتصالات من أجهزة أخرى على نفس الشبكة.",
+  "serverOptions/network/hint2": "إذا لم تقم بتحديد هذا الخيار، فسوف يستمع الخادم على العنوان المحلي فقط (localhost).",
+  "serverOptions/verboseLogging/title": "تسجيل مفصّل",
+  "serverOptions/verboseLogging/subtitle": "تفعيل التسجيل المفصّل للخادم المحلي",
+  "serverOptions/contentLogging/title": "تسجيل الموجهات والاستجابات",
+  "serverOptions/contentLogging/subtitle": "إعدادات التسجيل المحلي للطلبات / الاستجابات",
+  "serverOptions/contentLogging/hint": "حدد ما إذا كنت ترغب في تسجيل الموجهات و/أو الاستجابات في سجل الخادم المحلي.",
+  "serverOptions/jitModelLoading/title": "تحميل النموذج عند الطلب",
+  "serverOptions/jitModelLoading/hint": "عند التفعيل، إذا تم تحديد نموذج غير محمّل في أحد الطلبات، فسيتم تحميله واستخدامه تلقائيًا. بالإضافة إلى ذلك، سيعرض مسار \"/v1/models\" النماذج غير المحمّلة أيضًا.",
+  "serverOptions/loadModel/error": "فشل في تحميل النموذج",
+
+  "serverLogs/scrollToBottom": "الانتقال إلى الأسفل",
+  "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
+  "serverLogs/openLogsFolder": "فتح مجلد سجلات الخادم",
+
+  "runtimeSettings/title": "إعدادات بيئة التشغيل",
+  "runtimeSettings/chooseRuntime/title": "ضبط بيئات التشغيل",
+  "runtimeSettings/chooseRuntime/description": "اختر بيئة تشغيل لكل صيغة نموذج",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "إظهار جميع بيئات التشغيل",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "بشكل افتراضي، يعرض LM Studio أحدث إصدار فقط من كل بيئة تشغيل متوافقة. قم بتمكين هذا الخيار لعرض جميع الإصدارات المتاحة.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "اختر بيئة تشغيل",
+
+  "runtimeOptions/uninstall": "إلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/title": "إلغاء تثبيت {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "سيؤدي إلغاء تثبيت هذه البيئة إلى إزالتها من النظام. لا يمكن التراجع عن هذا الإجراء.",
+  "runtimeOptions/uninstallDialog/body/caveats": "قد يتم إزالة بعض الملفات فقط بعد إعادة تشغيل LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "فشل في إلغاء تثبيت بيئة التشغيل",
+  "runtimeOptions/uninstallDialog/confirm": "متابعة وإلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/cancel": "إلغاء",
+  "runtimeOptions/noCompatibleRuntimes": "لم يتم العثور على بيئات تشغيل متوافقة",
+  "runtimeOptions/downloadIncompatibleRuntime": "تم اعتبار هذه البيئة غير متوافقة مع جهازك. على الأرجح لن تعمل بشكل صحيح.",
+  "runtimeOptions/noRuntimes": "لم يتم العثور على أي بيئات تشغيل",
+
+  "inferenceParams/noParams": "لا توجد أي معلمات استدلال قابلة للضبط لهذا النوع من النماذج",
+
+  "endpoints/openaiCompatRest/title": "نقاط النهاية المدعومة (مشابهة لـ OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "عرض النماذج المحمّلة حاليًا",
+  "endpoints/openaiCompatRest/postCompletions": "وضع إكمال النص. التنبؤ بالرموز التالية بناءً على موجه. ملاحظة: تصنّف OpenAI هذا المسار على أنه 'مهمل'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "إكمال الدردشة. إرسال سجل الدردشة إلى النموذج للتنبؤ بالاستجابة التالية للمساعد",
+  "endpoints/openaiCompatRest/postEmbeddings": "تضمين النص. إنشاء تضمينات نصية لمدخل نصي. يقبل سلسلة نصية أو مصفوفة من السلاسل النصية.",
+
+  "model.createVirtualModelFromInstance": "احفظ الإعدادات كنموذج افتراضي جديد",
+  "model.createVirtualModelFromInstance/error": "فشل في حفظ الإعدادات كنموذج افتراضي جديد",
+
+  "apiConfigOptions/title": "إعدادات واجهة برمجة التطبيقات (API)"
+}

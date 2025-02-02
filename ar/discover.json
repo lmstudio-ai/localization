@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "مجموعات",
+  "collectionsColumn/collectionError": "حدث خطأ أثناء تحميل تفاصيل المجموعة، يرجى إعادة المحاولة من خلال التحديث أعلاه",
+  "bookmarksColumn": "الإشارات المرجعية",
+  "searchBar/placeholder": "ابحث عن نماذج على موقع Hugging Face...",
+  "searchBar/huggingFaceError": "حدث خطأ أثناء جلب النتائج من Hugging Face، يرجى المحاولة مرة أخرى بعد قليل",
+  "sortBy": "فرز حسب",
+  "searchSortKey.default/title": "أفضل تطابق",
+  "searchSortKey.likes/title": "الأكثر إعجابًا",
+  "searchSortKey.downloads/title": "الأكثر تنزيلًا",
+  "searchSortKey.lastModified/title": "تم تحديثه مؤخرًا",
+  "searchSortKey.createdAt/title": "تم إنشاؤه مؤخرًا",
+  "download.option.willFitEstimation.caveat": "قد تكون هناك عوامل أخرى تمنع التحميل، مثل بنية النموذج أو سلامة ملفات النموذج أو مقدار الذاكرة المتوفرة على جهاز الكمبيوتر.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "يمكن تحميله بالكامل على ذاكرة بطاقة الرسومات (GPU)",
+  "download.option.willFitEstimation.fullGPUOffload/description": "من المحتمل أن يناسب هذا النموذج ذاكرة بطاقة الرسومات لديك بالكامل، مما قد يسرّع عملية الاستدلال بشكل كبير.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "تحميل جزئي على بطاقة الرسومات ممكن",
+  "download.option.willFitEstimation.partialGPUOffload/description": "من المحتمل أن يناسب هذا النموذج جزئيًا ذاكرة بطاقة الرسومات لديك، مما قد يسرّع عملية الاستدلال بشكل كبير في أغلب الأحيان.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "من المحتمل أنه مناسب",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "من المحتمل أن يناسب هذا النموذج ذاكرة جهازك.",
+  "download.option.willFitEstimation.willNotFit/title": "من المحتمل أنه كبير جدًا بالنسبة لهذا الجهاز",
+  "download.option.willFitEstimation.willNotFit/description": "قد تتجاوز متطلبات الذاكرة اللازمة لاستخدام هذا النموذج الموارد المتاحة على جهازك. لا يُنصح بتنزيل هذا الملف.",
+  "download.option.recommended/title": "موصى به",
+  "download.option.recommended/description": "استنادًا إلى مواصفات جهازك، هذا الخيار هو الموصى به.",
+  "download.option.downloaded/title": "تم التنزيل",
+  "download.option.downloading/title": "جاري التنزيل ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "تحديث الخلاصة"
+}
