@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "কলেকশনসমূহ",
+  "collectionsColumn/collectionError": "কলেকশন বিবরণ লোড করতে ত্রুটি হয়েছে, অনুগ্রহ করে উপরে রিফ্রেশ চেষ্টা করুন",
+  "bookmarksColumn": "বুকমার্কসমূহ",
+  "searchBar/placeholder": "Hugging Face এ মডেল অনুসন্ধান করুন...",
+  "searchBar/huggingFaceError": "Hugging Face থেকে ফলাফল আনতে ত্রুটি হয়েছে, কিছু সময় পর আবার চেষ্টা করুন",
+  "sortBy": "ভিত্তি করে সাজান",
+  "searchSortKey.default/title": "সর্বোত্তম মেল",
+  "searchSortKey.likes/title": "সবচেয়ে পছন্দসই",
+  "searchSortKey.downloads/title": "সবচেয়ে ডাউনলোড হওয়া",
+  "searchSortKey.lastModified/title": "সাম্প্রতিক আপডেট",
+  "searchSortKey.createdAt/title": "সাম্প্রতিক তৈরি",
+  "download.option.willFitEstimation.caveat": "লোডিং বাধাগ্রস্ত হতে পারে এমন অন্যান্য কারণও থাকতে পারে, যেমন মডেলের আর্কিটেকচার, মডেল ফাইলের অখণ্ডতা, বা আপনার কম্পিউটারে উপলব্ধ মেমরি পরিমাণ।",
+  "download.option.willFitEstimation.fullGPUOffload/title": "পূর্ণ GPU অফলোড সম্ভব",
+  "download.option.willFitEstimation.fullGPUOffload/description": "এই মডেলটি সম্পূর্ণরূপে আপনার GPU এর মেমরিতে ফিট করতে পারে। এটি ইনফারেন্সের গতি অনেকটা বাড়িয়ে দিতে পারে।",
+  "download.option.willFitEstimation.partialGPUOffload/title": "আংশিক GPU অফলোড সম্ভব",
+  "download.option.willFitEstimation.partialGPUOffload/description": "এই মডেলটি আংশিকভাবে আপনার GPU এর মেমরিতে ফিট করতে পারে। এটি প্রায়ই ইনফারেন্সের গতি অনেকটা বাড়িয়ে দিতে পারে।",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "সম্ভাব্যভাবে ফিট",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "এই মডেলটি সম্ভবত আপনার মেশিনের মেমরিতে ফিট করতে সক্ষম হবে।",
+  "download.option.willFitEstimation.willNotFit/title": "এই মেশিনের জন্য সম্ভবত terlalu বড়",
+  "download.option.willFitEstimation.willNotFit/description": "এই মডেল ফাইলটি সফলভাবে ব্যবহার করতে মেমরি প্রয়োজনীয়তা আপনার মেশিনে উপলব্ধ রিসোর্সের চেয়ে বেশি হতে পারে। এই ফাইলটি ডাউনলোড করা সুপারিশ করা হয় না।",
+  "download.option.recommended/title": "সুপারিশকৃত",
+  "download.option.recommended/description": "আপনার হার্ডওয়্যার অনুযায়ী, এই বিকল্পটি সুপারিশ করা হয়েছে।",
+  "download.option.downloaded/title": "ডাউনলোড হয়েছে",
+  "download.option.downloading/title": "ডাউনলোড হচ্ছে ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "ফিড রিফ্রেশ করুন"
+}

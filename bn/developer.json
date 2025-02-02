@@ -1,0 +1,68 @@
+{
+  "tabs/server": "লোকাল সার্ভার",
+  "tabs/extensions": "এলএম রানটাইমস",
+  "loadSettings/title": "সেটিংস লোড করুন",
+  "modelSettings/placeholder": "কনফিগার করার জন্য একটি মডেল নির্বাচন করুন",
+
+  "loadedModels/noModels": "কোনো মডেল লোড করা হয়নি",
+
+  "serverOptions/title": "সার্ভার অপশনসমূহ",
+  "serverOptions/configurableTitle": "কনফিগারযোগ্য অপশনসমূহ",
+  "serverOptions/port/hint": "লোকাল সার্ভার কোন নেটওয়ার্ক পোর্ট ব্যবহার করবে সেটি নির্ধারণ করুন। ডিফল্টভাবে, এলএম স্টুডিও পোর্ট 1234 ব্যবহার করে। যদি পোর্টটি ইতিমধ্যে ব্যবহৃত হয় তবে আপনাকে এটি পরিবর্তন করতে হতে পারে।",
+  "serverOptions/port/subtitle": "শুনতে পোর্ট",
+  "serverOptions/autostart/title": "অটো-স্টার্ট সার্ভার",
+  "serverOptions/autostart/hint": "মডেল লোড হলে লোকাল সার্ভার স্বয়ংক্রিয়ভাবে চালু হবে",
+  "serverOptions/port/integerWarning": "পোর্ট নম্বরটি একটি পূর্ণসংখ্যা হতে হবে",
+  "serverOptions/port/invalidPortWarning": "পোর্টটি 1 থেকে 65535 এর মধ্যে হতে হবে",
+  "serverOptions/cors/title": "CORS সক্রিয় করুন",
+  "serverOptions/cors/hint1": "CORS (ক্রস-অরিজিন রিসোর্স শেয়ারিং) সক্রিয় করলে, আপনি যে ওয়েবসাইটগুলো দেখবেন সেগুলি এলএম স্টুডিও সার্ভারে রিকোয়েস্ট পাঠাতে পারবে।",
+  "serverOptions/cors/hint2": "ওয়েব পেজ বা VS কোড / অন্যান্য এক্সটেনশন থেকে রিকোয়েস্ট পাঠানোর সময় CORS প্রয়োজন হতে পারে।",
+  "serverOptions/cors/subtitle": "ক্রস-অরিজিন রিকোয়েস্ট অনুমোদন করুন",
+  "serverOptions/network/title": "লোকাল নেটওয়ার্কে সার্ভার সরবরাহ করুন",
+  "serverOptions/network/subtitle": "নেটওয়ার্কের ডিভাইসগুলির জন্য সার্ভার এক্সপোজ করুন",
+  "serverOptions/network/hint1": "অন্যান্য ডিভাইস থেকে সংযোগ অনুমোদন করা হবে কিনা তা নির্ধারণ করুন।",
+  "serverOptions/network/hint2": "যদি না চেক করা হয়, সার্ভার শুধুমাত্র লোকালহোস্টে শুনবে।",
+  "serverOptions/verboseLogging/title": "বিশদ লগিং",
+  "serverOptions/verboseLogging/subtitle": "লোকাল সার্ভারের জন্য বিশদ লগিং সক্ষম করুন",
+  "serverOptions/contentLogging/title": "প্রম্পট এবং প্রতিক্রিয়া লগ করুন",
+  "serverOptions/contentLogging/subtitle": "লোকাল রিকোয়েস্ট / রেসপন্স লগিং সেটিংস",
+  "serverOptions/contentLogging/hint": "প্রম্পট এবং/অথবা প্রতিক্রিয়া লোকাল সার্ভার লগ ফাইলে লগ করা হবে কিনা তা নির্ধারণ করুন।",
+  "serverOptions/jitModelLoading/title": "জাস্ট-ইন-টাইম মডেল লোডিং",
+  "serverOptions/jitModelLoading/hint": "যখন সক্রিয় থাকে, যদি কোনো রিকোয়েস্ট লোড না হওয়া মডেল নির্দিষ্ট করে, এটি স্বয়ংক্রিয়ভাবে লোড এবং ব্যবহার করা হবে। এছাড়াও, \"/v1/models\" এন্ডপয়েন্টে এমন মডেল অন্তর্ভুক্ত থাকবে যা এখনও লোড হয়নি।",
+  "serverOptions/loadModel/error": "মডেল লোড করতে ব্যর্থ হয়েছে",
+
+  "serverLogs/scrollToBottom": "নিচে যান",
+  "serverLogs/clearLogs": "লগ মুছুন ({{shortcut}})",
+  "serverLogs/openLogsFolder": "সার্ভার লগ ফোল্ডার খুলুন",
+
+  "runtimeSettings/title": "রানটাইম সেটিংস",
+  "runtimeSettings/chooseRuntime/title": "রানটাইম কনফিগার করুন",
+  "runtimeSettings/chooseRuntime/description": "প্রতিটি মডেল ফরম্যাটের জন্য একটি রানটাইম নির্বাচন করুন",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "সমস্ত রানটাইম দেখান",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "ডিফল্টভাবে, এলএম স্টুডিও শুধুমাত্র প্রতিটি সঙ্গতিপূর্ণ রানটাইমের সর্বশেষ সংস্করণ প্রদর্শন করে। এই বিকল্পটি সক্রিয় করলে আপনি সমস্ত উপলব্ধ রানটাইম দেখতে পারবেন।",
+  "runtimeSettings/chooseRuntime/select/placeholder": "একটি রানটাইম নির্বাচন করুন",
+
+  "runtimeOptions/uninstall": "অপসারণ করুন",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} অপসারণ করবেন?",
+  "runtimeOptions/uninstallDialog/body": "এই রানটাইমটি অপসারণ করলে এটি সিস্টেম থেকে মুছে যাবে। এই পদক্ষেপটি অপরিবর্তনীয়।",
+  "runtimeOptions/uninstallDialog/body/caveats": "কিছু ফাইল LM Studio পুনরায় চালু হওয়ার পরই মুছে ফেলা হতে পারে।",
+  "runtimeOptions/uninstallDialog/error": "রানটাইম অপসারণে ব্যর্থ হয়েছে",
+  "runtimeOptions/uninstallDialog/confirm": "অপসারণ চালিয়ে যান",
+  "runtimeOptions/uninstallDialog/cancel": "বাতিল করুন",
+  "runtimeOptions/noCompatibleRuntimes": "কোনো সঙ্গতিপূর্ণ রানটাইম পাওয়া যায়নি",
+  "runtimeOptions/downloadIncompatibleRuntime": "এই রানটাইমটি আপনার মেশিনের সাথে অস্বীকৃত হিসাবে চিহ্নিত হয়েছে। এটি সম্ভবত কাজ করবে না।",
+  "runtimeOptions/noRuntimes": "কোনো রানটাইম পাওয়া যায়নি",
+
+  "inferenceParams/noParams": "এই মডেল প্রকারের জন্য কোনো কনফিগারযোগ্য ইনফারেন্স প্যারামিটার উপলব্ধ নয়",
+
+  "endpoints/openaiCompatRest/title": "সমর্থিত এন্ডপয়েন্ট (OpenAI-সদৃশ)",
+  "endpoints/openaiCompatRest/getModels": "বর্তমানে লোড করা মডেলগুলি তালিকাভুক্ত করুন",
+  "endpoints/openaiCompatRest/postCompletions": "টেক্সট কমপ্লিশন মোড। একটি প্রম্পট দেওয়া হলে পরবর্তী টোকেনগুলি ভবিষ্যদ্বাণী করুন। লক্ষ্য করুন: OpenAI এই এন্ডপয়েন্টটিকে 'ডিপ্রিকেটেড' মনে করে।",
+  "endpoints/openaiCompatRest/postChatCompletions": "চ্যাট কমপ্লিশন। মডেলে পরবর্তী সহকারী প্রতিক্রিয়া ভবিষ্যদ্বাণী করতে একটি চ্যাট ইতিহাস পাঠান",
+  "endpoints/openaiCompatRest/postEmbeddings": "টেক্সট এমবেডিং। একটি টেক্সট ইনপুটের জন্য টেক্সট এমবেডিং তৈরি করুন। একটি স্ট্রিং বা স্ট্রিংয়ের অ্যারে নেয়।",
+
+  "model.createVirtualModelFromInstance": "নতুন ভার্চুয়াল মডেল হিসাবে সেটিংস সংরক্ষণ করুন",
+  "model.createVirtualModelFromInstance/error": "নতুন ভার্চুয়াল মডেল হিসাবে সেটিংস সংরক্ষণ করতে ব্যর্থ হয়েছে",
+
+  "apiConfigOptions/title": "এপিআই কনফিগারেশন"
+}
