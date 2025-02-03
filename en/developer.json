@@ -77,6 +77,20 @@
       "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
     },
     "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Runtime Extension Packs",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "filterSegment": {
+        "compatibleOnly": "Compatible Only",
+        "all": "All"
+      },
+      "card": {
+        "releaseNotes": "Release Notes",
+        "latestVersionInstalled": "Latest Version Installed",
+        "updateAvailable": "Update Available"
+      }
+    },
     "installedRuntimes": {
       "dropdownOptions": {
         "manifestJSON": "Manifest JSON",
