@@ -95,13 +95,16 @@
       "dropdownOptions": {
         "manifestJSON": "Manifest JSON",
         "releaseNotes": "Release Notes",
-        "uninstall": "Uninstall"
+        "uninstall": "Uninstall",
+        "close": "Close"
       },
       "tabs": {
         "all": "All",
         "frameworks": "Frameworks",
         "engines": "Engines"
       },
+      "manifestJsonTitle": "Manifest JSON",
+      "releaseNotesTitle": "Release Notes",
       "noEngines": "No engines installed",
       "noFrameworks": "No frameworks installed"
     }
