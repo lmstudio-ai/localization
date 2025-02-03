@@ -76,7 +76,21 @@
       "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
       "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
     },
-    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support"
+    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "installedRuntimes": {
+      "dropdownOptions": {
+        "manifestJSON": "Manifest JSON",
+        "releaseNotes": "Release Notes",
+        "uninstall": "Uninstall"
+      },
+      "tabs": {
+        "all": "All",
+        "frameworks": "Frameworks",
+        "engines": "Engines"
+      },
+      "noEngines": "No engines installed",
+      "noFrameworks": "No frameworks installed"
+    }
   },
 
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
