@@ -49,8 +49,8 @@
   "serverLogs/openLogsFolder": "Open server logs folder",
 
   "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
-  "runtimeSettings/chooseRuntime/description": "Select a runtime for each model format",
+  "runtimeSettings/chooseRuntime/title": "Active Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each application",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
@@ -68,6 +68,7 @@
 
   "runtimes": {
     "manageLMRuntimes": "Manage LM Runtimes",
+    "includeOlderRuntimeVersions": "Include older runtime versions",
     "dismiss": "Dismiss",
     "updateAvailableToast": {
       "title": "LM Runtime Update Available!"
@@ -78,6 +79,7 @@
     },
     "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
     "downloadableRuntimes": {
+      "title": "Available Runtime Extension Packs",
       "runtimeExtensionPacks": "Runtime Extension Packs",
       "refresh": "Refresh",
       "refreshing": "Refreshing...",
@@ -92,16 +94,19 @@
       }
     },
     "installedRuntimes": {
+      "manage": {
+        "title": "Manage Active Runtimes"
+      },
       "dropdownOptions": {
         "manifestJSON": "Manifest JSON",
         "releaseNotes": "Release Notes",
-        "uninstall": "Uninstall",
+        "installedVersions": "Manage Versions",
         "close": "Close"
       },
       "tabs": {
         "all": "All",
-        "frameworks": "Frameworks",
-        "engines": "Engines"
+        "frameworks": "My Frameworks",
+        "engines": "My Engines"
       },
       "manifestJsonTitle": "Manifest JSON",
       "releaseNotesTitle": "Release Notes",
