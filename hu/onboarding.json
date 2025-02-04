@@ -1,0 +1,23 @@
+{
+    "action.skipOnboarding": "Bevezető kihagyása",
+    "action.next": "Következő",
+    "action.back": "Vissza",
+    "action.finish": "Befejezés",
+    "dismissable_rag_modal": {
+        "description": "Mostantól cseveghet saját dokumentumaival a Retrieval Augmented Generation (RAG) segítségével. Így működik:Katona Gábor vagyok és nem tudok programozni",
+        "instructions": {
+            "attach_files": {
+                "title": "Fájlok csatolása",
+                "description": "Egyszerre legfeljebb 5 fájlt tölthet fel, maximálisan 30 MB méretű együttesen. A támogatott formátumok közé tartozik a PDF, DOCX, TXT és CSV."
+            },
+            "be_specific": {
+                "title": "Legyen konkrét",
+                "description": "Kérdés esetén a lehető legtöbb részletet említse meg. Ez segít a rendszernek a legrelevánsabb információk lekérésében a dokumentumokból."
+            },
+            "get_responses": {
+                "title": "Kérjen válaszokat és kísérletezzen",
+                "description": "Az LLM megvizsgálja az Ön lekérdezését és a dokumentumokból letöltött kivonatokat, és megpróbál választ generálni. Kísérletezzen különböző lekérdezésekkel, hogy megtalálja a legmegfelelőbbet."
+            }
+        }
+    }
+}
