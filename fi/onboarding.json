@@ -1,0 +1,25 @@
+{
+  "action.skipOnboarding": "Ohita aloitus",
+  "action.next": "Seuraava",
+  "action.back": "Edellinen",
+  "action.finish": "Valmis",
+
+  "dismissable_rag_modal": {
+    "description": "Voit nyt keskustella omien dokumenttiesi kanssa käyttäen Retrieval Augmented Generation (RAG) -tekniikkaa. Tässä on, miten se toimii:",
+    "instructions": {
+      "attach_files": {
+        "title": "Liitä tiedostot",
+        "description": "Lataa enintään 5 tiedostoa kerrallaan, yhteensä enintään 30 MB. Tuetut formaatit ovat PDF, DOCX, TXT ja CSV."
+      },
+      "be_specific": {
+        "title": "Ole tarkka",
+        "description": "Kun kysyt kysymyksiä, mainitse mahdollisimman paljon yksityiskohtia. Tämä auttaa järjestelmää hakemaan parhaiten vastaavia tietoja dokumenteistasi."
+      },
+      "get_responses": {
+        "title": "Saa vastauksia ja kokeile",
+        "description": "LLM tarkastelee kyselyäsi ja haetut otsikot dokumenteistasi ja yrittää luoda vastauksen. Kokeile eri kyselyillä löytääksesi, mitä toimii parhaiten."
+      }
+    }
+  }
+}
+
