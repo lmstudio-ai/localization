@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Koleksi",
+  "collectionsColumn/collectionError": "Ralat memuatkan butiran koleksi, sila cuba muat semula di atas",
+  "bookmarksColumn": "Penanda",
+  "searchBar/placeholder": "Cari model di Hugging Face...",
+  "searchBar/huggingFaceError": "Terdapat ralat semasa mengambil hasil dari Hugging Face, sila cuba lagi sebentar",
+  "sortBy": "Susun mengikut",
+  "searchSortKey.default/title": "Padanan Terbaik",
+  "searchSortKey.likes/title": "Paling Disukai",
+  "searchSortKey.downloads/title": "Paling Banyak Dimuat Turun",
+  "searchSortKey.lastModified/title": "Dikemas Kini Terkini",
+  "searchSortKey.createdAt/title": "Dicipta Terkini",
+  "download.option.willFitEstimation.caveat": "Mungkin terdapat faktor lain yang menghalang ia daripada dimuat, seperti seni bina model, integriti fail model, atau jumlah memori yang tersedia pada komputer anda.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Pemindahan GPU Penuh Berkemungkinan",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Model ini mungkin muat sepenuhnya dalam memori GPU anda. Ini boleh meningkatkan kelajuan inferens dengan ketara.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Pemindahan GPU Separa Berkemungkinan",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Model ini mungkin muat sebahagiannya dalam memori GPU anda. Ini sering boleh meningkatkan kelajuan inferens dengan ketara.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Berkemungkinan Muat",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Model ini berkemungkinan muat dalam memori mesin anda.",
+  "download.option.willFitEstimation.willNotFit/title": "Berkemungkinan terlalu besar untuk mesin ini",
+  "download.option.willFitEstimation.willNotFit/description": "Keperluan memori untuk menggunakan fail model ini dengan jayanya mungkin melebihi sumber yang tersedia pada mesin anda. Memuat turun fail ini TIDAK disyorkan.",
+  "download.option.recommended/title": "Disyorkan",
+  "download.option.recommended/description": "Berdasarkan perkakasan anda, pilihan ini adalah disyorkan.",
+  "download.option.downloaded/title": "Dimuat Turun",
+  "download.option.downloading/title": "Memuat Turun ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Muat semula suapan"
+}

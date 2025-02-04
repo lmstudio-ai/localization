@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Pelayan Tempatan",
+  "tabs/extensions": "Runtime LM",
+  "loadSettings/title": "Muat tetapan",
+  "modelSettings/placeholder": "Pilih model untuk mengkonfigurasinya",
+
+  "loadedModels/noModels": "Tiada model dimuat",
+
+  "serverOptions/title": "Pilihan Pelayan",
+  "serverOptions/configurableTitle": "Pilihan Boleh Dikonfigurasi",
+  "serverOptions/port/hint": "Tetapkan port rangkaian yang akan digunakan oleh pelayan tempatan. Secara lalai, LM Studio menggunakan port 1234. Anda mungkin perlu menukar ini jika port tersebut sudah digunakan.",
+  "serverOptions/port/subtitle": "Port untuk didengar",
+  "serverOptions/autostart/title": "Mula automatik pelayan",
+  "serverOptions/autostart/hint": "Mulakan pelayan tempatan secara automatik apabila model dimuat",
+  "serverOptions/port/integerWarning": "Nombor port mestilah nombor bulat",
+  "serverOptions/port/invalidPortWarning": "Port mestilah antara 1 dan 65535",
+  "serverOptions/cors/title": "Aktifkan CORS",
+  "serverOptions/cors/hint1": "Mengaktifkan CORS (Perkongsian Sumber Merentas Asal) akan membenarkan laman web yang anda lawati membuat permintaan ke pelayan LM Studio.",
+  "serverOptions/cors/hint2": "CORS mungkin diperlukan apabila membuat permintaan dari halaman web atau VS Code / sambungan lain.",
+  "serverOptions/cors/subtitle": "Benarkan permintaan merentas asal",
+  "serverOptions/network/title": "Hidangkan pada Rangkaian Tempatan",
+  "serverOptions/network/subtitle": "Dedahkan pelayan kepada peranti dalam rangkaian",
+  "serverOptions/network/hint1": "Sama ada untuk membenarkan sambungan dari peranti lain dalam rangkaian.",
+  "serverOptions/network/hint2": "Jika tidak ditandai, pelayan hanya akan mendengar pada localhost.",
+  "serverOptions/verboseLogging/title": "Log Terperinci",
+  "serverOptions/verboseLogging/subtitle": "Aktifkan log terperinci untuk pelayan tempatan",
+  "serverOptions/contentLogging/title": "Log Arahan dan Respons",
+  "serverOptions/contentLogging/subtitle": "Tetapan log permintaan / respons tempatan",
+  "serverOptions/contentLogging/hint": "Sama ada untuk melog arahan dan/atau respons dalam fail log pelayan tempatan.",
+  "serverOptions/jitModelLoading/title": "Pemuatan Model Tepat Pada Masa",
+  "serverOptions/jitModelLoading/hint": "Apabila diaktifkan, jika permintaan menentukan model yang tidak dimuat, ia akan dimuat secara automatik dan digunakan. Tambahan pula, titik akhir \"/v1/models\" juga akan memasukkan model yang belum dimuat.",
+  "serverOptions/loadModel/error": "Gagal memuat model",
+
+  "serverLogs/scrollToBottom": "Lompat ke bawah",
+  "serverLogs/clearLogs": "Kosongkan log ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Buka folder log pelayan",
+
+  "runtimeSettings/title": "Tetapan runtime",
+  "runtimeSettings/chooseRuntime/title": "Konfigurasi Runtime",
+  "runtimeSettings/chooseRuntime/description": "Pilih runtime untuk setiap format model",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tunjuk semua runtime",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Secara lalai, LM Studio hanya menunjukkan versi terkini setiap runtime yang serasi. Aktifkan pilihan ini untuk melihat semua runtime yang tersedia.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Pilih Runtime",
+
+  "runtimeOptions/uninstall": "Nyahpasang",
+  "runtimeOptions/uninstallDialog/title": "Nyahpasang {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Menyahpasang runtime ini akan mengalihkannya dari sistem. Tindakan ini tidak boleh dibalikkan.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Sesetengah fail mungkin hanya dapat dialihkan selepas LM Studio dimulakan semula.",
+  "runtimeOptions/uninstallDialog/error": "Gagal menyahpasang runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Teruskan dan Nyahpasang",
+  "runtimeOptions/uninstallDialog/cancel": "Batal",
+  "runtimeOptions/noCompatibleRuntimes": "Tiada runtime serasi ditemui",
+  "runtimeOptions/downloadIncompatibleRuntime": "Runtime ini ditentukan tidak serasi dengan mesin anda. Ia kemungkinan besar tidak akan berfungsi.",
+  "runtimeOptions/noRuntimes": "Tiada runtime ditemui",
+
+  "inferenceParams/noParams": "Tiada parameter inferens yang boleh dikonfigurasi tersedia untuk jenis model ini",
+
+  "endpoints/openaiCompatRest/title": "Titik akhir yang disokong (Seperti OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Senaraikan model yang dimuat sekarang",
+  "endpoints/openaiCompatRest/postCompletions": "Mod Pelengkapan Teks. Ramalkan token seterusnya berdasarkan arahan. Nota: OpenAI menganggap titik akhir ini 'usang'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Pelengkapan perbualan. Hantar sejarah perbualan kepada model untuk meramalkan respons pembantu seterusnya",
+  "endpoints/openaiCompatRest/postEmbeddings": "Pembenaman Teks. Jana pembenaman teks untuk input teks yang diberikan. Menerima rentetan atau tatasusunan rentetan.",
+
+  "model.createVirtualModelFromInstance": "Simpan Tetapan sebagai Model Maya Baharu",
+  "model.createVirtualModelFromInstance/error": "Gagal menyimpan tetapan sebagai model maya baharu",
+
+  "apiConfigOptions/title": "Konfigurasi API"
+}
