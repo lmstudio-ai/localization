@@ -97,8 +97,6 @@
         "title": "Manage Active Runtimes"
       },
       "dropdownOptions": {
-        "manifestJSON": "Manifest JSON",
-        "releaseNotes": "Release Notes",
         "installedVersions": "Manage Versions",
         "close": "Close"
       },
