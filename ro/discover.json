@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Colecții",
+  "collectionsColumn/collectionError": "Eroare la încărcarea detaliilor colecției, încercați reîmprospătarea",
+  "bookmarksColumn": "Favorite",
+  "searchBar/placeholder": "Căutați modele pe Hugging Face...",
+  "searchBar/huggingFaceError": "Eroare la obținerea rezultatelor de pe Hugging Face, încercați din nou mai târziu",
+  "sortBy": "Sortează după",
+  "searchSortKey.default/title": "Cea mai bună potrivire",
+  "searchSortKey.likes/title": "Cele mai multe aprecieri",
+  "searchSortKey.downloads/title": "Cele mai multe descărcări",
+  "searchSortKey.lastModified/title": "Actualizate recent",
+  "searchSortKey.createdAt/title": "Create recent",
+  "download.option.willFitEstimation.caveat": "Pot exista alți factori care împiedică încărcarea, precum arhitectura modelului, integritatea fișierului sau memoria disponibilă.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Descărcare completă pe GPU posibilă",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Acest model ar putea încăpea complet în memoria GPU. Ar putea accelera considerabil inferența.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Descărcare parțială pe GPU posibilă",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Acest model ar putea încăpea parțial în memoria GPU. Ar putea accelera considerabil inferența.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Probabil încape",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Acest model probabil va încăpea în memoria dispozitivului.",
+  "download.option.willFitEstimation.willNotFit/title": "Probabil prea mare pentru acest dispozitiv",
+  "download.option.willFitEstimation.willNotFit/description": "Cerințele de memorie pentru acest model pot depăși resursele disponibile. NU se recomandă descărcarea.",
+  "download.option.recommended/title": "Recomandat",
+  "download.option.recommended/description": "În funcție de hardware-ul dvs., această opțiune este recomandată.",
+  "download.option.downloaded/title": "Descărcat",
+  "download.option.downloading/title": "Se descarcă ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Reîmprospătează feed-ul"
+}

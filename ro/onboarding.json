@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Omite inițierea",
+  "action.next": "Următorul",
+  "action.back": "Înapoi",
+  "action.finish": "Finalizează",
+
+  "dismissable_rag_modal": {
+    "description": "Acum puteți conversa cu propriile documente folosind Generare Augmentată prin Recuperare (RAG). Iată cum funcționează:",
+    "instructions": {
+      "attach_files": {
+        "title": "Atașați Fișiere",
+        "description": "Încărcați până la 5 fișiere simultan, cu o dimensiune totală maximă de 30MB. Formatele acceptate includ PDF, DOCX, TXT și CSV."
+      },
+      "be_specific": {
+        "title": "Fiți Specific",
+        "description": "La întrebări, menționați cât mai multe detalii posibil. Acest lucru ajută sistemul să recupereze cele mai relevante informații din documentele dvs."
+      },
+      "get_responses": {
+        "title": "Primiți Răspunsuri și Experimentați",
+        "description": "LLM-ul va analiza interogarea și fragmentele recuperate din documente, încercând să genereze un răspuns. Experimentați cu diferite întrebări pentru a găsi ce funcționează mai bine."
+      }
+    }
+  }
+}

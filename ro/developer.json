@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Server Local",
+  "tabs/extensions": "Runtime-uri (Medii de Rulare)",
+  "loadSettings/title": "Setări încărcare",
+  "modelSettings/placeholder": "Selectați un model pentru configurare",
+
+  "loadedModels/noModels": "Niciun model încărcat",
+
+  "serverOptions/title": "Opțiuni Server",
+  "serverOptions/configurableTitle": "Opțiuni Configurabile",
+  "serverOptions/port/hint": "Setați portul de rețea folosit de serverul local. Implicit, LM Studio folosește portul 1234. Ar putea fi necesar să-l schimbați dacă portul e ocupat.",
+  "serverOptions/port/subtitle": "Portul pe care se ascultă",
+  "serverOptions/autostart/title": "Pornire automată server",
+  "serverOptions/autostart/hint": "Pornește serverul local automat când se încarcă un model",
+  "serverOptions/port/integerWarning": "Numărul portului trebuie să fie întreg",
+  "serverOptions/port/invalidPortWarning": "Portul trebuie să fie între 1 și 65535",
+  "serverOptions/cors/title": "Activează CORS",
+  "serverOptions/cors/hint1": "Activarea CORS (Cross-origin Resource Sharing) permite site-urilor vizitate să facă cereri către serverul LM Studio.",
+  "serverOptions/cors/hint2": "CORS poate fi necesar pentru cereri de pe pagini web sau extensii VS Code / altele.",
+  "serverOptions/cors/subtitle": "Permite cereri cross-origin",
+  "serverOptions/network/title": "Servește pe Rețea Locală",
+  "serverOptions/network/subtitle": "Expune serverul către dispozitivele din rețea",
+  "serverOptions/network/hint1": "Dacă se permit conexiuni de la alte dispozitive din rețea.",
+  "serverOptions/network/hint2": "Dacă nu e bifat, serverul va asculta doar pe localhost.",
+  "serverOptions/verboseLogging/title": "Logging Detaliat",
+  "serverOptions/verboseLogging/subtitle": "Activează logging detaliat pentru serverul local",
+  "serverOptions/contentLogging/title": "Logging Prompturi și Răspunsuri",
+  "serverOptions/contentLogging/subtitle": "Setări logging cereri/răspunsuri locale",
+  "serverOptions/contentLogging/hint": "Dacă se logează prompturile și/sau răspunsurile în fișierul log al serverului local.",
+  "serverOptions/jitModelLoading/title": "Încărcare Model la Cerere",
+  "serverOptions/jitModelLoading/hint": "Când e activat, dacă o cerere specifică un model neîncărcat, acesta va fi încărcat și folosit automat. În plus, endpoint-ul \"/v1/models\" va include și modelele neîncărcate încă.",
+  "serverOptions/loadModel/error": "Încărcarea modelului a eșuat",
+
+  "serverLogs/scrollToBottom": "Salt la final",
+  "serverLogs/clearLogs": "Șterge loguri ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Deschide folder loguri server",
+
+  "runtimeSettings/title": "Setări runtime",
+  "runtimeSettings/chooseRuntime/title": "Configurare Runtime-uri",
+  "runtimeSettings/chooseRuntime/description": "Selectați un runtime pentru fiecare format de model",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Arată toate runtime-urile",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Implicit, LM Studio arată doar ultima versiune din fiecare runtime compatibil. Activați pentru a vedea toate runtime-urile disponibile.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selectați un Runtime",
+
+  "runtimeOptions/uninstall": "Dezinstalează",
+  "runtimeOptions/uninstallDialog/title": "Dezinstalați {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Dezinstalarea acestui runtime îl va elimina din sistem. Această acțiune e ireversibilă.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Unele fișiere pot fi eliminate doar după repornirea LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Dezinstalarea runtime-ului a eșuat",
+  "runtimeOptions/uninstallDialog/confirm": "Continuă și Dezinstalează",
+  "runtimeOptions/uninstallDialog/cancel": "Anulează",
+  "runtimeOptions/noCompatibleRuntimes": "Niciun runtime compatibil găsit",
+  "runtimeOptions/downloadIncompatibleRuntime": "Acest runtime a fost determinat incompatibil cu dispozitivul dvs. Probabil nu va funcționa.",
+  "runtimeOptions/noRuntimes": "Niciun runtime găsit",
+
+  "inferenceParams/noParams": "Nu există parametri de inferență configurabili pentru acest tip de model",
+
+  "endpoints/openaiCompatRest/title": "Endpoint-uri suportate (stil OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Listează modelele încărcate curent",
+  "endpoints/openaiCompatRest/postCompletions": "Mod Completări Text. Prezice următorul token(i) pentru un prompt. Notă: OpenAI consideră acest endpoint 'depreciat'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Completări Chat. Trimite un istoric de chat către model pentru a prezice următorul răspuns al asistentului",
+  "endpoints/openaiCompatRest/postEmbeddings": "Încorporare Text. Generează încorporări text pentru input dat. Acceptă un șir sau array de șiruri.",
+
+  "model.createVirtualModelFromInstance": "Salvează Setările ca Model Virtual Nou",
+  "model.createVirtualModelFromInstance/error": "Salvarea setărilor ca model virtual nou a eșuat",
+
+  "apiConfigOptions/title": "Configurare API"
+}
