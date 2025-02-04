@@ -49,8 +49,8 @@
   "serverLogs/openLogsFolder": "Open server logs folder",
 
   "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Active Runtimes",
-  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each application",
+  "runtimeSettings/chooseRuntime/title": "Default Selections",
+  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each model format",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
@@ -79,7 +79,6 @@
     },
     "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
     "downloadableRuntimes": {
-      "title": "Available Runtime Extension Packs",
       "runtimeExtensionPacks": "Runtime Extension Packs",
       "refresh": "Refresh",
       "refreshing": "Refreshing...",
