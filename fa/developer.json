@@ -1,0 +1,68 @@
+{
+  "tabs/server": "سرور محلی",
+  "tabs/extensions": "افزونه‌های LM",
+  "loadSettings/title": "تنظیمات بارگذاری",
+  "modelSettings/placeholder": "یک مدل را برای پیکربندی انتخاب کنید",
+
+  "loadedModels/noModels": "هیچ مدلی بارگذاری نشده است",
+
+  "serverOptions/title": "گزینه‌های سرور",
+  "serverOptions/configurableTitle": "گزینه‌های قابل تنظیم",
+  "serverOptions/port/hint": "تعیین کنید که سرور محلی از کدام پورت شبکه استفاده کند. به طور پیش‌فرض، LM Studio از پورت 1234 استفاده می‌کند. اگر این پورت در حال استفاده باشد، ممکن است نیاز به تغییر آن داشته باشید.",
+  "serverOptions/port/subtitle": "پورت برای گوش دادن",
+  "serverOptions/autostart/title": "شروع خودکار سرور",
+  "serverOptions/autostart/hint": "وقتی مدلی بارگذاری می‌شود، سرور محلی به طور خودکار شروع به کار کند",
+  "serverOptions/port/integerWarning": "شماره پورت باید عدد صحیح باشد",
+  "serverOptions/port/invalidPortWarning": "پورت باید بین 1 و 65535 باشد",
+  "serverOptions/cors/title": "فعال‌سازی CORS",
+  "serverOptions/cors/hint1": "فعال کردن CORS (اشتراک‌گذاری منابع بین منشاها) به وب‌سایت‌هایی که بازدید می‌کنید اجازه می‌دهد به سرور LM Studio درخواست ارسال کنند.",
+  "serverOptions/cors/hint2": "CORS ممکن است هنگام ارسال درخواست از یک صفحه وب یا VS Code / سایر افزونه‌ها مورد نیاز باشد.",
+  "serverOptions/cors/subtitle": "اجازه درخواست‌های بین منشا",
+  "serverOptions/network/title": "ارائه در شبکه محلی",
+  "serverOptions/network/subtitle": "نمایش سرور به دستگاه‌های موجود در شبکه",
+  "serverOptions/network/hint1": "آیا اجازه اتصال از سایر دستگاه‌های موجود در شبکه داده شود.",
+  "serverOptions/network/hint2": "اگر علامت نخورد، سرور فقط روی localhost گوش خواهد داد.",
+  "serverOptions/verboseLogging/title": "گزارش‌گیری مفصل",
+  "serverOptions/verboseLogging/subtitle": "فعال‌سازی گزارش‌گیری مفصل برای سرور محلی",
+  "serverOptions/contentLogging/title": "ثبت پیام‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/subtitle": "تنظیمات ثبت درخواست / پاسخ محلی",
+  "serverOptions/contentLogging/hint": "آیا پیام‌ها و/یا پاسخ در فایل گزارش سرور محلی ثبت شوند.",
+  "serverOptions/jitModelLoading/title": "بارگذاری مدل در لحظه",
+  "serverOptions/jitModelLoading/hint": "وقتی فعال است، اگر درخواستی مدلی را مشخص کند که بارگذاری نشده است، به طور خودکار بارگذاری و استفاده خواهد شد. همچنین، نقطه پایانی \"/v1/models\" شامل مدل‌هایی که هنوز بارگذاری نشده‌اند نیز خواهد بود.",
+  "serverOptions/loadModel/error": "بارگذاری مدل ناموفق بود",
+
+  "serverLogs/scrollToBottom": "پرش به پایین",
+  "serverLogs/clearLogs": "پاک کردن گزارش‌ها ({{shortcut}})",
+  "serverLogs/openLogsFolder": "باز کردن پوشه گزارش‌های سرور",
+
+  "runtimeSettings/title": "تنظیمات موتور اجرا",
+  "runtimeSettings/chooseRuntime/title": "پیکربندی موتورهای اجرا",
+  "runtimeSettings/chooseRuntime/description": "یک موتور اجرا برای هر فرمت مدل انتخاب کنید",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش همه موتورهای اجرا",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "به طور پیش‌فرض، LM Studio فقط آخرین نسخه هر موتور اجرای سازگار را نشان می‌دهد. این گزینه را فعال کنید تا تمام موتورهای اجرای موجود را ببینید.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "یک موتور اجرا انتخاب کنید",
+
+  "runtimeOptions/uninstall": "حذف",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} حذف شود؟",
+  "runtimeOptions/uninstallDialog/body": "حذف این موتور اجرا آن را از سیستم حذف خواهد کرد. این عمل برگشت‌ناپذیر است.",
+  "runtimeOptions/uninstallDialog/body/caveats": "برخی فایل‌ها ممکن است فقط پس از راه‌اندازی مجدد LM Studio حذف شوند.",
+  "runtimeOptions/uninstallDialog/error": "حذف موتور اجرا ناموفق بود",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف",
+  "runtimeOptions/uninstallDialog/cancel": "لغو",
+  "runtimeOptions/noCompatibleRuntimes": "هیچ موتور اجرای سازگاری یافت نشد",
+  "runtimeOptions/downloadIncompatibleRuntime": "این موتور اجرا با دستگاه شما ناسازگار تشخیص داده شد. احتمالاً کار نخواهد کرد.",
+  "runtimeOptions/noRuntimes": "هیچ موتور اجرایی یافت نشد",
+
+  "inferenceParams/noParams": "هیچ پارامتر استنتاج قابل تنظیمی برای این نوع مدل موجود نیست",
+
+  "endpoints/openaiCompatRest/title": "نقاط پایانی پشتیبانی شده (شبیه OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "فهرست مدل‌های بارگذاری شده فعلی",
+  "endpoints/openaiCompatRest/postCompletions": "حالت تکمیل متن. پیش‌بینی توکن(های) بعدی با توجه به یک پیام. توجه: OpenAI این نقطه پایانی را 'منسوخ' می‌داند.",
+  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل گفتگو. ارسال تاریخچه گفتگو به مدل برای پیش‌بینی پاسخ بعدی دستیار",
+  "endpoints/openaiCompatRest/postEmbeddings": "تعبیه متن. تولید تعبیه‌های متنی برای یک ورودی متنی. یک رشته یا آرایه‌ای از رشته‌ها را می‌پذیرد.",
+
+  "model.createVirtualModelFromInstance": "ذخیره تنظیمات به عنوان یک مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "ذخیره تنظیمات به عنوان یک مدل مجازی جدید ناموفق بود",
+
+  "apiConfigOptions/title": "پیکربندی API"
+}
