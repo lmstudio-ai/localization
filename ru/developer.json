@@ -26,6 +26,8 @@
   "serverOptions/verboseLogging/subtitle": "Включить подробное ведение журнала для локального сервера",
   "serverOptions/contentLogging/title": "Ведение журнала запросов и ответов",
   "serverOptions/contentLogging/subtitle": "Настройки ведения журнала запросов / ответов",
+  "serverOptions/jitModelLoading/title": "Загрузка модели Just-in-time (JIT)",
+  "serverOptions/jitModelLoading/hint": "Когда включено, если в запросе указана модель, которая ещё не загружена, она будет автоматически загружена и использована. Кроме того, конечная точка \"/v1/models\" также будет включать модели, которые еще не загружены.",
   "serverOptions/contentLogging/hint": "Записывать ли запросы и/или ответы в файл журнала локального сервера.",
   "serverOptions/loadModel/error": "Не удалось загрузить модель",
   
@@ -47,6 +49,9 @@
   "runtimeOptions/uninstallDialog/error": "Не удалось удалить runtime",
   "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
   "runtimeOptions/uninstallDialog/cancel": "Отмена",
+  "runtimeOptions/noCompatibleRuntimes": "Совместимые среды выполнения не найдены",
+  "runtimeOptions/downloadIncompatibleRuntime": "Эта среда выполнения была признана несовместимой с вашей машиной. Скорее всего, она не будет работать.",
+  "runtimeOptions/noRuntimes": "Среды выполнения не найдены",
 
   "inferenceParams/noParams": "Нет настраиваемых параметров вывода для этого типа модели",
 
