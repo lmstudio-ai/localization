@@ -1,0 +1,21 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "جاري استخراج...",
+  "finalizing": "التحضير النهائي للتنزيل... (قد يستغرق هذا بعض الوقت)",
+  "noOptions": "لا توجد خيارات متوافقة متاحة للتنزيل",
+  "deeplink/confirmation/title": "تنزيل نموذج من Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "اختر الموصى به",
+  "deeplink/confirmation/selectOption": "اختر خيار التنزيل",
+  "deeplink/confirmation/recommendedOption": "محتمل أن يكون الخيار الأفضل لمعظم المستخدمين",
+  "deeplink/confirmation/downloadButton": "تنزيل",
+  "deeplink/confirmation/nevermindButton": "لا تهمني",
+  "deeplink/confirmation/modelPresent/title": "تم العثور على نموذج Hugging Face ✅",
+  "deeplink/confirmation/modelPresent/body": "أخبار رائعة! ملف هذا النموذج متاح بالفعل على جهازك المحلي.",
+  "deeplink/confirmation/loadInChat": "تحميل {{ modelName }} في حوار جديد",
+  "deeplink/error/modelNotFound/title": "رح رح، لم نتمكن من العثور على هذا النموذج",
+  "deeplink/error/modelNotFound/body": "تأكد مرة أخرى من اسم النموذج وفكر في تجربة خيار تنزيل آخر.",
+  "deeplink/actions/trySearching": "حاول البحث عن {{modelName}} على Hugging Face",
+  "downloadsPanel/title": "التنزيلات",
+  "downloadsPanel/sectionTitle/ongoing": "جاري",
+  "downloadsPanel/sectionTitle/completed": "مكتمل"
+}
