@@ -1,0 +1,68 @@
+{
+  "tabs/server": "سرور محلی",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "بارگذاری تنظیمات",
+  "modelSettings/placeholder": "یک مدل انتخاب کنید تا آن را پیکربندی کنید",
+
+  "loadedModels/noModels": "هیچ مدلی بارگذاری نشده است",
+
+  "serverOptions/title": "تنظیمات سرور",
+  "serverOptions/configurableTitle": "تنظیمات قابل پیکربندی",
+  "serverOptions/port/hint": "پورت شبکه‌ای که سرور محلی از آن استفاده خواهد کرد را تنظیم کنید. به طور پیش‌فرض، LM Studio از پورت 1234 استفاده می‌کند. اگر پورت در حال حاضر استفاده می‌شود، ممکن است نیاز به تغییر آن داشته باشید.",
+  "serverOptions/port/subtitle": "پورت برای شنود",
+  "serverOptions/autostart/title": "راه‌اندازی خودکار سرور",
+  "serverOptions/autostart/hint": "سرور محلی را به طور خودکار زمانی که مدلی بارگذاری می‌شود، راه‌اندازی کنید",
+  "serverOptions/port/integerWarning": "شماره پورت باید یک عدد صحیح باشد",
+  "serverOptions/port/invalidPortWarning": "پورت باید بین 1 و 65535 باشد",
+  "serverOptions/cors/title": "فعال کردن CORS",
+  "serverOptions/cors/hint1": "فعال کردن CORS (اشتراک منابع بین‌دامنه‌ای) به سایت‌هایی که بازدید می‌کنید اجازه می‌دهد درخواست‌هایی به سرور LM Studio ارسال کنند.",
+  "serverOptions/cors/hint2": "CORS ممکن است زمانی که از یک صفحه وب یا VS Code / دیگر افزونه‌ها درخواست می‌فرستید، ضروری باشد.",
+  "serverOptions/cors/subtitle": "اجازه دادن به درخواست‌های بین‌دامنه‌ای",
+  "serverOptions/network/title": "ارائه بر روی شبکه محلی",
+  "serverOptions/network/subtitle": "سرور را به دستگاه‌های شبکه ارائه دهید",
+  "serverOptions/network/hint1": "آیا اجازه می‌دهید دستگاه‌های دیگر از شبکه به سرور متصل شوند؟",
+  "serverOptions/network/hint2": "اگر این گزینه انتخاب نشود، سرور فقط در localhost گوش خواهد داد.",
+  "serverOptions/verboseLogging/title": "لاگ‌برداری دقیق",
+  "serverOptions/verboseLogging/subtitle": "فعال کردن لاگ‌برداری دقیق برای سرور محلی",
+  "serverOptions/contentLogging/title": "لاگ کردن درخواست‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/subtitle": "تنظیمات لاگ‌برداری درخواست‌ها / پاسخ‌ها محلی",
+  "serverOptions/contentLogging/hint": "آیا درخواست‌ها و / یا پاسخ‌ها را در فایل لاگ سرور محلی ذخیره کنیم؟",
+  "serverOptions/jitModelLoading/title": "بارگذاری مدل به‌موقع",
+  "serverOptions/jitModelLoading/hint": "هنگامی که فعال باشد، اگر درخواستی مدل بارگذاری نشده‌ای را مشخص کند، به طور خودکار بارگذاری شده و استفاده خواهد شد. علاوه بر این، نقطه پایانی \"/v1/models\" همچنین مدل‌هایی که هنوز بارگذاری نشده‌اند را شامل خواهد شد.",
+  "serverOptions/loadModel/error": "بارگذاری مدل با خطا مواجه شد",
+
+  "serverLogs/scrollToBottom": "پرش به پایین",
+  "serverLogs/clearLogs": "پاک کردن لاگ‌ها ({{shortcut}})",
+  "serverLogs/openLogsFolder": "باز کردن پوشه لاگ‌های سرور",
+
+  "runtimeSettings/title": "تنظیمات زمان اجرا",
+  "runtimeSettings/chooseRuntime/title": "پیکربندی زمان اجرا",
+  "runtimeSettings/chooseRuntime/description": "یک زمان اجرا برای هر فرمت مدل انتخاب کنید",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش تمام زمان‌های اجرا",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "به طور پیش‌فرض، LM Studio فقط جدیدترین نسخه هر زمان اجرای سازگار را نمایش می‌دهد. با فعال کردن این گزینه، تمام زمان‌های اجرا موجود را مشاهده خواهید کرد.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "یک زمان اجرا انتخاب کنید",
+
+  "runtimeOptions/uninstall": "حذف نصب",
+  "runtimeOptions/uninstallDialog/title": "حذف {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "حذف این زمان اجرا آن را از سیستم پاک خواهد کرد. این اقدام برگشت‌پذیر نیست.",
+  "runtimeOptions/uninstallDialog/body/caveats": "برخی فایل‌ها ممکن است تنها پس از راه‌اندازی مجدد LM Studio حذف شوند.",
+  "runtimeOptions/uninstallDialog/error": "حذف زمان اجرا با خطا مواجه شد",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه دهید و حذف نصب کنید",
+  "runtimeOptions/uninstallDialog/cancel": "لغو",
+  "runtimeOptions/noCompatibleRuntimes": "هیچ زمان اجرای سازگاری یافت نشد",
+  "runtimeOptions/downloadIncompatibleRuntime": "این زمان اجرا به عنوان ناسازگار با دستگاه شما تشخیص داده شد. احتمالاً کار نخواهد کرد.",
+  "runtimeOptions/noRuntimes": "هیچ زمان اجرایی یافت نشد",
+
+  "inferenceParams/noParams": "هیچ پارامتر قابل پیکربندی برای نوع مدل موجود نیست",
+
+  "endpoints/openaiCompatRest/title": "نقاط پایانی پشتیبانی‌شده (شبیه OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "مدل‌های بارگذاری‌شده فعلی را فهرست کنید",
+  "endpoints/openaiCompatRest/postCompletions": "مدل تکمیل متن. پیش‌بینی توکن‌های بعدی با توجه به یک ورودی. توجه: OpenAI این نقطه پایانی را 'منسوخ' می‌داند.",
+  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل‌های چت. ارسال تاریخچه چت به مدل برای پیش‌بینی پاسخ بعدی دستیار",
+  "endpoints/openaiCompatRest/postEmbeddings": "جذب متن. تولید جذب‌های متنی برای ورودی متن داده‌شده. یک رشته یا آرایه‌ای از رشته‌ها را می‌گیرد.",
+
+  "model.createVirtualModelFromInstance": "ذخیره تنظیمات به عنوان یک مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "ذخیره تنظیمات به عنوان یک مدل مجازی جدید با خطا مواجه شد",
+
+  "apiConfigOptions/title": "پیکربندی API"
+}
