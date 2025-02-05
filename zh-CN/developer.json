@@ -16,7 +16,7 @@
   "serverOptions/port/invalidPortWarning": "端口号必须介于 1 到 65535 之间",
   "serverOptions/cors/title": "启用 CORS",
   "serverOptions/cors/hint1": "启用 CORS (跨源资源共享) 允许您访问的网站向 LM Studio 服务器发起请求。",
-  "serverOptions/cors/hint2": "当从网页或 VS Code / 其他扩展发起请求时，可能需要启用 CORS。",
+  "serverOptions/cors/hint2": "当从网页或 VS Code 或其他扩展发起请求时，可能需要启用 CORS。",
   "serverOptions/cors/subtitle": "允许跨源请求",
   "serverOptions/network/title": "在网络中提供服务",
   "serverOptions/network/subtitle": "向网络中的设备开放服务器",
@@ -55,7 +55,7 @@
   
   "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
   
-  "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI 的)",
+  "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
   "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个词元（token）。注意：OpenAI 认为此端点已'弃用'。",
   "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",
