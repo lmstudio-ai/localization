@@ -1,4 +1,11 @@
 {
+  "settingsDialogTitle": "アプリ設定",
+  "settingsDialogButtonTooltip": "アプリ設定",
+  "settingsNewButtonPopover": {
+    "primary": "アプリ設定は画面右下に移動しました",
+    "secondary": "⚙️ボタンをクリックして開いてください。",
+    "tertiary": "または、押してください"
+  },
   "appUpdate": "アプリの更新",
   "checkingAppUpdate": "更新を確認中...",
   "checkForUpdates": "更新を確認",
@@ -32,6 +39,7 @@
   "installAndRelaunch": "インストールして再起動",
   "uptodate": "すべて最新です！現在のバージョンは {{version}} です",
   "preferences": "環境設定",
+  "general": "一般",
   "sideButtonLabels": "サイドボタンラベルを表示",
   "colorThemeLabel": "カラーテーマ",
   "complexityLevelLabel": "ユーザーインターフェースの複雑さレベル",
@@ -41,18 +49,17 @@
   "developerComplexityLevelLabel": "開発者",
   "chatSettingsLabel": "チャット設定",
   "chat/alwaysShowPromptTemplate": "チャットサイドバーにプロンプトテンプレートを常に表示",
-
+  "chat/highlightChatMessageOnHover": "チャットメッセージにカーソルを合わせてハイライト表示",
+  "chat/doubleClickMessageToEdit": "チャットメッセージをダブルクリックして編集",
   "chat/keyboardShortcuts/label": "キーボードショートカット",
   "chat/keyboardShortcuts/verbPrefix": "使用",
   "chat/keyboardShortcuts/regenerate": "で最後のメッセージを再生成",
   "chat/keyboardShortcuts/sendMessage": "でメッセージを送信",
-
   "onboarding/blockTitle": "オンボーディングのヒント",
   "onboarding/dismissedHints": "非表示にしたオンボーディングのヒント",
   "onboarding/resetHintTooltip": "クリックしてこのオンボーディングヒントを再度有効にします",
   "onboarding/resetAllHints": "すべてのオンボーディングヒントをリセット",
   "onboarding/noneDismissed": "非表示にしたヒントはありません。現在、すべてのオンボーディングヘルパーヒントが表示されます。",
-
   "firstTimeExperienceLabel": "チャットの初回利用体験",
   "firstTimeExperienceMarkCompletedLabel": "完了済みにする",
   "firstTimeExperienceResetLabel": "リセット",
@@ -71,23 +78,19 @@
   "autoLoadBundledLLMLabel": "起動時にバンドルされたLLMモデルを自動読み込み",
   "showReleaseNotes": "リリースノートを表示",
   "hideReleaseNotes": "リリースノートを非表示",
-
   "backendDownloadNewUpdate": "新しいバージョンのバックエンドが利用可能です！",
   "backendDownloadNewUpdateAction": "開発者ページに移動",
-
   "backendDownloadChannel.label": "LM Studio拡張パックダウンロードチャンネル",
   "backendDownloadChannel.value.stable": "安定版",
   "backendDownloadChannel.value.beta": "ベータ版",
   "backendDownloadChannel.value.latest": "開発版",
   "backendDownloadChannel.shortLabel": "ランタイムダウンロードチャンネル",
   "backendDownloadChannel.hint": "LM Studio拡張パックをダウンロードするチャンネルを選択します。「{{stableName}}」がほとんどのユーザーに推奨されるチャンネルです。",
-
   "appUpdateChannel.label": "LM Studioアップデートチャンネル",
   "appUpdateChannel.value.stable": "安定版",
   "appUpdateChannel.value.beta": "ベータ版",
   "appUpdateChannel.shortLabel": "アプリアップデートチャンネル",
   "appUpdateChannel.hint": "LM Studioのアプリ更新を受け取るチャンネルを選択します。「{{stableName}}」がほとんどのユーザーに推奨されるチャンネルです。",
-
   "modelLoadingGuardrails.label": "モデル読み込みのガードレール",
   "modelLoadingGuardrails.description": "システムリソースの制限を超えたモデルの読み込みは、システムの不安定やフリーズを引き起こす可能性があります。ガードレールは、誤ってシステムを過負荷にしないようにします。必要に応じてここでこれらの制限を調整できますが、システムの限界近くでモデルを読み込むと、安定性が低下する可能性があることに注意してください。",
   "modelLoadingGuardrails.value.off": "オフ (推奨されません)",
@@ -108,11 +111,16 @@
   "modelLoadingGuardrails.custom.label": "メモリ制限: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "モデル読み込み時のカスタムメモリ制限を設定します。この制限を超える場合、モデルは読み込まれません。",
-
+  "experimentalLoadPresets": "プリセットでのモデル読み込み設定サポートを有効化",
+  "experimentalLoadPresets.description": "プリセットにモデル読み込み設定を含めることを許可するかどうかを設定します。この機能は実験的であり、フィードバックを歓迎します。",
+  "promptWhenCommittingUnsavedChangesWithNewFields": "プリセット: 新しいフィールドをプリセットに適用する際に確認ダイアログを表示",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "新しいフィールドをプリセットに誤って追加するのを防ぐのに役立ちます。",
+  "autoStartOnLogin": "ログイン時にLLMサービスを起動",
+  "autoStartOnLogin.description": "コンピューターにログインした際にLLMサービスを自動的に開始します。",
   "expandConfigsOnClick": "クリックで設定を展開する（ホバーではなく）",
-
   "migrateChats": {
     "label": "バージョン0.3.0以前のチャットを移行",
+    "hasBetterLabel": "バージョン0.3.0以前のチャットを再移行",
     "action_one": "1件のチャットを移行",
     "action_other": "{{count}} 件のチャットを移行",
     "inProgress": "チャットを移行中...",
@@ -121,11 +129,17 @@
       "details": "移行プロセスにより、古いチャットが削除されることはなく、新しいフォーマットのコピーが作成されます。",
       "footer": "古いバージョンのLM Studioを使用して、以前のチャットにアクセスすることができます。現在、画像は自動的に移行されません。"
     },
+    "hasBetterHint": {
+      "primary": "旧チャットを移行した後に、チャット移行機能が改良されました。再度実行しますか？",
+      "details": "移行プロセスでは、新たに移行されたチャットを保存する新しいフォルダが作成されます。旧チャットはそのまま保持されます。",
+      "footer": "旧バージョンのLM Studioを使用して旧チャットにアクセスすることも可能です。現在、画像は自動的に移行されません。"
+    },
     "success": "チャットの移行に成功しました！",
     "success_one": "1件のチャットの移行に成功しました",
     "success_other": "{{count}} 件のチャットの移行に成功しました",
     "showInstructionsButton": "手順を表示",
     "footerCardText": "以前のバージョンのLM Studioからのチャットは、このバージョンで使用するために移行する必要があります。",
+    "hasBetterFooterCardText": "旧チャットを移行した後に、チャット移行機能が改良されました。移行プロセスを再実行できます（新たに移行されたチャットを保存する新しいフォルダを作成します）。",
     "dismissConfirm": "閉じる",
     "dismissConfirmDescription": "いつでも設定からチャットの移行を処理できます"
   }

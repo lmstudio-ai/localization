@@ -22,6 +22,7 @@
   "loadParameters/description": "モデルがメモリに読み込まれる際の設定を制御します。",
   "loadParameters/reload": "変更を適用するには再読み込み",
   "discardChanges": "変更を破棄",
+  "loadModelToSeeOptions": "オプションを表示するにはモデルを読み込んでください",
   "llm.prediction.systemPrompt/title": "システムプロンプト",
   "llm.prediction.systemPrompt/description": "モデルに対して背景となる指示やルール、制約、全体的な要件を提供するためのフィールドです。このフィールドは「システムプロンプト」とも呼ばれます。",
   "llm.prediction.systemPrompt/subTitle": "AIへのガイドライン",
@@ -72,9 +73,9 @@
   "llm.prediction.seed/title": "シード値",
   "llm.prediction.structured/title": "構造化出力",
   "llm.prediction.structured/info": "構造化された出力を生成します。",
+  "llm.prediction.structured/description": "上級者向け: モデルから特定の出力形式を強制するためにJSONスキーマを指定できます。詳細については[ドキュメント](https://lmstudio.ai/docs/advanced/structured-output)をご覧ください。",
   "llm.prediction.promptTemplate/title": "プロンプトテンプレート",
   "llm.prediction.promptTemplate/subTitle": "チャットでメッセージがモデルに送信されるフォーマットです。これを変更すると予期しない動作が発生する可能性があります。変更前に必ず確認してください。",
-
   "llm.load.contextLength/title": "コンテキスト長",
   "llm.load.contextLength/subTitle": "1つのプロンプトでモデルが処理できるトークンの最大数。コンテキストのオーバーフローオプションは「予測パラメータ」セクションにあります。",
   "llm.load.contextLength/info": "モデルが一度に処理できるトークンの最大数を指定します。これにより、処理中に保持されるコンテキスト量が影響を受けます。",
@@ -82,7 +83,6 @@
   "llm.load.seed/title": "シード値",
   "llm.load.seed/subTitle": "テキスト生成に使用される乱数生成器のシード値。-1でランダムになります。",
   "llm.load.seed/info": "乱数シード: 乱数生成のシード値を設定して結果を再現可能にします。",
-
   "llm.load.llama.evalBatchSize/title": "評価バッチサイズ",
   "llm.load.llama.evalBatchSize/subTitle": "一度に処理する入力トークンの数。これを増やすとパフォーマンスが向上しますが、メモリ使用量も増加します。",
   "llm.load.llama.evalBatchSize/info": "評価時に一度に処理される例の数を設定し、速度とメモリ使用量に影響を与えます。",
@@ -109,7 +109,6 @@
   "llm.load.llama.tryMmap/title": "mmap()を試す",
   "llm.load.llama.tryMmap/subTitle": "モデルのロード時間を短縮します。モデルがシステムRAMを超える場合は、これを無効にするとパフォーマンスが向上することがあります。",
   "llm.load.llama.tryMmap/info": "モデルファイルをディスクからメモリに直接読み込みます。",
-
   "embedding.load.contextLength/title": "コンテキスト長",
   "embedding.load.contextLength/subTitle": "1つのプロンプトでモデルが処理できるトークンの最大数。「予測パラメータ」セクションでコンテキストのオーバーフローオプションを参照してください。",
   "embedding.load.contextLength/info": "モデルが一度に処理できるトークンの最大数を指定し、処理中に保持されるコンテキストの量に影響します。",
@@ -133,13 +132,12 @@
   "embedding.load.llama.tryMmap/info": "モデルファイルをディスクからメモリに直接読み込みます。",
   "embedding.load.seed/title": "シード値",
   "embedding.load.seed/subTitle": "テキスト生成に使用される乱数生成器のシード値。-1でランダムになります。",
-
   "embedding.load.seed/info": "ランダムシード値: 乱数生成のシード値を設定して、再現可能な結果を得られるようにします。",
-
   "presetTooltip": {
     "included/title": "適用される項目",
     "included/description": "次のフィールドが適用されます",
     "included/empty": "このコンテキストで適用されるフィールドはありません。",
+    "included/conflict": "この値を適用するかどうか、このあと選択を求められます",
     "separateLoad/title": "ロード時の設定",
     "separateLoad/description.1": "プリセットには以下のロード時設定も含まれています。ロード時の設定はモデル全体に適用され、効果を発揮するにはモデルの再読み込みが必要です。ホールド",
     "separateLoad/description.2": "して適用するには",
@@ -149,7 +147,6 @@
     "legacy/title": "レガシープリセット",
     "legacy/description": "このプリセットはレガシープリセットです。次のフィールドは現在自動的に処理されるか、もはや適用されません。"
   },
-
   "customInputs": {
     "string": {
       "emptyParagraph": "<空>"
@@ -166,7 +163,9 @@
       "jinja.bosToken/label": "BOSトークン",
       "jinja.eosToken/label": "EOSトークン",
       "jinja.template/label": "テンプレート",
-      "jinja.error": "Jinjaテンプレートの解析に失敗しました: {{error}}",
+      "jinja/error": "Jinjaテンプレートの解析に失敗しました: {{error}}",
+      "jinja/empty": "上部にJinjaテンプレートを入力してください。",
+      "jinja/unlikelyToWork": "入力されたJinjaテンプレートは、変数\"messages\"を参照していないため、正しく動作しない可能性があります。正しいテンプレートが入力されているかもう一度確認してください。",
       "types.manual/label": "マニュアル",
       "manual.subfield.beforeSystem/label": "システムの前",
       "manual.subfield.beforeSystem/placeholder": "システムのプレフィックスを入力...",
@@ -202,15 +201,60 @@
       "off": "オフ"
     }
   },
-  "conflictResolution": {
-    "title": "競合",
-    "description": "保存されていない設定と適用しようとしているプリセットの間に競合があります。どのように解決しますか？",
-    "userValues": "あなたの変更",
-    "presetValues": "受信中の変更",
+  "saveConflictResolution": {
+    "title": "プリセットに含める値を選択してください",
+    "description": "保持する値を選択してください",
+    "instructions": "値をクリックして含めます",
+    "userValues": "以前の値",
+    "presetValues": "新しい値",
     "confirm": "確認",
     "cancel": "キャンセル"
   },
-  "empty": "<空>",
-
-  "flashAttentionWarning": "Flash Attention は実験的な機能であり、特定のモデルで問題を引き起こす可能性があります。問題が発生した場合は無効にしてみてください。"
+  "applyConflictResolution": {
+    "title": "どの値を保持しますか？",
+    "description": "未適用の変更が受信したプリセットと重複しています",
+    "instructions": "保持する値をクリックしてください",
+    "userValues": "現在の値",
+    "presetValues": "受信したプリセットの値",
+    "confirm": "確認",
+    "cancel": "キャンセル"
+  },
+  "presets": {
+    "title": "プリセット",
+    "commitChanges": "変更を適用",
+    "commitChanges/description": "変更をプリセットに適用します。",
+    "commitChanges.manual": "新しいフィールドが検出されました。どの変更をプリセットに含めるか選択できます。",
+    "commitChanges.manual.hold.0": "長押し",
+    "commitChanges.manual.hold.1": "してプリセットに適用する変更を選択してください。",
+    "commitChanges.saveAll.hold.0": "長押し",
+    "commitChanges.saveAll.hold.1": "してすべての変更を保存します。",
+    "commitChanges.saveInPreset.hold.0": "長押し",
+    "commitChanges.saveInPreset.hold.1": "してプリセットにすでに含まれているフィールドの変更だけを保存します。",
+    "commitChanges/error": "プリセットへの変更の適用に失敗しました。",
+    "commitChanges.manual/description": "プリセットに含める変更を選択してください。",
+    "saveAs": "新しいプリセットとして保存...",
+    "presetNamePlaceholder": "プリセット名を入力してください...",
+    "cannotCommitChangesLegacy": "これはレガシープリセットのため、変更はできません。「新しいプリセットとして保存」を使用してコピーを作成できます。",
+    "cannotCommitChangesNoChanges": "適用する変更がありません。",
+    "emptyNoUnsaved": "プリセットを選択...",
+    "emptyWithUnsaved": "未保存のプリセット",
+    "saveEmptyWithUnsaved": "プリセットを名前を付けて保存...",
+    "saveConfirm": "保存",
+    "saveCancel": "キャンセル",
+    "saving": "保存中...",
+    "save/error": "プリセットの保存に失敗しました。",
+    "deselect": "プリセットの選択を解除",
+    "deselect/error": "プリセットの選択解除に失敗しました。",
+    "select/error": "プリセットの選択に失敗しました。",
+    "delete/error": "プリセットの削除に失敗しました。",
+    "discardChanges": "未保存の変更を破棄",
+    "discardChanges/info": "未保存の全ての変更を破棄し、プリセットを元の状態に戻します。",
+    "newEmptyPreset": "新しい空のプリセットを作成...",
+    "contextMenuSelect": "プリセットを選択",
+    "contextMenuDelete": "削除"
+  },
+  "flashAttentionWarning": "Flash Attention は実験的な機能であり、特定のモデルで問題を引き起こす可能性があります。問題が発生した場合は無効にしてみてください。",
+  "seedUncheckedHint": "ランダムシード",
+  "ropeFrequencyBaseUncheckedHint": "自動",
+  "ropeFrequencyScaleUncheckedHint": "自動"
 }

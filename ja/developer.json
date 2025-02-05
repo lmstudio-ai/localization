@@ -3,9 +3,7 @@
   "tabs/extensions": "LMランタイム",
   "loadSettings/title": "設定を読み込む",
   "modelSettings/placeholder": "設定するモデルを選択",
-
   "loadedModels/noModels": "モデルが読み込まれていません",
-
   "serverOptions/title": "サーバーオプション",
   "serverOptions/configurableTitle": "設定可能なオプション",
   "serverOptions/port/hint": "ローカルサーバーが使用するネットワークポートを設定します。デフォルトでは、LM Studioはポート1234を使用します。このポートが既に使用されている場合は、変更する必要があります。",
@@ -27,19 +25,18 @@
   "serverOptions/contentLogging/title": "プロンプトとレスポンスをログに記録",
   "serverOptions/contentLogging/subtitle": "ローカルリクエスト/レスポンスのログ設定",
   "serverOptions/contentLogging/hint": "ローカルサーバーログファイルにプロンプトやレスポンスを記録するかどうかを設定します。",
+  "serverOptions/jitModelLoading/title": "JITモデル読み込み",
+  "serverOptions/jitModelLoading/hint": "有効にすると、リクエストで指定されたモデルが未読み込みの場合、自動的に読み込まれ使用されます。さらに、\"/v1/models\" エンドポイントにもまだ読み込まれていないモデルが含まれるようになります。",
   "serverOptions/loadModel/error": "モデルの読み込みに失敗しました",
-
   "serverLogs/scrollToBottom": "一番下にジャンプ",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
   "serverLogs/openLogsFolder": "サーバーログフォルダを開く",
-
   "runtimeSettings/title": "ランタイム設定",
   "runtimeSettings/chooseRuntime/title": "ランタイムの設定",
   "runtimeSettings/chooseRuntime/description": "各モデルフォーマットに対してランタイムを選択",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "全バージョンを表示",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "デフォルトでは、LM Studioは各ランタイムの最新バージョンのみを表示します。このオプションを有効にすると、利用可能な全バージョンが表示されます。",
   "runtimeSettings/chooseRuntime/select/placeholder": "ランタイムを選択",
-
   "runtimeOptions/uninstall": "アンインストール",
   "runtimeOptions/uninstallDialog/title": "{{runtimeName}} をアンインストールしますか？",
   "runtimeOptions/uninstallDialog/body": "このランタイムをアンインストールすると、システムから削除されます。この操作は元に戻せません。",
@@ -50,17 +47,13 @@
   "runtimeOptions/noCompatibleRuntimes": "互換性のあるランタイムが見つかりません",
   "runtimeOptions/downloadIncompatibleRuntime": "このランタイムはお使いのマシンでは互換性がないと判断されました。おそらく動作しません。",
   "runtimeOptions/noRuntimes": "ランタイムが見つかりません",
-
   "inferenceParams/noParams": "このモデルタイプには設定可能な推論パラメーターがありません",
-
   "endpoints/openaiCompatRest/title": "サポートされているエンドポイント (OpenAI互換)",
   "endpoints/openaiCompatRest/getModels": "現在読み込まれているモデルを一覧表示",
   "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトをもとに次のトークンを予測します。注:OpenAIではこのエンドポイントを「非推奨」としています。",
   "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信して、次のアシスタントレスポンスを予測します",
   "endpoints/openaiCompatRest/postEmbeddings": "テキストの埋め込み（Embedding）。指定されたテキスト入力に対して埋め込みを生成します。文字列または文字列の配列を受け取ります。",
-
   "model.createVirtualModelFromInstance": "設定を新しいバーチャルモデルとして保存",
   "model.createVirtualModelFromInstance/error": "設定のバーチャルモデルとしての保存に失敗しました",
-
   "apiConfigOptions/title": "API設定"
 }
