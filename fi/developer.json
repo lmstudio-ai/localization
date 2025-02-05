@@ -1,0 +1,69 @@
+{
+  "tabs/server": "Paikallinen palvelin",
+  "tabs/extensions": "LM-suoritusympäristöt",
+  "loadSettings/title": "Lataa asetukset",
+  "modelSettings/placeholder": "Valitse malli konfiguroitavaksi",
+
+  "loadedModels/noModels": "Ei ladattuja malleja",
+
+  "serverOptions/title": "Palvelimen asetukset",
+  "serverOptions/configurableTitle": "Mukautettavat asetukset",
+  "serverOptions/port/hint": "Aseta, mitä verkkoporttia paikallinen palvelin käyttää. Oletuksena LM Studio käyttää porttia 1234. Sinun saattaa tarvita muuttaa tätä, jos portti on jo käytössä.",
+  "serverOptions/port/subtitle": "Kuunneltava portti",
+  "serverOptions/autostart/title": "Käynnistä palvelin automaattisesti",
+  "serverOptions/autostart/hint": "Käynnistä paikallinen palvelin automaattisesti, kun malli on ladattu",
+  "serverOptions/port/integerWarning": "Portin numero pitää olla kokonaisluku",
+  "serverOptions/port/invalidPortWarning": "Portin numero pitää olla välillä 1 ja 65535",
+  "serverOptions/cors/title": "Ota CORS käyttöön",
+  "serverOptions/cors/hint1": "CORS:n (Cross-origin Resource Sharing) ottaminen käyttöön mahdollistaa vierailtujen verkkosivujen tekemät pyynnöt LM Studio -palvelimelle.",
+  "serverOptions/cors/hint2": "CORS saattaa olla tarpeen, kun pyynnöt tehdään verkkosivulta tai VS Code / muusta laajennuksesta.",
+  "serverOptions/cors/subtitle": "Salli rajapintapyynnöt",
+  "serverOptions/network/title": "Palvele paikallisessa verkossa",
+  "serverOptions/network/subtitle": "Avaa palvelin verkkolaitteille",
+  "serverOptions/network/hint1": "Salliko muita laitteita verkon sisällä yhdistämään palvelimeen.",
+  "serverOptions/network/hint2": "Jos tämä ei ole valittuna, palvelin kuuntelee vain localhostia.",
+  "serverOptions/verboseLogging/title": "Yksityiskohtainen lokitus",
+  "serverOptions/verboseLogging/subtitle": "Ota yksityiskohtainen lokitus käyttöön paikalliselle palvelimelle",
+  "serverOptions/contentLogging/title": "Lokitse kehotteet ja vastaukset",
+  "serverOptions/contentLogging/subtitle": "Paikallisten pyyntöjen ja vastauksien lokitusasetukset",
+  "serverOptions/contentLogging/hint": "Lokitaanko kehotteet ja/tai vastaukset paikallisen palvelimen lokitiedostoon.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time mallin lataus",
+  "serverOptions/jitModelLoading/hint": "Kun tämä on käytössä, jos pyyntö määrittää mallin, joka ei ole ladattu, se ladattaa ja otetaan käyttöön automaattisesti. Lisäksi \"/v1/models\"-pääte sisältää myös malleja, jotka eivät ole vielä ladattu.",
+  "serverOptions/loadModel/error": "Mallin lataaminen epäonnistui",
+
+  "serverLogs/scrollToBottom": "Siirry alkuun",
+  "serverLogs/clearLogs": "Tyhjennä lokit ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Avaa palvelimen lokikansio",
+
+  "runtimeSettings/title": "Suoritusympäristön asetukset",
+  "runtimeSettings/chooseRuntime/title": "Määritä suoritusympäristöt",
+  "runtimeSettings/chooseRuntime/description": "Valitse suoritusympäristö jokaiselle mallimuodolle",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Näytä kaikki suoritusympäristöt",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Oletuksena LM Studio näyttää vain uusimman version jokaisesta yhteensopivasta suoritusympäristöstä. Ota tämä valinta käyttöön nähdäksesi kaikki saatavilla olevat suoritusympäristöt.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Valitse suoritusympäristö",
+
+  "runtimeOptions/uninstall": "Poista asennus",
+  "runtimeOptions/uninstallDialog/title": "Poista {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Tämän suoritusympäristön poistaminen poistaa sen järjestelmästä. Tätä toimintoa ei voi peruuttaa.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Joitakin tiedostoja saattaa poistua vasta, kun LM Studio käynnistetään uudelleen.",
+  "runtimeOptions/uninstallDialog/error": "Suoritusympäristön poistaminen epäonnistui",
+  "runtimeOptions/uninstallDialog/confirm": "Jatka ja poista",
+  "runtimeOptions/uninstallDialog/cancel": "Peruuta",
+  "runtimeOptions/noCompatibleRuntimes": "Yhteensopivia suoritusympäristöjä ei löytynyt",
+  "runtimeOptions/downloadIncompatibleRuntime": "Tämä suoritusympäristö on todettu yhteensopimattomaksi koneesi kanssa. Se ei todennäköisesti toimi.",
+  "runtimeOptions/noRuntimes": "Suoritusympäristöjä ei löytynyt",
+
+  "inferenceParams/noParams": "Tälle mallityypille ei ole saatavilla mukautettavia ennusteparametreja",
+
+  "endpoints/openaiCompatRest/title": "Tuetut päätepisteet (OpenAI-tyylinen)",
+  "endpoints/openaiCompatRest/getModels": "Listaa nykyisin ladatut mallit",
+  "endpoints/openaiCompatRest/postCompletions": "Tekstin täydennysmoodi. Ennusta seuraavat tokenit annetusta kehotteesta. Huom: OpenAI pitää tätä päätepistettä 'vanhentuneena'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chat-täydennykset. Lähetä keskusteluhistoria mallille ennustamaan seuraavaa avustajan vastausta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Tekstin upotus. Luo tekstin upotukset annetusta tekstisyötteestä. Ottaa merkkijonon tai merkkijonotaulukon.",
+
+  "model.createVirtualModelFromInstance": "Tallenna asetukset uutena virtuaalimallina",
+  "model.createVirtualModelFromInstance/error": "Asetusten tallentaminen uutena virtuaalimallina epäonnistui",
+
+  "apiConfigOptions/title": "API-asetukset"
+}
+

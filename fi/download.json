@@ -1,0 +1,24 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Puretaan...",
+  "finalizing": "Viimeistellään latausta... (tämä voi kestää hetken)",
+  "noOptions": "Ei yhteensopivia latausvaihtoehtoja",
+
+  "deeplink/confirmation/title": "Lataa malli Hugging Facelta 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Valitse suositeltu",
+  "deeplink/confirmation/selectOption": "Valitse latausvaihtoehto",
+  "deeplink/confirmation/recommendedOption": "Todennäköisesti paras vaihtoehto useimmille käyttäjille",
+  "deeplink/confirmation/downloadButton": "Lataa",
+  "deeplink/confirmation/nevermindButton": "Ei kiitos",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face -malli löytyi ✅",
+  "deeplink/confirmation/modelPresent/body": "Hyvä uutinen! Tämä mallitiedosto on jo saatavilla paikallisella tietokoneellasi.",
+  "deeplink/confirmation/loadInChat": "Lataa {{ modelName }} uuteen keskusteluun",
+  "deeplink/error/modelNotFound/title": "Voi ei, emme löytäneet tätä mallia",
+  "deeplink/error/modelNotFound/body": "Tarkista mallin nimi ja kokeile eri latausvaihtoehtoa.",
+  "deeplink/actions/trySearching": "Kokeile etsiä {{modelName}} Hugging Facelta",
+
+  "downloadsPanel/title": "Lataukset",
+  "downloadsPanel/sectionTitle/ongoing": "Käynnissä",
+  "downloadsPanel/sectionTitle/completed": "Valmiit"
+}
+
