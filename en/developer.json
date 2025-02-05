@@ -105,8 +105,13 @@
         "frameworks": "My Frameworks",
         "engines": "My Engines"
       },
-      "manifestJsonTitle": "Manifest JSON",
-      "releaseNotesTitle": "Release Notes",
+      "detailsModal": {
+        "installedVersions": "Installed versions for {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (advanced)",
+        "releaseNotesTitle": "Release Notes",
+        "back": "Back",
+        "close": "Close"
+      },
       "noEngines": "No engines installed",
       "noFrameworks": "No frameworks installed"
     }
