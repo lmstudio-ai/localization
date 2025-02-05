@@ -282,6 +282,7 @@
       "readMore": "Read how it works",
       "placeholder": "Select a compatible draft model",
       "noCompatible": "No compatible draft models found for your current model selection",
+      "stillLoading": "Identifying compatible draft models...",
       "notCompatible": "The selected draft model (<draft/>) is not compatible with the current model selection (<current/>)."
     }
   },
