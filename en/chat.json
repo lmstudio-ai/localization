@@ -199,5 +199,21 @@
         "openInFileExplorer": "Open in File Explorer"
       }
     }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s to first token",
+    "stopReason": "Stop reason: {{stopReason}}",
+    "stopReason.userStopped": "User Stopped",
+    "stopReason.modelUnloaded": "Model Unloaded",
+    "stopReason.failed": "Generation Failed",
+    "stopReason.eosFound": "EOS Token Found",
+    "stopReason.stopStringFound": "Stop String Found",
+    "stopReason.toolCalls": "Tool Calls",
+    "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
+    "stopReason.contextLengthReached": "Context Length Limit Reached",
+    "speculativeDecodedBy": "Draft Model: {{decodedBy}}"
   }
 }
