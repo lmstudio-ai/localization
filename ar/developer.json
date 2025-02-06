@@ -1,0 +1,33 @@
+{
+  "loadSettings/title": "تحميل الإعدادات",
+  "modelSettings/placeholder": "اختر نموذجًا لتكوينه",
+
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/port/hint": "أي منفذ للاستماع. بشكل افتراضي، يستخدم LM Studio المنفذ 1234. قد تحتاج إلى تغييره إذا كان المنفذ مستخدمًا بالفعل.",
+  "serverOptions/cors/title": "تفعيل CORS",
+  "serverOptions/cors/hint1": "تفعيل CORS (مشاركة الموارد عبر الأصول) سيمكن المواقع الإلكترونية التي تزورها من إجراء استفسارات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد يكون CORS مطلوبًا عند إجراء استفسارات من صفحة ويب أو من VS Code / أي امتداد آخر.",
+  "serverOptions/network/title": "السماح بالاتصالات الشبكية",
+  "serverOptions/network/hint1": "تمكين أو تعطيل الاتصال من الأجهزة الأخرى على الشبكة.",
+  "serverOptions/network/hint2": "إذا لم يتم تحديد هذا الخيار، فإن الخادم سوف يستمع فقط على localhost.",
+  "serverOptions/verboseLogging/title": "التسجيل التفصيلي",
+  "serverOptions/contentLogging/title": "تسجيل الاستفسارات والإجابات",
+  "serverOptions/contentLogging/hint": "تسجيل أو عدم تسجيل الاستفسارات و / أو الإجابات في ملف السجل الخاص بالخادم المحلي.",
+  "serverOptions/loadModel/error": "فشل تحميل النموذج",
+
+  "serverLogs/scrollToBottom": "الذهاب إلى الأسفل",
+  "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
+
+  "runtimeSettings/title": "إعدادات وقت التشغيل",
+  "runtimeSettings/chooseRuntime/title": "تكوين بيئات وقت التشغيل",
+  "runtimeSettings/chooseRuntime/description": "تحديد بيئة وقت تشغيل افتراضية لنوع المحرك",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "عرض جميع الإصدارات",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "بشكل افتراضي، يعرض LM Studio فقط أحدث إصدار من كل بيئة وقت تشغيل. قم بتفعيل هذا الخيار لرؤية جميع الإصدارات المتاحة.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "اختر بيئة وقت تشغيل",
+
+  "runtimeOptions/uninstall": "إلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/title": "إلغاء تثبيت {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "إلغاء تثبيت بيئة وقت التشغيل هذه سيؤدي إلى حذفها من النظام. هذه العملية لا يمكن التراجع عنها.",
+  "runtimeOptions/uninstallDialog/confirm": "المتابعة وإلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/cancel": "إلغاء"
+}
