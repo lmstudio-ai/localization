@@ -214,6 +214,6 @@
     "stopReason.toolCalls": "Tool Calls",
     "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
     "stopReason.contextLengthReached": "Context Length Limit Reached",
-    "speculativeDecodedBy": "Draft Model: {{decodedBy}}"
+    "speculativeDecodedBy": "Draft model: {{decodedBy}}"
   }
 }
