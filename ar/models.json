@@ -1,0 +1,16 @@
+{
+  "action.model.delete": "حذف",
+  "action.model.delete.full": "حذف النموذج",
+  "action.model.delete.confirmation/title": "حذف {{name}}",
+  "action.model.delete.confirmation/description": "هل أنت متأكد؟ سيؤدي ذلك إلى حذف جميع الملفات المرتبطة بهذا النموذج من جهازك بشكل نهائي. هذه العملية لا رجعة فيها.",
+  "action.model.delete.confirmation/confirm": "حذف",
+  "action.cancel": "إلغاء",
+  "indexingOngoing": "جارٍ الفهرسة... قد تفقد بعض النماذج.",
+  "loadState/loaded": "تم التحميل",
+  "loadState/loading": "جارٍ التحميل",
+  "loadState/unloaded": "تم التفريغ",
+  "loadState/unloading": "جارٍ التفريغ",
+  "loadState/idle": "خامل",
+  "contextMenu/copyAbsolutePath": "نسخ المسار المطلق",
+  "contextMenu/copyModelName": "نسخ معرف النموذج"
+}
