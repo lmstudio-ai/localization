@@ -210,8 +210,8 @@
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
     "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
-    "button/publish": "Publish",
-    "button/pushUpdate": "Push Update",
+    "button/publish": "Publish to Hub",
+    "button/pushUpdate": "Push Changes to Hub",
     "button/export": "Export"
   },
 
@@ -345,9 +345,9 @@
     "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
     "newEmptyPreset": "+ New Preset",
     "importPreset": "Import",
-    "contextMenuSelect": "Select Preset",
+    "contextMenuSelect": "Apply Preset",
     "contextMenuDelete": "Delete...",
-    "contextMenuShare": "Push to Remote",
+    "contextMenuShare": "Publish to Hub",
     "contextMenuExport": "Export File",
     "contextMenuRevealInExplorer": "Reveal in File Explorer",
     "contextMenuRevealInFinder": "Reveal in Finder",
@@ -374,7 +374,7 @@
       "createFreeAccount": "Create a free account in the Hub to publish presets"
     },
     "update": {
-      "title": "Push Changes",
+      "title": "Push Changes to Hub",
       "title/success": "Preset Successfully Updated ✅",
       "subtitle": "Make changes to <custom-preset-name /> and push them to the Hub",
       "descriptionLabel": "Description",
