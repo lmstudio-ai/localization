@@ -14,7 +14,7 @@ LM Studio localization
 - Norwegian [@Exlo84](https://github.com/Exlo84)
 - German [@marcelMaier](https://github.com/marcelMaier), [@Goekdeniz-Guelmez](https://github.com/Goekdeniz-Guelmez)
 - Turkish [@progesor](https://github.com/progesor)
-- Russian [@versus666jzx](https://github.com/versus666jzx)[@shelomitsky](https://github.com/shelomitsky), [@mlatysh](https://github.com/mlatysh), [@Adjacentai](https://github.com/Adjacentai)
+- Russian [@versus666jzx](https://github.com/versus666jzx), [@shelomitsky](https://github.com/shelomitsky), [@mlatysh](https://github.com/mlatysh), [@Adjacentai](https://github.com/Adjacentai)
 - Korean [@williamjeong2](https://github.com/williamjeong2)
 - Polish [@danieltechdev](https://github.com/danieltechdev)
 - Czech [@ladislavsulc](https://github.com/ladislavsulc)
