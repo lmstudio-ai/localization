@@ -436,6 +436,9 @@
       "button/loading": "Pulling...",
       "cancel": "Cancel",
       "error": "Failed to download preset."
+    },
+    "inclusiveness": {
+      "speculativeDecoding": "Include in Preset"
     }
   },
 
