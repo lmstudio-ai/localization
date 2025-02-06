@@ -1,0 +1,33 @@
+{
+  "loadSettings/title": "تحميل الإعدادات",
+  "modelSettings/placeholder": "اختر نموذجًا لتكوينه",
+  
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/port/hint": "أي منفذ للاستماع. بشكل افتراضي، يستخدم LM Studio المنفذ 1234. قد تحتاج إلى تغييره إذا كان المنفذ مستخدمًا بالفعل.",
+  "serverOptions/cors/title": "تفعيل CORS",
+  "serverOptions/cors/hint1": "تفعيل CORS (مشاركة الموارد عبر المواقع) سيسمح للمواقع التي تزورها بإجراء طلبات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد يكون CORS مطلوبًا عند إجراء طلبات من صفحة ويب أو من VS Code / إضافة أخرى.",
+  "serverOptions/network/title": "السماح بالاتصالات الشبكية",
+  "serverOptions/network/hint1": "تمكين أو تعطيل الاتصال من الأجهزة الأخرى على الشبكة.",
+  "serverOptions/network/hint2": "إذا لم يتم تحديد هذا الخيار، فلن يستمع الخادم إلا على localhost.",
+  "serverOptions/verboseLogging/title": "التسجيل المفصل",
+  "serverOptions/contentLogging/title": "تسجيل الإشارات والردود",
+  "serverOptions/contentLogging/hint": "تسجيل أو عدم تسجيل الإشارات والردود في ملف سجل الخادم المحلي.",
+  "serverOptions/loadModel/error": "فشل في تحميل النموذج",
+  
+  "serverLogs/scrollToBottom": "الانتقال إلى الأسفل",
+  "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
+
+  "runtimeSettings/title": "إعدادات بيئة التشغيل",
+  "runtimeSettings/chooseRuntime/title": "تكوين بيئات التشغيل",
+  "runtimeSettings/chooseRuntime/description": "تحديد بيئة تشغيل افتراضية لنوع المحرك",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "عرض جميع الإصدارات",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "افتراضيًا، يعرض LM Studio فقط أحدث إصدار من كل بيئة تشغيل. قم بتمكين هذا الخيار لعرض جميع الإصدارات المتاحة.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "اختر بيئة تشغيل",
+
+  "runtimeOptions/uninstall": "إلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/title": "هل تريد إلغاء تثبيت {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "إلغاء تثبيت بيئة التشغيل هذه سيؤدي إلى حذفها من النظام. هذه العملية غير قابلة للتراجع.",
+  "runtimeOptions/uninstallDialog/confirm": "متابعة وإلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/cancel": "إلغاء"
+}
