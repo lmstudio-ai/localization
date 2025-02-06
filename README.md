@@ -31,6 +31,7 @@ LM Studio localization
 - Indonesian (id) [@dwirx](https://github.com/dwirx)
 - Greek (gr) [@ilikecatgirls](https://github.com/ilikecatgirls)
 - Swedish (sv) [@reinew](https://github.com/reinew)
+- French [@Plexi09](https://github.com/Plexi09)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
