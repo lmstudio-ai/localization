@@ -361,7 +361,7 @@
       "presetNameLabel": "Preset Name",
       "descriptionLabel": "Description (optional)",
       "loading": "Publishing...",
-      "success": "Preset Successfully Pushed ✅",
+      "success": "Preset Successfully Pushed",
       "presetIsLive": "<preset-name /> is now live on the Hub!",
       "close": "Close",
       "confirmViewOnWeb": "View on web",
@@ -377,7 +377,7 @@
     },
     "update": {
       "title": "Push Changes to Hub",
-      "title/success": "Preset Successfully Updated ✅",
+      "title/success": "Preset Successfully Updated",
       "subtitle": "Make changes to <custom-preset-name /> and push them to the Hub",
       "descriptionLabel": "Description",
       "descriptionPlaceholder": "Enter a description...",
