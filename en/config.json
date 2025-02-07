@@ -416,7 +416,8 @@
         "otherErrorBadge": "Failed to import preset",
         "errorViewDetailsButton": "View Details",
         "seeError": "See Error",
-        "noName": "No preset name"
+        "noName": "No preset name",
+        "useInChat": "Use in Chat"
       },
       "importFromUrl": {
         "button": "Import from URL...",
