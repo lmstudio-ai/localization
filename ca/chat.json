@@ -1,6 +1,6 @@
 {
   "modelLoaderPlaceholder": "Selecciona un model per carregar",
-  "systemPromptPlaceholder": "Set system prompt",
+  "systemPromptPlaceholder": "Estableix prompt del sistema",
   "userRoleText": "Usuari",
   "assistantRoleText": "Assistent",
   "addMessageButtonText": "Afegeix",
@@ -16,7 +16,7 @@
   "chatSidebarTitle": "Xats",
   "newChatButton": "Nou Xat",
   "newFolderButton": "Nova Carpeta",
-  "viewModeLabel": "View Mode",
+  "viewModeLabel": "Visualització",
   "noChatSelected": "Cap xat seleccionat",
   "chatViewOptions": "Opcions de visualització del xat",
   "uiControls/title": "Configuració de pantalla",
