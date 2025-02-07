@@ -109,6 +109,7 @@
         "installedVersions": "Installed versions for {{runtimeName}}",
         "manifestJsonTitle": "Manifest JSON (advanced)",
         "releaseNotesTitle": "Release Notes",
+        "noReleaseNotes": "No release notes available for this version",
         "back": "Back",
         "close": "Close"
       },
