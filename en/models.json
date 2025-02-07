@@ -12,12 +12,15 @@
   "modelsTable.arch/label": "Arch",
   "modelsTable.params/label": "Params",
   "modelsTable.publisher/label": "Publisher",
-  "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model",
-  "modelsTable.quant/label": "Quant",
+  "modelsTable.displayName/label": "Name",
+  "modelsTable.modelKey/label": "Model Key",
   "modelsTable.size/label": "Size",
   "modelsTable.dateModified/label": "Date Modified",
   "modelsTable.actions/label": "Actions",
+
+  "modelsTable.quant/label": "Quant",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "Embedding Model",
 
   "action.model.delete": "Delete",
   "action.model.delete.full": "Delete Model",
