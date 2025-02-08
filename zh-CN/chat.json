@@ -89,17 +89,23 @@
   "actions/createFolderAtRoot": "新建文件夹...",
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
   "actions/createChat/error": "创建聊天失败",
-  
+  "actions/deleteChat/errorTitle": "删除聊天失败",
+
   "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
   "userFile/errorPrefix": "错误 - ",
   "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持",
   "userFile/supportedImageSuffix": "。",
-  "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
-  "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
-  "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
+  "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图像、PDF 和 .txt 文件。",
+  "userFile/maxFilesPerMessage": "每条消息的最大文件数量已达到。不能添加超过 {{files}} 个文件。",
+  "userFile/maxFileSizePerMessage": "每条消息的达到最大文件大小已达到。不能添加超过 {{size}} 的文件。",
+  "userFile/maxFileSizePerConversation": "已达到对话的文件大小上限。添加的文件大小不能超过 {{size}}。",
+  "userFile/failedToUploadError/title": "上传文件失败",
+  "userFile/failedToAddFile/title": "添加文件到聊天失败",
   "errorTitle": "错误",
-  
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} 个文档在聊天中",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} 个文档在聊天中",
+
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
   "prediction/noModel/title": "未选择模型",
@@ -122,7 +128,19 @@
   "style/fontSize/medium": "默认",
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
-  
+
+  "style/debugBlocks/label": "显示调试信息块",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "展开内容",
+    "collapseBlockTooltip": "收起内容",
+    "debug": {
+      "label": "DEBUG INFO",
+      "collapseTooltip": "收起调试信息块",
+      "expandTooltip": "展开调试信息块"
+    }
+  },
+
   "topBarActions/duplicateChat": "复制聊天",
   "topBarActions/clearChat": "清除所有消息",
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
@@ -131,5 +149,71 @@
   
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
-  "noModels": "还没有LLM！下载一个开始吧！"
+  "noModels": "还没有LLM！下载一个开始吧！",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "插件",
+      "multiplePlugins": "{{dynamicValue}} 插件"
+    },
+    "pluginSelect": {
+      "title": "插件",
+      "dropdown": {
+        "configure": "配置",
+        "disable": "禁用",
+        "fork": "分叉",
+        "uninstall": "卸载"
+      },
+      "actionButtons": {
+        "create": "+ 创建",
+        "import": "导入",
+        "discover": "发现"
+      },
+      "recentlyCreated": {
+        "title": "最近创建的插件",
+        "placeholder": "你创建的插件会展示在这里"
+      },
+      "startRunningDevelopmentPlugin/error": "开始在开发者模式下运行插件失败",
+      "stopRunningDevelopmentPlugin/error": "停止在开发者模式下运行插件失败"
+    },
+    "pluginConfiguration": {
+      "title": "插件配置",
+      "selectAPlugin": "选择一个插件以编辑配置",
+      "preprocessorAndGenerator": "这个插件包含一个自定义的预处理器和生成器",
+      "generatorOnly": "这个插件包含一个自定义的生成器",
+      "preprocessorOnly": "这个插件包含一个自定义的预处理器"
+    },
+    "instructions": {
+      "runTheFollowing": "要运行你的插件，请打开一个终端并进入",
+      "pushTo": "上传到Hub以分享你的插件（可选）",
+      "createdSuccessfully": "成功创建插件",
+      "creatingPlugin": "正在创建插件...",
+      "projectFilesTitle": "项目文件",
+      "buttons": {
+        "documentation": "文档",
+        "dismiss": "取消",
+        "publish": "发布",
+        "openInZed": "在 Zed 中打开",
+        "openInVscode": "在 VS Code 中打开",
+        "revealInFinder": "在 Finder 中显示",
+        "openInFileExplorer": "在 文件资源管理器 中打开"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s to first token",
+    "stopReason": "停止原因: {{stopReason}}",
+    "stopReason.userStopped": "用户终止",
+    "stopReason.modelUnloaded": "模型卸载",
+    "stopReason.failed": "生成失败",
+    "stopReason.eosFound": "发现停止符（EOS Token Found）",
+    "stopReason.stopStringFound": "发现停止字符串",
+    "stopReason.toolCalls": "工具引发",
+    "stopReason.maxPredictedTokensReached": "预测令牌数量达到上限",
+    "stopReason.contextLengthReached": "上下文长度达到上限",
+    "speculativeDecodedBy": "草稿模型: {{decodedBy}}"
+  }
 }

@@ -27,10 +27,19 @@
   "serverOptions/contentLogging/title": "记录提示和响应",
   "serverOptions/contentLogging/subtitle": "本地请求/响应日志记录设置",
   "serverOptions/contentLogging/hint": "是否在本地服务器日志文件中记录提示和/或响应。",
+  "serverOptions/fileLoggingMode/title": "日志文件模式",
+  "serverOptions/fileLoggingMode/off/title": "关闭",
+  "serverOptions/fileLoggingMode/off/hint": "不创建日志文件",
+  "serverOptions/fileLoggingMode/succinct/hint": "记录与控制台中相同的内容。长请求将被截断。",
+  "serverOptions/fileLoggingMode/full/title": "完整",
+  "serverOptions/fileLoggingMode/full/hint": "不要截断长请求。",
   "serverOptions/jitModelLoading/title": "即时模型加载",
   "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
-  
+  "serverOptions/jitModelLoadingTTL/title": "自动卸载不适用的即时模型",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "只保留最后加载的即时模型",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保任何时候都只有一个即时模型被加载 (卸载先前的模型)",
+
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
@@ -53,7 +62,89 @@
   "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
   "runtimeOptions/noRuntimes": "未找到运行环境",
   
+  "runtimes": {
+    "manageLMRuntimes": "管理 LM 运行时",
+    "includeOlderRuntimeVersions": "包含旧运行时版本",
+    "dismiss": "取消",
+    "updateAvailableToast": {
+      "title": "LM 运行时可更新！"
+    },
+    "updatedToast": {
+      "title": " ✅ LM 运行时更新: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
+    },
+    "noAvx2ErrorMessage": "现在所有 LM 运行时需要 CPU 支持 AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "运行时扩展包",
+      "refresh": "刷新",
+      "refreshing": "刷新中...",
+      "filterSegment": {
+        "compatibleOnly": "仅限兼容的",
+        "all": "全部"
+      },
+      "card": {
+        "releaseNotes": "发布说明",
+        "latestVersionInstalled": "已安装最新版本",
+        "updateAvailable": "可更新"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "管理活动的运行时"
+      },
+      "dropdownOptions": {
+        "installedVersions": "管理版本",
+        "close": "关闭"
+      },
+      "tabs": {
+        "all": "全部",
+        "frameworks": "My Frameworks",
+        "engines": "My Engines"
+      },
+      "detailsModal": {
+        "installedVersions": "Installed versions for {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (advanced)",
+        "releaseNotesTitle": "发布说明",
+        "noReleaseNotes": "这个版本没有相关的发布说明",
+        "back": "返回",
+        "close": "关闭"
+      },
+      "noEngines": "No engines installed",
+      "noFrameworks": "No frameworks installed"
+    }
+  },
   "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
+
+  "quickDocs": {
+    "tabChipTitle": "Quick Docs",
+    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
+    "newToolUsePopoverTitle": "📚 快速指南",
+    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "聊天"
+    },
+    "structuredOutput": {
+      "title": "结构化输出"
+    },
+    "imageInput": {
+      "title": "图片输入"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Tool Use",
+      "tab": {
+        "saveAsPythonFile": "保存为 Python 文件",
+        "runTheScript": "运行脚本:",
+        "savePythonFileCopyPaste": "为复制粘贴命令另存为Python文件"
+      }
+    },
+    "newBadge": "New"
+  },
   
   "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI 的)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
@@ -63,6 +154,10 @@
   
   "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
   "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
+  "model": {
+    "toolUseSectionTitle": "工具用途",
+    "toolUseDescription": "检测到这个模型被训练为工具用途\n\n更多信息见： <custom-link>quick docs</custom-link>"
+  },
   
   "apiConfigOptions/title": "API 配置"
 }

@@ -12,6 +12,7 @@
   "modelsTable.arch/label": "架构",
   "modelsTable.params/label": "参数",
   "modelsTable.publisher/label": "发布者",
+  "modelsTable.displayName/label": "名称",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "嵌入模型",
   "modelsTable.quant/label": "量化",
