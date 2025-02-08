@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Mengekstrak...",
+  "finalizing": "Menyelesaikan muat turun... (ini mungkin mengambil masa beberapa saat)",
+  "noOptions": "Tiada pilihan serasi tersedia untuk dimuat turun",
+
+  "deeplink/confirmation/title": "Muat turun model dari Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Pilih yang disyorkan",
+  "deeplink/confirmation/selectOption": "Pilih pilihan muat turun",
+  "deeplink/confirmation/recommendedOption": "Berkemungkinan pilihan terbaik untuk kebanyakan pengguna",
+  "deeplink/confirmation/downloadButton": "Muat Turun",
+  "deeplink/confirmation/nevermindButton": "Tak Mengapa",
+  "deeplink/confirmation/modelPresent/title": "Model Hugging Face Dijumpai ✅",
+  "deeplink/confirmation/modelPresent/body": "Berita baik! Fail model ini sudah tersedia pada mesin tempatan anda.",
+  "deeplink/confirmation/loadInChat": "Muat {{ modelName }} dalam perbualan baharu",
+  "deeplink/error/modelNotFound/title": "Alamak, kami tidak dapat mencari model ini",
+  "deeplink/error/modelNotFound/body": "Sila semak semula nama model dan pertimbangkan untuk mencuba pilihan muat turun yang lain.",
+  "deeplink/actions/trySearching": "Cuba cari {{modelName}} di Hugging Face",
+
+  "downloadsPanel/title": "Muat Turun",
+  "downloadsPanel/sectionTitle/ongoing": "Sedang Berlangsung",
+  "downloadsPanel/sectionTitle/completed": "Selesai"
+}

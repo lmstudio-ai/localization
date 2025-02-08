@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Langkau pengenalan",
+  "action.next": "Seterusnya",
+  "action.back": "Kembali",
+  "action.finish": "Selesai",
+
+  "dismissable_rag_modal": {
+    "description": "Anda kini boleh berbual dengan dokumen anda sendiri menggunakan Penjanaan Tertambah Dapatan Semula (RAG). Berikut adalah cara ia berfungsi:",
+    "instructions": {
+      "attach_files": {
+        "title": "Lampirkan Fail",
+        "description": "Muat naik sehingga 5 fail pada satu masa, dengan saiz gabungan maksimum 30MB. Format yang disokong termasuk PDF, DOCX, TXT, dan CSV."
+      },
+      "be_specific": {
+        "title": "Bersikap Spesifik",
+        "description": "Apabila menanyakan soalan, sebutkan sebanyak mungkin butiran. Ini membantu sistem mendapatkan maklumat yang paling relevan dari dokumen anda."
+      },
+      "get_responses": {
+        "title": "Dapatkan Respons dan Eksperimen",
+        "description": "LLM akan melihat pertanyaan anda dan petikan yang diambil dari dokumen anda, dan cuba menjana respons. Eksperimen dengan pertanyaan berbeza untuk mencari yang paling berkesan."
+      }
+    }
+  }
+}
