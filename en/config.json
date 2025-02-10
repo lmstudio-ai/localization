@@ -25,7 +25,7 @@
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
   "schematicsError.title": "The config schematics contains errors in the following fields:",
-
+  "runtimeUpdateRequiredForFeature": "🚧 Update runtime to use this feature",
   "manifestSections": {
     "structuredOutput/title": "Structured Output",
     "speculativeDecoding/title": "Speculative Decoding",
@@ -284,7 +284,8 @@
       "noCompatible": "No compatible draft models found for your current model selection",
       "stillLoading": "Identifying compatible draft models...",
       "notCompatible": "The selected draft model (<draft/>) is not compatible with the current model selection (<current/>).",
-      "off": "OFF"
+      "off": "OFF",
+      "loadModelToSeeOptions": "Load model <keyboard-shortcut /> to see compatible options"
     }
   },
   "saveConflictResolution": {
