@@ -285,7 +285,19 @@
       "stillLoading": "Identifying compatible draft models...",
       "notCompatible": "The selected draft model (<draft/>) is not compatible with the current model selection (<current/>).",
       "off": "OFF",
-      "loadModelToSeeOptions": "Load model <keyboard-shortcut /> to see compatible options"
+      "loadModelToSeeOptions": "Load model <keyboard-shortcut /> to see compatible options",
+      "compatibleWithNumberOfModels": "Compatible with {{dynamicValue}} of your models",
+      "onboardingModal": {
+        "introducing": "Introducing",
+        "speculativeDecoding": "Speculative Decoding",
+        "firstStepBody": "Inference speedup for <custom-span>llama.cpp</custom-span> and <custom-span>MLX</custom-span> models",
+        "secondStepTitle": "Inference Speedup with Speculative Decoding",
+        "draftModelRecommendationsTitle": "Draft model recommendations",
+        "basedOnCurrentModels": "Based on your current models",
+        "close": "Close",
+        "next": "Next",
+        "done": "Done"
+      }
     }
   },
   "saveConflictResolution": {
