@@ -124,6 +124,10 @@
   "style/viewMode/plaintext": "Plaintext",
   "style/viewMode/monospace": "Monospace",
 
+  "speculativeDecodingVisualization/toggle": "Visualize accepted draft tokens",
+  "speculativeDecodingVisualization/fromDraftModel": "Accepted draft token",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "View mode selection is disabled when visualizing draft tokens.",
+
   "style/fontSize/label": "Font Size",
   "style/fontSize/medium": "Default",
   "style/fontSize/large": "Large",
@@ -215,6 +219,6 @@
     "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
     "stopReason.contextLengthReached": "Context Length Limit Reached",
     "speculativeDecodedBy": "Draft model: {{decodedBy}}",
-    "speculativeDecodingStats": "Drafted {{accepted}}/{{total}} tokens ({{percentage}}%)"
+    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)"
   }
 }
