@@ -295,6 +295,7 @@
         "speculativeDecoding": "Speculative Decoding",
         "firstStepBody": "Inference speedup for <custom-span>llama.cpp</custom-span> and <custom-span>MLX</custom-span> models",
         "secondStepTitle": "Inference Speedup with Speculative Decoding",
+        "secondStepBody": "Speculative decoding describes the collaboration of two models:\n - A larger \"main\" model\n - A smaller \"draft\" model\n\nDuring generation, the draft model rapidly proposes tokens for the main model to verify, which it can do faster than if it were to generate the tokens itself. **Generally, the larger the size difference between the main model and the draft model, the greater the speed-up**.\n\nTo maintain quality, the main model only accepts tokens that align with what it would have generated itself, enabling the response quality of the larger model at faster inference speeds. Both models must share the same vocabulary.",
         "draftModelRecommendationsTitle": "Draft model recommendations",
         "basedOnCurrentModels": "Based on your current models",
         "close": "Close",
