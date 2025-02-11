@@ -303,8 +303,8 @@
         "done": "Done"
       },
       "speculativeDecodingLoadModelToSeeOptions": "Load model <model-badge /> to see more options",
-      "warningLargeDraftModel": "Use a smaller draft model to see benefits of speculative decoding",
-      "warningSmallLoadedModel": "Load a larger model to see benefits of speculative decoding"
+      "warningLargeDraftModel": "Consider using a smaller draft model to see the benefits of speculative decoding",
+      "warningSmallLoadedModel": "Consider loading a larger model to see benefits of speculative decoding"
     }
   },
   "saveConflictResolution": {
