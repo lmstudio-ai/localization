@@ -298,8 +298,7 @@
         "next": "Next",
         "done": "Done"
       },
-      "loadModelToSeeOptionsPrefix": "Load model",
-      "loadModelToSeeOptionsSuffix": " to see compatible options"
+      "speculativeDecodingLoadModelToSeeOptions": "Load model <model-badge /> to see more options"
     }
   },
   "saveConflictResolution": {
