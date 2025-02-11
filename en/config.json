@@ -103,7 +103,7 @@
   "llm.prediction.speculativeDecoding.numDraftTokens/title": "Draft tokens to generate",
   "llm.prediction.speculativeDecoding.numDraftTokens/subTitle": "The number of tokens to generate with the draft model",
   "llm.prediction.speculativeDecoding.draftModel/title": "Draft Model",
-  "llm.prediction.speculativeDecoding.draftModel/subTitle": "Smaller drafting model used to speedup generation. Smaller = better (usually). Speed varies with prompt and model combination",
+  "llm.prediction.speculativeDecoding.draftModel/subTitle": "Smaller drafting model used to speedup generation. Smaller = faster (usually). Speed varies with prompt and model combination",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
