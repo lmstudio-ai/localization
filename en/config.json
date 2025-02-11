@@ -297,7 +297,9 @@
         "close": "Close",
         "next": "Next",
         "done": "Done"
-      }
+      },
+      "loadModelToSeeOptionsPrefix": "Load model",
+      "loadModelToSeeOptionsSuffix": " to see compatible options"
     }
   },
   "saveConflictResolution": {
