@@ -286,7 +286,10 @@
       "notCompatible": "The selected draft model (<draft/>) is not compatible with the current model selection (<current/>).",
       "off": "OFF",
       "loadModelToSeeOptions": "Load model <keyboard-shortcut /> to see compatible options",
-      "compatibleWithNumberOfModels": "Compatible with {{dynamicValue}} of your models",
+      "compatibleWithNumberOfModels": "Recommended for at least {{dynamicValue}} of your models",
+      "recommendedForSomeModels": "Recommended for some models",
+      "recommendedForLlamaModels": "Recommended for Llama models",
+      "recommendedForQwenModels": "Recommended for Qwen models",
       "onboardingModal": {
         "introducing": "Introducing",
         "speculativeDecoding": "Speculative Decoding",
