@@ -25,7 +25,6 @@
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
   "schematicsError.title": "The config schematics contains errors in the following fields:",
-  "runtimeUpdateRequiredForFeature": "🚧 Update runtime to use this feature",
   "manifestSections": {
     "structuredOutput/title": "Structured Output",
     "speculativeDecoding/title": "Speculative Decoding",
@@ -305,7 +304,8 @@
       "speculativeDecodingLoadModelToSeeOptions": "Please load a model first <model-badge /> ",
       "warningLargeDraftModel": "Consider using a smaller draft model to see the benefits of speculative decoding",
       "warningSmallLoadedModel": "Consider loading a larger model to see the benefits of speculative decoding",
-      "warningM2orLower": "Temporarily: M1/M2 Macs might not experience full benefits of speculative decoding"
+      "warningM2orLower": "Temporarily: M1/M2 Macs might not experience full benefits of speculative decoding",
+      "errorEngineNotSupported": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine and reload the model to use this feature."
     }
   },
   "saveConflictResolution": {
