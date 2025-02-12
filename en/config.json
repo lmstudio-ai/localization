@@ -302,7 +302,7 @@
         "next": "Next",
         "done": "Done"
       },
-      "speculativeDecodingLoadModelToSeeOptions": "Load model <model-badge /> to see more options",
+      "speculativeDecodingLoadModelToSeeOptions": "Load a model first <model-badge /> ",
       "warningLargeDraftModel": "Consider using a smaller draft model to see the benefits of speculative decoding",
       "warningSmallLoadedModel": "Consider loading a larger model to see the benefits of speculative decoding"
     }
