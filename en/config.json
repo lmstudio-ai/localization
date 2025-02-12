@@ -305,7 +305,8 @@
       "warningLargeDraftModel": "Consider using a smaller draft model to see the benefits of speculative decoding",
       "warningSmallLoadedModel": "Consider loading a larger model to see the benefits of speculative decoding",
       "warningM2orLower": "Temporarily: M1/M2 Macs might not experience full benefits of speculative decoding",
-      "errorEngineNotSupported": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine and reload the model to use this feature."
+      "errorEngineNotSupported": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine (<key/>) and reload the model to use this feature.",
+      "errorEngineNotSupported/noKey": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine and reload the model to use this feature."
     }
   },
   "saveConflictResolution": {
