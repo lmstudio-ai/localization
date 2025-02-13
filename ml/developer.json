@@ -1,0 +1,69 @@
+{
+  "tabs/server": "ലോക്കൽ സെർവർ",
+  "tabs/extensions": "LM റൺടൈമുകൾ",
+  "loadSettings/title": "ലോഡ് സെറ്റിങ്ങുകൾ",
+  "modelSettings/placeholder": "കോൺഫിഗർ ചെയ്യാൻ ഒരു മോഡൽ തിരഞ്ഞെടുക്കുക.",
+
+  "loadedModels/noModels": "മോഡലുകളൊന്നും ലോഡ് ചെയ്തിട്ടില്ല.",
+
+  "serverOptions/title": "സെർവർ ഓപ്ഷനുകൾ",
+  "serverOptions/configurableTitle": "കോൺഫിഗർ ചെയ്യാവുന്ന ഓപ്ഷനുകൾ",
+  "serverOptions/port/hint": "ലോക്കൽ സെർവർ ഏത് നെറ്റ്‌വർക്കിംഗ് പോർട്ട് ഉപയോഗിക്കണമെന്ന് സെറ്റ് ചെയ്യുക. ഡിഫാൾട്ടായി LM സ്റ്റുഡിയോ പോർട്ട് 1234 ആണ് ഉപയോഗിക്കുന്നതു. പോർട്ട് ഇതിനകം ഉപയോഗത്തിലാണെങ്കിൽ നിങ്ങൾ ഇത് മാറ്റേണ്ടതുണ്ട്.",
+  "serverOptions/port/subtitle": "ലിസൺ ചെയ്യേണ്ട പോർട്ട്",
+  "serverOptions/autostart/title": "ഓട്ടോ-സ്റ്റാർട്ട് സെർവർ",
+  "serverOptions/autostart/hint": "ഒരു മോഡൽ ലോഡ് ചെയ്യുമ്പോൾ ലോക്കൽ സെർവർ ഓട്ടോമാറ്റിക്കായി ആരംഭിക്കുക",
+  "serverOptions/port/integerWarning": "പോർട്ട് നമ്പർ ഒരു പൂർണ്ണസംഖ്യ ആയിരിക്കണം",
+  "serverOptions/port/invalidPortWarning": "പോർട്ട് 1 നും 65535 നും ഇടയിലായിരിക്കണം",
+  "serverOptions/cors/title": "CORS ഇനേബിൾ ചെയ്യുക",
+  "serverOptions/cors/hint1": "CORS (ക്രോസ്-ഒറിജിൻ റിസോഴ്‌സ് ഷെയറിംഗ്) പ്രവർത്തനക്ഷമമാക്കുന്നത് നിങ്ങൾ സന്ദർശിക്കുന്ന വെബ്‌സൈറ്റുകൾക്ക് LM സ്റ്റുഡിയോ സെർവറിലേക്ക് റിക്വസ്റ്റുകൾ നടത്താൻ അനുവദിക്കും.",
+  "serverOptions/cors/hint2": "ഒരു വെബ് പേജിൽ നിന്നോ VS കോഡിൽ നിന്നോ / മറ്റ് എക്സ്റ്റൻഷനിൽ നിന്നോ അഭ്യർത്ഥനകൾ നടത്തുമ്പോൾ CORS ആവശ്യമാണ്.",
+  "serverOptions/cors/subtitle": "ക്രോസ്-ഒറിജിൻ റിക്വസ്റ്റുകൾ അനുവദിക്കുക",
+  "serverOptions/network/title": "ലോക്കൽ നെറ്റ്‌വർക്കിൽ സെർവ് ചെയ്യുക",
+  "serverOptions/network/subtitle": "നെറ്റ്‌വർക്കിലെ ഉപകരണങ്ങളിലേക്ക് സെർവർ എക്സ്പോസ് ചെയ്യുക",
+  "serverOptions/network/hint1": "നെറ്റ്‌വർക്കിലെ മറ്റ് ഉപകരണങ്ങളിൽ നിന്നുള്ള കണക്ഷനുകൾ അനുവദിക്കണോ?",
+  "serverOptions/network/hint2": "ചെക്ക് ചെയ്തിട്ടില്ലെങ്കിൽ, സെർവർ ലോക്കൽഹോസ്റ്റിൽ മാത്രമേ ലിസൺ ചെയ്യുള്ളു.",
+  "serverOptions/verboseLogging/title": "വെർബോസ് ലോഗിംഗ്",
+  "serverOptions/verboseLogging/subtitle": "ലോക്കൽ സെർവറിനായി വെർബോസ് ലോഗിംഗ് പ്രാപ്തമാക്കുക",
+  "serverOptions/contentLogging/title": "ലോഗ് പ്രോംപ്റ്റുകളും പ്രതികരണങ്ങളും",
+  "serverOptions/contentLogging/subtitle": "ലോക്കൽ അഭ്യർത്ഥന / പ്രതികരണ ലോഗിംഗ് ക്രമീകരണങ്ങൾ",
+  "serverOptions/contentLogging/hint": "പ്രോംപ്റ്റുകൾ ലോഗ് ചെയ്യണോ അതോ പ്രതികരണം ലോഗ് ചെയ്യണോ ലോക്കൽ സെർവർ ലോഗ് ഫയൽ.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time മോഡൽ ലോഡിംഗ്",
+  "serverOptions/jitModelLoading/hint": "ഇത് ഇനേബിൾ ചെയ്‌താൽ, ഒരു റിക്വസ്റ്റ് ലോഡ് ചെയ്യാത്ത ഒരു മോഡൽ പ്രത്യേകം പറഞ്ഞിട്ടുണ്ടെങ്കിൽ, അത് സ്വയമേവ ലോഡ് ചെയ്യപ്പെടുകയും ഉപയോഗിക്കപ്പെടുകയും ചെയ്യും. കൂടാതെ, \"/v1/models\" എൻഡ്‌പോയിന്റിൽ ഇതുവരെ ലോഡ് ചെയ്യാത്ത മോഡലുകളും ഉൾപ്പെടും.",
+  "serverOptions/loadModel/error": "മോഡൽ ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+
+  "serverLogs/scrollToBottom": "താഴേക്ക് പോകുക",
+  "serverLogs/clearLogs": "ലോഗുകൾ മായ്‌ക്കുക ({{shortcut}})",
+  "serverLogs/openLogsFolder": "സെർവർ ലോഗുകളുടെ ഫോൾഡർ തുറക്കുക",
+
+  "runtimeSettings/title": "റൺടൈം സെറ്റിങ്ങുകൾ",
+  "runtimeSettings/chooseRuntime/title": "റൺടൈമുകൾ കോൺഫിഗർ ചെയ്യുക",
+  "runtimeSettings/chooseRuntime/description": "ഓരോ മോഡൽ ഫോർമാറ്റിനും ഒരു റൺടൈം തിരഞ്ഞെടുക്കുക",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "എല്ലാ റൺടൈമുകളും കാണിക്കുക",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "ഡിഫോൾട്ടായി, LM സ്റ്റുഡിയോ ഓരോ അനുയോജ്യമായ റൺടൈമിന്റെയും ഏറ്റവും പുതിയ പതിപ്പ് മാത്രമേ കാണിക്കൂ. ലഭ്യമായ എല്ലാ റൺടൈമുകളും കാണുന്നതിന് ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കുക.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "ഒരു റൺടൈം തിരഞ്ഞെടുക്കുക",
+
+  "runtimeOptions/uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുക",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} അൺഇൻസ്റ്റാൾ ചെയ്യണമോ?",
+  "runtimeOptions/uninstallDialog/body": "ഈ റൺടൈം അൺഇൻസ്റ്റാൾ ചെയ്യുന്നതോടെ സിസ്റ്റത്തിൽ നിന്ന് അത് നീക്കം ചെയ്യപ്പെടും. ഈ പ്രവർത്തനം മാറ്റാനാവില്ല.",
+  "runtimeOptions/uninstallDialog/body/caveats": "LM സ്റ്റുഡിയോ റീസ്റ്റാർട് ചെയ്തതിനുശേഷം മാത്രമേ ചില ഫയലുകൾ നീക്കം ചെയ്യാൻ കഴിയൂള്ളൂ.",
+  "runtimeOptions/uninstallDialog/error": "റൺടൈം അൺഇൻസ്റ്റാൾ ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു",
+  "runtimeOptions/uninstallDialog/confirm": "തുടർന്നു അൺഇൻസ്റ്റാൾ ചെയ്യുക",
+  "runtimeOptions/uninstallDialog/cancel": "ക്യാൻസൽ",
+  "runtimeOptions/noCompatibleRuntimes": "അനുയോജ്യമായ റൺടൈമുകൾ കണ്ടെത്തിയില്ല",
+  "runtimeOptions/downloadIncompatibleRuntime": "ഈ റൺടൈം നിങ്ങളുടെ മെഷീനുമായി പൊരുത്തപ്പെടുന്നില്ലെന്ന് നിർണ്ണയിക്കപ്പെട്ടു. ഇത് മിക്കവാറും പ്രവർത്തിക്കില്ല.",
+  "runtimeOptions/noRuntimes": "റൺടൈമുകൾ കണ്ടെത്തിയില്ല",
+
+  "inferenceParams/noParams": "ഈ മോഡൽ തരത്തിന് കോൺഫിഗർ ചെയ്യാവുന്ന ഇൻഫെറെൻസ് പാരാമീറ്ററുകളൊന്നും ലഭ്യമല്ല",
+
+  "endpoints/openaiCompatRest/title": "പിന്തുണയ്ക്കുന്ന എൻഡ്‌പോയിന്റുകൾ (OpenAI-പോലുള്ളത്)",
+  "endpoints/openaiCompatRest/getModels": "നിലവിൽ ലോഡ് ചെയ്‌ത മോഡലുകൾ ലിസ്റ്റുചെയ്യുക",
+  "endpoints/openaiCompatRest/postCompletions": "ടെക്സ്റ്റ് പൂർത്തിയാക്കൽ മോഡ്. ഒരു പ്രോംപ്റ്റ് നൽകിയാൽ അടുത്ത ടോക്കൺ(കൾ) പ്രവചിക്കുക. കുറിപ്പ്: OpenAI ഈ എൻഡ്‌പോയിന്റ് 'ഒഴിവാക്കിയതായി' കണക്കാക്കുന്നു.",
+  "endpoints/openaiCompatRest/postChatCompletions": "ചാറ്റ് പൂർത്തിയാക്കൽ. അടുത്ത അസിസ്റ്റന്റ് പ്രതികരണം പ്രവചിക്കാൻ മോഡലിലേക്ക് ഒരു ചാറ്റ് ചരിത്രം അയയ്ക്കുക",
+  "endpoints/openaiCompatRest/postEmbeddings": "ടെക്സ്റ്റ് എംബെഡിങ്. നൽകിയിരിക്കുന്ന ടെക്സ്റ്റ് ഇൻപുട്ടിനായി ടെക്സ്റ്റ് എംബെഡിങ്ങുകൾ സൃഷ്ടിക്കുക. ഒരു സ്ട്രിംഗോ സ്ട്രിങ്ങുകളുടെ നിരയോ എടുക്കുന്നു.",
+
+  "model.createVirtualModelFromInstance": "സെറ്റിങ്ങുകൾ ഒരു പുതിയ വെർച്വൽ മോഡലായി സംരക്ഷിക്കുക",
+  "model.createVirtualModelFromInstance/error": "സെറ്റിങ്ങുകൾ ഒരു പുതിയ വെർച്വൽ മോഡലായി സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+
+  "apiConfigOptions/title": "API കോൺഫിഗറേഷൻ"
+} 
+ 
