@@ -102,10 +102,8 @@
   "llm.prediction.speculativeDecoding.numDraftTokens/title": "Draft tokens to generate",
   "llm.prediction.speculativeDecoding.numDraftTokens/subTitle": "The number of tokens to generate with the draft model",
   "llm.prediction.speculativeDecoding.draftModel/title": "Draft Model",
-  "llm.prediction.reasoning.startString/title": "Reasoning Block Start String",
-  "llm.prediction.reasoning.startString/subTitle": "The string that marks the beginning of a reasoning block.",
-  "llm.prediction.reasoning.endString/title": "Reasoning Block Start String",
-  "llm.prediction.reasoning.endString/subTitle": "The string that marks the beginning of a reasoning block.",
+  "llm.prediction.reasoning.parsing/title": "Reasoning Section Parsing",
+  "llm.prediction.reasoning.parsing/subTitle": "How to parse reasoning sections in the model's output",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -311,6 +309,12 @@
       "warningM2orLower": "Temporarily: M1/M2 Macs might not experience full benefits of speculative decoding",
       "errorEngineNotSupported": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine (<key/>) and reload the model to use this feature.",
       "errorEngineNotSupported/noKey": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine and reload the model to use this feature."
+    },
+    "llmReasoningParsing": {
+      "startString/label": "Start String",
+      "startString/placeholder": "Enter the start string...",
+      "endString/label": "End String",
+      "endString/placeholder": "Enter the end string..."
     }
   },
   "saveConflictResolution": {
