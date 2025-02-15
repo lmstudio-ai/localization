@@ -1,0 +1,52 @@
+{
+  "settingsDialogTitle": "إعدادات التطبيق",
+  "settingsDialogButtonTooltip": "إعدادات التطبيق",
+  "appUpdate": "تحديث التطبيق",
+  "checkingAppUpdate": "جارٍ البحث عن تحديثات...",
+  "checkForUpdates": "تحقق من التحديثات",
+  "failedCheckingAppUpdate": "فشل في التحقق من التحديثات",
+  "newUpdateAvailable": "إصدار جديد من LM Studio متاح! 🎉",
+  "newBetaUpdateAvailable": "إصدار تجريبي جديد من LM Studio متاح! 🛠️🎉",
+  "downloadingInProgress": "جارٍ تنزيل التحديث...",
+  "downloadUpdate": "تحديث إلى LM Studio {{version}}",
+  "downloadBetaUpdate": "تحديث إلى LM Studio Beta {{version}} (البناء {{build}})",
+  "downloadCompleted": "اكتمل التنزيل!",
+  "updateDownloadComplete": "تم تنزيل التحديث بنجاح!",
+  "updateDownloadFailed": "فشل التحديث!",
+  "hasFinishedDownloading": "تم الانتهاء من التنزيل.",
+  "yourCurrentVersion": "إصدارك الحالي:",
+  "latestVersion": "الإصدار الأحدث هو:",
+  "downloadLabel": "حدث الآن",
+  "cancelDownloadLabel": "إلغاء",
+  "downloadingUpdate": "جارٍ تنزيل التحديث...",
+  "updateDownloaded": "تم تنزيل التحديث الجديد بنجاح. أعد تشغيل التطبيق لتطبيق التحديث.",
+  "restartAppToUpdate": "أعد تشغيل التطبيق لتحديثه",
+  "appUpdatedToastTitle": "تم التحديث إلى {{title}}",
+  "appUpdatedToastDescriptionPrefix": "عرض ",
+  "AppUpdatedToastDescriptionReleaseNotes": "ملاحظات الإصدار",
+  "doItLater": "سأقوم بذلك لاحقًا",
+  "failedToUpdate": "فشل تحديث التطبيق. يرجى التحقق من اتصال الإنترنت أو المحاولة لاحقًا.",
+  "retryInBackground": "إعادة المحاولة في الخلفية",
+  "laterLabel": "لاحقًا",
+  "releaseNotesLabel": "ملاحظات الإصدار",
+  "remindMeLater": "ذكرني لاحقًا",
+  "failedDownloadUpdate": "فشل تحميل التحديث",
+  "installAndRelaunch": "تثبيت وإعادة التشغيل",
+  "uptodate": "أنت تستخدم أحدث إصدار! الإصدار الحالي هو {{version}}",
+  "preferences": "التفضيلات",
+  "general": "عام",
+  "sideButtonLabels": "إظهار تسميات الأزرار الجانبية",
+  "colorThemeLabel": "سمة اللون",
+  "complexityLevelLabel": "مستوى تعقيد واجهة المستخدم",
+  "selectComplexityLevelPlaceholder": "اختر مستوى التعقيد الافتراضي لواجهة المستخدم",
+  "userComplexityLevelLabel": "المستخدم",
+  "powerUserComplexityLevelLabel": "المستخدم المتقدم",
+  "developerComplexityLevelLabel": "المطور",
+  "chatSettingsLabel": "إعدادات المحادثة",
+  "chat/alwaysShowPromptTemplate": "إظهار قالب المطالبة دائمًا في الشريط الجانبي للمحادثة",
+  "chat/highlightChatMessageOnHover": "تمييز رسالة الدردشة عند تمرير المؤشر فوقها",
+  "chat/doubleClickMessageToEdit": "انقر نقرًا مزدوجًا على رسالة الدردشة لتحريرها",
+  "showReleaseNotes": "إظهار ملاحظات الإصدار",
+  "hideReleaseNotes": "إخفاء ملاحظات الإصدار",
+  "changeLanguageLabel": "اختر لغة التطبيق (لا يزال قيد التطوير)"
+}
