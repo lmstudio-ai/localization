@@ -135,6 +135,9 @@
 
   "style/debugBlocks/label": "Show Debug Info Blocks",
 
+  "style/thinkingUI/label": "Expand reasoning blocks by default",
+  "style/chatFullWidth/label": "Expand chat container to window width",
+
   "messageBlocks": {
     "expandBlockTooltip": "Expand content",
     "collapseBlockTooltip": "Collapse content",
