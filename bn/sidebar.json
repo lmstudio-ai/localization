@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtimes",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "চ্যাট",
+  "discover": "আবিষ্কার করুন",
+  "myModels": "আমার মডেল",
+  "developer": "ডেভেলপার",
+  "runtimes": "রানটাইম",
+  "settings": "সেটিংস",
+  "download": "ডাউনলোড"
 }
