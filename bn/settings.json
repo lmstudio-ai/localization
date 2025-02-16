@@ -1,18 +1,35 @@
 {
+    "settingsDialogTitle": "App Settings",
+    "settingsDialogButtonTooltip": "App Settings",
+
+    "settingsNewButtonPopover": {
+      "primary": "App Settings are now at the bottom-right corner",
+      "secondary": "Click on the ⚙️ button to open them.",
+      "tertiary": "Or press"
+    },
     "appUpdate": "App Update",
     "checkingAppUpdate": "Checking for updates...",
     "checkForUpdates": "Check for updates",
     "failedCheckingAppUpdate": "Failed to check for updates",
     "newUpdateAvailable": "A new version of LM Studio is available! 🎉",
+    "newBetaUpdateAvailable": "A new beta version of LM Studio is available! 🛠️🎉",
     "downloadingInProgress": "Downloading update...",
     "downloadUpdate": "Update to LM Studio {{version}}",
+    "downloadBetaUpdate": "Update to LM Studio Beta {{version}} (build {{build}})",
+    "downloadCompleted": "Download Completed!",
+    "updateDownloadComplete": "Update Downloaded Successfully!",
+    "updateDownloadFailed": "Update Failed!",
+    "hasFinishedDownloading": "has finished downloading.",
     "yourCurrentVersion": "You are currently on:",
     "latestVersion": "The latest version is:",
     "downloadLabel": "Update Now",
     "cancelDownloadLabel": "Cancel",
     "downloadingUpdate": "Downloading update...",
-    "updateDownloaded": "Update downloaded!",
+    "updateDownloaded": "New update successfully downloaded. Restart the app to apply the update.",
     "restartAppToUpdate": "Relaunch app to apply update",
+    "appUpdatedToastTitle": "Updated to {{title}}",
+    "appUpdatedToastDescriptionPrefix": "View the ",
+    "AppUpdatedToastDescriptionReleaseNotes": "Release Notes",
     "doItLater": "I'll do it later",
     "failedToUpdate": "App update failed. Please double-check your internet connection or try again later.",
     "retryInBackground": "Retry in background",
@@ -23,6 +40,7 @@
     "installAndRelaunch": "Install and relaunch",
     "uptodate": "You are all up to date! The current version is {{version}}",
     "preferences": "Preferences",
+    "general": "General",
     "sideButtonLabels": "Show side button labels",
     "colorThemeLabel": "Color Theme",
     "complexityLevelLabel": "User Interface Complexity Level",
@@ -32,11 +50,19 @@
     "developerComplexityLevelLabel": "Developer",
     "chatSettingsLabel": "Chat Settings",
     "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
-    
+    "chat/highlightChatMessageOnHover": "Highlight chat message on hover",
+    "chat/doubleClickMessageToEdit": "Double click on a chat message to edit",
+
     "chat/keyboardShortcuts/label": "Keyboard Shortcuts",
     "chat/keyboardShortcuts/verbPrefix": "Use",
     "chat/keyboardShortcuts/regenerate": "to regenerate the last message in chat",
     "chat/keyboardShortcuts/sendMessage": "to send message",
+
+    "onboarding/blockTitle": "Onboarding Hints",
+    "onboarding/dismissedHints": "Dismissed Onboarding Hints",
+    "onboarding/resetHintTooltip": "Click to reenable this onboarding hint",
+    "onboarding/resetAllHints": "Reset All Onboarding Hints",
+    "onboarding/noneDismissed": "No dismissed hints, currently all onboarding helper hints will appear until next dismissed",
 
     "firstTimeExperienceLabel": "Chat first time experience",
     "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
@@ -48,7 +74,7 @@
     "sepiaThemeLabel": "Sepia",
     "unloadPreviousModelLabel": "When selecting a model to load, first unload any currently loaded ones",
     "languageLabel": "Language",
-    "changeLanguageLabel": "Change Language of the app",
+    "changeLanguageLabel": "Choose app language (still in development)",
     "developerLabel": "Developer",
     "showExperimentalFeaturesLabel": "Show experimental features",
     "appFirstLoadLabel": "App first load experience",
@@ -67,16 +93,67 @@
     "backendDownloadChannel.shortLabel": "Runtime download channel",
     "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users.",
 
+    "appUpdateChannel.label": "LM Studio Update Channel",
+    "appUpdateChannel.value.stable": "Stable",
+    "appUpdateChannel.value.beta": "Beta",
+    "appUpdateChannel.shortLabel": "App update channel",
+    "appUpdateChannel.hint": "Choose the channel from which to receive LM Studio app updates. \"{{stableName}}\" is the recommended channel for most users.",
+
     "modelLoadingGuardrails.label": "Model Loading Guardrails",
     "modelLoadingGuardrails.description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
     "modelLoadingGuardrails.value.off": "OFF (Not Recommended)",
+    "modelLoadingGuardrails.value.off/subTitle": "No precautions against system overload",
+    "modelLoadingGuardrails.value.off/detail": "Off detail",
     "modelLoadingGuardrails.value.low": "Relaxed",
+    "modelLoadingGuardrails.value.low/subTitle": "Mild precautions against system overload",
+    "modelLoadingGuardrails.value.low/detail": "Relaxed detail",
     "modelLoadingGuardrails.value.medium": "Balanced",
-    "modelLoadingGuardrails.value.high": "Conservative",
+    "modelLoadingGuardrails.value.medium/subTitle": "Moderate precautions against system overload",
+    "modelLoadingGuardrails.value.medium/detail": "Balanced detail",
+    "modelLoadingGuardrails.value.high": "Strict",
+    "modelLoadingGuardrails.value.high/subTitle": "Strong precautions against system overload",
+    "modelLoadingGuardrails.value.high/detail": "Strict detail",
     "modelLoadingGuardrails.value.custom": "Custom",
+    "modelLoadingGuardrails.value.custom/subTitle": "Set your own limit for maximum model size that can be loaded",
+    "modelLoadingGuardrails.value.custom/detail": "Custom detail",
     "modelLoadingGuardrails.custom.label": "Memory Limit: ",
     "modelLoadingGuardrails.custom.unitGB": "GB",
     "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
 
-    "expandConfigsOnClick": "Expand configs on click rather than hover"
-}
+    "experimentalLoadPresets": "Enable model load configuration support in presets",
+    "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
+
+    "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
+    "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
+
+    "autoStartOnLogin": "Start LLM Service on login",
+    "autoStartOnLogin.description": "Automatically start the LLM service when you log in to your computer",
+
+    "expandConfigsOnClick": "Expand configs on click rather than hover",
+
+    "migrateChats": {
+      "label": "Migrate pre-0.3.0 Chats",
+      "hasBetterLabel": "Re-Migrate pre-0.3.0 Chats",
+      "action_one": "Migrate 1 Chat",
+      "action_other": "Migrate {{count}} Chats",
+      "inProgress": "Migrating chats...",
+      "hint": {
+        "primary": "We revamped the internal data structure for v0.3.0+ chats to support features like multi-version chat messages. To make older chats appear in the app they need to be migrated to the new format.",
+        "details": "The migration process will NOT delete your old chats, but rather make a copy of them in the new format. ",
+        "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
+      },
+      "hasBetterHint": {
+        "primary": "We have improved the chat migrator since you have migrated your old chats. Would you like to run it again?",
+        "details": "The migration process will create a new folder to contain the newly migrated chats. Your old chats will remain untouched.",
+        "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
+      },
+      "success": "Successfully migrated chats!",
+      "success_one": "Successfully migrated 1 chat",
+      "success_other": "Successfully migrated {{count}} chats",
+      "showInstructionsButton": "Show Instructions",
+      "footerCardText": "Chats from previous versions of LM Studio need to be migrated in order for them to be used in this version.",
+      "hasBetterFooterCardText": "We have improved the chat migrator since you have migrated your old chats. You can rerun the migration process. (We will create a new folder to contain the newly migrated chats.)",
+      "dismissConfirm": "Dismiss",
+      "dismissConfirmDescription": "You can always handle chat migration in Settings"
+    }
+  }
