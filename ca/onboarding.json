@@ -9,7 +9,7 @@
     "instructions": {
       "attach_files": {
         "title": "Adjunta fitxers",
-        "description": "Adjunta fins a 5 fitxers a la vegada, amb una mesura combinada màxima de 30MB. Els formats suportats són: PDF, DOCX, TXT, and CSV."
+        "description": "Adjunta fins a 5 fitxers a la vegada, amb una mesura combinada màxima de 30MB. Els formats suportats són: PDF, DOCX, TXT, i CSV."
       },
       "be_specific": {
         "title": "Sigues específic",

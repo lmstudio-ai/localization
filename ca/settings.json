@@ -3,14 +3,14 @@
   "settingsDialogButtonTooltip": "Configuració",
 
   "settingsNewButtonPopover": {
-    "primary": "La configuració ara es troba a la cantonada abaix a la dreta",
-    "secondary": "Prem l'icona ⚙️ per obrir-la.",
-    "tertiary": "O prem"
+    "primary": "La configuració ara es troba a la cantonada d'abaix a la dreta",
+    "secondary": "Fes clic a ⚙️ per obrir-la.",
+    "tertiary": "O fes clic"
   },
-  "appUpdate": "Actualització de l'app",
+  "appUpdate": "Actualització de l'App",
   "checkingAppUpdate": "Comprovant actualitzacions...",
   "checkForUpdates": "Cerca actualitzacions",
-  "failedCheckingAppUpdate": "No s'ha pogut cercar actualitzacions",
+  "failedCheckingAppUpdate": "No s'han pogut cercar actualitzacions",
   "newUpdateAvailable": "Hi ha un nova versió de LM Studio disponible! 🎉",
   "newBetaUpdateAvailable": "Hi ha un nova versió beta de LM Studio disponible!! 🛠️🎉",
   "downloadingInProgress": "Descarregant actualització...",
@@ -19,13 +19,13 @@
   "downloadCompleted": "Descàrrega completada!",
   "updateDownloadComplete": "Actualització descarregada amb èxit!",
   "updateDownloadFailed": "Actualització Interrompuda!",
-  "hasFinishedDownloading": "descàrrega finalitzada.",
-  "yourCurrentVersion": "Et trobes a:",
+  "hasFinishedDownloading": "s'ha acabat de descarregar.",
+  "yourCurrentVersion": "Actualment tens:",
   "latestVersion": "La versió més recent és:",
   "downloadLabel": "Actualitza ara",
   "cancelDownloadLabel": "Cancel·lar",
   "downloadingUpdate": "Descarregant actualització...",
-  "updateDownloaded": "Actualització descarregada amb èxit. Reinicia l'app per completar-la.",
+  "updateDownloaded": "Actualització descarregada amb èxit. Reinicia l'app per poder completar-la.",
   "restartAppToUpdate": "Reinicia l'app per actualitzar-la",
   "appUpdatedToastTitle": "Actualitzat a {{title}}",
   "appUpdatedToastDescriptionPrefix": "Mira la ",
@@ -51,7 +51,7 @@
   "chatSettingsLabel": "Configuració del xat",
   "chat/alwaysShowPromptTemplate": "Mostra sempre una plantilla de prompts a la barra lateral",
   "chat/highlightChatMessageOnHover": "Subratlla els missatges marcats al xat",
-  "chat/doubleClickMessageToEdit": "Doble click a un missatge per editar-lo",
+  "chat/doubleClickMessageToEdit": "Doble clic a un missatge per editar-lo",
 
   "chat/keyboardShortcuts/label": "Dreceres de teclat",
   "chat/keyboardShortcuts/verbPrefix": "Usa",
@@ -77,7 +77,7 @@
   "changeLanguageLabel": "Escogeix una llengua (encara en desenvolupament)",
   "developerLabel": "Desenvolupador",
   "showExperimentalFeaturesLabel": "Mostra característiques experimentals",
-  "appFirstLoadLabel": "Experiència de primer cop a l'app",
+  "appFirstLoadLabel": "Experiència de primera vegada a l'app",
   "showDebugInfoBlocksInChatLabel": "Mostra blocs de depuració al xat",
   "autoLoadBundledLLMLabel": "Carrega un model LLM incorporat en iniciar",
   "showReleaseNotes": "Mostra la llista de canvis",
@@ -89,7 +89,7 @@
   "backendDownloadChannel.label": "Canal de descàrregues de paquets d'extensió de LM Studio",
   "backendDownloadChannel.value.stable": "Estable",
   "backendDownloadChannel.value.beta": "Beta",
-  "backendDownloadChannel.value.latest": "Dev",
+  "backendDownloadChannel.value.latest": "Desenvolupador",
   "backendDownloadChannel.shortLabel": "Canal de descàrregues d'entorns d'execució",
   "backendDownloadChannel.hint": "Escull el canal d'on descarregar paquets d'extensió de LM Studio. \"{{stableName}}\" és el canal recomanat per a la majoria d'usuaris.",
 
@@ -118,7 +118,7 @@
   "modelLoadingGuardrails.value.custom/detail": "Nivell personalitzat",
   "modelLoadingGuardrails.custom.label": "Límit de la memòria: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
-  "modelLoadingGuardrails.custom.description": "Estableix un límit pels models carregats. Els models no carregaran si superen aquest límit.",
+  "modelLoadingGuardrails.custom.description": "Estableix un límit pels models carregats. Els models no es carregaran si superen aquest límit.",
 
   "experimentalLoadPresets": "Activa el suport per configurar la càrrega dels models preestablerts",
   "experimentalLoadPresets.description": "Decideix si permetre als models preestablerts incloure configuracions de càrrega. És una funció experimental, tot comentari és benvingut.",
@@ -126,14 +126,14 @@
   "promptWhenCommittingUnsavedChangesWithNewFields": "Preestablerts: Mostra un diàleg de confirmació quan es canviïn els camps als preestablerts",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "Això és útil si busques evitar canvis accidentals en fer canvis als camps",
 
-  "autoStartOnLogin": "Inicia Servei LLM en Entrar",
+  "autoStartOnLogin": "Inicia Servei LLM en Iniciar",
   "autoStartOnLogin.description": "Inicia automàticament el servei LLM quan iniciïs la sessió",
 
   "expandConfigsOnClick": "Mostra la configuració en prèmer en comptes de en passar per sobre",
 
   "migrateChats": {
-    "label": "Migra els xats de pre-0.3.0 ",
-    "hasBetterLabel": "Torna a migrar els xats de pre-0.3.0",
+    "label": "Migra els xats previs a la v0.3.0 ",
+    "hasBetterLabel": "Torna a migrar els xats previs a la v0.3.0",
     "action_one": "Migra 1 Xat",
     "action_other": "Migra {{count}} Xats",
     "inProgress": "Migrant els xats...",
@@ -153,7 +153,7 @@
     "showInstructionsButton": "Mostra les Instruccions",
     "footerCardText": "Els xats d'anteriors versions de LM Studio han de ser migrats si es volen utilitzar en la versió actual.",
     "hasBetterFooterCardText": "Hem millorat el migrador de xats des que vas migrar els teus antics xats. Pots tornar a utilitzar l'eina. (Crearem una nova carpeta que contindrà els nous xats ja migrats.)",
-    "dismissConfirm": "Cancel·la",
+    "dismissConfirm": "Ignora",
     "dismissConfirmDescription": "Sempre podràs migrar els xats a Configuració"
   }
 }

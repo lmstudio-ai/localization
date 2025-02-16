@@ -5,7 +5,7 @@
   "aggregate_other": "Tens {{count}} models locals, que utilitzen {{size}} d'espai al disc.",
 
   "noModels.title": "Els teus LLMs locals apareixeran aquí.",
-  "noModels.discoverButtonText.prefix": "Prem el",
+  "noModels.discoverButtonText.prefix": "Clica el",
   "noModels.discoverButtonText.suffix": "botó a la barra esquerra per descobrir LLMs interessants per descarregar.",
   "noModels.discoverModelsPrompt": "Ves a explorar alguns LLMs locals!",
 
@@ -13,7 +13,7 @@
   "modelsTable.params/label": "Paràmetres",
   "modelsTable.publisher/label": "Editor",
   "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model",
+  "modelsTable.embeddingModels/label": "Model d'Embedding",
   "modelsTable.quant/label": "Quant",
   "modelsTable.size/label": "Pes",
   "modelsTable.dateModified/label": "Data de Modificació",
@@ -37,7 +37,7 @@
   "action.createVirtual.details.config.empty": "Sense configuracions contra vessats",
   "action.createVirtual.details/error": "Error en crear el model virtual.",
 
-  "loader.model.bundled": "Bundled",
+  "loader.model.bundled": "Paquet",
   "action.cancel": "Cancel·lar",
   "indexingOngoing": "Indexant models... Pot trigar uns segons",
   "index/error_one": "Error en indexar la següent carpeta:",
@@ -45,7 +45,7 @@
   "badModels/title_one": "Error en indexar el següent model:",
   "badModels/title_other": "Error en indexar els següents models:",
   "badModels.virtualModelIncorrectPlacement": "Colocació incorrecta del model virtual. S'espera trobar-lo a {{expected}}. S'ha trobat a {{actual}}.",
-  "badModels.virtualModelBadManifest": "Manifest del model virtual invàlid (model.yaml):",
+  "badModels.virtualModelBadManifest": "Manifesació del model virtual invàlida (model.yaml):",
   "unresolvedVirtualModels/title_one": "Error en resoldre el següent model virtual:",
   "unresolvedVirtualModels/title_other": "Error en resoldre els següents models virtuals:",
   "unresolvedVirtualModels.missingModel": "Falta un model dependent: {{missing}}. Directori de la dependència:\n{{chain}}",
@@ -80,6 +80,6 @@
   "loader.action.load": "Carrega el Model",
   "loader.action.clearChanges": "Desfés el Canvis",
   "loader.action.cancel": "Cancel·la",
-  "loader.info.clickOnModelToLoad": "Prem en un model per carregar-lo",
+  "loader.info.clickOnModelToLoad": "Pulsa en un model per carregar-lo",
   "loader.info.configureLoadParameters": "Configura els paràmetres de càrrega del model"
 }
