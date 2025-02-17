@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Se extrage...",
+  "finalizing": "Se finalizează descărcarea... (aceasta poate dura câteva momente)",
+  "noOptions": "Nu sunt disponibile opțiuni compatibile pentru descărcare",
+  
+  "deeplink/confirmation/title": "Descarcă modelul de pe Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Selectează recomandat",
+  "deeplink/confirmation/selectOption": "Selectează opțiunea de descărcare",
+  "deeplink/confirmation/recommendedOption": "Probabil cea mai bună opțiune pentru majoritatea utilizatorilor",
+  "deeplink/confirmation/downloadButton": "Descarcă",
+  "deeplink/confirmation/nevermindButton": "Anulează",
+  "deeplink/confirmation/modelPresent/title": "Model Hugging Face găsit ✅",
+  "deeplink/confirmation/modelPresent/body": "Vești bune! Acest fișier de model este deja disponibil pe mașina dvs. locală.",
+  "deeplink/confirmation/loadInChat": "Încarcă {{ modelName }} într-un chat nou",
+  "deeplink/error/modelNotFound/title": "Ruh roh, nu am putut găsi acest model",
+  "deeplink/error/modelNotFound/body": "Verificați numele modelului și încercați o altă opțiune de descărcare.",
+  "deeplink/actions/trySearching": "Încercați să căutați {{modelName}} pe Hugging Face",
+  
+  "downloadsPanel/title": "Descărcări",
+  "downloadsPanel/sectionTitle/ongoing": "În curs",
+  "downloadsPanel/sectionTitle/completed": "Completate"
+}
