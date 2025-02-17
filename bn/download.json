@@ -1,0 +1,23 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "এক্সট্রাক্ট করা হচ্ছে...",
+  "finalizing": "ডাউনলোড সম্পন্ন করা হচ্ছে... (কিছু সময় লাগতে পারে)",
+  "noOptions": "ডাউনলোডের জন্য উপযুক্ত অপশন পাওয়া যায়নি",
+  
+  "deeplink/confirmation/title": "Hugging Face 🤗 থেকে মডেল ডাউনলোড করুন",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "সুপারিশকৃতটি নির্বাচন করুন",
+  "deeplink/confirmation/selectOption": "ডাউনলোড অপশন নির্বাচন করুন",
+  "deeplink/confirmation/recommendedOption": "অধিকাংশ ব্যবহারকারীর জন্য সম্ভবত সেরা অপশন",
+  "deeplink/confirmation/downloadButton": "ডাউনলোড",
+  "deeplink/confirmation/nevermindButton": "বাদ দিন",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face মডেল পাওয়া গেছে ✅",
+  "deeplink/confirmation/modelPresent/body": "সুখবর! এই মডেল ফাইলটি আপনার স্থানীয় মেশিনে আগে থেকেই রয়েছে।",
+  "deeplink/confirmation/loadInChat": "নতুন চ্যাটে {{ modelName }} লোড করুন",
+  "deeplink/error/modelNotFound/title": "দুঃখিত, আমরা এই মডেলটি খুঁজে পাইনি",
+  "deeplink/error/modelNotFound/body": "মডেলের নাম পুনরায় যাচাই করুন এবং অন্য ডাউনলোড অপশন চেষ্টা করে দেখুন।",
+  "deeplink/actions/trySearching": "Hugging Face-এ {{modelName}} সার্চ করার চেষ্টা করুন",
+
+  "downloadsPanel/title": "ডাউনলোড",
+  "downloadsPanel/sectionTitle/ongoing": "চলমান",
+  "downloadsPanel/sectionTitle/completed": "সম্পন্ন হয়েছে"
+}
