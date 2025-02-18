@@ -125,8 +125,8 @@
   "style/viewMode/monospace": "Monospace",
 
   "speculativeDecodingVisualization/toggle": "Visualize accepted draft tokens",
-  "speculativeDecodingVisualization/fromDraftModelSingular": "Accepted draft token",
-  "speculativeDecodingVisualization/fromDraftModelPlural": "Accepted draft tokens",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Accepted draft token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Accepted draft tokens",
   "speculativeDecodingVisualization/cannotChangeViewMode": "View mode selection is disabled when visualizing draft tokens.",
 
   "style/fontSize/label": "Font Size",
