@@ -102,7 +102,7 @@
   "llm.prediction.mlx.speculativeDecoding.numDraftTokensExact/title": "Draft Tokens to Generate",
   "llm.prediction.mlx.speculativeDecoding.numDraftTokensExact/subTitle": "The number of tokens to generate with the draft model per main model token. Find the sweet spot of compute vs. reward",
   "llm.prediction.llama.speculativeDecoding.minContinueDraftingProbability/title": "Min P",
-  "llm.prediction.llama.speculativeDecoding.minContinueDraftingProbability/subTitle": "Draft until a token with lower probability than this value his hit, or max draft size is reached. Higher values generally mean lower risk/reward",
+  "llm.prediction.llama.speculativeDecoding.minContinueDraftingProbability/subTitle": "Draft until a token with lower probability than this value, or until max draft size. Higher values generally mean lower risk/reward",
   "llm.prediction.llama.speculativeDecoding.minDraftLengthToConsider/title": "Min Draft Size",
   "llm.prediction.llama.speculativeDecoding.minDraftLengthToConsider/subTitle": "Drafts smaller than this will be ignored by the main model. Higher values generally mean lower risk/reward",
   "llm.prediction.llama.speculativeDecoding.maxTokensToDraft/title": "Max Draft Size",
