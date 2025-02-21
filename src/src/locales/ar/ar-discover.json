@@ -1,0 +1,15 @@
+{
+  "collectionsColumn": "المجموعات",
+  "collectionsColumn/collectionError": "خطأ في تحميل تفاصيل المجموعة، حاول التحديث",
+  "bookmarksColumn": "الإشارات المرجعية",
+  "searchBar/placeholder": "ابحث عن نماذج في Hugging Face...",
+  "searchBar/huggingFaceError": "حدث خطأ أثناء جلب النتائج من Hugging Face، يرجى المحاولة لاحقًا",
+  "sortBy": "الترتيب حسب",
+  "searchSortKey.default/title": "الأفضل تطابقًا",
+  "searchSortKey.likes/title": "الأكثر إعجابًا",
+  "searchSortKey.downloads/title": "الأكثر تحميلًا",
+  "searchSortKey.lastModified/title": "المُحدث حديثًا",
+  "searchSortKey.createdAt/title": "المُنشأ حديثًا",
+
+  "feed.action.refresh": "تحديث القائمة"
+}

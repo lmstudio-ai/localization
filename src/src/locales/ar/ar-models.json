@@ -1,0 +1,27 @@
+{
+  "pageTitle": "نماذجي",
+  "filterModels.placeholder": "تصفية النماذج...",
+  "aggregate_one": "لديك {{count}} نموذج محلي، يشغل {{size}} من مساحة القرص.",
+  "aggregate_other": "لديك {{count}} نماذج محلية، تشغل {{size}} من مساحة القرص.",
+
+  "noModels.title": "ستظهر نماذج LLM المحلية هنا.",
+  "noModels.discoverButtonText.prefix": "انقر فوق",
+  "noModels.discoverButtonText.suffix": "الزر في الشريط الجانبي الأيسر لاستكشاف نماذج LLM المثيرة للاهتمام وتنزيلها.",
+  "noModels.discoverModelsPrompt": "استكشف بعض نماذج LLM المحلية!",
+
+  "modelsTable.arch/label": "المعمارية",
+  "modelsTable.params/label": "المعاملات",
+  "modelsTable.publisher/label": "الناشر",
+  "modelsTable.llms/label": "نموذج LLM",
+  "modelsTable.embeddingModels/label": "نموذج التضمين",
+  "modelsTable.quant/label": "التكميم",
+  "modelsTable.size/label": "الحجم",
+  "modelsTable.dateModified/label": "تاريخ التعديل",
+  "modelsTable.actions/label": "الإجراءات",
+
+  "action.model.delete": "حذف",
+  "action.model.delete.full": "حذف النموذج",
+  "action.model.delete.confirmation/title": "حذف {{name}}",
+  "action.model.delete.confirmation/description": "هل أنت متأكد؟ سيتم حذف جميع الملفات المرتبطة بهذا النموذج من جهازك بشكل دائم. لا يمكن التراجع عن هذا الإجراء.",
+  "action.model.delete.confirmation/confirm": "حذف"
+}

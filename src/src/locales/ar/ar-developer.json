@@ -1,0 +1,27 @@
+{
+  "tabs/server": "الخادم المحلي",
+  "tabs/extensions": "بيئات تشغيل LM",
+  "loadSettings/title": "إعدادات التحميل",
+  "modelSettings/placeholder": "حدد نموذجًا لتكوينه",
+
+  "loadedModels/noModels": "لم يتم تحميل أي نماذج",
+
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/configurableTitle": "إعدادات قابلة للتعديل",
+  "serverOptions/port/hint": "حدد رقم المنفذ الذي سيستخدمه الخادم المحلي. يستخدم LM Studio المنفذ 1234 افتراضيًا. قد تحتاج إلى تغييره إذا كان المنفذ قيد الاستخدام.",
+  "serverOptions/port/subtitle": "المنفذ المستخدم",
+  "serverOptions/autostart/title": "بدء التشغيل التلقائي للخادم",
+  "serverOptions/autostart/hint": "ابدأ تشغيل الخادم المحلي تلقائيًا عند تحميل نموذج",
+  "serverOptions/port/integerWarning": "يجب أن يكون رقم المنفذ عددًا صحيحًا",
+  "serverOptions/port/invalidPortWarning": "يجب أن يكون رقم المنفذ بين 1 و 65535",
+  "serverOptions/cors/title": "تمكين CORS",
+  "serverOptions/cors/hint1": "سيسمح تمكين CORS (مشاركة الموارد عبر المصادر) للمواقع التي تزورها بإرسال طلبات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد يكون CORS مطلوبًا عند إرسال طلبات من صفحة ويب أو من ملحقات VS Code أو أدوات أخرى.",
+  "serverOptions/cors/subtitle": "السماح بالطلبات عبر المصادر",
+  "serverOptions/network/title": "تقديم الخدمة على الشبكة المحلية",
+  "serverOptions/network/subtitle": "جعل الخادم متاحًا للأجهزة على الشبكة",
+  "serverOptions/network/hint1": "السماح بالاتصالات من أجهزة أخرى على الشبكة.",
+  "serverOptions/network/hint2": "إذا لم يتم التحقق، سيستمع الخادم فقط للطلبات المحلية (localhost).",
+  "serverOptions/verboseLogging/title": "تمكين تسجيل السجلات المفصل",
+  "serverOptions/verboseLogging/subtitle": "تمكين تسجيل التفاصيل للخادم المحلي"
+}
