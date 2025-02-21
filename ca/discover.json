@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Col·leccions",
+  "collectionsColumn/collectionError": "Error carregant els detalls de la col·lecció, please try a refresh above",
+  "bookmarksColumn": "Bookmarks",
+  "searchBar/placeholder": "Cerca models a Hugging Face...",
+  "searchBar/huggingFaceError": "Ha aparegut un error al cercar resultats a Hugging Face, torna a provar en una estona",
+  "sortBy": "Filtra per",
+  "searchSortKey.default/title": "Millor Coincidència",
+  "searchSortKey.likes/title": "Més m'Agrada",
+  "searchSortKey.downloads/title": "Més Descàrregues",
+  "searchSortKey.lastModified/title": "Actualitzat Recentment",
+  "searchSortKey.createdAt/title": "Creat Recentment",
+  "download.option.willFitEstimation.caveat": "És possible que hi hagi altres factors que l'impedeixen carregar, com l'arquitectura del model, la integritat dels fitxers o la quantitat de memòria disponible al teu ordinador.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Possible Sobrecàrrega Total de la GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "És possible que el model càpiga sencer a la memòria de la GPU. Això podria accelerar considerablement les respoestes.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Possible Sobrecàrrega Parcial de la GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "És possible que el model càpiga parcialment a la memòria de la GPU. Això podria accelerar considerablement les respoestes.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Possiblement Càiga",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "És possible que el model càpiga a la memòria de l'ordinador.",
+  "download.option.willFitEstimation.willNotFit/title": "Possiblement massa gran per l'ordinador",
+  "download.option.willFitEstimation.willNotFit/description": "Els requisits de memòria necessaris per fer funcionar correctament aquest model podrien excedir les capacitats del teu maquinari. NO es recomana descarregar-lo.",
+  "download.option.recommended/title": "Recomanat",
+  "download.option.recommended/description": "Segons el teu maquinari, es recomana aquesta opció.",
+  "download.option.downloaded/title": "Descarregat",
+  "download.option.downloading/title": "Descarregant ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Refresca els resultats"
+}
