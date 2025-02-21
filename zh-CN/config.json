@@ -23,6 +23,17 @@
   "loadParameters/reload": "重新加载以应用更改",
   "discardChanges": "放弃更改",
   "loadModelToSeeOptions": "加载模型以查看选项",
+  "schematicsError.title": "配置示意图在以下字段中包含错误:",
+
+  "manifestSections": {
+    "structuredOutput/title": "结构化输出",
+    "speculativeDecoding/title": "Speculative Decoding",
+    "sampling/title": "采样",
+    "settings/title": "设置",
+    "toolUse/title": "工具用途",
+    "promptTemplate/title": "提示模板"
+  },
+
   "llm.prediction.systemPrompt/title": "系统提示",
   "llm.prediction.systemPrompt/description": "使用此字段向模型提供背景指令，如一套规则、约束或一般要求。",
   "llm.prediction.systemPrompt/subTitle": "AI 指南",
@@ -111,6 +122,13 @@
   "llm.load.llama.tryMmap/title": "尝试 mmap()",
   "llm.load.llama.tryMmap/subTitle": "提高模型的加载时间。禁用此功能可能在模型大于可用系统 RAM 时提高性能",
   "llm.load.llama.tryMmap/info": "直接从磁盘加载模型文件到内存",
+  "llm.load.llama.cpuThreadPoolSize/title": "CPU 线程池大小",
+  "llm.load.llama.cpuThreadPoolSize/subTitle": "分配给模型计算的 CPU 线程池的线程数量",
+  "llm.load.llama.cpuThreadPoolSize/info": "分配给模型计算的 CPU 线程池的线程数量。提高线程数并不总是与更好的性能相关联。默认值是<{{dynamicValue}}>。",
+  "llm.load.mlx.kvCacheQuantization/groupSize/title": "分组大小策略",
+  "llm.load.mlx.kvCacheQuantization/groupSize/accuracy": "精确",
+  "llm.load.mlx.kvCacheQuantization/groupSize/balanced": "平衡",
+  "llm.load.mlx.kvCacheQuantization/groupSize/speedy": "快速",
 
   "embedding.load.contextLength/title": "上下文长度",
   "embedding.load.contextLength/subTitle": "模型可以一次性关注的词元（token）最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
@@ -124,7 +142,7 @@
   "embedding.load.llama.ropeFrequencyScale/title": "RoPE 频率比例",
   "embedding.load.llama.ropeFrequencyScale/subTitle": "上下文长度按此因子缩放，以使用 RoPE 扩展有效上下文",
   "embedding.load.llama.ropeFrequencyScale/info": "[高级] 修改旋转位置编码的频率缩放，以控制位置编码的粒度",
-  "embedding.load.llama.acceleration.offloadRatio/title": "GPU 卸载",
+  "embedding.load.llama.acceleration.offloadRatio/title": "GPU 任务卸载",
   "embedding.load.llama.acceleration.offloadRatio/subTitle": "用于 GPU 加速的离散模型层数",
   "embedding.load.llama.acceleration.offloadRatio/info": "设置卸载到 GPU 的层数。",
   "embedding.load.llama.keepModelInMemory/title": "保持模型在内存中",
@@ -150,7 +168,10 @@
     "excluded/title": "可能不适用",
     "excluded/description": "以下字段包含在预设中，但在当前上下文中不适用。",
     "legacy/title": "旧版预设",
-    "legacy/description": "这是一个旧版预设。它包括以下字段，这些字段现在要么自动处理，要么不再适用。"
+    "legacy/description": "此预设是一个旧版预设。它包括以下字段，这些字段现在要么自动处理，要么不再适用。",
+    "button/publish": "发布到 Hub",
+    "button/pushUpdate": "推送变更到 Hub",
+    "button/export": "导出"
   },
 
   "customInputs": {
@@ -158,6 +179,12 @@
       "emptyParagraph": "<空>"
     },
     "checkboxNumeric": {
+      "off": "关闭"
+    },
+    "llamaCacheQuantizationType": {
+      "off": "关闭"
+    },
+    "mlxKvCacheBits": {
       "off": "关闭"
     },
     "stringArray": {
@@ -207,6 +234,10 @@
       "off": "关闭"
     }
   },
+  "llamaAccelerationSplitStrategy": {
+      "evenly": "平均",
+      "favorMainGpu": "偏好主 GPU"
+    },
   "saveConflictResolution": {
     "title": "选择要包含在预设中的值",
     "description": "挑选并选择要保留的值",
@@ -226,6 +257,8 @@
     "cancel": "取消"
   },
   "empty": "<空>",
+  "noModelSelected": "未选择模型",
+  "apiIdentifier.label": "API 识别码",
   "presets": {
     "title": "预设",
     "commitChanges": "提交更改",
@@ -257,13 +290,42 @@
     "discardChanges": "丢弃未保存的更改",
     "discardChanges/info": "丢弃所有未提交的更改并恢复预设至原始状态",
     "newEmptyPreset": "创建新的空预设...",
+    "importPreset": "导入",
     "contextMenuSelect": "选择预设",
-    "contextMenuDelete": "删除"
+    "contextMenuDelete": "删除",
+    "contextMenuShare": "发布",
+    "contextMenuOpenInHub": "在 Hub 上查看",
+    "contextMenuPushChanges": "推送变更",
+    "contextMenuExport": "导出文件",
+    "contextMenuRevealInExplorer": "在 文件资源管理器 中显示",
+    "contextMenuRevealInFinder": "在 Finder 中显示"
   },
 
   "flashAttentionWarning": "闪电注意力是一项实验性功能，可能会导致某些模型出现问题。如果您遇到问题，请尝试禁用它。",
 
   "seedUncheckedHint": "随机种子",
   "ropeFrequencyBaseUncheckedHint": "自动",
-  "ropeFrequencyScaleUncheckedHint": "自动"
+  "ropeFrequencyScaleUncheckedHint": "自动",
+
+  "hardware": {
+    "advancedGpuSettings": "高级 GPU 设置",
+    "advancedGpuSettings.info": "如果你不确定，保留默认值。",
+    "advancedGpuSettings.reset": "重置默认",
+    "environmentVariables": {
+      "title": "环境变量",
+      "description": "模型生命周期内的活动环境变量。",
+      "key.placeholder": "选择变量",
+      "value.placeholder": "值"
+    },
+    "mainGpu": {
+      "title": "主 GPU",
+      "description": "优先用于模型计算的 GPU。",
+      "placeholder": "选择主 GPU"
+    },
+    "splitStrategy": {
+      "title": "拆分策略",
+      "description": "如何拆分模型计算任务到多个 GPU。",
+      "placeholder": "选择拆分策略"
+    }
+  }
 }
