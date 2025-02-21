@@ -20,5 +20,23 @@
         "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Tool Use 🛠️ (Function Calling)",
+      "text_0": "Some models (e.g. Llama 3.1/3.2, Mistral, Qwen and more) were trained to use tools.",
+      "text_1": "What this means in practice is: you provide an array of 'tools' (function signatures) to the LLM in a very particular format, and the LLM can decide whether to 'call' them based on the user's prompt.",
+      "text_2": "You can imagine use cases such as querying an API, running code, or really anything that can be expressed as a function call."
+    },
+    "step_1": {
+      "title": "Get started with Tool Use",
+      "toolUseCanWorkWithAnyModel": "Models that were trained for tool use will perform better than others, but you can try to use tools with any model whatsoever. Read the <customlink>documentation</customlink> to learn more.\nModels that were trained for tool use will be marked with a new badge:",
+      "hasCompatibleModel": "🎉 Looks like you already have models with tool support!",
+      "downloadRecommendedModel": "Download a model that was trained for tool use:"
+    },
+    "nextButton": "Next",
+    "letsGoButton": "Load model and start server",
+    "doneButton": "Dismiss"
   }
 }

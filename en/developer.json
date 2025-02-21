@@ -11,7 +11,7 @@
   "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
   "serverOptions/port/subtitle": "The port to listen on",
   "serverOptions/autostart/title": "Auto-start server",
-  "serverOptions/autostart/hint": "Start the local server automatically when a model is loaded",
+  "serverOptions/autostart/hint": "Automatically turn on LM Studio's local LLMs server on app or service start",
   "serverOptions/port/integerWarning": "Port number must be an integer",
   "serverOptions/port/invalidPortWarning": "Port must be between 1 and 65535",
   "serverOptions/cors/title": "Enable CORS",
@@ -27,17 +27,30 @@
   "serverOptions/contentLogging/title": "Log Prompts and Responses",
   "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
   "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
+  "serverOptions/fileLoggingMode/title": "File Logging Mode",
+  "serverOptions/fileLoggingMode/off/title": "OFF",
+  "serverOptions/fileLoggingMode/off/hint": "Don't create log files",
+  "serverOptions/fileLoggingMode/succinct/title": "Succinct",
+  "serverOptions/fileLoggingMode/succinct/hint": "Log the same content as in the console. Long requests will be truncated.",
+  "serverOptions/fileLoggingMode/full/title": "Full",
+  "serverOptions/fileLoggingMode/full/hint": "Don't truncate long requests.",
   "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
   "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
   "serverOptions/loadModel/error": "Failed to load model",
+  "serverOptions/jitModelLoadingTTL/title": "Auto unload unused JIT loaded models",
+  "serverOptions/jitModelLoadingTTL/hint": "A model that was loaded Just-in-time (JIT) to serve an API request will be automatically unloaded after being unused for some duration (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Max idle TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
   "serverLogs/openLogsFolder": "Open server logs folder",
 
   "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Configure Runtimes",
-  "runtimeSettings/chooseRuntime/description": "Select a runtime for each model format",
+  "runtimeSettings/chooseRuntime/title": "Default Selections",
+  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each model format",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
@@ -53,7 +66,90 @@
   "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
   "runtimeOptions/noRuntimes": "No runtimes found",
 
+  "runtimes": {
+    "manageLMRuntimes": "Manage LM Runtimes",
+    "includeOlderRuntimeVersions": "Include older runtime versions",
+    "dismiss": "Dismiss",
+    "updateAvailableToast": {
+      "title": "LM Runtime Update Available!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
+    },
+    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Runtime Extension Packs",
+      "refresh": "Refresh",
+      "refreshing": "Refreshing...",
+      "filterSegment": {
+        "compatibleOnly": "Compatible Only",
+        "all": "All"
+      },
+      "card": {
+        "releaseNotes": "Release Notes",
+        "latestVersionInstalled": "Latest Version Installed",
+        "updateAvailable": "Update Available"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Manage Active Runtimes"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Manage Versions",
+        "close": "Close"
+      },
+      "tabs": {
+        "all": "All",
+        "frameworks": "My Frameworks",
+        "engines": "My Engines"
+      },
+      "detailsModal": {
+        "installedVersions": "Installed versions for {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (advanced)",
+        "releaseNotesTitle": "Release Notes",
+        "noReleaseNotes": "No release notes available for this version",
+        "back": "Back",
+        "close": "Close"
+      },
+      "noEngines": "No engines installed",
+      "noFrameworks": "No frameworks installed"
+    }
+  },
+
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+
+  "quickDocs": {
+    "tabChipTitle": "Quick Docs",
+    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
+    "newToolUsePopoverTitle": "📚 Quick Docs",
+    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Structured Output"
+    },
+    "imageInput": {
+      "title": "Image Input"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Tool Use",
+      "tab": {
+        "saveAsPythonFile": "Save as Python file",
+        "runTheScript": "Run the script:",
+        "savePythonFileCopyPaste": "Save as Python file for a copy-and-paste command"
+      }
+    },
+    "newBadge": "New"
+  },
 
   "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
   "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
@@ -63,6 +159,11 @@
 
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+
+  "model": {
+    "toolUseSectionTitle": "Tool Use",
+    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+  },
 
   "apiConfigOptions/title": "API Configuration"
 }
