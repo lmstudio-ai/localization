@@ -2,7 +2,6 @@
   "postDownloadActionExecutor.zipExtraction/status": "展開中...",
   "finalizing": "ダウンロードの最終処理中...（しばらくお待ちください）",
   "noOptions": "利用可能な互換性のあるオプションがありません",
-  
   "deeplink/confirmation/title": "Hugging Face 🤗 からモデルをダウンロード",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "推奨オプションを選択",
@@ -15,5 +14,8 @@
   "deeplink/confirmation/loadInChat": "{{ modelName }} を新しいチャットに読み込む",
   "deeplink/error/modelNotFound/title": "モデルが見つかりませんでした",
   "deeplink/error/modelNotFound/body": "モデル名をもう一度確認し、別のダウンロードオプションを試してみてください。",
-  "deeplink/actions/trySearching": "{{modelName}} をHugging Faceで検索してみる"
+  "deeplink/actions/trySearching": "{{modelName}} をHugging Faceで検索してみる",
+  "downloadsPanel/title": "ダウンロード",
+  "downloadsPanel/sectionTitle/ongoing": "進行中",
+  "downloadsPanel/sectionTitle/completed": "完了"
 }
