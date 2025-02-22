@@ -4,7 +4,7 @@
   "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space.",
   "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space.",
 
-  "noModels.title": "Your local LLMs will show up here.",
+  "noModels.title": "Your local models will show up here.",
   "noModels.discoverButtonText.prefix": "Click the",
   "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
   "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
@@ -12,12 +12,15 @@
   "modelsTable.arch/label": "Arch",
   "modelsTable.params/label": "Params",
   "modelsTable.publisher/label": "Publisher",
-  "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model",
-  "modelsTable.quant/label": "Quant",
+  "modelsTable.displayName/label": "Name",
+  "modelsTable.modelKey/label": "Model Key",
   "modelsTable.size/label": "Size",
   "modelsTable.dateModified/label": "Date Modified",
   "modelsTable.actions/label": "Actions",
+
+  "modelsTable.quant/label": "Quant",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "Embedding Model",
 
   "action.model.delete": "Delete",
   "action.model.delete.full": "Delete Model",
@@ -68,18 +71,23 @@
   "contextMenu/unpin": "Unpin",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
   "contextMenu/copyModelName": "Copy Model Path",
+  "contextMenu/copyModelDefaultIdentifier": "Copy Default Identifier",
+  "contextMenu/showRawMetadata": "Show Raw Metadata",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
   "tooltip/moreActions": "More Actions",
   "tooltip/getInfo": "Get Info",
   "tooltip/editModelDefaultConfig": "Edit model default config",
-  "tooltip/editModelDefaultConfig/override": "Edit model default config (* currently has overrides",
+  "tooltip/editModelDefaultConfig/override": "Edit model default config (* has overrides)",
   "tooltip/visionBadge": "This model can process image inputs",
+  "tooltip/toolUseBadge": "This model has been trained for tool use",
 
   "visionBadge/label": "Vision Enabled",
+  "toolUseBadge/label": "Trained for Tool Use",
 
   "loader.action.load": "Load Model",
   "loader.action.clearChanges": "Clear Changes",
   "loader.action.cancel": "Cancel",
   "loader.info.clickOnModelToLoad": "Click on a model to load it",
-  "loader.info.configureLoadParameters": "Configure the model load parameters"
+  "loader.info.configureLoadParameters": "Configure the model load parameters",
+  "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation"
 }

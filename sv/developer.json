@@ -1,0 +1,68 @@
+{
+	"tabs/server": "Lokal server",
+	"tabs/extensions": "LM-körmiljöer",
+	"loadSettings/title": "Laddningsinställningar",
+	"modelSettings/placeholder": "Välj en modell för att konfigurera den",
+	
+	"loadedModels/noModels": "Inga modeller inlästa",
+	
+	"serverOptions/title": "Serveralternativ",
+	"serverOptions/configurableTitle": "Konfigurerbara alternativ",
+	"serverOptions/port/hint": "Ange vilken nätverksport den lokala servern ska använda. Som standard använder LM Studio port 1234. Du kan behöva ändra detta om porten redan används.",
+	"serverOptions/port/subtitle": "Port att lyssna på",
+	"serverOptions/autostart/title": "Starta server automatiskt",
+	"serverOptions/autostart/hint": "Starta den lokala servern automatiskt när en modell laddas",
+	"serverOptions/port/integerWarning": "Portnumret måste vara ett heltal",
+	"serverOptions/port/invalidPortWarning": "Porten måste vara mellan 1 och 65535",
+	"serverOptions/cors/title": "Aktivera CORS",
+	"serverOptions/cors/hint1": "Genom att aktivera CORS (Cross-origin Resource Sharing) tillåts webbplatser du besöker att göra förfrågningar till LM Studio-servern.",
+	"serverOptions/cors/hint2": "CORS kan krävas när du gör förfrågningar från en webbsida eller VS Code / annan tillägg.",
+	"serverOptions/cors/subtitle": "Tillåt cross-origin-förfrågningar",
+	"serverOptions/network/title": "Servera på lokalt nätverk",
+	"serverOptions/network/subtitle": "Exponera servern för enheter på nätverket",
+	"serverOptions/network/hint1": "Om anslutningar från andra enheter på nätverket ska tillåtas.",
+	"serverOptions/network/hint2": "Om inte markerad, kommer servern endast att lyssna på localhost.",
+	"serverOptions/verboseLogging/title": "Detaljerad loggning",
+	"serverOptions/verboseLogging/subtitle": "Aktivera detaljerad loggning för den lokala servern",
+	"serverOptions/contentLogging/title": "Logga uppmaningar och svar",
+	"serverOptions/contentLogging/subtitle": "Inställningar för lokal begäran / svar loggning",
+	"serverOptions/contentLogging/hint": "Om uppmaningar och/eller svar ska loggas i den lokala serverns loggfil.",
+	"serverOptions/jitModelLoading/title": "Just-in-Time modellinläsning",
+	"serverOptions/jitModelLoading/hint": "När aktiverad, om en begäran specificerar en modell som inte är inläst, kommer den automatiskt att laddas och användas. Dessutom kommer \"/v1/models\"-endpointen också att inkludera modeller som ännu inte är inlästa.",
+	"serverOptions/loadModel/error": "Misslyckades med att ladda modell",
+	
+	"serverLogs/scrollToBottom": "Hoppa till botten",
+	"serverLogs/clearLogs": "Rensa loggar ({{shortcut}})",
+	"serverLogs/openLogsFolder": "Öppna serverloggsmappen",
+
+	"runtimeSettings/title": "Körinställningar",
+	"runtimeSettings/chooseRuntime/title": "Konfigurera körmiljöer",
+	"runtimeSettings/chooseRuntime/description": "Välj en körmiljö för varje modellformat",
+	"runtimeSettings/chooseRuntime/showAllVersions/label": "Visa alla körmiljöer",
+	"runtimeSettings/chooseRuntime/showAllVersions/hint": "Som standard visar LM Studio endast den senaste versionen av varje kompatibel körmiljö. Aktivera detta alternativ för att se alla tillgängliga körmiljöer.",
+	"runtimeSettings/chooseRuntime/select/placeholder": "Välj en körmiljö",
+	
+	"runtimeOptions/uninstall": "Avinstallera",
+	"runtimeOptions/uninstallDialog/title": "Avinstallera {{runtimeName}}?",
+	"runtimeOptions/uninstallDialog/body": "Avinstallation av denna körmiljö kommer att ta bort den från systemet. Denna åtgärd är oåterkallelig.",
+	"runtimeOptions/uninstallDialog/body/caveats": "Vissa filer kan endast tas bort efter att LM Studio har startats om.",
+	"runtimeOptions/uninstallDialog/error": "Misslyckades med att avinstallera körmiljö",
+	"runtimeOptions/uninstallDialog/confirm": "Fortsätt och avinstallera",
+	"runtimeOptions/uninstallDialog/cancel": "Avbryt",
+	"runtimeOptions/noCompatibleRuntimes": "Inga kompatibla körmiljöer hittades",
+	"runtimeOptions/downloadIncompatibleRuntime": "Denna körmiljö bedömdes vara inkompatibel med din maskin. Den kommer troligen inte att fungera.",
+	"runtimeOptions/noRuntimes": "Inga körmiljöer hittades",
+	
+	"inferenceParams/noParams": "Inga konfigurerbara prediktionsparametrar tillgängliga för denna modelltyp",
+	
+	"endpoints/openaiCompatRest/title": "Stödda slutpunkter (OpenAI-liknande)",
+	"endpoints/openaiCompatRest/getModels": "Lista de för närvarande inlästa modellerna",
+	"endpoints/openaiCompatRest/postCompletions": "Textkompletteringsläge. Förutsäg nästa token(s) givet en prompt. Obs: OpenAI anser att denna slutpunkt är 'föråldrad'.",
+	"endpoints/openaiCompatRest/postChatCompletions": "Chattkompletteringar. Skicka en chattlogg till modellen för att förutsäga nästa assistentsvar",
+	"endpoints/openaiCompatRest/postEmbeddings": "Textinbäddning. Generera textinbäddningar för en given textinmatning. Tar en sträng eller en array av strängar.",
+	
+	"model.createVirtualModelFromInstance": "Spara inställningar som en ny virtuell modell",
+	"model.createVirtualModelFromInstance/error": "Misslyckades med att spara inställningar som en ny virtuell modell",
+	
+	"apiConfigOptions/title": "API-konfiguration"
+}

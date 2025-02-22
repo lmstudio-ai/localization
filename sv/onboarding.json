@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Hoppa över introduktion",
+  "action.next": "Nästa",
+  "action.back": "Tillbaka",
+  "action.finish": "Avsluta",
+
+  "dismissable_rag_modal": {
+    "description": "Du kan nu chatta med dina egna dokument med hjälp av Retrieval Augmented Generation (RAG). Så här fungerar det:",
+    "instructions": {
+      "attach_files": {
+        "title": "Bifoga filer",
+        "description": "Ladda in upp till 5 filer åt gången, med en maximal sammanlagd storlek på 30MB. Stödda format inkluderar PDF, DOCX, TXT och CSV."
+      },
+      "be_specific": {
+        "title": "Var specifik",
+        "description": "När du ställer frågor, ange så många detaljer som möjligt. Detta hjälper systemet att hämta den mest relevanta informationen från dina dokument."
+      },
+      "get_responses": {
+        "title": "Få svar och experimentera",
+        "description": "LLM kommer att titta på din fråga och de hämtade utdragen från dina dokument, och försöka generera ett svar. Experimentera med olika frågor för att hitta vad som fungerar bäst."
+      }
+    }
+  }
+}
