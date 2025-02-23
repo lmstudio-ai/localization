@@ -1,3 +1,38 @@
 {
-  "copyLmStudioLinkButton/toolTip": "複製模型下載連結"
+  "copyLmStudioLinkButton/toolTip": "複製模型下載連結",
+
+  "filter.noMatches": "沒有符合的項目",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "正在解壓縮資源"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "正在檢查執行階段相容性"
+    },
+    "indexingRuntimes": {
+      "badge": "正在索引執行階段"
+    },
+    "indexingModels": {
+      "badge": "正在索引模型"
+    },
+    "authenticating": {
+      "badge": "正在驗證"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "正在自動更新擴充套件 ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "登入 LM Studio Hub",
+    "authError": "驗證失敗",
+    "noAccount": "沒有帳戶？",
+    "signUp": "註冊",
+    "havingTrouble": "遇到問題？",
+    "retry": "重試"
+  },
+  "artifacts": {
+    "fetchError": "擷取 artifacts 失敗"
+  },
+  "incompatible": "不相容",
+  "compatible": "相容"
 }
