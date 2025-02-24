@@ -1,42 +1,42 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
+  "action.skipOnboarding": "Saltar-se la introducció",
+  "action.next": "Següent",
+  "action.back": "Anterior",
+  "action.finish": "Acabar",
 
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "Ara pots xatejar amb els teus documents utilitzant la Generació Augmentada per Recuperació (RAG). Aixís funciona:",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "Adjunta fitxers",
+        "description": "Puja fins a 5 per cop, amb un pes màxim combinat de 30MB. Els fitxers suportats són PDF, DOCX, TXT, i CSV."
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "Sigues Específic",
+        "description": "En fer preguntes, menciona tots els detalls possibles. Això ajudarà al sistema a recuperar la informació més rellevant dels teus documents."
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "Obtén Respostes i Experimenta",
+        "description": "El LLM mirarà la teva pregunta i cercarà als extractes recuperats dels teus documents, provant de generar una resposta. Experimenta amb diferents preguntes fins obtenir la millor resposta."
       }
     }
   },
 
   "toolUse": {
     "step_0": {
-      "title": "Beta: Tool Use 🛠️ (Function Calling)",
-      "text_0": "Some models (e.g. Llama 3.1/3.2, Mistral, Qwen and more) were trained to use tools.",
-      "text_1": "What this means in practice is: you provide an array of 'tools' (function signatures) to the LLM in a very particular format, and the LLM can decide whether to 'call' them based on the user's prompt.",
+      "title": "Beta: Ús 'Tool' 🛠️ (Function Calling)",
+      "text_0": "Alguns models (p. e. Llama 3.1/3.2, Mistral, Qwen i d'altres) han estat entrenats per usar 'tools'.",
+      "text_1": "Què significa això? Tu dones un seguit de 'tools' (function signatures) al LLM en un format en particular i el LLM podrà decidir si 'trucar-les' basant-se en el prompt de l'usuari.",
       "text_2": "You can imagine use cases such as querying an API, running code, or really anything that can be expressed as a function call."
     },
     "step_1": {
-      "title": "Get started with Tool Use",
-      "toolUseCanWorkWithAnyModel": "Models that were trained for tool use will perform better than others, but you can try to use tools with any model whatsoever. Read the <customlink>documentation</customlink> to learn more.\nModels that were trained for tool use will be marked with a new badge:",
-      "hasCompatibleModel": "🎉 Looks like you already have models with tool support!",
-      "downloadRecommendedModel": "Download a model that was trained for tool use:"
+      "title": "Possa't en marxa amb Tool Use",
+      "toolUseCanWorkWithAnyModel": "Els models entrenats per 'tool use' tindran un millor rendiment que altres, però pots provar d'utilitzar 'tools' amb qualsevol model. Llegeix la <customlink>documentació</customlink> per aprendre més.\nEls models que han estat entrenats per ser utilitzats amb 'tool' es marcaran amb una nova icona:",
+      "hasCompatibleModel": "🎉 Sembla que ja tens models que suporten 'tool'!",
+      "downloadRecommendedModel": "Descarrega un model que hagi estat entrenat per ús com a 'tool':"
     },
-    "nextButton": "Next",
-    "letsGoButton": "Load model and start server",
-    "doneButton": "Dismiss"
+    "nextButton": "Següent",
+    "letsGoButton": "Carrega el model i inicia el servidor",
+    "doneButton": "Ignorar"
   }
 }
