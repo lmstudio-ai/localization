@@ -1,24 +1,24 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extraient...",
-  "finalizing": "Finalitzant la descàrrega... (pot portar uns minuts)",
-  "noOptions": "Cap opció compatible disponible per la descàrrega",
+  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
+  "finalizing": "Finalizing download... (this may take a few moments)",
+  "noOptions": "No compatible options available for download",
   
-  "deeplink/confirmation/title": "Descarrega el model de Hugging Face 🤗",
+  "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Selecciona el recomanat",
-  "deeplink/confirmation/selectOption": "Selecciona opció de descàrrega",
-  "deeplink/confirmation/recommendedOption": "Probablement la millor opció per l'usuari general",
-  "deeplink/confirmation/downloadButton": "Descarrega",
-  "deeplink/confirmation/nevermindButton": "Ignora",
-  "deeplink/confirmation/modelPresent/title": "Model de Hugging Face Trobat ✅",
-  "deeplink/confirmation/modelPresent/body": "Bones notícies! Aquest model ja es troba disponible al teu ordinador.",
-  "deeplink/confirmation/loadInChat": "Carrega {{ modelName }} a un nou xat",
-  "deeplink/error/modelNotFound/title": "Ups, no hem pogut trobar aquest model",
-  "deeplink/error/modelNotFound/body": "Torna a comprovar el nom del model i considera utilitzar una altra opció de descàrrega.",
-  "deeplink/actions/trySearching": "Prova buscant {{modelName}} a Hugging Face",
+  "deeplink/confirmation/selectRecommended": "Select recommended",
+  "deeplink/confirmation/selectOption": "Select download option",
+  "deeplink/confirmation/recommendedOption": "Likely the best option for most users",
+  "deeplink/confirmation/downloadButton": "Download",
+  "deeplink/confirmation/nevermindButton": "Nevermind",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Found ✅",
+  "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
+  "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
+  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
+  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option.",
+  "deeplink/actions/trySearching": "Try searching for {{modelName}} on Hugging Face",
 
-  "downloadsPanel/title": "Descàrregues",
-  "downloadsPanel/sectionTitle/ongoing": "En Procés",
-  "downloadsPanel/sectionTitle/completed": "Completades"
+  "downloadsPanel/title": "Downloads",
+  "downloadsPanel/sectionTitle/ongoing": "Ongoing",
+  "downloadsPanel/sectionTitle/completed": "Completed"
 }
   
