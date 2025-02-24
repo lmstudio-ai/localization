@@ -1,5 +1,38 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Copia l'enllaç de descàrrega del model",
+  "copyLmStudioLinkButton/toolTip": "Copia l'Enllaç de Descàrrega del Model",
 
-  "filter.noMatches": "Sense coincidències"
+  "filter.noMatches": "Sense coincidències",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Extraient Recursos"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Comprovant Compatibilitat de l'Entorn d'Execució"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexant Entorns d'Execució"
+    },
+    "indexingModels": {
+      "badge": "Indexant Models"
+    },
+    "authenticating": {
+      "badge": "Autenticant"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Actualitzant Paquet d'Extensió ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Inicia sessió en LM Studio Hub",
+    "authError": "Error en entrar",
+    "noAccount": "No tens un compte?",
+    "signUp": "Registra't",
+    "havingTrouble": "Tens problemes?",
+    "retry": "Torna a intentar"
+  },
+  "artifacts": {
+    "fetchError": "Failed to fetch artifacts"
+  },
+  "incompatible": "Incompatible",
+  "compatible": "Compatible"
 }
