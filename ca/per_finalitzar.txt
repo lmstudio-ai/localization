@@ -1,0 +1,6 @@
+settings
+    35
+    Pausa a la 117
+
+shared
+    34
