@@ -383,6 +383,7 @@
     "contextMenuDelete": "Delete...",
     "contextMenuShare": "Publish...",
     "contextMenuOpenInHub": "View on Hub",
+    "contextMenuPullFromHub": "Pull from Hub",
     "contextMenuPushChanges": "Push changes to Hub",
     "contextMenuPushingChanges": "Pushing...",
     "contextMenuPushedChanges": "Changes pushed",
