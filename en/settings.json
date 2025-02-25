@@ -1,6 +1,7 @@
 {
   "settingsDialogTitle": "App Settings",
   "settingsDialogButtonTooltip": "App Settings",
+  "accountDialogButtonTooltip": "Account",
 
   "settingsNewButtonPopover": {
     "primary": "App Settings are now at the bottom-right corner",
