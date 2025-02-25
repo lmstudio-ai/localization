@@ -55,87 +55,87 @@
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per defecte, LM Studio només mostra l'última versió de cada entorn d'execució compatible. Activa aquesta opció per veure'ls tots.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un Entorn d'Execució",
 
-  "runtimeOptions/uninstall": "Uninstall",
-  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
-  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
-  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
-  "runtimeOptions/uninstallDialog/cancel": "Cancel",
-  "runtimeOptions/noCompatibleRuntimes": "No compatible runtimes found",
-  "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
-  "runtimeOptions/noRuntimes": "No runtimes found",
+  "runtimeOptions/uninstall": "Desinstal·lar",
+  "runtimeOptions/uninstallDialog/title": "Desinstal·lar {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Desinstal·lar aquest entorn d'execució el suprimirà del teu ordinador. L'acció és irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arxius només se suprimiran després de reiniciar LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Error en desinstal·lar l'entorn d'execució",
+  "runtimeOptions/uninstallDialog/confirm": "Continua i Desinstal·la",
+  "runtimeOptions/uninstallDialog/cancel": "Cancel·lar",
+  "runtimeOptions/noCompatibleRuntimes": "Cap entorn d'execució compatible trobat",
+  "runtimeOptions/downloadIncompatibleRuntime": "Aquest entorn d'execució s'ha determinat incompatible amb el teu sistema. Segurament que no funcioni.",
+  "runtimeOptions/noRuntimes": "Cap entorn d'execució trobat",
 
   "runtimes": {
-    "manageLMRuntimes": "Manage LM Runtimes",
-    "includeOlderRuntimeVersions": "Include older runtime versions",
-    "dismiss": "Dismiss",
+    "manageLMRuntimes": "Gestiona els Entorns d'Execució del LM Runtimes",
+    "includeOlderRuntimeVersions": "Inclou versions antigues",
+    "dismiss": "Ignora",
     "updateAvailableToast": {
-      "title": "LM Runtime Update Available!"
+      "title": "Actualització de l'Entorn d'Execució Disponible!"
     },
     "updatedToast": {
-      "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
+      "title": " ✅ Enorn d'Execució Actualitzat: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Models {{compatibilityTypes}} recentment carregats utilitzaran l'entorn d'execució actualitzat."
     },
-    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "noAvx2ErrorMessage": "Tots els entorns d'execució del LM requereixen d'una CPU que suporti AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Runtime Extension Packs",
-      "refresh": "Refresh",
-      "refreshing": "Refreshing...",
+      "runtimeExtensionPacks": "Paquets d'Expansió d'Entorns d'Execució",
+      "refresh": "Refresca",
+      "refreshing": "Refrescant...",
       "filterSegment": {
-        "compatibleOnly": "Compatible Only",
-        "all": "All"
+        "compatibleOnly": "Només Compatibles",
+        "all": "Tots"
       },
       "card": {
-        "releaseNotes": "Release Notes",
-        "latestVersionInstalled": "Latest Version Installed",
-        "updateAvailable": "Update Available"
+        "releaseNotes": "Notes de la Versió",
+        "latestVersionInstalled": "Versió més Recent Instal·lada",
+        "updateAvailable": "Actualització Disponible"
       }
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Manage Active Runtimes"
+        "title": "Gestiona els Entorns d'Execució Actius"
       },
       "dropdownOptions": {
-        "installedVersions": "Manage Versions",
-        "close": "Close"
+        "installedVersions": "Gestiona les Versions",
+        "close": "Tanca"
       },
       "tabs": {
-        "all": "All",
-        "frameworks": "My Frameworks",
-        "engines": "My Engines"
+        "all": "Tots",
+        "frameworks": "Els Meus Frameworks",
+        "engines": "Els Meus Motors"
       },
       "detailsModal": {
-        "installedVersions": "Installed versions for {{runtimeName}}",
-        "manifestJsonTitle": "Manifest JSON (advanced)",
-        "releaseNotesTitle": "Release Notes",
-        "noReleaseNotes": "No release notes available for this version",
-        "back": "Back",
-        "close": "Close"
+        "installedVersions": "Versió instal·lada de {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (avançat)",
+        "releaseNotesTitle": "Notes de la Versió",
+        "noReleaseNotes": "No hi ha notes disponibles per aquesta versió",
+        "back": "Enrere",
+        "close": "Tanca"
       },
-      "noEngines": "No engines installed",
-      "noFrameworks": "No frameworks installed"
+      "noEngines": "Cap motor instal·lat",
+      "noFrameworks": "Cap frameworks instal·lat"
     }
   },
 
-  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+  "inferenceParams/noParams": "No hi ha paràmetres d'inferència configurables per aquest tipus de models",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
-    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "tabChipTitle": "Documentació",
+    "newToolUsePopover": "Tens disponibles fragments de codi a la\"Documentació\". Clica aquí per començar a conèixer l'ús de l'eina!",
+    "newToolUsePopoverTitle": "📚 Documentació",
+    "learnMore": "ℹ️ 👾 Per aprendre'n més sobre l'endpoint del servidor local del LM Studio, visita la [documentació](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
     },
     "chat": {
-      "title": "Chat"
+      "title": "Xat"
     },
     "structuredOutput": {
-      "title": "Structured Output"
+      "title": "Resultat Estructurat"
     },
     "imageInput": {
-      "title": "Image Input"
+      "title": "Input d'Imatges"
     },
     "embeddings": {
       "title": "Embeddings"
@@ -143,26 +143,26 @@
     "toolUse": {
       "title": "Tool Use",
       "tab": {
-        "saveAsPythonFile": "Save as Python file",
-        "runTheScript": "Run the script:",
-        "savePythonFileCopyPaste": "Save as Python file for a copy-and-paste command"
+        "saveAsPythonFile": "Guarda com un arxiu Python",
+        "runTheScript": "Executa el codi:",
+        "savePythonFileCopyPaste": "Guarda com un arxiu Python per tenir un comandament 'de copiar i enganxar'"
       }
     },
-    "newBadge": "New"
+    "newBadge": "Nou"
   },
 
-  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
-  "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+  "endpoints/openaiCompatRest/title": "Endpoints suportats (com els d'OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Llistat dels models carregats actualment",
+  "endpoints/openaiCompatRest/postCompletions": "Mode de Completat del Text. Prediu el següent token(s) donades unes instruccions. Nota: OpenAI considera aquest endpoint 'antiquat'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Completacions del xat. Envia un historial del xat al model per poder predir la següent resposta de l'assistent",
+  "endpoints/openaiCompatRest/postEmbeddings": "Empaquetat de Text. Genera paquets de text donat un input de text. Agafa una cadena o un conjunt de cadenes.",
 
-  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
-  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+  "model.createVirtualModelFromInstance": "Guarda la Configuració com un Nou Model Virtual",
+  "model.createVirtualModelFromInstance/error": "Error en guardar la configuració com un nou model virtual",
 
   "model": {
-    "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseSectionTitle": "Ús d'Eina",
+    "toolUseDescription": "S'ha detectat que aquest model ha estat entrenat pel seu ús com eina\n\nObre la <custom-link>documentació</custom-link> per obtenir més informació"
   },
 
   "apiConfigOptions/title": "API Configuration"
