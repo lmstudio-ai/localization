@@ -1,14 +1,17 @@
+chat
+    Pausa a 30
+
+config
+    saltat
+
 developer
     25
     ...
     45
-    Pausa a 58
+    144
 
 models
     16
-
-onboarding
-    REVISAR 'TOOLS'
 
 settings
     35
