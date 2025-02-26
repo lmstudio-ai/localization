@@ -382,9 +382,9 @@
     "contextMenuSelect": "Apply Preset",
     "contextMenuDelete": "Delete...",
     "contextMenuShare": "Publish...",
-    "contextMenuOpenInHub": "View on Hub",
-    "contextMenuPullFromHub": "Pull from Hub",
-    "contextMenuPushChanges": "Push changes to Hub",
+    "contextMenuOpenInHub": "View on Web",
+    "contextMenuPullFromHub": "Pull Latest",
+    "contextMenuPushChanges": "Push Changes to Hub",
     "contextMenuPushingChanges": "Pushing...",
     "contextMenuPushedChanges": "Changes pushed",
     "contextMenuExport": "Export File",
@@ -423,6 +423,12 @@
       "createFreeAccount": "Create a free account in the Hub to publish presets",
       "error": "Failed to push update",
       "confirmUpdateButton": "Push"
+    },
+    "pull": {
+      "error": "Failed to pull",
+      "contextMenuErrorMessage": "Failed to pull",
+      "success": "Pulled",
+      "pulling": "Pulling..."
     },
     "import": {
       "title": "Import a Preset from File",
