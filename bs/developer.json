@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Lokalni Server",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Učitaj postavke",
+  "modelSettings/placeholder": "Odaberite model za konfiguraciju",
+
+  "loadedModels/noModels": "Nema učitanih modela",
+
+  "serverOptions/title": "Opcije Servera",
+  "serverOptions/configurableTitle": "Konfigurisane Opcije",
+  "serverOptions/port/hint": "Postavite koji mrežni port će koristiti lokalni server. Po defaultu, LM Studio koristi port 1234. Možda ćete morati promijeniti ovo ako je port već u upotrebi.",
+  "serverOptions/port/subtitle": "Port za slušanje",
+  "serverOptions/autostart/title": "Automatski pokreni server",
+  "serverOptions/autostart/hint": "Automatski pokreni lokalni server kada se model učita",
+  "serverOptions/port/integerWarning": "Broj porta mora biti cijeli broj",
+  "serverOptions/port/invalidPortWarning": "Port mora biti između 1 i 65535",
+  "serverOptions/cors/title": "Omogući CORS",
+  "serverOptions/cors/hint1": "Omogućavanje CORS-a (Cross-origin Resource Sharing) bi omogućilo web stranicama koje posjećujete da prave zahtjeve prema LM Studio serveru.",
+  "serverOptions/cors/hint2": "CORS može biti potreban prilikom pravljenja zahtjeva sa web stranice ili VS Code / drugih ekstenzija.",
+  "serverOptions/cors/subtitle": "Dozvoli cross-origin zahtjeve",
+  "serverOptions/network/title": "Služi na Lokalnoj Mreži",
+  "serverOptions/network/subtitle": "Izloži server uređajima na mreži",
+  "serverOptions/network/hint1": "Da li dozvoliti konekcije sa drugih uređaja na mreži.",
+  "serverOptions/network/hint2": "Ako nije označeno, server će slušati samo na localhost.",
+  "serverOptions/verboseLogging/title": "Detaljno Logiranje",
+  "serverOptions/verboseLogging/subtitle": "Omogući detaljno logiranje za lokalni server",
+  "serverOptions/contentLogging/title": "Logiraj Prompte i Odgovore",
+  "serverOptions/contentLogging/subtitle": "Postavke lokalnog zahtjeva / odgovora logiranja",
+  "serverOptions/contentLogging/hint": "Da li logirati promte i/ili odgovore u lokalni server log fajl.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time Učitavanje Modela",
+  "serverOptions/jitModelLoading/hint": "Kada je omogućeno, ako zahtjev specificira model koji nije učitan, on će biti automatski učitan i korišten. Pored toga, \"/v1/models\" endpoint će također uključivati modele koji još nisu učitani.",
+  "serverOptions/loadModel/error": "Neuspješno učitavanje modela",
+
+  "serverLogs/scrollToBottom": "Skoči na dno",
+  "serverLogs/clearLogs": "Obriši logove ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Otvori folder sa logovima servera",
+
+  "runtimeSettings/title": "Postavke Runtimes-a",
+  "runtimeSettings/chooseRuntime/title": "Konfiguriši Runtimes",
+  "runtimeSettings/chooseRuntime/description": "Odaberite runtime za svaki format modela",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Prikaži sve verzije",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Po defaultu, LM Studio prikazuje samo najnoviju verziju svakog kompatibilnog runtime-a. Omogućite ovu opciju da vidite sve dostupne runtime-ove.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Odaberite Runtime",
+
+  "runtimeOptions/uninstall": "Deinstaliraj",
+  "runtimeOptions/uninstallDialog/title": "Deinstalirati {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Deinstaliranjem ovog runtime-a uklonit ćete ga sa sistema. Ova akcija je nepovratna.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Neki fajlovi mogu biti uklonjeni tek nakon što se LM Studio ponovo pokrene.",
+  "runtimeOptions/uninstallDialog/error": "Neuspješno deinstaliranje runtime-a",
+  "runtimeOptions/uninstallDialog/confirm": "Nastavi i Deinstaliraj",
+  "runtimeOptions/uninstallDialog/cancel": "Otkaži",
+  "runtimeOptions/noCompatibleRuntimes": "Nema kompatibilnih runtime-ova",
+  "runtimeOptions/downloadIncompatibleRuntime": "Ovaj runtime je određen kao nekompatibilan sa vašim računarom. Najvjerovatnije neće raditi.",
+  "runtimeOptions/noRuntimes": "Nema pronađenih runtime-ova",
+
+  "inferenceParams/noParams": "Nema konfigurabilnih parametara inferencije dostupnih za ovaj tip modela",
+
+  "endpoints/openaiCompatRest/title": "Podržani endpointi (OpenAI-like)",
+  "endpoints/openaiCompatRest/getModels": "Prikaži trenutno učitane modele",
+  "endpoints/openaiCompatRest/postCompletions": "Text Completions mod. Predvidite sljedeći token(e) na osnovu prompta. Napomena: OpenAI smatra ovaj endpoint 'zastarjelim'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Pošaljite historiju chata modelu da predvidi sljedeći odgovor asistenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generišite tekstualne embedding-e za dati tekstualni unos. Prihvaća string ili niz stringova.",
+
+  "model.createVirtualModelFromInstance": "Sačuvaj Postavke kao Novi Virtualni Model",
+  "model.createVirtualModelFromInstance/error": "Neuspješno čuvanje postavki kao novi virtualni model",
+
+  "apiConfigOptions/title": "API Konfiguracija"
+}
