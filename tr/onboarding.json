@@ -1,6 +1,25 @@
 {
-  "action.skipOnboarding": "Tanıtımı atla, ne yaptığımı biliyorum.",
+  "action.skipOnboarding": "Başlangıç Kılavuzunu Atla",
   "action.next": "İleri",
   "action.back": "Geri",
-  "action.finish": "Bitir"
+  "action.finish": "Bitir",
+
+  "dismissable_rag_modal": {
+    "description": "Şimdi Kendi Belgelerinizle Retrieval Augmented Generation (RAG) kullanarak sohbet edebilirsiniz. İşte nasıl çalıştığı:",
+    "instructions": {
+      "attach_files": {
+        "title": "Dosyaları Ekle",
+        "description": "Aynı anda en fazla 5 dosya yükleyebilir ve toplam boyutları 30MB olabilir. Desteklenen formatlar PDF, DOCX, TXT ve CSV'dir."
+      },
+      "be_specific": {
+        "title": "Ayrıntılı Olun",
+        "description": "Sorularınızı sorduğunuzda mümkün olduğunca detay verin. Bu, sistemin belgelerinizden en ilgili bilgiyi almaya yardımcı olur."
+      },
+      "get_responses": {
+        "title": "Cevaplar Alın ve Deney Yapın",
+        "description": "LLM, sorunuzu ve belgelerinizden alınan alıntıları inceleyecek ve bir yanıt üretecektir. En iyi sonucu bulmak için farklı sorgular deneyin."
+      }
+    }
+  }
 }
+
