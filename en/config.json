@@ -111,6 +111,17 @@
   "llm.prediction.reasoning.parsing/title": "Reasoning Section Parsing",
   "llm.prediction.reasoning.parsing/subTitle": "How to parse reasoning sections in the model's output",
 
+  "llm.load.envVars/title": "Env. Variables",
+  "llm.load.envVars/subTitle": "Active environment variables during model lifetime",
+  "llm.load.envVars/key/placeholder": "Select var...",
+  "llm.load.envVars/value/placeholder": "Value",
+  "llm.load.mainGpu/title": "Main GPU",
+  "llm.load.mainGpu/subTitle": "The GPU to prioritize for model computation",
+  "llm.load.mainGpu/placeholder": "Select main GPU...",
+  "llm.load.splitStrategy/title": "Split Strategy",
+  "llm.load.splitStrategy/subTitle": "How to split model computation across GPUs",
+  "llm.load.splitStrategy/placeholder": "Select split strategy...",
+
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
   "llm.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
@@ -282,7 +293,7 @@
       "max": "MAX",
       "off": "OFF"
     },
-    "llamaAccelerationSplitStrategy": {
+    "gpuSplitStrategy": {
       "evenly": "Evenly",
       "favorMainGpu": "Favor Main GPU"
     },
@@ -498,22 +509,6 @@
   "hardware": {
     "advancedGpuSettings": "Advanced GPU Settings",
     "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
-    "advancedGpuSettings.reset": "Reset to default",
-    "environmentVariables": {
-      "title": "Env. Variables",
-      "description": "Active environment variables during model lifetime.",
-      "key.placeholder": "Select var...",
-      "value.placeholder": "Value"
-    },
-    "mainGpu": {
-      "title": "Main GPU",
-      "description": "The GPU to prioritize for model computation.",
-      "placeholder": "Select main GPU..."
-    },
-    "splitStrategy": {
-      "title": "Split Strategy",
-      "description": "How to split model computation across GPUs.",
-      "placeholder": "Select split strategy..."
-    }
+    "advancedGpuSettings.reset": "Reset to default"
   }
 }
