@@ -111,10 +111,6 @@
   "llm.prediction.reasoning.parsing/title": "Reasoning Section Parsing",
   "llm.prediction.reasoning.parsing/subTitle": "How to parse reasoning sections in the model's output",
 
-  "llm.load.envVars/title": "Env. Variables",
-  "llm.load.envVars/subTitle": "Active environment variables during model lifetime",
-  "llm.load.envVars/key/placeholder": "Select var...",
-  "llm.load.envVars/value/placeholder": "Value",
   "llm.load.mainGpu/title": "Main GPU",
   "llm.load.mainGpu/subTitle": "The GPU to prioritize for model computation",
   "llm.load.mainGpu/placeholder": "Select main GPU...",
@@ -507,8 +503,28 @@
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
   "hardware": {
-    "advancedGpuSettings": "Advanced GPU Settings",
+    "advancedGpuSettings": "Environment Variables",
     "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
     "advancedGpuSettings.reset": "Reset to default"
+  },
+
+  "envVars/title": "Set an Environment Variable",
+  "envVars": {
+    "select": {
+      "placeholder": "Select an environment variable...",
+      "noOptions": "No more available",
+      "filter": {
+        "placeholder": "Filter search results",
+        "resultsFound_zero": "No results found",
+        "resultsFound_one": "1 result found",
+        "resultsFound_other": "{{count}} results found"
+      }
+    },
+    "inputValue": {
+      "placeholder": "Enter a value"
+    },
+    "values": {
+      "title": "Current Values"
+    }
   }
 }
