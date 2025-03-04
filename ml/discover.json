@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "ശേഖരങ്ങൾ",
+  "collectionsColumn/collectionError": "കളക്ഷൻ ഡീറ്റെയിൽസ് ലോഡ് ചെയ്യുന്നതിൽ എറർ സംഭവിച്ചിട്ടുണ്ട്, ദയവായി മുകളിലുള്ളത് റിഫ്രഷ് ചെയ്‌തുനോക്കുക്ക ",
+  "bookmarksColumn": "ബുക്ക്മാർക്കുകൾ",
+  "searchBar/placeholder": "ഹഗ്ഗിംഗ് ഫേസിൽ മോഡലുകൾക്കായി തിരയുക...",
+  "searchBar/huggingFaceError": "ഹഗ്ഗിംഗ് ഫേസിൽ നിന്ന് ഫലങ്ങൾ ലഭ്യമാക്കുന്നതിൽ ഒരു എറർ സംഭവിച്ചു, ദയവായി അൽപ്പം കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക.",
+  "sortBy": "അനുസരിച്ച് അടുക്കുക",
+  "searchSortKey.default/title": "ബെസ്റ്റ് മാച്ച്",
+  "searchSortKey.likes/title": "ഏറ്റവും ഇഷ്ടപ്പെട്ടവ",
+  "searchSortKey.downloads/title": "ഏറ്റവും കൂടുതൽ ഡൗൺലോഡുകൾ ചെയ്‌തവ",
+  "searchSortKey.lastModified/title": "അടുത്തിടെ അപ്ഡേറ്റ് ചെയ്തത്",
+  "searchSortKey.createdAt/title": "അടുത്തിടെ സൃഷ്ടിച്ചത്",
+  "download.option.willFitEstimation.caveat": "മോഡലിൻ്റെ ആർക്കിടെക്ചർ, മോഡൽ ഫയൽ സമഗ്രത, അല്ലെങ്കിൽ നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ ലഭ്യമായ മെമ്മറിയുടെ അളവ് എന്നിവ പോലെ, ലോഡ് ചെയ്യുന്നതിൽ നിന്ന് തടയുന്ന മറ്റ് ഘടകങ്ങളും ഉണ്ടായിരിക്കാം.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "പൂർണ്ണ GPU ഓഫ്‌ലോഡ് സാധ്യമാണ്",
+  "download.option.willFitEstimation.fullGPUOffload/description": "ഈ മോഡൽ നിങ്ങളുടെ GPU-വിന്റെ മെമ്മറിയിൽ പൂർണ്ണമായും ഉൾപ്പെട്ടേക്കാം. ഇത് അനുമാനത്തെ ഗണ്യമായി വേഗത്തിലാക്കിയേക്കാം.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "ഭാഗിക GPU ഓഫ്‌ലോഡ് സാധ്യമാണ്",
+  "download.option.willFitEstimation.partialGPUOffload/description": "ഈ മോഡൽ നിങ്ങളുടെ GPU-വിന്റെ മെമ്മറിയിൽ ഭാഗികമായി ഉൾപ്പെട്ടേക്കാം. ഇത് പലപ്പോഴും അനുമാനത്തെ ഗണ്യമായി വേഗത്തിലാക്കിയേക്കാം.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "അനുയോജ്യമാകാൻ സാധ്യതയുള്ളത്",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "ഈ മോഡൽ നിങ്ങളുടെ മെഷീനിന്റെ മെമ്മറിയിൽ ഉൾക്കൊള്ളാൻ സാധ്യതയുണ്ട്.",
+  "download.option.willFitEstimation.willNotFit/title": "ഈ മെഷീനിനെ സംബന്ധിച്ചു വളരെ വലുതായിരിക്കാം",
+  "download.option.willFitEstimation.willNotFit/description": "ഈ മോഡൽ ഫയൽ വിജയകരമായി ഉപയോഗിക്കുന്നതിനുള്ള മെമ്മറി ആവശ്യകതകൾ നിങ്ങളുടെ മെഷീനിൽ ലഭ്യമായ റിസോഴ്സുകളെക്കാൾ കൂടുതലായിരിക്കാം. ഈ ഫയൽ ഡൗൺലോഡ് ചെയ്യുന്നത് ശുപാർശ ചെയ്യുന്നില്ല.",
+  "download.option.recommended/title": "ശുപാര്ശ ചെയ്യുന്നു",
+  "download.option.recommended/description": "നിങ്ങളുടെ ഹാർഡ്‌വെയറിനെ അടിസ്ഥാനമാക്കി, ഈ ഓപ്ഷൻ ശുപാർശ ചെയ്യുന്നു.",
+  "download.option.downloaded/title": "ഡൗൺലോഡ് ചെയ്‌തു",
+  "download.option.downloading/title": "ഡൌൺലോഡ് ചെയ്‌തുകൊണ്ടിരിക്കുന്നു  ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "ഫീഡ് റിഫ്രഷ് ചെയ്യുക"
+}
