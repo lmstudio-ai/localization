@@ -509,21 +509,21 @@
 
     "gpuSettings": {
       "split": {
-        "title": "GPU Split",
-        "placeholder": "Select a GPU distribution",
+        "title": "Allocation Strategy",
+        "placeholder": "Select a GPU memory allocation",
         "options": {
           "evenly": {
             "title": "Split evenly",
-            "description": "Distribute GPU resources evenly across GPUs"
+            "description": "Distribute allocated memory evenly across GPUs"
           },
           "priorityOrder": {
-            "title": "Custom priority order",
-            "description": "Prioritize selected GPUs by drag and drop custom priority order"
+            "title": "Fill in order",
+            "description": "Allocate memory in the first GPU, then proceed to the second, and so on"
           }
         }
       },
       "priority": {
-        "title": "Priority"
+        "title": "GPU Fill Order"
       }
     }
   },
