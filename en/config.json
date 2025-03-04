@@ -503,9 +503,9 @@
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
   "hardware": {
-    "advancedGpuSettings": "Environment Variables",
-    "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
-    "advancedGpuSettings.reset": "Reset to default",
+    "environmentVariables": "Environment Variables",
+    "environmentVariables.info": "If you're unsure, leave these at their default values",
+    "environmentVariables.reset": "Reset to default",
 
     "gpuSettings": {
       "split": {
