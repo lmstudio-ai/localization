@@ -505,9 +505,30 @@
   "hardware": {
     "advancedGpuSettings": "Environment Variables",
     "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
-    "advancedGpuSettings.reset": "Reset to default"
+    "advancedGpuSettings.reset": "Reset to default",
+
+    "gpuSettings": {
+      "split": {
+        "title": "GPU Split",
+        "placeholder": "Select a GPU distribution",
+        "options": {
+          "evenly": {
+            "title": "Split evenly",
+            "description": "Distribute GPU resources evenly across GPUs"
+          },
+          "priorityOrder": {
+            "title": "Custom priority order",
+            "description": "Prioritize selected GPUs by drag and drop custom priority order"
+          }
+        }
+      },
+      "priority": {
+        "title": "Priority"
+      }
+    }
   },
 
+  "load.gpuSplitConfig/title": "GPU Split Configuration",
   "envVars/title": "Set an Environment Variable",
   "envVars": {
     "select": {
