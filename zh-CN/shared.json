@@ -1,5 +1,38 @@
 {
   "copyLmStudioLinkButton/toolTip": "复制模型下载链接",
 
-  "filter.noMatches": "没有匹配项"
+  "filter.noMatches": "没有匹配项",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "提取资源"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "检查运行时兼容性"
+    },
+    "indexingRuntimes": {
+      "badge": "索引运行时"
+    },
+    "indexingModels": {
+      "badge": "索引模型"
+    },
+    "authenticating": {
+      "badge": "验证中"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "更新扩展包 ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "登录到 LM Studio Hub",
+    "authError": "验证失败",
+    "noAccount": "还没有账户？",
+    "signUp": "注册",
+    "havingTrouble": "遇到问题了？",
+    "retry": "重试"
+  },
+  "artifacts": {
+    "fetchError": "无法拉取 artifacts"
+  },
+  "incompatible": "不兼容",
+  "compatible": "兼容"
 }
