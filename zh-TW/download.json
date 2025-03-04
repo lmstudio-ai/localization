@@ -1,18 +1,23 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "解壓縮中...",
-  "finalizing": "正在完成下載...（這可能需要幾分鐘）",
-  "noOptions": "沒有可用的選項下載",
-  "deeplink/confirmation/title": "從 Hugging Face 下載模型 🤗",
+  "postDownloadActionExecutor.zipExtraction/status": "正在解壓縮...",
+  "finalizing": "完成下載...（這可能需要幾分鐘）",
+  "noOptions": "沒有可供下載的相容選項",
+
+  "deeplink/confirmation/title": "從 Hugging Face 🤗 下載模型",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "選擇推薦的",
-  "deeplink/confirmation/selectOption": "選擇下載選項",
-  "deeplink/confirmation/recommendedOption": "對大多數使用者來說，這可能是最佳選項",
+  "deeplink/confirmation/selectRecommended": "選取建議",
+  "deeplink/confirmation/selectOption": "選取下載選項",
+  "deeplink/confirmation/recommendedOption": "可能是大多數使用者的最佳選擇",
   "deeplink/confirmation/downloadButton": "下載",
-  "deeplink/confirmation/nevermindButton": "沒關係",
+  "deeplink/confirmation/nevermindButton": "算了",
   "deeplink/confirmation/modelPresent/title": "已找到 Hugging Face 模型 ✅",
-  "deeplink/confirmation/modelPresent/body": "好消息！該模型文件已存在於你的本地端。",
-  "deeplink/confirmation/loadInChat": "在新聊天中載入 {{modelName}}",
-  "deeplink/error/modelNotFound/title": "糟糕，未能找到該模型",
+  "deeplink/confirmation/modelPresent/body": "好消息！此模型檔案已在您的本機電腦上提供。",
+  "deeplink/confirmation/loadInChat": "在新聊天室中載入 {{modelName}}",
+  "deeplink/error/modelNotFound/title": "糟糕，我們無法找到此模型",
   "deeplink/error/modelNotFound/body": "請仔細檢查模型名稱，並考慮嘗試其他下載選項。",
-  "deeplink/actions/trySearching": "嘗試搜尋 {{modelName}} 在 Hugging Face 上"
+  "deeplink/actions/trySearching": "嘗試在 Hugging Face 上搜尋 {{modelName}}",
+
+  "downloadsPanel/title": "下載",
+  "downloadsPanel/sectionTitle/ongoing": "進行中",
+  "downloadsPanel/sectionTitle/completed": "已完成"
 }
