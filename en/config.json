@@ -439,14 +439,14 @@
     },
     "import": {
       "title": "Import a Preset from File",
-      "dragPrompt": "Drag and drop preset JSON files or <custom-link>select from your computer</custom-link>",
+      "dragPrompt": "Drag and drop preset files (.tar.gz or preset.json) or <custom-link>select from your computer</custom-link>",
       "remove": "Remove",
       "cancel": "Cancel",
       "importPreset_zero": "Import Preset",
       "importPreset_one": "Import Preset",
       "importPreset_other": "Import {{count}} Presets",
       "selectDialog": {
-        "title": "Select Preset File (.json)",
+        "title": "Select Preset File (preset.json or .tar.gz)",
         "button": "Import"
       },
       "error": "Failed to import preset",
