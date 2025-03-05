@@ -28,18 +28,6 @@
   "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
   "action.model.delete.confirmation/confirm": "Delete",
 
-  "action.createVirtual": "Create Preset",
-  "action.createVirtual.details/title": "Create a Preset",
-  "action.createVirtual.details/create": "Create",
-  "action.createVirtual.details/cancel": "Cancel",
-  "action.createVirtual.details.base/label": "Base Model",
-  "action.createVirtual.details.name/label": "Name",
-  "action.createVirtual.details.includeMachineDependent/label": "Include Machine-Dependent Configs",
-  "action.createVirtual.details.includeMachineDependent/hint": "Whether to include machine-dependent configurations (such as GPU settings) in the preset. Not recommended for sharing.",
-  "action.createVirtual.details.config/label": "Config Overrides",
-  "action.createVirtual.details.config.empty": "No config overrides",
-  "action.createVirtual.details/error": "Failed to create virtual model.",
-
   "loader.model.bundled": "Bundled",
   "action.cancel": "Cancel",
   "indexingOngoing": "Indexing models... This may take a few seconds",
@@ -89,5 +77,22 @@
   "loader.action.cancel": "Cancel",
   "loader.info.clickOnModelToLoad": "Click on a model to load it",
   "loader.info.configureLoadParameters": "Configure the model load parameters",
-  "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation"
+  "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation",
+
+  "virtual": {
+    "local": {
+      "create": "Create Virtual Model",
+      "title": "Create a Local Virtual Model",
+      "description": "Create a virtual model by bundling a model with a set of configurations. The underlying weights will not be duplicated.",
+      "modelKey.label": "Model Key",
+      "modelKey.placeholder": "Enter a unique model key",
+      "modelKey.normalized": "Your model key will be normalized to: {{normalized}}",
+      "baseModel.label": "Base Model",
+      "baseModel.placeholder": "Select a base model",
+      "baseModel.empty": "Download a model to use as the base model",
+      "next": "Next",
+      "confirm": "Create",
+      "error": "Failed to create virtual model"
+    }
+  }
 }
