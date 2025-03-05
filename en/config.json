@@ -226,6 +226,7 @@
     "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
     "button/publish": "Publish to Hub",
     "button/pushUpdate": "Push Changes to Hub",
+    "button/noChangesToPush": "No changes to push",
     "button/export": "Export",
     "hubLabel": "Preset from the Hub by {{user}}"
   },
