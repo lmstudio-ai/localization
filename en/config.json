@@ -526,7 +526,8 @@
       "priority": {
         "title": "GPU Fill Order"
       },
-      "deviceId.info": "Unique identifier for this device"
+      "deviceId.info": "Unique identifier for this device",
+      "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models"
     }
   },
 
