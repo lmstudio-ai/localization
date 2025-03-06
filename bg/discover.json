@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Колекция",
+  "collectionsColumn/collectionError": "Грешка при зареждането на детайлите на колекцията, моля опитайте отново",
+  "bookmarksColumn": "Bookmarks",
+  "searchBar/placeholder": "Търси модели от Hugging Face...",
+  "searchBar/huggingFaceError": "Имаше грешка при извличането на резултати от Hugging Face, моля опитайте отново",
+  "sortBy": "Сортирай по",
+  "searchSortKey.default/title": "Най-добро съвпадение",
+  "searchSortKey.likes/title": "Най-много харесван",
+  "searchSortKey.downloads/title": "Най-много изтеглян",
+  "searchSortKey.lastModified/title": "Наскоро актуализиран",
+  "searchSortKey.createdAt/title": "Наскоро създаден",
+  "download.option.willFitEstimation.caveat": "Може да има и други фактори, които пречат на зареждането, като архитектурата на модела, целостта на файловете на модела или наличната памет на вашия компютър.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Пълно прехвърляне на натоварването към GPU е възможно.",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Този модел може да се зареди напълно в паметта на вашия GPU. Това може значително да ускори неговите резултати.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Частично прехвърляне на натоварването към GPU е възможно",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Този модел може да се частично да се зареди в паметта на вашия GPU. Това може да ускори неговите резултати.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Възможно е да тръгне модела",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Възможно е този модел да успее да тръгне в паметта на настоящия компютър.",
+  "download.option.willFitEstimation.willNotFit/title": "Твърде голям и тежък модел за настоящия компютър",
+  "download.option.willFitEstimation.willNotFit/description": "Изискванията за памет за успешно използване на този модел може да надхвърлят наличните ресурси на настоящия компютър. Изтеглянето на този файл НЕ се препоръчва.",
+  "download.option.recommended/title": "Препоръчителни",
+  "download.option.recommended/description": "Базиран на вашия хардуер, препоръчителна опция.",
+  "download.option.downloaded/title": "Изтегляни",
+  "download.option.downloading/title": "Изтегляне ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Презареди страницата"
+}
