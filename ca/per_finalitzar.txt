@@ -1,24 +1,9 @@
-chat
-    Pausa a 30
-
 config
-    saltat
-
-developer
-    25
+    72
     ...
-    45
-    144
-
-models
-    16
-
-settings
-    35
-    139
-    140
-    149
-    150
-
-shared
-    34
+    74
+    
+    78
+    ...
+    112
+    Pausa a la 165
