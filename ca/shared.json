@@ -31,7 +31,7 @@
     "retry": "Torna a intentar"
   },
   "artifacts": {
-    "fetchError": "Failed to fetch artifacts"
+    "fetchError": "Error en cercar artifactes"
   },
   "incompatible": "Incompatible",
   "compatible": "Compatible"

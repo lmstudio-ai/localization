@@ -23,26 +23,26 @@
   "serverOptions/network/hint1": "Decideix si permetre les connexions des d'altres dispositius de la xarxa.",
   "serverOptions/network/hint2": "Si es desmarca, el servidor només farà cas al localhost.",
   "serverOptions/verboseLogging/title": "Verbose Logging",
-  "serverOptions/verboseLogging/subtitle": "Enable verbose logging for the local server",
-  "serverOptions/contentLogging/title": "Log Prompts and Responses",
-  "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
-  "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
-  "serverOptions/fileLoggingMode/title": "File Logging Mode",
-  "serverOptions/fileLoggingMode/off/title": "OFF",
-  "serverOptions/fileLoggingMode/off/hint": "Don't create log files",
-  "serverOptions/fileLoggingMode/succinct/title": "Succinct",
-  "serverOptions/fileLoggingMode/succinct/hint": "Log the same content as in the console. Long requests will be truncated.",
-  "serverOptions/fileLoggingMode/full/title": "Full",
-  "serverOptions/fileLoggingMode/full/hint": "Don't truncate long requests.",
-  "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
-  "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
-  "serverOptions/loadModel/error": "Failed to load model",
-  "serverOptions/jitModelLoadingTTL/title": "Auto unload unused JIT loaded models",
-  "serverOptions/jitModelLoadingTTL/hint": "A model that was loaded Just-in-time (JIT) to serve an API request will be automatically unloaded after being unused for some duration (TTL).",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "Max idle TTL",
-  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "serverOptions/verboseLogging/subtitle": "Activa verbose logging pel servidor local",
+  "serverOptions/contentLogging/title": "Desa Prompts i Respostes al Log",
+  "serverOptions/contentLogging/subtitle": "Peticions Locals / configuració de respostes al logging",
+  "serverOptions/contentLogging/hint": "Decideix si desar al log els prompts i/o les repostes del servidor local al fitxer log.",
+  "serverOptions/fileLoggingMode/title": "Mode del Fitxer Logging",
+  "serverOptions/fileLoggingMode/off/title": "APAGAT",
+  "serverOptions/fileLoggingMode/off/hint": "No es creen fitxers log",
+  "serverOptions/fileLoggingMode/succinct/title": "Parcials",
+  "serverOptions/fileLoggingMode/succinct/hint": "Desa el mateix que aparegui a la consola. Les peticions llargues es truncaran.",
+  "serverOptions/fileLoggingMode/full/title": "Complert",
+  "serverOptions/fileLoggingMode/full/hint": "No trunquis les peticions llargues.",
+  "serverOptions/jitModelLoading/title": "Càrrega de Models Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "En activar-ho, si una petició és específica per un model que no està carregat, es carregarà i utilitzarà el model automàticament. A més, l'endpoint \"/v1/models\" també inclourà els models encara no carregats.",
+  "serverOptions/loadModel/error": "Error en carregar el model",
+  "serverOptions/jitModelLoadingTTL/title": "Descarrega automàticament models JIT carregats que no s'utilitzin",
+  "serverOptions/jitModelLoadingTTL/hint": "Un model que ha estat carregat Just-in-time (JIT) per respondre a una petició de l'API es descarregarà automàticament una vegada deixi d'utlitzar-se després de cert temps (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Descans Màxim TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minuts",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Mantingues Només l'Últim Model Carregat JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Assegura't que com a mínim sempre hi haurà un model carregat via JIT (descarregarà models previs)",
 
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Buida el registre ({{shortcut}})",
@@ -141,11 +141,11 @@
       "title": "Embeddings"
     },
     "toolUse": {
-      "title": "Tool Use",
+      "title": "Ús d'Eina",
       "tab": {
-        "saveAsPythonFile": "Guarda com un arxiu Python",
+        "saveAsPythonFile": "Desa com un arxiu Python",
         "runTheScript": "Executa el codi:",
-        "savePythonFileCopyPaste": "Guarda com un arxiu Python per tenir un comandament 'de copiar i enganxar'"
+        "savePythonFileCopyPaste": "Desa com un arxiu Python per tenir un comandament 'de copiar i enganxar'"
       }
     },
     "newBadge": "Nou"
@@ -157,8 +157,8 @@
   "endpoints/openaiCompatRest/postChatCompletions": "Completacions del xat. Envia un historial del xat al model per poder predir la següent resposta de l'assistent",
   "endpoints/openaiCompatRest/postEmbeddings": "Empaquetat de Text. Genera paquets de text donat un input de text. Agafa una cadena o un conjunt de cadenes.",
 
-  "model.createVirtualModelFromInstance": "Guarda la Configuració com un Nou Model Virtual",
-  "model.createVirtualModelFromInstance/error": "Error en guardar la configuració com un nou model virtual",
+  "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
+  "model.createVirtualModelFromInstance/error": "Error en desar la configuració com un nou model virtual",
 
   "model": {
     "toolUseSectionTitle": "Ús d'Eina",

@@ -32,7 +32,7 @@
   "appUpdatedToastDescriptionPrefix": "Fes una ullada ",
   "AppUpdatedToastDescriptionReleaseNotes": "Notes de la Versió",
   "toolUseToastTitle": "Nou a la Beta: Tool Use i Function Calls API",
-  "toolUseToastDescription": "Drop-in replacement for OpenAI Tool Use with select models such as Llama 3.1/3.2, Mistral, and Qwen.",
+  "toolUseToastDescription": "Substitució de l'Ús d'Eina d'OpenAI amb els models seleccionats com Llama 3.1/3.2, Mistral, and Qwen.",
   "toolUseToastButtonText": "Ves a la pàgina del desenvolupador per probar-ho",
   "doItLater": "Ho faré més tard",
   "failedToUpdate": "Error en actualitzar. Si us plau, comprova la teva connexió a internet o intenta-ho més tard.",
@@ -136,18 +136,18 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Estableix un límit personalitzat a la càrrega de models. No es carregaran els models si excedeixen el límit establert.",
 
-  "experimentalLoadPresets": "Enable model load configuration support in presets",
-  "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
+  "experimentalLoadPresets": "Permet el suport de configuracions de càrrega per a models en les plantilles",
+  "experimentalLoadPresets.description": "Decideix si permetre a les plantilles incloure configuracions de càrrega de models. Aquesta característica és experimental i agraïriem que ens donéssiu la vostra opinió.",
 
-  "unloadPreviousJITModelOnLoad": "JIT models auto-evict: ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "unloadPreviousJITModelOnLoad": "JIT models auto-evict: assegura que com a màxim 1 model està carregat via JIT en qualsevol moment (descarregarà models previs)",
   "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Expansió d'Entorns d'Execució seleccionats",
   "useHFProxy.label": "Utilitza el Hugging Face Proxy de LM Studio",
   "useHFProxy.hint": "Utilitza el Hugging Face Proxy de LM Studio per cercar i descarregar models. Això pot ajudar als usuaris que tenen problemes accedint directament a Hugging Face.",
   "separateReasoningContentInResponses": "Quan sigui possible, separa el `reasoning_content` i el `content` a les respostes de l'API",
   "separateReasoningContentInResponses/hint": "Aquest paràmetre només funcionarà per models 'racionals' com DeepSeek R1, les seves variants destil·lades i altres podels que produeixen CoT entre les etiquetes `<think>` i `</think>`.",
 
-  "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
-  "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
+  "promptWhenCommittingUnsavedChangesWithNewFields": "Plantilles: Mostra un diàleg de confirmació en afegir nous paràmetres a la plantilla",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "Això és útil si vols evitar afegir accidentalment nous camps a les plantilles",
 
   "enableLocalService": "Activa el Servei Local de LLM",
   "enableLocalService.subtitle": "Utilitza el servidor de LM Studio sense necessitat de mantenir l'app oberta",
