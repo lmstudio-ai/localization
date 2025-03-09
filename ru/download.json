@@ -15,5 +15,9 @@
   "deeplink/confirmation/loadInChat": "Загрузить {{ modelName }} в новый чат",
   "deeplink/error/modelNotFound/title": "Ой, мы не смогли найти эту модель",
   "deeplink/error/modelNotFound/body": "Проверьте название модели и попробуйте другую опцию загрузки.",
-  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face"
+  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face",
+
+  "downloadsPanel/title": "Загрузки",
+  "downloadsPanel/sectionTitle/ongoing": "Текущие",
+  "downloadsPanel/sectionTitle/completed": "Завершено"
 }

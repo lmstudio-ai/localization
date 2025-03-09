@@ -35,6 +35,10 @@
   "action.createVirtual.details/includeMachineDependent/hint": "Указывать ли конфигурации, зависящие от машины (такие как настройки GPU), в пресете. Не рекомендуется для совместного использования.",
   "action.createVirtual.details/config/label": "Переопределения конфигурации",
   "action.createVirtual.details/config.empty": "Нет переопределений конфигурации",
+  "action.createVirtual.details.includeMachineDependent/label": "Включить машинно-зависимые конфигурации",
+  "action.createVirtual.details.includeMachineDependent/hint": "Включать ли машинно-зависимые конфигурации (например, настройки GPU) в пресет. Не рекомендуется для совместного использования.",
+  "action.createVirtual.details.config/label": "Переопределения конфигурации",
+  "action.createVirtual.details.config.empty": "Нет переопределений конфигурации",
   "action.createVirtual.details/error": "Не удалось создать виртуальную модель.",
 
   "loader.model.bundled": "В комплекте",
