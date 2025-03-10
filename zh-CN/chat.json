@@ -168,7 +168,7 @@
         "uninstall": "卸载"
       },
       "actionButtons": {
-        "create": "+ 新建,
+        "create": "+ 新建",
         "import": "导入",
         "discover": "发现"
       },
