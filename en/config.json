@@ -509,10 +509,14 @@
     "environmentVariables.reset": "Reset to default",
 
     "gpuSettings": {
+      "editMaxCapacity": "Edit Max Capacity",
+      "hideEditMaxCapacity": "Hide Edit Max Capacity",
+      "allOffWarning": "All GPUs are off or disabled, ensure that there is some GPU allocation to enable loading models",
       "split": {
-        "title": "Allocation Strategy",
+        "title": "GPU Configuration",
         "placeholder": "Select a GPU memory allocation",
         "options": {
+          "generalDescription": "How to utilize GPUs for model inference",
           "evenly": {
             "title": "Split evenly",
             "description": "Distribute allocated memory evenly across GPUs"
@@ -520,6 +524,11 @@
           "priorityOrder": {
             "title": "Fill in order",
             "description": "Allocate memory in the first GPU, then proceed to the second, and so on"
+          },
+          "custom": {
+            "title": "Custom",
+            "description": "Allocate memory",
+            "maxAllocation": "Maximum Allocation"
           }
         }
       },
