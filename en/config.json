@@ -288,7 +288,8 @@
     },
     "llamaAccelerationOffloadRatio": {
       "max": "MAX",
-      "off": "OFF"
+      "off": "OFF",
+      "auto": "AUTO"
     },
     "gpuSplitStrategy": {
       "evenly": "Evenly",
