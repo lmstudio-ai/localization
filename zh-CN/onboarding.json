@@ -20,5 +20,23 @@
         "description": "大语言模型将查看您的查询和从文档中检索到的摘录，并尝试生成回应。通过尝试不同的查询来找到最佳方法。"
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta 测试：工具使用 🛠️（函数调用）",
+      "text_0": "某些模型（如 Llama 3.1/3.2、Mistral、Qwen 等）已经过工具使用训练。",
+      "text_1": "实际上这意味着：您以特定格式向大语言模型提供一组“工具”（函数签名），模型可以根据用户的提示决定是否“调用”它们。",
+      "text_2": "您可以想象诸如查询 API、运行代码，或任何可以表示为函数调用的用例。"
+    },
+    "step_1": {
+      "title": "开始使用工具",
+      "toolUseCanWorkWithAnyModel": "经过工具使用训练的模型会表现得更好，但您可以尝试在任何模型上使用工具。阅读<customlink>文档</customlink>了解更多。\n支持工具使用的模型将标有新徽章：",
+      "hasCompatibleModel": "🎉 看起来您已经有支持工具使用的模型了！",
+      "downloadRecommendedModel": "下载一个经过工具使用训练的模型："
+    },
+    "nextButton": "下一步",
+    "letsGoButton": "加载模型并启动服务器",
+    "doneButton": "关闭"
   }
 }
