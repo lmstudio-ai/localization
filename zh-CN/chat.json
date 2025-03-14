@@ -99,12 +99,12 @@
   "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
   "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
   "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
-  "userFile/maxFileSizePerConversation": "Maximum file size per conversation reached. Cannot add files larger than {{size}}. ",
-  "userFile/failedToUploadError/title": "Failed to upload file",
-  "userFile/failedToAddFile/title": "Failed to add file to chat",
+  "userFile/maxFileSizePerConversation": "每次对话的文件大小已达到上限。不能添加超过 {{size}} 的文件。",
+  "userFile/failedToUploadError/title": "文件上传失败",
+  "userFile/failedToAddFile/title": "将文件添加到聊天失败",
   "errorTitle": "错误",
-  "userFile/chatTerminalDocumentsCount_one": "{{count}} document in chat",
-  "userFile/chatTerminalDocumentsCount_other": "{{count}} documents in chat",
+  "userFile/chatTerminalDocumentsCount_one": "聊天中有 {{count}} 份文档",
+  "userFile/chatTerminalDocumentsCount_other": "聊天中有 {{count}} 份文档",
 
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
@@ -134,10 +134,10 @@
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
 
-  "style/debugBlocks/label": "Show Debug Info Blocks",
+  "style/debugBlocks/label": "显示调试信息块",
 
-  "style/thinkingUI/label": "Expand reasoning blocks by default",
-  "style/chatFullWidth/label": "Expand chat container to window width",
+  "style/thinkingUI/label": "默认展开推理块",
+  "style/chatFullWidth/label": "将聊天容器扩展到窗口宽度",
 
   "messageBlocks": {
     "expandBlockTooltip": "展开内容",
