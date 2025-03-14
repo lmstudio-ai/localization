@@ -1,6 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "解压中...",
-  "finalizing": "完成下载...（这可能需要几分钟）",
+  "finalizing": "下载即将完成...（这可能需要一会儿）",
   "noOptions": "没有可用的兼容下载选项",
   
   "deeplink/confirmation/title": "从 Hugging Face 下载模型 🤗",

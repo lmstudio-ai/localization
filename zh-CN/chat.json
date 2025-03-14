@@ -4,7 +4,7 @@
   "userRoleText": "用户",
   "assistantRoleText": "助手",
   "addMessageButtonText": "添加",
-  "addMessageButtonText/toolTip": "在不触发预测的情况下将消息插入上下文中",
+  "addMessageButtonText/toolTip": "将消息添加到上下文中，但不触发模型生成",
   "sendMessageButtonText": "发送",
   "sendMessageButtonText/toolTip": "将您的提示和对话历史发送给模型进行处理",
   "ejectButtonText": "弹出",
@@ -41,7 +41,7 @@
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
   "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
-  "actions/changeRole": "在用户和助手角色之间切换。\n\n这对于引导对话朝特定方向发展非常有用。\n\n可用于构建‘少样本学习’或‘情境学习’场景",
+  "actions/changeRole": "切换用户和助手角色。\n\n这有助于引导对话方向。\n\n可用于构建“少样本学习”或“上下文学习”场景",
   "actions/addImage": "添加图片",
   "actions/deleteMessage": "删除消息",
   "actions/deleteMessage/confirmation": "您确定要删除这条消息吗？",
@@ -78,10 +78,10 @@
   "tokenCount/totalNotAvailable": "Token：{{current}}",
   "tokenCount/totalAvailable": "Token：{{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
-  "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大 token 数限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
+  "tokenCount/contextOverflow": "未经处理的上下文超出了模型的最大 token 数限制。根据您设置的上下文溢出处理策略，系统可能会截断上下文或不发送消息。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
-  "modelLoader/manualLoadParams/hint/before": "(或按住",
-  "modelLoader/manualLoadParams/hint/after": ")",
+  "modelLoader/manualLoadParams/hint/before": "（或按住",
+  "modelLoader/manualLoadParams/hint/after": "）",
   "actions/move/error": "移动失败",
   "actions/rename/error": "重命名失败",
   "actions/createChatAtRoot": "新建聊天...",
@@ -89,7 +89,7 @@
   "actions/createFolderAtRoot": "新建文件夹...",
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
   "actions/createChat/error": "创建聊天失败",
-  "actions/deleteChat/errorTitle": "Failed to delete chat",
+  "actions/deleteChat/errorTitle": "删除聊天失败",
 
   "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
@@ -97,8 +97,8 @@
   "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持",
   "userFile/supportedImageSuffix": "。",
   "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
-  "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
-  "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
+  "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 份文件。",
+  "userFile/maxFileSizePerMessage": "每条消息的文件大小已达到上限。不能添加超过 {{size}} 的文件。",
   "userFile/maxFileSizePerConversation": "每次对话的文件大小已达到上限。不能添加超过 {{size}} 的文件。",
   "userFile/failedToUploadError/title": "文件上传失败",
   "userFile/failedToAddFile/title": "将文件添加到聊天失败",
@@ -113,12 +113,12 @@
   "prediction/noModel/message": "选择一个模型以发送消息",
   "prediction/unloadModel/error": "卸载模型失败",
   
-  "retrieval/user/processingLabel": "AI 正在思考...",
+  "retrieval/user/processingLabel": "AI 思考中...",
   "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击以展开。",
   "retrieval/actions/clickToExpand": "点击以展开中间步骤",
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
   
-  "style": "聊天外观",
+  "style": "界面外观",
   
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
@@ -157,7 +157,7 @@
   
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
-  "noModels": "还没有LLM！下载一个开始吧！",
+  "noModels": "还没有LLM！下载一个开始使用吧！",
 
   "plugins": {
     "pluginTrigger": {
@@ -221,7 +221,7 @@
     "stopReason.stopStringFound": "发现停止字符串",
     "stopReason.toolCalls": "工具调用",
     "stopReason.maxPredictedTokensReached": "已达到最大预测 token 数",
-    "stopReason.contextLengthReached": "已达到上下文长度限制",
+    "stopReason.contextLengthReached": "已达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
     "speculativeDecodingStats": "已接受 {{accepted}}/{{total}} 个草稿 token（{{percentage}}%）"
   }

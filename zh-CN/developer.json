@@ -11,7 +11,7 @@
   "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果该端口已被占用，您可能需要更改此设置。",
   "serverOptions/port/subtitle": "监听的端口",
   "serverOptions/autostart/title": "自动启动服务器",
-  "serverOptions/autostart/hint": "当应用或服务启动时自动启动 LM Studio 的本地 LLMs 服务器",
+  "serverOptions/autostart/hint": "当应用或服务启动时自动启动 LM Studio 的本地 LLM 服务器",
   "serverOptions/port/integerWarning": "端口号必须是整数",
   "serverOptions/port/invalidPortWarning": "端口号必须介于 1 到 65535 之间",
   "serverOptions/cors/title": "启用 CORS",
@@ -34,7 +34,7 @@
   "serverOptions/fileLoggingMode/succinct/hint": "记录与控制台相同的内容。长请求将被截断。",
   "serverOptions/fileLoggingMode/full/title": "完整",
   "serverOptions/fileLoggingMode/full/hint": "不截断长请求。",
-  "serverOptions/jitModelLoading/title": "即时模型加载",
+  "serverOptions/jitModelLoading/title": "自动加载模型",
   "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
   "serverOptions/jitModelLoadingTTL/title": "自动卸载未使用的即时加载模型",
@@ -151,7 +151,7 @@
     "newBadge": "新"
   },
 
-  "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI 的)",
+  "endpoints/openaiCompatRest/title": "支持的端点（OpenAI 兼容）",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
   "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个 token。注意：OpenAI 认为此端点已'弃用'。",
   "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",

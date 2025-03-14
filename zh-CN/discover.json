@@ -11,18 +11,18 @@
   "searchSortKey.lastModified/title": "最近更新",
   "searchSortKey.createdAt/title": "最近创建",
   "download.option.willFitEstimation.caveat": "可能存在其他因素阻止其加载，例如模型架构、模型文件完整性或计算机上可用的内存量。",
-  "download.option.willFitEstimation.fullGPUOffload/title": "完全 GPU 加载可能",
+  "download.option.willFitEstimation.fullGPUOffload/title": "可能可以完全卸载到 GPU",
   "download.option.willFitEstimation.fullGPUOffload/description": "此模型可能完全适合您的 GPU 内存。这可能会显著加快推理速度。",
-  "download.option.willFitEstimation.partialGPUOffload/title": "部分 GPU 加载可能",
+  "download.option.willFitEstimation.partialGPUOffload/title": "可能可以部分卸载到 GPU",
   "download.option.willFitEstimation.partialGPUOffload/description": "此模型可能部分适合您的 GPU 内存。这通常会显著加快推理速度。",
   "download.option.willFitEstimation.fitWithoutGPU/title": "可能适合",
   "download.option.willFitEstimation.fitWithoutGPU/description": "此模型可能适合您的机器内存。",
   "download.option.willFitEstimation.willNotFit/title": "对于此机器可能过大",
-  "download.option.willFitEstimation.willNotFit/description": "成功使用此模型文件所需的内存可能超过您机器上的可用资源。下载此文件不推荐。",
+  "download.option.willFitEstimation.willNotFit/description": "成功使用此模型文件所需的内存可能超过您机器上的可用资源。不建议下载此文件。",
   "download.option.recommended/title": "推荐",
   "download.option.recommended/description": "基于您的硬件，此选项被推荐。",
   "download.option.downloaded/title": "已下载",
   "download.option.downloading/title": "正在下载 ({{progressPercentile}}%)",
   
-  "feed.action.refresh": "刷新动态"
+  "feed.action.refresh": "刷新列表"
 }
