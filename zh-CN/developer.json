@@ -153,7 +153,7 @@
 
   "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI 的)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个词元（token）。注意：OpenAI 认为此端点已'弃用'。",
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个 token。注意：OpenAI 认为此端点已'弃用'。",
   "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
 

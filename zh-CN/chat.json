@@ -24,10 +24,10 @@
   "unnamedChat": "未命名聊天",
   "emptyFolder": "文件夹为空",
   
-  "tokenCount": "词元（token）数",
-  "messageTokenCount": "输入词元（token）数",
-  "tokenCount/hint": "消息中的词元（token）数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
-  "messageTokenCount/hint": "消息中的词元（token）数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的词元（token）估计值。",
+  "tokenCount": "Token 数",
+  "messageTokenCount": "输入 token  数",
+  "tokenCount/hint": "消息中的 token 数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
+  "messageTokenCount/hint": "消息中的 token 数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的 token 估计值。",
   
   "notes": "对话笔记",
   "notes/add/first": "添加笔记",
@@ -75,10 +75,10 @@
   "editMessageConfirm/keepEditing": "继续编辑",
   "editMessageConfirm/save": "保存",
   "editMessageConfirm/discard": "放弃更改",
-  "tokenCount/totalNotAvailable": "词元（token）：{{current}}",
-  "tokenCount/totalAvailable": "词元（token）：{{current}}/{{total}}",
+  "tokenCount/totalNotAvailable": "Token：{{current}}",
+  "tokenCount/totalAvailable": "Token：{{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
-  "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大词元（token）限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
+  "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大 token 数限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
   "modelLoader/manualLoadParams/hint/before": "(或按住",
   "modelLoader/manualLoadParams/hint/after": ")",
@@ -124,10 +124,10 @@
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
 
-  "speculativeDecodingVisualization/toggle": "可视化已接受的草稿词元",
-  "speculativeDecodingVisualization/fromDraftModel_one": "已接受的草稿词元",
-  "speculativeDecodingVisualization/fromDraftModel_other": "已接受的草稿词元",
-  "speculativeDecodingVisualization/cannotChangeViewMode": "在可视化草稿词元时无法更改视图模式。",
+  "speculativeDecodingVisualization/toggle": "可视化已接受的草稿 token",
+  "speculativeDecodingVisualization/fromDraftModel_one": "已接受的草稿 token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "已接受的草稿 token",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "在可视化草稿 token 时无法更改视图模式。",
 
   "style/fontSize/label": "字体大小",
   "style/fontSize/medium": "默认",
@@ -210,9 +210,9 @@
   },
 
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} 词元/秒",
-    "predictedTokensCount": "{{predictedTokensCount}} 个词元",
-    "timeToFirstTokenSec": "首个词元用时 {{timeToFirstTokenSec}} 秒",
+    "tokensPerSecond": "{{tokensPerSecond}} token/秒",
+    "predictedTokensCount": "{{predictedTokensCount}} 个 token",
+    "timeToFirstTokenSec": "首个 token 用时 {{timeToFirstTokenSec}} 秒",
     "stopReason": "停止原因：{{stopReason}}",
     "stopReason.userStopped": "用户停止",
     "stopReason.modelUnloaded": "模型已卸载",
@@ -220,9 +220,9 @@
     "stopReason.eosFound": "发现结束标记",
     "stopReason.stopStringFound": "发现停止字符串",
     "stopReason.toolCalls": "工具调用",
-    "stopReason.maxPredictedTokensReached": "已达到最大预测词元数",
+    "stopReason.maxPredictedTokensReached": "已达到最大预测 token 数",
     "stopReason.contextLengthReached": "已达到上下文长度限制",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已接受 {{accepted}}/{{total}} 个草稿词元（{{percentage}}%）"
+    "speculativeDecodingStats": "已接受 {{accepted}}/{{total}} 个草稿 token（{{percentage}}%）"
   }
 }
