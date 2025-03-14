@@ -117,6 +117,8 @@
   "llm.load.splitStrategy/title": "Split Strategy",
   "llm.load.splitStrategy/subTitle": "How to split model computation across GPUs",
   "llm.load.splitStrategy/placeholder": "Select split strategy...",
+  "load.gpuStrictVramCap/title": "Strict GPU VRAM Cap",
+  "load.gpuStrictVramCap/subTitle": "Strictly enforce detected system GPU VRAM limits. LM Studio will override GPU offload configuration if a model load would exceed limits",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -288,8 +290,7 @@
     },
     "llamaAccelerationOffloadRatio": {
       "max": "MAX",
-      "off": "OFF",
-      "auto": "AUTO"
+      "off": "OFF"
     },
     "gpuSplitStrategy": {
       "evenly": "Evenly",
