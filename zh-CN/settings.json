@@ -144,7 +144,7 @@
   "useHFProxy.label": "使用 LM Studio 的 Hugging Face 代理",
   "useHFProxy.hint": "使用 LM Studio 的 Hugging Face 代理来搜索和下载模型。这可以帮助那些无法直接访问 Hugging Face 的用户。",
   "separateReasoningContentInResponses": "在适用的情况下，在 API 响应中分离 `reasoning_content` 和 `content`",
-  "separateReasoningContentInResponses/hint": "此设置仅适用于 DeepSeek R1 及其蒸馏变体等“推理”模型，以及其他在 `` 和 `` 标签中生成 CoT 的模型。",
+  "separateReasoningContentInResponses/hint": "此设置仅适用于 DeepSeek R1 及其蒸馏变体等“推理”模型，以及其他在 `<think>` 和 `</think>` 标签中生成 CoT 的模型。",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "预设：在将新字段提交到预设时显示确认对话框",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "如果您希望防止意外将新字段添加到预设中，此功能非常有用",
