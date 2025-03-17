@@ -44,6 +44,7 @@
 
   "modelsDirectory": "Models Directory",
   "modelsDirectory.change": "Change...",
+  "modelsDirectory.change/error": "Failed to change models directory",
   "modelsDirectory.reset": "Reset to Default Path",
   "modelsDirectory.reveal.mac": "Reveal in Finder",
   "modelsDirectory.reveal.nonMac": "Open in File Explorer",
