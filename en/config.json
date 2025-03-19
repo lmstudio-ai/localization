@@ -540,7 +540,11 @@
         "title": "GPU Fill Order"
       },
       "deviceId.info": "Unique identifier for this device",
-      "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models"
+      "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
+      "cannotDisableLastGpuGeneric": "Cannot disable all GPUs for currently selected engine",
+      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Strict GPU VRAM Cap to be able to disable all GPUs",
+      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Strict GPU VRAM Cap",
+      "toggleGpu": "Enable/Disable GPU"
     }
   },
 
