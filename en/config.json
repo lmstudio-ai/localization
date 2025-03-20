@@ -542,8 +542,8 @@
       "deviceId.info": "Unique identifier for this device",
       "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
       "cannotDisableLastGpuGeneric": "Cannot disable all GPUs for currently selected engine",
-      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Strict GPU VRAM Cap to be able to disable all GPUs",
-      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Strict GPU VRAM Cap",
+      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Smart GPU Memory Management to disable all GPUs",
+      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Smart GPU Memory Management",
       "toggleGpu": "Enable/Disable GPU"
     }
   },
