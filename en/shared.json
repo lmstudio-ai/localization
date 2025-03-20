@@ -34,5 +34,7 @@
     "fetchError": "Failed to fetch artifacts"
   },
   "incompatible": "Incompatible",
-  "compatible": "Compatible"
+  "compatible": "Compatible",
+  "public":"Public",
+  "private":"Private"
 }
