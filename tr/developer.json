@@ -1,7 +1,7 @@
 {
   "serverOptions/network/subtitle": "Bu sunucuyu ağdaki diğer cihazlara görünür hale getirin",
-  "serverOptions/network/hint1": "Ağdaki diğer cihazlardan gelen bağlantılara izin verilip verilmeyeceği.",
-  "serverOptions/network/hint2": "İşaretlenmezse, sunucu yalnızca localhost'ta dinleyecektir.",
+  "serverOptions/network/hint1": "Ağdaki diğer cihazlardan gelen bağlantılara izin verilip verilmeyeceğini seçin.",
+  "serverOptions/network/hint2": "Eğer işaretlenmezse, sunucu sadece localhost üzerinde dinleyecektir.",
   "serverOptions/verboseLogging/title": "Ayrıntılı Günlük Kaydı",
   "serverOptions/contentLogging/title": "İstek ve Yanıtları Günlüğe Kaydet",
   "serverOptions/contentLogging/hint": "İsteklerin ve/veya yanıtın yerel sunucu günlük dosyasına kaydedilip kaydedilmeyeceği.",
