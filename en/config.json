@@ -118,7 +118,7 @@
   "llm.load.splitStrategy/subTitle": "How to split model computation across GPUs",
   "llm.load.splitStrategy/placeholder": "Select split strategy...",
   "load.gpuStrictVramCap/title": "Smart GPU Memory Management",
-  "load.gpuStrictVramCap/subTitle": "If a model load won't fit in VRAM, use RAM+CPU instead of allowing shared memory spillage (slow) or risking crashes",
+  "load.gpuStrictVramCap/subTitle": "If model weights won't fit in VRAM, use RAM+CPU instead of allowing shared memory spillage (slow) or risking crashes",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Smart GPU Memory Management enabled, LM Studio may override this value to improve performance",
 
   "llm.load.contextLength/title": "Context Length",
