@@ -523,7 +523,7 @@
         "title": "GPU Configuration",
         "placeholder": "Select a GPU memory allocation",
         "options": {
-          "generalDescription": "How to utilize GPUs for model inference",
+          "generalDescription": "Configure how models will be loaded onto your GPUs",
           "evenly": {
             "title": "Split evenly",
             "description": "Distribute allocated memory evenly across GPUs"
