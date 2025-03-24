@@ -530,7 +530,7 @@
           },
           "priorityOrder": {
             "title": "Fill in order",
-            "description": "Allocate memory in the first GPU, then proceed to the second, and so on"
+            "description": "Allocate memory by priority order, favoring higher-ranked GPUs with available memory"
           },
           "custom": {
             "title": "Custom",
