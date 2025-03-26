@@ -117,9 +117,10 @@
   "llm.load.splitStrategy/title": "Split Strategy",
   "llm.load.splitStrategy/subTitle": "How to split model computation across GPUs",
   "llm.load.splitStrategy/placeholder": "Select split strategy...",
-  "load.gpuStrictVramCap/title": "Smart GPU Memory Management",
-  "load.gpuStrictVramCap/subTitle": "If model weights won't fit in VRAM, use RAM+CPU instead of allowing shared memory spillage (slow) or risking crashes",
-  "load.gpuStrictVramCap.customGpuOffloadWarning": "Smart GPU Memory Management enabled, LM Studio may override this value to improve performance",
+  "load.gpuStrictVramCap/title": "Limit Model Weights to VRAM",
+  "load.gpuStrictVramCap.customSubTitleOff": "If model weights don't fit in VRAM, they will be allowed to overflow into shared memory",
+  "load.gpuStrictVramCap.customSubTitleOn": "Model layers will be strictly offloaded to VRAM and RAM, avoiding shared memory. Parts of the KV cache may still be allocated to shared memory",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "Limit Model Weights to VRAM enabled, the actual number of offloaded layers may differ",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -520,7 +521,7 @@
       "hideEditMaxCapacity": "Hide Edit Max Capacity",
       "allOffWarning": "All GPUs are off or disabled, ensure that there is some GPU allocation to enable loading models",
       "split": {
-        "title": "GPU Configuration",
+        "title": "Strategy",
         "placeholder": "Select a GPU memory allocation",
         "options": {
           "generalDescription": "Configure how models will be loaded onto your GPUs",
@@ -529,8 +530,8 @@
             "description": "Distribute allocated memory evenly across GPUs"
           },
           "priorityOrder": {
-            "title": "Fill in order",
-            "description": "Allocate memory by priority order, favoring higher-ranked GPUs with available memory"
+            "title": "Priority order",
+            "description": "The order in which to prioritize memory allocation and computation across GPUs"
           },
           "custom": {
             "title": "Custom",
@@ -540,13 +541,14 @@
         }
       },
       "priority": {
-        "title": "GPU Fill Order"
+        "title": "Priority Order",
+        "subTitle": "Drag to re-order priority. The system will try allocate more on GPUs listed first"
       },
       "deviceId.info": "Unique identifier for this device",
       "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
       "cannotDisableLastGpuGeneric": "Cannot disable all GPUs for currently selected engine",
-      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Smart GPU Memory Management to disable all GPUs",
-      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Smart GPU Memory Management",
+      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Limit Model Weights to VRAM to disable all GPUs",
+      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Limit Model Weights to VRAM",
       "toggleGpu": "Enable/Disable GPU"
     }
   },
