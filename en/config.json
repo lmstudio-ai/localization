@@ -518,6 +518,7 @@
     "environmentVariables.info": "If you're unsure, leave these at their default values",
     "environmentVariables.reset": "Reset to default",
 
+    "gpus.information": "Configure graphics processing units (GPUs) detected on your machine",
     "gpuSettings": {
       "editMaxCapacity": "Edit Max Capacity",
       "hideEditMaxCapacity": "Hide Edit Max Capacity",
@@ -529,11 +530,11 @@
           "generalDescription": "Configure how models will be loaded onto your GPUs",
           "evenly": {
             "title": "Split evenly",
-            "description": "Distribute allocated memory evenly across GPUs"
+            "description": "Allocate memory evenly across GPUs"
           },
           "priorityOrder": {
             "title": "Priority order",
-            "description": "Drag to re-order priority. The system will try allocate more on GPUs listed first"
+            "description": "Drag to reorder priority. The system will try to allocate more on GPUs listed first"
           },
           "custom": {
             "title": "Custom",
