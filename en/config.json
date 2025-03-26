@@ -121,6 +121,7 @@
   "load.gpuStrictVramCap.customSubTitleOff": "If model weights don't fit in VRAM, they will be allowed to overflow into shared memory",
   "load.gpuStrictVramCap.customSubTitleOn": "Model layers will be strictly offloaded to VRAM and RAM, avoiding shared memory. Parts of the KV cache may still be allocated to shared memory",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Limit Model Weights to VRAM enabled, the actual number of offloaded layers may differ",
+  "load.allGpusDisabledWarning": "All GPUs are currently disabled, modify GPU settings to enable offloading",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -532,7 +533,7 @@
           },
           "priorityOrder": {
             "title": "Priority order",
-            "description": "The order in which to prioritize memory allocation and computation across GPUs"
+            "description": "Drag to re-order priority. The system will try allocate more on GPUs listed first"
           },
           "custom": {
             "title": "Custom",
@@ -540,10 +541,6 @@
             "maxAllocation": "Maximum Allocation"
           }
         }
-      },
-      "priority": {
-        "title": "Priority Order",
-        "subTitle": "Drag to re-order priority. The system will try allocate more on GPUs listed first"
       },
       "deviceId.info": "Unique identifier for this device",
       "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
