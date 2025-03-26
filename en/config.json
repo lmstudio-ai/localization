@@ -232,7 +232,8 @@
     "button/pushUpdate": "Push Changes to Hub",
     "button/noChangesToPush": "No changes to push",
     "button/export": "Export",
-    "hubLabel": "Preset from the Hub by {{user}}"
+    "hubLabel": "Preset from the Hub by {{user}}",
+    "ownHubLabel": "Your preset from the Hub"
   },
 
   "customInputs": {
@@ -419,7 +420,7 @@
       "confirmCopied": "Copied!",
       "pushedToHub": "Your preset was pushed to the Hub",
       "descriptionPlaceholder": "Enter a description...",
-      "willBePublic": "Anyone on the internet will be able to see this preset",
+      "willBePublic": "This preset will be public. Anyone on the internet will be able to see it.",
       "willBePrivate": "Only you will be able to see this preset",
       "publicSubtitle": "Your preset is <custom-bold>Public</custom-bold>. Others can download and fork it on lmstudio.ai",
       "privateUsageReached": "Private preset number limit reached.",
