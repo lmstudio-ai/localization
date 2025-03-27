@@ -117,11 +117,11 @@
   "llm.load.splitStrategy/title": "Split Strategy",
   "llm.load.splitStrategy/subTitle": "How to split model computation across GPUs",
   "llm.load.splitStrategy/placeholder": "Select split strategy...",
-  "load.gpuStrictVramCap/title": "Limit Model Weights to VRAM",
-  "load.gpuStrictVramCap.customSubTitleOff": "If model weights don't fit in VRAM, they will be allowed to overflow into shared memory",
-  "load.gpuStrictVramCap.customSubTitleOn": "Model layers will be strictly offloaded to VRAM and RAM, avoiding shared memory. Parts of the KV cache may still be allocated to shared memory",
-  "load.gpuStrictVramCap.customGpuOffloadWarning": "Limit Model Weights to VRAM enabled, the actual number of offloaded layers may differ",
-  "load.allGpusDisabledWarning": "All GPUs are currently disabled, modify GPU settings to enable offloading",
+  "load.gpuStrictVramCap/title": "Limit Model Offload to Dedicated GPU Memory",
+  "load.gpuStrictVramCap.customSubTitleOff": "OFF: Allow model weights to offload to shared memory if dedicated GPU memory is full",
+  "load.gpuStrictVramCap.customSubTitleOn": "ON: The system will limit offload of model weights to dedicated GPU memory and RAM only. Context may still use shared memory",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "Model offload limited to dedicated GPU memory. Actual number of offloaded layers may differ",
+  "load.allGpusDisabledWarning": "All GPUs are currently disabled. Enable at least one to offload",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -545,9 +545,6 @@
       },
       "deviceId.info": "Unique identifier for this device",
       "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
-      "cannotDisableLastGpuGeneric": "Cannot disable all GPUs for currently selected engine",
-      "cannotDisableLastGpuStrictModeNotEnabled": "Enable Limit Model Weights to VRAM to disable all GPUs",
-      "cannotDisableStrictVramToggle": "Enable at least one GPU to disable Limit Model Weights to VRAM",
       "toggleGpu": "Enable/Disable GPU"
     }
   },
