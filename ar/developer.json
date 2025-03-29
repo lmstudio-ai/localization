@@ -1,169 +1,169 @@
 {
-  "tabs/server": "Local Server",
-  "tabs/extensions": "LM Runtimes",
-  "loadSettings/title": "Load settings",
-  "modelSettings/placeholder": "Select a model to configure it",
+  "tabs/server": "الخادم المحلي",
+  "tabs/extensions": "أوقات تشغيل LM",
+  "loadSettings/title": "إعدادات التحميل",
+  "modelSettings/placeholder": "اختر نموذجًا لتكوينه",
 
-  "loadedModels/noModels": "No models loaded",
+  "loadedModels/noModels": "لا توجد نماذج محملة",
 
-  "serverOptions/title": "Server Options",
-  "serverOptions/configurableTitle": "Configurable Options",
-  "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
-  "serverOptions/port/subtitle": "The port to listen on",
-  "serverOptions/autostart/title": "Auto-start server",
-  "serverOptions/autostart/hint": "Automatically turn on LM Studio's local LLMs server on app or service start",
-  "serverOptions/port/integerWarning": "Port number must be an integer",
-  "serverOptions/port/invalidPortWarning": "Port must be between 1 and 65535",
-  "serverOptions/cors/title": "Enable CORS",
-  "serverOptions/cors/hint1": "Enabling CORS (Cross-origin Resource Sharing) would allow websites you visit to make requests to LM Studio server.",
-  "serverOptions/cors/hint2": "CORS might be required when making requests from a web page or VS Code / other extension.",
-  "serverOptions/cors/subtitle": "Allow cross-origin requests",
-  "serverOptions/network/title": "Serve on Local Network",
-  "serverOptions/network/subtitle": "Expose server to devices on the network",
-  "serverOptions/network/hint1": "Whether to allow connections from other devices on the network.",
-  "serverOptions/network/hint2": "If not checked, the server will only listen on localhost.",
-  "serverOptions/verboseLogging/title": "Verbose Logging",
-  "serverOptions/verboseLogging/subtitle": "Enable verbose logging for the local server",
-  "serverOptions/contentLogging/title": "Log Prompts and Responses",
-  "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
-  "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
-  "serverOptions/fileLoggingMode/title": "File Logging Mode",
-  "serverOptions/fileLoggingMode/off/title": "OFF",
-  "serverOptions/fileLoggingMode/off/hint": "Don't create log files",
-  "serverOptions/fileLoggingMode/succinct/title": "Succinct",
-  "serverOptions/fileLoggingMode/succinct/hint": "Log the same content as in the console. Long requests will be truncated.",
-  "serverOptions/fileLoggingMode/full/title": "Full",
-  "serverOptions/fileLoggingMode/full/hint": "Don't truncate long requests.",
-  "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
-  "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
-  "serverOptions/loadModel/error": "Failed to load model",
-  "serverOptions/jitModelLoadingTTL/title": "Auto unload unused JIT loaded models",
-  "serverOptions/jitModelLoadingTTL/hint": "A model that was loaded Just-in-time (JIT) to serve an API request will be automatically unloaded after being unused for some duration (TTL).",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "Max idle TTL",
-  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/configurableTitle": "خيارات قابلة للتكوين",
+  "serverOptions/port/hint": "حدد منفذ الشبكة الذي سيستخدمه الخادم المحلي. بشكل افتراضي، يستخدم LM Studio المنفذ 1234. قد تحتاج إلى تغيير ذلك إذا كان المنفذ قيد الاستخدام بالفعل.",
+  "serverOptions/port/subtitle": "المنفذ للاستماع عليه",
+  "serverOptions/autostart/title": "تشغيل الخادم تلقائيًا",
+  "serverOptions/autostart/hint": "تشغيل خادم LLM المحلي لـ LM Studio تلقائيًا عند بدء التطبيق أو الخدمة",
+  "serverOptions/port/integerWarning": "يجب أن يكون رقم المنفذ عددًا صحيحًا",
+  "serverOptions/port/invalidPortWarning": "يجب أن يكون المنفذ بين 1 و 65535",
+  "serverOptions/cors/title": "تمكين CORS",
+  "serverOptions/cors/hint1": "سيسمح تمكين CORS (مشاركة الموارد بين المصادر) للمواقع التي تزورها بإرسال طلبات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد يكون CORS مطلوبًا عند إرسال الطلبات من صفحة ويب أو VS Code / امتداد آخر.",
+  "serverOptions/cors/subtitle": "السماح بالطلبات من مصادر مختلفة",
+  "serverOptions/network/title": "خدمة على الشبكة المحلية",
+  "serverOptions/network/subtitle": "كشف الخادم للأجهزة على الشبكة",
+  "serverOptions/network/hint1": "ما إذا كان يجب السماح بالاتصالات من الأجهزة الأخرى على الشبكة.",
+  "serverOptions/network/hint2": "إذا لم يتم التحقق، فسيستمع الخادم فقط على localhost.",
+  "serverOptions/verboseLogging/title": "تسجيل مفصل",
+  "serverOptions/verboseLogging/subtitle": "تمكين التسجيل المفصل للخادم المحلي",
+  "serverOptions/contentLogging/title": "تسجيل الطلبات والاستجابات",
+  "serverOptions/contentLogging/subtitle": "إعدادات تسجيل الطلبات / الاستجابات المحلية",
+  "serverOptions/contentLogging/hint": "ما إذا كان يجب تسجيل الطلبات و/أو الاستجابة في ملف سجل الخادم المحلي.",
+  "serverOptions/fileLoggingMode/title": "وضع تسجيل الملفات",
+  "serverOptions/fileLoggingMode/off/title": "إيقاف",
+  "serverOptions/fileLoggingMode/off/hint": "لا تنشئ ملفات سجل",
+  "serverOptions/fileLoggingMode/succinct/title": "مختصر",
+  "serverOptions/fileLoggingMode/succinct/hint": "سجل نفس المحتوى كما في وحدة التحكم. سيتم اقتطاع الطلبات الطويلة.",
+  "serverOptions/fileLoggingMode/full/title": "كامل",
+  "serverOptions/fileLoggingMode/full/hint": "لا تقطع الطلبات الطويلة.",
+  "serverOptions/jitModelLoading/title": "تحميل النموذج عند الطلب",
+  "serverOptions/jitModelLoading/hint": "عند التمكين، إذا حدد الطلب نموذجًا غير محمل، فسيتم تحميله واستخدامه تلقائيًا. بالإضافة إلى ذلك، ستقوم نقطة النهاية \"/v1/models\"...",
+  "serverOptions/loadModel/error": "فشل تحميل النموذج",
+  "serverOptions/jitModelLoadingTTL/title": "إلغاء تحميل النماذج غير المستخدمة تلقائيًا",
+  "serverOptions/jitModelLoadingTTL/hint": "سيتم إلغاء تحميل النموذج الذي تم تحميله عند الطلب (JIT) لخدمة طلب API بشكل تلقائي بعد أن يظل غير مستخدم لفترة زمنية معينة (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "مدة الخمول القصوى",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "دقائق",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "احتفظ بآخر نموذج محمل عند الطلب فقط",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "تأكد من تحميل نموذج واحد فقط عبر JIT في أي وقت معين (يلغي تحميل النموذج السابق)",
 
-  "serverLogs/scrollToBottom": "Jump to bottom",
-  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Open server logs folder",
+  "serverLogs/scrollToBottom": "الانتقال إلى الأسفل",
+  "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
+  "serverLogs/openLogsFolder": "فتح مجلد سجلات الخادم",
 
-  "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Default Selections",
-  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each model format",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+  "runtimeSettings/title": "إعدادات وقت التشغيل",
+  "runtimeSettings/chooseRuntime/title": "التحديدات الافتراضية",
+  "runtimeSettings/chooseRuntime/description": "اختر وقت التشغيل الافتراضي لكل تنسيق من تنسيقات النماذج",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "عرض جميع إصدارات وقت التشغيل",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "بشكل افتراضي، يعرض LM Studio أحدث إصدار من كل وقت تشغيل متوافق. قم بتمكين هذا الخيار لرؤية جميع أوقات التشغيل المتاحة.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "اختر وقت تشغيل",
 
-  "runtimeOptions/uninstall": "Uninstall",
-  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
-  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
-  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
-  "runtimeOptions/uninstallDialog/cancel": "Cancel",
-  "runtimeOptions/noCompatibleRuntimes": "No compatible runtimes found",
-  "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
-  "runtimeOptions/noRuntimes": "No runtimes found",
+  "runtimeOptions/uninstall": "إلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/title": "إلغاء تثبيت {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "سيؤدي إلغاء تثبيت هذا الوقت إلى إزالته من النظام. هذا الإجراء غير قابل للاسترجاع.",
+  "runtimeOptions/uninstallDialog/body/caveats": "قد لا تتم إزالة بعض الملفات إلا بعد إعادة تشغيل LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "فشل إلغاء تثبيت وقت التشغيل",
+  "runtimeOptions/uninstallDialog/confirm": "متابعة وإلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/cancel": "إلغاء",
+  "runtimeOptions/noCompatibleRuntimes": "لم يتم العثور على أوقات تشغيل متوافقة",
+  "runtimeOptions/downloadIncompatibleRuntime": "تم تحديد أن هذا الوقت غير متوافق مع جهازك. من المحتمل ألا يعمل.",
+  "runtimeOptions/noRuntimes": "لم يتم العثور على أوقات تشغيل",
 
   "runtimes": {
-    "manageLMRuntimes": "Manage LM Runtimes",
-    "includeOlderRuntimeVersions": "Include older runtime versions",
-    "dismiss": "Dismiss",
+    "manageLMRuntimes": "إدارة أوقات تشغيل LM",
+    "includeOlderRuntimeVersions": "تضمين إصدارات وقت التشغيل القديمة",
+    "dismiss": "رفض",
     "updateAvailableToast": {
-      "title": "LM Runtime Update Available!"
+      "title": "تحديث وقت تشغيل LM متاح!"
     },
     "updatedToast": {
-      "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
+      "title": " ✅ تم تحديث وقت تشغيل LM: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "ستستخدم النماذج المحملة حديثًا {{compatibilityTypes}} وقت التشغيل المحدث."
     },
-    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "noAvx2ErrorMessage": "تتطلب جميع أوقات تشغيل LM حاليًا وحدة معالجة مركزية (CPU) تدعم AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Runtime Extension Packs",
-      "refresh": "Refresh",
-      "refreshing": "Refreshing...",
+      "runtimeExtensionPacks": "حزم ملحقات وقت التشغيل",
+      "refresh": "تحديث",
+      "refreshing": "جارٍ التحديث...",
       "filterSegment": {
-        "compatibleOnly": "Compatible Only",
-        "all": "All"
+        "compatibleOnly": "المتوافق فقط",
+        "all": "الكل"
       },
       "card": {
-        "releaseNotes": "Release Notes",
-        "latestVersionInstalled": "Latest Version Installed",
-        "updateAvailable": "Update Available"
+        "releaseNotes": "ملاحظات الإصدار",
+        "latestVersionInstalled": "تم تثبيت أحدث إصدار",
+        "updateAvailable": "التحديث متاح"
       }
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Manage Active Runtimes"
+        "title": "إدارة أوقات التشغيل النشطة"
       },
       "dropdownOptions": {
-        "installedVersions": "Manage Versions",
-        "close": "Close"
+        "installedVersions": "إدارة الإصدارات",
+        "close": "إغلاق"
       },
       "tabs": {
-        "all": "All",
-        "frameworks": "My Frameworks",
-        "engines": "My Engines"
+        "all": "الكل",
+        "frameworks": "أطر العمل الخاصة بي",
+        "engines": "محركاتي"
       },
       "detailsModal": {
-        "installedVersions": "Installed versions for {{runtimeName}}",
-        "manifestJsonTitle": "Manifest JSON (advanced)",
-        "releaseNotesTitle": "Release Notes",
-        "noReleaseNotes": "No release notes available for this version",
-        "back": "Back",
-        "close": "Close"
+        "installedVersions": "الإصدارات المثبتة لـ {{runtimeName}}",
+        "manifestJsonTitle": "بيان JSON (متقدم)",
+        "releaseNotesTitle": "ملاحظات الإصدار",
+        "noReleaseNotes": "لا توجد ملاحظات إصدار متاحة لهذا الإصدار",
+        "back": "رجوع",
+        "close": "إغلاق"
       },
-      "noEngines": "No engines installed",
-      "noFrameworks": "No frameworks installed"
+      "noEngines": "لم يتم تثبيت أي محركات",
+      "noFrameworks": "لم يتم تثبيت أي أطر عمل"
     }
   },
 
-  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+  "inferenceParams/noParams": "لا توجد معلمات استدلال قابلة للتكوين لهذا النوع من النماذج",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
-    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "tabChipTitle": "المستندات السريعة",
+    "newToolUsePopover": "الآن تتوفر مقتطفات الكود هنا في \"المستندات السريعة\". انقر هنا للبدء في استخدام الأدوات!",
+    "newToolUsePopoverTitle": "📚 المستندات السريعة",
+    "learnMore": "ℹ️ 👾 لمعرفة المزيد حول نقاط نهاية الخادم المحلي لـ LM Studio، قم بزيارة [التوثيق](https://lmstudio.ai/docs).",
     "helloWorld": {
-      "title": "Hello, World!"
+      "title": "مرحبا، العالم!"
     },
     "chat": {
-      "title": "Chat"
+      "title": "الدردشة"
     },
     "structuredOutput": {
-      "title": "Structured Output"
+      "title": "الإخراج المنظم"
     },
     "imageInput": {
-      "title": "Image Input"
+      "title": "مدخلات الصورة"
     },
     "embeddings": {
-      "title": "Embeddings"
+      "title": "التضمينات"
     },
     "toolUse": {
-      "title": "Tool Use",
+      "title": "استخدام الأدوات",
       "tab": {
-        "saveAsPythonFile": "Save as Python file",
-        "runTheScript": "Run the script:",
-        "savePythonFileCopyPaste": "Save as Python file for a copy-and-paste command"
+        "saveAsPythonFile": "حفظ كملف Python",
+        "runTheScript": "تشغيل البرنامج النصي:",
+        "savePythonFileCopyPaste": "حفظ كملف Python لأمر النسخ واللصق"
       }
     },
-    "newBadge": "New"
+    "newBadge": "جديد"
   },
 
-  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
-  "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+  "endpoints/openaiCompatRest/title": "نقاط النهاية المدعومة (مشابهة لـ OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "قائمة النماذج المحملة حاليًا",
+  "endpoints/openaiCompatRest/postCompletions": "وضع إكمال النص. التنبؤ بالرمز (الرموز) التالي عند تقديم مطالبة. ملاحظة: تعتبر OpenAI هذه النقطة النهائية 'مهملة'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "إكمالات الدردشة. إرسال تاريخ الدردشة إلى النموذج لتنبؤ الاستجابة التالية للمساعد",
+  "endpoints/openaiCompatRest/postEmbeddings": "تضمين النص. إنشاء تضمينات نصية لإدخال نص معين. يأخذ سلسلة أو مجموعة من السلاسل.",
 
-  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
-  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+  "model.createVirtualModelFromInstance": "حفظ الإعدادات كنموذج افتراضي جديد",
+  "model.createVirtualModelFromInstance/error": "فشل في حفظ الإعدادات كنموذج افتراضي جديد",
 
   "model": {
-    "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseSectionTitle": "استخدام الأدوات",
+    "toolUseDescription": "تم اكتشاف أن هذا النموذج تم تدريبه لاستخدام الأدوات\n\nافتح <custom-link>المستندات السريعة</custom-link> للحصول على مزيد من المعلومات"
   },
 
-  "apiConfigOptions/title": "API Configuration"
+  "apiConfigOptions/title": "تكوين API"
 }
