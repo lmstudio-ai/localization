@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtime",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "تحدث",
+  "discover": "اكتشف",
+  "myModels": "نماذج الذكاء الاصطناعي الخاصة بي",
+  "developer": "قسم المطورين",
+  "runtimes": "أوقات التشغيل",
+  "settings": "إعدادات",
+  "download": " تحميلات أو تنزيلات."
 }
