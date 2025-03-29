@@ -1,42 +1,42 @@
 {
-  "action.skipOnboarding": "Skip onboarding",
-  "action.next": "Next",
-  "action.back": "Back",
-  "action.finish": "Finish",
+  "action.skipOnboarding": "تخطي الإعداد",
+  "action.next": "التالي",
+  "action.back": "السابق",
+  "action.finish": "إنهاء",
 
   "dismissable_rag_modal": {
-    "description": "You can now chat with your own documents using Retrieval Augmented Generation (RAG). Here's how it works:",
+    "description": "يمكنك الآن الدردشة مع مستنداتك باستخدام توليد الاسترجاع المحسن (RAG). إليك كيفية عملها:",
     "instructions": {
       "attach_files": {
-        "title": "Attach Files",
-        "description": "Upload up to 5 files at a time, with a maximum combined size of 30MB. Supported formats include PDF, DOCX, TXT, and CSV."
+        "title": "إرفاق الملفات",
+        "description": "قم بتحميل ما يصل إلى 5 ملفات في المرة الواحدة، بحد أقصى إجمالي 30 ميجابايت. تشمل التنسيقات المدعومة PDF، DOCX، TXT، و CSV."
       },
       "be_specific": {
-        "title": "Be Specific",
-        "description": "When asking questions, mention as many details as possible. This helps the system retrieve the most relevant information from your documents."
+        "title": "كن محددًا",
+        "description": "عند طرح الأسئلة، اذكر أكبر عدد ممكن من التفاصيل. هذا يساعد النظام في استرجاع أكثر المعلومات ذات الصلة من مستنداتك."
       },
       "get_responses": {
-        "title": "Get Responses and Experiment",
-        "description": "The LLM will look at your query and the retrieved excerpts from your documents, and attempt to generate a response. Experiment with different queries to find what works best."
+        "title": "احصل على الردود وجرب",
+        "description": "ستقوم LLM بمراجعة استفسارك والمقتطفات المسترجعة من مستنداتك، ومحاولة توليد استجابة. جرب استفسارات مختلفة لمعرفة ما هو الأنسب..."
       }
     }
   },
 
   "toolUse": {
     "step_0": {
-      "title": "Beta: Tool Use 🛠️ (Function Calling)",
-      "text_0": "Some models (e.g. Llama 3.1/3.2, Mistral, Qwen and more) were trained to use tools.",
-      "text_1": "What this means in practice is: you provide an array of 'tools' (function signatures) to the LLM in a very particular format, and the LLM can decide whether to 'call' them based on the user's prompt.",
-      "text_2": "You can imagine use cases such as querying an API, running code, or really anything that can be expressed as a function call."
+      "title": "بيتا: استخدام الأدوات 🛠️ (استدعاء الوظائف)",
+      "text_0": "تم تدريب بعض النماذج (مثل Llama 3.1/3.2، Mistral، Qwen والمزيد) على استخدام الأدوات.",
+      "text_1": "ما يعنيه هذا في الواقع هو: أنك تقوم بتوفير مجموعة من 'الأدوات' (توقيعات الوظائف) إلى LLM بتنسيق محدد جدًا، ويمكن لـ LLM أن يقرر ما إذا كان سيستدعيها بناءً...",
+      "text_2": "يمكنك تخيل استخدامات مثل استعلام API، تشغيل الكود، أو أي شيء يمكن التعبير عنه كاستدعاء وظيفة."
     },
     "step_1": {
-      "title": "Get started with Tool Use",
-      "toolUseCanWorkWithAnyModel": "Models that were trained for tool use will perform better than others, but you can try to use tools with any model whatsoever. Read the <customlink>documentation</customlink> to learn more.\nModels that were trained for tool use will be marked with a new badge:",
-      "hasCompatibleModel": "🎉 Looks like you already have models with tool support!",
-      "downloadRecommendedModel": "Download a model that was trained for tool use:"
+      "title": "ابدأ باستخدام الأدوات",
+      "toolUseCanWorkWithAnyModel": "ستعمل النماذج التي تم تدريبها على استخدام الأدوات بشكل أفضل من غيرها، ولكن يمكنك محاولة استخدام الأدوات مع أي نموذج على الإطلاق. اقرأ <customlink>التوثيق...",
+      "hasCompatibleModel": "🎉 يبدو أنك تمتلك بالفعل نماذج تدعم استخدام الأدوات!",
+      "downloadRecommendedModel": "قم بتنزيل نموذج تم تدريبه على استخدام الأدوات:"
     },
-    "nextButton": "Next",
-    "letsGoButton": "Load model and start server",
-    "doneButton": "Dismiss"
+    "nextButton": "التالي",
+    "letsGoButton": "تحميل النموذج وبدء الخادم",
+    "doneButton": "رفض"
   }
 }
