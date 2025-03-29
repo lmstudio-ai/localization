@@ -1,5 +1,5 @@
 {
-  "modelLoaderPlaceholder": "اختر نموذجًا لتحميله",
+  "modelLoaderPlaceholder": "حدد نموذج الذكاء الاصطناعي لتحميله",
   "systemPromptPlaceholder": "ضبط إرشادات النظام",
   "userRoleText": "مستخدم",
   "assistantRoleText": "مساعد",
