@@ -1,0 +1,68 @@
+{
+  "tabs/server": "سرور محلی",
+  "tabs/extensions": "رانتایم‌های LM",
+  "loadSettings/title": "تنظیمات بارگذاری",
+  "modelSettings/placeholder": "یک مدل انتخاب کنید تا پیکربندی شود",
+
+  "loadedModels/noModels": "هیچ مدلی بارگذاری نشده است",
+
+  "serverOptions/title": "گزینه‌های سرور",
+  "serverOptions/configurableTitle": "گزینه‌های قابل پیکربندی",
+  "serverOptions/port/hint": "تعیین پورت شبکه‌ای که سرور محلی استفاده خواهد کرد. پیش‌فرض LM Studio از پورت 1234 استفاده می‌کند. در صورت اشغال بودن پورت، این مقدار را تغییر دهید",
+  "serverOptions/port/subtitle": "پورت مورد استفاده برای گوش دادن",
+  "serverOptions/autostart/title": "راه‌اندازی خودکار سرور",
+  "serverOptions/autostart/hint": "سرور محلی به طور خودکار هنگام بارگذاری مدل راه‌اندازی شود",
+  "serverOptions/port/integerWarning": "عدد پورت باید یک عدد صحیح باشد",
+  "serverOptions/port/invalidPortWarning": "پورت باید بین 1 و 65535 باشد",
+  "serverOptions/cors/title": "فعال‌سازی CORS",
+  "serverOptions/cors/hint1": "فعال‌سازی CORS (مشارکت منابع میان‌منبعی) به وبسایت‌ها اجازه می‌دهد درخواست به سرور LM Studio ارسال کنند",
+  "serverOptions/cors/hint2": "برای درخواست از صفحات وب یا VS Code ممکن است نیاز به فعال‌سازی CORS باشد",
+  "serverOptions/cors/subtitle": "اجازه درخواست‌های میان‌منبعی",
+  "serverOptions/network/title": "سرویس‌دهی در شبکه محلی",
+  "serverOptions/network/subtitle": "دسترسی سرور به دستگاه‌های موجود در شبکه",
+  "serverOptions/network/hint1": "اجازه اتصال از دستگاه‌های دیگر در شبکه",
+  "serverOptions/network/hint2": "در صورت غیرفعال بودن، سرور فقط روی localhost گوش می‌دهد",
+  "serverOptions/verboseLogging/title": "لاگ‌گیری دقیق",
+  "serverOptions/verboseLogging/subtitle": "فعال‌سازی لاگ‌گیری دقیق برای سرور محلی",
+  "serverOptions/contentLogging/title": "لاگ درخواست‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/subtitle": "تنظیمات لاگ‌گیری محتوا در سرور محلی",
+  "serverOptions/contentLogging/hint": "تعیین اینکه آیا درخواست‌ها و/یا پاسخ‌ها در فایل لاگ ذخیره شوند",
+  "serverOptions/jitModelLoading/title": "بارگذاری مدل به صورت Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "با فعال‌سازی، اگر مدلی در درخواست وجود داشته باشد که بارگذاری نشده باشد، به صورت خودکار بارگذاری و استفاده خواهد شد. همچنین endpoint «/v1/models» شامل مدل‌های بارگذاری نشده نیز می‌شود",
+  "serverOptions/loadModel/error": "بارگذاری مدل ناموفق بود",
+
+  "serverLogs/scrollToBottom": "پرش به پایین",
+  "serverLogs/clearLogs": "پاک کردن لاگ‌ها ({{shortcut}})",
+  "serverLogs/openLogsFolder": "باز کردن پوشه لاگ‌های سرور",
+
+  "runtimeSettings/title": "تنظیمات رانتایم",
+  "runtimeSettings/chooseRuntime/title": "پیکربندی رانتایم‌ها",
+  "runtimeSettings/chooseRuntime/description": "برای هر فرمت مدل یک رانتایم انتخاب کنید",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش تمام رانتایم‌ها",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "به طور پیش‌فرض، LM Studio فقط آخرین نسخه هر رانتایم سازگار را نمایش می‌دهد. این گزینه را فعال کنید تا تمام رانتایم‌های موجود نمایش داده شوند",
+  "runtimeSettings/chooseRuntime/select/placeholder": "یک رانتایم انتخاب کنید",
+
+  "runtimeOptions/uninstall": "حذف نصب",
+  "runtimeOptions/uninstallDialog/title": "آیا {{runtimeName}} حذف شود؟",
+  "runtimeOptions/uninstallDialog/body": "حذف این رانتایم آن را از سیستم پاک می‌کند. این عمل غیرقابل بازگشت است",
+  "runtimeOptions/uninstallDialog/body/caveats": "برخی فایل‌ها تنها پس از راه‌اندازی مجدد LM Studio حذف خواهند شد",
+  "runtimeOptions/uninstallDialog/error": "حذف رانتایم ناموفق بود",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف نصب",
+  "runtimeOptions/uninstallDialog/cancel": "لغو",
+  "runtimeOptions/noCompatibleRuntimes": "هیچ رانتایم سازگاری یافت نشد",
+  "runtimeOptions/downloadIncompatibleRuntime": "این رانتایم با سیستم شما ناسازگار تشخیص داده شد. احتمالاً کار نخواهد کرد",
+  "runtimeOptions/noRuntimes": "هیچ رانتایمی یافت نشد",
+
+  "inferenceParams/noParams": "هیچ پارامتر استنتاج قابل پیکربندی برای این نوع مدل وجود ندارد",
+
+  "endpoints/openaiCompatRest/title": "اندپوینت‌های پشتیبانی شده (شبیه OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "لیست مدل‌های بارگذاری شده فعلی",
+  "endpoints/openaiCompatRest/postCompletions": "حالت تکمیل متن. پیش‌بینی توکن(های) بعدی بر اساس اعلان. توجه: OpenAI این اندپوینت را 'منسوخ' در نظر می‌گیرد",
+  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل چت. ارسال تاریخچه چت به مدل برای پیش‌بینی پاسخ بعدی دستیار",
+  "endpoints/openaiCompatRest/postEmbeddings": "جاسازی متن. تولید جاسازی‌های متنی برای ورودی متنی داده شده. رشته یا آرایه‌ای از رشته‌ها را دریافت می‌کند",
+
+  "model.createVirtualModelFromInstance": "ذخیره تنظیمات به عنوان مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "ذخیره تنظیمات به عنوان مدل مجازی جدید ناموفق بود",
+
+  "apiConfigOptions/title": "پیکربندی API"
+}
