@@ -23,5 +23,6 @@
   "download.option.recommended/description": "بناءً على أجهزتك، يوصى بهذا الخيار.",
   "download.option.downloaded/title": "تم التحميل",
   "download.option.downloading/title": "جارٍ التحميل ({{progressPercentile}}%)",
+  
   "feed.action.refresh": "تحديث الخلاصة"
 }
