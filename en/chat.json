@@ -228,6 +228,6 @@
   },
 
   "tabs": {
-    "systemPromptEditorTab.label": "Prompt Editor"
+    "systemPromptEditorTab.headerLabel": "Editing System Prompt"
   }
 }
