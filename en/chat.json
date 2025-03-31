@@ -225,5 +225,9 @@
     "stopReason.contextLengthReached": "Context Length Limit Reached",
     "speculativeDecodedBy": "Draft model: {{decodedBy}}",
     "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.label": "Prompt Editor"
   }
 }
