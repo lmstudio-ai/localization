@@ -37,7 +37,7 @@
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
-  "llm.prediction.systemPrompt/openEditor": "Open Editor",
+  "llm.prediction.systemPrompt/openEditor": "Editor",
   "llm.prediction.systemPrompt/closeEditor": "Close Editor",
   "llm.prediction.systemPrompt/openedEditor": "Opened in Editor...",
   "llm.prediction.temperature/title": "Temperature",
