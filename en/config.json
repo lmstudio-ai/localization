@@ -445,11 +445,43 @@
       "error": "Failed to push update",
       "confirmUpdateButton": "Push"
     },
+    "resolve": {
+      "title": "Resolve conflicts...",
+      "tooltip": "Open a modal to resolve differences with the Hub version"
+    },
+    "loginToManage": {
+      "title": "Login to manage..."
+    },
+    "downloadFromHub": {
+      "title": "Download",
+      "downloading": "Downloading...",
+      "success": "Downloaded!",
+      "error": "Failed to download"
+    },
+    "push": {
+      "title": "Push changes",
+      "pushing": "Pushing...",
+      "success": "Pushed",
+      "tooltip": "Push your local changes to the remote version hosted on the Hub",
+      "error": "Failed to push"
+    },
+    "saveAsNewModal": {
+      "title": "Oops! Did not find the preset on Hub",
+      "confirmSaveAsNewDescription": "Do you want to publish this preset as a new one?",
+      "confirmButton": "Publish as New"
+    },
     "pull": {
+      "title": "Pull Latest",
       "error": "Failed to pull",
       "contextMenuErrorMessage": "Failed to pull",
       "success": "Pulled",
-      "pulling": "Pulling..."
+      "pulling": "Pulling...",
+      "upToDate": "Up to date!",
+      "unsavedChangesModal": {
+        "title": "You have unsaved changes.",
+        "bodyContent": "Pulling from remote will overwrite your unsaved changes. Continue?",
+        "confirmButton": "Overwrite Unsaved Changes"
+      }
     },
     "import": {
       "title": "Import a Preset from File",
