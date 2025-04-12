@@ -82,6 +82,7 @@
   "modelLoader/manualLoadParams/label": "Modellladeparameter manuell auswählen",
   "modelLoader/manualLoadParams/hint/before": "(oder halten ",
   "modelLoader/manualLoadParams/hint/after": ")",
+
   "actions/move/error": "Verschieben fehlgeschlagen",
   "actions/rename/error": "Umbenennen fehlgeschlagen",
   "actions/createChatAtRoot": "Neuer Chat...",
@@ -89,6 +90,7 @@
   "actions/createFolderAtRoot": "Neuer Ordner...",
   "actions/createFolderAtRoot/error": "Ordner konnte nicht im Stammverzeichnis erstellt werden",
   "actions/createChat/error": "Chat konnte nicht erstellt werden",
+  "actions/deleteChat/errorTitle": "Chat konnte nicht gelöscht werden",
 
   "userFile/fileSizeLimit": "Dateigrößenlimit beträgt ",
   "userFile/noImageSupport": "Modell unterstützt keine Bild-Eingabe",
@@ -98,10 +100,14 @@
   "userFile/unsupportedFileType": "Nicht unterstützter Dateityp - nur Bilder, PDFs und .txt-Dateien sind unterstützt.",
   "userFile/maxFilesPerMessage": "Maximale Anzahl von Dateien pro Nachricht erreicht. Es können nicht mehr als {{files}} Dateien hinzugefügt werden.",
   "userFile/maxFileSizePerMessage": "Maximale Dateigröße pro Nachricht erreicht. Es können keine Dateien hinzugefügt werden, die größer als {{size}} sind.",
+  "userFile/maxFileSizePerConversation": "Maximale Dateigröße pro Konversation erreicht. Es können keine Dateien hinzugefügt werden, die größer als {{size}} sind.",
+  "userFile/failedToUploadError/title": "Datei konnte nicht hochgeladen werden",
+  "userFile/failedToAddFile/title": "Datei konnte nicht zum Chat hinzugefügt werden",
   "errorTitle": "Fehler",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} Dokument im Chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} Dokumente im Chat",
 
   "prediction/busyModel/title": "Modell ist beschäftigt",
-  "prediction/busyModel/message": "Bitte warten, bis das Modell fertig ist, und versuchen Sie es erneut",
   "prediction/noModel/title": "Kein Modell ausgewählt",
   "prediction/modelLoading": "Nachricht in Warteschlange, wird gesendet, sobald das Modell geladen ist",
   "prediction/noModel/message": "Wählen Sie ein Modell, um eine Nachricht zu senden",
@@ -118,10 +124,30 @@
   "style/viewMode/plaintext": "Klartext",
   "style/viewMode/monospace": "Monospace",
 
+  "speculativeDecodingVisualization/toggle": "Akzeptierte Entwurfstoken visualisieren",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Akzeptiertes Entwurfstoken",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Akzeptierte Entwurfstoken",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Die Auswahl des Ansichtsmodus ist bei der Visualisierung von Entwurfstoken deaktiviert.",
+
   "style/fontSize/label": "Schriftgröße",
   "style/fontSize/medium": "Standard",
   "style/fontSize/large": "Groß",
   "style/fontSize/small": "Klein",
+
+  "style/debugBlocks/label": "Debug-Info-Blöcke anzeigen",
+
+  "style/thinkingUI/label": "Begründungsblöcke standardmäßig erweitern",
+  "style/chatFullWidth/label": "Chat-Container auf Fensterbreite erweitern",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Inhalt erweitern",
+    "collapseBlockTooltip": "Inhalt reduzieren",
+    "debug": {
+      "label": "DEBUG-INFO",
+      "collapseTooltip": "Debug-Info-Block reduzieren",
+      "expandTooltip": "Debug-Info-Block erweitern"
+    }
+  },
 
   "topBarActions/duplicateChat": "Chat duplizieren",
   "topBarActions/clearChat": "Alle Nachrichten löschen",
@@ -131,5 +157,72 @@
 
   "noModels.indexing": "Modell-Dateien werden indexiert... (dies kann einen Moment dauern)",
   "noModels.downloading": "Ihr erstes LLM wird heruntergeladen...",
-  "noModels": "Noch keine LLMs! Laden Sie eines herunter, um zu beginnen!"
+  "noModels": "Noch keine LLMs! Laden Sie eines herunter, um zu beginnen!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} Plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Konfigurieren",
+        "disable": "Deaktivieren",
+        "fork": "Forken",
+        "uninstall": "Deinstallieren"
+      },
+      "actionButtons": {
+        "create": "+ Erstellen",
+        "import": "Importieren",
+        "discover": "Entdecken"
+      },
+      "recentlyCreated": {
+        "title": "Kürzlich erstellte Plugins",
+        "placeholder": "Von Ihnen erstellte Plugins werden hier angezeigt"
+      },
+      "startRunningDevelopmentPlugin/error": "Plugin konnte nicht im Entwicklungsmodus gestartet werden",
+      "stopRunningDevelopmentPlugin/error": "Plugin konnte nicht im Entwicklungsmodus gestoppt werden"
+    },
+    "pluginConfiguration": {
+      "title": "Plugin-Konfiguration",
+      "selectAPlugin": "Wählen Sie ein Plugin aus, um dessen Konfigurationen zu bearbeiten",
+      "preprocessorAndGenerator": "Dieses Plugin enthält einen benutzerdefinierten Präprozessor und Generator",
+      "generatorOnly": "Dieses Plugin enthält einen benutzerdefinierten Generator",
+      "preprocessorOnly": "Dieses Plugin enthält einen benutzerdefinierten Präprozessor"
+    },
+    "instructions": {
+      "runTheFollowing": "Um Ihr Plugin auszuführen, öffnen Sie ein Terminal und geben Sie ein",
+      "pushTo": "Teilen Sie Ihr Plugin mit anderen, indem Sie es zum Hub pushen (optional)",
+      "createdSuccessfully": "Plugin erfolgreich erstellt",
+      "creatingPlugin": "Plugin wird erstellt...",
+      "projectFilesTitle": "Projektdateien",
+      "buttons": {
+        "documentation": "Dokumentation",
+        "dismiss": "Verwerfen",
+        "publish": "Veröffentlichen",
+        "openInZed": "In Zed öffnen",
+        "openInVscode": "In VS Code öffnen",
+        "revealInFinder": "Im Finder anzeigen",
+        "openInFileExplorer": "Im Datei-Explorer öffnen"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} Tok/Sek",
+    "predictedTokensCount": "{{predictedTokensCount}} Tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s bis zum ersten Token",
+    "stopReason": "Stoppgrund: {{stopReason}}",
+    "stopReason.userStopped": "Benutzer gestoppt",
+    "stopReason.modelUnloaded": "Modell entladen",
+    "stopReason.failed": "Generierung fehlgeschlagen",
+    "stopReason.eosFound": "EOS-Token gefunden",
+    "stopReason.stopStringFound": "Stoppzeichenfolge gefunden",
+    "stopReason.toolCalls": "Tool-Aufrufe",
+    "stopReason.maxPredictedTokensReached": "Maximale vorhergesagte Tokens erreicht",
+    "stopReason.contextLengthReached": "Kontextlängenlimit erreicht",
+    "speculativeDecodedBy": "Entwurfsmodell: {{decodedBy}}",
+    "speculativeDecodingStats": "{{accepted}}/{{total}} Entwurfstoken akzeptiert ({{percentage}}%)"
+  }
 }
