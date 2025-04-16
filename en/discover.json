@@ -17,7 +17,7 @@
   "download.option.willFitEstimation.partialGPUOffload/description": "This model might fit partially in your GPU's memory.  This could often considerably speed up inference.",
   "download.option.willFitEstimation.fitWithoutGPU/title": "Likely Fit",
   "download.option.willFitEstimation.fitWithoutGPU/description": "This model is likely to fit in your machine's memory.",
-  "download.option.willFitEstimation.willNotFit/title": "Likely too large for this machine",
+  "download.option.willFitEstimation.willNotFit/title": "Likely too large",
   "download.option.willFitEstimation.willNotFit/description": "The memory requirements for successfully using this model file might exceed the available resources on your machine. Downloading this file is NOT recommended.",
   "download.option.recommended/title": "Recommended",
   "download.option.recommended/description": "Based on your hardware, this option is recommended.",
