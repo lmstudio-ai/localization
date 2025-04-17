@@ -77,18 +77,11 @@
   "editMessageConfirm/discard": "Отменить изменения",
   "tokenCount/totalNotAvailable": "Токенов: {{current}}",
   "tokenCount/totalAvailable": "Токенов: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Контекст заполнен на {{percentage}}%",
+  "tokenCount/contextOverflow": "Необработанный контекст превышает максимальный лимит токенов модели. В зависимости от вашей политики переполнения контекста, контекст может быть обрезан или сообщение не будет отправлено.",
   "modelLoader/manualLoadParams/label": "Выберите параметры загрузки модели вручную",
   "modelLoader/manualLoadParams/hint/before": "(или удерживайте ",
   "modelLoader/manualLoadParams/hint/after": ")",
-  "actions/move/error": "Ошибка перемещения",
-  "actions/rename/error": "Ошибка переименования",
-  "actions/createChatAtRoot": "Создать чат в корне...",
-  "actions/createChatAtRoot/error": "Не удалось создать чат в корне",
-  "actions/createFolderAtRoot": "Создать папку в корне...",
-  "actions/createFolderAtRoot/error": "Не удалось создать папку в корне",
-  "actions/createChat/error": "Не удалось создать чат",
-  "actions/deleteChat/errorTitle": "Ошибка удаления чата",
-
   "actions/move/error": "Ошибка перемещения",
   "actions/rename/error": "Ошибка переименования",
   "actions/createChatAtRoot": "Создать новый чат",
@@ -96,6 +89,7 @@
   "actions/createFolderAtRoot": "Создать новую папку",
   "actions/createFolderAtRoot/error": "Не удалось создать папку на корневом уровне",
   "actions/createChat/error": "Не удалось создать чат",
+  "actions/deleteChat/errorTitle": "Ошибка удаления чата",
 
   "userFile/fileSizeLimit": "Ограничение размера файла: ",
   "userFile/noImageSupport": "Модель не поддерживает ввод изображений",
@@ -105,11 +99,17 @@
   "userFile/unsupportedFileType": "Неподдерживаемый тип файла - поддерживаются только изображения, PDF и текстовые файлы.",
   "userFile/maxFilesPerMessage": "Достигнуто максимальное количество файлов на одно сообщение. Нельзя добавить больше чем {{files}} файлов.",
   "userFile/maxFileSizePerMessage": "Превышен максимальный размер файла на одно сообщение. Нельзя добавить файлы размером больше {{size}}.",
+  "userFile/maxFileSizePerConversation": "Достигнут максимальный размер файла для разговора. Невозможно добавить файлы больше {{size}}. ",
+  "userFile/failedToUploadError/title": "Не удалось загрузить файл",
+  "userFile/failedToAddFile/title": "Не удалось добавить файл в чат",
   "errorTitle": "Ошибка",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} документ в чате",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} документов в чате",
 
   "prediction/busyModel/title": "Модель занята",
   "prediction/busyModel/message": "Пожалуйста, подождите, пока модель завершит работу, и попробуйте снова",
   "prediction/noModel/title": "Модель не выбрана",
+  "prediction/modelLoading": "Сообщение в очереди, будет отправлено, когда модель полностью загрузится",
   "prediction/noModel/message": "Выберите модель для отправки сообщения",
   "prediction/unloadModel/error": "Не удалось выгрузить модель",
 
@@ -119,9 +119,16 @@
   "retrieval/actions/clickToCollapse": "Нажмите, чтобы свернуть промежуточные шаги",
 
   "style": "Внешний вид чата",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Текст",
   "style/viewMode/monospace": "Моноширинный",
+
+  "speculativeDecodingVisualization/toggle": "визуализировать принятые черновиковые токены",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Принятые черновиковые токены",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Принятые черновиковые токены",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Выбор режима просмотра отключен при визуализации черновиковых токенов.",
+
   "style/fontSize/label": "Размер шрифта",
   "style/fontSize/medium": "По умолчанию",
   "style/fontSize/large": "Большой",
