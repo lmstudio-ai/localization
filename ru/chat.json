@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "Выберите чат",
   "unnamedChat": "Безымянный чат",
   "emptyFolder": "Папка пуста",
+  
+  "tokenCount": "Счётчик токенов",
+  "messageTokenCount": "Счётчик входных токенов",
+  "tokenCount/hint": "Количество токенов в сообщении. Подсчитывается с использованием токенизатора текущей выбранной модели.\n\nТребуется загруженная модель.",
+  "messageTokenCount/hint": "Количество токенов в сообщении. Подсчитывается с использованием токенизатора текущей выбранной модели.\n\n**НЕ** включает оценку токенов во вложенных файлах.",
+  
   "notes": "Заметки к беседе",
   "notes/add/first": "Добавить заметку",
   "notes/add/another": "Добавить еще одну заметку",
@@ -74,6 +80,14 @@
   "modelLoader/manualLoadParams/label": "Выберите параметры загрузки модели вручную",
   "modelLoader/manualLoadParams/hint/before": "(или удерживайте ",
   "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "Ошибка перемещения",
+  "actions/rename/error": "Ошибка переименования",
+  "actions/createChatAtRoot": "Создать чат в корне...",
+  "actions/createChatAtRoot/error": "Не удалось создать чат в корне",
+  "actions/createFolderAtRoot": "Создать папку в корне...",
+  "actions/createFolderAtRoot/error": "Не удалось создать папку в корне",
+  "actions/createChat/error": "Не удалось создать чат",
+  "actions/deleteChat/errorTitle": "Ошибка удаления чата",
 
   "actions/move/error": "Ошибка перемещения",
   "actions/rename/error": "Ошибка переименования",
