@@ -111,5 +111,97 @@
   "style/fontSize/label": "Размер шрифта",
   "style/fontSize/medium": "По умолчанию",
   "style/fontSize/large": "Большой",
-  "style/fontSize/small": "Маленький"
+  "style/fontSize/small": "Маленький",
+
+  "style/debugBlocks/label": "Показать информацию блоков отладки",
+
+  "style/thinkingUI/label": "Раскрывать блоки рассуждений по умолчанию",
+  "style/chatFullWidth/label": "Растянуть область чата на всю ширину окна",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Развернуть содержимое",
+    "collapseBlockTooltip": "Свернуть содержимое",
+    "debug": {
+      "label": "ИНФОРМАЦИЯ ОТЛАДКИ",
+      "collapseTooltip": "Свернуть блок информации отладки",
+      "expandTooltip": "Развернуть блок информации отладки"
+    }
+  },
+
+  "topBarActions/duplicateChat": "Дублировать",
+  "topBarActions/clearChat": "Очистить все",
+  "topBarActions/clearChatConfirmation": "Вы уверены, что хотите очистить все сообщения в этом чате?",
+  "topBarActions/clearChatCancel": "Отмена",
+  "topBarActions/clearChatDelete": "Очистить все",
+
+  "noModels.indexing": "Индексация файлов модели... (это может занять некоторое время)",
+  "noModels.downloading": "Скачивается ваша первая LLM...",
+  "noModels": "LLM пока нет! Скачайте, чтобы начать!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Плагин",
+      "multiplePlugins": "{{dynamicValue}} плагинов"
+    },
+    "pluginSelect": {
+      "title": "Плагины",
+      "dropdown": {
+        "configure": "Настроить",
+        "disable": "Отключить",
+        "fork": "Разветвить",
+        "uninstall": "Удалить"
+      },
+      "actionButtons": {
+        "create": "+ Создать",
+        "import": "Импортировать",
+        "discover": "Найти"
+      },
+      "recentlyCreated": {
+        "title": "Недавно созданные плагины",
+        "placeholder": "Созданные вами плагины будут отображаться здесь"
+      },
+      "startRunningDevelopmentPlugin/error": "Не удалось запустить плагин в режиме разработки",
+      "stopRunningDevelopmentPlugin/error": "Не удалось остановить плагин в режиме разработки"
+    },
+    "pluginConfiguration": {
+      "title": "Настройка плагина",
+      "selectAPlugin": "Выберите плагин для редактирования его конфигурации",
+      "preprocessorAndGenerator": "Этот плагин содержит собственный препроцессор и генератор",
+      "generatorOnly": "Этот плагин содержит только собственный генератор",
+      "preprocessorOnly": "Этот плагин содержит только собственный препроцессор"
+    },
+    "instructions": {
+      "runTheFollowing": "Чтобы запустить свой плагин, откройте терминал и введите",
+      "pushTo": "Поделитесь своим плагином с другими, опубликовав его в Hub (необязательно)",
+      "createdSuccessfully": "Плагин успешно создан",
+      "creatingPlugin": "Создание плагина...",
+      "projectFilesTitle": "Файлы проекта",
+      "buttons": {
+        "documentation": "Документация",
+        "dismiss": "Закрыть",
+        "publish": "Опубликовать",
+        "openInZed": "Открыть в Zed",
+        "openInVscode": "Открыть в VS Code",
+        "revealInFinder": "Показать в Finder",
+        "openInFileExplorer": "Открыть в проводнике"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} токенов/сек",
+    "predictedTokensCount": "{{predictedTokensCount}} токенов",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}} сек. до первого токена",
+    "stopReason": "Причина остановки: {{stopReason}}",
+    "stopReason.userStopped": "Остановлено пользователем",
+    "stopReason.modelUnloaded": "Модель выгружена",
+    "stopReason.failed": "Ошибка генерации",
+    "stopReason.eosFound": "Найден EOS токен",
+    "stopReason.stopStringFound": "Найдена стоп-строка",
+    "stopReason.toolCalls": "Вызовы инструментов",
+    "stopReason.maxPredictedTokensReached": "Достигнут максимальный лимит предсказанных токенов",
+    "stopReason.contextLengthReached": "Достигнут лимит длины контекста",
+    "speculativeDecodedBy": "Черновая модель: {{decodedBy}}",
+    "speculativeDecodingStats": "Принято {{accepted}}/{{total}} черновых токенов ({{percentage}}%)"
+  }
 }
