@@ -219,7 +219,7 @@
     "stopReason.failed": "Fehler beim Generieren",
     "stopReason.eosFound": "EOS-Token gefunden",
     "stopReason.stopStringFound": "Stoppzeichenfolge gefunden",
-    "stopReason.toolCalls": "Tool-Rufe",
+    "stopReason.toolCalls": "Toolverwendung",
     "stopReason.maxPredictedTokensReached": "Maximale vorhergesagte Tokens erreicht",
     "stopReason.contextLengthReached": "Kontextlängenlimit erreicht",
     "speculativeDecodedBy": "Entwurfsmodell: {{decodedBy}}",
