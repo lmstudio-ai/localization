@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "المجموعات",
+  "collectionsColumn/collectionError": "خطأ في تحميل تفاصيل المجموعة، يرجى تحديث الصفحة أعلاه",
+  "bookmarksColumn": "المفضلة",
+  "searchBar/placeholder": "البحث عن نماذج في Hugging Face...",
+  "searchBar/huggingFaceError": "حدث خطأ في جلب النتائج من Hugging Face، يرجى المحاولة مرة أخرى بعد قليل",
+  "sortBy": "ترتيب حسب",
+  "searchSortKey.default/title": "أفضل تطابق",
+  "searchSortKey.likes/title": "الأكثر إعجاباً",
+  "searchSortKey.downloads/title": "الأكثر تحميلاً",
+  "searchSortKey.lastModified/title": "آخر تحديث",
+  "searchSortKey.createdAt/title": "أحدث إنشاء",
+  "download.option.willFitEstimation.caveat": "قد تكون هناك عوامل أخرى تمنع تحميله، مثل معمارية النموذج، أو سلامة ملف النموذج، أو كمية الذاكرة المتاحة على جهاز الكمبيوتر الخاص بك.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "إمكانية النقل الكامل إلى GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "قد يتناسب هذا النموذج بالكامل في ذاكرة GPU الخاصة بك. هذا قد يسرع الاستدلال بشكل كبير.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "إمكانية النقل الجزئي إلى GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "قد يتناسب هذا النموذج جزئياً في ذاكرة GPU الخاصة بك. هذا غالباً ما يسرع الاستدلال بشكل كبير.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "من المحتمل أن يتناسب",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "من المحتمل أن يتناسب هذا النموذج مع ذاكرة جهازك.",
+  "download.option.willFitEstimation.willNotFit/title": "من المحتمل أن يكون كبيراً جداً لهذا الجهاز",
+  "download.option.willFitEstimation.willNotFit/description": "قد تتجاوز متطلبات الذاكرة لاستخدام ملف النموذج هذا بنجاح الموارد المتاحة على جهازك. لا يُنصح بتحميل هذا الملف.",
+  "download.option.recommended/title": "موصى به",
+  "download.option.recommended/description": "بناءً على عتادك، هذا الخيار موصى به.",
+  "download.option.downloaded/title": "تم التحميل",
+  "download.option.downloading/title": "جارٍ التحميل ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "تحديث التغذية"
+}
