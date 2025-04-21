@@ -67,6 +67,11 @@
     "canceled": "Canceled"
   },
 
+  "next": {
+    "nextWithEllipsis": "Next...",
+    "next": "Next"
+  },
+
   "back": {
     "backWithEllipsis": "Back...",
     "back": "Back"
@@ -285,5 +290,14 @@
     "configure": "Configure",
     "configuringWithEllipsis": "Configuring...",
     "configured": "Configured"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Publish...",
+    "publish": "Publish",
+    "publishingWithEllipsis": "Publishing...",
+    "publishing": "Publishing",
+    "publishedWithExclamation": "Published!",
+    "published": "Published"
   }
 }
