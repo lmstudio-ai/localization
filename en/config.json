@@ -21,8 +21,19 @@
   "loadParameters/title": "Load Parameters",
   "loadParameters/description": "Settings to control the way the model is initialized and loaded into memory.",
   "loadParameters/reload": "Reload to apply changes",
+  "loadParameters/reload/error": "Failed to reload the model",
   "discardChanges": "Discard changes",
   "loadModelToSeeOptions": "Load a model to see options",
+  "schematicsError.title": "The config schematics contains errors in the following fields:",
+  "manifestSections": {
+    "structuredOutput/title": "Structured Output",
+    "speculativeDecoding/title": "Speculative Decoding",
+    "sampling/title": "Sampling",
+    "settings/title": "Settings",
+    "toolUse/title": "Tool Use",
+    "promptTemplate/title": "Prompt Template"
+  },
+
   "llm.prediction.systemPrompt/title": "System Prompt",
   "llm.prediction.systemPrompt/description": "Use this field to provide background instructions to the model, such as a set of rules, constraints, or general requirements.",
   "llm.prediction.systemPrompt/subTitle": "Guidelines for the AI",
@@ -61,6 +72,15 @@
   "llm.prediction.llama.presencePenalty/title": "Presence Penalty",
   "llm.prediction.llama.tailFreeSampling/title": "Tail-Free Sampling",
   "llm.prediction.llama.locallyTypicalSampling/title": "Locally Typical Sampling",
+  "llm.prediction.llama.xtcProbability/title": "XTC Sampling Probability",
+  "llm.prediction.llama.xtcProbability/subTitle": "The XTC (Exclude Top Choices) sampler will only be activated with this probability per generated token. XTC sampling can boost creativity and reduce clichés",
+  "llm.prediction.llama.xtcProbability/info": "XTC (Exclude Top Choices) sampling will only be activated with this probability, per generated token. XTC sampling usually boosts creativity and reduces clichés",
+  "llm.prediction.llama.xtcThreshold/title": "XTC Sampling Threshold",
+  "llm.prediction.llama.xtcThreshold/subTitle": "XTC (Exclude Top Choices) threshold. With a chance of `xtc-probability`, search for tokens with probabilities between `xtc-threshold` and 0.5, and removes all such tokens except the least probable one",
+  "llm.prediction.llama.xtcThreshold/info": "XTC (Exclude Top Choices) threshold. With a chance of `xtc-probability`, search for tokens with probabilities between `xtc-threshold` and 0.5, and removes all such tokens except the least probable one",
+  "llm.prediction.mlx.topKSampling/title": "Top K Sampling",
+  "llm.prediction.mlx.topKSampling/subTitle": "Limits the next token to one of the top-k most probable tokens. Acts similarly to temperature",
+  "llm.prediction.mlx.topKSampling/info": "Limits the next token to one of the top-k most probable tokens. Acts similarly to temperature",
   "llm.prediction.onnx.topKSampling/title": "Top K Sampling",
   "llm.prediction.onnx.topKSampling/subTitle": "Limits the next token to one of the top-k most probable tokens. Acts similarly to temperature",
   "llm.prediction.onnx.topKSampling/info": "From ONNX documentation:\n\nNumber of highest probability vocabulary tokens to keep for top-k-filtering\n\n• This filter is turned off by default",
@@ -73,9 +93,23 @@
   "llm.prediction.seed/title": "Seed",
   "llm.prediction.structured/title": "Structured Output",
   "llm.prediction.structured/info": "Structured Output",
-  "llm.prediction.structured/description": "Advanced: you can provide a JSON Schema to enforce a particular output format from the model. Read the [documentation](https://lmstudio.ai/docs/advanced/structured-output) to learn more",
+  "llm.prediction.structured/description": "Advanced: you can provide a [JSON Schema](https://json-schema.org/learn/miscellaneous-examples) to enforce a particular output format from the model. Read the [documentation](https://lmstudio.ai/docs/advanced/structured-output) to learn more",
+  "llm.prediction.tools/title": "Tool Use",
+  "llm.prediction.tools/description": "Advanced: you can provide a JSON-compliant list of tools for the model to request calls to. Read the [documentation](https://lmstudio.ai/docs/advanced/tool-use) to learn more",
+  "llm.prediction.tools/serverPageDescriptionAddon": "Pass this through the request body as `tools` when using the server API",
   "llm.prediction.promptTemplate/title": "Prompt Template",
   "llm.prediction.promptTemplate/subTitle": "The format in which messages in chat are sent to the model. Changing this may introduce unexpected behavior - make sure you know what you're doing!",
+  "llm.prediction.speculativeDecoding.numDraftTokensExact/title": "Draft Tokens to Generate",
+  "llm.prediction.speculativeDecoding.numDraftTokensExact/subTitle": "The number of tokens to generate with the draft model per main model token. Find the sweet spot of compute vs. reward",
+  "llm.prediction.speculativeDecoding.minContinueDraftingProbability/title": "Drafting Probability Cutoff",
+  "llm.prediction.speculativeDecoding.minContinueDraftingProbability/subTitle": "Continue drafting until a token's probability falls below this threshold. Higher values generally mean lower risk, lower reward",
+  "llm.prediction.speculativeDecoding.minDraftLengthToConsider/title": "Min Draft Size",
+  "llm.prediction.speculativeDecoding.minDraftLengthToConsider/subTitle": "Drafts smaller than this will be ignored by the main model. Higher values generally mean lower risk, lower reward",
+  "llm.prediction.speculativeDecoding.maxTokensToDraft/title": "Max Draft Size",
+  "llm.prediction.speculativeDecoding.maxTokensToDraft/subTitle": "Max number of tokens allowed in a draft. Ceiling if all token probs are > the cutoff. Lower values generally mean lower risk, lower reward",
+  "llm.prediction.speculativeDecoding.draftModel/title": "Draft Model",
+  "llm.prediction.reasoning.parsing/title": "Reasoning Section Parsing",
+  "llm.prediction.reasoning.parsing/subTitle": "How to parse reasoning sections in the model's output",
 
   "llm.load.contextLength/title": "Context Length",
   "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -111,6 +145,38 @@
   "llm.load.llama.tryMmap/title": "Try mmap()",
   "llm.load.llama.tryMmap/subTitle": "Improves load time for the model. Disabling this may improve performance when the model is larger than the available system RAM",
   "llm.load.llama.tryMmap/info": "Load model files directly from disk to memory",
+  "llm.load.llama.cpuThreadPoolSize/title": "CPU Thread Pool Size",
+  "llm.load.llama.cpuThreadPoolSize/subTitle": "Number of CPU threads to allocate to the thread pool used for model computation",
+  "llm.load.llama.cpuThreadPoolSize/info": "The number of CPU threads to allocate to the thread pool used for model computation. Increasing the number of threads does not always correlate with better performance. The default is <{{dynamicValue}}>.",
+  "llm.load.llama.kCacheQuantizationType/title": "K Cache Quantization Type",
+  "llm.load.llama.kCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
+  "llm.load.llama.vCacheQuantizationType/title": "V Cache Quantization Type",
+  "llm.load.llama.vCacheQuantizationType/subTitle": "Lower values reduce memory usage but may decrease quality. The effect varies significantly between models.",
+  "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ You must disable this value if Flash Attention is not enabled",
+  "llm.load.llama.vCacheQuantizationType/disabledMessage": "Can only be turned on when Flash Attention is enabled",
+  "llm.load.llama.vCacheQuantizationType/invalidF32MetalState": "⚠️ You must disable flash attention when using F32",
+  "llm.load.mlx.kvCacheBits/title": "KV Cache Quantization",
+  "llm.load.mlx.kvCacheBits/subTitle": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheBits/info": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheBits/turnedOnWarning": "Context Length setting is ignored when using KV Cache Quantization",
+  "llm.load.mlx.kvCacheGroupSize/title": "KV Cache Quantization: Group Size",
+  "llm.load.mlx.kvCacheGroupSize/subTitle": "Group size during quantization operation for the KV cache. Higher group size reduces memory usage but may decrease quality",
+  "llm.load.mlx.kvCacheGroupSize/info": "Number of bits that the KV cache should be quantized to",
+  "llm.load.mlx.kvCacheQuantizationStart/title": "KV Cache Quantization: Start quantizing when ctx crosses this length",
+  "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Context length threshold to start quantizating the KV cache",
+  "llm.load.mlx.kvCacheQuantizationStart/info": "Context length threshold to start quantizating the KV cache",
+  "llm.load.mlx.kvCacheQuantization/title": "KV Cache Quantization",
+  "llm.load.mlx.kvCacheQuantization/subTitle": "Quantize the model's KV cache. This may result in faster generation and lower memory footprint,\nat the expense of the quality of the model output.",
+  "llm.load.mlx.kvCacheQuantization/bits/title": "KV cache quantization bits",
+  "llm.load.mlx.kvCacheQuantization/bits/tooltip": "Number of bits to quantize the KV cache to",
+  "llm.load.mlx.kvCacheQuantization/bits/bits": "Bits",
+  "llm.load.mlx.kvCacheQuantization/groupSize/title": "Group size strategy",
+  "llm.load.mlx.kvCacheQuantization/groupSize/accuracy": "Accuracy",
+  "llm.load.mlx.kvCacheQuantization/groupSize/balanced": "Balanced",
+  "llm.load.mlx.kvCacheQuantization/groupSize/speedy": "Speedy",
+  "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Advanced: Quantized 'matmul group size' configuration\n\n• Accuracy = group size 32\n• Balanced = group size 64\n• Speedy = group size 128\n",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Start quantizing when ctx reaches this length",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "When the context reaches this amount of tokens,\nbegin quantizing the KV cache",
 
   "embedding.load.contextLength/title": "Context Length",
   "embedding.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
@@ -150,7 +216,10 @@
     "excluded/title": "May not apply",
     "excluded/description": "The following fields are included in the preset but does not apply in the current context.",
     "legacy/title": "Legacy Preset",
-    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable."
+    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
+    "button/publish": "Publish to Hub",
+    "button/pushUpdate": "Push Changes to Hub",
+    "button/export": "Export"
   },
 
   "customInputs": {
@@ -158,6 +227,12 @@
       "emptyParagraph": "<Empty>"
     },
     "checkboxNumeric": {
+      "off": "OFF"
+    },
+    "llamaCacheQuantizationType": {
+      "off": "OFF"
+    },
+    "mlxKvCacheBits": {
       "off": "OFF"
     },
     "stringArray": {
@@ -205,6 +280,44 @@
     "llamaAccelerationOffloadRatio": {
       "max": "MAX",
       "off": "OFF"
+    },
+    "llamaAccelerationSplitStrategy": {
+      "evenly": "Evenly",
+      "favorMainGpu": "Favor Main GPU"
+    },
+    "speculativeDecodingDraftModel": {
+      "readMore": "Read how it works",
+      "placeholder": "Select a compatible draft model",
+      "noCompatible": "No compatible draft models found for your current model selection",
+      "stillLoading": "Identifying compatible draft models...",
+      "notCompatible": "The selected draft model (<draft/>) is not compatible with the current model selection (<current/>).",
+      "off": "OFF",
+      "loadModelToSeeOptions": "Load model <keyboard-shortcut /> to see compatible options",
+      "compatibleWithNumberOfModels": "Recommended for at least {{dynamicValue}} of your models",
+      "recommendedForSomeModels": "Recommended for some models",
+      "recommendedForLlamaModels": "Recommended for Llama models",
+      "recommendedForQwenModels": "Recommended for Qwen models",
+      "onboardingModal": {
+        "introducing": "Introducing",
+        "speculativeDecoding": "Speculative Decoding",
+        "firstStepBody": "Inference speedup for <custom-span>llama.cpp</custom-span> and <custom-span>MLX</custom-span> models",
+        "secondStepTitle": "Inference Speedup with Speculative Decoding",
+        "secondStepBody": "Speculative Decoding is a technique involving the collaboration of two models:\n - A larger \"main\" model\n - A smaller \"draft\" model\n\nDuring generation, the draft model rapidly proposes tokens for the larger main model to verify. Verifying tokens is a much faster process than actually generating them, which is the source of the speed gains. **Generally, the larger the size difference between the main model and the draft model, the greater the speed-up**.\n\nTo maintain quality, the main model only accepts tokens that align with what it would have generated itself, enabling the response quality of the larger model at faster inference speeds. Both models must share the same vocabulary.",
+        "draftModelRecommendationsTitle": "Draft model recommendations",
+        "basedOnCurrentModels": "Based on your current models",
+        "close": "Close",
+        "next": "Next",
+        "done": "Done"
+      },
+      "speculativeDecodingLoadModelToSeeOptions": "Please load a model first <model-badge /> ",
+      "errorEngineNotSupported": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine (<key/>) and reload the model to use this feature.",
+      "errorEngineNotSupported/noKey": "Speculative decoding requires at least version {{minVersion}} of the engine {{engineName}}. Please update the engine and reload the model to use this feature."
+    },
+    "llmReasoningParsing": {
+      "startString/label": "Start String",
+      "startString/placeholder": "Enter the start string...",
+      "endString/label": "End String",
+      "endString/placeholder": "Enter the end string..."
     }
   },
   "saveConflictResolution": {
@@ -226,6 +339,13 @@
     "cancel": "Cancel"
   },
   "empty": "<Empty>",
+  "noModelSelected": "No models selected",
+  "apiIdentifier.label": "API Identifier",
+  "apiIdentifier.hint": "Optionally provide an identifier for this model. This will be used in API requests. Leave blank to use the default identifier.",
+  "idleTTL.label": "Auto Unload If Idle (TTL)",
+  "idleTTL.hint": "If set, the model will be automatically unloaded after being idle for the specified amount of time.",
+  "idleTTL.mins": "mins",
+
   "presets": {
     "title": "Preset",
     "commitChanges": "Commit Changes",
@@ -256,14 +376,136 @@
     "delete/error": "Failed to delete preset.",
     "discardChanges": "Discard Unsaved",
     "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
-    "newEmptyPreset": "Create new empty preset...",
-    "contextMenuSelect": "Select Preset",
-    "contextMenuDelete": "Delete"
+    "newEmptyPreset": "+ New Preset",
+    "importPreset": "Import",
+    "contextMenuSelect": "Apply Preset",
+    "contextMenuDelete": "Delete...",
+    "contextMenuShare": "Publish...",
+    "contextMenuOpenInHub": "View on Hub",
+    "contextMenuPushChanges": "Push changes to Hub",
+    "contextMenuPushingChanges": "Pushing...",
+    "contextMenuPushedChanges": "Changes pushed",
+    "contextMenuExport": "Export File",
+    "contextMenuRevealInExplorer": "Reveal in File Explorer",
+    "contextMenuRevealInFinder": "Reveal in Finder",
+    "share": {
+      "title": "Publish Preset",
+      "action": "Share your preset for others to download, like, and fork",
+      "presetOwnerLabel": "Owner",
+      "uploadAs": "Your preset will be created as {{name}}",
+      "presetNameLabel": "Preset Name",
+      "descriptionLabel": "Description (optional)",
+      "loading": "Publishing...",
+      "success": "Preset Successfully Pushed",
+      "presetIsLive": "<preset-name /> is now live on the Hub!",
+      "close": "Close",
+      "confirmViewOnWeb": "View on web",
+      "confirmCopy": "Copy URL",
+      "confirmCopied": "Copied!",
+      "pushedToHub": "Your preset was pushed to the Hub",
+      "descriptionPlaceholder": "Enter a description...",
+      "willBePublic": "Publishing your preset will make it public",
+      "publicSubtitle": "Your preset is <custom-bold>Public</custom-bold>. Others can download and fork it on lmstudio.ai",
+      "confirmShareButton": "Publish",
+      "error": "Failed to publish preset",
+      "createFreeAccount": "Create a free account in the Hub to publish presets"
+    },
+    "update": {
+      "title": "Push Changes to Hub",
+      "title/success": "Preset Successfully Updated",
+      "subtitle": "Make changes to <custom-preset-name /> and push them to the Hub",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Enter a description...",
+      "loading": "Pushing...",
+      "cancel": "Cancel",
+      "createFreeAccount": "Create a free account in the Hub to publish presets",
+      "error": "Failed to push update",
+      "confirmUpdateButton": "Push"
+    },
+    "import": {
+      "title": "Import a Preset from File",
+      "dragPrompt": "Drag and drop preset JSON files or <custom-link>select from your computer</custom-link>",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "importPreset_zero": "Import Preset",
+      "importPreset_one": "Import Preset",
+      "importPreset_other": "Import {{count}} Presets",
+      "selectDialog": {
+        "title": "Select Preset File (.json)",
+        "button": "Import"
+      },
+      "error": "Failed to import preset",
+      "resultsModal": {
+        "titleSuccessSection_one": "Imported 1 preset successfully",
+        "titleSuccessSection_other": "Imported {{count}} presets successfully",
+        "titleFailSection_zero": "",
+        "titleFailSection_one": "({{count}} failed)",
+        "titleFailSection_other": "({{count}} failed)",
+        "titleAllFailed": "Failed to import presets",
+        "importMore": "Import More",
+        "close": "Done",
+        "successBadge": "Success",
+        "alreadyExistsBadge": "Preset already exists",
+        "errorBadge": "Error",
+        "invalidFileBadge": "Invalid file",
+        "otherErrorBadge": "Failed to import preset",
+        "errorViewDetailsButton": "View Details",
+        "seeError": "See Error",
+        "noName": "No preset name",
+        "useInChat": "Use in Chat"
+      },
+      "importFromUrl": {
+        "button": "Import from URL...",
+        "title": "Import from URL",
+        "back": "Import from File...",
+        "action": "Paste the LM Studio Hub URL of the preset you want to import below",
+        "invalidUrl": "Invalid URL. Please make sure you are pasting a correct LM Studio Hub URL.",
+        "tip": "You can install the preset directly with the {{buttonName}} button in LM Studio Hub",
+        "confirm": "Import",
+        "cancel": "Cancel",
+        "loading": "Importing...",
+        "error": "Failed to download preset."
+      }
+    },
+    "download": {
+      "title": "Pull <preset-name /> from LM Studio Hub",
+      "subtitle": "Save <custom-name /> to your presets. Doing so you will allow you to use this preset in the app",
+      "button": "Pull",
+      "button/loading": "Pulling...",
+      "cancel": "Cancel",
+      "error": "Failed to download preset."
+    },
+    "inclusiveness": {
+      "speculativeDecoding": "Include in Preset"
+    }
   },
 
   "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
+  "llamaKvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantization. If you encounter problems, reset to the default \"F16\".",
 
   "seedUncheckedHint": "Random Seed",
   "ropeFrequencyBaseUncheckedHint": "Auto",
-  "ropeFrequencyScaleUncheckedHint": "Auto"
+  "ropeFrequencyScaleUncheckedHint": "Auto",
+
+  "hardware": {
+    "advancedGpuSettings": "Advanced GPU Settings",
+    "advancedGpuSettings.info": "If you're unsure, leave these at their default values",
+    "advancedGpuSettings.reset": "Reset to default",
+    "environmentVariables": {
+      "title": "Env. Variables",
+      "description": "Active environment variables during model lifetime.",
+      "key.placeholder": "Select var...",
+      "value.placeholder": "Value"
+    },
+    "mainGpu": {
+      "title": "Main GPU",
+      "description": "The GPU to prioritize for model computation.",
+      "placeholder": "Select main GPU..."
+    },
+    "splitStrategy": {
+      "title": "Split Strategy",
+      "description": "How to split model computation across GPUs.",
+      "placeholder": "Select split strategy..."
+    }
+  }
 }
