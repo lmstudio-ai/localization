@@ -180,5 +180,15 @@
     "hasBetterFooterCardText": "We have improved the chat migrator since you have migrated your old chats. You can rerun the migration process. (We will create a new folder to contain the newly migrated chats.)",
     "dismissConfirm": "Dismiss",
     "dismissConfirmDescription": "You can always handle chat migration in Settings"
+  },
+  "toolConfirmation": {
+    "label": "Tool Call Confirmation",
+    "neverAsk": {
+      "label": "Never ask for confirmations before running a tool",
+      "hint": "Disable the confirmations before running a tool. This is not recommend.",
+      "warnTitle": "Are you sure?",
+      "warnDescription": "Disabling tool call confirmations is dangerous. If any of your plugins contributed a tool that has the potential to perform destructive actions (such as running a command, deleting files, overwriting files, uploading files, etc), the model will be able to do so without any confirmation. You can always disable confirmations on a per-tool or even per-plugin basis. Enabling this option is NOT recommended. Please be careful.",
+      "warnButton": "I understand the risks"
+    }
   }
 }
