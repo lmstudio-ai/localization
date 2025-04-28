@@ -31,7 +31,8 @@
     "sampling/title": "Sampling",
     "settings/title": "Settings",
     "toolUse/title": "Tool Use",
-    "promptTemplate/title": "Prompt Template"
+    "promptTemplate/title": "Prompt Template",
+    "customFields/title": "Custom Fields"
   },
 
   "llm.prediction.systemPrompt/title": "System Prompt",
