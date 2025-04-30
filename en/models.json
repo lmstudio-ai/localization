@@ -42,7 +42,8 @@
   "unresolvedVirtualModels.missingModel": "A dependent model is missing: {{missing}}. Dependency path:\n{{chain}}",
   "unresolvedVirtualModels.circular": "Circular dependency detected.",
   "unresolvedVirtualModels.fix": "Fix",
-  "unresolvedVirtualModels.reveal": "Reveal",
+  "unresolvedVirtualModels.revealInExplorer": "Reveal in Explorer",
+  "unresolvedVirtualModels.revealInFinder": "Reveal in Finder",
   "unresolvedVirtualModels.reveal/error": "Failed to reveal",
 
   "modelsDirectory": "Models Directory",
