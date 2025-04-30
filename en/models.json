@@ -67,6 +67,14 @@
   "contextMenu/copyModelDefaultIdentifier": "Copy Default Identifier",
   "contextMenu/showRawMetadata": "Show Raw Metadata",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
+  "contextMenu": {
+    "pullLatest": {
+      "label": "Pull Latest",
+      "checking": "Checking for updates..",
+      "upToDate": "Up to date",
+      "error": "Failed to check for updates"
+    }
+  },
   "tooltip/moreActions": "More Actions",
   "tooltip/getInfo": "Get Info",
   "tooltip/editModelDefaultConfig": "Edit model default config",
