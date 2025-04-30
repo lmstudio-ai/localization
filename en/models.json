@@ -41,6 +41,9 @@
   "unresolvedVirtualModels/title_other": "Failed to resolve the following virtual models:",
   "unresolvedVirtualModels.missingModel": "A dependent model is missing: {{missing}}. Dependency path:\n{{chain}}",
   "unresolvedVirtualModels.circular": "Circular dependency detected.",
+  "unresolvedVirtualModels.fix": "Fix",
+  "unresolvedVirtualModels.reveal": "Reveal",
+  "unresolvedVirtualModels.reveal/error": "Failed to reveal",
 
   "modelsDirectory": "Models Directory",
   "modelsDirectory.change": "Change...",
