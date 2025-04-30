@@ -2,7 +2,7 @@
   "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
   "finalizing": "Finalizing download... (this may take a few moments)",
   "noOptions": "No compatible options available for download",
-  
+
   "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Select recommended",
@@ -19,6 +19,15 @@
 
   "downloadsPanel/title": "Downloads",
   "downloadsPanel/sectionTitle/ongoing": "Ongoing",
-  "downloadsPanel/sectionTitle/completed": "Completed"
+  "downloadsPanel/sectionTitle/completed": "Completed",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Reval in Finder",
+      "mac/error": "Failed to reveal in Finder",
+      "nonMac": "Reveal in File Explorer",
+      "nonMac/error": "Failed to reveal in File Explorer"
+    },
+    "completed": "Download Completed",
+    "loadModel": "Load Model"
+  }
 }
-  
