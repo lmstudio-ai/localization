@@ -1,0 +1,169 @@
+{
+  "tabs/server": "سرور محلی",
+  "tabs/extensions": "زمان‌های اجرای LM",
+  "loadSettings/title": "بارگذاری تنظیمات",
+  "modelSettings/placeholder": "برای پیکربندی، یک مدل انتخاب کنید",
+
+  "loadedModels/noModels": "هیچ مدلی بارگذاری نشده است",
+
+  "serverOptions/title": "گزینه‌های سرور",
+  "serverOptions/configurableTitle": "گزینه‌های قابل تنظیم",
+  "serverOptions/port/hint": "شماره پورتی را که سرور محلی باید استفاده کند تعیین کنید. به‌طور پیش‌فرض، LM Studio از پورت 1234 استفاده می‌کند. در صورت اشغال بودن پورت ممکن است نیاز به تغییر آن داشته باشید.",
+  "serverOptions/port/subtitle": "پورتی که به آن گوش داده می‌شود",
+  "serverOptions/autostart/title": "راه‌اندازی خودکار سرور",
+  "serverOptions/autostart/hint": "سرور محلی LLM در LM Studio را به‌طور خودکار هنگام اجرای برنامه یا سرویس روشن می‌کند",
+  "serverOptions/port/integerWarning": "شماره پورت باید یک عدد صحیح باشد",
+  "serverOptions/port/invalidPortWarning": "شماره پورت باید بین 1 تا 65535 باشد",
+  "serverOptions/cors/title": "فعال‌سازی CORS",
+  "serverOptions/cors/hint1": "فعال‌سازی CORS (اشتراک منابع بین مبدأها) به وب‌سایت‌هایی که بازدید می‌کنید اجازه می‌دهد به سرور LM Studio درخواست ارسال کنند.",
+  "serverOptions/cors/hint2": "CORS ممکن است هنگام ارسال درخواست از صفحات وب یا افزونه‌هایی مانند VS Code مورد نیاز باشد.",
+  "serverOptions/cors/subtitle": "اجازه درخواست‌های بین مبدأیی",
+  "serverOptions/network/title": "ارائه در شبکه محلی",
+  "serverOptions/network/subtitle": "نمایش سرور برای دستگاه‌های داخل شبکه",
+  "serverOptions/network/hint1": "آیا اتصال دستگاه‌های دیگر در شبکه مجاز باشد یا نه.",
+  "serverOptions/network/hint2": "اگر انتخاب نشده باشد، سرور فقط به localhost گوش می‌دهد.",
+  "serverOptions/verboseLogging/title": "لاگ‌گیری کامل",
+  "serverOptions/verboseLogging/subtitle": "فعال‌سازی لاگ‌گیری کامل برای سرور محلی",
+  "serverOptions/contentLogging/title": "ثبت پرامپت‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/subtitle": "تنظیمات لاگ‌گیری درخواست‌ها/پاسخ‌های محلی",
+  "serverOptions/contentLogging/hint": "آیا پرامپت‌ها و/یا پاسخ‌ها در فایل لاگ سرور محلی ذخیره شوند یا نه.",
+  "serverOptions/fileLoggingMode/title": "حالت لاگ‌گیری فایل",
+  "serverOptions/fileLoggingMode/off/title": "خاموش",
+  "serverOptions/fileLoggingMode/off/hint": "فایلی برای لاگ ایجاد نکن",
+  "serverOptions/fileLoggingMode/succinct/title": "خلاصه",
+  "serverOptions/fileLoggingMode/succinct/hint": "همان محتوای کنسول را ثبت می‌کند. درخواست‌های طولانی کوتاه می‌شوند.",
+  "serverOptions/fileLoggingMode/full/title": "کامل",
+  "serverOptions/fileLoggingMode/full/hint": "درخواست‌های طولانی کوتاه نمی‌شوند.",
+  "serverOptions/jitModelLoading/title": "بارگذاری مدل به‌موقع (Just-in-Time)",
+  "serverOptions/jitModelLoading/hint": "اگر فعال باشد، در صورت درخواست مدلی که هنوز بارگذاری نشده، آن مدل به‌صورت خودکار بارگذاری و استفاده می‌شود. همچنین، مسیر \"/v1/models\" شامل مدل‌های هنوز بارگذاری نشده نیز خواهد بود.",
+  "serverOptions/loadModel/error": "بارگذاری مدل با شکست مواجه شد",
+  "serverOptions/jitModelLoadingTTL/title": "خروج خودکار مدل‌های بارگذاری‌شده به‌موقع",
+  "serverOptions/jitModelLoadingTTL/hint": "مدلی که به‌طور موقت برای پاسخ به درخواست بارگذاری شده، پس از مدت‌زمان مشخصی عدم استفاده (TTL) به‌صورت خودکار خارج می‌شود.",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "حداکثر زمان بی‌کاری",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "دقیقه",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "نگه‌داری فقط آخرین مدل بارگذاری‌شده به‌موقع",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "در هر زمان فقط یک مدل به‌صورت JIT بارگذاری شده باقی بماند (مدل قبلی خارج می‌شود)",
+
+  "serverLogs/scrollToBottom": "پرش به پایین",
+  "serverLogs/clearLogs": "پاک‌سازی لاگ‌ها ({{shortcut}})",
+  "serverLogs/openLogsFolder": "باز کردن پوشه لاگ سرور",
+
+  "runtimeSettings/title": "تنظیمات زمان اجرا",
+  "runtimeSettings/chooseRuntime/title": "انتخاب‌های پیش‌فرض",
+  "runtimeSettings/chooseRuntime/description": "یک زمان اجرا پیش‌فرض برای هر فرمت مدل انتخاب کنید",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش تمام نسخه‌ها",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "به‌طور پیش‌فرض، فقط آخرین نسخه از هر زمان اجرای سازگار نمایش داده می‌شود. این گزینه را فعال کنید تا همه نسخه‌ها را ببینید.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "یک زمان اجرا انتخاب کنید",
+
+  "runtimeOptions/uninstall": "حذف نصب",
+  "runtimeOptions/uninstallDialog/title": "حذف {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "حذف این زمان اجرا آن را از سیستم پاک خواهد کرد. این عمل غیرقابل بازگشت است.",
+  "runtimeOptions/uninstallDialog/body/caveats": "برخی فایل‌ها ممکن است فقط پس از راه‌اندازی مجدد LM Studio حذف شوند.",
+  "runtimeOptions/uninstallDialog/error": "حذف زمان اجرا با شکست مواجه شد",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف نصب",
+  "runtimeOptions/uninstallDialog/cancel": "لغو",
+  "runtimeOptions/noCompatibleRuntimes": "هیچ زمان اجرای سازگاری یافت نشد",
+  "runtimeOptions/downloadIncompatibleRuntime": "این زمان اجرا با سیستم شما ناسازگار شناخته شده است و احتمالاً کار نخواهد کرد.",
+  "runtimeOptions/noRuntimes": "هیچ زمان اجرایی یافت نشد",
+
+  "runtimes": {
+    "manageLMRuntimes": "مدیریت زمان‌های اجرای LM",
+    "includeOlderRuntimeVersions": "شامل نسخه‌های قدیمی‌تر زمان اجرا",
+    "dismiss": "بستن",
+    "updateAvailableToast": {
+      "title": "به‌روزرسانی زمان اجرای LM در دسترس است!"
+    },
+    "updatedToast": {
+      "title": "✅ زمان اجرای LM به‌روزرسانی شد: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "مدل‌هایی که تازه بارگذاری شوند، از زمان اجرای جدید استفاده خواهند کرد ({{compatibilityTypes}})"
+    },
+    "noAvx2ErrorMessage": "همه زمان‌های اجرای LM نیاز به CPU با پشتیبانی از AVX2 دارند",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "بسته‌های افزونه زمان اجرا",
+      "refresh": "تازه‌سازی",
+      "refreshing": "در حال تازه‌سازی...",
+      "filterSegment": {
+        "compatibleOnly": "فقط سازگار",
+        "all": "همه"
+      },
+      "card": {
+        "releaseNotes": "یادداشت‌های انتشار",
+        "latestVersionInstalled": "آخرین نسخه نصب‌شده",
+        "updateAvailable": "به‌روزرسانی موجود است"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "مدیریت زمان‌های اجرای فعال"
+      },
+      "dropdownOptions": {
+        "installedVersions": "مدیریت نسخه‌ها",
+        "close": "بستن"
+      },
+      "tabs": {
+        "all": "همه",
+        "frameworks": "فریم‌ورک‌های من",
+        "engines": "موتورهای من"
+      },
+      "detailsModal": {
+        "installedVersions": "نسخه‌های نصب‌شده برای {{runtimeName}}",
+        "manifestJsonTitle": "فایل Manifest (پیشرفته)",
+        "releaseNotesTitle": "یادداشت‌های انتشار",
+        "noReleaseNotes": "یادداشتی برای این نسخه در دسترس نیست",
+        "back": "بازگشت",
+        "close": "بستن"
+      },
+      "noEngines": "هیچ موتوری نصب نشده است",
+      "noFrameworks": "هیچ فریم‌ورکی نصب نشده است"
+    }
+  },
+
+  "inferenceParams/noParams": "هیچ پارامتر قابل تنظیمی برای این نوع مدل وجود ندارد",
+
+  "quickDocs": {
+    "tabChipTitle": "مستند سریع",
+    "newToolUsePopover": "کدهای آماده اکنون در بخش \"مستند سریع\" در دسترس‌اند. برای شروع استفاده از ابزارها کلیک کنید!",
+    "newToolUsePopoverTitle": "📚 مستند سریع",
+    "learnMore": "ℹ️ 👾 برای اطلاعات بیشتر درباره نقاط پایانی سرور محلی LM Studio، به [مستندات](https://lmstudio.ai/docs) مراجعه کنید.",
+    "helloWorld": {
+      "title": "سلام دنیا!"
+    },
+    "chat": {
+      "title": "چت"
+    },
+    "structuredOutput": {
+      "title": "خروجی ساختارمند"
+    },
+    "imageInput": {
+      "title": "ورودی تصویر"
+    },
+    "embeddings": {
+      "title": "بردارسازی (Embedding)"
+    },
+    "toolUse": {
+      "title": "استفاده از ابزار",
+      "tab": {
+        "saveAsPythonFile": "ذخیره به‌صورت فایل پایتون",
+        "runTheScript": "اجرای اسکریپت:",
+        "savePythonFileCopyPaste": "ذخیره به‌صورت فایل پایتون برای کپی/پیست"
+      }
+    },
+    "newBadge": "جدید"
+  },
+
+  "endpoints/openaiCompatRest/title": "نقاط پایانی پشتیبانی‌شده (مشابه OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "لیست مدل‌های بارگذاری‌شده فعلی",
+  "endpoints/openaiCompatRest/postCompletions": "حالت تکمیل متن. پیش‌بینی توکن(های) بعدی با توجه به پرامپت. توجه: این نقطه پایان توسط OpenAI منسوخ اعلام شده است.",
+  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل چت. ارسال تاریخچه چت به مدل برای پیش‌بینی پاسخ بعدی دستیار",
+  "endpoints/openaiCompatRest/postEmbeddings": "بردارسازی متن. تولید بردارهای متنی برای یک ورودی. ورودی می‌تواند یک رشته یا آرایه‌ای از رشته‌ها باشد.",
+
+  "model.createVirtualModelFromInstance": "ذخیره تنظیمات به‌عنوان مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "ذخیره تنظیمات به‌عنوان مدل مجازی جدید با شکست مواجه شد",
+
+  "model": {
+    "toolUseSectionTitle": "استفاده از ابزار",
+    "toolUseDescription": "تشخیص داده شده که این مدل برای استفاده از ابزار آموزش دیده است\n\nبرای اطلاعات بیشتر <custom-link>مستند سریع</custom-link> را باز کنید"
+  },
+
+  "apiConfigOptions/title": "پیکربندی API"
+}
