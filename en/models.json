@@ -68,6 +68,7 @@
   "contextMenu/showRawMetadata": "Show Raw Metadata",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
   "contextMenu": {
+    "showOnWeb": "Show on Web",
     "pullLatest": {
       "label": "Pull Latest",
       "checking": "Checking for updates..",
