@@ -89,6 +89,9 @@
   "actions/createChatAtRoot/error": "Failed to create chat at root",
   "actions/createFolderAtRoot": "New Folder...",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
+  "actions/openInFolder/mac": "Reveal in Finder",
+  "actions/openInFolder/pc": "Reveal in File Explorer",
+
   "actions/createChat/error": "Failed to create chat",
   "actions/deleteChat/errorTitle": "Failed to delete chat",
 
