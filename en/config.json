@@ -125,6 +125,9 @@
   "load.gpuStrictVramCap.customSubTitleOff": "OFF: Allow model weights to offload to shared memory if dedicated GPU memory is full",
   "load.gpuStrictVramCap.customSubTitleOn": "ON: The system will limit offload of model weights to dedicated GPU memory and RAM only. Context may still use shared memory",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Model offload limited to dedicated GPU memory. Actual number of offloaded layers may differ",
+  "load.noKvOffload/title": "Disable KV Cache Offload",
+  "load.noKvOffload.customSubTitleOff": "OFF: KV cache will be offloaded to GPU memory",
+  "load.noKvOffload.customSubTitleOn": "ON: KV cache will be offloaded to RAM",
   "load.allGpusDisabledWarning": "All GPUs are currently disabled. Enable at least one to offload",
 
   "llm.load.contextLength/title": "Context Length",
