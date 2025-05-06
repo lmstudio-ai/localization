@@ -177,7 +177,7 @@
         "uninstall": "Uninstall"
       },
       "actionButtons": {
-        "create": "+ Create",
+        "create": "Create",
         "import": "Import",
         "discover": "Discover"
       },
