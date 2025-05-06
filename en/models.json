@@ -53,6 +53,8 @@
   "modelsDirectory.reset": "Reset to Default Path",
   "modelsDirectory.reveal.mac": "Reveal in Finder",
   "modelsDirectory.reveal.nonMac": "Open in File Explorer",
+  "modelsDirectory.reveal.mac/error": "Failed to open in Finder",
+  "modelsDirectory.reveal.nonMac/error": "Failed to open in File Explorer",
   "modelsDirectory.forceReindex": "Refresh",
   "loadState/loaded": "Loaded",
   "loadState/loading": "Loading",
