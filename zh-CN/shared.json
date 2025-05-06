@@ -1,5 +1,37 @@
 {
-  "copyLmStudioLinkButton/toolTip": "复制模型下载链接",
-
-  "filter.noMatches": "没有匹配项"
+    "copyLmStudioLinkButton/toolTip": "复制模型下载链接",
+    "filter.noMatches": "没有匹配项",
+    "longRunningTask": {
+        "unbundlingDependencies": {
+            "badge": "正在提取资源"
+        },
+        "performingBackendHardwareSurvey": {
+            "badge": "正在检查运行环境兼容性"
+        },
+        "indexingRuntimes": {
+            "badge": "正在索引运行环境"
+        },
+        "indexingModels": {
+            "badge": "正在索引模型"
+        },
+        "authenticating": {
+            "badge": "正在认证"
+        },
+        "autoUpdatingExtensionPack": {
+            "badge": "正在更新扩展包（{{name}} v{{version}}）"
+        }
+    },
+    "auth": {
+        "prompt": "登录 LM Studio Hub",
+        "authError": "认证失败",
+        "noAccount": "还没有账号？",
+        "signUp": "注册",
+        "havingTrouble": "遇到问题？",
+        "retry": "重试"
+    },
+    "artifacts": {
+        "fetchError": "获取文件失败"
+    },
+    "incompatible": "不兼容",
+    "compatible": "兼容"
 }

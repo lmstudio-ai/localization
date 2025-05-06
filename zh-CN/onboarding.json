@@ -1,24 +1,40 @@
 {
-  "action.skipOnboarding": "跳过引导",
-  "action.next": "下一步",
-  "action.back": "上一步",
-  "action.finish": "完成",
-  
-  "dismissable_rag_modal": {
-    "description": "现在您可以使用检索增强生成 (RAG) 与自己的文档进行聊天。以下是其工作原理：",
-    "instructions": {
-      "attach_files": {
-        "title": "上传文件",
-        "description": "一次最多可上传5个文件，总大小不超过30MB。支持的格式包括PDF、DOCX、TXT和CSV。"
-      },
-      "be_specific": {
-        "title": "具体明确",
-        "description": "提问时，尽可能多地提及细节。这有助于系统从您的文档中检索最相关的信息。"
-      },
-      "get_responses": {
-        "title": "获取回应并实验",
-        "description": "大语言模型将查看您的查询和从文档中检索到的摘录，并尝试生成回应。通过尝试不同的查询来找到最佳方法。"
-      }
+    "action.skipOnboarding": "跳过引导",
+    "action.next": "下一步",
+    "action.back": "上一步",
+    "action.finish": "完成",
+    "dismissable_rag_modal": {
+        "description": "现在您可以使用检索增强生成 (RAG) 与自己的文档进行聊天。以下是其工作原理：",
+        "instructions": {
+            "attach_files": {
+                "title": "上传文件",
+                "description": "一次最多可上传5个文件，总大小不超过30MB。支持的格式包括PDF、DOCX、TXT和CSV。"
+            },
+            "be_specific": {
+                "title": "具体明确",
+                "description": "提问时，尽可能多地提及细节。这有助于系统从您的文档中检索最相关的信息。"
+            },
+            "get_responses": {
+                "title": "获取回应并实验",
+                "description": "大语言模型将查看您的查询和从文档中检索到的摘录，并尝试生成回应。通过尝试不同的查询来找到最佳方法。"
+            }
+        }
+    },
+    "toolUse": {
+        "step_0": {
+            "title": "测试版：工具调用 🛠️（函数调用）",
+            "text_0": "部分模型（如 Llama 3.1/3.2、Mistral、Qwen 等）已被训练以支持工具调用。",
+            "text_1": "实际操作中，您只需以特定格式为大模型提供一组“工具”（函数签名），模型便可根据用户提示判断是否“调用”这些工具。",
+            "text_2": "这意味着您可以实现如 API 查询、代码运行，或任何能以函数调用方式表达的操作。"
+        },
+        "step_1": {
+            "title": "开始体验工具调用",
+            "toolUseCanWorkWithAnyModel": "尽管经过工具调用训练的模型表现会更好，您也可以尝试让任何模型调用工具。阅读<customlink>文档</customlink>了解详情。支持工具调用的模型将带有新徽章：",
+            "hasCompatibleModel": "🎉 您已拥有支持工具调用的模型！",
+            "downloadRecommendedModel": "下载已支持工具调用的推荐模型："
+        },
+        "nextButton": "下一步",
+        "letsGoButton": "加载模型并启动服务器",
+        "doneButton": "关闭"
     }
-  }
 }
