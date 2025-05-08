@@ -31,7 +31,8 @@
     "retry": "Retry"
   },
   "artifacts": {
-    "fetchError": "Failed to fetch artifacts"
+    "fetchError": "Failed to fetch artifacts",
+    "organizationVisible": "Organization Visible"
   },
 
   "incompatible": "Incompatible",
