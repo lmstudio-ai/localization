@@ -1,3 +1,38 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Copiar Link de Download do Modelo"
+  "copyLmStudioLinkButton/toolTip": "Copiar Link de Download do Modelo",
+
+  "filter.noMatches": "Nenhuma correspondência",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Extraindo Recursos"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Verificando Compatibilidades de Tempo de Execução"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexando Tempos de Execução"
+    },
+    "indexingModels": {
+      "badge": "Indexando Modelos"
+    },
+    "authenticating": {
+      "badge": "Autenticando"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Atualizando Pacote de Extensão ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Faça login no LM Studio Hub",
+    "authError": "Falha na autenticação",
+    "noAccount": "Não tem uma conta?",
+    "signUp": "Cadastre-se",
+    "havingTrouble": "Está com problemas?",
+    "retry": "Tentar novamente"
+  },
+  "artifacts": {
+    "fetchError": "Falha ao buscar artefatos"
+  },
+  "incompatible": "Incompatível",
+  "compatible": "Compatível"
 }

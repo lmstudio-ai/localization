@@ -23,6 +23,12 @@
   "noChatSelectedPlaceholder": "Selecione uma conversa",
   "unnamedChat": "Conversa Sem Nome",
   "emptyFolder": "Pasta Vazia",
+
+  "tokenCount": "Contagem de tokens",
+  "messageTokenCount": "Contagem de tokens da entrada",
+  "tokenCount/hint": "O número de tokens na mensagem. Contados usando o tokenizador do modelo atualmente selecionado.\n\nRequer que o modelo esteja carregado.",
+  "messageTokenCount/hint": "O número de tokens na mensagem. Contados usando o tokenizador do modelo atualmente selecionado.\n\n**NÃO** inclui uma estimativa de tokens em anexos de arquivo.",
+
   "notes": "Notas da Conversa",
   "notes/add/first": "Adicionar uma nota",
   "notes/add/another": "Adicionar outra nota",
@@ -71,6 +77,8 @@
   "editMessageConfirm/discard": "Descartar Alterações",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Contexto está {{percentage}}% cheio",
+  "tokenCount/contextOverflow": "O contexto não processado é maior que o limite máximo de tokens do modelo. Dependendo da sua Política de Excesso de Contexto, o contexto pode ser truncado ou a mensagem pode não ser enviada.",
   "modelLoader/manualLoadParams/label": "Escolher manualmente os parâmetros de carregamento do modelo",
   "modelLoader/manualLoadParams/hint/before": "(ou mantenha ",
   "modelLoader/manualLoadParams/hint/after": ")",
@@ -81,6 +89,7 @@
   "actions/createFolderAtRoot": "Criar Nova Pasta",
   "actions/createFolderAtRoot/error": "Falha ao criar pasta na raiz",
   "actions/createChat/error": "Falha ao criar conversa",
+  "actions/deleteChat/errorTitle": "Falha ao excluir conversa",
 
   "userFile/fileSizeLimit": "O limite de tamanho de arquivo é ",
   "userFile/noImageSupport": "O modelo não suporta entrada de imagem",
@@ -90,11 +99,17 @@
   "userFile/unsupportedFileType": "Tipo de arquivo não suportado - somente imagens, PDFs e arquivos .txt são suportados.",
   "userFile/maxFilesPerMessage": "Número máximo de arquivos por mensagem alcançado. Não é possível adicionar mais de {{files}} arquivos.",
   "userFile/maxFileSizePerMessage": "Tamanho máximo de arquivo por mensagem alcançado. Não é possível adicionar arquivos maiores que {{size}}.",
+  "userFile/maxFileSizePerConversation": "Tamanho máximo de arquivo por conversa alcançado. Não é possível adicionar arquivos maiores que {{size}}.",
+  "userFile/failedToUploadError/title": "Falha ao enviar arquivo",
+  "userFile/failedToAddFile/title": "Falha ao adicionar arquivo à conversa",
   "errorTitle": "Erro",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} documento na conversa",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} documentos na conversa",
 
   "prediction/busyModel/title": "Modelo ocupado",
   "prediction/busyModel/message": "Por favor, aguarde até que o modelo termine e tente novamente",
   "prediction/noModel/title": "Nenhum modelo selecionado",
+  "prediction/modelLoading": "Mensagem na fila, será enviada quando o modelo terminar de carregar",
   "prediction/noModel/message": "Por favor, selecione um modelo para enviar uma mensagem",
   "prediction/unloadModel/error": "Falha ao descarregar o modelo",
 
@@ -109,8 +124,105 @@
   "style/viewMode/plaintext": "Texto Simples",
   "style/viewMode/monospace": "Monoespaçado",
 
+  "speculativeDecodingVisualization/toggle": "Visualizar tokens de rascunho aceitos",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Token de rascunho aceito",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Tokens de rascunho aceitos",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "A seleção do modo de visualização está desativada ao visualizar tokens de rascunho.",
+
   "style/fontSize/label": "Tamanho da Fonte",
   "style/fontSize/medium": "Padrão",
   "style/fontSize/large": "Grande",
-  "style/fontSize/small": "Pequeno"
+  "style/fontSize/small": "Pequeno",
+
+  "style/debugBlocks/label": "Mostrar Blocos de Informação de Depuração",
+
+  "style/thinkingUI/label": "Expandir blocos de raciocínio por padrão",
+  "style/chatFullWidth/label": "Expandir contêiner da conversa para a largura da janela",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Expandir conteúdo",
+    "collapseBlockTooltip": "Recolher conteúdo",
+    "debug": {
+      "label": "INFORMAÇÕES DE DEPURAÇÃO",
+      "collapseTooltip": "Recolher bloco de informações de depuração",
+      "expandTooltip": "Expandir bloco de informações de depuração"
+    }
+  },
+
+  "topBarActions/duplicateChat": "Duplicar",
+  "topBarActions/clearChat": "Limpar Tudo",
+  "topBarActions/clearChatConfirmation": "Tem certeza de que deseja limpar todas as mensagens nesta conversa?",
+  "topBarActions/clearChatCancel": "Cancelar",
+  "topBarActions/clearChatDelete": "Limpar Tudo",
+
+  "noModels.indexing": "Indexando arquivos de modelo... (isso pode levar um momento)",
+  "noModels.downloading": "Baixando seu primeiro LLM...",
+  "noModels": "Nenhum LLM ainda! Baixe um para começar!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Configurar",
+        "disable": "Desabilitar",
+        "fork": "Fork",
+        "uninstall": "Desinstalar"
+      },
+      "actionButtons": {
+        "create": "+ Criar",
+        "import": "Importar",
+        "discover": "Descobrir"
+      },
+      "recentlyCreated": {
+        "title": "Plugins Criados Recentemente",
+        "placeholder": "Plugins que você criar aparecerão aqui"
+      },
+      "startRunningDevelopmentPlugin/error": "Falha ao iniciar execução do plugin em modo de desenvolvimento",
+      "stopRunningDevelopmentPlugin/error": "Falha ao parar execução do plugin em modo de desenvolvimento"
+    },
+    "pluginConfiguration": {
+      "title": "Configuração do Plugin",
+      "selectAPlugin": "Selecione um plugin para editar suas configurações",
+      "preprocessorAndGenerator": "Este plugin contém um pré-processador e gerador personalizados",
+      "generatorOnly": "Este plugin contém um gerador personalizado",
+      "preprocessorOnly": "Este plugin contém um pré-processador personalizado"
+    },
+    "instructions": {
+      "runTheFollowing": "Para executar seu plugin, abra um terminal e digite",
+      "pushTo": "Compartilhe seu plugin com outros enviando para o Hub (opcional)",
+      "createdSuccessfully": "Plugin criado com sucesso",
+      "creatingPlugin": "Criando plugin...",
+      "projectFilesTitle": "Arquivos do Projeto",
+      "buttons": {
+        "documentation": "Documentação",
+        "dismiss": "Dispensar",
+        "publish": "Publicar",
+        "openInZed": "Abrir no Zed",
+        "openInVscode": "Abrir no VS Code",
+        "revealInFinder": "Revelar no Finder",
+        "openInFileExplorer": "Abrir no Explorador de Arquivos"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/seg.",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s para o primeiro token",
+    "stopReason": "Motivo da parada: {{stopReason}}",
+    "stopReason.userStopped": "Usuário Parou",
+    "stopReason.modelUnloaded": "Modelo Descarregado",
+    "stopReason.failed": "Geração Falhou",
+    "stopReason.eosFound": "Token EOS Encontrado",
+    "stopReason.stopStringFound": "String de Parada Encontrada",
+    "stopReason.toolCalls": "Chamadas de Ferramenta",
+    "stopReason.maxPredictedTokensReached": "Máximo de Tokens Previstos Atingido",
+    "stopReason.contextLengthReached": "Limite de Comprimento do Contexto Atingido",
+    "speculativeDecodedBy": "Modelo de rascunho: {{decodedBy}}",
+    "speculativeDecodingStats": "Aceitos {{accepted}}/{{total}} tokens de rascunho ({{percentage}}%)"
+  }
 }
