@@ -74,7 +74,7 @@
     "showOnWeb": "Show on Web",
     "pullLatest": {
       "label": "Pull Latest",
-      "checking": "Checking for updates..",
+      "checking": "Checking for updates...",
       "upToDate": "Up to date",
       "error": "Failed to check for updates"
     }

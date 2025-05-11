@@ -14,7 +14,7 @@
   "advancedSegmentText": "Advanced",
   "chatSegmentText": "Chat",
   "chatSidebarTitle": "Chats",
-  "newChatButton": "New Chat",
+  "newChatButton": "New",
   "newFolderButton": "New Folder",
   "viewModeLabel": "View Mode",
   "noChatSelected": "No chat selected",
@@ -142,6 +142,8 @@
 
   "style/thinkingUI/label": "Expand reasoning blocks by default",
   "style/chatFullWidth/label": "Expand chat container to window width",
+
+  "style/chatUtilityMenusShowLabel/label": "Show chat utility menu labels",
 
   "messageBlocks": {
     "expandBlockTooltip": "Expand content",
