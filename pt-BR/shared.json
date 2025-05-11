@@ -1,16 +1,16 @@
 {
   "copyLmStudioLinkButton/toolTip": "Copiar Link de Download do Modelo",
 
-  "filter.noMatches": "Nenhuma correspondência",
+  "filter.noMatches": "Nenhuma correspondÃªncia",
   "longRunningTask": {
     "unbundlingDependencies": {
       "badge": "Extraindo Recursos"
     },
     "performingBackendHardwareSurvey": {
-      "badge": "Verificando Compatibilidades de Tempo de Execução"
+      "badge": "Verificando Compatibilidades de Tempo de ExecuÃ§Ã£o"
     },
     "indexingRuntimes": {
-      "badge": "Indexando Tempos de Execução"
+      "badge": "Indexando Tempos de ExecuÃ§Ã£o"
     },
     "indexingModels": {
       "badge": "Indexando Modelos"
@@ -19,20 +19,20 @@
       "badge": "Autenticando"
     },
     "autoUpdatingExtensionPack": {
-      "badge": "Atualizando Pacote de Extensão ({{name}} v{{version}})"
+      "badge": "Atualizando Pacote de ExtensÃ£o ({{name}} v{{version}})"
     }
   },
   "auth": {
-    "prompt": "Faça login no LM Studio Hub",
-    "authError": "Falha na autenticação",
-    "noAccount": "Não tem uma conta?",
+    "prompt": "FaÃ§a login no LM Studio Hub",
+    "authError": "Falha na autenticaÃ§Ã£o",
+    "noAccount": "NÃ£o tem uma conta?",
     "signUp": "Cadastre-se",
-    "havingTrouble": "Está com problemas?",
+    "havingTrouble": "EstÃ¡ com problemas?",
     "retry": "Tentar novamente"
   },
   "artifacts": {
     "fetchError": "Falha ao buscar artefatos"
   },
-  "incompatible": "Incompatível",
-  "compatible": "Compatível"
+  "incompatible": "IncompatÃ­vel",
+  "compatible": "CompatÃ­vel"
 }
