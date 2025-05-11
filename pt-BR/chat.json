@@ -114,9 +114,9 @@
   "prediction/unloadModel/error": "Falha ao descarregar o modelo",
 
   "retrieval/user/processingLabel": "A IA está pensando...",
-  "retrieval/powerUser/intermediateStepsHidden": "Passos intermediários ocultos. Clique para expandir.",
-  "retrieval/actions/clickToExpand": "Clique para expandir passos intermediários",
-  "retrieval/actions/clickToCollapse": "Clique para recolher passos intermediários",
+  "retrieval/powerUser/intermediateStepsHidden": "Etapas intermediárias ocultas. Clique para expandir.",
+  "retrieval/actions/clickToExpand": "Clique para expandir as etapas intermediárias",
+  "retrieval/actions/clickToCollapse": "Clique para recolher as etapas intermediárias",
 
   "style": "Aparência do Chat",
 
