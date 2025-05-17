@@ -1,0 +1,38 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Copier le lien de téléchargement du modèle",
+
+  "filter.noMatches": "Aucun résultat",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Extraction des ressources"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Vérification de la compatibilité matérielle"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexation des environnements d'exécution"
+    },
+    "indexingModels": {
+      "badge": "Indexation des modèles"
+    },
+    "authenticating": {
+      "badge": "Authentification"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Mise à jour du pack d'extensions ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Connectez-vous à LM Studio Hub",
+    "authError": "Échec de l'authentification",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "signUp": "S'inscrire",
+    "havingTrouble": "Avez-vous des problèmes ?",
+    "retry": "Réessayer"
+  },
+  "artifacts": {
+    "fetchError": "Impossible de récupérer les artefacts"
+  },
+  "incompatible": "Incompatible",
+  "compatible": "Compatible"
+}
