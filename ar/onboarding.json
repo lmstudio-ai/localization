@@ -1,8 +1,8 @@
 {
-  "action.skipOnboarding": "تخطي الإعداد"،
-  "action.next": "التالي"،
+  "action.skipOnboarding": "تخطي الإعداد",
+  "action.next": "التالي",
   "action.back": "رجوع",
-  "action.finish": "إنهاء"،
+  "action.finish": "إنهاء",
 
   "dismissable_rag_modal": {
     "description": "يمكنك الآن الدردشة مع مستنداتك الخاصة باستخدام التوليد المعزز بالاسترجاع (RAG). إليكم كيفية عمل ذلك:",
