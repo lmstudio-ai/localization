@@ -1,0 +1,170 @@
+{
+  "tabs/server": "الخادم المحلي",
+  "tabs/extensions": "الإضافات",  
+  "loadSettings/title": "تحميل الإعدادات",
+  "modelSettings/placeholder": "اختر نموذجًا لتكوينه",
+
+  "loadedModels/noModels": "لا توجد نماذج محملة",
+
+  "serverOptions/title": "خيارات الخادم",
+  "serverOptions/configurableTitle": "خيارات قابلة للتكوين",
+  "serverOptions/port/hint": "حدد منفذ الشبكة الذي سيستخدمه الخادم المحلي. يستخدم LM Studio افتراضيًا المنفذ 1234. قد تحتاج إلى تغيير هذا إذا كان المنفذ قيد الاستخدام.",
+  "serverOptions/port/subtitle": "المنفذ المراد الاستماع إليه",
+  "serverOptions/autostart/title": "بدء التشغيل التلقائي للخادم",
+  "serverOptions/autostart/hint": "قم بتشغيل خادم LLM المحلي في LM Studio تلقائيًا عند بدء تشغيل التطبيق أو الخدمة.",
+  "serverOptions/port/integerWarning": "يجب أن يكون رقم المنفذ عددًا صحيحًا",
+  "serverOptions/port/invalidPortWarning": "يجب أن يكون المنفذ بين 1 و 65535",
+  "serverOptions/cors/title": "تمكين CORS",
+  "serverOptions/cors/hint1": "سيمكن تمكين CORS (مشاركة الموارد عبر المصادر) مواقع الويب التي تزورها من إجراء طلبات إلى خادم LM Studio.",
+  "serverOptions/cors/hint2": "قد تكون CORS مطلوبة عند إجراء طلبات من صفحة ويب أو VS Code / امتداد آخر.",
+  "serverOptions/cors/subtitle": "السماح بالطلبات عبر المصادر",
+  "serverOptions/network/title": "الخدمة على الشبكة المحلية",
+  "serverOptions/network/subtitle": "تعريض الخادم للأجهزة الموجودة على الشبكة",
+  "serverOptions/network/hint1": "هل تسمح بالاتصالات من أجهزة أخرى على الشبكة.",
+  "serverOptions/network/hint2": "إذا لم يتم تحديد ذلك، فسوف يستمع الخادم إلى localhost فقط.",
+  "serverOptions/verboseLogging/title": "تسجيل مطول",
+  "serverOptions/verboseLogging/subtitle": "تمكين التسجيل المطول للخادم المحلي",
+  "serverOptions/contentLogging/title": "تسجيل الطلبات والاستجابات",
+  "serverOptions/contentLogging/subtitle": "إعدادات تسجيل الطلبات / الاستجابات المحلية",
+  "serverOptions/contentLogging/hint": "هل تقوم بتسجيل الطلبات و/أو الاستجابة في ملف سجل الخادم المحلي.",
+  "serverOptions/fileLoggingMode/title": "وضع تسجيل الملف",
+  "serverOptions/fileLoggingMode/off/title": "إيقاف التشغيل",
+  "serverOptions/fileLoggingMode/off/hint": "لا تقم بإنشاء ملفات سجل",
+  "serverOptions/fileLoggingMode/succinct/title": "مختصر",
+  "serverOptions/fileLoggingMode/succinct/hint": "سجل نفس المحتوى كما في وحدة التحكم. سيتم اقتطاع الطلبات الطويلة.",
+  "serverOptions/fileLoggingMode/full/title": "كامل",
+  "serverOptions/fileLoggingMode/full/hint": "لا تقم باقتطاع الطلبات الطويلة.",
+  "serverOptions/jitModelLoading/title": "تحميل النموذج في الوقت المناسب",
+  "serverOptions/jitModelLoading/hint": "عند تمكينه، إذا حدد طلب نموذجًا غير محمل، فسيتم تحميله تلقائيًا واستخدامه. بالإضافة إلى ذلك، ستتضمن نقطة النهاية \"/v1/models\" أيضًا النماذج التي لم يتم تحميلها بعد.",
+  "serverOptions/loadModel/error": "فشل في تحميل النموذج",
+  "serverOptions/jitModelLoadingTTL/title": "إلغاء تحميل النماذج المحملة في الوقت المناسب غير المستخدمة تلقائيًا",
+  "serverOptions/jitModelLoadingTTL/hint": "سيتم إلغاء تحميل نموذج تم تحميله في الوقت المناسب (JIT) لخدمة طلب API تلقائيًا بعد عدم استخدامه لفترة زمنية معينة (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "الحد الأقصى لوقت الخمول",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "دقائق",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "احتفظ فقط بالنموذج الأخير المحمل في الوقت المناسب",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "تأكد من تحميل نموذج واحد فقط عبر JIT في أي وقت (يلغي تحميل النموذج السابق)",
+
+  "serverLogs/scrollToBottom": "انتقل إلى الأسفل",
+  "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
+  "serverLogs/openLogsFolder": "افتح مجلد سجلات الخادم",
+
+  "runtimeSettings/title": "إعدادات بيئة التشغيل",
+  "runtimeSettings/chooseRuntime/title": "الخيارات الافتراضية",
+  "runtimeSettings/chooseRuntime/description": "حدد بيئة تشغيل افتراضية لكل تنسيق نموذج",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "إظهار جميع إصدارات بيئات التشغيل",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "افتراضيًا، يعرض LM Studio أحدث إصدار من كل بيئة تشغيل متوافقة. قم بتمكين هذا الخيار لعرض جميع بيئات التشغيل المتاحة.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "اختر بيئة تشغيل",
+
+  "runtimeOptions/uninstall": "إلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/title": "هل تريد إلغاء تثبيت {{runtimeName}}؟",
+  "runtimeOptions/uninstallDialog/body": "سيؤدي إلغاء تثبيت بيئة التشغيل هذا إلى إزالته من النظام. هذه الإجراء لا رجعة فيه.",
+  "runtimeOptions/uninstallDialog/body/caveats": "قد تتم إزالة بعض الملفات فقط بعد إعادة تشغيل LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "فشل في إلغاء تثبيت بيئة التشغيل",
+  "runtimeOptions/uninstallDialog/confirm": "تابع وقم بإلغاء التثبيت",
+  "runtimeOptions/uninstallDialog/cancel": "إلغاء",
+  "runtimeOptions/noCompatibleRuntimes": "لم يتم العثور على بيئات تشغيل متوافقة",
+  "runtimeOptions/downloadIncompatibleRuntime": "تم تحديد أن بيئة التشغيل غير متوافقة مع جهازك. من المحتمل ألا تعمل.",
+  "runtimeOptions/noRuntimes": "لم يتم العثور على أي بيئات تشغيل",
+
+  "runtimes": {
+    "manageLMRuntimes": "إدارة بيئات التشغيل LM",
+    "includeOlderRuntimeVersions": "تضمين إصدارات بيئات التشغيل الأقدم",
+    "dismiss": "رفض",
+    "updateAvailableToast": {
+      "title": "يتوفر تحديث لوقت تشغيل LM!"
+    },
+    "updatedToast": {
+      "title": " ✅ تم تحديث وقت تشغيل LM: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "سيستخدم النماذج المحملة حديثًا من نوع {{compatibilityTypes}} وقت التشغيل المحدث."
+    },
+    "noAvx2ErrorMessage": "تتطلب جميع أوقات تشغيل LM حاليًا وحدة المعالجة المركزية (CPU) تدعم AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "حزم امتداد وقت التشغيل",
+      "refresh": "تحديث",
+      "refreshing": "جاري التحديث...",
+      "filterSegment": {
+        "compatibleOnly": "متوافق فقط",
+        "all": "الكل"
+      },
+      "card": {
+        "releaseNotes": "ملاحظات الإصدار",
+        "latestVersionInstalled": "أحدث إصدار مثبت",
+        "updateAvailable": "تحديث متاح"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "إدارة أوقات التشغيل النشطة"
+      },
+      "dropdownOptions": {
+        "installedVersions": "إدارة الإصدارات",
+        "close": "إغلاق"
+      },
+      "tabs": {
+        "all": "الكل",
+        "frameworks": "أطر العمل الخاصة بي",
+        "engines": "محركات لي الخاصة بي"
+      },
+      "detailsModal": {
+        "installedVersions": "الإصدارات المثبتة لـ {{runtimeName}}",
+        "manifestJsonTitle": "JSON للملف الظاهري (متقدم)",
+        "releaseNotesTitle": "ملاحظات الإصدار",
+        "noReleaseNotes": "لا توجد ملاحظات إصدار متاحة لهذا الإصدار",
+        "back": "رجوع",
+        "close": "إغلاق"
+      },
+      "noEngines": "لا توجد محركات مثبتة",
+      "noFrameworks": "لا توجد أطر عمل مثبتة"
+    }
+  },
+
+  "inferenceParams/noParams": "لا توجد معلمات استدلال قابلة للتكوين لهذا النوع من النموذج",
+
+  "quickDocs": {
+    "tabChipTitle": "وثائق سريعة",
+    "newToolUsePopover": "تتوفر الآن مقتطفات التعليمات البرمجية هنا في \"الوثائق السريعة\". انقر هنا للبدء في استخدام الأداة!",
+    "newToolUsePopoverTitle": "📚 الوثائق السريعة",
+    "learnMore": "ℹ️ 👾 لمزيد من المعلومات حول نقاط نهاية الخادم المحلية لـ LM Studio، يرجى زيارة [التوثيق](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "مرحبا بالعالم!"
+    },
+    "chat": {
+      "title": "دردشة"
+    },
+    "structuredOutput": {
+      "title": "إخراج منظم"
+    },
+    "imageInput": {
+      "title": "إدخال صورة"
+    },
+    "embeddings": {
+      "title": "تضمينات"
+    },
+    "toolUse": {
+      "title": "استخدام الأداة",
+      "tab": {
+        "saveAsPythonFile": "حفظ كملف Python",
+        "runTheScript": "تشغيل البرنامج النصي:",
+        "savePythonFileCopyPaste": "حفظ كملف Python لأمر النسخ واللصق"
+      }
+    },
+    "newBadge": "جديد"
+  },
+
+  "endpoints/openaiCompatRest/title": "نقاط النهاية المدعومة (شبيهة بـ OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "عرض النماذج المحملة حاليًا",
+  "endpoints/openaiCompatRest/postCompletions": "وضع إكمال النص. توقع الرمز المميز التالي (الرموز المميزة) بناءً على مطالبة. لاحظ: تعتبر OpenAI هذه النهاية 'قديمة'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "إكمالات الدردشة. أرسل سجل محادثة إلى النموذج للتنبؤ بالرد التالي للمساعد.",
+  "endpoints/openaiCompatRest/postEmbeddings": "تضمين النص. قم بإنشاء تضمينات نصية لإدخال نص معين. يأخذ سلسلة أو مصفوفة من السلاسل.",
+
+  "model.createVirtualModelFromInstance": "حفظ الإعدادات كنموذج افتراضي جديد",
+  "model.createVirtualModelFromInstance/error": "فشل في حفظ الإعدادات كنموذج افتراضي جديد",
+
+  "model": {
+    "toolUseSectionTitle": "استخدام الأداة",
+    "toolUseDescription": "تم اكتشاف أن هذا النموذج مدرب للاستخدام في الأداة\n\nافتح <custom-link>الوثائق السريعة</custom-link> لمزيد من المعلومات"
+  },
+
+  "apiConfigOptions/title": "خيارات تكوين API"
+}
+
