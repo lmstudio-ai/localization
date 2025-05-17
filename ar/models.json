@@ -1,4 +1,5 @@
 {
+	
   "pageTitle": "نماذجي",
   "filterModels.placeholder": "تصفية النماذج...",
   "aggregate_one": "لديك نموذج محلي واحد، يشغل {{count}} مساحة {{size}} على القرص.",
