@@ -18,7 +18,7 @@
   "modelsTable.dateModified/label": "تاريخ التعديل",
   "modelsTable.actions/label": "الإجراءات",
 
-  "modelsTable.quant/label": "التكميم", // (Quantization - a technical term)
+  "modelsTable.quant/label": "التكميم",
   "modelsTable.llms/label": "نماذج LLM",
   "modelsTable.embeddingModels/label": "نموذج التضمين",
 
@@ -40,7 +40,7 @@
   "action.createVirtual.details.config.empty": "لا توجد تجاوزات للتكوين",
   "action.createVirtual.details/error": "فشل إنشاء النموذج الافتراضي.",
 
-  "loader.model.bundled": "مجمّع", // (Bundled - a technical term)
+  "loader.model.bundled": "مجمّع",
   "action.cancel": "إلغاء",
   "indexingOngoing": "جاري فهرسة النماذج... قد يستغرق ذلك بضع ثوانٍ",
   "index/error_one": "فشل في فهرسة المجلد التالي:",
