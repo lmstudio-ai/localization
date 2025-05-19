@@ -23,6 +23,7 @@
   "download.option.recommended/description": "Based on your hardware, this option is recommended.",
   "download.option.downloaded/title": "Downloaded",
   "download.option.downloading/title": "Downloading ({{progressPercentile}}%)",
+  "failedToStartDownload": "Failed to start download",
 
   "feed.action.refresh": "Refresh feed"
 }
