@@ -1,169 +1,170 @@
 {
-  "tabs/server": "Local Server",
-  "tabs/extensions": "LM Runtimes",
-  "loadSettings/title": "Load settings",
-  "modelSettings/placeholder": "Select a model to configure it",
+  "tabs/server": "เซิร์ฟเวอร์ภายใน",
+  "tabs/extensions": "รันไทม์ LM",
+  "loadSettings/title": "ตั้งค่าการโหลด",
+  "modelSettings/placeholder": "เลือกโมเดลเพื่อกำหนดค่า",
 
-  "loadedModels/noModels": "No models loaded",
+  "loadedModels/noModels": "ไม่มีโมเดลที่โหลด",
 
-  "serverOptions/title": "Server Options",
-  "serverOptions/configurableTitle": "Configurable Options",
-  "serverOptions/port/hint": "Set which networking port the local server will use. By default, LM Studio uses the port 1234. You might need to change this if the port is already in use.",
-  "serverOptions/port/subtitle": "The port to listen on",
-  "serverOptions/autostart/title": "Auto-start server",
-  "serverOptions/autostart/hint": "Automatically turn on LM Studio's local LLMs server on app or service start",
-  "serverOptions/port/integerWarning": "Port number must be an integer",
-  "serverOptions/port/invalidPortWarning": "Port must be between 1 and 65535",
-  "serverOptions/cors/title": "Enable CORS",
-  "serverOptions/cors/hint1": "Enabling CORS (Cross-origin Resource Sharing) would allow websites you visit to make requests to LM Studio server.",
-  "serverOptions/cors/hint2": "CORS might be required when making requests from a web page or VS Code / other extension.",
-  "serverOptions/cors/subtitle": "Allow cross-origin requests",
-  "serverOptions/network/title": "Serve on Local Network",
-  "serverOptions/network/subtitle": "Expose server to devices on the network",
-  "serverOptions/network/hint1": "Whether to allow connections from other devices on the network.",
-  "serverOptions/network/hint2": "If not checked, the server will only listen on localhost.",
-  "serverOptions/verboseLogging/title": "Verbose Logging",
-  "serverOptions/verboseLogging/subtitle": "Enable verbose logging for the local server",
-  "serverOptions/contentLogging/title": "Log Prompts and Responses",
-  "serverOptions/contentLogging/subtitle": "Local request / response logging settings",
-  "serverOptions/contentLogging/hint": "Whether to log prompts and/or the response in the local server log file.",
-  "serverOptions/fileLoggingMode/title": "File Logging Mode",
-  "serverOptions/fileLoggingMode/off/title": "OFF",
-  "serverOptions/fileLoggingMode/off/hint": "Don't create log files",
-  "serverOptions/fileLoggingMode/succinct/title": "Succinct",
-  "serverOptions/fileLoggingMode/succinct/hint": "Log the same content as in the console. Long requests will be truncated.",
-  "serverOptions/fileLoggingMode/full/title": "Full",
-  "serverOptions/fileLoggingMode/full/hint": "Don't truncate long requests.",
-  "serverOptions/jitModelLoading/title": "Just-in-Time Model Loading",
-  "serverOptions/jitModelLoading/hint": "When enabled, if a request specified a model that is not loaded, it will be automatically loaded and used. In addition, the \"/v1/models\" endpoint will also include models that are not yet loaded.",
-  "serverOptions/loadModel/error": "Failed to load model",
-  "serverOptions/jitModelLoadingTTL/title": "Auto unload unused JIT loaded models",
-  "serverOptions/jitModelLoadingTTL/hint": "A model that was loaded Just-in-time (JIT) to serve an API request will be automatically unloaded after being unused for some duration (TTL).",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "Max idle TTL",
-  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "serverOptions/title": "ตัวเลือกเซิร์ฟเวอร์",
+  "serverOptions/configurableTitle": "ตัวเลือกที่ปรับแต่งได้",
+  "serverOptions/port/hint": "กำหนดพอร์ตเครือข่ายที่เซิร์ฟเวอร์ภายในจะใช้ โดยค่าเริ่มต้น LM Studio ใช้พอร์ต 1234 คุณอาจต้องเปลี่ยนค่านี้หากพอร์ตถูกใช้งานอยู่แล้ว",
+  "serverOptions/port/subtitle": "พอร์ตที่จะใช้รับฟัง",
+  "serverOptions/autostart/title": "เริ่มเซิร์ฟเวอร์อัตโนมัติ",
+  "serverOptions/autostart/hint": "เริ่มเซิร์ฟเวอร์ LLM ภายในของ LM Studio โดยอัตโนมัติเมื่อเริ่มแอปหรือบริการ",
+  "serverOptions/port/integerWarning": "หมายเลขพอร์ตต้องเป็นจำนวนเต็ม",
+  "serverOptions/port/invalidPortWarning": "พอร์ตต้องมีค่าระหว่าง 1 ถึง 65535",
+  "serverOptions/cors/title": "เปิดใช้งาน CORS",
+  "serverOptions/cors/hint1": "การเปิดใช้งาน CORS (Cross-origin Resource Sharing) จะอนุญาตให้เว็บไซต์ที่คุณเข้าชมสามารถส่งคำขอไปยังเซิร์ฟเวอร์ LM Studio ได้",
+  "serverOptions/cors/hint2": "อาจจำเป็นต้องใช้ CORS เมื่อส่งคำขอจากหน้าเว็บหรือ VS Code / ส่วนขยายอื่นๆ",
+  "serverOptions/cors/subtitle": "อนุญาตคำขอข้ามโดเมน",
+  "serverOptions/network/title": "ให้บริการบนเครือข่ายภายใน",
+  "serverOptions/network/subtitle": "เปิดเผยเซิร์ฟเวอร์ให้กับอุปกรณ์บนเครือข่าย",
+  "serverOptions/network/hint1": "อนุญาตการเชื่อมต่อจากอุปกรณ์อื่นบนเครือข่าย",
+  "serverOptions/network/hint2": "หากไม่เลือก เซิร์ฟเวอร์จะรับฟังเฉพาะ localhost เท่านั้น",
+  "serverOptions/verboseLogging/title": "บันทึกข้อมูลแบบละเอียด",
+  "serverOptions/verboseLogging/subtitle": "เปิดใช้งานการบันทึกข้อมูลแบบละเอียดสำหรับเซิร์ฟเวอร์ภายใน",
+  "serverOptions/contentLogging/title": "บันทึกคำถามและคำตอบ",
+  "serverOptions/contentLogging/subtitle": "การตั้งค่าการบันทึกคำขอ/การตอบสนองภายใน",
+  "serverOptions/contentLogging/hint": "เลือกว่าจะบันทึกคำถามและ/หรือคำตอบในไฟล์บันทึกของเซิร์ฟเวอร์ภายในหรือไม่",
+  "serverOptions/fileLoggingMode/title": "โหมดการบันทึกไฟล์",
+  "serverOptions/fileLoggingMode/off/title": "ปิด",
+  "serverOptions/fileLoggingMode/off/hint": "ไม่สร้างไฟล์บันทึก",
+  "serverOptions/fileLoggingMode/succinct/title": "กระชับ",
+  "serverOptions/fileLoggingMode/succinct/hint": "บันทึกเนื้อหาเหมือนกับในคอนโซล คำขอที่ยาวจะถูกตัดทอน",
+  "serverOptions/fileLoggingMode/full/title": "เต็มรูปแบบ",
+  "serverOptions/fileLoggingMode/full/hint": "ไม่ตัดทอนคำขอที่ยาว",
+  "serverOptions/jitModelLoading/title": "การโหลดโมเดลแบบทันที",
+  "serverOptions/jitModelLoading/hint": "เมื่อเปิดใช้งาน หากคำขอระบุโมเดลที่ยังไม่ได้โหลด ระบบจะโหลดและใช้งานโดยอัตโนมัติ นอกจากนี้ เอนด์พอยต์ \"/v1/models\" จะแสดงโมเดลที่ยังไม่ได้โหลดด้วย",
+  "serverOptions/loadModel/error": "ไม่สามารถโหลดโมเดลได้",
+  "serverOptions/jitModelLoadingTTL/title": "ยกเลิกการโหลดโมเดล JIT ที่ไม่ได้ใช้งานโดยอัตโนมัติ",
+  "serverOptions/jitModelLoadingTTL/hint": "โมเดลที่ถูกโหลดแบบทันที (JIT) เพื่อให้บริการคำขอ API จะถูกยกเลิกการโหลดโดยอัตโนมัติหลังจากไม่ได้ใช้งานตามระยะเวลาที่กำหนด (TTL)",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "เวลาหมดอายุสูงสุด",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "นาที",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "เก็บเฉพาะโมเดล JIT ที่โหลดล่าสุด",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "รับรองว่าจะมีโมเดลที่โหลดผ่าน JIT เพียง 1 โมเดลในเวลาใดๆ (ยกเลิกการโหลดโมเดลก่อนหน้า)",
 
-  "serverLogs/scrollToBottom": "Jump to bottom",
-  "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Open server logs folder",
+  "serverLogs/scrollToBottom": "เลื่อนไปด้านล่าง",
+  "serverLogs/clearLogs": "ล้างบันทึก ({{shortcut}})",
+  "serverLogs/openLogsFolder": "เปิดโฟลเดอร์บันทึกเซิร์ฟเวอร์",
 
-  "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Default Selections",
-  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each model format",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+  "runtimeSettings/title": "การตั้งค่ารันไทม์",
+  "runtimeSettings/chooseRuntime/title": "ค่าเริ่มต้น",
+  "runtimeSettings/chooseRuntime/description": "เลือกรันไทม์เริ่มต้นสำหรับแต่ละรูปแบบโมเดล",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "แสดงรันไทม์ทั้งหมด",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "โดยค่าเริ่มต้น LM Studio จะแสดงเฉพาะเวอร์ชันล่าสุดของรันไทม์ที่เข้ากันได้ เปิดใช้งานตัวเลือกนี้เพื่อดูรันไทม์ที่มีทั้งหมด",
+  "runtimeSettings/chooseRuntime/select/placeholder": "เลือกรันไทม์",
 
-  "runtimeOptions/uninstall": "Uninstall",
-  "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Uninstalling this runtime will remove it from the system. This action is irreversible.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Some files may only be removed after LM Studio is restarted.",
-  "runtimeOptions/uninstallDialog/error": "Failed to uninstall runtime",
-  "runtimeOptions/uninstallDialog/confirm": "Continue and Uninstall",
-  "runtimeOptions/uninstallDialog/cancel": "Cancel",
-  "runtimeOptions/noCompatibleRuntimes": "No compatible runtimes found",
-  "runtimeOptions/downloadIncompatibleRuntime": "This runtime was determined to be incompatible with your machine. It will most likely not work.",
-  "runtimeOptions/noRuntimes": "No runtimes found",
+  "runtimeOptions/uninstall": "ถอนการติดตั้ง",
+  "runtimeOptions/uninstallDialog/title": "ถอนการติดตั้ง {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "การถอนการติดตั้งรันไทม์นี้จะลบออกจากระบบ การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+  "runtimeOptions/uninstallDialog/body/caveats": "ไฟล์บางส่วนอาจถูกลบได้หลังจากรีสตาร์ท LM Studio เท่านั้น",
+  "runtimeOptions/uninstallDialog/error": "ไม่สามารถถอนการติดตั้งรันไทม์ได้",
+  "runtimeOptions/uninstallDialog/confirm": "ดำเนินการต่อและถอนการติดตั้ง",
+  "runtimeOptions/uninstallDialog/cancel": "ยกเลิก",
+  "runtimeOptions/noCompatibleRuntimes": "ไม่พบรันไทม์ที่เข้ากันได้",
+  "runtimeOptions/downloadIncompatibleRuntime": "รันไทม์นี้ถูกตรวจพบว่าไม่เข้ากันกับเครื่องของคุณ อาจไม่สามารถทำงานได้",
+  "runtimeOptions/noRuntimes": "ไม่พบรันไทม์",
 
   "runtimes": {
-    "manageLMRuntimes": "Manage LM Runtimes",
-    "includeOlderRuntimeVersions": "Include older runtime versions",
-    "dismiss": "Dismiss",
+    "manageLMRuntimes": "จัดการรันไทม์ LM",
+    "includeOlderRuntimeVersions": "รวมเวอร์ชันรันไทม์เก่า",
+    "dismiss": "ปิด",
     "updateAvailableToast": {
-      "title": "LM Runtime Update Available!"
+      "title": "มีการอัปเดตรันไทม์ LM!"
     },
     "updatedToast": {
-      "title": " ✅ LM Runtime Updated: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Newly loaded {{compatibilityTypes}} models will use the updated runtime."
+      "title": " ✅ อัปเดตรันไทม์ LM แล้ว: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "โมเดล {{compatibilityTypes}} ที่โหลดใหม่จะใช้รันไทม์ที่อัปเดตแล้ว"
     },
-    "noAvx2ErrorMessage": "All LM Runtimes currently require a CPU with AVX2 support",
+    "noAvx2ErrorMessage": "รันไทม์ LM ทั้งหมดในปัจจุบันต้องการ CPU ที่รองรับ AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Runtime Extension Packs",
-      "refresh": "Refresh",
-      "refreshing": "Refreshing...",
+      "runtimeExtensionPacks": "แพ็กส่วนขยายรันไทม์",
+      "refresh": "รีเฟรช",
+      "refreshing": "กำลังรีเฟรช...",
       "filterSegment": {
-        "compatibleOnly": "Compatible Only",
-        "all": "All"
+        "compatibleOnly": "เฉพาะที่เข้ากันได้",
+        "all": "ทั้งหมด"
       },
       "card": {
-        "releaseNotes": "Release Notes",
-        "latestVersionInstalled": "Latest Version Installed",
-        "updateAvailable": "Update Available"
+        "releaseNotes": "บันทึกการเปลี่ยนแปลง",
+        "latestVersionInstalled": "ติดตั้งเวอร์ชันล่าสุดแล้ว",
+        "updateAvailable": "มีการอัปเดตพร้อมใช้งาน"
       }
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Manage Active Runtimes"
+        "title": "จัดการรันไทม์ที่ใช้งาน"
       },
       "dropdownOptions": {
-        "installedVersions": "Manage Versions",
-        "close": "Close"
+        "installedVersions": "จัดการเวอร์ชัน",
+        "close": "ปิด"
       },
       "tabs": {
-        "all": "All",
-        "frameworks": "My Frameworks",
-        "engines": "My Engines"
+        "all": "ทั้งหมด",
+        "frameworks": "เฟรมเวิร์กของฉัน",
+        "engines": "เอนจินของฉัน"
       },
       "detailsModal": {
-        "installedVersions": "Installed versions for {{runtimeName}}",
-        "manifestJsonTitle": "Manifest JSON (advanced)",
-        "releaseNotesTitle": "Release Notes",
-        "noReleaseNotes": "No release notes available for this version",
-        "back": "Back",
-        "close": "Close"
+        "installedVersions": "เวอร์ชันที่ติดตั้งสำหรับ {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (ขั้นสูง)",
+        "releaseNotesTitle": "บันทึกการเปลี่ยนแปลง",
+        "noReleaseNotes": "ไม่มีบันทึกการเปลี่ยนแปลงสำหรับเวอร์ชันนี้",
+        "back": "กลับ",
+        "close": "ปิด"
       },
-      "noEngines": "No engines installed",
-      "noFrameworks": "No frameworks installed"
+      "noEngines": "ไม่มีเอนจินที่ติดตั้ง",
+      "noFrameworks": "ไม่มีเฟรมเวิร์กที่ติดตั้ง"
     }
   },
 
-  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+
+  "inferenceParams/noParams": "ไม่มีพารามิเตอร์การอนุมานที่กำหนดค่าได้สำหรับโมเดลประเภทนี้",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
-    "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
+    "tabChipTitle": "คู่มือด่วน",
+    "newToolUsePopover": "ตอนนี้มีตัวอย่างโค้ดอยู่ที่นี่ใน \"คู่มือด่วน\" คลิกที่นี่เพื่อเริ่มต้นใช้งานเครื่องมือ!",
+    "newToolUsePopoverTitle": "📚 คู่มือด่วน",
+    "learnMore": "ℹ️ 👾 เรียนรู้เพิ่มเติมเกี่ยวกับเอนด์พอยต์เซิร์ฟเวอร์ภายใน LM Studio ได้ที่ [เอกสาร](https://lmstudio.ai/docs)",
     "helloWorld": {
-      "title": "Hello, World!"
+      "title": "สวัสดีชาวโลก!"
     },
     "chat": {
-      "title": "Chat"
+      "title": "แชท"
     },
     "structuredOutput": {
-      "title": "Structured Output"
+      "title": "เอาต์พุตแบบมีโครงสร้าง"
     },
     "imageInput": {
-      "title": "Image Input"
+      "title": "อินพุตรูปภาพ"
     },
     "embeddings": {
-      "title": "Embeddings"
+      "title": "เอ็มเบดดิง"
     },
     "toolUse": {
-      "title": "Tool Use",
+      "title": "การใช้เครื่องมือ",
       "tab": {
-        "saveAsPythonFile": "Save as Python file",
-        "runTheScript": "Run the script:",
-        "savePythonFileCopyPaste": "Save as Python file for a copy-and-paste command"
+        "saveAsPythonFile": "บันทึกเป็นไฟล์ไพธอน",
+        "runTheScript": "รันสคริปต์:",
+        "savePythonFileCopyPaste": "บันทึกเป็นไฟล์ไพธอนสำหรับคำสั่งคัดลอกและวาง"
       }
     },
-    "newBadge": "New"
+    "newBadge": "ใหม่"
   },
 
-  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
-  "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+  "endpoints/openaiCompatRest/title": "เอนด์พอยต์ที่รองรับ (คล้าย OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "แสดงรายการโมเดลที่โหลดอยู่",
+  "endpoints/openaiCompatRest/postCompletions": "โหมดเติมข้อความ ทำนายโทเค็นถัดไปจากข้อความนำ หมายเหตุ: OpenAI ถือว่าเอนด์พอยต์นี้ 'เลิกใช้แล้ว'",
+  "endpoints/openaiCompatRest/postChatCompletions": "การเติมข้อความแชท ส่งประวัติการแชทให้โมเดลเพื่อทำนายการตอบกลับของผู้ช่วย",
+  "endpoints/openaiCompatRest/postEmbeddings": "การฝังข้อความ สร้างการฝังข้อความสำหรับข้อความที่กำหนด รับสตริงหรืออาร์เรย์ของสตริง",
 
-  "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
-  "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
+  "model.createVirtualModelFromInstance": "บันทึกการตั้งค่าเป็นโมเดลเสมือนใหม่",
+  "model.createVirtualModelFromInstance/error": "ไม่สามารถบันทึกการตั้งค่าเป็นโมเดลเสมือนใหม่ได้",
 
   "model": {
-    "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseSectionTitle": "การใช้เครื่องมือ",
+    "toolUseDescription": "ตรวจพบว่าโมเดลนี้ถูกฝึกมาสำหรับการใช้เครื่องมือ\n\nเปิด <custom-link>คู่มือด่วน</custom-link> สำหรับข้อมูลเพิ่มเติม"
   },
 
-  "apiConfigOptions/title": "API Configuration"
+  "apiConfigOptions/title": "การกำหนดค่า API"
 }

@@ -1,38 +1,38 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Copy Model Download Link",
+  "copyLmStudioLinkButton/toolTip": "คัดลอกลิงก์ดาวน์โหลดโมเดล",
 
-  "filter.noMatches": "No matches",
+  "filter.noMatches": "ไม่พบรายการที่ตรงกัน",
   "longRunningTask": {
     "unbundlingDependencies": {
-      "badge": "Extracting Resources"
+      "badge": "กำลังแยกไฟล์ทรัพยากร"
     },
     "performingBackendHardwareSurvey": {
-      "badge": "Checking Runtime Compatibilities"
+      "badge": "กำลังตรวจสอบความเข้ากันได้"
     },
     "indexingRuntimes": {
-      "badge": "Indexing Runtimes"
+      "badge": "กำลังจัดทำดัชนีรันไทม์"
     },
     "indexingModels": {
-      "badge": "Indexing Models"
+      "badge": "กำลังจัดทำดัชนีโมเดล"
     },
     "authenticating": {
-      "badge": "Authenticating"
+      "badge": "กำลังยืนยันตัวตน"
     },
     "autoUpdatingExtensionPack": {
-      "badge": "Updating Extension Pack ({{name}} v{{version}})"
+      "badge": "กำลังอัพเดทส่วนขยาย ({{name}} v{{version}})"
     }
   },
   "auth": {
-    "prompt": "Log into LM Studio Hub",
-    "authError": "Authentication failed",
-    "noAccount": "Don't have an account?",
-    "signUp": "Sign Up",
-    "havingTrouble": "Having trouble?",
-    "retry": "Retry"
+    "prompt": "เข้าสู่ระบบ LM Studio Hub",
+    "authError": "การยืนยันตัวตนล้มเหลว",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "signUp": "ลงทะเบียน",
+    "havingTrouble": "พบปัญหาการใช้งาน?",
+    "retry": "ลองใหม่"
   },
   "artifacts": {
-    "fetchError": "Failed to fetch artifacts"
+    "fetchError": "ไม่สามารถดึงข้อมูลได้"
   },
-  "incompatible": "Incompatible",
-  "compatible": "Compatible"
+  "incompatible": "ไม่รองรับ",
+  "compatible": "รองรับ"
 }

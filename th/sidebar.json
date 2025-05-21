@@ -1,9 +1,9 @@
 {
-  "chat": "Chat",
-  "discover": "Discover",
-  "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtime",
-  "settings": "Settings",
-  "download": "Downloads"
+  "chat": "แชท",
+  "discover": "ค้นหา",
+  "myModels": "โมเดลของฉัน",
+  "developer": "นักพัฒนา",
+  "runtimes": "รันไทม์",
+  "settings": "การตั้งค่า",
+  "download": "ดาวน์โหลด"
 }

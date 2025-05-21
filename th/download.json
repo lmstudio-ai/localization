@@ -1,24 +1,23 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
-  "finalizing": "Finalizing download... (this may take a few moments)",
-  "noOptions": "No compatible options available for download",
+  "postDownloadActionExecutor.zipExtraction/status": "กำลังแตกไฟล์...",
+  "finalizing": "กำลังดำเนินการขั้นตอนสุดท้าย... (อาจใช้เวลาสักครู่)",
+  "noOptions": "ไม่มีตัวเลือกที่เหมาะสมสำหรับการดาวน์โหลด",
   
-  "deeplink/confirmation/title": "Download model from Hugging Face 🤗",
+  "deeplink/confirmation/title": "ดาวน์โหลดโมเดลจาก Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Select recommended",
-  "deeplink/confirmation/selectOption": "Select download option",
-  "deeplink/confirmation/recommendedOption": "Likely the best option for most users",
-  "deeplink/confirmation/downloadButton": "Download",
-  "deeplink/confirmation/nevermindButton": "Nevermind",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Found ✅",
-  "deeplink/confirmation/modelPresent/body": "Good news! This model file is already available on your local machine.",
-  "deeplink/confirmation/loadInChat": "Load {{ modelName }} in a new chat",
-  "deeplink/error/modelNotFound/title": "Ruh roh, we were unable to find this model",
-  "deeplink/error/modelNotFound/body": "Double check the model name and consider trying a different download option.",
-  "deeplink/actions/trySearching": "Try searching for {{modelName}} on Hugging Face",
+  "deeplink/confirmation/selectRecommended": "เลือกตัวเลือกที่แนะนำ",
+  "deeplink/confirmation/selectOption": "เลือกตัวเลือกการดาวน์โหลด",
+  "deeplink/confirmation/recommendedOption": "ตัวเลือกที่เหมาะสมที่สุดสำหรับผู้ใช้ทั่วไป",
+  "deeplink/confirmation/downloadButton": "ดาวน์โหลด",
+  "deeplink/confirmation/nevermindButton": "ยกเลิก",
+  "deeplink/confirmation/modelPresent/title": "พบโมเดล Hugging Face แล้ว ✅",
+  "deeplink/confirmation/modelPresent/body": "ข่าวดี! ไฟล์โมเดลนี้มีอยู่ในเครื่องของคุณแล้ว",
+  "deeplink/confirmation/loadInChat": "โหลด {{modelName}} ในแชทใหม่",
+  "deeplink/error/modelNotFound/title": "ขออภัย เราไม่พบโมเดลนี้",
+  "deeplink/error/modelNotFound/body": "กรุณาตรวจสอบชื่อโมเดลและลองเลือกตัวเลือกการดาวน์โหลดอื่น",
+  "deeplink/actions/trySearching": "ลองค้นหา {{modelName}} บน Hugging Face",
 
-  "downloadsPanel/title": "Downloads",
-  "downloadsPanel/sectionTitle/ongoing": "Ongoing",
-  "downloadsPanel/sectionTitle/completed": "Completed"
+  "downloadsPanel/title": "การดาวน์โหลด",
+  "downloadsPanel/sectionTitle/ongoing": "กำลังดำเนินการ",
+  "downloadsPanel/sectionTitle/completed": "เสร็จสิ้น"
 }
-  
