@@ -141,6 +141,7 @@
   "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
 
   "unloadPreviousJITModelOnLoad": "JIT models auto-evict: ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "autoDeleteExtensionPacks": "Auto-delete old Runtime Extension Packs",
   "autoUpdateExtensionPacks": "Auto-update selected Runtime Extension Packs",
   "useHFProxy.label": "Use LM Studio's Hugging Face Proxy",
   "useHFProxy.hint": "Use LM Studio's Hugging Face Proxy to search and download models. This can help users who have trouble accessing Hugging Face directly.",
