@@ -1,0 +1,21 @@
+{
+    "postDownloadActionExecutor.zipExtraction/status": "下載後執行元件.zip解壓縮/狀態",
+    "finalizing": "最終化",
+    "noOptions": "無選項",
+    "deeplink/confirmation/title": "深度連結/確認/標題",
+    "deeplink/confirmation/subtitle": "深度連結/確認/副標題",
+    "deeplink/confirmation/selectRecommended": "深度連結/確認/選擇建議",
+    "deeplink/confirmation/selectOption": "深度連結/確認/選項",
+    "deeplink/confirmation/recommendedOption": "深度連結/確認/建議選項",
+    "deeplink/confirmation/downloadButton": "深度連結/確認/下載按鈕",
+    "deeplink/confirmation/nevermindButton": "深度連結/確認/忽略按鈕",
+    "deeplink/confirmation/modelPresent/title": "深度連結/確認/模型存在/標題",
+    "deeplink/confirmation/modelPresent/body": "深度連結/確認/模型存在/內容",
+    "deeplink/confirmation/loadInChat": "深度連結/確認/載入聊天",
+    "deeplink/error/modelNotFound/title": "深度連結/錯誤/模型未找到/標題",
+    "deeplink/error/modelNotFound/body": "深度連結/錯誤/模型未找到/內容",
+    "deeplink/actions/trySearching": "深度連結/動作/嘗試搜尋",
+    "downloadsPanel/title": "下載面板/標題",
+    "downloadsPanel/sectionTitle/ongoing": "下載面板/分區標題/進行中",
+    "downloadsPanel/sectionTitle/completed": "下載面板/分區標題/已完成"
+}
