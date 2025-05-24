@@ -1,24 +1,40 @@
 {
-  "action.skipOnboarding": "跳過導覽",
-  "action.next": "下一步",
-  "action.back": "上一步",
-  "action.finish": "完成",
-
-  "dismissable_rag_modal": {
-    "description": "您現在可以利用檢索增強生成（RAG）帶上您的檔案進行對話。以下是操作方式：",
-    "instructions": {
-      "attach_files": {
-        "title": "附加檔案",
-        "description": "一次上傳最多 5 個檔案，總大小不超過 30MB。支援的格式包括 PDF、DOCX、TXT 和 CSV。"
-      },
-      "be_specific": {
-        "title": "具體說明",
-        "description": "在提問時，請儘量提供詳細資訊，這有助於系統從您的檔案中檢索最相關的資訊。"
-      },
-      "get_responses": {
-        "title": "獲取回應並嘗試",
-        "description": "LLM 會根據您的提問及從檔案中檢索到的摘要來生成回應。嘗試不同的提問以找到最適合的方式。"
-      }
+    "action.skipOnboarding": "跳過入門教學",
+    "action.next": "下一步",
+    "action.back": "返回",
+    "action.finish": "完成",
+    "dismissable_rag_modal": {
+        "description": "您現在可以使用檢索強化生成 (RAG) 功能與自己的文件對話。以下是運作方式：",
+        "instructions": {
+            "attach_files": {
+                "title": "上傳文件",
+                "description": "每次最多可上傳5個文件，總大小不超過30MB。支援格式包括PDF、DOCX、TXT與CSV。"
+            },
+            "be_specific": {
+                "title": "具體說明",
+                "description": "提問時請盡可能詳細說明，這有助於系統從您的文件中檢索最相關的信息。"
+            },
+            "get_responses": {
+                "title": "獲取回應並試驗",
+                "description": "LLM會查看您的問題與從文件中檢索到的摘要內容，並試圖生成回應。試著不同的問題來尋找最佳成效。"
+            }
+        }
+    },
+    "toolUse": {
+        "step_0": {
+            "title": "測試階段：工具使用 🛠️ (功能呼叫)",
+            "text_0": "一些模型（例如Llama 3.1/3.2、Mistral、Qwen等）訓練時便學習使用工具。",
+            "text_1": "實際意義在於：您會以特定格式提供一組「工具」（功能簽名）給LLM，LLM能根據使用者提示判斷是否需要「呼叫」這些工具。",
+            "text_2": "您可想像例如查詢API、執行程式碼，或任何可表示為功能呼叫的事項。"
+        },
+        "step_1": {
+            "title": "開始工具使用",
+            "toolUseCanWorkWithAnyModel": "訓練過工具使用的模型表現會更好，但您也可以試圖用任何模型進行工具使用。閱讀<customlink>說明文件</customlink>以瞭解更多。\n訓練過工具使用的模型會有新的徽章標示：",
+            "hasCompatibleModel": "🎉 看來您已經有經過工具支持的模型了！",
+            "downloadRecommendedModel": "下載一個訓練過工具使用的模型："
+        },
+        "nextButton": "下一步",
+        "letsGoButton": "載入模型並開始伺服器",
+        "doneButton": "dismiss"
     }
-  }
 }
