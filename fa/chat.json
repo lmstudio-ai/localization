@@ -1,0 +1,223 @@
+{
+  "modelLoaderPlaceholder": "یک مدل برای بارگذاری انتخاب کنید",
+  "systemPromptPlaceholder": "دستورالعمل سیستم را تنظیم کنید",
+  "userRoleText": "کاربر",
+  "assistantRoleText": "دستیار",
+  "addMessageButtonText": "افزودن",
+  "addMessageButtonText/toolTip": "افزودن پیام به متن بدون فعال‌سازی پیش‌بینی",
+  "sendMessageButtonText": "ارسال",
+  "sendMessageButtonText/toolTip": "ارسال پیام و تاریخچه گفتگو به مدل برای پردازش",
+  "ejectButtonText": "خروج",
+  "unloadTooltip": "خروج مدل از حافظه",
+  "cancelButtonText": "لغو",
+  "loadButtonText": "بارگذاری",
+  "advancedSegmentText": "پیشرفته",
+  "chatSegmentText": "گفتگو",
+  "chatSidebarTitle": "گفتگوها",
+  "newChatButton": "گفتگوی جدید",
+  "newFolderButton": "پوشه جدید",
+  "viewModeLabel": "حالت نمایش",
+  "noChatSelected": "گفتگویی انتخاب نشده است",
+  "chatViewOptions": "تنظیمات نمایش گفتگو",
+  "uiControls/title": "تنظیمات نمایش",
+  "noChatSelectedPlaceholder": "یک گفتگو انتخاب کنید",
+  "unnamedChat": "گفتگوی بدون نام",
+  "emptyFolder": "پوشه خالی است",
+
+  "tokenCount": "تعداد توکن",
+  "messageTokenCount": "تعداد توکن ورودی",
+  "tokenCount/hint": "تعداد توکن‌های موجود در پیام. با استفاده از توکنایزر مدل انتخاب شده فعلی شمارش می‌شود.\n\nنیاز به بارگذاری مدل دارد.",
+  "messageTokenCount/hint": "تعداد توکن‌های موجود در پیام. با استفاده از توکنایزر مدل انتخاب شده فعلی شمارش می‌شود.\n\nتخمین توکن‌های موجود در فایل‌های پیوست را **شامل نمی‌شود**.",
+
+  "notes": "یادداشت‌های گفتگو",
+  "notes/add/first": "افزودن یادداشت",
+  "notes/add/another": "افزودن یادداشت دیگر",
+  "notes/hint": "یادداشت‌ها را در این گفتگو ذخیره کنید. یادداشت‌ها فقط برای مرجع شما هستند و به مدل ارسال نمی‌شوند. تمام تغییرات به طور خودکار ذخیره می‌شوند.",
+  "notes/placeholder": "یادداشت خود را اینجا بنویسید...",
+  "notes/delete": "حذف یادداشت",
+  "notes/noteLabel": "یادداشت",
+  "notes/copyContent": "کپی محتوای یادداشت",
+
+  "actions/sendMessage/error": "ارسال پیام ناموفق بود",
+  "actions/loadModel/error": "🥲 بارگذاری مدل ناموفق بود",
+  "actions/addFile": "[آزمایشی] پیوست کردن فایل به این پیام\n(.pdf، متن ساده، یا .docx)",
+  "actions/changeRole": "تغییر بین نقش‌های کاربر و دستیار.\n\nاین برای هدایت گفتگو در جهت خاص مفید است.\n\nمی‌تواند برای ایجاد سناریوهای 'یادگیری چند نمونه‌ای' یا 'یادگیری در متن' استفاده شود",
+  "actions/addImage": "افزودن تصویر",
+  "actions/deleteMessage": "حذف پیام",
+  "actions/deleteMessage/confirmation": "آیا مطمئن هستید که می‌خواهید این پیام را حذف کنید؟",
+  "actions/copyMessage": "کپی پیام",
+  "actions/editMessage": "ویرایش پیام",
+  "actions/editMessage/cannotEditPreprocessed": "نمی‌توان پیام‌های پیش‌پردازش شده را ویرایش کرد زیرا پس از اجرای پیش‌پردازنده بازنویسی می‌شوند. برای ویرایش پیام، یا:\n\n - به پیام اصلی بروید و آن را ویرایش کنید، یا\n - پیش‌پردازنده را تغییر دهید تا خروجی مورد نظر را تولید کند.",
+  "actions/regenerateMessage": "تولید مجدد پیام",
+  "actions/regenerateMessage/error": "تولید مجدد پیام ناموفق بود",
+  "actions/branchChat": "انشعاب گفتگو پس از این پیام",
+  "actions/branchChat/error": "انشعاب گفتگو ناموفق بود",
+  "actions/continueAssistantMessage": "ادامه پیام دستیار",
+  "actions/continueAssistantMessage/error": "ادامه پیام دستیار ناموفق بود",
+  "actions/predictNext": "تولید پاسخ هوش مصنوعی",
+  "actions/predictNext/error": "تولید پاسخ هوش مصنوعی ناموفق بود",
+  "actions/loadLastModel": "بارگذاری مجدد آخرین مدل استفاده شده",
+  "actions/loadLastModel/tooltip": "برای بارگذاری مدلی که آخرین بار با این گفتگو استفاده شده است کلیک کنید:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "بارگذاری آخرین مدل استفاده شده ناموفق بود.",
+  "actions/continueCurrentModel": "استفاده از مدل فعلی",
+  "actions/continueCurrentModel/tooltip": "مدل فعلی: {{currentModel}}",
+  "actions/changeToLastUsedModel": "بارگذاری {{lastModel}}",
+  "actions/changeToLastUsedModel/error": "تغییر به آخرین مدل استفاده شده ناموفق بود.",
+  "actions/changeToLastUsedModel/tooltip": "شما آخرین بار که پیامی در این گفتگو ارسال کردید از مدل متفاوتی استفاده کردید. برای خروج از مدل انتخاب شده فعلی ({{currentModel}}) و بارگذاری مدلی که آخرین بار با این گفتگو استفاده شده است کلیک کنید:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "تغییر به {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "برای تغییر به مدلی که آخرین بار با این گفتگو استفاده شده است کلیک کنید:\n\n{{lastModel}}",
+  "actions/loadModel": "بارگذاری یک مدل",
+  "actions/toggleViewingProcessed/currentlyFalse": "در حال مشاهده پیام اصلی. برای مشاهده پیام پیش‌پردازش شده کلیک کنید.",
+  "actions/toggleViewingProcessed/currentlyTrue": "در حال مشاهده پیام پیش‌پردازش شده. برای مشاهده پیام اصلی کلیک کنید.",
+  "actions/toggleViewingProcessed/hint": "قبل از ارسال پیام به مدل، ممکن است توسط یک پیش‌پردازنده پیش‌پردازش شود. برای تغییر بین مشاهده پیام اصلی و پیام پیش‌پردازش شده کلیک کنید. فقط پیام پیش‌پردازش شده به مدل ارسال می‌شود.",
+  "editMessageConfirm/title": "تغییرات را حفظ کنید؟",
+  "editMessageConfirm/message": "شما تغییراتی در پیام ایجاد کرده‌اید. آیا می‌خواهید آن‌ها را حفظ کنید؟",
+  "editMessageConfirm/keepEditing": "ادامه ویرایش",
+  "editMessageConfirm/save": "ذخیره",
+  "editMessageConfirm/discard": "لغو تغییرات",
+  "tokenCount/totalNotAvailable": "توکن‌ها: {{current}}",
+  "tokenCount/totalAvailable": "توکن‌ها: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "متن {{percentage}}% پر است",
+  "tokenCount/contextOverflow": "متن پردازش نشده بزرگتر از حداکثر محدودیت توکن مدل است. بسته به سیاست سرریز متن شما، ممکن است متن کوتاه شود یا پیام ارسال نشود.",
+  "modelLoader/manualLoadParams/label": "پارامترهای بارگذاری مدل را به صورت دستی انتخاب کنید",
+  "modelLoader/manualLoadParams/hint/before": "(یا نگه دارید ",
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "انتقال ناموفق بود",
+  "actions/rename/error": "تغییر نام ناموفق بود",
+  "actions/createChatAtRoot": "گفتگوی جدید...",
+  "actions/createChatAtRoot/error": "ایجاد گفتگو در ریشه ناموفق بود",
+  "actions/createFolderAtRoot": "پوشه جدید...",
+  "actions/createFolderAtRoot/error": "ایجاد پوشه در ریشه ناموفق بود",
+  "actions/createChat/error": "ایجاد گفتگو ناموفق بود",
+  "actions/deleteChat/errorTitle": "حذف گفتگو ناموفق بود",
+
+  "userFile/fileSizeLimit": "محدودیت اندازه فایل ",
+  "userFile/noImageSupport": "مدل از ورودی تصویر پشتیبانی نمی‌کند",
+  "userFile/errorPrefix": "خطا - ",
+  "userFile/supportedImagePrefix": "نوع تصویر پشتیبانی نشده - فقط ",
+  "userFile/supportedImageSuffix": " پشتیبانی می‌شوند",
+  "userFile/unsupportedFileType": "نوع فایل پشتیبانی نشده - فقط تصاویر، PDF و فایل‌های .txt پشتیبانی می‌شوند.",
+  "userFile/maxFilesPerMessage": "حداکثر تعداد فایل در هر پیام رسیده است. نمی‌توان بیش از {{files}} فایل اضافه کرد. ",
+  "userFile/maxFileSizePerMessage": "حداکثر اندازه فایل در هر پیام رسیده است. نمی‌توان فایل‌های بزرگتر از {{size}} اضافه کرد. ",
+  "userFile/maxFileSizePerConversation": "حداکثر اندازه فایل در هر گفتگو رسیده است. نمی‌توان فایل‌های بزرگتر از {{size}} اضافه کرد. ",
+  "userFile/failedToUploadError/title": "آپلود فایل ناموفق بود",
+  "userFile/failedToAddFile/title": "افزودن فایل به گفتگو ناموفق بود",
+  "errorTitle": "خطا",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} سند در گفتگو",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} سند در گفتگو",
+
+  "prediction/busyModel/title": "مدل مشغول است",
+  "prediction/busyModel/message": "لطفاً صبر کنید تا مدل تمام شود و دوباره تلاش کنید",
+  "prediction/noModel/title": "مدلی انتخاب نشده است",
+  "prediction/modelLoading": "پیام در صف قرار گرفت، پس از اتمام بارگذاری مدل ارسال خواهد شد",
+  "prediction/noModel/message": "برای ارسال پیام یک مدل انتخاب کنید",
+  "prediction/unloadModel/error": "خروج مدل ناموفق بود",
+
+  "retrieval/user/processingLabel": "هوش مصنوعی در حال فکر کردن است...",
+  "retrieval/powerUser/intermediateStepsHidden": "مراحل میانی مخفی شده‌اند. برای گسترش کلیک کنید.",
+  "retrieval/actions/clickToExpand": "برای گسترش مراحل میانی کلیک کنید",
+  "retrieval/actions/clickToCollapse": "برای جمع کردن مراحل میانی کلیک کنید",
+
+  "style": "ظاهر",
+
+  "style/viewMode/markdown": "مارک‌داون",
+  "style/viewMode/plaintext": "متن ساده",
+  "style/viewMode/monospace": "تک‌فاصله",
+
+  "speculativeDecodingVisualization/toggle": "نمایش توکن‌های پیش‌نویس پذیرفته شده",
+  "speculativeDecodingVisualization/fromDraftModel_one": "توکن پیش‌نویس پذیرفته شده",
+  "speculativeDecodingVisualization/fromDraftModel_other": "توکن‌های پیش‌نویس پذیرفته شده",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "انتخاب حالت نمایش هنگام نمایش توکن‌های پیش‌نویس غیرفعال است.",
+
+  "style/fontSize/label": "اندازه فونت",
+  "style/fontSize/medium": "پیش‌فرض",
+  "style/fontSize/large": "بزرگ",
+  "style/fontSize/small": "کوچک",
+
+  "style/debugBlocks/label": "نمایش بلوک‌های اطلاعات اشکال‌زدایی",
+
+  "style/thinkingUI/label": "گسترش بلوک‌های استدلال به صورت پیش‌فرض",
+  "style/chatFullWidth/label": "گسترش کانتینر گفتگو به عرض پنجره",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "گسترش محتوا",
+    "collapseBlockTooltip": "جمع کردن محتوا",
+    "debug": {
+      "label": "اطلاعات اشکال‌زدایی",
+      "collapseTooltip": "جمع کردن بلوک اطلاعات اشکال‌زدایی",
+      "expandTooltip": "گسترش بلوک اطلاعات اشکال‌زدایی"
+    }
+  },
+
+  "topBarActions/duplicateChat": "تکثیر",
+  "topBarActions/clearChat": "پاک کردن همه",
+  "topBarActions/clearChatConfirmation": "آیا مطمئن هستید که می‌خواهید تمام پیام‌های این گفتگو را پاک کنید؟",
+  "topBarActions/clearChatCancel": "لغو",
+  "topBarActions/clearChatDelete": "پاک کردن همه",
+
+  "noModels.indexing": "در حال فهرست‌بندی فایل‌های مدل... (ممکن است کمی طول بکشد)",
+  "noModels.downloading": "در حال دانلود اولین LLM شما...",
+  "noModels": "هنوز LLM ندارید! برای شروع یکی را دانلود کنید!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "افزونه",
+      "multiplePlugins": "{{dynamicValue}} افزونه"
+    },
+    "pluginSelect": {
+      "title": "افزونه‌ها",
+      "dropdown": {
+        "configure": "پیکربندی",
+        "disable": "غیرفعال",
+        "fork": "انشعاب",
+        "uninstall": "حذف"
+      },
+      "actionButtons": {
+        "create": "+ ایجاد",
+        "import": "وارد کردن",
+        "discover": "کشف کردن"
+      },
+      "recentlyCreated": {
+        "title": "افزونه‌های اخیراً ایجاد شده",
+        "placeholder": "افزونه‌هایی که ایجاد می‌کنید اینجا ظاهر می‌شوند"
+      },
+      "startRunningDevelopmentPlugin/error": "شروع اجرای افزونه در حالت توسعه ناموفق بود",
+      "stopRunningDevelopmentPlugin/error": "توقف اجرای افزونه در حالت توسعه ناموفق بود"
+    },
+    "pluginConfiguration": {
+      "title": "پیکربندی افزونه",
+      "selectAPlugin": "یک افزونه برای ویرایش تنظیمات آن انتخاب کنید",
+      "preprocessorAndGenerator": "این افزونه شامل یک پیش‌پردازنده و تولیدکننده سفارشی است",
+      "generatorOnly": "این افزونه شامل یک تولیدکننده سفارشی است",
+      "preprocessorOnly": "این افزونه شامل یک پیش‌پردازنده سفارشی است"
+    },
+    "instructions": {
+      "runTheFollowing": "برای اجرای افزونه خود، یک ترمینال باز کنید و وارد کنید",
+      "pushTo": "افزونه خود را با دیگران به اشتراک بگذارید (اختیاری)",
+      "createdSuccessfully": "افزونه با موفقیت ایجاد شد",
+      "creatingPlugin": "در حال ایجاد افزونه...",
+      "projectFilesTitle": "فایل‌های پروژه",
+      "buttons": {
+        "create": "ایجاد",
+        "cancel": "لغو"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s to first token",
+    "stopReason": "Stop reason: {{stopReason}}",
+    "stopReason.userStopped": "User Stopped",
+    "stopReason.modelUnloaded": "Model Unloaded",
+    "stopReason.failed": "Generation Failed",
+    "stopReason.eosFound": "EOS Token Found",
+    "stopReason.stopStringFound": "Stop String Found",
+    "stopReason.toolCalls": "Tool Calls",
+    "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
+    "stopReason.contextLengthReached": "Context Length Limit Reached",
+    "speculativeDecodedBy": "Draft model: {{decodedBy}}",
+    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)"
+  }
+}
