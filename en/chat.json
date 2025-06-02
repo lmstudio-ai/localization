@@ -212,6 +212,9 @@
         "revealInFinder": "Reveal in Finder",
         "openInFileExplorer": "Open in File Explorer"
       }
+    },
+    "localFork": {
+      "error": "Failed to create a local development copy of the plugin."
     }
   },
 
