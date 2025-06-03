@@ -1,13 +1,6 @@
 {
-  "settingsDialogTitle": "App Settings",
   "settingsDialogButtonTooltip": "App Settings",
   "accountDialogButtonTooltip": "Account",
-
-  "settingsNewButtonPopover": {
-    "primary": "App Settings are now at the bottom-right corner",
-    "secondary": "Click on the ⚙️ button to open them.",
-    "tertiary": "Or press"
-  },
   "appUpdate": "App Update",
   "checkingAppUpdate": "Checking for updates...",
   "checkForUpdates": "Check for updates",
@@ -32,9 +25,6 @@
   "appUpdatedToastTitle": "Updated to {{title}}",
   "appUpdatedToastDescriptionPrefix": "View the ",
   "AppUpdatedToastDescriptionReleaseNotes": "Release Notes",
-  "toolUseToastTitle": "New in Beta: Tool Use and Function Calls API",
-  "toolUseToastDescription": "Drop-in replacement for OpenAI Tool Use with select models such as Llama 3.1/3.2, Mistral, and Qwen.",
-  "toolUseToastButtonText": "Head to the developer page to try it out",
   "doItLater": "I'll do it later",
   "failedToUpdate": "App update failed. Please double-check your internet connection or try again later.",
   "retryInBackground": "Retry in background",
@@ -44,7 +34,6 @@
   "failedDownloadUpdate": "Failed to download update",
   "installAndRelaunch": "Install and relaunch",
   "uptodate": "You are all up to date! The current version is {{version}}",
-  "preferences": "Preferences",
   "general": "General",
   "sideButtonLabels": "Show side button labels",
   "showModelFileNames": "My Models: always show full model file name",
@@ -54,34 +43,19 @@
   "userComplexityLevelLabel": "User",
   "powerUserComplexityLevelLabel": "Power User",
   "developerComplexityLevelLabel": "Developer",
-  "chatSettingsLabel": "Chat Settings",
   "chat/alwaysShowPromptTemplate": "Always show prompt template in Chat sidebar",
   "chat/highlightChatMessageOnHover": "Highlight chat message on hover",
   "chat/doubleClickMessageToEdit": "Double click on a chat message to edit",
-
   "chat/aiNaming/label": "Chat AI Naming",
-  "chat/aiNaming/mode/label": "AI-generated Chat Names",
-  "chat/aiNaming/mode/value/never": "Never",
-  "chat/aiNaming/mode/value/never/subTitle": "Don't create AI-generated chat names",
-  "chat/aiNaming/mode/value/auto": "Auto",
-  "chat/aiNaming/mode/value/auto/subTitle": "Decides whether to create names based on generation speed",
-  "chat/aiNaming/mode/value/always": "Always",
-  "chat/aiNaming/mode/value/always/subTitle": "Create AI-generated chat names regardless of generation speed",
-  "chat/aiNaming/emoji": "Use emojis in AI-generated chat names",
   "chat/keyboardShortcuts/label": "Keyboard Shortcuts",
   "chat/keyboardShortcuts/verbPrefix": "Use",
   "chat/keyboardShortcuts/regenerate": "to regenerate the last message in chat",
   "chat/keyboardShortcuts/sendMessage": "to send message",
-
   "onboarding/blockTitle": "Onboarding Hints",
   "onboarding/dismissedHints": "Dismissed Onboarding Hints",
   "onboarding/resetHintTooltip": "Click to reenable this onboarding hint",
   "onboarding/resetAllHints": "Reset All Onboarding Hints",
   "onboarding/noneDismissed": "No dismissed hints, currently all onboarding helper hints will appear until next dismissed",
-
-  "firstTimeExperienceLabel": "Chat first time experience",
-  "firstTimeExperienceMarkCompletedLabel": "Mark Completed",
-  "firstTimeExperienceResetLabel": "Reset",
   "showPromptSuggestionsLabel": "Show prompt suggestions when creating a new chat",
   "darkThemeLabel": "Dark",
   "lightThemeLabel": "Light",
@@ -92,104 +66,59 @@
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
-  "showExperimentalFeaturesLabel": "Show experimental features",
-  "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
   "autoLoadBundledLLMLabel": "Auto load a bundled LLM model on start",
   "showReleaseNotes": "Show release notes",
   "hideReleaseNotes": "Hide release notes",
-
-  "backendDownloadNewUpdate": "Newer backends are available!",
-  "backendDownloadNewUpdateAction": "Go to developers page",
-
-  "backendDownloadChannel.label": "LM Studio Extension Packs Download Channel",
-  "backendDownloadChannel.value.stable": "Stable",
-  "backendDownloadChannel.value.beta": "Beta",
-  "backendDownloadChannel.value.latest": "Dev",
-  "backendDownloadChannel.shortLabel": "Runtime download channel",
-  "backendDownloadChannel.hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users.",
-
-  "appUpdateChannel.label": "Updates Channel",
-  "appUpdateChannel.value.stable": "Stable",
-  "appUpdateChannel.value.beta": "Beta",
-  "appUpdateChannel.value.alpha": "Alpha",
-  "appUpdateChannel.shortLabel": "App update channel",
-  "appUpdateChannel.hint": "Choose the channel from which to receive LM Studio app updates. \"{{stableName}}\" is the recommended channel for most users.",
-
-  "modelLoadingGuardrails.label": "Model loading guardrails",
-  "modelLoadingGuardrails.description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
-  "modelLoadingGuardrails.value.off": "OFF (Not Recommended)",
-  "modelLoadingGuardrails.value.off/subTitle": "No precautions against system overload",
-  "modelLoadingGuardrails.value.off/detail": "Off detail",
-  "modelLoadingGuardrails.value.low": "Relaxed",
-  "modelLoadingGuardrails.value.low/subTitle": "Mild precautions against system overload",
-  "modelLoadingGuardrails.value.low/detail": "Relaxed detail",
-  "modelLoadingGuardrails.value.medium": "Balanced",
-  "modelLoadingGuardrails.value.medium/subTitle": "Moderate precautions against system overload",
-  "modelLoadingGuardrails.value.medium/detail": "Balanced detail",
-  "modelLoadingGuardrails.value.high": "Strict",
-  "modelLoadingGuardrails.value.high/subTitle": "Strong precautions against system overload",
-  "modelLoadingGuardrails.value.high/detail": "Strict detail",
-  "modelLoadingGuardrails.value.custom": "Custom",
-  "modelLoadingGuardrails.value.custom/subTitle": "Set your own limit for maximum model size that can be loaded",
-  "modelLoadingGuardrails.value.custom/detail": "Custom detail",
-  "modelLoadingGuardrails.custom.label": "Memory Limit: ",
-  "modelLoadingGuardrails.custom.unitGB": "GB",
-  "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
-
-  "experimentalLoadPresets": "Enable model load configuration support in presets",
-  "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
-
+  "backendDownloadChannel": {
+    "label": "LM Studio Extension Packs Download Channel",
+    "value": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "latest": "Dev"
+    },
+    "hint": "Choose the channel from which to download LM Studio extension packs. \"{{stableName}}\" is the recommended channel for most users."
+  },
+  "appUpdateChannel": {
+    "label": "Updates Channel",
+    "value": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "alpha": "Alpha"
+    }
+  },
+  "modelLoadingGuardrails": {
+    "label": "Model loading guardrails",
+    "description": "Loading models beyond system resource limits may cause system instability or freezing. Guardrails prevent accidental overloading. Adjust these limits here if necessary, but be aware that loading models near the system's limit may reduce stability.",
+    "custom": {
+      "label": "Memory Limit: ",
+      "unitGB": "GB",
+      "description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit."
+    }
+  },
+  "experimentalLoadPresets": {
+    "_value": "Enable model load configuration support in presets",
+    "_conflict": true,
+    "description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback."
+  },
   "unloadPreviousJITModelOnLoad": "JIT models auto-evict: ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
   "autoDeleteExtensionPacks": "Auto-delete least recently used Runtime Extension Packs",
   "autoUpdateExtensionPacks": "Auto-update selected Runtime Extension Packs",
-  "useHFProxy.label": "Use LM Studio's Hugging Face Proxy",
-  "useHFProxy.hint": "Use LM Studio's Hugging Face Proxy to search and download models. This can help users who have trouble accessing Hugging Face directly.",
+  "useHFProxy": {
+    "label": "Use LM Studio's Hugging Face Proxy",
+    "hint": "Use LM Studio's Hugging Face Proxy to search and download models. This can help users who have trouble accessing Hugging Face directly."
+  },
   "separateReasoningContentInResponses": "When applicable, separate `reasoning_content` and `content` in API responses",
   "separateReasoningContentInResponses/hint": "This setting will only work for 'reasoning' models such as DeepSeek R1, its distilled variants, and other models that produce CoT in `<think>` and `</think>` tags.",
-
-  "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Show confirmation dialog when committing new fields to the preset",
-  "promptWhenCommittingUnsavedChangesWithNewFields.description": "This is useful if you want to prevent accidentally adding new fields to presets",
-
-  "enableLocalService": "Enable Local LLM Service",
-  "enableLocalService.subtitle": "Use LM Studio's LLM server without having to keep the LM Studio application open",
-  "enableLocalService.description": "When enabled, the LM Studio Local LLM Service will be launched on startup. Closing LM Studio will also leave the Local LLM Service running in the system tray.",
-
-  "expandConfigsOnClick": "Expand configs on click rather than hover",
-
-  "migrateChats": {
-    "label": "Migrate pre-0.3.0 Chats",
-    "hasBetterLabel": "Re-Migrate pre-0.3.0 Chats",
-    "action_one": "Migrate 1 Chat",
-    "action_other": "Migrate {{count}} Chats",
-    "inProgress": "Migrating chats...",
-    "hint": {
-      "primary": "We revamped the internal data structure for v0.3.0+ chats to support features like multi-version chat messages. To make older chats appear in the app they need to be migrated to the new format.",
-      "details": "The migration process will NOT delete your old chats, but rather make a copy of them in the new format. ",
-      "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
-    },
-    "hasBetterHint": {
-      "primary": "We have improved the chat migrator since you have migrated your old chats. Would you like to run it again?",
-      "details": "The migration process will create a new folder to contain the newly migrated chats. Your old chats will remain untouched.",
-      "footer": "You can still access your old chats through older versions of LM Studio. Currently, images will not be migrated automatically."
-    },
-    "success": "Successfully migrated chats!",
-    "success_one": "Successfully migrated 1 chat",
-    "success_other": "Successfully migrated {{count}} chats",
-    "showInstructionsButton": "Show Instructions",
-    "footerCardText": "Chats from previous versions of LM Studio need to be migrated in order for them to be used in this version.",
-    "hasBetterFooterCardText": "We have improved the chat migrator since you have migrated your old chats. You can rerun the migration process. (We will create a new folder to contain the newly migrated chats.)",
-    "dismissConfirm": "Dismiss",
-    "dismissConfirmDescription": "You can always handle chat migration in Settings"
+  "promptWhenCommittingUnsavedChangesWithNewFields": {
+    "_value": "Presets: Show confirmation dialog when committing new fields to the preset",
+    "_conflict": true,
+    "description": "This is useful if you want to prevent accidentally adding new fields to presets"
   },
-  "toolConfirmation": {
-    "label": "Tool Call Confirmation",
-    "neverAsk": {
-      "label": "Never ask for confirmations before running a tool (NOT RECOMMENDED)",
-      "hint": "Disable the confirmations before running a tool. This is not recommend.",
-      "warnTitle": "Are you sure?",
-      "warnDescription": "Disabling tool call confirmations is dangerous. If any of your plugins contributed a tool that has the potential to perform destructive actions (such as running a command, deleting files, overwriting files, uploading files, etc), the model will be able to do so without any confirmation. You can always disable confirmations on a per-tool or even per-plugin basis. Enabling this option is NOT recommended. Please be careful.",
-      "warnButton": "I understand the risks"
-    }
+  "enableLocalService": {
+    "_value": "Enable Local LLM Service",
+    "_conflict": true,
+    "subtitle": "Use LM Studio's LLM server without having to keep the LM Studio application open",
+    "description": "When enabled, the LM Studio Local LLM Service will be launched on startup. Closing LM Studio will also leave the Local LLM Service running in the system tray."
   }
 }

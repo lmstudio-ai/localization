@@ -1,68 +1,69 @@
 {
   "pageTitle": "My Models",
-  "filterModels.placeholder": "Filter models...",
-  "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space.",
-  "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space.",
-
-  "noModels.title": "Your local models will show up here.",
-  "noModels.discoverButtonText.prefix": "Click the",
-  "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
-  "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
-
-  "modelsTable.arch/label": "Arch",
-  "modelsTable.params/label": "Params",
-  "modelsTable.publisher/label": "Publisher",
-  "modelsTable.displayName/label": "Name",
-  "modelsTable.modelKey/label": "Model Key",
-  "modelsTable.size/label": "Size",
-  "modelsTable.dateModified/label": "Date Modified",
-  "modelsTable.actions/label": "Actions",
-
-  "modelsTable.quant/label": "Quant",
-  "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model",
-
-  "action.model.delete": "Delete",
-  "action.model.delete.full": "Delete Model",
-  "action.model.delete.confirmation/title": "Delete {{name}}",
-  "action.model.delete.confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
-  "action.model.delete.confirmation/confirm": "Delete",
-  "action.model.delete/error": "Failed to delete model",
-
-  "loader.model.bundled": "Bundled",
-  "action.cancel": "Cancel",
+  "filterModels": {
+    "placeholder": "Filter models..."
+  },
+  "noModels": {
+    "title": "Your local models will show up here.",
+    "discoverButtonText": {
+      "prefix": "Click the",
+      "suffix": "button on the left sidebar to discover interesting LLMs to download."
+    },
+    "discoverModelsPrompt": "Go and explore some local LLMs!"
+  },
+  "modelsTable": {
+    "arch/label": "Arch",
+    "params/label": "Params",
+    "publisher/label": "Publisher",
+    "displayName/label": "Name",
+    "modelKey/label": "Model Key",
+    "size/label": "Size",
+    "dateModified/label": "Date Modified",
+    "actions/label": "Actions",
+    "quant/label": "Quant"
+  },
+  "action": {
+    "model": {
+      "delete": {
+        "_value": "Delete",
+        "_conflict": true,
+        "full": "Delete Model",
+        "confirmation/title": "Delete {{name}}",
+        "confirmation/description": "Are you sure? This will permanently delete all files associated with this model from your machine. This action is irreversible.",
+        "confirmation/confirm": "Delete"
+      },
+      "delete/error": "Failed to delete model"
+    },
+    "cancel": "Cancel"
+  },
   "indexingOngoing": "Indexing models... This may take a few seconds",
-  "index/error_one": "Failed to index the following folder:",
-  "index/error_other": "Failed to index the following folders:",
-  "badModels/title_one": "Failed to index the following model:",
-  "badModels/title_other": "Failed to index the following models:",
-  "badModels.virtualModelIncorrectPlacement": "Incorrect placement of the virtual model. Expected to be at {{expected}}. Found at {{actual}}.",
-  "badModels.virtualModelBadManifest": "Invalid virtual model manifest (model.yaml):",
-  "unresolvedVirtualModels/title_one": "Failed to resolve the following virtual model:",
-  "unresolvedVirtualModels/title_other": "Failed to resolve the following virtual models:",
-  "unresolvedVirtualModels.missingModel": "A dependent model is missing: {{missing}}. Dependency path:\n{{chain}}",
-  "unresolvedVirtualModels.circular": "Circular dependency detected.",
-  "unresolvedVirtualModels.fix": "Fix",
-  "unresolvedVirtualModels.revealInExplorer": "Reveal in Explorer",
-  "unresolvedVirtualModels.revealInFinder": "Reveal in Finder",
-  "unresolvedVirtualModels.reveal/error": "Failed to reveal",
-
-  "modelsDirectory": "Models Directory",
-  "modelsDirectory.change": "Change...",
-  "modelsDirectory.change/error": "Failed to change models directory",
-  "modelsDirectory.reset": "Reset to Default Path",
-  "modelsDirectory.reveal.mac": "Reveal in Finder",
-  "modelsDirectory.reveal.nonMac": "Open in File Explorer",
-  "modelsDirectory.reveal.mac/error": "Failed to open in Finder",
-  "modelsDirectory.reveal.nonMac/error": "Failed to open in File Explorer",
-  "modelsDirectory.forceReindex": "Refresh",
-  "loadState/loaded": "Loaded",
-  "loadState/loading": "Loading",
-  "loadState/unloaded": "Unloaded",
-  "loadState/unloading": "Unloading",
-  "loadState/idle": "Idle",
+  "badModels": {
+    "virtualModelIncorrectPlacement": "Incorrect placement of the virtual model. Expected to be at {{expected}}. Found at {{actual}}.",
+    "virtualModelBadManifest": "Invalid virtual model manifest (model.yaml):"
+  },
+  "unresolvedVirtualModels": {
+    "missingModel": "A dependent model is missing: {{missing}}. Dependency path:\n{{chain}}",
+    "circular": "Circular dependency detected.",
+    "fix": "Fix",
+    "revealInExplorer": "Reveal in Explorer",
+    "revealInFinder": "Reveal in Finder",
+    "reveal/error": "Failed to reveal"
+  },
+  "modelsDirectory": {
+    "_value": "Models Directory",
+    "_conflict": true,
+    "change": "Change...",
+    "change/error": "Failed to change models directory",
+    "reset": "Reset to Default Path",
+    "reveal": {
+      "mac": "Reveal in Finder",
+      "nonMac": "Open in File Explorer",
+      "mac/error": "Failed to open in Finder",
+      "nonMac/error": "Failed to open in File Explorer"
+    },
+    "forceReindex": "Refresh"
+  },
   "pinned": "This model is pinned. Right click to unpin.",
-  "lastUsed": "Last Used",
   "contextMenu/pin": "Pin to Top",
   "contextMenu/unpin": "Unpin",
   "contextMenu/copyAbsolutePath": "Copy Absolute Path",
@@ -70,46 +71,34 @@
   "contextMenu/copyModelDefaultIdentifier": "Copy Default Identifier",
   "contextMenu/showRawMetadata": "Show Raw Metadata",
   "contextMenu/openOnHuggingFace": "Open on Hugging Face",
-  "contextMenu": {
-    "showOnWeb": "Show on Web",
-    "pullLatest": {
-      "label": "Pull Latest",
-      "checking": "Checking for updates...",
-      "upToDate": "Up to date",
-      "error": "Failed to check for updates"
-    }
-  },
   "tooltip/moreActions": "More Actions",
-  "tooltip/getInfo": "Get Info",
   "tooltip/editModelDefaultConfig": "Edit model default config",
   "tooltip/editModelDefaultConfig/override": "Edit model default config (* has overrides)",
   "tooltip/visionBadge": "This model can process image inputs",
   "tooltip/toolUseBadge": "This model has been trained for tool use",
-
   "visionBadge/label": "Vision Enabled",
   "toolUseBadge/label": "Trained for Tool Use",
-
-  "loader.action.load": "Load Model",
-  "loader.action.clearChanges": "Clear Changes",
-  "loader.action.cancel": "Cancel",
-  "loader.info.clickOnModelToLoad": "Click on a model to load it",
-  "loader.info.configureLoadParameters": "Configure the model load parameters",
-  "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation",
-
+  "loader": {
+    "action": {
+      "load": "Load Model",
+      "clearChanges": "Clear Changes",
+      "cancel": "Cancel"
+    },
+    "info": {
+      "clickOnModelToLoad": "Click on a model to load it",
+      "activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation"
+    }
+  },
   "virtual": {
     "local": {
-      "create": "Create Virtual Model",
-      "title": "Create a Local Virtual Model",
-      "description": "Create a virtual model by bundling a model with a set of configurations. The underlying weights will not be duplicated.",
-      "modelKey.label": "Model Key",
-      "modelKey.placeholder": "Enter a unique model key",
-      "modelKey.normalized": "Your model key will be normalized to: {{normalized}}",
-      "baseModel.label": "Base Model",
-      "baseModel.placeholder": "Select a base model",
-      "baseModel.empty": "Download a model to use as the base model",
-      "next": "Next",
-      "confirm": "Create",
-      "error": "Failed to create virtual model"
+      "modelKey": {
+        "normalized": "Your model key will be normalized to: {{normalized}}"
+      },
+      "baseModel": {
+        "label": "Base Model",
+        "placeholder": "Select a base model",
+        "empty": "Download a model to use as the base model"
+      }
     }
   }
 }

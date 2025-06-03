@@ -2,8 +2,5 @@
   "chat": "Chat",
   "discover": "Discover",
   "myModels": "My Models",
-  "developer": "Developer",
-  "runtimes": "Runtime",
-  "settings": "Settings",
-  "download": "Downloads"
+  "developer": "Developer"
 }
