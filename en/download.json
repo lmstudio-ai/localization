@@ -22,7 +22,7 @@
   "downloadsPanel/sectionTitle/completed": "Completed",
   "downloadsPanel": {
     "reveal": {
-      "mac": "Reval in Finder",
+      "mac": "Reveal in Finder",
       "mac/error": "Failed to reveal in Finder",
       "nonMac": "Reveal in File Explorer",
       "nonMac/error": "Failed to reveal in File Explorer"
