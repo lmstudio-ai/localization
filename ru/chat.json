@@ -111,5 +111,45 @@
   "style/fontSize/label": "Размер шрифта",
   "style/fontSize/medium": "По умолчанию",
   "style/fontSize/large": "Большой",
-  "style/fontSize/small": "Маленький"
+  "style/fontSize/small": "Маленький",
+
+   "messageTokenCount": "Токены во входящем сообщении",
+  "tokenCount/hint": "Количество токенов в сообщении, рассчитанное токенизатором текущей модели.\n\nТребует загруженной модели.",
+  "messageTokenCount/hint": "Количество токенов во входящем сообщении, рассчитанное токенизатором текущей модели.\n\n**Не включает** токены вложений.",
+  "tokenCount/contextOverflow": "Незагруженный контекст превышает максимальный лимит токенов модели. В зависимости от политики переполнение может быть обрезано или сообщение не будет отправлено.",
+
+  "actions/createFolderAtRoot/error": "Не удалось создать папку на корневом уровне",
+  "actions/deleteChat/errorTitle": "Не удалось удалить чат",
+
+  "userFile/maxFileSizePerConversation": "Превышен общий лимит размера файлов (макс. {{size}})",
+  "userFile/failedToUploadError/title": "Не удалось загрузить файл",
+  "userFile/failedToAddFile/title": "Не удалось прикрепить файл к сообщению",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} документ в чате",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} документов в чате",
+
+  "prediction/busyModel/title": "Модель занята",
+  "prediction/busyModel/message": "Пожалуйста, дождитесь завершения работы модели и попробуйте снова",
+  "prediction/modelLoading": "Сообщение в очереди — отправится после загрузки модели",
+  "prediction/noModel/message": "Выберите модель для отправки сообщения",
+  "prediction/unloadModel/error": "Не удалось выгрузить модель",
+
+  "noModels.indexing": "Индексация файлов моделей... (может занять время)",
+  "noModels.downloading": "Загрузка первой LLM...",
+  "noModels": "Пока нет LLM — загрузите модель, чтобы начать!",
+
+  "style/debugBlocks/label": "Показывать блоки отладки",
+  "style/thinkingUI/label": "Разворачивать блоки рассуждений по умолчанию",
+  "style/chatFullWidth/label": "Растягивать чат на всю ширину",
+
+  "messageBlocks/expandBlockTooltip": "Развернуть содержимое",
+  "messageBlocks/collapseBlockTooltip": "Свернуть содержимое",
+  "messageBlocks/debug/label": "DEBUG INFO",
+  "messageBlocks/debug/collapseTooltip": "Свернуть блок отладки",
+  "messageBlocks/debug/expandTooltip": "Развернуть блок отладки",
+
+  "topBarActions/duplicateChat": "Дублировать",
+  "topBarActions/clearChat": "Очистить чат",
+  "topBarActions/clearChatConfirmation": "Вы уверены, что хотите удалить все сообщения из этого чата?",
+  "topBarActions/clearChatCancel": "Отмена",
+  "topBarActions/clearChatDelete": "Очистить чат"
 }
