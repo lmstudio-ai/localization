@@ -78,7 +78,7 @@
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "Context is {{percentage}}% vol",
-  "tokenCount/contextOverflow": "De niet-verwerkte context is groter dan de maximale tokenlimiet van het model. Afhankelijk van uw Context Oveflow Policy kan de context worden afgekapt of kan het bericht niet worden verzonden.",
+  "tokenCount/contextOverflow": "De niet-verwerkte context is groter dan de maximale tokenlimiet van het model. Afhankelijk van uw Context Overflow Policy kan de context worden afgekapt of kan het bericht niet worden verzonden.",
   "modelLoader/manualLoadParams/label": "Handmatig model load parameters kiezen",
   "modelLoader/manualLoadParams/hint/before": "(of houdt vast ",
   "modelLoader/manualLoadParams/hint/after": ")",
