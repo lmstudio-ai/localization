@@ -1,8 +1,9 @@
 {
-  "chat": "聊天",
-  "discover": "探索",
-  "myModels": "我的模型",
-  "developer": "開發人員",
-  "settings": "設定",
-  "download": "下載"
+    "chat": "聊天",
+    "discover": "發現",
+    "myModels": "我的模型",
+    "developer": "開發者",
+    "runtimes": "執行時",
+    "settings": "設定",
+    "download": "下載"
 }
