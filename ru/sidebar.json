@@ -1,8 +1,9 @@
 {
   "chat": "Чат",
-  "discover": "Обзор моделей",
-  "myModels": "Мои модели",
-  "developer": "Разработка",
+  "discover": "Обнаружить",
+  "myModels": "Мои Модели",
+  "developer": "Разработчик",
+  "runtimes": "Среды выполнения",
   "settings": "Настройки",
   "download": "Загрузки"
 }
