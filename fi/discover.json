@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Kokoelmat",
+  "collectionsColumn/collectionError": "Kokoelman tiedot eivät lataudu, yritä päivittää yllä",
+  "bookmarksColumn": "Kirjanmerkit",
+  "searchBar/placeholder": "Etsi malleja Hugging Facelta...",
+  "searchBar/huggingFaceError": "Tapahtui virhe haettaessa tuloksia Hugging Facelta, yritä myöhemmin uudelleen",
+  "sortBy": "Järjestä",
+  "searchSortKey.default/title": "Paras vastaavuus",
+  "searchSortKey.likes/title": "Eniten tykkäyksiä",
+  "searchSortKey.downloads/title": "Eniten latauksia",
+  "searchSortKey.lastModified/title": "Äskettäin päivitetty",
+  "searchSortKey.createdAt/title": "Äskettäin luotu",
+  "download.option.willFitEstimation.caveat": "Mallin lataamista voi estää muita tekijöitä, kuten mallin arkkitehtuuri, mallitiedoston eheys tai tietokoneen muistin määrä.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Täysi GPU-siirto mahdollinen",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Tämä malli saattaa mahtua kokonaan GPU:n muistiin. Tämä voi merkittävästi nopeuttaa ennusteita.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Osittainen GPU-siirto mahdollinen",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Tämä malli saattaa mahtua osittain GPU:n muistiin. Tämä voi usein merkittävästi nopeuttaa ennusteita.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Todennäköisesti sopii",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Tämä malli sopii todennäköisesti tietokoneen muistiin.",
+  "download.option.willFitEstimation.willNotFit/title": "Liian suuri tälle tietokoneelle",
+  "download.option.willFitEstimation.willNotFit/description": "Tämän mallitiedoston muistivaatimukset voivat ylittää tietokoneen resurssit. Tämän tiedoston lataaminen ei ole suositeltavaa.",
+  "download.option.recommended/title": "Suositeltu",
+  "download.option.recommended/description": "Tämän vaihtoehdon suositellaan perustuen laitteistosi.",
+  "download.option.downloaded/title": "Ladattu",
+  "download.option.downloading/title": "Ladataan ({{progressPercentile}}%)",
+  "feed.action.refresh": "Päivitä syöte"
+}
+

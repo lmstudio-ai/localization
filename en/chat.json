@@ -27,7 +27,7 @@
   "tokenCount": "Token count",
   "messageTokenCount": "Input token count",
   "tokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nRequires the model to be loaded.",
-  "messageTokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nDoes **NOT** include an estimate of tokens in file attachements.",
+  "messageTokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokenizer.\n\nDoes **NOT** include an estimate of tokens in file attachments.",
 
   "notes": "Conversation Notes",
   "notes/add/first": "Add a note",
@@ -78,7 +78,7 @@
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "Context is {{percentage}}% full",
-  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Oveflow Policy, the context may be truncated or the message may not be sent.",
+  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Overflow Policy, the context may be truncated or the message may not be sent.",
   "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
   "modelLoader/manualLoadParams/hint/before": "(or hold ",
   "modelLoader/manualLoadParams/hint/after": ")",
@@ -89,6 +89,7 @@
   "actions/createFolderAtRoot": "New Folder...",
   "actions/createFolderAtRoot/error": "Failed to create folder at root",
   "actions/createChat/error": "Failed to create chat",
+  "actions/deleteChat/errorTitle": "Failed to delete chat",
 
   "userFile/fileSizeLimit": "File size limit is ",
   "userFile/noImageSupport": "Model does not support image input",
@@ -98,7 +99,12 @@
   "userFile/unsupportedFileType": "Unsupported file type - only images, PDFs and .txt files are supported.",
   "userFile/maxFilesPerMessage": "Maximum number of files per message reached. Cannot add more than {{files}} files. ",
   "userFile/maxFileSizePerMessage": "Maximum file size per message reached. Cannot add files larger than {{size}}. ",
+  "userFile/maxFileSizePerConversation": "Maximum file size per conversation reached. Cannot add files larger than {{size}}. ",
+  "userFile/failedToUploadError/title": "Failed to upload file",
+  "userFile/failedToAddFile/title": "Failed to add file to chat",
   "errorTitle": "Error",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} document in chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} documents in chat",
 
   "prediction/busyModel/title": "Model is busy",
   "prediction/busyModel/message": "Please wait until the model finishes and try again",
@@ -112,24 +118,111 @@
   "retrieval/actions/clickToExpand": "Click to expand intermediate steps",
   "retrieval/actions/clickToCollapse": "Click to collapse intermediate steps",
 
-  "style": "Chat Appearance",
+  "style": "Appearance",
 
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Plaintext",
   "style/viewMode/monospace": "Monospace",
+
+  "speculativeDecodingVisualization/toggle": "Visualize accepted draft tokens",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Accepted draft token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Accepted draft tokens",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "View mode selection is disabled when visualizing draft tokens.",
 
   "style/fontSize/label": "Font Size",
   "style/fontSize/medium": "Default",
   "style/fontSize/large": "Large",
   "style/fontSize/small": "Small",
 
-  "topBarActions/duplicateChat": "Duplicate chat",
-  "topBarActions/clearChat": "Clear all messages",
+  "style/debugBlocks/label": "Show Debug Info Blocks",
+
+  "style/thinkingUI/label": "Expand reasoning blocks by default",
+  "style/chatFullWidth/label": "Expand chat container to window width",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Expand content",
+    "collapseBlockTooltip": "Collapse content",
+    "debug": {
+      "label": "DEBUG INFO",
+      "collapseTooltip": "Collapse debug info block",
+      "expandTooltip": "Expand debug info block"
+    }
+  },
+
+  "topBarActions/duplicateChat": "Duplicate",
+  "topBarActions/clearChat": "Clear All",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
   "topBarActions/clearChatCancel": "Cancel",
   "topBarActions/clearChatDelete": "Clear All",
 
   "noModels.indexing": "Indexing model files... (this might take a moment)",
   "noModels.downloading": "Downloading your first LLM...",
-  "noModels": "No LLMs yet! Download one to get started!"
+  "noModels": "No LLMs yet! Download one to get started!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Configure",
+        "disable": "Disable",
+        "fork": "Fork",
+        "uninstall": "Uninstall"
+      },
+      "actionButtons": {
+        "create": "+ Create",
+        "import": "Import",
+        "discover": "Discover"
+      },
+      "recentlyCreated": {
+        "title": "Recently Created Plugins",
+        "placeholder": "Plugins you create will appear here"
+      },
+      "startRunningDevelopmentPlugin/error": "Failed to start running plugin in development mode",
+      "stopRunningDevelopmentPlugin/error": "Failed to stop running plugin in development mode"
+    },
+    "pluginConfiguration": {
+      "title": "Plugin Configuration",
+      "selectAPlugin": "Select a plugin to edit its configs",
+      "preprocessorAndGenerator": "This plugin contains a custom preprocessor and generator",
+      "generatorOnly": "This plugin contains a custom generator",
+      "preprocessorOnly": "This plugin contains a custom preprocessor"
+    },
+    "instructions": {
+      "runTheFollowing": "To run your plugin, open a terminal and enter",
+      "pushTo": "Share your plugin with others by pushing to the Hub (optional)",
+      "createdSuccessfully": "Plugin created successfully",
+      "creatingPlugin": "Creating plugin...",
+      "projectFilesTitle": "Project Files",
+      "buttons": {
+        "documentation": "Documentation",
+        "dismiss": "Dismiss",
+        "publish": "Publish",
+        "openInZed": "Open in Zed",
+        "openInVscode": "Open in VS Code",
+        "revealInFinder": "Reveal in Finder",
+        "openInFileExplorer": "Open in File Explorer"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s to first token",
+    "stopReason": "Stop reason: {{stopReason}}",
+    "stopReason.userStopped": "User Stopped",
+    "stopReason.modelUnloaded": "Model Unloaded",
+    "stopReason.failed": "Generation Failed",
+    "stopReason.eosFound": "EOS Token Found",
+    "stopReason.stopStringFound": "Stop String Found",
+    "stopReason.toolCalls": "Tool Calls",
+    "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
+    "stopReason.contextLengthReached": "Context Length Limit Reached",
+    "speculativeDecodedBy": "Draft model: {{decodedBy}}",
+    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)"
+  }
 }
