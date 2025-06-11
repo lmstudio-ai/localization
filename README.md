@@ -35,6 +35,7 @@ LM Studio localization
 - Swedish (sv) [@reinew](https://github.com/reinew)
 - Catalan (ca) [@Gopro3010](https://github.com/Gopro3010)
 - French [@Plexi09](https://github.com/Plexi09)
+- Malayalam (ml) [@prasanthc41m](https://github.com/prasanthc41m)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
