@@ -78,7 +78,7 @@
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
   "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "Context is {{percentage}}% full",
-  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Oveflow Policy, the context may be truncated or the message may not be sent.",
+  "tokenCount/contextOverflow": "The unprocessed context is larger than the maximum token limit of the model. Depending on your Context Overflow Policy, the context may be truncated or the message may not be sent.",
   "modelLoader/manualLoadParams/label": "Manually choose model load parameters",
   "modelLoader/manualLoadParams/hint/before": "(or hold ",
   "modelLoader/manualLoadParams/hint/after": ")",
