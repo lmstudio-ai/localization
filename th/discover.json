@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "คอลเลคชั่น",
+  "collectionsColumn/collectionError": "เกิดข้อผิดพลาดในการโหลดรายละเอียดคอลเลคชั่น กรุณารีเฟรชหน้าด้านบน",
+  "bookmarksColumn": "บุ๊คมาร์ค",
+  "searchBar/placeholder": "ค้นหาโมเดลบน Hugging Face...",
+  "searchBar/huggingFaceError": "เกิดข้อผิดพลาดในการดึงผลลัพธ์จาก Hugging Face กรุณาลองใหม่อีกครั้งในภายหลัง",
+  "sortBy": "เรียงตาม",
+  "searchSortKey.default/title": "ตรงที่สุด",
+  "searchSortKey.likes/title": "ถูกใจมากที่สุด",
+  "searchSortKey.downloads/title": "ดาวน์โหลดมากที่สุด",
+  "searchSortKey.lastModified/title": "อัปเดตล่าสุด",
+  "searchSortKey.createdAt/title": "สร้างล่าสุด",
+  "download.option.willFitEstimation.caveat": "อาจมีปัจจัยอื่นๆ ที่ทำให้โหลดไม่ได้ เช่น สถาปัตยกรรมของโมเดล ความสมบูรณ์ของไฟล์โมเดล หรือหน่วยความจำที่มีในคอมพิวเตอร์ของคุณ",
+  "download.option.willFitEstimation.fullGPUOffload/title": "สามารถใช้ GPU แบบเต็มรูปแบบ",
+  "download.option.willFitEstimation.fullGPUOffload/description": "โมเดลนี้อาจพอดีกับหน่วยความจำ GPU ของคุณทั้งหมด ซึ่งอาจเพิ่มความเร็วในการประมวลผลได้อย่างมาก",
+  "download.option.willFitEstimation.partialGPUOffload/title": "สามารถใช้ GPU แบบบางส่วน",
+  "download.option.willFitEstimation.partialGPUOffload/description": "โมเดลนี้อาจพอดีกับหน่วยความจำ GPU ของคุณบางส่วน ซึ่งมักจะเพิ่มความเร็วในการประมวลผลได้อย่างมาก",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "น่าจะพอดี",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "โมเดลนี้น่าจะพอดีกับหน่วยความจำในเครื่องของคุณ",
+  "download.option.willFitEstimation.willNotFit/title": "อาจใหญ่เกินไปสำหรับเครื่องนี้",
+  "download.option.willFitEstimation.willNotFit/description": "ความต้องการหน่วยความจำสำหรับการใช้ไฟล์โมเดลนี้อาจเกินทรัพยากรที่มีในเครื่องของคุณ ไม่แนะนำให้ดาวน์โหลดไฟล์นี้",
+  "download.option.recommended/title": "แนะนำ",
+  "download.option.recommended/description": "ตัวเลือกนี้แนะนำตามฮาร์ดแวร์ของคุณ",
+  "download.option.downloaded/title": "ดาวน์โหลดแล้ว",
+  "download.option.downloading/title": "กำลังดาวน์โหลด ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "รีเฟรชฟีด"
+}
