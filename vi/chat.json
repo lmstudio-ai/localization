@@ -23,11 +23,20 @@
   "noChatSelectedPlaceholder": "Chọn một cuộc trò chuyện",
   "unnamedChat": "Cuộc trò chuyện chưa đặt tên",
   "emptyFolder": "Thư mục trống",
+
+  "tokenCount": "Số lượng Token",
+ "messageTokenCount": "Số lượng Token đầu vào",
+ "tokenCount/hint": "Số lượng token trong tin nhắn. Được đếm bằng bộ mã hóa của mô hình hiện được chọn.\n\nYêu cầu mô hình phải được tải.",
+ "messageTokenCount/hint": "Số lượng token trong tin nhắn. Được đếm bằng bộ mã hóa của mô hình hiện được chọn.\n\n**Không** bao gồm ước tính số token trong tệp đính kèm.",
+
   "notes": "Ghi chú cuộc trò chuyện",
   "notes/add/first": "Thêm ghi chú",
   "notes/add/another": "Thêm ghi chú khác",
   "notes/hint": "Lưu ghi chú cho cuộc trò chuyện này. Ghi chú chỉ dành cho tham khảo của bạn và không được gửi đến mô hình. Tất cả thay đổi sẽ tự động lưu.",
   "notes/placeholder": "Nhập ghi chú của bạn ở đây...",
+  "notes/delete": "Xóa ghi chú",
+  "notes/noteLabel": "Ghi chú",
+  "notes/copyContent": "Sao chép Nội dung ghi chú",
 
   "actions/sendMessage/error": "Gửi tin nhắn không thành công",
   "actions/loadModel/error": "🥲 Tải mô hình không thành công",
@@ -38,6 +47,7 @@
   "actions/deleteMessage/confirmation": "Bạn có chắc chắn muốn xóa tin nhắn này không?",
   "actions/copyMessage": "Sao chép tin nhắn",
   "actions/editMessage": "Chỉnh sửa tin nhắn",
+  "actions/editMessage/cannotEditPreprocessed": "Không Thể Chỉnh Sửa Tin Nhắn Đã Xử Lý Trước Vì Chúng Sẽ Bị Ghi Đè Sau Khi Chạy Bộ Xử Lý Trước. Để Chỉnh Sửa Tin Nhắn, Bạn Có Thể: \n\n - Chuyển Sang Tin Nhắn Gốc Và Chỉnh Sửa Thay Vào Đó, Hoặc\n - Thay Đổi Bộ Xử Lý Trước Để Nó Tạo Ra Đầu Ra Mong Muốn.",
   "actions/regenerateMessage": "Tái tạo tin nhắn",
   "actions/regenerateMessage/error": "Tái tạo tin nhắn không thành công",
   "actions/branchChat": "Phân nhánh trò chuyện sau tin nhắn này",
@@ -57,6 +67,9 @@
   "actions/switchToLastUsedModel": "Chuyển sang {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "Nhấp để chuyển sang mô hình đã sử dụng gần nhất với cuộc trò chuyện này:\n\n{{lastModel}}",
   "actions/loadModel": "Tải mô hình",
+  "actions/toggleViewingProcessed/currentlyFalse": "Đang xem tin nhắn gốc. Nhấn để xem tin nhắn đã xử lý trước.",
+  "actions/toggleViewingProcessed/currentlyTrue": "Đang xem tin nhắn đã xử lý trước. Nhấn để xem tin nhắn gốc.",
+  "actions/toggleViewingProcessed/hint": "Trước khi tin nhắn được gửi đến mô hình, nó có thể được xử lý trước bởi một bộ xử lý trước lời nhắc. Nhấn để chuyển đổi giữa xem tin nhắn gốc và tin nhắn đã xử lý trước. Chỉ tin nhắn đã xử lý trước mới được gửi đến mô hình.",
   "editMessageConfirm/title": "Giữ lại thay đổi?",
   "editMessageConfirm/message": "Bạn đã thực hiện thay đổi cho một tin nhắn. Bạn có muốn giữ lại chúng không?",
   "editMessageConfirm/keepEditing": "Tiếp tục chỉnh sửa",
@@ -64,6 +77,8 @@
   "editMessageConfirm/discard": "Hủy bỏ thay đổi",
   "tokenCount/totalNotAvailable": "Số token: {{current}}",
   "tokenCount/totalAvailable": "Số token: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Ngữ cảnh đầy {{percentage}}%",
+  "tokenCount/contextOverflow": "Ngữ cảnh chưa xử lý lớn hơn giới hạn token tối đa của mô hình. Tùy thuộc vào Chính Sách Tràn Ngữ Cảnh của bạn, ngữ cảnh có thể bị cắt bớt hoặc tin nhắn có thể không được gửi đi.",
   "modelLoader/manualLoadParams/label": "Chọn thông số tải mô hình thủ công",
   "modelLoader/manualLoadParams/hint/before": "(hoặc giữ ",
   "modelLoader/manualLoadParams/hint/after": ")",
@@ -73,6 +88,30 @@
   "actions/createChatAtRoot/error": "Tạo cuộc trò chuyện mới không thành công",
   "actions/createFolderAtRoot": "Tạo thư mục mới",
   "actions/createFolderAtRoot/error": "Tạo thư mục mới không thành công",
+  "actions/createChat/error": "Tạo cuộc trò chuyện không thành công",
+  "actions/deleteChat/errorTitle": "Xóa cuộc trò chuyện không thành công",
+
+  "userFile/fileSizeLimit": "Giới hạn kích thước tệp là ",
+  "userFile/noImageSupport": "Mô hình không hỗ trợ đầu vào hình ảnh",
+  "userFile/errorPrefix": "Lỗi - ",
+  "userFile/supportedImagePrefix": "Loại hình ảnh không được hỗ trợ - chỉ ",
+  "userFile/supportedImageSuffix": " được hỗ trợ",
+  "userFile/unsupportedFileType": "Loại tệp không được hỗ trợ - chỉ hỗ trợ hình ảnh, PDF và tệp .txt.",
+  "userFile/maxFilesPerMessage": "Đã đạt số lượng tệp tối đa mỗi tin nhắn. Không thể thêm quá {{files}} tệp. ",
+  "userFile/maxFileSizePerMessage": "Đã đạt kích thước tệp tối đa mỗi tin nhắn. Không thể thêm tệp lớn hơn {{size}}. ",
+  "userFile/maxFileSizePerConversation": "Đã đạt kích thước tệp tối đa mỗi cuộc trò chuyện. Không thể thêm tệp lớn hơn {{size}}. ",
+  "userFile/failedToUploadError/title": "Tải tệp lên không thành công",
+  "userFile/failedToAddFile/title": "Không thể thêm tệp vào cuộc trò chuyện",
+  "errorTitle": "Lỗi",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} tài liệu trong cuộc trò chuyện",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} tài liệu trong cuộc trò chuyện",
+
+  "prediction/busyModel/title": "Mô hình đang bận",
+  "prediction/busyModel/message": "Vui lòng đợi mô hình hoàn tất và thử lại",
+  "prediction/noModel/title": "Chưa chọn mô hình",
+  "prediction/modelLoading": "Tin nhắn đã xếp hàng, sẽ được gửi khi mô hình tải xong",
+  "prediction/noModel/message": "Chọn một mô hình để gửi tin nhắn",
+  "prediction/unloadModel/error": "Không thể dỡ mô hình",
 
   "retrieval/user/processingLabel": "AI đang suy nghĩ...",
   "retrieval/powerUser/intermediateStepsHidden": "Các bước trung gian đã bị ẩn. Nhấp để mở rộng.",
@@ -85,8 +124,105 @@
   "style/viewMode/plaintext": "Văn bản thuần",
   "style/viewMode/monospace": "Monospace",
 
+  "speculativeDecodingVisualization/toggle": "Hiển Thị Token Nháp Đã Chấp Nhận",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Token nháp đã chấp nhận",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Các token nháp đã chấp nhận",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Chế độ xem bị tắt khi hiển thị token nháp.",
+
   "style/fontSize/label": "Kích thước chữ",
   "style/fontSize/medium": "Mặc định",
   "style/fontSize/large": "Lớn",
-  "style/fontSize/small": "Nhỏ"
+  "style/fontSize/small": "Nhỏ",
+
+  "style/debugBlocks/label": "Hiển Thị Khối Thông Tin Gỡ Lỗi",
+
+  "style/thinkingUI/label": "Mở rộng khối lý luận theo mặc định",
+  "style/chatFullWidth/label": "Mở rộng vùng chứa trò chuyện theo chiều rộng cửa sổ",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Mở rộng nội dung",
+    "collapseBlockTooltip": "Thu gọn nội dung",
+    "debug": {
+      "label": "THÔNG TIN GỠ LỖI",
+      "collapseTooltip": "Thu gọn khối thông tin gỡ lỗi",
+      "expandTooltip": "Mở rộng khối thông tin gỡ lỗi"
+    }
+ },
+
+  "topBarActions/duplicateChat": "Sao Chép",
+  "topBarActions/clearChat": "Xóa Tất Cả",
+  "topBarActions/clearChatConfirmation": "Bạn có chắc chắn muốn xóa tất cả tin nhắn trong cuộc trò chuyện này không?",
+  "topBarActions/clearChatCancel": "Hủy",
+  "topBarActions/clearChatDelete": "Xóa Tất Cả",
+
+  "noModels.indexing": "Đang lập chỉ mục tệp mô hình... (việc này có thể mất một lúc)",
+  "noModels.downloading": "Đang tải LLM đầu tiên của bạn...",
+  "noModels": "Chưa có LLM nào! Tải xuống một cái để bắt đầu!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} plugin"
+    },
+    "pluginSelect": {
+      "title": "Plugin",
+      "dropdown": {
+        "configure": "Cấu hình",
+        "disable": "Tắt",
+        "fork": "Phân nhánh",
+        "uninstall": "Gỡ cài đặt"
+      },
+      "actionButtons": {
+        "create": "+ Tạo",
+        "import": "Nhập",
+        "discover": "Khám phá"
+      },
+      "recentlyCreated": {
+        "title": "Plugin Đã Tạo Gần Đây",
+        "placeholder": "Các plugin bạn tạo sẽ xuất hiện ở đây"
+      },
+      "startRunningDevelopmentPlugin/error": "Không thể bắt đầu chạy plugin ở chế độ phát triển",
+      "stopRunningDevelopmentPlugin/error": "Không thể dừng chạy plugin ở chế độ phát triển"
+    },
+    "pluginConfiguration": {
+      "title": "Cấu Hình Plugin",
+      "selectAPlugin": "Chọn một plugin để chỉnh sửa cấu hình của nó",
+      "preprocessorAndGenerator": "Plugin này chứa một bộ xử lý trước và bộ tạo tùy chỉnh",
+      "generatorOnly": "Plugin này chỉ chứa một bộ tạo tùy chỉnh",
+      "preprocessorOnly": "Plugin này chỉ chứa một bộ xử lý trước tùy chỉnh"
+    },
+    "instructions": {
+      "runTheFollowing": "Để chạy plugin của bạn, hãy mở một thiết bị đầu cuối và nhập",
+      "pushTo": "Chia sẻ plugin của bạn với người khác bằng cách đẩy lên Hub (tùy chọn)",
+      "createdSuccessfully": "Đã tạo plugin thành công",
+      "creatingPlugin": "Đang tạo plugin...",
+      "projectFilesTitle": "Tệp Dự Án",
+      "buttons": {
+        "documentation": "Tài liệu",
+        "dismiss": "Bỏ qua",
+        "publish": "Xuất bản",
+        "openInZed": "Mở trong Zed",
+        "openInVscode": "Mở trong VS Code",
+        "revealInFinder": "Hiển thị trong Finder",
+        "openInFileExplorer": "Mở trong Trình khám phá tệp"
+      }
+    }
+ },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/giây",
+    "predictedTokensCount": "{{predictedTokensCount}} token",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s đến token đầu tiên",
+    "stopReason": "Lý do dừng: {{stopReason}}",
+    "stopReason.userStopped": "Người Dùng Đã Dừng",
+    "stopReason.modelUnloaded": "Mô Hình Đã Dỡ",
+    "stopReason.failed": "Tạo Không Thành Công",
+    "stopReason.eosFound": "Tìm Thấy Token EOS",
+    "stopReason.stopStringFound": "Tìm Thấy Chuỗi Dừng",
+    "stopReason.toolCalls": "Cuộc Gọi Công Cụ",
+    "stopReason.maxPredictedTokensReached": "Đã Đạt Số Token Dự Đoán Tối Đa",
+    "stopReason.contextLengthReached": "Đã Đạt Giới Hạn Độ Dài Ngữ Cảnh",
+    "speculativeDecodedBy": "Mô hình nháp: {{decodedBy}}",
+    "speculativeDecodingStats": "Đã chấp nhận {{accepted}}/{{total}} token nháp ({{percentage}}%)"
+ }
 }

@@ -1,6 +1,24 @@
 {
-  "action.skipOnboarding": "Passer l'intégration, je sais ce que je fais.",
+  "action.skipOnboarding": "Je sais ce que je fait, passer l'introduction",
   "action.next": "Suivant",
   "action.back": "Retour",
-  "action.finish": "Terminer"
+  "action.finish": "Terminer",
+
+  "dismissable_rag_modal": {
+    "description": "Vous pouvez désormais discuter avec vos propres documents grâce à la Génération Augmentée par Récupération (RAG). Voici comment cela fonctionne :",
+    "instructions": {
+      "attach_files": {
+        "title": "Joindre des fichiers",
+        "description": "Téléchargez jusqu'à 5 fichiers à la fois, avec une taille totale maximale de 30 Mo. Les formats pris en charge incluent PDF, DOCX, TXT et CSV."
+      },
+      "be_specific": {
+        "title": "Soyez précis",
+        "description": "Lorsque vous posez des questions, mentionnez autant de détails que possible. Cela aide le système à récupérer les informations les plus pertinentes de vos documents."
+      },
+      "get_responses": {
+        "title": "Obtenez des réponses et expérimentez",
+        "description": "Le LLM analysera votre requête ainsi que les extraits récupérés de vos documents, et tentera de générer une réponse. Expérimentez avec différentes questions pour voir ce qui fonctionne le mieux."
+      }
+    }
+  }
 }

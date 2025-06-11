@@ -7,6 +7,7 @@ LM Studio localization
 3. Translate the strings (contained in `.json` files) within the newly duplicated folder
 4. Push your changes to your fork
 5. Create a pull request from your fork to this repository
+6. Sign our [Contributor License Agreement](https://lmstudio.ai/opensource/cla) just by posting a Pull Request Comment `I have read the CLA Document and I hereby sign the CLA` 
 
 ## Huge thank you to community localizers 🙏
 
@@ -33,6 +34,7 @@ LM Studio localization
 - Greek (gr) [@ilikecatgirls](https://github.com/ilikecatgirls)
 - Swedish (sv) [@reinew](https://github.com/reinew)
 - Catalan (ca) [@Gopro3010](https://github.com/Gopro3010)
+- French [@Plexi09](https://github.com/Plexi09)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)

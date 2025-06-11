@@ -16,18 +16,18 @@
   "chatSidebarTitle": "Chats",
   "newChatButton": "Neuer Chat",
   "newFolderButton": "Neuer Ordner",
-  "viewModeLabel": "Ansichtsmodus",
+  "viewModeLabel": "Modus ansehen",
   "noChatSelected": "Kein Chat ausgewählt",
   "chatViewOptions": "Chat-Ansichtsoptionen",
   "uiControls/title": "Anzeigeeinstellungen",
-  "noChatSelectedPlaceholder": "Wählen Sie einen Chat aus",
+  "noChatSelectedPlaceholder": "Wählen Sie einen Chat",
   "unnamedChat": "Unbenannter Chat",
   "emptyFolder": "Ordner ist leer",
 
   "tokenCount": "Token-Zähler",
   "messageTokenCount": "Eingabetoken-Zähler",
-  "tokenCount/hint": "Die Anzahl der Tokens in der Nachricht. Gezählt mit dem Tokenizer des aktuell ausgewählten Modells.\n\nErfordert, dass das Modell geladen ist.",
-  "messageTokenCount/hint": "Die Anzahl der Tokens in der Nachricht. Beinhaltet **NICHT** eine Schätzung der Tokens in Dateianhängen.",
+  "tokenCount/hint": "Die Anzahl der Tokens in dieser Nachricht. Gezählt mit dem Tokenizer des aktuell ausgewählten Modells.\n\nErfordert, dass das Modell geladen ist.",
+  "messageTokenCount/hint": "Die Anzahl der Tokens in dieser Nachricht. Gezählt mit dem Tokenizer des aktuell ausgewählten Modells. \n\nBeinhaltet **KEINE** Schätzung der Tokens in Dateianhängen.",
 
   "notes": "Gesprächsnotizen",
   "notes/add/first": "Notiz hinzufügen",
@@ -38,8 +38,8 @@
   "notes/noteLabel": "Notiz",
   "notes/copyContent": "Notizinhalte kopieren",
 
-  "actions/sendMessage/error": "Nachricht konnte nicht gesendet werden",
-  "actions/loadModel/error": "🥲 Das Modell konnte nicht geladen werden",
+  "actions/sendMessage/error": "Senden der Nachricht fehlgeschlagen",
+  "actions/loadModel/error": "🥲 Laden des Modells fehlgeschlagen",
   "actions/addFile": "[Experimentell] Datei an diese Nachricht anhängen\n(.pdf, Klartext oder .docx)",
   "actions/changeRole": "Zwischen Benutzer- und Assistentenrollen wechseln.\n\nNützlich, um das Gespräch in eine bestimmte Richtung zu lenken.\n\nKann für 'few-shot learning' oder 'in-context learning'-Szenarien verwendet werden.",
   "actions/addImage": "Bild hinzufügen",
@@ -47,23 +47,23 @@
   "actions/deleteMessage/confirmation": "Sind Sie sicher, dass Sie diese Nachricht löschen möchten?",
   "actions/copyMessage": "Nachricht kopieren",
   "actions/editMessage": "Nachricht bearbeiten",
-  "actions/editMessage/cannotEditPreprocessed": "Vorgefertigte Nachrichten können nicht bearbeitet werden, da sie nach dem Ausführen des Vorprozessors überschrieben werden. Um die Nachricht zu bearbeiten, wechseln Sie entweder zur Originalnachricht und bearbeiten Sie diese oder ändern Sie den Vorprozessor, sodass er die gewünschten Ausgaben erzeugt.",
+  "actions/editMessage/cannotEditPreprocessed": "Vorgefertigte Nachrichten können nicht bearbeitet werden, da sie nach dem Ausführen des Vorprozessors überschrieben werden. Um die Nachricht zu bearbeiten entweder: \n\n -wechseln Sie entweder zur Originalnachricht und bearbeiten Sie diese oder \n\n -ändern Sie den Vorgänger, sodass er die gewünschten Ausgaben erzeugt.",
   "actions/regenerateMessage": "Nachricht neu generieren",
-  "actions/regenerateMessage/error": "Nachricht konnte nicht neu generiert werden",
+  "actions/regenerateMessage/error": "Neugenerierung der Nachricht fehlgeschlagen",
   "actions/branchChat": "Chat nach dieser Nachricht verzweigen",
-  "actions/branchChat/error": "Chat konnte nicht verzweigt werden",
+  "actions/branchChat/error": "Verzweigung des Chats fehlgeschlagen",
   "actions/continueAssistantMessage": "Assistenten-Nachricht fortsetzen",
-  "actions/continueAssistantMessage/error": "Assistenten-Nachricht konnte nicht fortgesetzt werden",
+  "actions/continueAssistantMessage/error": "Fehler beim Fortsetzen der Assistenten-Nachricht",
   "actions/predictNext": "KI-Antwort generieren",
-  "actions/predictNext/error": "KI-Antwort konnte nicht generiert werden",
+  "actions/predictNext/error": "Fehler beim Generieren der KI-Antwort",
   "actions/loadLastModel": "Zuletzt verwendetes Modell erneut laden",
   "actions/loadLastModel/tooltip": "Klicken, um das Modell zu laden, das zuletzt in diesem Chat verwendet wurde:\n\n{{lastModel}}",
-  "actions/loadLastModel/error": "Zuletzt verwendetes Modell konnte nicht geladen werden.",
+  "actions/loadLastModel/error": "Fehler beim Laden des zuletzt verwendeten Modells",
   "actions/continueCurrentModel": "Aktuelles Modell verwenden",
   "actions/continueCurrentModel/tooltip": "Aktuelles Modell: {{currentModel}}",
   "actions/changeToLastUsedModel": "Lade {{lastModel}}",
-  "actions/changeToLastUsedModel/error": "Zuletzt verwendetes Modell konnte nicht gewechselt werden.",
-  "actions/changeToLastUsedModel/tooltip": "Sie haben beim letzten Mal ein anderes Modell verwendet. Klicken Sie, um das aktuell ausgewählte Modell ({{currentModel}}) zu entladen und das zuletzt verwendete Modell zu laden:\n\n{{lastModel}}",
+  "actions/changeToLastUsedModel/error": "Fehler beim wechseln zum zuletzt verwendeten Modell",
+  "actions/changeToLastUsedModel/tooltip": "Sie haben beim letzten Mal chatten ein anderes Modell verwendet. Klicken Sie, um das aktuell ausgewählte Modell ({{currentModel}}) zu entladen und das zuletzt verwendete Modell (in diesem Chat) zu laden:\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "Wechsel zu {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "Klicken Sie, um zum Modell zu wechseln, das zuletzt in diesem Chat verwendet wurde:\n\n{{lastModel}}",
   "actions/loadModel": "Ein Modell laden",
@@ -89,6 +89,7 @@
   "actions/createFolderAtRoot": "Neuer Ordner...",
   "actions/createFolderAtRoot/error": "Ordner konnte nicht im Stammverzeichnis erstellt werden",
   "actions/createChat/error": "Chat konnte nicht erstellt werden",
+  "actions/deleteChat/errorTitle": "Chat konnte nicht gelöscht werden",
 
   "userFile/fileSizeLimit": "Dateigrößenlimit beträgt ",
   "userFile/noImageSupport": "Modell unterstützt keine Bild-Eingabe",
@@ -98,38 +99,130 @@
   "userFile/unsupportedFileType": "Nicht unterstützter Dateityp - nur Bilder, PDFs und .txt-Dateien sind unterstützt.",
   "userFile/maxFilesPerMessage": "Maximale Anzahl von Dateien pro Nachricht erreicht. Es können nicht mehr als {{files}} Dateien hinzugefügt werden.",
   "userFile/maxFileSizePerMessage": "Maximale Dateigröße pro Nachricht erreicht. Es können keine Dateien hinzugefügt werden, die größer als {{size}} sind.",
+  "userFile/maxFileSizePerConversation": "Maximale Dateigröße pro Konversation erreicht. Es können keine Dateien hinzugefügt werden, die größer als {{size}} sind.",
+  "userFile/failedToUploadError/title": "Hochladen der Datei fehlgeschlagen",
+  "userFile/failedToAddFile/title": "Fehler beim Hinzufügen der Datei",
   "errorTitle": "Fehler",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} Dokument im Chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} Dokumente im Chat",
 
   "prediction/busyModel/title": "Modell ist beschäftigt",
-  "prediction/busyModel/message": "Bitte warten, bis das Modell fertig ist, und versuchen Sie es erneut",
+  "prediction/busyModel/message": "Bitte warten bis das Modell fertig ist und dann erneut versuchen",
   "prediction/noModel/title": "Kein Modell ausgewählt",
   "prediction/modelLoading": "Nachricht in Warteschlange, wird gesendet, sobald das Modell geladen ist",
   "prediction/noModel/message": "Wählen Sie ein Modell, um eine Nachricht zu senden",
   "prediction/unloadModel/error": "Modell konnte nicht entladen werden",
 
-  "retrieval/user/processingLabel": "Die KI denkt nach...",
-  "retrieval/powerUser/intermediateStepsHidden": "Zwischenschritte ausgeblendet. Klicken, um anzuzeigen.",
+  "retrieval/user/processingLabel": "Die KI denkt...",
+  "retrieval/powerUser/intermediateStepsHidden": "Zwischenschritte verborgen. Klicken, um anzuzeigen.",
   "retrieval/actions/clickToExpand": "Klicken, um Zwischenschritte anzuzeigen",
-  "retrieval/actions/clickToCollapse": "Klicken, um Zwischenschritte auszublenden",
+  "retrieval/actions/clickToCollapse": "Klicken, um Zwischenschritte zu verbergen",
 
-  "style": "Chat-Aussehen",
+  "style": "Aussehen",
 
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Klartext",
   "style/viewMode/monospace": "Monospace",
+
+  "speculativeDecodingVisualization/toggle": "Akzeptierte Entwurfstoken visualisieren",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Akzeptiertes Entwurfstoken",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Akzeptierte Entwurfstoken",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Die Auswahl des Ansichtsmodus ist bei der Visualisierung von Entwurfstoken deaktiviert.",
 
   "style/fontSize/label": "Schriftgröße",
   "style/fontSize/medium": "Standard",
   "style/fontSize/large": "Groß",
   "style/fontSize/small": "Klein",
 
-  "topBarActions/duplicateChat": "Chat duplizieren",
-  "topBarActions/clearChat": "Alle Nachrichten löschen",
+  "style/debugBlocks/label": "Debug-Info-Blöcke anzeigen",
+
+  "style/thinkingUI/label": "Denk-Blöcke standardmäßig erweitern",
+  "style/chatFullWidth/label": "Chat-Container auf Fensterbreite erweitern",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Inhalt erweitern",
+    "collapseBlockTooltip": "Inhalt reduzieren",
+    "debug": {
+      "label": "DEBUG-INFO",
+      "collapseTooltip": "Debug-Info-Block reduzieren",
+      "expandTooltip": "Debug-Info-Block erweitern"
+    }
+  },
+
+  "topBarActions/duplicateChat": "Duplizieren",
+  "topBarActions/clearChat": "Alles löschen",
   "topBarActions/clearChatConfirmation": "Möchten Sie wirklich alle Nachrichten in diesem Chat löschen?",
   "topBarActions/clearChatCancel": "Abbrechen",
   "topBarActions/clearChatDelete": "Alles löschen",
 
   "noModels.indexing": "Modell-Dateien werden indexiert... (dies kann einen Moment dauern)",
   "noModels.downloading": "Ihr erstes LLM wird heruntergeladen...",
-  "noModels": "Noch keine LLMs! Laden Sie eines herunter, um zu beginnen!"
+  "noModels": "Noch keine LLMs! Laden Sie eines herunter, um zu beginnen!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} Plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Konfigurieren",
+        "disable": "Deaktivieren",
+        "fork": "Forken",
+        "uninstall": "Deinstallieren"
+      },
+      "actionButtons": {
+        "create": "+ Erstellen",
+        "import": "Importieren",
+        "discover": "Entdecken"
+      },
+      "recentlyCreated": {
+        "title": "Kürzlich erstellte Plugins",
+        "placeholder": "Von Ihnen erstellte Plugins werden hier angezeigt"
+      },
+      "startRunningDevelopmentPlugin/error": "Fehler beim starten des Plugins im Entwicklungsmodus",
+      "stopRunningDevelopmentPlugin/error": "Fehler beim stoppen des Plugins im Entwicklungsmodus"
+    },
+    "pluginConfiguration": {
+      "title": "Plugin-Konfiguration",
+      "selectAPlugin": "Wählen Sie ein Plugin aus, um dessen Konfigurationen zu bearbeiten",
+      "preprocessorAndGenerator": "Dieses Plugin enthält einen eigenen Präprozessor und Generator",
+      "generatorOnly": "Dieses Plugin enthält einen eigenen Generator",
+      "preprocessorOnly": "Dieses Plugin enthält einen eigenen Präprozessor"
+    },
+    "instructions": {
+      "runTheFollowing": "Um Ihr Plugin auszuführen, öffnen Sie ein Terminal und geben Sie ein",
+      "pushTo": "Teilen Sie Ihr Plugin mit anderen, indem Sie es zum Hub pushen (optional)",
+      "createdSuccessfully": "Plugin erfolgreich erstellt",
+      "creatingPlugin": "Erstelle Plugin...",
+      "projectFilesTitle": "Projektdateien",
+      "buttons": {
+        "documentation": "Dokumentation",
+        "dismiss": "Verwerfen",
+        "publish": "Veröffentlichen",
+        "openInZed": "In Zed öffnen",
+        "openInVscode": "In VS Code öffnen",
+        "revealInFinder": "Im Finder anzeigen",
+        "openInFileExplorer": "Im Datei-Explorer öffnen"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} Tok/Sek",
+    "predictedTokensCount": "{{predictedTokensCount}} Tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s bis zum ersten Token",
+    "stopReason": "Stoppgrund: {{stopReason}}",
+    "stopReason.userStopped": "Benutzer gestoppt",
+    "stopReason.modelUnloaded": "Modell entladen",
+    "stopReason.failed": "Fehler beim Generieren",
+    "stopReason.eosFound": "EOS-Token gefunden",
+    "stopReason.stopStringFound": "Stoppzeichenfolge gefunden",
+    "stopReason.toolCalls": "Toolverwendung",
+    "stopReason.maxPredictedTokensReached": "Maximale vorhergesagte Tokens erreicht",
+    "stopReason.contextLengthReached": "Kontextlängenlimit erreicht",
+    "speculativeDecodedBy": "Entwurfsmodell: {{decodedBy}}",
+    "speculativeDecodingStats": "{{accepted}}/{{total}} Entwurfstoken akzeptiert ({{percentage}}%)"
+  }
 }
