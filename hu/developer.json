@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Helyi szerver",
+  "tabs/extensions": "LM futtatókörnyezetek",
+  "loadSettings/title": "Beállítások betöltése",
+  "modelSettings/placeholder": "Válassz modellt a konfigurálásához",
+
+  "loadedModels/noModels": "Nincsenek betöltött modellek",
+
+  "serverOptions/title": "Szerver beállítások",
+  "serverOptions/configurableTitle": "Konfigurálható beállítások",
+  "serverOptions/port/hint": "Állítsd be, hogy melyik hálózati portot használja a helyi szerver. Alapértelmezés szerint az LM Studio a 1234-es portot használja. Ezt módosítani kell, ha a port már foglalt.",
+  "serverOptions/port/subtitle": "A port, amelyen figyel",
+  "serverOptions/autostart/title": "Automatikus szerverindítás",
+  "serverOptions/autostart/hint": "Indítsd el a helyi szervert automatikusan, amikor egy modellt betöltesz",
+  "serverOptions/port/integerWarning": "A port számnak egész számnak kell lennie",
+  "serverOptions/port/invalidPortWarning": "A portnak 1 és 65535 között kell lennie",
+  "serverOptions/cors/title": "CORS engedélyezése",
+  "serverOptions/cors/hint1": "A CORS (Cross-origin Resource Sharing) engedélyezése lehetővé teszi, hogy a meglátogatott weboldalak kéréseket küldjenek az LM Studio szerverhez.",
+  "serverOptions/cors/hint2": "A CORS-ra szükség lehet, ha weboldalról vagy VS Code / más kiegészítőről küldesz kéréseket.",
+  "serverOptions/cors/subtitle": "Kereszt domain kérések engedélyezése",
+  "serverOptions/network/title": "Szolgáltatás helyi hálózaton",
+  "serverOptions/network/subtitle": "Tedd elérhetővé a szervert a hálózaton lévő eszközök számára",
+  "serverOptions/network/hint1": "Lehetővé teszi más eszközök csatlakozását a hálózaton.",
+  "serverOptions/network/hint2": "Ha nincs bepipálva, a szerver csak a localhoston fog figyelni.",
+  "serverOptions/verboseLogging/title": "Részletes naplózás",
+  "serverOptions/verboseLogging/subtitle": "Részletes naplózás engedélyezése a helyi szerverhez",
+  "serverOptions/contentLogging/title": "Kérések és válaszok naplózása",
+  "serverOptions/contentLogging/subtitle": "Helyi kérés/válasz naplózási beállítások",
+  "serverOptions/contentLogging/hint": "Kérdések és/vagy válaszok naplózása a helyi szerver naplófájlba.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time modellbetöltés",
+  "serverOptions/jitModelLoading/hint": "Ha engedélyezve van, ha egy kérés olyan modellt kér, amely nincs betöltve, akkor az automatikusan betöltődik és használatba kerül. Ezen kívül a \"/v1/models\" végpont is tartalmazni fogja azokat a modelleket, amelyek még nincsenek betöltve.",
+  "serverOptions/loadModel/error": "Hiba a modell betöltésekor",
+
+  "serverLogs/scrollToBottom": "Ugrás az aljára",
+  "serverLogs/clearLogs": "Napló törlése ({{shortcut}})",
+  "serverLogs/openLogsFolder": "A szerver naplójának mappa megnyitása",
+
+  "runtimeSettings/title": "Futtató beállítások",
+  "runtimeSettings/chooseRuntime/title": "Futtatók konfigurálása",
+  "runtimeSettings/chooseRuntime/description": "Válassz futtatót minden modellformátumhoz",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Minden futtató verzió megjelenítése",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Alapértelmezetten az LM Studio csak a kompatibilis futtatók legújabb verzióját jeleníti meg. Engedélyezd ezt az opciót, hogy az összes elérhető futtatót lásd.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Válassz egy futtatót",
+
+  "runtimeOptions/uninstall": "Eltávolítás",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} eltávolítása?",
+  "runtimeOptions/uninstallDialog/body": "A futtató eltávolítása törli azt a rendszerből. Ez az akció visszavonhatatlan.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Néhány fájl csak az LM Studio újraindítása után távolítható el.",
+  "runtimeOptions/uninstallDialog/error": "Hiba történt a futtató eltávolításakor",
+  "runtimeOptions/uninstallDialog/confirm": "Tovább és eltávolítás",
+  "runtimeOptions/uninstallDialog/cancel": "Mégse",
+  "runtimeOptions/noCompatibleRuntimes": "Nincsenek kompatibilis futtatók",
+  "runtimeOptions/downloadIncompatibleRuntime": "Ez a futtató inkompatibilisnek bizonyult a gépeddel. Valószínűleg nem fog működni.",
+  "runtimeOptions/noRuntimes": "Nincsenek futtatók",
+
+  "inferenceParams/noParams": "Nincsenek konfigurálható inferenciális paraméterek ennek a modell típusnak",
+
+  "endpoints/openaiCompatRest/title": "Támogatott végpontok (OpenAI-szerű)",
+  "endpoints/openaiCompatRest/getModels": "A jelenleg betöltött modellek listázása",
+  "endpoints/openaiCompatRest/postCompletions": "Szöveges kiegészítések módja. A következő token(ek) előrejelzése egy prompt alapján. Megjegyzés: Az OpenAI ezt a végpontot 'elavultnak' tekinti.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Csevegési kiegészítések. Küldj egy csevegési történetet a modellnek a következő asszisztens válasz előrejelzéséhez",
+  "endpoints/openaiCompatRest/postEmbeddings": "Szöveges beágyazás. Generálj szöveges beágyazásokat egy adott szöveg bemenethez. Egy sztringet vagy sztringek tömbjét fogad el.",
+
+  "model.createVirtualModelFromInstance": "Beállítások mentése új virtuális modelkként",
+  "model.createVirtualModelFromInstance/error": "Hiba a beállítások mentése közben új virtuális modellként",
+
+  "apiConfigOptions/title": "API konfiguráció"
+}
