@@ -1,8 +1,9 @@
 {
-  "chat": "Discussion",
+  "chat": "Chat",
   "discover": "Découvrir",
-  "myModels": "Mes modèles",
+  "myModels": "Mes Modèles",
   "developer": "Développeur",
+  "runtimes": "Environnement",
   "settings": "Paramètres",
   "download": "Télécharger"
 }

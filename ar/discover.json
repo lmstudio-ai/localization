@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "المجموعات",
+  "collectionsColumn/collectionError": "حدث خطأ أثناء تحميل تفاصيل المجموعة، يرجى محاولة التحديث من الأعلى.",
+  "bookmarksColumn": "الإشارات المرجعية",
+  "searchBar/placeholder": "ابحث عن النماذج على Hugging Face...",
+  "searchBar/huggingFaceError": "حدث خطأ أثناء استرداد النتائج من Hugging Face، يرجى المحاولة مرة أخرى بعد قليل.",
+  "sortBy": "ترتيب حسب",
+  "searchSortKey.default/title": "الأفضل تطابقًا",
+  "searchSortKey.likes/title": "الأكثر إعجابًا",
+  "searchSortKey.downloads/title": "الأكثر تنزيلًا",
+  "searchSortKey.lastModified/title": "تم التحديث مؤخرًا",
+  "searchSortKey.createdAt/title": "تم إنشاؤه مؤخرًا",
+  "download.option.willFitEstimation.caveat": "قد تكون هناك عوامل أخرى تمنع تحميلها، مثل بنية النموذج أو سلامة ملف النموذج أو مقدار الذاكرة المتاحة على جهاز الكمبيوتر الخاص بك.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "إمكانية التفريغ الكامل لوحدة معالجة الرسومات (GPU)",
+  "download.option.willFitEstimation.fullGPUOffload/description": "قد يتناسب هذا النموذج بالكامل في ذاكرة وحدة معالجة الرسومات الخاصة بك. يمكن أن يؤدي ذلك إلى تسريع الاستدلال بشكل كبير.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "إمكانية التفريغ الجزئي لوحدة معالجة الرسومات (GPU)",
+  "download.option.willFitEstimation.partialGPUOffload/description": "قد يتناسب هذا النموذج جزئيًا في ذاكرة وحدة معالجة الرسومات الخاصة بك. يمكن أن يؤدي ذلك غالبًا إلى تسريع الاستدلال بشكل كبير.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "من المحتمل أن يتناسب",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "من المرجح أن يتناسب هذا النموذج مع ذاكرة جهازك.",
+  "download.option.willFitEstimation.willNotFit/title": "من المحتمل أن يكون كبيرًا جدًا بالنسبة لهذا الجهاز",
+  "download.option.willFitEstimation.willNotFit/description": "قد تتجاوز متطلبات الذاكرة لاستخدام ملف النموذج بنجاح الموارد المتاحة على جهازك. لا يُنصح بتنزيل هذا الملف.",
+  "download.option.recommended/title": "مُوصى به",
+  "download.option.recommended/description": "بناءً على أجهزتك، يوصى بهذا الخيار.",
+  "download.option.downloaded/title": "تم التنزيل",
+  "download.option.downloading/title": "جاري التنزيل ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "تحديث موجز"
+}

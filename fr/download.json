@@ -1,18 +1,23 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extraction...",
-  "finalizing": "Finalisation...",
+  "postDownloadActionExecutor.zipExtraction/status": "Décompression en cours...",
+  "finalizing": "Finalisation du téléchargement... (cela peut prendre quelques instants)",
   "noOptions": "Aucune option compatible disponible pour le téléchargement",
-  
+
   "deeplink/confirmation/title": "Télécharger le modèle depuis Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Sélectionner recommandé",
-  "deeplink/confirmation/selectOption": "Sélectionner l'option de téléchargement",
+  "deeplink/confirmation/selectRecommended": "Sélectionner l'option recommandée",
+  "deeplink/confirmation/selectOption": "Choisir une option de téléchargement",
   "deeplink/confirmation/recommendedOption": "Probablement la meilleure option pour la plupart des utilisateurs",
   "deeplink/confirmation/downloadButton": "Télécharger",
-  "deeplink/confirmation/nevermindButton": "Peu importe",
+  "deeplink/confirmation/nevermindButton": "Annuler",
   "deeplink/confirmation/modelPresent/title": "Modèle Hugging Face trouvé ✅",
-  "deeplink/confirmation/modelPresent/body": "Bonne nouvelle ! Ce fichier modèle est déjà disponible sur votre machine locale.",
-  "deeplink/confirmation/loadInChat": "Charger {{ modelName }} dans une nouvelle discussion",
-  "deeplink/error/modelNotFound/title": "Ruh roh, nous n'avons pas pu trouver ce modèle",
-  "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement."
+  "deeplink/confirmation/modelPresent/body": "Bonne nouvelle ! Ce fichier de modèle est déjà disponible sur votre ordinateur local.",
+  "deeplink/confirmation/loadInChat": "Charger {{ modelName }} dans une nouvelle conversation",
+  "deeplink/error/modelNotFound/title": "Oups, nous n'avons pas pu trouver ce modèle",
+  "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement.",
+  "deeplink/actions/trySearching": "Essayer de rechercher {{modelName}} sur Hugging Face",
+
+  "downloadsPanel/title": "Téléchargements",
+  "downloadsPanel/sectionTitle/ongoing": "En cours",
+  "downloadsPanel/sectionTitle/completed": "Terminés"
 }

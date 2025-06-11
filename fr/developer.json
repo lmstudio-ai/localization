@@ -1,33 +1,169 @@
 {
+  "tabs/server": "Serveur Local",
+  "tabs/extensions": "Environnements d'exécution LM",
   "loadSettings/title": "Charger les paramètres",
-  "modelSettings/placeholder": "Sélectionnez un modèle pour le configurer",
-  
+  "modelSettings/placeholder": "Sélectionnez un modèle à configurer",
+
+  "loadedModels/noModels": "Aucun modèle chargé",
+
   "serverOptions/title": "Options du serveur",
-  "serverOptions/port/hint": "Quel port écouter. Par défaut, LM Studio utilise le port 1234. Vous devrez peut-être le changer si le port est déjà utilisé.",
+  "serverOptions/configurableTitle": "Options configurables",
+  "serverOptions/port/hint": "Définissez le port réseau utilisé par le serveur local. Par défaut, LM Studio utilise le port 1234. Vous devrez peut-être le modifier si ce port est déjà utilisé.",
+  "serverOptions/port/subtitle": "Le port d'écoute",
+  "serverOptions/autostart/title": "Démarrage automatique du serveur",
+  "serverOptions/autostart/hint": "Activez automatiquement le serveur LLM local de LM Studio au démarrage de l'application ou du service.",
+  "serverOptions/port/integerWarning": "Le numéro de port doit être un entier",
+  "serverOptions/port/invalidPortWarning": "Le port doit être compris entre 1 et 65535",
   "serverOptions/cors/title": "Activer CORS",
-  "serverOptions/cors/hint1": "L'activation de CORS (Cross-origin Resource Sharing) permettrait aux sites web que vous visitez de faire des requêtes au serveur LM Studio.",
-  "serverOptions/cors/hint2": "CORS pourrait être requis lors de la réalisation de requêtes à partir d'une page web ou de VS Code / autre extension.",
-  "serverOptions/network/title": "Autoriser les connexions réseau",
-  "serverOptions/network/hint1": "Permettre ou non les connexions à partir d'autres appareils sur le réseau.",
-  "serverOptions/network/hint2": "Si cette option n'est pas cochée, le serveur n'écoutera que sur localhost.",
+  "serverOptions/cors/hint1": "L'activation de CORS (Cross-Origin Resource Sharing) permettra aux sites web que vous visitez de faire des requêtes au serveur LM Studio.",
+  "serverOptions/cors/hint2": "CORS peut être requis lors de l'envoi de requêtes à partir d'une page web ou d'une extension VS Code / autre.",
+  "serverOptions/cors/subtitle": "Autoriser les requêtes inter-origines",
+  "serverOptions/network/title": "Servir sur le réseau local",
+  "serverOptions/network/subtitle": "Exposer le serveur aux appareils du réseau",
+  "serverOptions/network/hint1": "Permet de connecter des appareils à partir d'autres réseaux.",
+  "serverOptions/network/hint2": "Si cette option n’est pas cochée, le serveur ne sera accessible qu’en localhost.",
   "serverOptions/verboseLogging/title": "Journalisation détaillée",
-  "serverOptions/contentLogging/title": "Journaliser les invites et les réponses",
-  "serverOptions/contentLogging/hint": "Journaliser ou non les invites et/ou les réponses dans le fichier journal du serveur local.",
+  "serverOptions/verboseLogging/subtitle": "Activer la journalisation détaillée pour le serveur local",
+  "serverOptions/contentLogging/title": "Enregistrer les requêtes et réponses",
+  "serverOptions/contentLogging/subtitle": "Paramètres de journalisation des requêtes / réponses locales",
+  "serverOptions/contentLogging/hint": "Permet d'enregistrer les requêtes et/ou les réponses dans le fichier journal du serveur local.",
+  "serverOptions/fileLoggingMode/title": "Mode de journalisation des fichiers",
+  "serverOptions/fileLoggingMode/off/title": "DÉSACTIVÉ",
+  "serverOptions/fileLoggingMode/off/hint": "Ne pas créer de fichiers journaux",
+  "serverOptions/fileLoggingMode/succinct/title": "Concise",
+  "serverOptions/fileLoggingMode/succinct/hint": "Enregistrer le même contenu que dans la console. Les requêtes longues seront tronquées.",
+  "serverOptions/fileLoggingMode/full/title": "Complète",
+  "serverOptions/fileLoggingMode/full/hint": "Ne pas tronquer les requêtes longues.",
+  "serverOptions/jitModelLoading/title": "Chargement de modèle à la demande (JIT)",
+  "serverOptions/jitModelLoading/hint": "Lorsque cette option est activée, si une requête spécifie un modèle qui n'est pas chargé, il sera automatiquement chargé et utilisé. De plus, l’endpoint « /v1/models » inclura également les modèles qui ne sont pas encore chargés.",
   "serverOptions/loadModel/error": "Échec du chargement du modèle",
-  
-  "serverLogs/scrollToBottom": "Aller en bas",
+  "serverOptions/jitModelLoadingTTL/title": "Déchargement automatique des modèles JIT inutilisés",
+  "serverOptions/jitModelLoadingTTL/hint": "Un modèle chargé à la demande (JIT) pour servir une requête API sera automatiquement déchargé après avoir été inactif pendant une certaine durée (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL maximal d'inactivité",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Conserver uniquement le dernier modèle JIT chargé",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "S'assurer qu’un seul modèle est chargé via JIT à un moment donné (décharge le modèle précédent)",
+
+  "serverLogs/scrollToBottom": "Aller au bas de la page",
   "serverLogs/clearLogs": "Effacer les journaux ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Ouvrir le dossier des journaux du serveur",
 
   "runtimeSettings/title": "Paramètres d'exécution",
-  "runtimeSettings/chooseRuntime/title": "Configurer les environnements d'exécution",
-  "runtimeSettings/chooseRuntime/description": "Définir un environnement d'exécution par défaut pour le type de moteur",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Afficher toutes les versions",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Par défaut, LM Studio n'affiche que la dernière version de chaque environnement d'exécution. Activez cette option pour voir toutes les versions disponibles.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Sélectionnez un environnement d'exécution",
+  "runtimeSettings/chooseRuntime/title": "Sélections par défaut",
+  "runtimeSettings/chooseRuntime/description": "Sélectionnez un environnement d’exécution par défaut pour chaque format de modèle.",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Afficher tous les environnements d'exécution",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Par défaut, LM Studio n’affiche que la dernière version de chaque environnement d’exécution compatible. Activez cette option pour voir tous les environnements disponibles.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Sélectionner un environnement d'exécution",
 
   "runtimeOptions/uninstall": "Désinstaller",
-  "runtimeOptions/uninstallDialog/title": "Désinstaller {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "La désinstallation de cet environnement d'exécution le supprimera du système. Cette action est irréversible.",
+  "runtimeOptions/uninstallDialog/title": "Désinstaller {{runtimeName}} ?",
+  "runtimeOptions/uninstallDialog/body": "La désinstallation de cet environnement d’exécution le supprimera du système. Cette action est irréversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Certains fichiers ne pourront être supprimés qu'après le redémarrage de LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Échec de la désinstallation de l’environnement d’exécution",
   "runtimeOptions/uninstallDialog/confirm": "Continuer et désinstaller",
-  "runtimeOptions/uninstallDialog/cancel": "Annuler"
+  "runtimeOptions/uninstallDialog/cancel": "Annuler",
+  "runtimeOptions/noCompatibleRuntimes": "Aucun environnement d’exécution compatible trouvé",
+  "runtimeOptions/downloadIncompatibleRuntime": "Cet environnement d’exécution a été jugé incompatible avec votre machine. Il risque de ne pas fonctionner.",
+  "runtimeOptions/noRuntimes": "Aucun environnement d'exécution trouvé",
+
+  "runtimes": {
+    "manageLMRuntimes": "Gérer les environnements d'exécution LM",
+    "includeOlderRuntimeVersions": "Inclure les anciennes versions des environnements d’exécution",
+    "dismiss": "Fermer",
+    "updateAvailableToast": {
+      "title": "Mise à jour de l'environnement d'exécution LM disponible !"
+    },
+    "updatedToast": {
+      "title": " ✅ Environnement d'exécution mis à jour : {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Les modèles {{compatibilityTypes}} nouvellement chargés utiliseront l’environnement d’exécution mis à jour."
+    },
+    "noAvx2ErrorMessage": "Tous les environnements d'exécution LM nécessitent actuellement un processeur avec prise en charge AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Paquets d'extension d'environnement d'exécution",
+      "refresh": "Actualiser",
+      "refreshing": "Actualisation...",
+      "filterSegment": {
+        "compatibleOnly": "Compatible uniquement",
+        "all": "Tous"
+      },
+      "card": {
+        "releaseNotes": "Notes de publication",
+        "latestVersionInstalled": "Dernière version installée",
+        "updateAvailable": "Mise à jour disponible"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Gérer les environnements d'exécution actifs"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Gérer les versions",
+        "close": "Fermer"
+      },
+      "tabs": {
+        "all": "Tous",
+        "frameworks": "Mes Frameworks",
+        "engines": "Mes Engines"
+      },
+      "detailsModal": {
+        "installedVersions": "Versions installées pour {{runtimeName}}",
+        "manifestJsonTitle": "Manifeste JSON (avancé)",
+        "releaseNotesTitle": "Notes de publication",
+        "noReleaseNotes": "Aucune note de publication n'est disponible pour cette version",
+        "back": "Retour",
+        "close": "Fermer"
+      },
+      "noEngines": "Aucun moteur installé",
+      "noFrameworks": "Aucun framework installé"
+    }
+  },
+
+  "inferenceParams/noParams": "Aucun paramètre d'inférence configurable n'est disponible pour ce type de modèle.",
+
+  "quickDocs": {
+    "tabChipTitle": "Documentation rapide",
+    "newToolUsePopover": "Les extraits de code sont désormais disponibles ici dans « Documentation rapide ». Cliquez ici pour commencer à utiliser les outils !",
+    "newToolUsePopoverTitle": "📚 Documentation rapide",
+    "learnMore": "ℹ️ 👾 Pour en savoir plus sur les points d’extrémité du serveur local LM Studio, consultez la [documentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Bonjour le monde !"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Sortie structurée"
+    },
+    "imageInput": {
+      "title": "Entrée d'image"
+    },
+    "embeddings": {
+      "title": "Intégrations"
+    },
+    "toolUse": {
+      "title": "Utilisation des outils",
+      "tab": {
+        "saveAsPythonFile": "Enregistrer sous un fichier Python",
+        "runTheScript": "Exécuter le script :",
+        "savePythonFileCopyPaste": "Enregistrer sous un fichier Python pour une commande copier-coller"
+      }
+    },
+    "newBadge": "Nouveau"
+  },
+
+  "endpoints/openaiCompatRest/title": "Points d’extrémité pris en charge (compatibles avec OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Lister les modèles chargés",
+  "endpoints/openaiCompatRest/postCompletions": "Mode de complétion de texte. Prédire le ou les jeton(s) suivant(s) à partir d’une invite. Notez : OpenAI considère cette extrémité comme « dépréciée ». ",
+  "endpoints/openaiCompatRest/postChatCompletions": "Complétions de chat. Envoyer un historique de conversation au modèle pour prédire la prochaine réponse de l'assistant",
+  "endpoints/openaiCompatRest/postEmbeddings": "Intégration de texte. Générer des intégrations de texte à partir d’une entrée de texte donnée. Prend une chaîne ou un tableau de chaînes.",
+
+  "model.createVirtualModelFromInstance": "Enregistrer les paramètres sous forme de nouveau modèle virtuel",
+  "model.createVirtualModelFromInstance/error": "Échec de l'enregistrement des paramètres sous forme de nouveau modèle virtuel",
+
+  "model": {
+    "toolUseSectionTitle": "Utilisation des outils",
+    "toolUseDescription": "Ce modèle est détecté comme étant entraîné pour l’utilisation d’outils\n\nOuvrez <custom-link>documentation rapide</custom-link> pour plus d'informations"
+  },
+
+  "apiConfigOptions/title": "Configuration de l'API"
 }

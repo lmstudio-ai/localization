@@ -1,0 +1,228 @@
+{	
+  "modelLoaderPlaceholder": "اختر نموذجًا للتحميل",
+  "systemPromptPlaceholder": "حدد موجه النظام",
+  "userRoleText": "المستخدم",
+  "assistantRoleText": "المساعد",
+  "addMessageButtonText": "إضافة",
+  "addMessageButtonText/toolTip": "أدخل رسالة في السياق دون تشغيل التنبؤ",
+  "sendMessageButtonText": "إرسال",
+  "sendMessageButtonText/toolTip": "أرسل مطالبتك وسجل المحادثة إلى النموذج للمعالجة",
+  "ejectButtonText": "إخراج",
+  "unloadTooltip": "أخرج النموذج من الذاكرة",
+  "cancelButtonText": "إلغاء",
+  "loadButtonText": "تحميل",
+  "advancedSegmentText": "متقدم",
+  "chatSegmentText": "دردشة",
+  "chatSidebarTitle": "المحادثات",
+  "newChatButton": "محادثة جديدة",
+  "newFolderButton": "مجلد جديد",
+  "viewModeLabel": "نمط العرض",
+  "noChatSelected": "لم يتم تحديد محادثة",
+  "chatViewOptions": "خيارات عرض المحادثة",
+  "uiControls/title": "إعدادات العرض",
+  "noChatSelectedPlaceholder": "حدد محادثة",
+  "unnamedChat": "محادثة غير مسماة",
+  "emptyFolder": "المجلد فارغ",
+
+  "tokenCount": "عدد الرموز المميزة (Tokens)",
+  "messageTokenCount": "عدد رموز الإدخال المميزة",
+  "tokenCount/hint": "عدد الرموز المميزة في الرسالة. يتم حسابها باستخدام مُحلل الرموز المميزة للنموذج المحدد حاليًا.\n\nيتطلب تحميل النموذج.",
+  "messageTokenCount/hint": "عدد الرموز المميزة في الرسالة. يتم حسابها باستخدام مُحلل الرموز المميزة للنموذج المحدد حاليًا.\n\nلا يشمل تقديرًا لعدد الرموز المميزة في المرفقات.",
+
+  "notes": "ملاحظات المحادثة",
+  "notes/add/first": "إضافة ملاحظة",
+  "notes/add/another": "إضافة ملاحظة أخرى",
+  "notes/hint": "احفظ ملاحظات لهذه المحادثة. الملاحظات مخصصة للإشارة الخاصة بك ولا يتم إرسالها إلى النموذج. جميع التغييرات تحفظ تلقائيًا.",
+  "notes/placeholder": "اكتب ملاحظاتك هنا...",
+  "notes/delete": "حذف ملاحظة",
+  "notes/noteLabel": "ملاحظة",
+  "notes/copyContent": "نسخ محتوى الملاحظة",
+
+  "actions/sendMessage/error": "فشل في إرسال الرسالة",
+  "actions/loadModel/error": "🥲 فشل في تحميل النموذج",
+  "actions/addFile": "[تجريبي] إرفاق ملف بهذه الرسالة\n(.pdf، نص عادي، أو .docx)",
+  "actions/changeRole": "تبديل الأدوار بين المستخدم والمساعد.\n\nهذا مفيد لتوجيه المحادثة في اتجاه معين.\n\nيمكن استخدامه لسيناريوهات 'التعلم بعدد قليل من الأمثلة' أو 'التعلم ضمن السياق'.",
+  "actions/addImage": "إضافة صورة",
+  "actions/deleteMessage": "حذف الرسالة",
+  "actions/deleteMessage/confirmation": "هل أنت متأكد أنك تريد حذف هذه الرسالة؟",
+  "actions/copyMessage": "نسخ الرسالة",
+  "actions/editMessage": "تحرير الرسالة",
+  "actions/editMessage/cannotEditPreprocessed": "لا يمكنك تحرير الرسائل المعالجة مسبقًا لأنها سيتم استبدالها بعد تشغيل المُعالج المسبق. لتحرير الرسالة، إما:\n\n - التبديل إلى الرسالة الأصلية وتحريرها بدلاً من ذلك، أو\n - تغيير المُعالج المسبق لإنتاج الإخراج المطلوب.",
+  "actions/regenerateMessage": "تجديد الرسالة",
+  "actions/regenerateMessage/error": "فشل في تجديد الرسالة",
+  "actions/branchChat": "تفرع المحادثة بعد هذه الرسالة",
+  "actions/branchChat/error": "فشل في تفرع المحادثة",
+  "actions/continueAssistantMessage": "متابعة رسالة المساعد",
+  "actions/continueAssistantMessage/error": "فشل في متابعة رسالة المساعد",
+  "actions/predictNext": "توليد استجابة الذكاء الاصطناعي",
+  "actions/predictNext/error": "فشل في توليد استجابة الذكاء الاصطناعي",
+  "actions/loadLastModel": "إعادة تحميل آخر نموذج مستخدم",
+  "actions/loadLastModel/tooltip": "انقر لتحميل النموذج الذي تم استخدامه آخر مرة مع هذه المحادثة:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "فشل في إعادة تحميل آخر نموذج مستخدم.",
+  "actions/continueCurrentModel": "استخدام النموذج الحالي",
+  "actions/continueCurrentModel/tooltip": "النموذج الحالي: {{currentModel}}",
+  "actions/changeToLastUsedModel": "تحميل {{lastModel}}",
+  "actions/changeToLastUsedModel/error": "فشل في تغيير إلى آخر نموذج مستخدم.",
+  "actions/changeToLastUsedModel/tooltip": "لقد استخدمت نموذجًا مختلفًا في المرة الأخيرة التي أرسلت فيها رسالة في هذه المحادثة. انقر لتحميل النموذج الذي تم استخدامه آخر مرة مع هذه المحادثة:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "التبديل إلى {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "انقر للتبديل إلى النموذج الذي تم استخدامه آخر مرة مع هذه المحادثة:\n\n{{lastModel}}",
+  "actions/loadModel": "تحميل نموذج",
+  "actions/toggleViewingProcessed/currentlyFalse": "يعرض حاليًا الرسالة الأصلية. انقر لعرض الرسالة المعالجة مسبقًا.",
+  "actions/toggleViewingProcessed/currentlyTrue": "يعرض حاليًا الرسالة المعالجة مسبقًا. انقر لعرض الرسالة الأصلية.",
+  "actions/toggleViewingProcessed/hint": "قبل إرسال رسالة إلى النموذج، قد يتم معالجتها مسبقًا بواسطة مُعالج مطالبة. انقر للتبديل بين عرض الرسالة الأصلية والرسالة المعالجة مسبقًا. فقط الرسالة المعالجة مسبقًا ترسل إلى النموذج.",
+  "editMessageConfirm/title": "هل تريد الاحتفاظ بالتغييرات؟",
+  "editMessageConfirm/message": "لقد أجريت تغييرات على رسالة. هل تريد الاحتفاظ بها؟",
+  "editMessageConfirm/keepEditing": "متابعة التحرير",
+  "editMessageConfirm/save": "حفظ",
+  "editMessageConfirm/discard": "التخلي عن التغييرات",
+  "tokenCount/totalNotAvailable": "عدد الرموز: {{current}}",
+  "tokenCount/totalAvailable": "عدد الرموز: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "السياق ممتلئ بنسبة {{percentage}}%",
+  "tokenCount/contextOverflow": "السياق غير المعالج أكبر من الحد الأقصى لعدد الرموز للنموذج. اعتمادًا على سياسة تجاوز السياق الخاصة بك، قد يتم اقتطاع السياق أو قد لا يتم إرسال الرسالة.",
+  "modelLoader/manualLoadParams/label": "اختر يدويًا معلمات تحميل النموذج",
+  "modelLoader/manualLoadParams/hint/before": "(أو اضغط ",
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "فشل في النقل",
+  "actions/rename/error": "فشل في إعادة التسمية",
+  "actions/createChatAtRoot": "محادثة جديدة...",
+  "actions/createChatAtRoot/error": "فشل في إنشاء محادثة في الجذر",
+  "actions/createFolderAtRoot": "مجلد جديد...",
+  "actions/createFolderAtRoot/error": "فشل في إنشاء مجلد في الجذر",
+  "actions/createChat/error": "فشل في إنشاء محادثة",
+  "actions/deleteChat/errorTitle": "فشل في حذف المحادثة",
+
+  "userFile/fileSizeLimit": "الحد الأقصى لحجم الملف هو ",
+  "userFile/noImageSupport": "النموذج لا يدعم إدخال الصور",
+  "userFile/errorPrefix": "خطأ - ",
+  "userFile/supportedImagePrefix": "نوع الصورة غير مدعوم - فقط ",
+  "userFile/supportedImageSuffix": " مدعومة.",
+  "userFile/unsupportedFileType": "نوع الملف غير مدعوم - تدعم فقط الصور وملفات PDF و .txt.",
+  "userFile/maxFilesPerMessage": "تم الوصول إلى الحد الأقصى لعدد الملفات لكل رسالة. لا يمكنك إضافة أكثر من {{files}} ملفًا. ",
+  "userFile/maxFileSizePerMessage": "تم الوصول إلى الحد الأقصى لحجم الملف لكل رسالة. لا يمكنك إضافة ملفات أكبر من {{size}}. ",
+  "userFile/maxFileSizePerConversation": "تم الوصول إلى الحد الأقصى لحجم الملف لكل محادثة. لا يمكنك إضافة ملفات أكبر من {{size}}. ",
+  "userFile/failedToUploadError/title": "فشل في تحميل الملف",
+  "userFile/failedToAddFile/title": "فشل في إضافة ملف إلى المحادثة",
+  "errorTitle": "خطأ",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} وثيقة في المحادثة",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} وثائق في المحادثة",
+
+  "prediction/busyModel/title": "النموذج مشغول",
+  "prediction/busyModel/message": "يرجى الانتظار حتى ينتهي النموذج وحاول مرة أخرى.",
+  "prediction/noModel/title": "لم يتم تحديد نموذج",
+  "prediction/modelLoading": "تم وضع الرسالة في قائمة الانتظار، وسيتم إرسالها عند انتهاء تحميل النموذج.",
+  "prediction/noModel/message": "حدد نموذجًا لإرسال رسالة.",
+  "prediction/unloadModel/error": "فشل في إلغاء تحميل النموذج",
+
+  "retrieval/user/processingLabel": "يفكر الذكاء الاصطناعي...",
+  "retrieval/powerUser/intermediateStepsHidden": "تم إخفاء الخطوات الوسيطة. انقر لتوسيعها.",
+  "retrieval/actions/clickToExpand": "انقر لتوسيع الخطوات الوسيطة",
+  "retrieval/actions/clickToCollapse": "انقر لطي الخطوات الوسيطة",
+
+  "style": "المظهر",
+
+  "style/viewMode/markdown": "علامات Markdown",
+  "style/viewMode/plaintext": "نص عادي",
+  "style/viewMode/monospace": "ثابت العرض",
+
+  "speculativeDecodingVisualization/toggle": "تصوير الرموز الأولية المقبولة",
+  "speculativeDecodingVisualization/fromDraftModel_one": "رمز أولي مقبول",
+  "speculativeDecodingVisualization/fromDraftModel_other": "رموز أولية مقبولة",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "تعطيل اختيار وضع العرض عند تصور الرموز الأولية.",
+
+  "style/fontSize/label": "حجم الخط",
+  "style/fontSize/medium": "افتراضي",
+  "style/fontSize/large": "كبير",
+  "style/fontSize/small": "صغير",
+
+  "style/debugBlocks/label": "إظهار كتل معلومات التصحيح",
+
+  "style/thinkingUI/label": "توسيع كتل التفكير افتراضيًا",
+  "style/chatFullWidth/label": "توسيع حاوية الدردشة لعرض النافذة",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "توسيع المحتوى",
+    "collapseBlockTooltip": "طي المحتوى",
+    "debug": {
+      "label": "معلومات التصحيح",
+      "collapseTooltip": "طي كتلة معلومات التصحيح",
+      "expandTooltip": "توسيع كتلة معلومات التصحيح"
+    }
+  },
+
+  "topBarActions/duplicateChat": "نسخ",
+  "topBarActions/clearChat": "مسح الكل",
+  "topBarActions/clearChatConfirmation": "هل أنت متأكد من أنك تريد مسح جميع الرسائل في هذه الدردشة؟",
+  "topBarActions/clearChatCancel": "إلغاء",
+  "topBarActions/clearChatDelete": "مسح الكل",
+
+  "noModels.indexing": "جاري فهرسة ملفات النموذج... (قد يستغرق هذا بعض الوقت)",
+  "noModels.downloading": "جاري تنزيل أول نموذج لغة كبير لك...",
+  "noModels": "لا توجد نماذج LLM حتى الآن! قم بتنزيل واحد للبدء!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "إضافة",
+      "multiplePlugins": "{{dynamicValue}} إضافة"
+    },
+    "pluginSelect": {
+      "title": "الإضافات",
+      "dropdown": {
+        "configure": "تهيئة",
+        "disable": "تعطيل",
+        "fork": "تفرع",
+        "uninstall": "إلغاء التثبيت"
+      },
+      "actionButtons": {
+        "create": "+ إنشاء",
+        "import": "استيراد",
+        "discover": "اكتشاف"
+      },
+      "recentlyCreated": {
+        "title": "الإضافات التي تم إنشاؤها مؤخرًا",
+        "placeholder": "ستظهر الإضافات التي تقوم بإنشائها هنا"
+      },
+      "startRunningDevelopmentPlugin/error": "فشل في بدء تشغيل المكون الإضافي في وضع التطوير",
+      "stopRunningDevelopmentPlugin/error": "فشل في إيقاف تشغيل المكون الإضافي في وضع التطوير"
+    },
+    "pluginConfiguration": {
+      "title": "تهيئة الإضافة",
+      "selectAPlugin": "حدد إضافة لتحرير تهيئتها",
+      "preprocessorAndGenerator": "تحتوي هذه الإضافة على معالج مسبق ومولد مخصصين",
+      "generatorOnly": "تحتوي هذه الإضافة على مولد مخصص فقط",
+      "preprocessorOnly": "تحتوي هذه الإضافة على معالج مسبق مخصص فقط"
+    },
+    "instructions": {
+      "runTheFollowing": "لتشغيل إضافتك، افتح محطة طرفية وأدخل",
+      "pushTo": "شارك إضافتك مع الآخرين عن طريق الدفع إلى المستودع (اختياري)",
+      "createdSuccessfully": "تم إنشاء الإضافة بنجاح",
+      "creatingPlugin": "جاري إنشاء إضافة...",
+      "projectFilesTitle": "ملفات المشروع",
+      "buttons": {
+        "documentation": "توثيق",
+        "dismiss": "تجاهل",
+        "publish": "نشر",
+        "openInZed": "افتح في Zed",
+        "openInVscode": "افتح في VS Code",
+        "revealInFinder": "أظهر في Finder",
+        "openInFileExplorer": "افتح في مستكشف الملفات"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} رمز/ثانية",
+    "predictedTokensCount": "{{predictedTokensCount}} رمزًا متوقعة",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}} ثانية للرمز الأول",
+    "stopReason": "سبب الإيقاف: {{stopReason}}",
+    "stopReason.userStopped": "توقف المستخدم",
+    "stopReason.modelUnloaded": "تم إلغاء تحميل النموذج",
+    "stopReason.failed": "فشل التوليد",
+    "stopReason.eosFound": "تم العثور على رمز EOS",
+    "stopReason.stopStringFound": "تم العثور على سلسلة إيقاف",
+    "stopReason.toolCalls": "استدعاءات الأداة",
+    "stopReason.maxPredictedTokensReached": "تم الوصول إلى الحد الأقصى للرموز المتوقعة",
+    "stopReason.contextLengthReached": "تم الوصول إلى حد طول السياق",
+    "speculativeDecodedBy": "النموذج المسودة: {{decodedBy}}",
+    "speculativeDecodingStats": "تم قبول {{accepted}}/{{total}} رمزًا مسودة ({{percentage}}%)"
+  }
+}
