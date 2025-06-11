@@ -22,5 +22,7 @@
   "download.option.recommended/title": "Được đề xuất",
   "download.option.recommended/description": "Dựa trên phần cứng của bạn, tùy chọn này được đề xuất.",
   "download.option.downloaded/title": "Đã tải xuống",
-  "download.option.downloading/title": "Đang tải xuống ({{progressPercentile}}%)"
+  "download.option.downloading/title": "Đang tải xuống ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Làm mới nguồn cấp dữ liệu"
 }

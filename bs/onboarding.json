@@ -1,0 +1,23 @@
+{
+  "action.skipOnboarding": "Preskoči uvodni proces",
+  "action.next": "Sljedeće",
+  "action.back": "Nazad",
+  "action.finish": "Završi",
+  "dismissable_rag_modal": {
+    "description": "Sada možete razgovarati sa svojim dokumentima koristeći Retrieval Augmented Generation (RAG). Evo kako to funkcioniše:",
+    "instructions": {
+      "attach_files": {
+        "title": "Priložite Datoteke",
+        "description": "Otpremite do 5 datoteka odjednom, sa maksimalnom ukupnom veličinom od 30MB. Podržani formati uključuju PDF, DOCX, TXT i CSV."
+      },
+      "be_specific": {
+        "title": "Budite Specifični",
+        "description": "Kada postavljate pitanja, navedite što više detalja. Ovo pomaže sistemu da pronađe najrelevantnije informacije iz vaših dokumenata."
+      },
+      "get_responses": {
+        "title": "Dobijte Odgovore i Eksperimentišite",
+        "description": "LLM će pogledati vaš upit i izdvojene isječke iz vaših dokumenata, te pokušati generisati odgovor. Eksperimentišite sa različitim upitima kako biste pronašli ono što najbolje funkcioniše."
+      }
+    }
+  }
+}
