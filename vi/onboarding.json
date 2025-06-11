@@ -2,5 +2,41 @@
   "action.skipOnboarding": "Bỏ qua giới thiệu, tôi biết mình đang làm gì.",
   "action.next": "Tiếp theo",
   "action.back": "Quay lại",
-  "action.finish": "Hoàn thành"
+  "action.finish": "Hoàn thành",
+
+  "dismissable_rag_modal": {
+    "description": "Giờ đây, bạn có thể trò chuyện với tài liệu của riêng mình bằng cách sử dụng Tạo Sinh Tăng Cường Truy Xuất (RAG). Đây là cách nó hoạt động:",
+    "instructions": {
+      "attach_files": {
+        "title": "Đính Kèm Tệp",
+        "description": "Tải lên tối đa 5 tệp cùng lúc, với tổng kích thước tối đa là 30MB. Các định dạng được hỗ trợ bao gồm PDF, DOCX, TXT và CSV."
+      },
+      "be_specific": {
+        "title": "Hãy Cụ Thể",
+        "description": "Khi đặt câu hỏi, hãy đề cập càng nhiều chi tiết càng tốt. Điều này giúp hệ thống truy xuất thông tin liên quan nhất từ tài liệu của bạn."
+      },
+      "get_responses": {
+        "title": "Nhận Phản Hồi Và Thử Nghiệm",
+        "description": "LLM sẽ xem xét truy vấn của bạn và các đoạn trích được truy xuất từ tài liệu của bạn, sau đó cố gắng tạo phản hồi. Hãy thử nghiệm với các truy vấn khác nhau để tìm ra cách hoạt động tốt nhất."
+      }
+    }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Sử Dụng Công Cụ 🛠️ (Gọi Hàm)",
+      "text_0": "Một số mô hình (ví dụ: Llama 3.1/3.2, Mistral, Qwen và hơn thế nữa) đã được huấn luyện để sử dụng công cụ.",
+      "text_1": "Điều này có nghĩa trong thực tế là: bạn cung cấp một mảng 'công cụ' (chữ ký hàm) cho LLM theo một định dạng rất cụ thể, và LLM có thể quyết định có 'gọi' chúng hay không dựa trên lời nhắc của người dùng.",
+      "text_2": "Bạn có thể hình dung các trường hợp sử dụng như truy vấn một API, chạy mã, hoặc thực sự bất cứ điều gì có thể được biểu thị dưới dạng một lệnh gọi hàm."
+    },
+    "step_1": {
+      "title": "Bắt đầu với Sử Dụng Công Cụ",
+      "toolUseCanWorkWithAnyModel": "Các mô hình được huấn luyện để sử dụng công cụ sẽ hoạt động tốt hơn những mô hình khác, nhưng bạn có thể thử sử dụng công cụ với bất kỳ mô hình nào. Đọc <customlink>tài liệu</customlink> để tìm hiểu thêm.\nCác mô hình được huấn luyện để sử dụng công cụ sẽ được đánh dấu bằng một huy hiệu mới:",
+      "hasCompatibleModel": "🎉 Có vẻ như bạn đã có các mô hình hỗ trợ công cụ!",
+      "downloadRecommendedModel": "Tải xuống một mô hình đã được huấn luyện để sử dụng công cụ:"
+    },
+    "nextButton": "Tiếp theo",
+    "letsGoButton": "Tải mô hình và khởi động máy chủ",
+    "doneButton": "Bỏ qua"
+  }
 }
