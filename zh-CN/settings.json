@@ -23,6 +23,7 @@
   "yourCurrentVersion": "您当前的版本为：",
   "latestVersion": "最新版本为：",
   "downloadLabel": "立即更新",
+  "downloadLabel/Linux": "下载更新",
   "cancelDownloadLabel": "取消",
   "downloadingUpdate": "正在下载更新...",
   "updateDownloaded": "新更新已成功下载。重启应用以应用更新。",
@@ -42,6 +43,7 @@
   "preferences": "偏好设置",
   "general": "常规",
   "sideButtonLabels": "显示侧边按钮标签",
+  "showModelFileNames": "我的模型: 总是显示完整模型文件名",
   "colorThemeLabel": "颜色主题",
   "complexityLevelLabel": "用户界面复杂度级别",
   "selectComplexityLevelPlaceholder": "选择默认的UI复杂度级别",
@@ -52,6 +54,16 @@
   "chat/alwaysShowPromptTemplate": "始终在聊天侧栏显示提示模板",
   "chat/highlightChatMessageOnHover": "鼠标悬停时高亮显示聊天消息",
   "chat/doubleClickMessageToEdit": "双击聊天消息以编辑",
+
+  "chat/aiNaming/label": "让 AI 给聊天命名",
+  "chat/aiNaming/mode/label": "AI 生成的聊天名",
+  "chat/aiNaming/mode/value/never": "永不",
+  "chat/aiNaming/mode/value/never/subTitle": "不要让 AI 生成聊天名",
+  "chat/aiNaming/mode/value/auto": "自动",
+  "chat/aiNaming/mode/value/auto/subTitle": "基于生成速度决定是否要创建名字",
+  "chat/aiNaming/mode/value/always": "总是",
+  "chat/aiNaming/mode/value/always/subTitle": "不管生成速度如何，都要让 AI 生成聊天名",
+  "chat/aiNaming/emoji": "在 AI 生成的聊天名中使用表情符号",
 
   "chat/keyboardShortcuts/label": "键盘快捷键",
   "chat/keyboardShortcuts/verbPrefix": "使用",
@@ -76,6 +88,7 @@
   "languageLabel": "语言",
   "changeLanguageLabel": "选择应用语言（仍在开发中）",
   "developerLabel": "开发者",
+  "localServiceLabel": "本地 LLM 服务 (无头模式)",
   "showExperimentalFeaturesLabel": "显示实验性功能",
   "appFirstLoadLabel": "应用首次加载体验",
   "showDebugInfoBlocksInChatLabel": "在聊天中显示调试信息块",
@@ -96,6 +109,7 @@
   "appUpdateChannel.label": "LM Studio 更新通道",
   "appUpdateChannel.value.stable": "稳定版",
   "appUpdateChannel.value.beta": "测试版",
+  "appUpdateChannel.value.alpha": "内测版",
   "appUpdateChannel.shortLabel": "应用更新通道",
   "appUpdateChannel.hint": "选择从哪个通道接收 LM Studio 应用更新。\"{{stableName}}\" 是推荐给大多数用户的通道。",
 
@@ -123,11 +137,22 @@
   "experimentalLoadPresets": "在预设中启用模型加载配置支持",
   "experimentalLoadPresets.description": "是否允许预设包含模型加载配置。此功能尚处于试验阶段，我们欢迎反馈。",
 
+  "unloadPreviousJITModelOnLoad": "JIT模型自动驱逐：确保在任何给定时间通过JIT加载最多1个模型（卸载之前的模型）",
+  "autoUpdateExtensionPacks": "自动更新选定的运行时扩展包",
+  "useHFProxy.label": "使用 LM Studio 的 Hugging Face 代理",
+  "useHFProxy.hint": "使用 LM Studio 的 Hugging Face 代理搜索和下载模型。这可以帮助那些无法直接访问 Hugging Face 的用户。",
+  "separateReasoningContentInResponses": "如果可用, 分离 API 响应中的 `reasoning_content` 和 `content`",
+  "separateReasoningContentInResponses/hint": "这项设置只对 'reasoning' 模型有效，例如： DeepSeek R1、其蒸馏变体和其他在 `<think>` 和 `</think>` 标签中生成 CoT 的模型。",
+
   "promptWhenCommittingUnsavedChangesWithNewFields": "提交新字段到预设时显示确认对话框",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "如果您想避免意外向预设添加新字段，这将非常有用。",
 
   "autoStartOnLogin": "登录时自动启动LLM服务",
   "autoStartOnLogin.description": "当您登录计算机时自动启动LLM服务",
+
+  "enableLocalService": "启用本地 LLM 服务",
+  "enableLocalService.subtitle": "Use LM Studio's LLM server without having to keep the LM Studio application open",
+  "enableLocalService.description": "When enabled, the LM Studio Local LLM Service will be launched on startup. Closing LM Studio will also leave the Local LLM Service running in the system tray.",
 
   "expandConfigsOnClick": "点击而非悬停时展开配置",
 
