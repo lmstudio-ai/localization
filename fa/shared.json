@@ -1,0 +1,38 @@
+{
+  "copyLmStudioLinkButton/toolTip": "کپی لینک دانلود مدل",
+
+  "filter.noMatches": "هیچ موردی یافت نشد",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "در حال استخراج منابع"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "بررسی سازگاری با سخت‌افزار"
+    },
+    "indexingRuntimes": {
+      "badge": "فهرست‌سازی محیط‌های اجرایی"
+    },
+    "indexingModels": {
+      "badge": "فهرست‌سازی مدل‌ها"
+    },
+    "authenticating": {
+      "badge": "در حال احراز هویت"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "در حال بروزرسانی بسته افزونه ({{name}} نسخه {{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "وارد حساب خود در LM Studio Hub شوید",
+    "authError": "احراز هویت با شکست مواجه شد",
+    "noAccount": "حساب کاربری ندارید؟",
+    "signUp": "ثبت‌نام",
+    "havingTrouble": "مشکلی دارید؟",
+    "retry": "تلاش مجدد"
+  },
+  "artifacts": {
+    "fetchError": "دریافت فایل‌ها با شکست مواجه شد"
+  },
+  "incompatible": "ناسازگار",
+  "compatible": "سازگار"
+}

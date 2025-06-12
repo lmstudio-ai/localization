@@ -1,0 +1,30 @@
+{
+  "collectionsColumn": "مجموعه‌ها",
+  "collectionsColumn/collectionError": "خطا در بارگذاری جزئیات مجموعه، لطفاً از گزینه تازه‌سازی بالا استفاده کنید",
+  "bookmarksColumn": "نشانک‌ها",
+  "searchBar/placeholder": "جستجوی مدل‌ها در Hugging Face...",
+  "searchBar/huggingFaceError": "در بازیابی نتایج از Hugging Face خطایی رخ داد، لطفاً کمی بعد دوباره تلاش کنید",
+  "sortBy": "مرتب‌سازی بر اساس",
+  "searchSortKey.default/title": "بهترین تطابق",
+  "searchSortKey.likes/title": "بیشترین پسند",
+  "searchSortKey.downloads/title": "بیشترین دانلود",
+  "searchSortKey.lastModified/title": "آخرین به‌روزرسانی",
+  "searchSortKey.createdAt/title": "تازه‌ترین ایجاد",
+
+  "download.option.willFitEstimation.caveat": "ممکن است عوامل دیگری مانع بارگذاری مدل شوند، مانند معماری مدل، سلامت فایل مدل یا میزان حافظه موجود در رایانه شما.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "امکان انتقال کامل به GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "این مدل ممکن است به‌طور کامل در حافظه GPU شما جا بگیرد. این می‌تواند سرعت پیش‌بینی را به‌طور قابل توجهی افزایش دهد.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "امکان انتقال جزئی به GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "این مدل ممکن است بخشی از آن در حافظه GPU شما جا بگیرد. این معمولاً می‌تواند سرعت پیش‌بینی را افزایش دهد.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "احتمالاً قابل اجرا",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "احتمالاً این مدل در حافظه سیستم شما قابل اجراست.",
+  "download.option.willFitEstimation.willNotFit/title": "احتمالاً برای این سیستم بیش از حد بزرگ است",
+  "download.option.willFitEstimation.willNotFit/description": "نیازهای حافظه برای استفاده موفق از این فایل مدل ممکن است بیش از منابع موجود در دستگاه شما باشد. دانلود این فایل توصیه نمی‌شود.",
+
+  "download.option.recommended/title": "توصیه‌شده",
+  "download.option.recommended/description": "بر اساس سخت‌افزار شما، این گزینه پیشنهاد می‌شود.",
+  "download.option.downloaded/title": "دانلود شده",
+  "download.option.downloading/title": "در حال دانلود ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "تازه‌سازی خوراک"
+}
