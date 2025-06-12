@@ -12,10 +12,10 @@
   "loadState/unloading": "Yüklenmiyor",
   "loadState/idle": "Boşta",
   "contextMenu/copyAbsolutePath": "Mutlak yolu kopyala",
-  "contextMenu/copyModelName": "Model Tanımlayıcısını Kopyala",
+  "contextMenu/copyModelName": "Model Dosya Konumunu Kopyala",
 
   "loader.action.load": "Modeli Yükle",
-  "loader.action.clearChanges": "Değişiklikleri Temizle",
+  "loader.action.clearChanges": "Değişiklikleri İptal Et",
   "loader.info.clickOnModelToLoad": "Yüklemek için bir modele tıklayın",
   "loader.info.configureLoadParameters": "Model yükleme parametrelerini yapılandırın"
 }
