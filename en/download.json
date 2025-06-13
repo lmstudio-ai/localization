@@ -1,5 +1,15 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extracting...",
+  "postDownloadActionExecutor.zipExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.modifyModelData/status": "Updating model data...",
+  "postDownloadActionExecutor.notification/status": "Notifying user...",
+  "postDownloadActionExecutor.writeString/status": "Writing metadata...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Updating selected version...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Deleting unused extensions...",
+  "postDownloadActionExecutor.pluginInstall/status": "Installing plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Uninstalling plugin...",
+
   "finalizing": "Finalizing download... (this may take a few moments)",
   "noOptions": "No compatible options available for download",
 
