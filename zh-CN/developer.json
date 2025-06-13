@@ -30,18 +30,31 @@
   "serverOptions/jitModelLoading/title": "即时模型加载",
   "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
-  
+  "serverOptions/fileLoggingMode/succinct/title": "简洁模式",
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
-  
+  "serverOptions/jitModelLoading/title": "即时模型加载",
   "runtimeSettings/title": "运行环境设置",
   "runtimeSettings/chooseRuntime/title": "配置运行环境",
   "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
   "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
-  
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "仅保留最后加载的 JIT 模型",
+  "runtimeOptions/uninstall": "卸载",
+
+  "serverLogs/scrollToBottom": "跳转到底部",
+  "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
+  "serverLogs/openLogsFolder": "打开服务器日志文件夹",
+
+  "runtimeSettings/title": "运行环境设置",
+  "runtimeSettings/chooseRuntime/title": "默认选择",
+  "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个默认运行环境",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
+
   "runtimeOptions/uninstall": "卸载",
   "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？",
   "runtimeOptions/uninstallDialog/body": "卸载此运行环境将从系统中移除它。此操作不可逆。",
@@ -53,16 +66,104 @@
   "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
   "runtimeOptions/noRuntimes": "未找到运行环境",
   
-  "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
-  
-  "endpoints/openaiCompatRest/title": "支持的端点 (类似 OpenAI 的)",
-  "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个词元（token）。注意：OpenAI 认为此端点已'弃用'。",
-  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",
-  "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
-  
-  "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
-  "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
-  
+  "runtimes": {
+    "manageLMRuntimes": "管理 LM 运行环境",
+    "includeOlderRuntimeVersions": "包含旧版本的运行环境",
+    "dismiss": "忽略",
+    "updateAvailableToast": {
+      "title": "LM 运行环境更新可用！"
+    },
+    "updatedToast": {
+      "title": " ✅ LM 运行环境已更新: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "新加载的 {{compatibilityTypes}} 模型将使用更新后的运行环境。"
+    },
+    "noAvx2ErrorMessage": "所有 LM 运行环境目前都需要支持 AVX2 的 CPU",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "运行环境扩展包",
+      "refresh": "刷新",
+      "refreshing": "刷新中...",
+      "filterSegment": {
+        "compatibleOnly": "仅兼容",
+        "all": "全部"
+      },
+      "card": {
+        "releaseNotes": "发布说明",
+        "latestVersionInstalled": "已安装最新版本",
+        "updateAvailable": "更新可用"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "管理活动运行环境"
+      },
+      "dropdownOptions": {
+        "installedVersions": "管理版本",
+        "close": "关闭"
+      },
+      "tabs": {
+        "all": "全部",
+        "frameworks": "我的框架",
+        "engines": "我的引擎"
+      },
+      "detailsModal": {
+        "installedVersions": "{{runtimeName}} 的已安装版本",
+        "manifestJsonTitle": "Manifest JSON (高级)"，
+        "releaseNotesTitle": "发布说明"，
+        "noReleaseNotes": "此版本无发布说明"，
+        "back": "返回"，
+        "close": "关闭"
+      }，
+      "noEngines": "未安装引擎"，
+      "noFrameworks": "未安装框架"
+    }
+  }，
+
+  "inferenceParams/noParams": "此模型类型没有可配置的推理参数"，
+
+  "quickDocs": {
+    "tabChipTitle": "快速文档"，
+    "newToolUsePopover": "代码片段现在可以在“快速文档”中使用。点击此处开始使用工具！"，
+    "newToolUsePopoverTitle": "📚 快速文档"，
+    "learnMore": "ℹ️ 👾 要了解更多关于 LM Studio 本地服务器端点的信息，请访问 [文档](https://lmstudio.ai/docs)。"，
+    "helloWorld": {
+      "title": "Hello, World!"
+    }，
+    "chat": {
+      "title": "聊天"
+    }，
+    "structuredOutput": {
+      "title": "结构化输出"
+    }，
+    "imageInput": {
+      "title": "图像输入"
+    }，
+    "embeddings": {
+      "title": "嵌入"
+    }，
+    "toolUse": {
+      "title": "工具使用"，
+      "tab": {
+        "saveAsPythonFile": "保存为 Python 文件"，
+        "runTheScript": "运行脚本："，
+        "savePythonFileCopyPaste": "保存为 Python 文件以进行复制粘贴命令"
+      }
+    }，
+    "newBadge": "新"
+  }，
+
+  "endpoints/openaiCompatRest/title": "支持的端点（类似 OpenAI）"，
+  "endpoints/openaiCompatRest/getModels": "列出当前加载的模型"，
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。根据提示预测下一个 token(s)。注意：OpenAI 认为此端点已弃用。"，
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。发送聊天历史记录以预测下一个助手响应"，
+  "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。"，
+
+  "model.createVirtualModelFromInstance": "将设置保存为新的虚拟模型"，
+  "model.createVirtualModelFromInstance/error": "将设置保存为新的虚拟模型失败"，
+
+  "model": {
+    "toolUseSectionTitle": "工具使用"，
+    "toolUseDescription": "检测到此模型已针对工具使用进行训练\n\n打开 <custom-link>快速文档</custom-link> 以了解更多信息"
+  }，
+
   "apiConfigOptions/title": "API 配置"
 }
