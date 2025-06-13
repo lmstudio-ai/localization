@@ -23,12 +23,12 @@
   "noChatSelectedPlaceholder": "请选择一个聊天",
   "unnamedChat": "未命名聊天",
   "emptyFolder": "文件夹为空",
-  
+
   "tokenCount": "词元（token）数",
   "messageTokenCount": "输入词元（token）数",
   "tokenCount/hint": "消息中的词元（token）数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
   "messageTokenCount/hint": "消息中的词元（token）数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的词元（token）估计值。",
-  
+
   "notes": "对话笔记",
   "notes/add/first": "添加笔记",
   "notes/add/another": "再加一条笔记",
@@ -37,7 +37,7 @@
   "notes/delete": "删除笔记",
   "notes/noteLabel": "笔记",
   "notes/copyContent": "复制笔记内容",
-  
+
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
   "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
@@ -104,25 +104,25 @@
   "errorTitle": "错误",
   "userFile/chatTerminalDocumentsCount_one": "聊天中有 {{count}} 个文档",
   "userFile/chatTerminalDocumentsCount_other": "聊天中有 {{count}} 个文档",
-  
+
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
   "prediction/noModel/title": "未选择模型",
   "prediction/modelLoading": "消息已排队，将在模型加载完成后发送",
   "prediction/noModel/message": "选择一个模型以发送消息",
   "prediction/unloadModel/error": "卸载模型失败",
-  
+
   "retrieval/user/processingLabel": "AI 正在思考...",
   "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击以展开。",
   "retrieval/actions/clickToExpand": "点击以展开中间步骤",
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
-  
+
   "style": "聊天外观",
-  
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
-  
+
   "speculativeDecodingVisualization/toggle": "可视化接受的草稿令牌",
   "speculativeDecodingVisualization/fromDraftModel_one": "接受的草稿令牌",
   "speculativeDecodingVisualization/fromDraftModel_other": "接受的草稿令牌",
@@ -131,7 +131,7 @@
   "style/fontSize/medium": "默认",
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
-  
+
   "style/debugBlocks/label": "显示调试信息块",
   "style/thinkingUI/label": "默认展开推理块",
   "style/chatFullWidth/label": "将聊天容器扩展到窗口宽度",
@@ -149,10 +149,10 @@
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
   "topBarActions/clearChatCancel": "取消",
   "topBarActions/clearChatDelete": "全部清除",
-  
+
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
-  "noModels": "还没有LLM！下载一个开始吧！"
+  "noModels": "还没有LLM！下载一个开始吧！",
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "插件",
