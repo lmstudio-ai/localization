@@ -1,5 +1,38 @@
 { 
   "copyLmStudioLinkButton/toolTip": "모델 다운로드 링크 복사",
 
-  "filter.noMatches": "일치하는 항목 없음"
+  "filter.noMatches": "일치하는 항목 없음",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "리소스 추출 중"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "런타임 호환성 확인 중"
+    },
+    "indexingRuntimes": {
+      "badge": "런타임 인덱싱 중"
+    },
+    "indexingModels": {
+      "badge": "모델 인덱싱 중"
+    },
+    "authenticating": {
+      "badge": "인증 중"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "확장 팩 업데이트 중({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "LM Studio Hub에 로그인",
+    "authError": "인증 실패",
+    "noAccount": "계정이 없으신가요?",
+    "signUp": "회원가입",
+    "havingTrouble": "문제가 있으신가요?",
+    "retry": "다시 시도"
+  },
+  "artifacts": {
+    "fetchError": "아티팩트 가져오기 실패"
+  },
+  "incompatible": "호환되지 않음",
+  "compatible": "호환됨"
 }

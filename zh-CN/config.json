@@ -138,7 +138,7 @@
   "llm.load.llama.acceleration.offloadRatio/title": "GPU 卸载",
   "llm.load.llama.acceleration.offloadRatio/subTitle": "用于 GPU 加速的离散模型层数",
   "llm.load.llama.acceleration.offloadRatio/info": "设置卸载到 GPU 的层数。",
-  "llm.load.llama.flashAttention/title": "闪电注意力",
+  "llm.load.llama.flashAttention/title": "快速注意力",
   "llm.load.llama.flashAttention/subTitle": "降低某些模型的内存使用量和生成时间",
   "llm.load.llama.flashAttention/info": "加速注意力机制,实现更快、更高效的处理",
   "llm.load.numExperts/title": "专家数量",
@@ -499,6 +499,7 @@
 
   "flashAttentionWarning": "闪电注意力是一项实验性功能,可能会导致某些模型出现问题。如果您遇到问题,请尝试禁用它。",
   "llamaKvCacheQuantizationWarning": "KV 缓存量化是一项实验性功能,可能会导致某些模型出现问题。V 缓存量化必须启用 Flash Attention。如果遇到问题,请重置为默认的 \"F16\"。",
+
 
   "seedUncheckedHint": "随机种子",
   "ropeFrequencyBaseUncheckedHint": "自动",

@@ -1,0 +1,38 @@
+{
+  "copyLmStudioLinkButton/toolTip": "คัดลอกลิงก์ดาวน์โหลดโมเดล",
+
+  "filter.noMatches": "ไม่พบรายการที่ตรงกัน",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "กำลังแยกไฟล์ทรัพยากร"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "กำลังตรวจสอบความเข้ากันได้"
+    },
+    "indexingRuntimes": {
+      "badge": "กำลังจัดทำดัชนีรันไทม์"
+    },
+    "indexingModels": {
+      "badge": "กำลังจัดทำดัชนีโมเดล"
+    },
+    "authenticating": {
+      "badge": "กำลังยืนยันตัวตน"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "กำลังอัพเดทส่วนขยาย ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "เข้าสู่ระบบ LM Studio Hub",
+    "authError": "การยืนยันตัวตนล้มเหลว",
+    "noAccount": "ยังไม่มีบัญชี?",
+    "signUp": "ลงทะเบียน",
+    "havingTrouble": "พบปัญหาการใช้งาน?",
+    "retry": "ลองใหม่"
+  },
+  "artifacts": {
+    "fetchError": "ไม่สามารถดึงข้อมูลได้"
+  },
+  "incompatible": "ไม่รองรับ",
+  "compatible": "รองรับ"
+}
