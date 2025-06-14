@@ -11,56 +11,159 @@
   "serverOptions/port/hint": "Legen Sie fest, welchen Netzwerkport der lokale Server verwenden soll. Standardmäßig verwendet LM Studio den Port 1234. Sie müssen diesen möglicherweise ändern, wenn der Port bereits verwendet wird.",
   "serverOptions/port/subtitle": "Der Port, auf dem gelauscht wird",
   "serverOptions/autostart/title": "Server automatisch starten",
-  "serverOptions/autostart/hint": "Starten Sie den lokalen Server automatisch, wenn ein Modell geladen wird",
+  "serverOptions/autostart/hint": "Starten Sie den lokalen LLM-Server von LM Studio automatisch beim Start der App oder des Dienstes",
   "serverOptions/port/integerWarning": "Die Portnummer muss eine ganze Zahl sein",
   "serverOptions/port/invalidPortWarning": "Der Port muss zwischen 1 und 65535 liegen",
   "serverOptions/cors/title": "CORS aktivieren",
   "serverOptions/cors/hint1": "Wenn Sie CORS (Cross-Origin Resource Sharing) aktivieren, können Websites, die Sie besuchen, Anfragen an den LM Studio-Server senden.",
-  "serverOptions/cors/hint2": "CORS könnte erforderlich sein, wenn Anfragen von einer Webseite oder von VS Code / anderen Erweiterungen gesendet werden.",
+  "serverOptions/cors/hint2": "CORS kann erforderlich sein, wenn Anfragen von einer Webseite oder einer VS Code-/anderen Erweiterung gesendet werden.",
   "serverOptions/cors/subtitle": "Cross-Origin-Anfragen zulassen",
   "serverOptions/network/title": "Im lokalen Netzwerk bereitstellen",
   "serverOptions/network/subtitle": "Server für Geräte im Netzwerk verfügbar machen",
   "serverOptions/network/hint1": "Ob Verbindungen von anderen Geräten im Netzwerk zugelassen werden sollen.",
   "serverOptions/network/hint2": "Wenn dies nicht aktiviert ist, lauscht der Server nur auf localhost.",
-  "serverOptions/verboseLogging/title": "Detaillierte Protokollierung",
-  "serverOptions/verboseLogging/subtitle": "Detaillierte Protokollierung für den lokalen Server aktivieren",
-  "serverOptions/contentLogging/title": "Protokollierung von Prompts und Antworten",
-  "serverOptions/contentLogging/subtitle": "Lokale Anfrage-/Antwortprotokollierungseinstellungen",
-  "serverOptions/contentLogging/hint": "Gibt an, ob Prompts und/oder die Antwort in der lokalen Server-Protokolldatei protokolliert werden sollen.",
-  "serverOptions/loadModel/error": "Fehler beim Laden des Modells",
+  "serverOptions/verboseLogging/title": "Ausführliche Protokollierung",
+  "serverOptions/verboseLogging/subtitle": "Ausführliche Protokollierung für den lokalen Server aktivieren",
+  "serverOptions/contentLogging/title": "Prompts und Antworten protokollieren",
+  "serverOptions/contentLogging/subtitle": "Einstellungen für die lokale Anfrage-/Antwortprotokollierung",
+  "serverOptions/contentLogging/hint": "Ob Prompts und/oder die Antwort in der lokalen Serverprotokolldatei protokolliert werden sollen.",
+  "serverOptions/fileLoggingMode/title": "Dateiprotokollierungsmodus",
+  "serverOptions/fileLoggingMode/off/title": "AUS",
+  "serverOptions/fileLoggingMode/off/hint": "Keine Protokolldateien erstellen",
+  "serverOptions/fileLoggingMode/succinct/title": "Prägnant",
+  "serverOptions/fileLoggingMode/succinct/hint": "Protokollieren Sie denselben Inhalt wie in der Konsole. Lange Anfragen werden gekürzt.",
+  "serverOptions/fileLoggingMode/full/title": "Vollständig",
+  "serverOptions/fileLoggingMode/full/hint": "Lange Anfragen nicht kürzen.",
+  "serverOptions/jitModelLoading/title": "Just-in-Time-Modellladen",
+  "serverOptions/jitModelLoading/hint": "Wenn aktiviert und eine Anfrage ein nicht geladenes Modell angibt, wird es automatisch geladen und verwendet. Außerdem enthält der Endpunkt \"/v1/models\" auch Modelle, die noch nicht geladen sind.",
+  "serverOptions/loadModel/error": "Modell konnte nicht geladen werden",
+  "serverOptions/jitModelLoadingTTL/title": "Nicht verwendete JIT-geladene Modelle automatisch entladen",
+  "serverOptions/jitModelLoadingTTL/hint": "Ein Modell, das Just-in-Time (JIT) geladen wurde, um eine API-Anfrage zu bedienen, wird automatisch entladen, nachdem es für eine bestimmte Dauer (TTL) nicht verwendet wurde.",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Maximale Leerlauf-TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "Minuten",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Nur das letzte JIT-geladene Modell behalten",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Stellen Sie sicher, dass zu jedem Zeitpunkt höchstens 1 Modell über JIT geladen ist (entlädt das vorherige Modell)",
 
   "serverLogs/scrollToBottom": "Zum Ende springen",
   "serverLogs/clearLogs": "Protokolle löschen ({{shortcut}})",
   "serverLogs/openLogsFolder": "Serverprotokollordner öffnen",
 
   "runtimeSettings/title": "Laufzeiteinstellungen",
-  "runtimeSettings/chooseRuntime/title": "Laufzeiten konfigurieren",
-  "runtimeSettings/chooseRuntime/description": "Wählen Sie eine Laufzeit für jedes Modellformat aus",
+  "runtimeSettings/chooseRuntime/title": "Standardauswahl",
+  "runtimeSettings/chooseRuntime/description": "Wählen Sie eine Standardlaufzeit für jedes Modellformat aus",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Alle Laufzeiten anzeigen",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Standardmäßig zeigt LM Studio nur die neueste Version jeder kompatiblen Laufzeit an. Aktivieren Sie diese Option, um alle verfügbaren Laufzeiten zu sehen.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Wählen Sie eine Laufzeit",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Standardmäßig zeigt LM Studio nur die neueste Version jeder kompatiblen Laufzeit an. Aktivieren Sie diese Option, um alle verfügbaren Laufzeiten anzuzeigen.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Wählen Sie eine Laufzeit aus",
 
   "runtimeOptions/uninstall": "Deinstallieren",
   "runtimeOptions/uninstallDialog/title": "{{runtimeName}} deinstallieren?",
   "runtimeOptions/uninstallDialog/body": "Durch das Deinstallieren dieser Laufzeit wird sie vom System entfernt. Diese Aktion ist unwiderruflich.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Einige Dateien können erst entfernt werden, nachdem LM Studio neu gestartet wurde.",
-  "runtimeOptions/uninstallDialog/error": "Fehler beim Deinstallieren der Laufzeit",
+  "runtimeOptions/uninstallDialog/body/caveats": "Einige Dateien können möglicherweise erst nach einem Neustart von LM Studio entfernt werden.",
+  "runtimeOptions/uninstallDialog/error": "Laufzeit konnte nicht deinstalliert werden",
   "runtimeOptions/uninstallDialog/confirm": "Fortfahren und deinstallieren",
   "runtimeOptions/uninstallDialog/cancel": "Abbrechen",
   "runtimeOptions/noCompatibleRuntimes": "Keine kompatiblen Laufzeiten gefunden",
-  "runtimeOptions/downloadIncompatibleRuntime": "Diese Laufzeit wurde als nicht mit Ihrem Computer kompatibel ermittelt. Sie wird höchstwahrscheinlich nicht funktionieren.",
+  "runtimeOptions/downloadIncompatibleRuntime": "Diese Laufzeit wurde als inkompatibel mit Ihrem Computer eingestuft. Sie wird höchstwahrscheinlich nicht funktionieren.",
   "runtimeOptions/noRuntimes": "Keine Laufzeiten gefunden",
 
-  "inferenceParams/noParams": "Keine konfigurierbaren Inferenzparameter für diesen Modelltyp verfügbar",
+  "runtimes": {
+    "manageLMRuntimes": "LM-Laufzeiten verwalten",
+    "includeOlderRuntimeVersions": "Ältere Laufzeitversionen einschließen",
+    "dismiss": "Verwerfen",
+    "updateAvailableToast": {
+      "title": "LM-Laufzeit-Update verfügbar!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM-Laufzeit aktualisiert: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Neu geladene {{compatibilityTypes}}-Modelle verwenden die aktualisierte Laufzeit."
+    },
+    "noAvx2ErrorMessage": "Alle LM-Laufzeiten erfordern derzeit eine CPU mit AVX2-Unterstützung",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Laufzeit-Erweiterungspakete",
+      "refresh": "Aktualisieren",
+      "refreshing": "Wird aktualisiert...",
+      "filterSegment": {
+        "compatibleOnly": "Nur kompatibel",
+        "all": "Alle"
+      },
+      "card": {
+        "releaseNotes": "Versionshinweise",
+        "latestVersionInstalled": "Neueste Version installiert",
+        "updateAvailable": "Update verfügbar"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Aktive Laufzeiten verwalten"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Versionen verwalten",
+        "close": "Schließen"
+      },
+      "tabs": {
+        "all": "Alle",
+        "frameworks": "Meine Frameworks",
+        "engines": "Meine Engines"
+      },
+      "detailsModal": {
+        "installedVersions": "Installierte Versionen für {{runtimeName}}",
+        "manifestJsonTitle": "Manifest-JSON (erweitert)",
+        "releaseNotesTitle": "Versionshinweise",
+        "noReleaseNotes": "Keine Versionshinweise für diese Version verfügbar",
+        "back": "Zurück",
+        "close": "Schließen"
+      },
+      "noEngines": "Keine Engines installiert",
+      "noFrameworks": "Keine Frameworks installiert"
+    }
+  },
+
+  "inferenceParams/noParams": "Für diesen Modelltyp sind keine konfigurierbaren Inferenzparameter verfügbar",
+
+  "quickDocs": {
+    "tabChipTitle": "Kurzdokumentation",
+    "newToolUsePopover": "Codeausschnitte sind jetzt hier in der \"Kurzdokumentation\" verfügbar. Klicken Sie hier, um mit der Toolverwendung zu beginnen!",
+    "newToolUsePopoverTitle": "📚 Kurzdokumentation",
+    "learnMore": "ℹ️ 👾 Um mehr über die lokalen Serverendpunkte von LM Studio zu erfahren, besuchen Sie die [Dokumentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hallo Welt!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Strukturierte Ausgabe"
+    },
+    "imageInput": {
+      "title": "Bildeingabe"
+    },
+    "embeddings": {
+      "title": "Einbettungen"
+    },
+    "toolUse": {
+      "title": "Toolverwendung",
+      "tab": {
+        "saveAsPythonFile": "Als Python-Datei speichern",
+        "runTheScript": "Führen Sie das Skript aus:",
+        "savePythonFileCopyPaste": "Als Python-Datei speichern für einen Kopier- und Einfügebefehl"
+      }
+    },
+    "newBadge": "Neu"
+  },
 
   "endpoints/openaiCompatRest/title": "Unterstützte Endpunkte (OpenAI-ähnlich)",
-  "endpoints/openaiCompatRest/getModels": "Liste der derzeit geladenen Modelle",
-  "endpoints/openaiCompatRest/postCompletions": "Textvervollständigungsmodus. Sagen Sie das nächste Token voraus, das zu einer Eingabe passt. Hinweis: OpenAI betrachtet diesen Endpunkt als 'veraltet'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat-Vervollständigungen. Senden Sie dem Modell einen Chatverlauf, um die nächste Antwort des Assistenten vorherzusagen",
-  "endpoints/openaiCompatRest/postEmbeddings": "Texteinbettung. Generieren Sie Texteinbettungen für eine gegebene Texteingabe. Akzeptiert eine Zeichenkette oder ein Array von Zeichenketten.",
+  "endpoints/openaiCompatRest/getModels": "Die aktuell geladenen Modelle auflisten",
+  "endpoints/openaiCompatRest/postCompletions": "Textvervollständigungsmodus. Sagen Sie das/die nächste(n) Token(s) für einen gegebenen Prompt voraus. Hinweis: OpenAI betrachtet diesen Endpunkt als 'veraltet'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chat-Vervollständigungen. Senden Sie einen Chatverlauf an das Modell, um die nächste Assistentenantwort vorherzusagen",
+  "endpoints/openaiCompatRest/postEmbeddings": "Texteinbettung. Generieren Sie Texteinbettungen für eine gegebene Texteingabe. Akzeptiert eine Zeichenfolge oder ein Array von Zeichenfolgen.",
 
   "model.createVirtualModelFromInstance": "Einstellungen als neues virtuelles Modell speichern",
-  "model.createVirtualModelFromInstance/error": "Fehler beim Speichern der Einstellungen als neues virtuelles Modell",
+  "model.createVirtualModelFromInstance/error": "Einstellungen konnten nicht als neues virtuelles Modell gespeichert werden",
+
+  "model": {
+    "toolUseSectionTitle": "Toolverwendung",
+    "toolUseDescription": "Dieses Modell wurde erkannt, um für die Toolverwendung trainiert worden zu sein\n\nÖffnen Sie die <custom-link>Kurzdokumentation</custom-link> für weitere Informationen"
+  },
 
   "apiConfigOptions/title": "API-Konfiguration"
 }
