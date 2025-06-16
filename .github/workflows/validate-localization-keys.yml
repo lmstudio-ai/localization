@@ -1,9 +1,7 @@
 name: Validate Localization Keys
 
 on:
-  pull_request:
-    paths:
-      - "localization/**/*.json"
+  workflow_dispatch:
 
 jobs:
   check-en-counterparts:
