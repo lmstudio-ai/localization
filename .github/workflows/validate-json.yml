@@ -1,0 +1,32 @@
+name: Validate JSON Files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get changed JSON files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: "**/*.json"
+
+      - name: Validate JSON syntax
+        if: steps.changed-files.outputs.all_changed_files != ''
+        run: |
+          echo "Validating JSON files..."
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ $file == *.json ]]; then
+              echo "Checking $file"
+              if ! jq empty "$file"; then
+                echo "Error: Invalid JSON syntax in $file"
+                exit 1
+              fi
+            fi
+          done
+          echo "All JSON files are valid!"
