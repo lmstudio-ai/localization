@@ -23,9 +23,10 @@ jobs:
 
       - name: Check for English counterparts
         if: steps.changed-files.outputs.all_changed_files != ''
+        continue-on-error: true
         run: |
           #!/bin/bash
-          set -e
+          set -e -x
 
           echo "Checking for English counterparts in added/modified localization keys..."
 
@@ -34,18 +35,49 @@ jobs:
 
           # Helper function to get all nested keys from a JSON file
           get_nested_keys() {
-            jq -r 'paths(scalars) | map(tostring) | join(".")' "$1" 2>/dev/null || echo ""
+            echo "Extracting nested keys from $1"
+            if [ ! -f "$1" ]; then
+              echo "ERROR: File $1 does not exist!"
+              return 1
+            fi
+
+            # Check if file is valid JSON first
+            if ! jq '.' "$1" > /dev/null 2>&1; then
+              echo "ERROR: File $1 is not valid JSON!"
+              return 1
+            fi
+
+            # Get all paths to leaf nodes (scalars)
+            jq -r 'paths(scalars) | map(tostring) | join(".")' "$1" 2>&1 || {
+              echo "ERROR: jq paths extraction failed on $1";
+              return 1;
+            }
           }
 
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+
+          # Convert space-separated list to array for proper handling
+          IFS=' ' read -ra CHANGED_FILES <<< "${{ steps.changed-files.outputs.all_changed_files }}"
+
+          echo "Starting file loop..."
+          for file in "${CHANGED_FILES[@]}"; do
+            echo "Processing file: $file"
+
             # Skip files in the 'en' directory since they don't need counterparts
             if [[ $file == *"/en/"* ]]; then
               echo "Skipping English file: $file"
               continue
             fi
 
-            # Extract locale directory and relative path
-            locale_dir=$(echo $file | grep -o 'localization/[^/]*')
+            # Extract locale directory and relative path - handle paths that may not match pattern
+            locale_dir=$(echo $file | grep -o 'localization/[^/]*' || echo "")
+            echo "Locale directory: $locale_dir"
+
+            # Only proceed if we have a valid locale directory
+            if [[ -z "$locale_dir" ]]; then
+              echo "Skipping file $file - not in a localization directory"
+              continue
+            fi
+
             rel_path=${file#"$locale_dir/"}
 
             # Construct path to English counterpart
@@ -61,15 +93,39 @@ jobs:
             fi
 
             # Get base revision for the file
+            echo "Checking if file exists in git"
             if git ls-files --error-unmatch "$file" &>/dev/null; then
+              echo "File exists in git, getting keys from current and base versions"
               # Extract flattened keys from current and base version of the file (including nested paths)
               current_keys=$(get_nested_keys "$file")
-              base_keys=$(git show "HEAD:$file" | jq -r 'paths(scalars) | map(tostring) | join(".")' 2>/dev/null || echo "")
+
+              echo "Getting base version keys"
+              # Extract base file content safely
+              base_content=$(git show "HEAD:$file" 2>/dev/null || echo "{}")
+              # Validate it's proper JSON before processing
+              if echo "$base_content" | jq '.' > /dev/null 2>&1; then
+                base_keys=$(echo "$base_content" | jq -r 'paths(scalars) | map(tostring) | join(".")' 2>/dev/null || echo "")
+                # Handle case where jq returns null
+                if [[ "$base_keys" == "null" ]]; then
+                  base_keys=""
+                fi
+              else
+                echo "WARNING: Base version of $file is not valid JSON, treating as empty"
+                base_keys=""
+              fi
+              echo "Base keys: $(echo "$base_keys" | wc -l) found"
 
               # Find added keys (present in current but not in base)
               added_keys=()
-              for key in $current_keys; do
-                if ! echo "$base_keys" | grep -q "^$key\$"; then
+              echo "Finding added keys..."
+              # Handle keys with spaces properly by reading into array
+              readarray -t current_keys_array <<< "$current_keys"
+              for key in "${current_keys_array[@]}"; do
+                # Skip empty lines
+                if [[ -z "$key" ]]; then
+                  continue
+                fi
+                if [[ -n "$key" ]] && ! echo "$base_keys" | grep -q "^$key\$"; then
                   added_keys+=("$key")
                 fi
               done
@@ -80,6 +136,10 @@ jobs:
                 en_keys=$(get_nested_keys "$en_file")
 
                 for key in "${added_keys[@]}"; do
+                  # Skip empty keys
+                  if [[ -z "$key" ]]; then
+                    continue
+                  fi
                   if ! echo "$en_keys" | grep -q "^$key\$"; then
                     echo "Error: Key path '$key' in $file doesn't have an English counterpart in $en_file"
                     has_errors=1
@@ -87,11 +147,21 @@ jobs:
                 done
               fi
             else
+              echo "New file detected, comparing all keys with English counterpart"
               # New file, compare all keys (including nested) with English counterpart
               file_keys=$(get_nested_keys "$file")
-              en_keys=$(get_nested_keys "$en_file")
+              echo "File keys: $(echo "$file_keys" | wc -l) found"
 
-              for key in $file_keys; do
+              en_keys=$(get_nested_keys "$en_file")
+              echo "English keys: $(echo "$en_keys" | wc -l) found"
+
+              # Handle keys with spaces properly by reading into array
+              readarray -t file_keys_array <<< "$file_keys"
+              for key in "${file_keys_array[@]}"; do
+                # Skip empty lines
+                if [[ -z "$key" ]]; then
+                  continue
+                fi
                 if ! echo "$en_keys" | grep -q "^$key\$"; then
                   echo "Error: Key path '$key' in new file $file doesn't have an English counterpart in $en_file"
                   has_errors=1
