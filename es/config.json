@@ -8,7 +8,7 @@
   "inferenceParameters/title": "Parámetros de Predicción",
   "inferenceParameters/info": "Experimenta con parámetros que impactan la predicción.",
   "generalParameters/title": "General",
-  "samplingParameters/title": "Muestreo"
+  "samplingParameters/title": "Muestreo",
   "basicTab": "Básico",
   "advancedTab": "Avanzado",
   "advancedTab/title": "Configuraciones de Ejecución",
