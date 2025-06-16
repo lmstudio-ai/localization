@@ -5,7 +5,7 @@
   "modelSettings/placeholder": "Επιλέξτε ένα μοντέλο για να το διαμορφώσετε",
 
   "loadedModels/noModels": "Δεν έχουν φορτωθεί μοντέλα",
-
+  "testkey123": "This is a key not presaent in the /en one",
   "serverOptions/title": "Επιλογές διακομιστή",
   "serverOptions/configurableTitle": "Ρυθμιζόμενες επιλογές",
   "serverOptions/port/hint": "Ορίστε ποια θύρα δικτύωσης θα χρησιμοποιεί ο τοπικός διακομιστής. Από προεπιλογή, το LM Studio χρησιμοποιεί τη θύρα 1234. Ίσως χρειαστεί να την αλλάξετε, αν η θύρα χρησιμοποιείται ήδη.",

@@ -5,7 +5,7 @@
   "showAll": "Tout",
   "basicSettings": "Basic",
   "configSubtitle": "Charger ou sauvegarder des préréglages et expérimenter avec les paramètres du modèle",
-  "inferenceParameters/title": "Paramètres de prédiction",
+  "inferenceParameters/title" "Paramètres de préction",
   "inferenceParameters/info": "Expérimentez avec les paramètres qui influencent la prédiction.",
   "generalParameters/title": "Général",
   "samplingParameters/title": "Échantillonnage",
