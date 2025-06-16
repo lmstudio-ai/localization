@@ -1,0 +1,108 @@
+name: Validate Localization Keys
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-en-counterparts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      - name: Get changed JSON files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          files: "**/*.json"
+
+      - name: Check for English counterparts
+        if: steps.changed-files.outputs.all_changed_files != ''
+        run: |
+          #!/bin/bash
+          set -e
+
+          echo "Checking for English counterparts in added/modified localization keys..."
+
+          # Initialize a flag to track errors
+          has_errors=0
+
+          # Helper function to get all nested keys from a JSON file
+          get_nested_keys() {
+            jq -r 'paths(scalars) | map(tostring) | join(".")' "$1" 2>/dev/null || echo ""
+          }
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            # Skip files in the 'en' directory since they don't need counterparts
+            if [[ $file == *"/en/"* ]]; then
+              echo "Skipping English file: $file"
+              continue
+            fi
+
+            # Extract locale directory and relative path
+            locale_dir=$(echo $file | grep -o 'localization/[^/]*')
+            rel_path=${file#"$locale_dir/"}
+
+            # Construct path to English counterpart
+            en_file="localization/en/$rel_path"
+
+            echo "Checking $file against $en_file"
+
+            # Ensure English file exists
+            if [[ ! -f "$en_file" ]]; then
+              echo "Error: English counterpart file doesn't exist: $en_file"
+              has_errors=1
+              continue
+            fi
+
+            # Get base revision for the file
+            if git ls-files --error-unmatch "$file" &>/dev/null; then
+              # Extract flattened keys from current and base version of the file (including nested paths)
+              current_keys=$(get_nested_keys "$file")
+              base_keys=$(git show "HEAD:$file" | jq -r 'paths(scalars) | map(tostring) | join(".")' 2>/dev/null || echo "")
+
+              # Find added keys (present in current but not in base)
+              added_keys=()
+              for key in $current_keys; do
+                if ! echo "$base_keys" | grep -q "^$key\$"; then
+                  added_keys+=("$key")
+                fi
+              done
+
+              # For each added key, check if it exists in English file
+              if [[ ${#added_keys[@]} -gt 0 ]]; then
+                echo "Found ${#added_keys[@]} new keys in $file"
+                en_keys=$(get_nested_keys "$en_file")
+
+                for key in "${added_keys[@]}"; do
+                  if ! echo "$en_keys" | grep -q "^$key\$"; then
+                    echo "Error: Key path '$key' in $file doesn't have an English counterpart in $en_file"
+                    has_errors=1
+                  fi
+                done
+              fi
+            else
+              # New file, compare all keys (including nested) with English counterpart
+              file_keys=$(get_nested_keys "$file")
+              en_keys=$(get_nested_keys "$en_file")
+
+              for key in $file_keys; do
+                if ! echo "$en_keys" | grep -q "^$key\$"; then
+                  echo "Error: Key path '$key' in new file $file doesn't have an English counterpart in $en_file"
+                  has_errors=1
+                fi
+              done
+            fi
+          done
+
+          if [[ $has_errors -eq 1 ]]; then
+            echo "Validation failed! Please ensure all localization keys have English counterparts."
+            exit 1
+          else
+            echo "All localization keys have corresponding English counterparts."
+          fi
