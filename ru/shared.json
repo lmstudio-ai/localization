@@ -1,0 +1,38 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Копировать ссылку для скачивания модели",
+
+  "filter.noMatches": "Нет результатов",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Извлечение ресурсов"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Проверка совместимости с Runtime"
+    },
+    "indexingRuntimes": {
+      "badge": "Индексация Runtimes"
+    },
+    "indexingModels": {
+      "badge": "Индексация моделей"
+    },
+    "authenticating": {
+      "badge": "Аутентификация"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Обновление пакета расширений ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Войти в хаб LM Studio",
+    "authError": "Не удалось аутентифицироваться",
+    "noAccount": "Нет учётной записи?",
+    "signUp": "Зарегистрироваться",
+    "havingTrouble": "Проблемы?",
+    "retry": "Повторить"
+  },
+  "artifacts": {
+    "fetchError": "Не удалось получить артефакты"
+  },
+  "incompatible": "Несовместимо",
+  "compatible": "Совместимо"
+}
