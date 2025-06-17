@@ -61,7 +61,7 @@
 
   "runtimeSettings/chooseFrameworks/title": "Frameworks",
   "runtimeSettings/chooseFrameworks/description": "Select a framework to use for each functionality",
-  "runtimeSettings/chooseFramework/documentParser/buildIn/label": "Built-in",
+  "runtimeSettings/chooseFramework/documentParser/buildIn/label": "Built-in parser",
   "runtimeSettings/chooseFramework/documentParser/select/label": "Document Parser",
   "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Select a document parser",
 
