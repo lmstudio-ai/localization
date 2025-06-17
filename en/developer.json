@@ -53,11 +53,17 @@
   "serverLogs/openLogsFolder": "Open server logs folder",
 
   "runtimeSettings/title": "Runtime settings",
-  "runtimeSettings/chooseRuntime/title": "Default Selections",
-  "runtimeSettings/chooseRuntime/description": "Select a default runtime for each model format",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all runtimes",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each compatible runtime. Enable this option to see all available runtimes.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Select a Runtime",
+  "runtimeSettings/chooseRuntime/title": "Selections",
+  "runtimeSettings/chooseRuntime/description": "Select an engine to use for each model format",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Show all extension packs",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "By default, LM Studio only shows the latest version of each extension pack. Enable this option to see all available extension packs.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Select an engine",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Select a framework to use for each functionality",
+  "runtimeSettings/chooseFramework/documentParser/buildIn/label": "Built-in",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Document Parser",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Select a document parser",
 
   "runtimeOptions/uninstall": "Uninstall",
   "runtimeOptions/uninstallDialog/title": "Uninstall {{runtimeName}}?",
@@ -72,7 +78,7 @@
 
   "runtimes": {
     "manageLMRuntimes": "Manage LM Runtimes",
-    "includeOlderRuntimeVersions": "Include older runtime versions",
+    "includeOlderRuntimeVersions": "Include older versions",
     "dismiss": "Dismiss",
     "updateAvailableToast": {
       "title": "LM Runtime Update Available!"
