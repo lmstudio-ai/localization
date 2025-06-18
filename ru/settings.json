@@ -30,7 +30,7 @@
   "restartAppToUpdate": "Перезапустить приложение, чтобы применить обновление",
   "appUpdatedToastTitle": "Обновлено до {{title}}",
   "appUpdatedToastDescriptionPrefix": "Посмотреть ",
-  "appUpdatedToastDescriptionReleaseNotes": "Примечания к выпуску",
+  "AppUpdatedToastDescriptionReleaseNotes": "Сведения о выпуске",
   "toolUseToastTitle": "Новое в бете: Использование инструментов и API вызовов функций",
   "toolUseToastDescription": "Замена для использования инструментов OpenAI с поддержкой определенных моделей, таких как Llama 3.1/3.2, Mistral и Qwen.",
   "toolUseToastButtonText": "Перейти на страницу разработчика, чтобы попробовать",
