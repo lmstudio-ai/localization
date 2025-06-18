@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "مجموعه‌ها",
+  "collectionsColumn/collectionError": "خطا در بارگذاری جزئیات مجموعه، لطفاً با استفاده از دکمه به‌روزرسانی بالا دوباره تلاش کنید",
+  "bookmarksColumn": "نشانک‌ها",
+  "searchBar/placeholder": "جستجوی مدل‌ها در Hugging Face...",
+  "searchBar/huggingFaceError": "خطایی در دریافت نتایج از Hugging Face رخ داد، لطفاً کمی بعد دوباره تلاش کنید",
+  "sortBy": "مرتب‌سازی بر اساس",
+  "searchSortKey.default/title": "بهترین تطابق",
+  "searchSortKey.likes/title": "بیشترین لایک‌ها",
+  "searchSortKey.downloads/title": "بیشترین دانلودها",
+  "searchSortKey.lastModified/title": "به‌روزرسانی‌های اخیر",
+  "searchSortKey.createdAt/title": "ایجادهای اخیر",
+  "download.option.willFitEstimation.caveat": "ممکن است عوامل دیگری مانع از بارگذاری آن شوند، مانند معماری مدل، یکپارچگی فایل مدل یا میزان حافظه موجود در رایانه شما.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "انتقال کامل به GPU امکان‌پذیر است",
+  "download.option.willFitEstimation.fullGPUOffload/description": "این مدل ممکن است کاملاً در حافظه GPU شما جای بگیرد. این می‌تواند سرعت استنتاج را به طور قابل توجهی افزایش دهد.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "انتقال جزئی به GPU امکان‌پذیر است",
+  "download.option.willFitEstimation.partialGPUOffload/description": "این مدل ممکن است تا حدی در حافظه GPU شما جای بگیرد. این اغلب می‌تواند سرعت استنتاج را به طور قابل توجهی افزایش دهد.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "احتمالاً مناسب است",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "این مدل احتمالاً در حافظه دستگاه شما جای می‌گیرد.",
+  "download.option.willFitEstimation.willNotFit/title": "احتمالاً برای این دستگاه بزرگ است",
+  "download.option.willFitEstimation.willNotFit/description": "نیازمندی‌های حافظه برای استفاده موفق از این فایل مدل ممکن است از منابع موجود در دستگاه شما فراتر رود. دانلود این فایل توصیه نمی‌شود.",
+  "download.option.recommended/title": "توصیه شده",
+  "download.option.recommended/description": "بر اساس سخت‌افزار شما، این گزینه توصیه می‌شود.",
+  "download.option.downloaded/title": "دانلود شده",
+  "download.option.downloading/title": "در حال دانلود ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "به‌روزرسانی فید"
+}
