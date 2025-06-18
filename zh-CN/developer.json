@@ -3,9 +3,7 @@
   "tabs/extensions": "LM 运行环境",
   "loadSettings/title": "加载设置",
   "modelSettings/placeholder": "选择一个模型进行配置",
-  
   "loadedModels/noModels": "没有已加载的模型",
-  
   "serverOptions/title": "服务器选项",
   "serverOptions/configurableTitle": "可配置选项",
   "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果该端口已被占用，您可能需要更改此设置。",
@@ -30,18 +28,15 @@
   "serverOptions/jitModelLoading/title": "即时模型加载",
   "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
-  
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
-  
   "runtimeSettings/title": "运行环境设置",
   "runtimeSettings/chooseRuntime/title": "配置运行环境",
   "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
   "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
-  
   "runtimeOptions/uninstall": "卸载",
   "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？",
   "runtimeOptions/uninstallDialog/body": "卸载此运行环境将从系统中移除它。此操作不可逆。",
@@ -52,17 +47,13 @@
   "runtimeOptions/noCompatibleRuntimes": "未找到兼容的运行环境",
   "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
   "runtimeOptions/noRuntimes": "未找到运行环境",
-  
   "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
-  
   "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个词元（token）。注意：OpenAI 认为此端点已'弃用'。",
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个token。注意：OpenAI 认为此端点已'弃用'。",
   "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
-  
   "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
   "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
-  
   "apiConfigOptions/title": "API 配置"
 }
