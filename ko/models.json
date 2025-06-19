@@ -12,6 +12,8 @@
   "modelsTable.arch/label": "아키텍처",
   "modelsTable.params/label": "매개변수",
   "modelsTable.publisher/label": "발행자",
+  "modelsTable.displayName/label": "이름",
+  "modelsTable.modelKey/label": "모델 키",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "임베딩 모델",
   "modelsTable.quant/label": "양자화",
@@ -67,19 +69,24 @@
   "contextMenu/pin": "상단에 고정",
   "contextMenu/unpin": "고정 해제",
   "contextMenu/copyAbsolutePath": "절대 경로 복사",
-  "contextMenu/copyModelName": "모델 식별자 복사",
-  "contextMenu/openOnHuggingFace": "Hugging Face에서 열기...",
+  "contextMenu/copyModelName": "모델 경로 복사",
+  "contextMenu/copyModelDefaultIdentifier": "기본 식별자 복사",
+  "contextMenu/showRawMetadata": "원시 메타데이터 보기",
+  "contextMenu/openOnHuggingFace": "Hugging Face에서 열기",
   "tooltip/moreActions": "추가 작업",
   "tooltip/getInfo": "정보 얻기",
   "tooltip/editModelDefaultConfig": "모델 기본 구성 편집",
   "tooltip/editModelDefaultConfig/override": "모델 기본 구성 편집 (* 현재 재정의 있음)",
   "tooltip/visionBadge": "이 모델은 이미지 입력을 처리할 수 있습니다",
+  "tooltip/toolUseBadge": "이 모델은 도구 사용을 위해 훈련되었습니다",
 
   "visionBadge/label": "비전 활성화됨",
+  "toolUseBadge/label": "도구 사용을 위해 훈련됨",
 
   "loader.action.load": "모델 로드",
   "loader.action.clearChanges": "변경 사항 지우기",
   "loader.action.cancel": "취소",
   "loader.info.clickOnModelToLoad": "로드할 모델을 클릭하세요",
-  "loader.info.configureLoadParameters": "모델 로드 매개변수 구성"
+  "loader.info.configureLoadParameters": "모델 로드 매개변수 구성",
+  "loader.info.activeGeneratorWarning": "사용자 정의 생성기가 있는 플러그인을 사용 중입니다. 현재 로드된 모델은 생성기의 구현에 따라 이 플러그인에서 적용될 수도 있고 적용되지 않을 수도 있습니다"
 }

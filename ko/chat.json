@@ -89,6 +89,7 @@
   "actions/createFolderAtRoot": "새 폴더 만들기",
   "actions/createFolderAtRoot/error": "루트에서 폴더 생성 실패",
   "actions/createChat/error": "채팅 생성 실패",
+  "actions/deleteChat/errorTitle": "채팅 삭제 실패",
 
   "userFile/fileSizeLimit": "파일 크기 제한: ",
   "userFile/noImageSupport": "모델이 이미지 입력을 지원하지 않습니다",
@@ -98,7 +99,12 @@
   "userFile/unsupportedFileType": "지원되지 않는 파일 형식 - 이미지, PDF, .txt 파일만 지원됩니다.",
   "userFile/maxFilesPerMessage": "메시지당 최대 파일 수에 도달했습니다. {{files}}개 이상의 파일을 추가할 수 없습니다.",
   "userFile/maxFileSizePerMessage": "메시지당 최대 파일 크기에 도달했습니다. {{size}} 이상의 파일을 추가할 수 없습니다.",
+  "userFile/maxFileSizePerConversation": "대화당 최대 파일 크기에 도달했습니다. {{size}} 이상의 파일을 추가할 수 없습니다.",
+  "userFile/failedToUploadError/title": "파일 업로드 실패",
+  "userFile/failedToAddFile/title": "채팅에 파일 추가 실패",
   "errorTitle": "오류",
+  "userFile/chatTerminalDocumentsCount_one": "채팅에 {{count}}개의 문서",
+  "userFile/chatTerminalDocumentsCount_other": "채팅에 {{count}}개의 문서",
 
   "prediction/busyModel/title": "모델이 사용 중입니다",
   "prediction/busyModel/message": "모델이 작업을 완료할 때까지 기다렸다가 다시 시도하세요",
@@ -123,6 +129,21 @@
   "style/fontSize/large": "크게",
   "style/fontSize/small": "작게",
 
+  "style/debugBlocks/label": "디버그 정보 블록 표시",
+
+  "style/thinkingUI/label": "추론 블록을 기본적으로 확장",
+  "style/chatFullWidth/label": "채팅 컨테이너를 창 너비에 맞게 확장",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "콘텐츠 확장",
+    "collapseBlockTooltip": "콘텐츠 접기",
+    "debug": {
+      "label": "디버그 정보",
+      "collapseTooltip": "디버그 정보 블록 접기",
+      "expandTooltip": "디버그 정보 블록 확장"
+    }
+  },
+
   "topBarActions/duplicateChat": "채팅 복제",
   "topBarActions/clearChat": "모든 메시지 지우기",
   "topBarActions/clearChatConfirmation": "이 채팅의 모든 메시지를 지우시겠습니까?",
@@ -131,5 +152,72 @@
 
   "noModels.indexing": "모델 파일 인덱싱 중... (잠시 기다려주세요)",
   "noModels.downloading": "첫 번째 LLM 다운로드 중...",
-  "noModels": "아직 LLM이 없습니다! 시작하려면 하나를 다운로드하세요!"
+  "noModels": "아직 LLM이 없습니다! 시작하려면 하나를 다운로드하세요!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "플러그인",
+      "multiplePlugins": "플러그인 {{dynamicValue}}개"
+    },
+    "pluginSelect": {
+      "title": "플러그인",
+      "dropdown": {
+        "configure": "구성",
+        "disable": "비활성화",
+        "fork": "포크",
+        "uninstall": "제거"
+      },
+      "actionButtons": {
+        "create": "+ 생성",
+        "import": "가져오기",
+        "discover": "탐색"
+      },
+      "recentlyCreated": {
+        "title": "최근 생성된 플러그인",
+        "placeholder": "생성한 플러그인이 여기에 표시됩니다"
+      },
+      "startRunningDevelopmentPlugin/error": "개발 모드에서 플러그인 실행 시작 실패",
+      "stopRunningDevelopmentPlugin/error": "개발 모드에서 플러그인 실행 중지 실패"
+    },
+    "pluginConfiguration": {
+      "title": "플러그인 구성",
+      "selectAPlugin": "편집할 플러그인 선택",
+      "preprocessorAndGenerator": "이 플러그인은 사용자 정의 전처리기와 생성기를 포함합니다",
+      "generatorOnly": "이 플러그인은 사용자 정의 생성기를 포함합니다",
+      "preprocessorOnly": "이 플러그인은 사용자 정의 전처리기를 포함합니다"
+    },
+    "instructions": {
+      "runTheFollowing": "플러그인을 실행하려면 터미널에서 다음을 입력하세요",
+      "pushTo": "Hub에 플러그인을 공유하려면 푸시하세요(선택 사항)",
+      "createdSuccessfully": "플러그인이 성공적으로 생성되었습니다",
+      "creatingPlugin": "플러그인 생성 중...",
+      "projectFilesTitle": "프로젝트 파일",
+      "buttons": {
+        "documentation": "문서",
+        "dismiss": "닫기",
+        "publish": "게시",
+        "openInZed": "Zed에서 열기",
+        "openInVscode": "VS Code에서 열기",
+        "revealInFinder": "Finder에서 보기",
+        "openInFileExplorer": "파일 탐색기에서 열기"
+      }
+    }
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "초당 {{tokensPerSecond}}토큰",
+    "predictedTokensCount": "{{predictedTokensCount}}개 토큰",
+    "timeToFirstTokenSec": "첫 토큰까지 {{timeToFirstTokenSec}}초",
+    "stopReason": "중지 이유: {{stopReason}}",
+    "stopReason.userStopped": "사용자 중지",
+    "stopReason.modelUnloaded": "모델 언로드됨",
+    "stopReason.failed": "생성 실패",
+    "stopReason.eosFound": "EOS 토큰 발견",
+    "stopReason.stopStringFound": "중지 문자열 발견",
+    "stopReason.toolCalls": "도구 호출",
+    "stopReason.maxPredictedTokensReached": "최대 예측 토큰 수 도달",
+    "stopReason.contextLengthReached": "컨텍스트 길이 제한 도달",
+    "speculativeDecodedBy": "초안 모델: {{decodedBy}}",
+    "speculativeDecodingStats": "{{total}}개 중 {{accepted}}개의 초안 토큰 수락 ({{percentage}}%)"
+  }
 }

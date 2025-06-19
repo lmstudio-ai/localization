@@ -1,19 +1,23 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Извлечение...",
-  "finalizing": "Завершение загрузки... (это может занять некоторое время)",
-  "noOptions": "Нет совместимых опций для загрузки",
+  "finalizing": "Завершение скачивания... (это может занять некоторое время)",
+  "noOptions": "Нет совместимых вариантов для скачивания",
 
-  "deeplink/confirmation/title": "Загрузить модель с Hugging Face 🤗",
+  "deeplink/confirmation/title": "Скачать модель с Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Выбрать рекомендованное",
-  "deeplink/confirmation/selectOption": "Выбрать опцию загрузки",
+  "deeplink/confirmation/selectOption": "Выберите вариант для скачивания",
   "deeplink/confirmation/recommendedOption": "Вероятно, лучший вариант для большинства пользователей",
-  "deeplink/confirmation/downloadButton": "Загрузить",
+  "deeplink/confirmation/downloadButton": "Скачать",
   "deeplink/confirmation/nevermindButton": "Неважно",
   "deeplink/confirmation/modelPresent/title": "Модель Hugging Face найдена ✅",
   "deeplink/confirmation/modelPresent/body": "Хорошие новости! Этот файл модели уже доступен на вашем локальном устройстве.",
   "deeplink/confirmation/loadInChat": "Загрузить {{ modelName }} в новый чат",
   "deeplink/error/modelNotFound/title": "Ой, мы не смогли найти эту модель",
-  "deeplink/error/modelNotFound/body": "Проверьте название модели и попробуйте другую опцию загрузки.",
-  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face"
+  "deeplink/error/modelNotFound/body": "Проверьте название модели и попробуйте другой вариант скачивания.",
+  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face",
+
+  "downloadsPanel/title": "Загрузки",
+  "downloadsPanel/sectionTitle/ongoing": "В процессе",
+  "downloadsPanel/sectionTitle/completed": "Завершённые"
 }

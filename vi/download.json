@@ -15,5 +15,9 @@
   "deeplink/confirmation/loadInChat": "Tải {{ modelName }} trong cuộc trò chuyện mới",
   "deeplink/error/modelNotFound/title": "Ruh roh, chúng tôi không thể tim thấy mô hình này",
   "deeplink/error/modelNotFound/body": "Kiểm tra lại tên mô hình và cân nhắc thử tuỳ chọn tải xuống khác.",
-  "deeplink/actions/trySearching": "Hãy thử tìm kiếm {{modelName}} trên Hugging Face"
+  "deeplink/actions/trySearching": "Hãy thử tìm kiếm {{modelName}} trên Hugging Face",
+
+  "downloadsPanel/title": "Tải Xuống",
+  "downloadsPanel/sectionTitle/ongoing": "Đang Diễn Ra",
+  "downloadsPanel/sectionTitle/completed": "Đã Hoàn Thành"
 }

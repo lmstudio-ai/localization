@@ -1,0 +1,38 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Sao Chép Liên Kết Tải Xuống Mô Hình",
+
+  "filter.noMatches": "Không có kết quả trùng khớp",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Đang Trích Xuất Tài Nguyên"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Đang Kiểm Tra Khả Năng Tương Thích Của Thời Gian Chạy"
+    },
+    "indexingRuntimes": {
+      "badge": "Đang Lập Chỉ Mục Thời Gian Chạy"
+    },
+    "indexingModels": {
+      "badge": "Đang Lập Chỉ Mục Mô Hình"
+    },
+    "authenticating": {
+      "badge": "Đang Xác Thực"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Đang Cập Nhật Gói Mở Rộng ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Đăng Nhập Vào LM Studio Hub",
+    "authError": "Xác thực không thành công",
+    "noAccount": "Không có tài khoản?",
+    "signUp": "Đăng Ký",
+    "havingTrouble": "Gặp sự cố?",
+    "retry": "Thử Lại"
+  },
+  "artifacts": {
+    "fetchError": "Không thể tìm nạp hiện vật"
+  },
+  "incompatible": "Không Tương Thích",
+  "compatible": "Tương Thích"
+}

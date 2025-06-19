@@ -5,7 +5,7 @@
   "modelSettings/placeholder": "Selecione um modelo para configurá-lo",
 
   "loadedModels/noModels": "Nenhum modelo carregado",
-  
+
   "serverOptions/title": "Opções do Servidor",
   "serverOptions/configurableTitle": "Opções Configuráveis",
   "serverOptions/port/hint": "Defina qual porta de rede o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Pode ser necessário alterá-la se a porta já estiver em uso.",
@@ -22,13 +22,28 @@
   "serverOptions/network/subtitle": "Expor servidor para dispositivos na rede",
   "serverOptions/network/hint1": "Permitir conexões de outros dispositivos na rede.",
   "serverOptions/network/hint2": "Se não estiver marcado, o servidor escutará apenas no localhost.",
-  "serverOptions/verboseLogging/title": "Log Verboso",
-  "serverOptions/verboseLogging/subtitle": "Habilitar log verboso para o servidor local",
+  "serverOptions/verboseLogging/title": "Log Detalhado",
+  "serverOptions/verboseLogging/subtitle": "Habilitar log detalhado para o servidor local",
   "serverOptions/contentLogging/title": "Registrar Prompts e Respostas",
   "serverOptions/contentLogging/subtitle": "Configurações de registro de solicitações/respostas locais",
   "serverOptions/contentLogging/hint": "Se os prompts e/ou a resposta devem ser registrados no arquivo de log do servidor local.",
+  "serverOptions/fileLoggingMode/title": "Modo de Registro em Arquivo",
+  "serverOptions/fileLoggingMode/off/title": "DESLIGADO",
+  "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de log",
+  "serverOptions/fileLoggingMode/succinct/title": "Sucinto",
+  "serverOptions/fileLoggingMode/succinct/hint": "Registrar o mesmo conteúdo que no console. Solicitações longas serão truncadas.",
+  "serverOptions/fileLoggingMode/full/title": "Completo",
+  "serverOptions/fileLoggingMode/full/hint": "Não truncar solicitações longas.",
+  "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "Quando habilitado, se uma solicitação especificar um modelo que não está carregado, ele será automaticamente carregado e usado. Além disso, o endpoint \"/v1/models\" também incluirá modelos que ainda não foram carregados.",
   "serverOptions/loadModel/error": "Falha ao carregar o modelo",
-  
+  "serverOptions/jitModelLoadingTTL/title": "Descarregar automaticamente modelos carregados JIT não utilizados",
+  "serverOptions/jitModelLoadingTTL/hint": "Um modelo que foi carregado Just-in-Time (JIT) para atender a uma solicitação de API será descarregado automaticamente após ficar sem uso por um determinado período (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máximo de inatividade",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter Apenas o Último Modelo Carregado JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Garante que no máximo 1 modelo seja carregado via JIT a qualquer momento (descarrega o modelo anterior)",
+
   "serverLogs/scrollToBottom": "Ir para o final",
   "serverLogs/clearLogs": "Limpar logs ({{shortcut}})",
   "serverLogs/openLogsFolder": "Abrir pasta de logs do servidor",
@@ -47,8 +62,94 @@
   "runtimeOptions/uninstallDialog/error": "Falha ao desinstalar o tempo de execução",
   "runtimeOptions/uninstallDialog/confirm": "Continuar e Desinstalar",
   "runtimeOptions/uninstallDialog/cancel": "Cancelar",
+  "runtimeOptions/noCompatibleRuntimes": "Nenhum tempo de execução compatível encontrado",
+  "runtimeOptions/downloadIncompatibleRuntime": "Este tempo de execução foi determinado como incompatível com sua máquina. Provavelmente não funcionará.",
+  "runtimeOptions/noRuntimes": "Nenhum tempo de execução encontrado",
+
+  "runtimes": {
+    "manageLMRuntimes": "Gerenciar Tempos de Execução LM",
+    "includeOlderRuntimeVersions": "Incluir versões mais antigas do tempo de execução",
+    "dismiss": "Dispensar",
+    "updateAvailableToast": {
+      "title": "Atualização de Tempo de Execução LM Disponível!"
+    },
+    "updatedToast": {
+      "title": " ✅ Tempo de Execução LM Atualizado: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Modelos {{compatibilityTypes}} recém-carregados usarão o tempo de execução atualizado."
+    },
+    "noAvx2ErrorMessage": "Todos os Tempos de Execução LM atualmente requerem uma CPU com suporte AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Pacotes de Extensão de Tempo de Execução",
+      "refresh": "Atualizar",
+      "refreshing": "Atualizando...",
+      "filterSegment": {
+        "compatibleOnly": "Apenas Compatíveis",
+        "all": "Todos"
+      },
+      "card": {
+        "releaseNotes": "Notas da Versão",
+        "latestVersionInstalled": "Última Versão Instalada",
+        "updateAvailable": "Atualização Disponível"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Gerenciar Tempos de Execução Ativos"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Gerenciar Versões",
+        "close": "Fechar"
+      },
+      "tabs": {
+        "all": "Todos",
+        "frameworks": "Meus Frameworks",
+        "engines": "Meus Motores"
+      },
+      "detailsModal": {
+        "installedVersions": "Versões instaladas para {{runtimeName}}",
+        "manifestJsonTitle": "JSON do Manifesto (avançado)",
+        "releaseNotesTitle": "Notas da Versão",
+        "noReleaseNotes": "Nenhuma nota de versão disponível para esta versão",
+        "back": "Voltar",
+        "close": "Fechar"
+      },
+      "noEngines": "Nenhum motor instalado",
+      "noFrameworks": "Nenhum framework instalado"
+    }
+  },
 
   "inferenceParams/noParams": "Nenhum parâmetro de inferência configurável disponível para este tipo de modelo",
+
+  "quickDocs": {
+    "tabChipTitle": "Docs Rápidos",
+    "newToolUsePopover": "Trechos de Código estão agora disponíveis aqui em \"Docs Rápidos\". Clique aqui para começar com o uso de ferramentas!",
+    "newToolUsePopoverTitle": "📚 Docs Rápidos",
+    "learnMore": "ℹ️ 👾 Para saber mais sobre os endpoints do servidor local do LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Olá, Mundo!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Saída Estruturada"
+    },
+    "imageInput": {
+      "title": "Entrada de Imagem"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Uso de Ferramentas",
+      "tab": {
+        "saveAsPythonFile": "Salvar como arquivo Python",
+        "runTheScript": "Execute o script:",
+        "savePythonFileCopyPaste": "Salvar como arquivo Python para um comando de copiar e colar"
+      }
+    },
+    "newBadge": "Novo"
+  },
 
   "endpoints/openaiCompatRest/title": "Endpoints suportados (compatíveis com OpenAI)",
   "endpoints/openaiCompatRest/getModels": "Liste os modelos carregados atualmente",
@@ -58,6 +159,11 @@
 
   "model.createVirtualModelFromInstance": "Salvar Configurações como um Novo Modelo Virtual",
   "model.createVirtualModelFromInstance/error": "Falha ao salvar as configurações como um novo modelo virtual",
+
+  "model": {
+    "toolUseSectionTitle": "Uso de Ferramentas",
+    "toolUseDescription": "Este modelo foi detectado como treinado para uso de ferramentas\n\nAbra <custom-link>docs rápidos</custom-link> para mais informações"
+  },
 
   "apiConfigOptions/title": "Configuração da API"
 }

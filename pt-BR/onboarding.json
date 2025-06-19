@@ -20,5 +20,23 @@
         "description": "O LLM analisará sua consulta e os trechos recuperados de seus documentos, e tentará gerar uma resposta. Experimente diferentes consultas para encontrar o que funciona melhor."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Uso de Ferramentas 🛠️ (Chamada de Função)",
+      "text_0": "Alguns modelos (ex: Llama 3.1/3.2, Mistral, Qwen e mais) foram treinados para usar ferramentas.",
+      "text_1": "O que isso significa na prática é: você fornece uma lista de 'ferramentas' (assinaturas de função) ao LLM em um formato muito particular, e o LLM pode decidir se deve 'chamá-las' com base no prompt do usuário.",
+      "text_2": "Você pode imaginar casos de uso como consultar uma API, executar código ou realmente qualquer coisa que possa ser expressa como uma chamada de função."
+    },
+    "step_1": {
+      "title": "Comece a usar Ferramentas",
+      "toolUseCanWorkWithAnyModel": "Modelos que foram treinados para uso de ferramentas terão um desempenho melhor do que outros, mas você pode tentar usar ferramentas com qualquer modelo. Leia a <customlink>documentação</customlink> para saber mais.\nModelos que foram treinados para uso de ferramentas serão marcados com um novo selo:",
+      "hasCompatibleModel": "🎉 Parece que você já tem modelos com suporte a ferramentas!",
+      "downloadRecommendedModel": "Baixe um modelo que foi treinado para uso de ferramentas:"
+    },
+    "nextButton": "Próximo",
+    "letsGoButton": "Carregar modelo e iniciar servidor",
+    "doneButton": "Dispensar"
   }
 }

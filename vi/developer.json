@@ -1,23 +1,52 @@
 {
+  "tabs/server": "Máy Chủ Cục Bộ",
+  "tabs/extensions": "Thời Gian Chạy LM",
   "loadSettings/title": "Tải cài đặt",
   "modelSettings/placeholder": "Chọn một mô hình để cấu hình nó",
 
+  "loadedModels/noModels": "Không có mô hình nào được tải",
+
   "serverOptions/title": "Tuỳ chọn Máy chủ",
+  "serverOptions/configurableTitle": "Tùy Chọn Cấu Hình",
   "serverOptions/port/hint": "Đặt cổng mạng mà máy chủ cục bộ sẽ sử dụng. Mặc định, LM Studio sử dụng cổng 1234. Bạn có thể cần thay đổi điều này nếu cổng đã được sử dụng.",
+  "serverOptions/port/subtitle": "Cổng để lắng nghe",
+  "serverOptions/autostart/title": "Tự Động Khởi Động Máy Chủ",
+  "serverOptions/autostart/hint": "Tự động bật máy chủ LLM cục bộ của LM Studio khi ứng dụng hoặc dịch vụ khởi động",
+  "serverOptions/port/integerWarning": "Số cổng phải là một số nguyên",
+  "serverOptions/port/invalidPortWarning": "Cổng phải nằm trong khoảng từ 1 đến 65535",
   "serverOptions/cors/title": "Bật CORS",
   "serverOptions/cors/hint1": "Bật CORS (Cross-origin Resource Sharing) sẽ cho phép các trang web bạn truy cập gửi yêu cầu đến máy chủ LM Studio.",
   "serverOptions/cors/hint2": "CORS có thể cần thiết khi gửi yêu cầu từ một trang web hoặc VS Code / tiện ích mở rộng khác.",
+  "serverOptions/cors/subtitle": "Cho phép các yêu cầu đa nguồn gốc",
   "serverOptions/network/title": "Phục vụ trên Mang Cục Bộ",
   "serverOptions/network/subtitle": "Làm cho máy chủ này hiển thị cho các thiết bị khác trên mạng",
   "serverOptions/network/hint1": "Cho phép kết nối từ các thiết bị khác trên mạng.",
   "serverOptions/network/hint2": "Nếu không được chọn, máy chủ chỉ lắng nghe trên localhost.",
   "serverOptions/verboseLogging/title": "Ghi nhật ký chi tiết",
+  "serverOptions/verboseLogging/subtitle": "Bật ghi nhật ký chi tiết cho máy chủ cục bộ",
   "serverOptions/contentLogging/title": "Ghi lại Lời nhắc và Phản hồi",
+  "serverOptions/contentLogging/subtitle": "Cài đặt ghi nhật ký yêu cầu / phản hồi cục bộ",
   "serverOptions/contentLogging/hint": "Có ghi lại lời nhắc và/hoặc phản hồi trong tệp nhật ký máy chủ cục bộ.",
+  "serverOptions/fileLoggingMode/title": "Chế Độ Ghi Nhật Ký Tệp",
+  "serverOptions/fileLoggingMode/off/title": "TẮT",
+  "serverOptions/fileLoggingMode/off/hint": "Không tạo tệp nhật ký",
+  "serverOptions/fileLoggingMode/succinct/title": "Súc Tích",
+  "serverOptions/fileLoggingMode/succinct/hint": "Ghi nhật ký cùng nội dung như trong bảng điều khiển. Các yêu cầu dài sẽ bị cắt bớt.",
+  "serverOptions/fileLoggingMode/full/title": "Đầy Đủ",
+  "serverOptions/fileLoggingMode/full/hint": "Không cắt bớt các yêu cầu dài.",
+  "serverOptions/jitModelLoading/title": "Tải Mô Hình Đúng Lúc",
+  "serverOptions/jitModelLoading/hint": "Khi bật, nếu một yêu cầu chỉ định một mô hình chưa được tải, nó sẽ tự động được tải và sử dụng. Ngoài ra, điểm cuối \"/v1/models\" cũng sẽ bao gồm các mô hình chưa được tải.",
   "serverOptions/loadModel/error": "Không thể tải mô hình",
+  "serverOptions/jitModelLoadingTTL/title": "Tự động dỡ các mô hình đã tải JIT không sử dụng",
+  "serverOptions/jitModelLoadingTTL/hint": "Một mô hình được tải Just-in-time (JIT) để phục vụ một yêu cầu API sẽ tự động được dỡ sau khi không được sử dụng trong một khoảng thời gian nhất định (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL rảnh tối đa",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "phút",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Chỉ Giữ Lại Mô Hình Đã Tải JIT Cuối Cùng",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Đảm bảo tối đa 1 mô hình được tải qua JIT tại bất kỳ thời điểm nào (dỡ mô hình trước đó)",
 
   "serverLogs/scrollToBottom": "Nhảy đến cuối",
   "serverLogs/clearLogs": "Xóa logs ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Mở thư mục nhật ký máy chủ",
 
   "runtimeSettings/title": "Cài đặt Runtime",
   "runtimeSettings/chooseRuntime/title": "Cấu hình Runtime",
@@ -33,12 +62,108 @@
   "runtimeOptions/uninstallDialog/error": "Không thể gỡ cài đặt runtime",
   "runtimeOptions/uninstallDialog/confirm": "Tiếp tục và Gỡ cài đặt",
   "runtimeOptions/uninstallDialog/cancel": "Hủy",
+  "runtimeOptions/noCompatibleRuntimes": "Không tìm thấy thời gian chạy tương thích",
+  "runtimeOptions/downloadIncompatibleRuntime": "Thời gian chạy này được xác định là không tương thích với máy của bạn. Rất có thể nó sẽ không hoạt động.",
+  "runtimeOptions/noRuntimes": "Không tìm thấy thời gian chạy nào",
+
+  "runtimes": {
+    "manageLMRuntimes": "Quản Lý Thời Gian Chạy LM",
+    "includeOlderRuntimeVersions": "Bao gồm các phiên bản thời gian chạy cũ hơn",
+    "dismiss": "Bỏ qua",
+    "updateAvailableToast": {
+      "title": "Cập Nhật Thời Gian Chạy LM Có Sẵn!"
+    },
+    "updatedToast": {
+      "title": " ✅ Đã Cập Nhật Thời Gian Chạy LM: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Các mô hình {{compatibilityTypes}} mới tải sẽ sử dụng thời gian chạy đã cập nhật."
+    },
+    "noAvx2ErrorMessage": "Tất cả các Thời Gian Chạy LM hiện tại đều yêu cầu CPU có hỗ trợ AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Gói Mở Rộng Thời Gian Chạy",
+      "refresh": "Làm mới",
+      "refreshing": "Đang làm mới...",
+      "filterSegment": {
+        "compatibleOnly": "Chỉ Tương Thích",
+        "all": "Tất cả"
+      },
+      "card": {
+        "releaseNotes": "Ghi chú phát hành",
+        "latestVersionInstalled": "Phiên bản mới nhất đã cài đặt",
+        "updateAvailable": "Cập nhật có sẵn"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Quản Lý Thời Gian Chạy Đang Hoạt Động"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Quản lý phiên bản",
+        "close": "Đóng"
+      },
+      "tabs": {
+        "all": "Tất cả",
+        "frameworks": "Framework của tôi",
+        "engines": "Engine của tôi"
+      },
+      "detailsModal": {
+        "installedVersions": "Các phiên bản đã cài đặt cho {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (nâng cao)",
+        "releaseNotesTitle": "Ghi Chú Phát Hành",
+        "noReleaseNotes": "Không có ghi chú phát hành nào cho phiên bản này",
+        "back": "Quay lại",
+        "close": "Đóng"
+      },
+      "noEngines": "Không có engine nào được cài đặt",
+      "noFrameworks": "Không có framework nào được cài đặt"
+    }
+  },
+
+  "inferenceParams/noParams": "Không có tham số suy luận nào có thể cấu hình cho loại mô hình này",
+
+  "quickDocs": {
+    "tabChipTitle": "Tài Liệu Nhanh",
+    "newToolUsePopover": "Các đoạn mã hiện đã có ở đây trong \"Tài Liệu Nhanh\". Nhấn vào đây để bắt đầu sử dụng công cụ!",
+    "newToolUsePopoverTitle": "📚 Tài Liệu Nhanh",
+    "learnMore": "ℹ️ 👾 Để tìm hiểu thêm về các điểm cuối máy chủ cục bộ của LM Studio, hãy truy cập [tài liệu](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Xin Chào Thế Giới!"
+      },
+    "chat": {
+      "title": "Trò Chuyện"
+    },
+    "structuredOutput": {
+      "title": "Đầu Ra Có Cấu Trúc"
+    },
+    "imageInput": {
+      "title": "Đầu Vào Hình Ảnh"
+    },
+    "embeddings": {
+      "title": "Nhúng"
+    },
+    "toolUse": {
+      "title": "Sử Dụng Công Cụ",
+      "tab": {
+        "saveAsPythonFile": "Lưu dưới dạng tệp Python",
+        "runTheScript": "Chạy tập lệnh:",
+        "savePythonFileCopyPaste": "Lưu dưới dạng tệp Python để sao chép và dán lệnh"
+        }
+      },
+    "newBadge": "Mới"
+  },
 
   "endpoints/openaiCompatRest/title": "Các endpoint được hỗ trợ (tương tự OpenAI)",
   "endpoints/openaiCompatRest/getModels": "Liệt kê các mô hình hiện đang được tải",
   "endpoints/openaiCompatRest/postCompletions": "Chế độ Hoàn Tất Văn Bản. Dự đoán token tiếp theo dựa trên một lời nhắc. Lưu ý: OpenAI coi endpoint này là 'đã lỗi thời'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Hoàn Tất Cuộc Trò Chuyện. Gửi lịch sử trò chuyện đến mô hình để dự đoán phản hồi tiếp theo của trợ lý",
   "endpoints/openaiCompatRest/postEmbeddings": "Nhúng Văn Bản. Tạo các nhúng văn bản cho một đầu vào văn bản đã cho. Nhận một chuỗi hoặc mảng chuỗi.",
+
+  "model.createVirtualModelFromInstance": "Lưu Cài Đặt Thành Mô Hình Ảo Mới",
+  "model.createVirtualModelFromInstance/error": "Không thể lưu cài đặt thành mô hình ảo mới",
+
+  "model": {
+  "toolUseSectionTitle": "Sử Dụng Công Cụ",
+  "toolUseDescription": "Mô hình này được phát hiện đã được huấn luyện để sử dụng công cụ\n\nMở <custom-link>tài liệu nhanh</custom-link> để biết thêm thông tin"
+  },
 
   "apiConfigOptions/title": "Cấu hình API"
 }

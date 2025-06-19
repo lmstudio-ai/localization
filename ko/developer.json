@@ -1,6 +1,6 @@
 {
   "tabs/server": "로컬 서버",
-  "tabs/extensions": "확장 프로그램",
+  "tabs/extensions": "LM 런타임",
   "loadSettings/title": "설정 로드",
   "modelSettings/placeholder": "구성할 모델 선택",
 
@@ -11,7 +11,7 @@
   "serverOptions/port/hint": "로컬 서버가 사용할 네트워킹 포트를 설정합니다. 기본적으로 LM Studio는 포트 1234를 사용합니다. 포트가 이미 사용 중인 경우 변경해야 할 수 있습니다.",
   "serverOptions/port/subtitle": "청취할 포트",
   "serverOptions/autostart/title": "서버 자동 시작",
-  "serverOptions/autostart/hint": "모델이 로드될 때 로컬 서버를 자동으로 시작합니다",
+  "serverOptions/autostart/hint": "앱 또는 서비스 시작 시 LM Studio의 로컬 LLM 서버를 자동으로 켭니다",
   "serverOptions/port/integerWarning": "포트 번호는 정수여야 합니다",
   "serverOptions/port/invalidPortWarning": "포트는 1과 65535 사이여야 합니다",
   "serverOptions/cors/title": "CORS 활성화",
@@ -27,19 +27,32 @@
   "serverOptions/contentLogging/title": "프롬프트 및 응답 로깅",
   "serverOptions/contentLogging/subtitle": "로컬 요청 / 응답 로깅 설정",
   "serverOptions/contentLogging/hint": "로컬 서버 로그 파일에 프롬프트 및/또는 응답을 기록할지 여부입니다.",
+  "serverOptions/fileLoggingMode/title": "파일 로깅 모드",
+  "serverOptions/fileLoggingMode/off/title": "꺼짐",
+  "serverOptions/fileLoggingMode/off/hint": "로그 파일 생성 안 함",
+  "serverOptions/fileLoggingMode/succinct/title": "간결함",
+  "serverOptions/fileLoggingMode/succinct/hint": "콘솔과 동일한 내용 로깅. 긴 요청은 잘립니다.",
+  "serverOptions/fileLoggingMode/full/title": "전체",
+  "serverOptions/fileLoggingMode/full/hint": "긴 요청을 자르지 않습니다.",
   "serverOptions/jitModelLoading/title": "실시간 모델 로딩",
   "serverOptions/jitModelLoading/hint": "활성화되면 요청에 로드되지 않은 모델이 지정된 경우 자동으로 로드되어 사용됩니다. 또한 \"/v1/models\" 엔드포인트에는 아직 로드되지 않은 모델도 포함됩니다.",
   "serverOptions/loadModel/error": "모델 로드 실패",
+  "serverOptions/jitModelLoadingTTL/title": "사용하지 않는 JIT 로드 모델 자동 언로드",
+  "serverOptions/jitModelLoadingTTL/hint": "API 요청을 처리하기 위해 실시간(JIT)으로 로드된 모델은 일정 시간(TTL) 동안 사용되지 않으면 자동으로 언로드됩니다.",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "최대 유휴 TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "분",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "마지막 JIT 로드 모델만 유지",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "언제든지 JIT를 통해 로드된 모델이 최대 1개만 있도록 합니다(이전 모델 언로드)",
 
   "serverLogs/scrollToBottom": "맨 아래로 이동",
   "serverLogs/clearLogs": "로그 지우기 ({{shortcut}})",
   "serverLogs/openLogsFolder": "서버 로그 폴더 열기",
 
   "runtimeSettings/title": "런타임 설정",
-  "runtimeSettings/chooseRuntime/title": "런타임 구성",
-  "runtimeSettings/chooseRuntime/description": "각 모델 형식에 대한 런타임 선택",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "모든 버전 표시",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "기본적으로 LM Studio는 각 런타임의 최신 버전만 표시합니다. 이 옵션을 활성화하면 사용 가능한 모든 버전을 볼 수 있습니다.",
+  "runtimeSettings/chooseRuntime/title": "기본 선택",
+  "runtimeSettings/chooseRuntime/description": "각 모델 형식에 대한 기본 런타임 선택",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "모든 런타임 표시",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "기본적으로 LM Studio는 각 호환 런타임의 최신 버전만 표시합니다. 이 옵션을 활성화하면 사용 가능한 모든 런타임을 볼 수 있습니다.",
   "runtimeSettings/chooseRuntime/select/placeholder": "런타임 선택",
 
   "runtimeOptions/uninstall": "제거",
@@ -53,9 +66,92 @@
   "runtimeOptions/downloadIncompatibleRuntime": "이 런타임은 귀하의 기기와 호환되지 않는 것으로 판단되었습니다. 작동하지 않을 가능성이 높습니다.",
   "runtimeOptions/noRuntimes": "런타임을 찾을 수 없습니다",
 
+  "runtimes": {
+    "manageLMRuntimes": "LM 런타임 관리",
+    "includeOlderRuntimeVersions": "이전 런타임 버전 포함",
+    "dismiss": "무시",
+    "updateAvailableToast": {
+      "title": "LM 런타임 업데이트 가능!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM 런타임 업데이트됨: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "새로 로드된 {{compatibilityTypes}} 모델은 업데이트된 런타임을 사용합니다."
+    },
+    "noAvx2ErrorMessage": "현재 모든 LM 런타임은 AVX2를 지원하는 CPU가 필요합니다",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "런타임 확장 팩",
+      "refresh": "새로 고침",
+      "refreshing": "새로 고침 중...",
+      "filterSegment": {
+        "compatibleOnly": "호환 가능만",
+        "all": "모두"
+      },
+      "card": {
+        "releaseNotes": "릴리스 노트",
+        "latestVersionInstalled": "최신 버전 설치됨",
+        "updateAvailable": "업데이트 가능"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "활성 런타임 관리"
+      },
+      "dropdownOptions": {
+        "installedVersions": "버전 관리",
+        "close": "닫기"
+      },
+      "tabs": {
+        "all": "모두",
+        "frameworks": "내 프레임워크",
+        "engines": "내 엔진"
+      },
+      "detailsModal": {
+        "installedVersions": "{{runtimeName}}의 설치된 버전",
+        "manifestJsonTitle": "매니페스트 JSON (고급)",
+        "releaseNotesTitle": "릴리스 노트",
+        "noReleaseNotes": "이 버전에 대한 릴리스 노트가 없습니다",
+        "back": "뒤로",
+        "close": "닫기"
+      },
+      "noEngines": "설치된 엔진 없음",
+      "noFrameworks": "설치된 프레임워크 없음"
+    }
+  },
+
   "inferenceParams/noParams": "이 모델 유형에는 구성 가능한 추론 매개변수가 없습니다",
 
-  "endpoints/openaiCompatRest/title": "지원되는 엔드포인트 (OpenAI like)",
+  "quickDocs": {
+    "tabChipTitle": "빠른 문서",
+    "newToolUsePopover": "코드 스니펫이 이제 \"빠른 문서\"에서 사용 가능합니다. 여기를 클릭하여 도구 사용을 시작하세요!",
+    "newToolUsePopoverTitle": "📚 빠른 문서",
+    "learnMore": "ℹ️ 👾 LM Studio 로컬 서버 엔드포인트에 대해 자세히 알아보려면 [문서](https://lmstudio.ai/docs)를 방문하세요.",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "채팅"
+    },
+    "structuredOutput": {
+      "title": "구조화된 출력"
+    },
+    "imageInput": {
+      "title": "이미지 입력"
+    },
+    "embeddings": {
+      "title": "임베딩"
+    },
+    "toolUse": {
+      "title": "도구 사용",
+      "tab": {
+        "saveAsPythonFile": "Python 파일로 저장",
+        "runTheScript": "스크립트 실행:",
+        "savePythonFileCopyPaste": "복사 및 붙여넣기 명령어용 Python 파일로 저장"
+      }
+    },
+    "newBadge": "신규"
+  },
+
+  "endpoints/openaiCompatRest/title": "지원되는 엔드포인트 (OpenAI-like)",
   "endpoints/openaiCompatRest/getModels": "현재 로드된 모델 목록",
   "endpoints/openaiCompatRest/postCompletions": "텍스트 완성 모드. 프롬프트를 제공하여 다음 토큰을 예측합니다. 참고: OpenAI는 이 엔드포인트를 '사용 중단'으로 간주합니다.",
   "endpoints/openaiCompatRest/postChatCompletions": "채팅 완성. 모델에 채팅 기록을 보내어 다음 어시스턴트 응답을 예측합니다",
@@ -63,6 +159,11 @@
 
   "model.createVirtualModelFromInstance": "설정을 새 가상 모델로 저장",
   "model.createVirtualModelFromInstance/error": "설정을 새 가상 모델로 저장하지 못했습니다",
+
+  "model": {
+    "toolUseSectionTitle": "도구 사용",
+    "toolUseDescription": "이 모델은 도구 사용을 위해 훈련된 것으로 감지되었습니다\n\n자세한 정보는 <custom-link>빠른 문서</custom-link>를 참조하세요"
+  },
 
   "apiConfigOptions/title": "API 구성"
 }

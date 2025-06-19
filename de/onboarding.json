@@ -20,5 +20,23 @@
           "description": "Das LLM betrachtet Ihre Anfrage und die abgerufenen Auszüge aus Ihren Dokumenten und versucht, eine Antwort zu generieren. Experimentieren Sie mit verschiedenen Anfragen, um herauszufinden, was am besten funktioniert."
         }
       }
+    },
+
+    "toolUse": {
+      "step_0": {
+        "title": "Beta: Toolverwendung 🛠️ (Funktionsaufruf)",
+        "text_0": "Einige Modelle (z. B. Llama 3.1/3.2, Mistral, Qwen und mehr) wurden trainiert, um Werkzeuge zu verwenden.",
+        "text_1": "Was das in der Praxis bedeutet: Sie stellen dem LLM ein Array von 'Werkzeugen' (Funktionssignaturen) in einem sehr bestimmten Format zur Verfügung, und das LLM kann entscheiden, ob es diese basierend auf der Eingabe des Benutzers 'aufrufen' möchte.",
+        "text_2": "Sie können sich Anwendungsfälle wie das Abfragen einer API, das Ausführen von Code oder wirklich alles vorstellen, was als Funktionsaufruf ausgedrückt werden kann."
+      },
+      "step_1": {
+        "title": "Erste Schritte mit der Werkzeugnutzung",
+        "toolUseCanWorkWithAnyModel": "Modelle, die für die Werkzeugnutzung trainiert wurden, werden besser abschneiden als andere, aber Sie können versuchen, Werkzeuge mit jedem Modell zu verwenden. Lesen Sie die <customlink>Dokumentation</customlink>, um mehr zu erfahren.\nModelle, die für die Werkzeugnutzung trainiert wurden, werden mit einem neuen Badge gekennzeichnet:",
+        "hasCompatibleModel": "🎉 Es sieht so aus, als hätten Sie bereits Modelle mit Unterstützung für Werkzeuge!",
+        "downloadRecommendedModel": "Laden Sie ein Modell herunter, das für die Werkzeugnutzung trainiert wurde:"
+      },
+      "nextButton": "Weiter",
+      "letsGoButton": "Modell laden und Server starten",
+      "doneButton": "Schließen"
     }
   }

@@ -1,0 +1,68 @@
+{
+  "tabs/server": "Локален сървър",
+  "tabs/extensions": "LM среди за изпълнение",
+  "loadSettings/title": "Зареждане на настройки",
+  "modelSettings/placeholder": "Маркиране на модел и неговото конфигуриране",
+
+  "loadedModels/noModels": "Няма заредени модели",
+
+  "serverOptions/title": "Опции на сървъра",
+  "serverOptions/configurableTitle": "Настройки за конфигуриране",
+  "serverOptions/port/hint": "Задайте кой мрежови порт ще използва локалният сървър. По подразбиране LM Studio използва порт 1234. Необходимо е да промените порта, ако вече го използвате.",
+  "serverOptions/port/subtitle": "Порт за слушане",
+  "serverOptions/autostart/title": "Автоматичен старт на сървира",
+  "serverOptions/autostart/hint": "Стартирай локалния сървър автоматично, когато модела се зареди",
+  "serverOptions/port/integerWarning": "Номера на порта трябва да е целочислено число",
+  "serverOptions/port/invalidPortWarning": "Диапазона на порта трябва да е между 1 и 65535",
+  "serverOptions/cors/title": "Активирай CORS",
+  "serverOptions/cors/hint1": "Активирай CORS (Споделяне на ресурси между различни източници) би позволило на уебсайтовете, които посещавате, да изпращат заявки към сървъра на LM Studio.",
+  "serverOptions/cors/hint2": "CORS може да бъде необходимо при изпращане на заявки от уеб страница или VS Code / други разширения.",
+  "serverOptions/cors/subtitle": "Разрешаване на cross-origin заявки",
+  "serverOptions/network/title": "Сървър на Локална мрежа",
+  "serverOptions/network/subtitle": "Позволяване на достъп до сървъра за устройствата в мрежата.",
+  "serverOptions/network/hint1": "Дали да се разрешат връзки от други устройства в мрежата.",
+  "serverOptions/network/hint2": "Ако не е отметнато, сървърът ще слуша само на localhost.",
+  "serverOptions/verboseLogging/title": "Детайлно записване на логове.",
+  "serverOptions/verboseLogging/subtitle": "Включи детайлно записване на логове за локалния сървър",
+  "serverOptions/contentLogging/title": "Записване на логове за промтовете и отговорите",
+  "serverOptions/contentLogging/subtitle": "Настройки за локално записване на заявки и отговори.",
+  "serverOptions/contentLogging/hint": "Дали да се записват промтовете и/или отговорите в локалния сървърен лог файл",
+  "serverOptions/jitModelLoading/title": "Зареждане на модел в реално време",
+  "serverOptions/jitModelLoading/hint": "Когато е активирано, ако заявката посочи модел, който не е зареден, той ще бъде автоматично зареден и използван. В допълнение, \"/v1/models\" ще включва и модели, които все още не са заредени",
+  "serverOptions/loadModel/error": "Грешка при зареждане на модела",
+
+  "serverLogs/scrollToBottom": "Превърти до края",
+  "serverLogs/clearLogs": "Затриване на ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Отвори сървърната директория с логове",
+
+  "runtimeSettings/title": "Настройки за среди за изпълнение",
+  "runtimeSettings/chooseRuntime/title": "Конфигуриране на среди за изпълнение",
+  "runtimeSettings/chooseRuntime/description": "Покажи всеки формат на модела за среди на изпълнение",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Покажи всички изпълнения",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По подразбиране, LM Studio показва само последната версия за съвместимост при среда за изпълнение. Активирай тази опция да е видима за всички среди за изпъление",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Маркирай среда за изпълнение",
+
+  "runtimeOptions/uninstall": "Премахни",
+  "runtimeOptions/uninstallDialog/title": "Премахни {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Започва премахване на средата за изпълнение от системата. Това действие е необратимо.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Някои файлове може да бъдат премахнати само след рестартирането на LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Грешка при премахването на среда за изпълнението",
+  "runtimeOptions/uninstallDialog/confirm": "Продължи и премахни",
+  "runtimeOptions/uninstallDialog/cancel": "Откажи",
+  "runtimeOptions/noCompatibleRuntimes": "Не са намерени съвместими изпълнения",
+  "runtimeOptions/downloadIncompatibleRuntime": "Тази среда за изпълнение не е съвместима с вашия компютър. Най-вероятно няма да проработи.",
+  "runtimeOptions/noRuntimes": "Не са намерени среди за изпълнения",
+
+  "inferenceParams/noParams": "Няма налични конфигурируеми параметри за извеждане за този тип модел",
+
+  "endpoints/openaiCompatRest/title": "Поддържани връзки (OpenAI-like)",
+  "endpoints/openaiCompatRest/getModels": "Списък с текущо заредените модели",
+  "endpoints/openaiCompatRest/postCompletions": "Режим на текстови допълнения. Предсказва следващия/следващите токен(и) въз основа на подаден промпт. БЕЛЕЖКА: OpenAI счита това правило за 'остаряло'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Допълнения към чата. Изпратете история на чата към модела, за да предскаже следващия отговор на асистента.",
+  "endpoints/openaiCompatRest/postEmbeddings": "Генерира добавания на текст за даден текстов вход. Приема низ или масив от низове.",
+
+  "model.createVirtualModelFromInstance": "Запази настройките като нов виртуален модел",
+  "model.createVirtualModelFromInstance/error": "Грешка при запазването на насторйките като нов виртуален модел",
+
+  "apiConfigOptions/title": "API Конфигуратор"
+}

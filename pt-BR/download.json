@@ -12,8 +12,13 @@
   "deeplink/confirmation/nevermindButton": "Deixa pra lá",
   "deeplink/confirmation/modelPresent/title": "Modelo Hugging Face Encontrado ✅",
   "deeplink/confirmation/modelPresent/body": "Boas notícias! Este arquivo de modelo já está disponível na sua máquina local.",
-  "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} em um novo chat",
+  "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} em uma nova conversa",
   "deeplink/error/modelNotFound/title": "Ops, não conseguimos encontrar este modelo",
-  "deeplink/error/modelNotFound/body": "Verifique o nome do modelo e considere tentar uma opção de download diferente.",
-  "deeplink/actions/trySearching": "Tente procurar por {{modelName}} no Hugging Face"
+  "deeplink/error/modelNotFound/body": "Verifique novamente o nome do modelo e considere tentar uma opção de download diferente.",
+  "deeplink/actions/trySearching": "Tente procurar por {{modelName}} no Hugging Face",
+
+  "downloadsPanel/title": "Downloads",
+  "downloadsPanel/sectionTitle/ongoing": "Em andamento",
+  "downloadsPanel/sectionTitle/completed": "Concluídos"
 }
+  

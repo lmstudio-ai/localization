@@ -1,23 +1,23 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Entpacke...",
+  "postDownloadActionExecutor.zipExtraction/status": "Wird extrahiert...",
   "finalizing": "Download wird abgeschlossen... (dies kann einen Moment dauern)",
-  "noOptions": "Keine kompatiblen Optionen für den Download verfügbar",
+  "noOptions": "Keine kompatiblen Optionen zum Download verfügbar",
 
-  "deeplink/confirmation/title": "Modell von Hugging Face 🤗 herunterladen",
+  "deeplink/confirmation/title": "Modell von Hugging Face herunterladen 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Empfohlene Option auswählen",
+  "deeplink/confirmation/selectRecommended": "Empfohlen auswählen",
   "deeplink/confirmation/selectOption": "Download-Option auswählen",
   "deeplink/confirmation/recommendedOption": "Wahrscheinlich die beste Option für die meisten Benutzer",
   "deeplink/confirmation/downloadButton": "Herunterladen",
   "deeplink/confirmation/nevermindButton": "Abbrechen",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face-Modell gefunden ✅",
-  "deeplink/confirmation/modelPresent/body": "Gute Nachrichten! Diese Modelldatei ist bereits auf Ihrem lokalen Rechner verfügbar.",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face Modell gefunden ✅",
+  "deeplink/confirmation/modelPresent/body": "Gute Nachrichten! Diese Modelldatei ist bereits auf Ihrem lokalen Computer verfügbar.",
   "deeplink/confirmation/loadInChat": "{{ modelName }} in einem neuen Chat laden",
-  "deeplink/error/modelNotFound/title": "Oh je, wir konnten dieses Modell nicht finden",
-  "deeplink/error/modelNotFound/body": "Überprüfen Sie den Modellnamen und versuchen Sie es mit einer anderen Download-Option.",
+  "deeplink/error/modelNotFound/title": "Oh oh, wir konnten dieses Modell nicht finden",
+  "deeplink/error/modelNotFound/body": "Überprüfen Sie den Modellnamen und erwägen Sie, eine andere Download-Option auszuprobieren.",
   "deeplink/actions/trySearching": "Versuchen Sie, nach {{modelName}} auf Hugging Face zu suchen",
 
   "downloadsPanel/title": "Downloads",
-  "downloadsPanel/sectionTitle/ongoing": "Laufende",
+  "downloadsPanel/sectionTitle/ongoing": "Laufend",
   "downloadsPanel/sectionTitle/completed": "Abgeschlossen"
 }

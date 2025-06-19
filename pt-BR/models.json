@@ -1,7 +1,8 @@
 {
-
   "pageTitle": "Meus Modelos",
   "filterModels.placeholder": "Filtrar modelos...",
+  "aggregate_one": "Você tem {{count}} modelo local, ocupando {{size}} de espaço em disco.",
+  "aggregate_other": "Você tem {{count}} modelos locais, ocupando {{size}} de espaço em disco.",
 
   "noModels.title": "Seus LLMs locais aparecerão aqui.",
   "noModels.discoverButtonText.prefix": "Clique no",
@@ -11,14 +12,16 @@
   "modelsTable.arch/label": "Arquitetura",
   "modelsTable.params/label": "Parâmetros",
   "modelsTable.publisher/label": "Publicador",
-  "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Modelo de Embedding",
-  "modelsTable.quant/label": "Quantização",
+  "modelsTable.displayName/label": "Nome",
+  "modelsTable.modelKey/label": "Chave do Modelo",
   "modelsTable.size/label": "Tamanho",
   "modelsTable.dateModified/label": "Data de Modificação",
   "modelsTable.actions/label": "Ações",
 
-  
+  "modelsTable.quant/label": "Quant",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "Modelo de Embedding",
+
   "action.model.delete": "Excluir",
   "action.model.delete.full": "Excluir Modelo",
   "action.model.delete.confirmation/title": "Excluir {{name}}",
@@ -40,7 +43,7 @@
   "loader.model.bundled": "Agrupado",
   "action.cancel": "Cancelar",
   "indexingOngoing": "Indexando modelos... Isso pode levar alguns segundos",
-  "index/error_one": "Falha ao indexar a pasta a seguir:",
+  "index/error_one": "Falha ao indexar a seguinte pasta:",
   "index/error_other": "Falha ao indexar as seguintes pastas:",
   "badModels/title_one": "Falha ao indexar o seguinte modelo:",
   "badModels/title_other": "Falha ao indexar os seguintes modelos:",
@@ -62,20 +65,29 @@
   "loadState/unloaded": "Descarregado",
   "loadState/unloading": "Descarregando",
   "loadState/idle": "Ocioso",
+  "pinned": "Este modelo está fixado. Clique com o botão direito para desafixar.",
+  "lastUsed": "Usado por Último",
+  "contextMenu/pin": "Fixar no Topo",
+  "contextMenu/unpin": "Desafixar",
   "contextMenu/copyAbsolutePath": "Copiar Caminho Absoluto",
   "contextMenu/copyModelName": "Copiar Identificador do Modelo",
+  "contextMenu/copyModelDefaultIdentifier": "Copiar Identificador Padrão",
+  "contextMenu/showRawMetadata": "Mostrar Metadados Brutos",
   "contextMenu/openOnHuggingFace": "Abrir no Hugging Face...",
   "tooltip/moreActions": "Mais Ações",
   "tooltip/getInfo": "Obter Informações",
   "tooltip/editModelDefaultConfig": "Editar configuração padrão do modelo",
   "tooltip/editModelDefaultConfig/override": "Editar configuração padrão do modelo (* atualmente possui substituições)",
   "tooltip/visionBadge": "Este modelo pode processar entradas de imagem",
+  "tooltip/toolUseBadge": "Este modelo foi treinado para uso de ferramentas",
 
   "visionBadge/label": "Visão Habilitada",
+  "toolUseBadge/label": "Treinado para Uso de Ferramentas",
 
   "loader.action.load": "Carregar Modelo",
   "loader.action.clearChanges": "Limpar Alterações",
   "loader.action.cancel": "Cancelar",
   "loader.info.clickOnModelToLoad": "Clique em um modelo para carregá-lo",
-  "loader.info.configureLoadParameters": "Configure os parâmetros de carregamento do modelo"
+  "loader.info.configureLoadParameters": "Configure os parâmetros de carregamento do modelo",
+  "loader.info.activeGeneratorWarning": "Você está usando um plugin com um gerador personalizado. Seu modelo atualmente carregado pode ou não ser aplicado sob este plugin, dependendo da implementação do gerador"
 }
