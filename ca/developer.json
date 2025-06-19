@@ -1,68 +1,169 @@
 {
   "tabs/server": "Servidor Local",
-  "tabs/extensions": "Entorns d'Execució LM",
-  "loadSettings/title": "Carrega la Configuració",
+  "tabs/extensions": "Entorns d'Execució de LM",
+  "loadSettings/title": "Carrega la configuració",
   "modelSettings/placeholder": "Selecciona un model per configurar-lo",
 
   "loadedModels/noModels": "Cap model carregat",
 
   "serverOptions/title": "Opcions del Servidor",
   "serverOptions/configurableTitle": "Opcions Configurables",
-  "serverOptions/port/hint": "Estableix el port de xarxa que el servidor local utilitzarà. Per defecte, LM Studio utilitza el port 1234. És possible que s'hagi de canviar si el port ja té un altre ús.",
+  "serverOptions/port/hint": "Selecciona el port local de la xarxa que utilitzarà el servidor. Per defecte, LM Studio utilitza el port 1234. Potser has de canviar-lo si ja estàs utilitzant el port.",
   "serverOptions/port/subtitle": "El port a escoltar",
-  "serverOptions/autostart/title": "Auto-iniciar el Servidor",
-  "serverOptions/autostart/hint": "Inicia automàticament el servidor local en carregar un model",
-  "serverOptions/port/integerWarning": "El port ha de ser un nombre sencer",
-  "serverOptions/port/invalidPortWarning": "El port ha d'estar entre 1 i 65535",
+  "serverOptions/autostart/title": "Iniciar automàticament el servidor",
+  "serverOptions/autostart/hint": "Encén automàticament el servidor local LLM de LM Studio en iniciar l'app o l'ordinador",
+  "serverOptions/port/integerWarning": "El número del port ha de ser un nombre sencer",
+  "serverOptions/port/invalidPortWarning": "El port ha d'estar entre l'1 i el 65535",
   "serverOptions/cors/title": "Activa CORS",
-  "serverOptions/cors/hint1": "Activar CORS (Cross-origin Resource Sharing) permetria que els webs que visites enviessin sol·licituts al servidor de LM Studio.",
-  "serverOptions/cors/hint2": "Pot ser necessari activar CORS quan VS Code (les seves extensions) o un web enviï una sol·licitud.",
-  "serverOptions/cors/subtitle": "Permet peticions cross-origin",
-  "serverOptions/network/title": "Permet Dispositius en la Xarxa Local",
-  "serverOptions/network/subtitle": "Mostra el servidor als dispositius de la xarxa",
-  "serverOptions/network/hint1": "Decideix si altres dispositius en la teva xarxa es poden connectar al servidor.",
-  "serverOptions/network/hint2": "Si no es marca, el servidor només escoltarà al host local.",
-  "serverOptions/verboseLogging/title": "Inici de Sessió Detallat",
-  "serverOptions/verboseLogging/subtitle": "Activa l'inici de sessió detallat per al servidor local",
-  "serverOptions/contentLogging/title": "Registra Prompts i Respostes",
-  "serverOptions/contentLogging/subtitle": "Petició local / respon registrant la configuració",
-  "serverOptions/contentLogging/hint": "Decideix si registrar prompts i/o respostes en el fitxer del registre del servidor local.",
-  "serverOptions/jitModelLoading/title": "Càrrega de Models Just-a-Temps",
-  "serverOptions/jitModelLoading/hint": "En activar-ho, si la petició especificava un model que no està carregat, serà carregat i utilitzat automàticament. A més, el \"/v1/models\" endpoint inclourà també models que no esiguin carregats encara.",
+  "serverOptions/cors/hint1": "Activar CORS (Cross-origin Resource Sharing) permet a les pàgines web fer solicituds al teu servidor de LM Studio.",
+  "serverOptions/cors/hint2": "Potser necessites CORS per fer solicituds des d'una pàgina web o del VS Code / altres extensions.",
+  "serverOptions/cors/subtitle": "Permet solicituds multiplataforma",
+  "serverOptions/network/title": "Dona servei a la teva Xarxa Local",
+  "serverOptions/network/subtitle": "Mostra el servidor als dispositius de la teva xarxa",
+  "serverOptions/network/hint1": "Decideix si permetre les connexions des d'altres dispositius de la xarxa.",
+  "serverOptions/network/hint2": "Si es desmarca, el servidor només farà cas al localhost.",
+  "serverOptions/verboseLogging/title": "Verbose Logging",
+  "serverOptions/verboseLogging/subtitle": "Activa verbose logging pel servidor local",
+  "serverOptions/contentLogging/title": "Desa Prompts i Respostes al Log",
+  "serverOptions/contentLogging/subtitle": "Peticions Locals / configuració de respostes al logging",
+  "serverOptions/contentLogging/hint": "Decideix si desar al log els prompts i/o les repostes del servidor local al fitxer log.",
+  "serverOptions/fileLoggingMode/title": "Mode del Fitxer Logging",
+  "serverOptions/fileLoggingMode/off/title": "APAGAT",
+  "serverOptions/fileLoggingMode/off/hint": "No es creen fitxers log",
+  "serverOptions/fileLoggingMode/succinct/title": "Parcials",
+  "serverOptions/fileLoggingMode/succinct/hint": "Desa el mateix que aparegui a la consola. Les peticions llargues es truncaran.",
+  "serverOptions/fileLoggingMode/full/title": "Complert",
+  "serverOptions/fileLoggingMode/full/hint": "No trunquis les peticions llargues.",
+  "serverOptions/jitModelLoading/title": "Càrrega de Models Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "En activar-ho, si una petició és específica per un model que no està carregat, es carregarà i utilitzarà el model automàticament. A més, l'endpoint \"/v1/models\" també inclourà els models encara no carregats.",
   "serverOptions/loadModel/error": "Error en carregar el model",
+  "serverOptions/jitModelLoadingTTL/title": "Descarrega automàticament models JIT carregats que no s'utilitzin",
+  "serverOptions/jitModelLoadingTTL/hint": "Un model que ha estat carregat Just-in-time (JIT) per respondre a una petició de l'API es descarregarà automàticament una vegada deixi d'utlitzar-se després de cert temps (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Descans Màxim TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minuts",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Mantingues Només l'Últim Model Carregat JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Assegura't que com a mínim sempre hi haurà un model carregat via JIT (descarregarà models previs)",
 
   "serverLogs/scrollToBottom": "Ves al final",
-  "serverLogs/clearLogs": "Neteja els registres ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Obre la carpeta dels registres del servidor",
+  "serverLogs/clearLogs": "Buida el registre ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Carpeta de registres del servidor",
 
-  "runtimeSettings/title": "Configuració dels Entorns d'Execució",
-  "runtimeSettings/chooseRuntime/title": "Configura Entorns d'Execució",
-  "runtimeSettings/chooseRuntime/description": "Selecciona un entorn d'execució per a cada format de model",
+  "runtimeSettings/title": "Configuració d'entorns d'execució",
+  "runtimeSettings/chooseRuntime/title": "Seleccions per Defecte",
+  "runtimeSettings/chooseRuntime/description": "Selecciona un entorn d'execució per defecte per a cada format de model",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostra tots els entorns d'execució",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per defecte, LM Studio només mostra l'última versió de cada entorn d'execució compatible. Activa aquesta opció per veure tots els entorns d'execució disponibles.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un entorn d'execució",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per defecte, LM Studio només mostra l'última versió de cada entorn d'execució compatible. Activa aquesta opció per veure'ls tots.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un Entorn d'Execució",
 
-  "runtimeOptions/uninstall": "Desinstal·la",
-  "runtimeOptions/uninstallDialog/title": "Desinstal·la {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstal·lar l'entorn d'execució l'el·liminarà del sistema. L'acció és irreversible.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arxius no s'el·liminaran fins que no es reiniciï LM Studio.",
+  "runtimeOptions/uninstall": "Desinstal·lar",
+  "runtimeOptions/uninstallDialog/title": "Desinstal·lar {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Desinstal·lar aquest entorn d'execució el suprimirà del teu ordinador. L'acció és irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arxius només se suprimiran després de reiniciar LM Studio.",
   "runtimeOptions/uninstallDialog/error": "Error en desinstal·lar l'entorn d'execució",
   "runtimeOptions/uninstallDialog/confirm": "Continua i Desinstal·la",
-  "runtimeOptions/uninstallDialog/cancel": "Cancel·la",
+  "runtimeOptions/uninstallDialog/cancel": "Cancel·lar",
   "runtimeOptions/noCompatibleRuntimes": "Cap entorn d'execució compatible trobat",
-  "runtimeOptions/downloadIncompatibleRuntime": "Aquest entorn d'execució no és compatible amb el teu maquinari. Probablement no funcionarà.",
-  "runtimeOptions/noRuntimes": "Cap enorn d'execució trobat",
+  "runtimeOptions/downloadIncompatibleRuntime": "Aquest entorn d'execució s'ha determinat incompatible amb el teu sistema. Segurament que no funcioni.",
+  "runtimeOptions/noRuntimes": "Cap entorn d'execució trobat",
 
-  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+  "runtimes": {
+    "manageLMRuntimes": "Gestiona els Entorns d'Execució del LM Runtimes",
+    "includeOlderRuntimeVersions": "Inclou versions antigues",
+    "dismiss": "Ignora",
+    "updateAvailableToast": {
+      "title": "Actualització de l'Entorn d'Execució Disponible!"
+    },
+    "updatedToast": {
+      "title": " ✅ Enorn d'Execució Actualitzat: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Models {{compatibilityTypes}} recentment carregats utilitzaran l'entorn d'execució actualitzat."
+    },
+    "noAvx2ErrorMessage": "Tots els entorns d'execució del LM requereixen d'una CPU que suporti AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Paquets d'Expansió d'Entorns d'Execució",
+      "refresh": "Refresca",
+      "refreshing": "Refrescant...",
+      "filterSegment": {
+        "compatibleOnly": "Només Compatibles",
+        "all": "Tots"
+      },
+      "card": {
+        "releaseNotes": "Notes de la Versió",
+        "latestVersionInstalled": "Versió més Recent Instal·lada",
+        "updateAvailable": "Actualització Disponible"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Gestiona els Entorns d'Execució Actius"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Gestiona les Versions",
+        "close": "Tanca"
+      },
+      "tabs": {
+        "all": "Tots",
+        "frameworks": "Els Meus Frameworks",
+        "engines": "Els Meus Motors"
+      },
+      "detailsModal": {
+        "installedVersions": "Versió instal·lada de {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (avançat)",
+        "releaseNotesTitle": "Notes de la Versió",
+        "noReleaseNotes": "No hi ha notes disponibles per aquesta versió",
+        "back": "Enrere",
+        "close": "Tanca"
+      },
+      "noEngines": "Cap motor instal·lat",
+      "noFrameworks": "Cap frameworks instal·lat"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportats (Com OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Llistat dels models carregats",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Envia un historial de xat al model per poder predir la pròxima resposta de l'assistent.",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Genera embeddings de texts donat un text. Agafa una cadena o conjunt de cadenes (strings).",
+  "inferenceParams/noParams": "No hi ha paràmetres d'inferència configurables per aquest tipus de models",
 
-  "model.createVirtualModelFromInstance": "Guarda la configuració com un nou model virtual",
-  "model.createVirtualModelFromInstance/error": "Error en guardar la configuració com un nou model virtual",
+  "quickDocs": {
+    "tabChipTitle": "Documentació",
+    "newToolUsePopover": "Tens disponibles fragments de codi a la\"Documentació\". Clica aquí per començar a conèixer l'ús de l'eina!",
+    "newToolUsePopoverTitle": "📚 Documentació",
+    "learnMore": "ℹ️ 👾 Per aprendre'n més sobre l'endpoint del servidor local del LM Studio, visita la [documentació](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Xat"
+    },
+    "structuredOutput": {
+      "title": "Resultat Estructurat"
+    },
+    "imageInput": {
+      "title": "Input d'Imatges"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Ús d'Eina",
+      "tab": {
+        "saveAsPythonFile": "Desa com un arxiu Python",
+        "runTheScript": "Executa el codi:",
+        "savePythonFileCopyPaste": "Desa com un arxiu Python per tenir un comandament 'de copiar i enganxar'"
+      }
+    },
+    "newBadge": "Nou"
+  },
 
-  "apiConfigOptions/title": "Configurar l'API"
+  "endpoints/openaiCompatRest/title": "Endpoints suportats (com els d'OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Llistat dels models carregats actualment",
+  "endpoints/openaiCompatRest/postCompletions": "Mode de Completat del Text. Prediu el següent token(s) donades unes instruccions. Nota: OpenAI considera aquest endpoint 'antiquat'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Completacions del xat. Envia un historial del xat al model per poder predir la següent resposta de l'assistent",
+  "endpoints/openaiCompatRest/postEmbeddings": "Empaquetat de Text. Genera paquets de text donat un input de text. Agafa una cadena o un conjunt de cadenes.",
+
+  "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
+  "model.createVirtualModelFromInstance/error": "Error en desar la configuració com un nou model virtual",
+
+  "model": {
+    "toolUseSectionTitle": "Ús d'Eina",
+    "toolUseDescription": "S'ha detectat que aquest model ha estat entrenat pel seu ús com eina\n\nObre la <custom-link>documentació</custom-link> per obtenir més informació"
+  },
+
+  "apiConfigOptions/title": "API Configuration"
 }
