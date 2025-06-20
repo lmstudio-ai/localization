@@ -1,0 +1,298 @@
+{
+  "noInstanceSelected": "هیچ نمونه مدلی انتخاب نشده است",
+  "resetToDefault": "بازنشانی",
+  "showAdvancedSettings": "نمایش تنظیمات پیشرفته",
+  "showAll": "همه",
+  "basicSettings": "پایه",
+  "configSubtitle": "بارگذاری یا ذخیره پیش‌تنظیم‌ها و آزمایش با جایگزین‌های پارامتر مدل",
+  "inferenceParameters/title": "پارامترهای پیش‌بینی",
+  "inferenceParameters/info": "آزمایش با پارامترهایی که بر پیش‌بینی تأثیر می‌گذارند.",
+  "generalParameters/title": "عمومی",
+  "samplingParameters/title": "نمونه‌برداری",
+  "basicTab": "پایه",
+  "advancedTab": "پیشرفته",
+  "advancedTab/title": "🧪 پیکربندی پیشرفته",
+  "advancedTab/expandAll": "گسترش همه",
+  "advancedTab/overridesTitle": "جایگزین‌های پیکربندی",
+  "advancedTab/noConfigsText": "شما هیچ تغییر ذخیره نشده‌ای ندارید - مقادیر بالا را ویرایش کنید تا جایگزین‌ها را اینجا ببینید.",
+  "loadInstanceFirst": "یک مدل را بارگذاری کنید تا پارامترهای قابل تنظیم را مشاهده کنید",
+  "noListedConfigs": "پارامتر قابل تنظیمی وجود ندارد",
+  "generationParameters/info": "آزمایش با پارامترهای پایه که بر تولید متن تأثیر می‌گذارند.",
+  "loadParameters/title": "پارامترهای بارگذاری",
+  "loadParameters/description": "تنظیماتی برای کنترل نحوه راه‌اندازی و بارگذاری مدل در حافظه.",
+  "loadParameters/reload": "برای اعمال تغییرات، مجدداً بارگذاری کنید",
+  "discardChanges": "لغو تغییرات",
+  "loadModelToSeeOptions": "یک مدل را بارگذاری کنید تا گزینه‌ها را ببینید",
+
+  "llm.prediction.systemPrompt/title": "پیام سیستم",
+  "llm.prediction.systemPrompt/description": "از این فیلد برای ارائه دستورالعمل‌های پس‌زمینه به مدل استفاده کنید، مانند مجموعه‌ای از قوانین، محدودیت‌ها یا الزامات کلی.",
+  "llm.prediction.systemPrompt/subTitle": "دستورالعمل‌ها برای هوش مصنوعی",
+  "llm.prediction.temperature/title": "دما",
+  "llm.prediction.temperature/subTitle": "چقدر تصادفی بودن اضافه شود. 0 هر بار همان نتیجه را خواهد داد، در حالی که مقادیر بالاتر خلاقیت و تنوع را افزایش می‌دهند",
+  "llm.prediction.temperature/info": "از اسناد راهنمای llama.cpp: \"مقدار پیش‌فرض <{{dynamicValue}}> است، که تعادلی بین تصادفی بودن و قطعیت ایجاد می‌کند. در حالت حدی، دمای 0 همیشه محتمل‌ترین توکن بعدی را انتخاب می‌کند و منجر به خروجی‌های یکسان در هر اجرا می‌شود\"",
+  "llm.prediction.llama.sampling/title": "نمونه‌برداری",
+  "llm.prediction.topKSampling/title": "نمونه‌برداری Top K",
+  "llm.prediction.topKSampling/subTitle": "توکن بعدی را به یکی از k توکن با بیشترین احتمال محدود می‌کند. مشابه دما عمل می‌کند",
+  "llm.prediction.topKSampling/info": "از اسناد راهنمای llama.cpp:\n\nنمونه‌برداری top-k روشی برای تولید متن است که توکن بعدی را فقط از بین k توکن با بیشترین احتمال پیش‌بینی شده توسط مدل انتخاب می‌کند.\n\nاین روش کمک می‌کند تا خطر تولید توکن‌های با احتمال کم یا بی‌معنی کاهش یابد، اما ممکن است تنوع خروجی را نیز محدود کند.\n\nمقدار بالاتر برای top-k (مثلاً 100) توکن‌های بیشتری را در نظر می‌گیرد و منجر به متن متنوع‌تر می‌شود، در حالی که مقدار پایین‌تر (مثلاً 10) روی محتمل‌ترین توکن‌ها تمرکز می‌کند و متن محافظه‌کارانه‌تری تولید می‌کند.\n\n• مقدار پیش‌فرض <{{dynamicValue}}> است",
+
+  "llm.prediction.llama.cpuThreads/title": "تعداد رشته‌های CPU",
+  "llm.prediction.llama.cpuThreads/subTitle": "تعداد رشته‌های CPU برای استفاده در طول استنتاج",
+  "llm.prediction.llama.cpuThreads/info": "تعداد رشته‌هایی که در طول محاسبات استفاده می‌شوند. افزایش تعداد رشته‌ها همیشه با عملکرد بهتر همبستگی ندارد. پیش‌فرض <{{dynamicValue}}> است.",
+
+  "llm.prediction.maxPredictedTokens/title": "محدودیت طول پاسخ",
+  "llm.prediction.maxPredictedTokens/subTitle": "محدود کردن اختیاری طول پاسخ هوش مصنوعی",
+  "llm.prediction.maxPredictedTokens/info": "کنترل حداکثر طول پاسخ ربات گفتگو. روشن کنید تا محدودیتی برای حداکثر طول پاسخ تعیین کنید، یا خاموش کنید تا ربات گفتگو خودش تصمیم بگیرد چه زمانی متوقف شود.",
+  "llm.prediction.maxPredictedTokens/inputLabel": "حداکثر طول پاسخ (توکن)",
+  "llm.prediction.maxPredictedTokens/wordEstimate": "حدود {{maxWords}} کلمه",
+
+  "llm.prediction.repeatPenalty/title": "جریمه تکرار",
+  "llm.prediction.repeatPenalty/subTitle": "چقدر تکرار همان توکن نامطلوب شود",
+  "llm.prediction.repeatPenalty/info": "از اسناد راهنمای llama.cpp: \"کمک می‌کند تا از تولید متن تکراری یا یکنواخت توسط مدل جلوگیری شود.\n\nمقدار بالاتر (مثلاً 1.5) تکرارها را شدیدتر جریمه می‌کند، در حالی که مقدار پایین‌تر (مثلاً 0.9) آسان‌گیرتر خواهد بود.\" • مقدار پیش‌فرض <{{dynamicValue}}> است",
+
+  "llm.prediction.minPSampling/title": "نمونه‌برداری Min P",
+  "llm.prediction.minPSampling/subTitle": "حداقل احتمال پایه برای انتخاب یک توکن برای خروجی",
+  "llm.prediction.minPSampling/info": "از اسناد راهنمای llama.cpp:\n\nحداقل احتمال برای در نظر گرفتن یک توکن، نسبت به احتمال محتمل‌ترین توکن. باید در بازه [0، 1] باشد.\n\n• مقدار پیش‌فرض <{{dynamicValue}}> است",
+
+  "llm.prediction.topPSampling/title": "نمونه‌برداری Top P",
+  "llm.prediction.topPSampling/subTitle": "حداقل احتمال تجمعی برای توکن‌های بعدی ممکن. مشابه دما عمل می‌کند",
+  "llm.prediction.topPSampling/info": "از اسناد راهنمای llama.cpp:\n\nنمونه‌برداری top-p، که به عنوان نمونه‌برداری هسته نیز شناخته می‌شود، روشی دیگر برای تولید متن است که توکن بعدی را از زیرمجموعه‌ای از توکن‌ها انتخاب می‌کند که مجموع احتمالات آنها حداقل p است.\n\nاین روش تعادلی بین تنوع و کیفیت ایجاد می‌کند و احتمالات توکن‌ها و تعداد توکن‌های نمونه‌برداری شده را در نظر می‌گیرد.\n\nمقدار بالاتر برای top-p (مثلاً 0.95) منجر به متن متنوع‌تر می‌شود، در حالی که مقدار پایین‌تر (مثلاً 0.5) متن محافظه‌کارانه‌تر و متمرکزتری تولید می‌کند. باید در بازه (0، 1] باشد.\n\n• مقدار پیش‌فرض <{{dynamicValue}}> است",
+
+  "llm.prediction.stopStrings/title": "رشته‌های توقف",
+  "llm.prediction.stopStrings/subTitle": "رشته‌هایی که باید مدل را از تولید توکن‌های بیشتر متوقف کنند",
+  "llm.prediction.stopStrings/info": "رشته‌های خاصی که در صورت مشاهده، مدل را از تولید توکن‌های بیشتر متوقف می‌کنند",
+  "llm.prediction.stopStrings/placeholder": "رشته را وارد کنید و ⏎ را فشار دهید",
+
+  "llm.prediction.contextOverflowPolicy/title": "سرریز مکالمه",
+  "llm.prediction.contextOverflowPolicy/subTitle": "نحوه رفتار مدل هنگامی که مکالمه از ظرفیت پردازش آن فراتر می‌رود",
+  "llm.prediction.contextOverflowPolicy/info": "تصمیم بگیرید وقتی مکالمه از اندازه حافظه کاری مدل ('context') فراتر می‌رود چه اتفاقی بیفتد",
+
+  "customInputs.contextOverflowPolicy.stopAtLimit": "توقف در محدودیت",
+  "customInputs.contextOverflowPolicy.stopAtLimitSub": "وقتی مدل پر شد، تولید را متوقف می‌کند",
+  "customInputs.contextOverflowPolicy.truncateMiddle": "حذف از وسط",
+  "customInputs.contextOverflowPolicy.truncateMiddleSub": "پیام‌های میانی مکالمه را حذف می‌کند تا برای موارد جدید جا باز شود. مدل همچنان ابتدای مکالمه را به یاد خواهد داشت",
+  "customInputs.contextOverflowPolicy.rollingWindow": "پنجره غلتان",
+  "customInputs.contextOverflowPolicy.rollingWindowSub": "مدل همیشه چند پیام آخر را دریافت می‌کند، اما ممکن است ابتدای مکالمه را فراموش کند",
+
+  "llm.prediction.llama.frequencyPenalty/title": "جریمه فرکانس",
+  "llm.prediction.llama.presencePenalty/title": "جریمه حضور",
+  "llm.prediction.llama.tailFreeSampling/title": "نمونه‌برداری بدون دنباله",
+  "llm.prediction.llama.locallyTypicalSampling/title": "نمونه‌برداری محلی معمول",
+
+  "llm.prediction.onnx.topKSampling/title": "نمونه‌برداری Top K",
+  "llm.prediction.onnx.topKSampling/subTitle": "توکن بعدی را به یکی از k توکن با بیشترین احتمال محدود می‌کند. مشابه دما عمل می‌کند",
+  "llm.prediction.onnx.topKSampling/info": "از اسناد راهنمای ONNX:\n\nتعداد توکن‌های واژگان با بیشترین احتمال که باید برای فیلتر top-k نگه داشته شوند\n\n• این فیلتر غیرفعال است",
+
+  "llm.prediction.onnx.repeatPenalty/title": "جریمه تکرار",
+  "llm.prediction.onnx.repeatPenalty/subTitle": "چقدر تکرار همان توکن نامطلوب شود",
+  "llm.prediction.onnx.repeatPenalty/info": "مقدار بالاتر تکرار همان توکن را بیشتر جریمه می‌کند",
+
+  "llm.prediction.onnx.topPSampling/title": "نمونه‌برداری Top P",
+  "llm.prediction.onnx.topPSampling/subTitle": "حداقل احتمال تجمعی برای توکن‌های بعدی ممکن. مشابه دما عمل می‌کند",
+  "llm.prediction.onnx.topPSampling/info": "از اسناد راهنمای ONNX:\n\nفقط توکن‌های با بیشترین احتمال با احتمال TopP یا بالاتر برای تولید نگه داشته می‌شوند.\n\n• این فیلتر غیرفعال است",
+
+  "llm.prediction.seed/title": "عدد تصادفی",
+  "llm.prediction.structured/title": "خروجی ساختاریافته",
+  "llm.prediction.structured/info": "خروجی ساختاریافته",
+  "llm.prediction.promptTemplate/title": "قالب پیام",
+  "llm.prediction.promptTemplate/subTitle": "قالبی که در آن پیام‌های مکالمه به مدل ارسال می‌شوند. تغییر این قالب می‌تواند باعث رفتار غیرمنتظره شود - مطمئن شوید که می‌دانید چه کار می‌کنید!",
+
+  "llm.load.contextLength/title": "طول متن",
+  "llm.load.contextLength/subTitle": "بیشترین تعداد توکن‌هایی که مدل می‌تواند در یک پیام پردازش کند. برای روش‌های دیگر کنترل این محدودیت به 'پارامترهای پیش‌بینی' در زیر 'سرریز مکالمه' مراجعه کنید",
+  "llm.load.contextLength/info": "تعیین می‌کند حداکثر چند توکن می‌تواند همزمان توسط مدل پردازش شود، که بر میزان متنی که مدل می‌تواند در حین پردازش به خاطر بسپارد تأثیر می‌گذارد",
+
+  "llm.load.seed/title": "عدد تصادفی",
+  "llm.load.seed/subTitle": "عدد تصادفی برای تولید اعداد تصادفی. -1 به معنای عدد تصادفی است",
+  "llm.load.seed/info": "عدد تصادفی: تنظیم عدد تصادفی برای تولید اعداد تصادفی جهت اطمینان از تکرارپذیری نتایج",
+
+  "llm.load.llama.evalBatchSize/title": "اندازه دسته ارزیابی",
+  "llm.load.llama.evalBatchSize/subTitle": "تعداد توکن‌های ورودی که باید همزمان پردازش شوند. افزایش این عدد عملکرد را بهبود می‌بخشد اما مصرف حافظه را نیز افزایش می‌دهد",
+  "llm.load.llama.evalBatchSize/info": "تعداد توکن‌هایی که در یک دسته در طول ارزیابی پردازش می‌شوند را تنظیم می‌کند، که بر سرعت و مصرف حافظه تأثیر می‌گذارد",
+
+  "llm.load.llama.ropeFrequencyBase/title": "فرکانس پایه RoPE",
+  "llm.load.llama.ropeFrequencyBase/subTitle": "فرکانس پایه سفارشی برای جاسازی موقعیت چرخشی (RoPE). افزایش این عدد می‌تواند عملکرد بهتری در طول‌های متن بالا ایجاد کند",
+  "llm.load.llama.ropeFrequencyBase/info": "[پیشرفته] فرکانس پایه را برای جاسازی موقعیت چرخشی تنظیم می‌کند، که بر نحوه جاسازی اطلاعات موقعیتی تأثیر می‌گذارد",
+
+  "llm.load.llama.ropeFrequencyScale/title": "مقیاس فرکانس RoPE",
+  "llm.load.llama.ropeFrequencyScale/subTitle": "طول متن در این ضریب ضرب می‌شود تا متن مؤثر با استفاده از RoPE گسترش یابد",
+  "llm.load.llama.ropeFrequencyScale/info": "[پیشرفته] مقیاس فرکانس را برای جاسازی موقعیت چرخشی تنظیم می‌کند، که بر نحوه جاسازی اطلاعات موقعیتی تأثیر می‌گذارد",
+
+  "llm.load.llama.acceleration.offloadRatio/title": "انتقال به GPU",
+  "llm.load.llama.acceleration.offloadRatio/subTitle": "تعداد لایه‌های گسسته مدل که باید برای شتاب‌دهی GPU روی GPU محاسبه شوند",
+  "llm.load.llama.acceleration.offloadRatio/info": "تعداد لایه‌هایی که باید روی GPU محاسبه شوند را تنظیم می‌کند.",
+
+  "llm.load.llama.flashAttention/title": "توجه سریع",
+  "llm.load.llama.flashAttention/subTitle": "مصرف حافظه و زمان تولید را در برخی مدل‌ها کاهش می‌دهد",
+  "llm.load.llama.flashAttention/info": "مکانیسم‌های توجه را برای پردازش سریع‌تر و کارآمدتر تسریع می‌کند",
+
+  "llm.load.llama.keepModelInMemory/title": "نگهداری مدل در حافظه",
+  "llm.load.llama.keepModelInMemory/subTitle": "حافظه سیستم را برای مدل رزرو می‌کند، حتی وقتی به GPU منتقل شده است. عملکرد را بهبود می‌بخشد اما به RAM سیستم بیشتری نیاز دارد",
+  "llm.load.llama.keepModelInMemory/info": "از تعویض مدل به دیسک جلوگیری می‌کند، دسترسی سریع‌تر را به قیمت مصرف بیشتر RAM تضمین می‌کند",
+
+  "llm.load.llama.useFp16ForKVCache/title": "استفاده از FP16 برای حافظه نهان KV",
+  "llm.load.llama.useFp16ForKVCache/info": "با ذخیره حافظه نهان با دقت نیم (FP16)، مصرف حافظه را کاهش می‌دهد",
+
+  "llm.load.llama.tryMmap/title": "تلاش برای mmap()",
+  "llm.load.llama.tryMmap/subTitle": "زمان بارگذاری مدل را بهبود می‌بخشد. غیرفعال کردن آن می‌تواند عملکرد را بهبود بخشد وقتی مدل از RAM سیستم موجود بزرگتر است",
+  "llm.load.llama.tryMmap/info": "فایل‌های مدل را مستقیماً از دیسک به حافظه بارگذاری می‌کند",
+
+  "embedding.load.contextLength/title": "طول متن",
+  "embedding.load.contextLength/subTitle": "بیشترین تعداد توکن‌هایی که مدل می‌تواند در یک پیام پردازش کند. برای روش‌های دیگر کنترل این محدودیت به 'پارامترهای پیش‌بینی' در زیر 'سرریز مکالمه' مراجعه کنید",
+  "embedding.load.contextLength/info": "تعیین می‌کند حداکثر چند توکن می‌تواند همزمان توسط مدل پردازش شود، که بر میزان متنی که مدل می‌تواند در حین پردازش به خاطر بسپارد تأثیر می‌گذارد",
+
+  "embedding.load.llama.ropeFrequencyBase/title": "فرکانس پایه RoPE",
+  "embedding.load.llama.ropeFrequencyBase/subTitle": "فرکانس پایه سفارشی برای جاسازی موقعیت چرخشی (RoPE). افزایش این عدد می‌تواند عملکرد بهتری در طول‌های متن بالا ایجاد کند",
+  "embedding.load.llama.ropeFrequencyBase/info": "[پیشرفته] فرکانس پایه را برای جاسازی موقعیت چرخشی تنظیم می‌کند، که بر نحوه جاسازی اطلاعات موقعیتی تأثیر می‌گذارد",
+
+  "embedding.load.llama.evalBatchSize/title": "اندازه دسته ارزیابی",
+  "embedding.load.llama.evalBatchSize/subTitle": "تعداد توکن‌های ورودی که باید همزمان پردازش شوند. افزایش این عدد عملکرد را بهبود می‌بخشد اما مصرف حافظه را نیز افزایش می‌دهد",
+  "embedding.load.llama.evalBatchSize/info": "تعداد توکن‌هایی که در یک دسته در طول ارزیابی پردازش می‌شوند را تنظیم می‌کند، که بر سرعت و مصرف حافظه تأثیر می‌گذارد",
+
+  "embedding.load.llama.ropeFrequencyScale/title": "مقیاس فرکانس RoPE",
+  "embedding.load.llama.ropeFrequencyScale/subTitle": "طول متن در این ضریب ضرب می‌شود تا متن مؤثر با استفاده از RoPE گسترش یابد",
+  "embedding.load.llama.ropeFrequencyScale/info": "[پیشرفته] مقیاس فرکانس را برای جاسازی موقعیت چرخشی تنظیم می‌کند، که بر نحوه جاسازی اطلاعات موقعیتی تأثیر می‌گذارد",
+
+  "embedding.load.llama.acceleration.offloadRatio/title": "انتقال به GPU",
+  "embedding.load.llama.acceleration.offloadRatio/subTitle": "تعداد لایه‌های گسسته مدل که باید برای شتاب‌دهی GPU روی GPU محاسبه شوند",
+  "embedding.load.llama.acceleration.offloadRatio/info": "تعداد لایه‌هایی که باید روی GPU محاسبه شوند را تنظیم می‌کند.",
+
+  "embedding.load.llama.keepModelInMemory/title": "نگهداری مدل در حافظه",
+  "embedding.load.llama.keepModelInMemory/subTitle": "حافظه سیستم را برای مدل رزرو می‌کند، حتی وقتی به GPU منتقل شده است. عملکرد را بهبود می‌بخشد اما به RAM سیستم بیشتری نیاز دارد",
+  "embedding.load.llama.keepModelInMemory/info": "از تعویض مدل به دیسک جلوگیری می‌کند، دسترسی سریع‌تر را به قیمت مصرف بیشتر RAM تضمین می‌کند",
+
+  "embedding.load.llama.tryMmap/title": "تلاش برای mmap()",
+  "embedding.load.llama.tryMmap/subTitle": "زمان بارگذاری مدل را بهبود می‌بخشد. غیرفعال کردن آن می‌تواند عملکرد را بهبود بخشد وقتی مدل از RAM سیستم موجود بزرگتر است",
+  "embedding.load.llama.tryMmap/info": "فایل‌های مدل را مستقیماً از دیسک به حافظه بارگذاری می‌کند",
+
+  "embedding.load.seed/title": "عدد تصادفی",
+  "embedding.load.seed/subTitle": "عدد تصادفی برای تولید اعداد تصادفی. -1 به معنای عدد تصادفی است",
+  "embedding.load.seed/info": "عدد تصادفی: تنظیم عدد تصادفی برای تولید اعداد تصادفی. -1 به معنای عدد تصادفی است",
+
+  "presetTooltip": {
+    "included/title": "مقادیر پیش‌تنظیم",
+    "included/description": "فیلدهای زیر اعمال خواهند شد",
+    "included/empty": "هیچ فیلدی از این پیش‌تنظیم در این زمینه کاربرد ندارد.",
+    "included/conflict": "از شما خواسته خواهد شد که برای اعمال این مقدار تصمیم بگیرید",
+    "separateLoad/title": "پیکربندی زمان بارگذاری",
+    "separateLoad/description.1": "این پیش‌تنظیم همچنین شامل پیکربندی زمان بارگذاری زیر است. تنظیمات زمان بارگذاری در کل مدل اعمال می‌شود و نیاز به بارگذاری مجدد مدل دارد. نگه دارید",
+    "separateLoad/description.2": "برای اعمال به",
+    "separateLoad/description.3": ".",
+    "excluded/title": "ممکن است اعمال نشود",
+    "excluded/description": "فیلدهای زیر در پیش‌تنظیم گنجانده شده‌اند اما در زمینه فعلی کاربرد ندارند.",
+    "legacy/title": "پیش‌تنظیم قدیمی",
+    "legacy/description": "این یک پیش‌تنظیم قدیمی است. شامل فیلدهایی است که یا اکنون به طور خودکار مدیریت می‌شوند یا دیگر قابل استفاده نیستند."
+  },
+
+  "customInputs": {
+    "string": {
+      "emptyParagraph": "<Empty>"
+    },
+    "checkboxNumeric": {
+      "off": "خاموش"
+    },
+    "stringArray": {
+      "empty": "<خالی>"
+    },
+    "llmPromptTemplate": {
+      "type": "نوع",
+      "types.jinja/label": "قالب (Jinja)",
+      "jinja.bosToken/label": "توکن BOS",
+      "jinja.eosToken/label": "توکن EOS",
+      "jinja.template/label": "قالب",
+      "jinja/error": "تجزیه قالب Jinja ناموفق بود: {{error}}",
+      "jinja/empty": "لطفاً یک قالب Jinja در بالا وارد کنید.",
+      "jinja/unlikelyToWork": "قالب Jinja که در بالا وارد کرده‌اید احتمالاً کار نخواهد کرد زیرا به متغیر \"messages\" اشاره نمی‌کند. لطفاً بررسی کنید که قالب صحیح را وارد کرده‌اید.",
+      "types.manual/label": "دستی",
+      "manual.subfield.beforeSystem/label": "قبل از سیستم",
+      "manual.subfield.beforeSystem/placeholder": "پیشوند سیستم را وارد کنید...",
+      "manual.subfield.afterSystem/label": "بعد از سیستم",
+      "manual.subfield.afterSystem/placeholder": "پسوند سیستم را وارد کنید...",
+      "manual.subfield.beforeUser/label": "قبل از کاربر",
+      "manual.subfield.beforeUser/placeholder": "پیشوند کاربر را وارد کنید...",
+      "manual.subfield.afterUser/label": "بعد از کاربر",
+      "manual.subfield.afterUser/placeholder": "پسوند کاربر را وارد کنید...",
+      "manual.subfield.beforeAssistant/label": "قبل از دستیار",
+      "manual.subfield.beforeAssistant/placeholder": "پیشوند دستیار را وارد کنید...",
+      "manual.subfield.afterAssistant/label": "بعد از دستیار",
+      "manual.subfield.afterAssistant/placeholder": "پسوند دستیار را وارد کنید...",
+      "stopStrings/label": "رشته‌های توقف اضافی",
+      "stopStrings/subTitle": "رشته‌های توقف مخصوص قالب که علاوه بر رشته‌های توقف تعیین شده توسط کاربر استفاده خواهند شد."
+    },
+    "contextLength": {
+      "maxValueTooltip": "این حداکثر تعداد توکن‌هایی است که مدل برای پردازش آموزش دیده است. برای تنظیم متن به این مقدار کلیک کنید",
+      "maxValueTextStart": "مدل تا",
+      "maxValueTextEnd": "توکن پشتیبانی می‌کند",
+      "tooltipHint": "اگرچه یک مدل ممکن است تا تعداد مشخصی توکن را پشتیبانی کند، اما اگر منابع دستگاه شما نتواند بار را تحمل کند، عملکرد ممکن است افت کند - هنگام افزایش این مقدار احتیاط کنید"
+    },
+    "contextOverflowPolicy": {
+      "stopAtLimit": "توقف در محدودیت",
+      "stopAtLimitSub": "وقتی مدل پر شد، تولید را متوقف می‌کند",
+      "truncateMiddle": "حذف از وسط",
+      "truncateMiddleSub": "پیام‌های میانی مکالمه را حذف می‌کند تا برای موارد جدید جا باز شود. مدل همچنان ابتدای مکالمه را به یاد خواهد داشت",
+      "rollingWindow": "پنجره غلتان",
+      "rollingWindowSub": "مدل همیشه چند پیام آخر را دریافت می‌کند، اما ممکن است ابتدای مکالمه را فراموش کند"
+    },
+    "llamaAccelerationOffloadRatio": {
+      "max": "حداکثر",
+      "off": "خاموش"
+    }
+  },
+  "saveConflictResolution": {
+    "title": "انتخاب کنید کدام مقادیر در پیش‌تنظیم گنجانده شوند",
+    "description": "مقادیری را که می‌خواهید نگه دارید انتخاب کنید",
+    "instructions": "برای گنجاندن یک مقدار روی آن کلیک کنید",
+    "userValues": "مقدار قبلی",
+    "presetValues": "مقدار جدید",
+    "confirm": "تأیید",
+    "cancel": "لغو"
+  },
+  "applyConflictResolution": {
+    "title": "کدام مقادیر نگه داشته شوند؟",
+    "description": "شما تغییرات ذخیره نشده‌ای دارید که با پیش‌تنظیم ورودی همپوشانی دارند",
+    "instructions": "برای نگه داشتن یک مقدار روی آن کلیک کنید",
+    "userValues": "مقدار فعلی",
+    "presetValues": "مقدار پیش‌تنظیم ورودی",
+    "confirm": "تأیید",
+    "cancel": "لغو"
+  },
+  "empty": "<خالی>",
+  "presets": {
+    "title": "پیش‌تنظیم",
+    "commitChanges": "ثبت تغییرات",
+    "commitChanges/description": "تغییرات خود را در پیش‌تنظیم ثبت کنید.",
+    "commitChanges.manual": "فیلدهای جدید شناسایی شدند. می‌توانید انتخاب کنید کدام تغییرات در پیش‌تنظیم گنجانده شوند.",
+    "commitChanges.manual.hold.0": "نگه دارید",
+    "commitChanges.manual.hold.1": "تا انتخاب کنید کدام تغییرات در پیش‌تنظیم ثبت شوند.",
+    "commitChanges.saveAll.hold.0": "نگه دارید",
+    "commitChanges.saveAll.hold.1": "برای ذخیره همه تغییرات.",
+    "commitChanges.saveInPreset.hold.0": "نگه دارید",
+    "commitChanges.saveInPreset.hold.1": "برای ذخیره فقط تغییرات در فیلدهایی که قبلاً در پیش‌تنظیم گنجانده شده‌اند.",
+    "commitChanges/error": "ثبت تغییرات در پیش‌تنظیم ناموفق بود.",
+    "commitChanges.manual/description": "انتخاب کنید کدام تغییرات در پیش‌تنظیم گنجانده شوند.",
+    "saveAs": "ذخیره به عنوان جدید...",
+    "presetNamePlaceholder": "نامی برای پیش‌تنظیم وارد کنید...",
+    "cannotCommitChangesLegacy": "این یک پیش‌تنظیم قدیمی است و نمی‌تواند تغییر کند. می‌توانید با استفاده از \"ذخیره به عنوان جدید...\" یک کپی ایجاد کنید.",
+    "cannotCommitChangesNoChanges": "تغییری برای ثبت وجود ندارد.",
+    "emptyNoUnsaved": "یک پیش‌تنظیم انتخاب کنید...",
+    "emptyWithUnsaved": "پیش‌تنظیم ذخیره نشده",
+    "saveEmptyWithUnsaved": "ذخیره پیش‌تنظیم به عنوان...",
+    "saveConfirm": "ذخیره",
+    "saveCancel": "لغو",
+    "saving": "در حال ذخیره...",
+    "save/error": "ذخیره پیش‌تنظیم ناموفق بود.",
+    "deselect": "لغو انتخاب پیش‌تنظیم",
+    "deselect/error": "لغو انتخاب پیش‌تنظیم ناموفق بود.",
+    "select/error": "انتخاب پیش‌تنظیم ناموفق بود.",
+    "delete/error": "حذف پیش‌تنظیم ناموفق بود.",
+    "discardChanges": "لغو تغییرات ذخیره نشده",
+    "discardChanges/info": "لغو همه تغییرات ثبت نشده و بازگرداندن پیش‌تنظیم به حالت اصلی",
+    "newEmptyPreset": "ایجاد پیش‌تنظیم خالی جدید...",
+    "contextMenuSelect": "انتخاب پیش‌تنظیم",
+    "contextMenuDelete": "حذف"
+  },
+
+  "flashAttentionWarning": "Flash Attention یک ویژگی آزمایشی است که ممکن است با برخی مدل‌ها مشکل ایجاد کند. اگر با مشکلی مواجه شدید، سعی کنید آن را غیرفعال کنید.",
+
+  "seedUncheckedHint": "عدد تصادفی",
+  "ropeFrequencyBaseUncheckedHint": "خودکار",
+  "ropeFrequencyScaleUncheckedHint": "خودکار"
+}
