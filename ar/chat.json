@@ -1,0 +1,211 @@
+{
+  "modelLoaderPlaceholder": "حدد نموذجًا للتحميل",
+  "systemPromptPlaceholder": "تعيين موجه النظام",
+  "userRoleText": "مستخدم",
+  "assistantRoleText": "مساعد",
+  "addMessageButtonText": "يضيف",
+  "addMessageButtonText/toolTip": "أدخل رسالة في السياق دون تفعيل التنبؤ",
+  "sendMessageButtonText": "يرسل",
+  "sendMessageButtonText/toolTip": "أرسل تاريخك المطبخ والمحادثة إلى النموذج للمعالجة",
+  "ejectButtonText": "أخرج",
+  "unloadTooltip": "طرد النموذج من الذاكرة",
+  "cancelButtonText": "يلغي",
+  "loadButtonText": "حمولة",
+  "advancedSegmentText": "متقدم",
+  "chatSegmentText": "محادثة",
+  "chatSidebarTitle": "الدردشات",
+  "newChatButton": "دردشة جديدة",
+  "newFolderButton": "مجلد جديد",
+  "viewModeLabel": "عرض وضع",
+  "noChatSelected": "لم يتم تحديد دردشة",
+  "chatViewOptions": "خيارات عرض الدردشة",
+  "uiControls/title": "عرض الإعدادات",
+  "noChatSelectedPlaceholder": "حدد دردشة",
+  "unnamedChat": "دردشة لم تسمها",
+  "emptyFolder": "المجلد فارغ",
+  "tokenCount": "عدد الرمز المميز",
+  "messageTokenCount": "إدخال رمز العد",
+  "tokenCount/hint": "عدد الرموز في الرسالة. يتم حسابها باستخدام الرمز المميز للموديل المحدد حاليًا.\n\nيتطلب تحميل النموذج.",
+  "messageTokenCount/hint": "عدد الرموز في الرسالة. يتم حسابها باستخدام الرمز المميز للموديل المحدد حاليًا.\n\nهل ** لا ** يتضمن تقديرًا للرموز في مرفقات الملفات.",
+  "notes": "ملاحظات المحادثة",
+  "notes/add/first": "أضف ملاحظة",
+  "notes/add/another": "أضف ملاحظة أخرى",
+  "notes/hint": "احفظ الملاحظات على هذه الدردشة. الملاحظات للرجوع إليها فقط ولا يتم إرسالها إلى النموذج. جميع التغييرات التلقائية.",
+  "notes/placeholder": "اكتب ملاحظاتك هنا ...",
+  "notes/delete": "حذف الملاحظة",
+  "notes/noteLabel": "ملحوظة",
+  "notes/copyContent": "نسخ محتوى ملاحظة",
+  "actions/sendMessage/error": "فشل في إرسال رسالة",
+  "actions/loadModel/error": "🥲 فشل في تحميل النموذج",
+  "actions/addFile": "[تجريبي] إرفاق ملف بهذه الرسالة\n(.pdf ، نص عادي ، أو .docx)",
+  "actions/changeRole": "التبديل بين أدوار المستخدم والمساعد.\n\nهذا مفيد لتوجيه المحادثة في اتجاه معين.\n\nيمكن استخدامها لتنظيم سيناريوهات \"التعلم القليلة\" أو \"التعلم\"",
+  "actions/addImage": "أضف الصورة",
+  "actions/deleteMessage": "حذف الرسالة",
+  "actions/deleteMessage/confirmation": "هل أنت متأكد من أنك تريد حذف هذه الرسالة؟",
+  "actions/copyMessage": "نسخ الرسالة",
+  "actions/editMessage": "تحرير الرسالة",
+  "actions/editMessage/cannotEditPreprocessed": "لا يمكن تحرير الرسائل المعالجة مسبقًا لأنها سيتم الكتابة عليها بعد تشغيل المعالج المسبق. لتحرير الرسالة ، إما: \n\n - قم بالتبديل إلى الرسالة الأصلية وقم بتحريرها بدلاً من ذلك ، أو\n - تغيير المعالج المسبق بحيث ينتج الإخراج المطلوب.",
+  "actions/regenerateMessage": "تجديد الرسالة",
+  "actions/regenerateMessage/error": "فشل في تجديد الرسالة",
+  "actions/branchChat": "دردشة فرع بعد هذه الرسالة",
+  "actions/branchChat/error": "فشل في التفرع الدردشة",
+  "actions/continueAssistantMessage": "تابع رسالة مساعد",
+  "actions/continueAssistantMessage/error": "فشل في متابعة رسالة مساعد",
+  "actions/predictNext": "توليد استجابة الذكاء الاصطناعي",
+  "actions/predictNext/error": "فشل في توليد استجابة الذكاء الاصطناعي",
+  "actions/loadLastModel": "إعادة تحميل النموذج الأخير المستخدم",
+  "actions/loadLastModel/tooltip": "انقر لتحميل النموذج الذي تم استخدامه آخر مرة مع هذه الدردشة:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "فشل تحميل النموذج الأخير المستخدم.",
+  "actions/continueCurrentModel": "استخدم النموذج الحالي",
+  "actions/continueCurrentModel/tooltip": "النموذج الحالي: {{currentModel}}",
+  "actions/changeToLastUsedModel": "تحميل {{mastModel}}",
+  "actions/changeToLastUsedModel/error": "فشل التغيير إلى آخر نموذج المستخدم.",
+  "actions/changeToLastUsedModel/tooltip": "لقد استخدمت نموذجًا مختلفًا في المرة الأخيرة التي أرسلت فيها رسالة في هذه الدردشة. انقر لتفريغ النموذج المحدد حاليًا ({{currentModel}}) وقم بتحميل النموذج الذي تم استخدامه آخر مرة مع هذه الدردشة:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "التبديل إلى {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "انقر للتبديل إلى النموذج الذي تم استخدامه آخر مرة مع هذه الدردشة:\n\n{{lastModel}}",
+  "actions/loadModel": "تحميل نموذج",
+  "actions/toggleViewingProcessed/currentlyFalse": "مشاهدة الرسالة الأصلية حاليًا. انقر لعرض الرسالة المعالجة مسبقًا.",
+  "actions/toggleViewingProcessed/currentlyTrue": "مشاهدة الرسالة حاليا معالجة مسبقا. انقر لعرض الرسالة الأصلية.",
+  "actions/toggleViewingProcessed/hint": "قبل إرسال الرسالة إلى النموذج ، قد يتم تجهيزها مسبقًا بواسطة معالج مسبق موجه. انقر للتبديل بين عرض الرسالة الأصلية والرسالة المعالجة مسبقًا. فقط الرسالة المعالجة مسبقًا تذهب إلى النموذج.",
+  "editMessageConfirm/title": "الحفاظ على التغييرات؟",
+  "editMessageConfirm/message": "لقد قمت بإجراء تغييرات على رسالة. هل تريد الاحتفاظ بها؟",
+  "editMessageConfirm/keepEditing": "مواصلة التحرير",
+  "editMessageConfirm/save": "يحفظ",
+  "editMessageConfirm/discard": "تجاهل التغييرات",
+  "tokenCount/totalNotAvailable": "الرموز: {{current}}",
+  "tokenCount/totalAvailable": "الرموز: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "السياق {{النسبة المئوية}} ٪ ممتلئة",
+  "tokenCount/contextOverflow": "السياق غير المعالج أكبر من الحد الأقصى للرمز المميز للنموذج. اعتمادًا على سياسة الفائض في السياق ، قد يتم اقتطاع السياق أو قد لا يتم إرسال الرسالة.",
+  "modelLoader/manualLoadParams/label": "اختر يدويًا معلمات تحميل النموذج",
+  "modelLoader/manualLoadParams/hint/before": "(أو عقد",
+  "modelLoader/manualLoadParams/hint/after": null,
+  "actions/move/error": "فشل في التحرك",
+  "actions/rename/error": "فشل في إعادة تسمية",
+  "actions/createChatAtRoot": "دردشة جديدة ...",
+  "actions/createChatAtRoot/error": "فشل في إنشاء الدردشة في الجذر",
+  "actions/createFolderAtRoot": "مجلد جديد ...",
+  "actions/createFolderAtRoot/error": "فشل إنشاء مجلد في الجذر",
+  "actions/createChat/error": "فشل في إنشاء الدردشة",
+  "actions/deleteChat/errorTitle": "فشل في حذف الدردشة",
+  "userFile/fileSizeLimit": "حد حجم الملف هو",
+  "userFile/noImageSupport": "النموذج لا يدعم إدخال الصورة",
+  "userFile/errorPrefix": "خطأ -",
+  "userFile/supportedImagePrefix": "نوع الصورة غير المدعوم - فقط",
+  "userFile/supportedImageSuffix": "مدعومون",
+  "userFile/unsupportedFileType": "نوع الملف غير المدعوم - الصور فقط ، ملفات PDF و .txt مدعومة.",
+  "userFile/maxFilesPerMessage": "الحد الأقصى لعدد الملفات لكل رسالة تم الوصول إليها. لا يمكن إضافة أكثر من ملفات {{files}}.",
+  "userFile/maxFileSizePerMessage": "الحد الأقصى لحجم الملف لكل رسالة تم الوصول إليها. لا يمكن إضافة ملفات أكبر من {{size}}.",
+  "userFile/maxFileSizePerConversation": "الحد الأقصى لحجم الملف لكل محادثة تم الوصول إليها. لا يمكن إضافة ملفات أكبر من {{size}}.",
+  "userFile/failedToUploadError/title": "فشل تحميل الملف",
+  "userFile/failedToAddFile/title": "فشل في إضافة ملف إلى الدردشة",
+  "errorTitle": "خطأ",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} مستند في الدردشة",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} المستندات في الدردشة",
+  "prediction/busyModel/title": "النموذج مشغول",
+  "prediction/busyModel/message": "يرجى الانتظار حتى ينتهي النموذج وحاول مرة أخرى",
+  "prediction/noModel/title": "لا يوجد نموذج محدد",
+  "prediction/modelLoading": "سيتم إرسال رسائل في قائمة الانتظار عند الانتهاء من التحميل النموذج",
+  "prediction/noModel/message": "حدد نموذجًا لإرسال رسالة",
+  "prediction/unloadModel/error": "فشل في تفريغ النموذج",
+  "retrieval/user/processingLabel": "الذكاء الاصطناعي يفكر ...",
+  "retrieval/powerUser/intermediateStepsHidden": "خطوات وسيطة مخفية. انقر للتوسع.",
+  "retrieval/actions/clickToExpand": "انقر لتوسيع الخطوات المتوسطة",
+  "retrieval/actions/clickToCollapse": "انقر لانهيار الخطوات المتوسطة",
+  "style": "مظهر",
+  "style/viewMode/markdown": "تخفيض السعر",
+  "style/viewMode/plaintext": "نص عادي",
+  "style/viewMode/monospace": "حافلة صغيرة",
+  "speculativeDecodingVisualization/toggle": "تصور مسودة الرموز المقبولة",
+  "speculativeDecodingVisualization/fromDraftModel_one": "مسودة الرمز المميز المقبول",
+  "speculativeDecodingVisualization/fromDraftModel_other": "مسودة الرموز المقبولة",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "يتم تعطيل اختيار وضع العرض عند تصور الرموز الرموز.",
+  "style/fontSize/label": "حجم الخط",
+  "style/fontSize/medium": "تقصير",
+  "style/fontSize/large": "كبير",
+  "style/fontSize/small": "صغير",
+  "style/debugBlocks/label": "إظهار كتل معلومات التصحيح",
+  "style/thinkingUI/label": "توسيع كتل التفكير افتراضيًا",
+  "style/chatFullWidth/label": "قم بتوسيع حاوية الدردشة إلى عرض النافذة",
+  "messageBlocks": {
+    "expandBlockTooltip": "توسيع المحتوى",
+    "collapseBlockTooltip": "محتوى انهيار",
+    "debug": {
+      "label": "معلومات التصحيح",
+      "collapseTooltip": "كتلة معلومات التصحيح الانهيار",
+      "expandTooltip": "قم بتوسيع كتلة معلومات التصحيح"
+    }
+  },
+  "topBarActions/duplicateChat": "ينسخ",
+  "topBarActions/clearChat": "مسح كل شيء",
+  "topBarActions/clearChatConfirmation": "هل أنت متأكد من أنك تريد مسح جميع الرسائل في هذه الدردشة؟",
+  "topBarActions/clearChatCancel": "يلغي",
+  "topBarActions/clearChatDelete": "مسح كل شيء",
+  "noModels.indexing": "فهرسة ملفات النماذج ... (قد يستغرق هذا لحظة)",
+  "noModels.downloading": "تنزيل أول LLM الخاص بك ...",
+  "noModels": "لا LLMS حتى الآن! قم بتنزيل واحد للبدء!",
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "البرنامج المساعد",
+      "multiplePlugins": "{{DynamicValue}}"
+    },
+    "pluginSelect": {
+      "title": "الإضافات",
+      "dropdown": {
+        "configure": "تكوين",
+        "disable": "إبطال",
+        "fork": "شوكة",
+        "uninstall": "إلغاء التثبيت"
+      },
+      "actionButtons": {
+        "create": "+ إنشاء",
+        "import": "يستورد",
+        "discover": "يكتشف"
+      },
+      "recentlyCreated": {
+        "title": "تم إنشاء الإضافات التي تم إنشاؤها مؤخرًا",
+        "placeholder": "سوف تظهر الإضافات التي تنشئها هنا"
+      },
+      "startRunningDevelopmentPlugin/error": "فشل في بدء تشغيل البرنامج المساعد في وضع التطوير",
+      "stopRunningDevelopmentPlugin/error": "فشل في إيقاف تشغيل البرنامج المساعد في وضع التطوير"
+    },
+    "pluginConfiguration": {
+      "title": "تكوين البرنامج المساعد",
+      "selectAPlugin": "حدد مكونًا إضافيًا لتحرير تكويناته",
+      "preprocessorAndGenerator": "يحتوي هذا المكون الإضافي على معالج مسبق ومولد مخصص",
+      "generatorOnly": "يحتوي هذا البرنامج المساعد على مولد مخصص",
+      "preprocessorOnly": "يحتوي هذا البرنامج المساعد على معالج مسبق مخصص"
+    },
+    "instructions": {
+      "runTheFollowing": "لتشغيل البرنامج المساعد الخاص بك ، افتح محطة وأدخل",
+      "pushTo": "شارك المكون الإضافي الخاص بك مع الآخرين عن طريق الضغط على المحور (اختياري)",
+      "createdSuccessfully": "المكون الإضافي الذي تم إنشاؤه بنجاح",
+      "creatingPlugin": "إنشاء البرنامج المساعد ...",
+      "projectFilesTitle": "ملفات المشروع",
+      "buttons": {
+        "documentation": "الوثائق",
+        "dismiss": "رفض",
+        "publish": "نشر",
+        "openInZed": "مفتوح في zed",
+        "openInVscode": "افتح في VS Code",
+        "revealInFinder": "تكشف في Finder",
+        "openInFileExplorer": "افتح في مستكشف الملفات"
+      }
+    }
+  },
+  "genInfo": {
+    "tokensPerSecond": "{{tokenspersecond}} tok/sec",
+    "predictedTokensCount": "{{predinationTokensCount}}",
+    "timeToFirstTokenSec": "{{timetofirsttokensec}} s إلى الرمز المميز الأول",
+    "stopReason": "التوقف عن السبب: {{stopReason}}",
+    "stopReason.userStopped": "توقف المستخدم",
+    "stopReason.modelUnloaded": "نموذج التفريغ",
+    "stopReason.failed": "فشل الجيل",
+    "stopReason.eosFound": "تم العثور على رمز EOS",
+    "stopReason.stopStringFound": "Stop String وجدت",
+    "stopReason.toolCalls": "مكالمات الأداة",
+    "stopReason.maxPredictedTokensReached": "توقع ماكس الرموز",
+    "stopReason.contextLengthReached": "تم الوصول إلى حد طول السياق",
+    "speculativeDecodedBy": "مسودة النموذج: {{decodedby}}",
+    "speculativeDecodingStats": "مقبول {{مقبول}}/{{Total}} مسودة الرموز ({{النسبة المئوية}} ٪)"
+  }
+}
