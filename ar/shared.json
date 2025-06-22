@@ -1,0 +1,37 @@
+{
+  "copyLmStudioLinkButton/toolTip": "نسخ الرابط تنزيل النموذج",
+  "filter.noMatches": "لا تطابقات",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "استخراج الموارد"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "التحقق من التوافق وقت التشغيل"
+    },
+    "indexingRuntimes": {
+      "badge": "فهرسة الأوقات"
+    },
+    "indexingModels": {
+      "badge": "نماذج الفهرسة"
+    },
+    "authenticating": {
+      "badge": "المصادقة"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "تحديث حزمة التمديد ({{name}} v {{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "تسجيل الدخول إلى LM Studio Hub",
+    "authError": "فشلت المصادقة",
+    "noAccount": "ليس لديك حساب؟",
+    "signUp": "اشتراك",
+    "havingTrouble": "تواجه مشكلة؟",
+    "retry": "إعادة المحاولة"
+  },
+  "artifacts": {
+    "fetchError": "فشل في جلب القطع الأثرية"
+  },
+  "incompatible": "غير متوافق",
+  "compatible": "متناسق"
+}

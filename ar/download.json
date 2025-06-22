@@ -1,0 +1,21 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "استخراج ...",
+  "finalizing": "تنزيل اللمسات الأخيرة ... (قد يستغرق هذا بضع لحظات)",
+  "noOptions": "لا توجد خيارات متوافقة للتنزيل",
+  "deeplink/confirmation/title": "تنزيل النموذج من معانقة الوجه 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "حدد الموصى به",
+  "deeplink/confirmation/selectOption": "حدد خيار التنزيل",
+  "deeplink/confirmation/recommendedOption": "من المحتمل أن يكون الخيار الأفضل لمعظم المستخدمين",
+  "deeplink/confirmation/downloadButton": "تحميل",
+  "deeplink/confirmation/nevermindButton": "لا تهتم",
+  "deeplink/confirmation/modelPresent/title": "تم العثور على نموذج الوجه المعانقة ✅",
+  "deeplink/confirmation/modelPresent/body": "أخبار جيدة! ملف النموذج هذا متاح بالفعل على الجهاز المحلي الخاص بك.",
+  "deeplink/confirmation/loadInChat": "تحميل {{modelName}} في دردشة جديدة",
+  "deeplink/error/modelNotFound/title": "روه روه ، لم نتمكن من العثور على هذا النموذج",
+  "deeplink/error/modelNotFound/body": "تحقق مرتين من اسم الطراز وفكر في تجربة خيار تنزيل مختلف.",
+  "deeplink/actions/trySearching": "حاول البحث عن {{modelName}} على وجه المعانقة",
+  "downloadsPanel/title": "التنزيلات",
+  "downloadsPanel/sectionTitle/ongoing": "مستمر",
+  "downloadsPanel/sectionTitle/completed": "مكتمل"
+}

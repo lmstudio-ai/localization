@@ -11,6 +11,7 @@ LM Studio localization
 
 ## Huge thank you to community localizers 🙏
 
+- Arabic [@ibaseduk](https://github.com/ibaseduk), [@ibaseduk](https://github.com/ibaseduk)
 - Spanish [@xtianpaiva](https://github.com/xtianpaiva), [@AlexisGross](https://github.com/AlexisGross)
 - Norwegian [@Exlo84](https://github.com/Exlo84)
 - German [@marcelMaier](https://github.com/marcelMaier), [@Goekdeniz-Guelmez](https://github.com/Goekdeniz-Guelmez)
