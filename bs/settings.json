@@ -142,18 +142,19 @@
       "details": "Proces migracije NEĆE izbrisati vaše stare čete, već će napraviti njihovu kopiju u novom formatu.",
       "footer": "Još uvijek možete pristupiti vašim starim četovima putem starijih verzija LM Studija. Trenutno, slike neće biti automatski migrirane.",
 
-    "hasBetterHint": {
-      "primary": "Poboljšali smo migrator četova otkako ste migrirali vaše stare čete. Želite li ga ponovo pokrenuti?",
-      "details": "Proces migracije će kreirati novi folder za smještaj novomigriranih četova. Vaši stari čete će ostati netaknuti.",
-      "footer": "Još uvijek možete pristupiti vašim starim četovima putem starijih verzija LM Studija. Trenutno, slike neće biti automatski migrirane."
-    },
-    "success": "Četovi uspješno migrirani!",
-    "success_one": "Uspješno migriran 1 čet",
-    "success_other": "Uspješno migrirano {{count}} četova",
-    "showInstructionsButton": "Prikaži Upute",
-    "footerCardText": "Četovi iz prethodnih verzija LM Studija moraju biti migrirani kako bi se mogli koristiti u ovoj verziji.",
-    "hasBetterFooterCardText": "Poboljšali smo migrator četova otkako ste migrirali vaše stare čete. Možete ponovo pokrenuti proces migracije. (Kreirat ćemo novi folder za smještaj novomigriranih četova.)",
-    "dismissConfirm": "Odbaci",
-    "dismissConfirmDescription": "Uvijek možete upravljati migracijom četova u Postavkama"
+      "hasBetterHint": {
+        "primary": "Poboljšali smo migrator četova otkako ste migrirali vaše stare čete. Želite li ga ponovo pokrenuti?",
+        "details": "Proces migracije će kreirati novi folder za smještaj novomigriranih četova. Vaši stari čete će ostati netaknuti.",
+        "footer": "Još uvijek možete pristupiti vašim starim četovima putem starijih verzija LM Studija. Trenutno, slike neće biti automatski migrirane."
+      },
+      "success": "Četovi uspješno migrirani!",
+      "success_one": "Uspješno migriran 1 čet",
+      "success_other": "Uspješno migrirano {{count}} četova",
+      "showInstructionsButton": "Prikaži Upute",
+      "footerCardText": "Četovi iz prethodnih verzija LM Studija moraju biti migrirani kako bi se mogli koristiti u ovoj verziji.",
+      "hasBetterFooterCardText": "Poboljšali smo migrator četova otkako ste migrirali vaše stare čete. Možete ponovo pokrenuti proces migracije. (Kreirat ćemo novi folder za smještaj novomigriranih četova.)",
+      "dismissConfirm": "Odbaci",
+      "dismissConfirmDescription": "Uvijek možete upravljati migracijom četova u Postavkama"
+    }
   }
 }
