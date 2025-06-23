@@ -41,9 +41,8 @@ LM Studio localization
 - Bulgarian (bg) [@DenisZekiria](https://github.com/DenisZekiria)
 - Hindi (hi) [@suhailtajshaik](https://github.com/suhailtajshaik)
 - Hungarian (hu) [@Mekemoka](https://github.com/Mekemoka)
-- Persian (Farsi) (fa) [@mohammad007kh](https://github.com/mohammad007kh), [@darwindev]((https://github.com/darwindev)
-- Arabic (ar) [@haqbany](https://github.com/haqbany)
-
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
+- Persian (Farsi) (fa) [@mohammad007kh](https://github.com/mohammad007kh), [@darwindev]((https://github.com/darwindev)
+- Arabic (ar) [@haqbany](https://github.com/haqbany)
