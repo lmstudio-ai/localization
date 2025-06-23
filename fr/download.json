@@ -1,6 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Extraction...",
-  "finalizing": "Finalisation...",
+  "finalizing": "Finalisation... (cela peut prendre quelques instants)",
   "noOptions": "Aucune option compatible disponible pour le téléchargement",
   
   "deeplink/confirmation/title": "Télécharger le modèle depuis Hugging Face 🤗",
@@ -13,6 +13,11 @@
   "deeplink/confirmation/modelPresent/title": "Modèle Hugging Face trouvé ✅",
   "deeplink/confirmation/modelPresent/body": "Bonne nouvelle ! Ce fichier modèle est déjà disponible sur votre machine locale.",
   "deeplink/confirmation/loadInChat": "Charger {{ modelName }} dans une nouvelle discussion",
-  "deeplink/error/modelNotFound/title": "Ruh roh, nous n'avons pas pu trouver ce modèle",
-  "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement."
+  "deeplink/error/modelNotFound/title": "Zut, nous n'avons pas pu trouver ce modèle",
+  "deeplink/error/modelNotFound/body": "Vérifiez le nom du modèle et envisagez d'essayer une autre option de téléchargement.",
+  "deeplink/actions/trySearching": "essayer de rechergher {{modelName}} sur Hugging Face",
+
+  "downloadsPanel/title": "Téléchargements",
+  "downloadsPanel/sectionTitle/ongoing": "En cours",
+  "downloadsPanel/sectionTitle/completed": "Terminé"
 }

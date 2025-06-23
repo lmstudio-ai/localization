@@ -20,9 +20,9 @@
   "modelsTable.actions/label": "Acciones",
   
   "action.model.delete": "Eliminar",
-  "action.model.delete.full": "Eliminar Modelo",
+  "action.model.delete.full": "Eliminar modelo",
   "action.model.delete.confirmation/title": "Eliminar {{name}}",
-  "action.model.delete.confirmation/description": "¿Estás seguro? Esto eliminará permanentemente todos los archivos asociados con este modelo de tu máquina. Esta acción es irreversible.",
+  "action.model.delete.confirmation/description": "¿Estás seguro? Esto eliminará permanentemente de tu equipo todos los archivos asociados con este modelo. Esta acción es irreversible.",
   "action.model.delete.confirmation/confirm": "Eliminar",
 
   "action.createVirtual": "Crear preajuste",
@@ -39,7 +39,7 @@
 
   "loader.model.bundled": "Empaquetado",
   "action.cancel": "Cancelar",
-  "indexingOngoing": "Indexando modelos... Esto puede tardar algunos segundos.",
+  "indexingOngoing": "Aún indexando... Algunos modelos pueden estar inactivos.",
   "index/error_one": "Error al indexar la siguiente carpeta:",
   "index/error_other": "Error al indexar las siguientes carpetas:",
   "badModels/title_one": "Error al indexar el siguiente modelo:",
