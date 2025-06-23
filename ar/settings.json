@@ -1,0 +1,53 @@
+{
+    "appUpdate": "تحديث التطبيق",
+    "checkingAppUpdate": "جارٍ البحث عن التحديثات...",
+    "checkForUpdates": "البحث عن التحديثات",
+    "failedCheckingAppUpdate": "فشل في التحقق من التحديثات",
+    "newUpdateAvailable": "إصدار جديد من LM Studio متاح! 🎉",
+    "downloadingInProgress": "جارٍ تنزيل التحديث...",
+    "downloadUpdate": "تحديث إلى LM Studio {{version}}",
+    "yourCurrentVersion": "أنت حالياً على الإصدار:",
+    "latestVersion": "الإصدار الأخير هو:",
+    "downloadLabel": "تحديث الآن",
+    "cancelDownloadLabel": "إلغاء",
+    "downloadingUpdate": "جارٍ تنزيل التحديث...",
+    "updateDownloaded": "تم تنزيل التحديث!",
+    "restartAppToUpdate": "أعد تشغيل التطبيق لتطبيق التحديث",
+    "doItLater": "سأقوم بذلك لاحقاً",
+    "failedToUpdate": "فشل في تحديث التطبيق. يرجى التحقق من اتصالك بالإنترنت أو المحاولة لاحقاً.",
+    "retryInBackground": "إعادة المحاولة في الخلفية",
+    "laterLabel": "لاحقاً",
+    "releaseNotesLabel": "ملاحظات الإصدار",
+    "remindMeLater": "تذكيري لاحقاً",
+    "failedDownloadUpdate": "فشل في تنزيل التحديث",
+    "installAndRelaunch": "تثبيت وإعادة التشغيل",
+    "uptodate": "أنت محدث! الإصدار الحالي هو {{version}}",
+    "preferences": "التفضيلات",
+    "sideButtonLabels": "عرض تسميات الأزرار الجانبية",
+    "colorThemeLabel": "سمة اللون",
+    "complexityLevelLabel": "مستوى تعقيد واجهة المستخدم",
+    "selectComplexityLevelPlaceholder": "اختر مستوى تعقيد افتراضي لواجهة المستخدم",
+    "userComplexityLevelLabel": "مستخدم",
+    "powerUserComplexityLevelLabel": "مستخدم متقدم",
+    "developerComplexityLevelLabel": "مطور",
+    "chatSettingsLabel": "إعدادات الدردشة",
+    "firstTimeExperienceLabel": "أول تجربة دردشة",
+    "firstTimeExperienceMarkCompletedLabel": "وضع علامة كمكتمل",
+    "firstTimeExperienceResetLabel": "إعادة تعيين",
+    "showPromptSuggestionsLabel": "عرض اقتراحات الاستعلام عند بدء محادثة جديدة",
+    "shiftEnterToSendLabel": "استخدم Shift + Enter لإرسال الرسالة",
+    "darkThemeLabel": "داكن",
+    "lightThemeLabel": "فاتح",
+    "systemThemeLabel": "تلقائي",
+    "sepiaThemeLabel": "سوفيا",
+    "unloadPreviousModelLabel": "عند اختيار نموذج للتحميل، قم بإلغاء تحميل النماذج الحالية أولاً",
+    "languageLabel": "اللغة",
+    "changeLanguageLabel": "تغيير لغة التطبيق",
+    "developerLabel": "مطور",
+    "showExperimentalFeaturesLabel": "عرض الميزات التجريبية",
+    "appFirstLoadLabel": "أول تجربة تحميل للتطبيق",
+    "showDebugInfoBlocksInChatLabel": "عرض كتل معلومات التصحيح في الدردشة",
+    "autoLoadBundledLLMLabel": "تحميل نموذج LLM مدمج تلقائيًا عند بدء التشغيل",
+    "showReleaseNotes": "عرض ملاحظات الإصدار",
+    "hideReleaseNotes": "إخفاء ملاحظات الإصدار"
+}
