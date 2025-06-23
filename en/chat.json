@@ -215,7 +215,8 @@
     },
     "localFork": {
       "error": "Failed to create a local development copy of the plugin."
-    }
+    },
+    "restartErrorPlugin/error": "Failed to restart the plugin"
   },
 
   "genInfo": {
