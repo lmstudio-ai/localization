@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Colecţii",
+  "collectionsColumn/collectionError": "NU au putut fi încărcate detaliile Colecţiei - încearcă Refresh-ul de sus",
+  "bookmarksColumn": "Bookmarks (Semne de carte)",
+  "searchBar/placeholder": "Să caut modele pe Hugging Face...",
+  "searchBar/huggingFaceError": "EROARE la preluarea rezultatelor de pe Hugging Face; poţi încerca iar după un timp",
+  "sortBy": "Ordonare după",
+  "searchSortKey.default/title": "Denumire/Asemănare",
+  "searchSortKey.likes/title": "Like-uri",
+  "searchSortKey.downloads/title": "Download-uri",
+  "searchSortKey.lastModified/title": "Actualizate recent",
+  "searchSortKey.createdAt/title": "Create recent",
+  "download.option.willFitEstimation.caveat": "Pot fi alte motive ce împiedică încărcarea sa: arhitectura modelului, integritatea fişierului modelului, sau memoria disponibilă în computer.",
+  "download.option.willFitEstimation.fullGPUOffload/title": "E posibilă trimiterea completă în GPU",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Modelul acesta poate încăpea COMPLET în memoria GPU. Asta poate mări dramatic viteza inferenţei.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "E posibilă trimiterea parţială în GPU",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Modelul acesta poate încăpea PARŢIAL în memoria GPU. Uneori, asta poate mări dramatic viteza inferenţei.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Posibil adecvat",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "E probabil ca modelul acesta să încapă în memoria computerului.",
+  "download.option.willFitEstimation.willNotFit/title": "Probabil prea mare pentru acest computer",
+  "download.option.willFitEstimation.willNotFit/description": "Cerinţele de memorie pentru a folosi acest model pot depăşi resursele acestui computer. NU se recomandă download-area acestui fişier.",
+  "download.option.recommended/title": "Recomandat",
+  "download.option.recommended/description": "Opţiunea recomandată pentru acest computer.",
+  "download.option.downloaded/title": "Download-ate",
+  "download.option.downloading/title": "Download: ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Refresh"
+}
