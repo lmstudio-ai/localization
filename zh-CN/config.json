@@ -31,11 +31,16 @@
     "sampling/title": "采样",
     "settings/title": "设置",
     "toolUse/title": "工具调用",
-    "promptTemplate/title": "提示词模板"
+    "promptTemplate/title": "提示词模板",
+    "customFields/title": "自定义字段"
   },
+
   "llm.prediction.systemPrompt/title": "系统提示",
   "llm.prediction.systemPrompt/description": "使用此字段向模型提供背景指令,如一套规则、约束或一般要求。",
   "llm.prediction.systemPrompt/subTitle": "AI 指南",
+  "llm.prediction.systemPrompt/openEditor": "编辑器",
+  "llm.prediction.systemPrompt/closeEditor": "关闭编辑器",
+  "llm.prediction.systemPrompt/openedEditor": "在编辑器中打开...",
   "llm.prediction.temperature/title": "温度",
   "llm.prediction.temperature/subTitle": "引入多少随机性。0 将始终产生相同的结果,而较高值将增加创造性和变化。",
   "llm.prediction.temperature/info": "来自 llama.cpp 帮助文档：\"默认值为 <{{dynamicValue}}>，它在随机性和确定性之间提供了平衡。极端情况下，温度为 0 会始终选择最可能的下一个token，导致每次运行的输出相同\"",
@@ -109,12 +114,21 @@
   "llm.prediction.speculativeDecoding.draftModel/title": "草稿模型",
   "llm.prediction.reasoning.parsing/title": "推理过程解析方式",
   "llm.prediction.reasoning.parsing/subTitle": "控制模型输出中推理过程的解析方式",
+
   "llm.load.mainGpu/title": "主 GPU",
-  "llm.load.mainGpu/subTitle": "用于模型计算的GPU优先级",
+  "llm.load.mainGpu/subTitle": "用于模型计算的 GPU 优先级",
   "llm.load.mainGpu/placeholder": "选择主 GPU...",
   "llm.load.splitStrategy/title": "拆分策略",
-  "llm.load.splitStrategy/subTitle": "如何跨GPU拆分模型计算",
+  "llm.load.splitStrategy/subTitle": "如何跨 GPU 拆分模型计算",
   "llm.load.splitStrategy/placeholder": "选择拆分策略...",
+  "llm.load.offloadKVCacheToGpu/title": "将 KV 缓存卸载到 GPU 内存",
+  "llm.load.offloadKVCacheToGpu/subTitle": "将 KV 缓存卸载到 GPU 内存。这可以提高性能但需要更多 GPU 内存",
+  "load.gpuStrictVramCap/title": "限制模型卸载至专用 GPU 内存",
+  "load.gpuStrictVramCap.customSubTitleOff": "关闭：若专用 GPU 内存已满，允许将模型权重卸载至共享内存",
+  "load.gpuStrictVramCap.customSubTitleOn": "开启：系统将限制模型权重的卸载仅限于专用 GPU 内存及 RAM 。上下文仍可能使用共享内存",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "模型的卸载仅限于专用 GPU 内存。实际卸载的层数可能会有所不同",
+  "load.allGpusDisabledWarning": "所有 GPU 目前均被禁用。请启用至少一个以进行卸载",
+
   "llm.load.contextLength/title": "上下文长度",
   "llm.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "llm.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -122,6 +136,7 @@
   "llm.load.seed/title": "种子",
   "llm.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机",
   "llm.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
+
   "llm.load.llama.evalBatchSize/title": "评估批处理大小",
   "llm.load.llama.evalBatchSize/subTitle": "每次处理的输入token数量。增加此值会提高性能，但会增加内存使用量",
   "llm.load.llama.evalBatchSize/info": "设置评估期间一起处理的示例数量,影响速度和内存使用",
@@ -180,6 +195,7 @@
   "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "高级：量化乘法的分组大小配置\n\n• 高精度 = 分组 32\n• 均衡 = 分组 64\n• 极速 = 分组 128\n",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "达到此上下文长度后开始量化",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "当上下文长度达到该值时，开始对 KV 缓存进行量化",
+
   "embedding.load.contextLength/title": "上下文长度",
   "embedding.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "embedding.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -203,7 +219,9 @@
   "embedding.load.llama.tryMmap/info": "直接从磁盘加载模型文件到内存",
   "embedding.load.seed/title": "种子",
   "embedding.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机种子",
+
   "embedding.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
+
   "presetTooltip": {
     "included/title": "预设值",
     "included/description": "以下字段将会被应用",
@@ -221,8 +239,10 @@
     "button/pushUpdate": "推送更改到 Hub",
     "button/noChangesToPush": "没有可推送的更改",
     "button/export": "导出",
-    "hubLabel": "来自 {{user}} 的 Hub 预设"
+    "hubLabel": "来自 {{user}} 的 Hub 预设",
+    "ownHubLabel": "您的 Hub 预设"
   },
+
   "customInputs": {
     "string": {
       "emptyParagraph": "<空>"
@@ -325,7 +345,7 @@
     "title": "选择要包含在预设中的值",
     "description": "挑选并选择要保留的值",
     "instructions": "点击一个值以包含它",
-    "userValues": "先前值",
+    "userValues": "先前的值",
     "presetValues": "新值",
     "confirm": "确认",
     "cancel": "取消"
@@ -346,6 +366,7 @@
   "idleTTL.label": "空闲时自动卸载",
   "idleTTL.hint": "如设置，模型在空闲指定时间后将自动卸载。",
   "idleTTL.mins": "分钟",
+
   "presets": {
     "title": "预设",
     "commitChanges": "提交更改",
@@ -378,6 +399,7 @@
     "discardChanges/info": "丢弃所有未提交的更改并恢复预设至原始状态",
     "newEmptyPreset": "创建新的空预设...",
     "importPreset": "导入",
+    "contextMenuCopyIdentifier": "复制预设标识符",
     "contextMenuSelect": "选择预设",
     "contextMenuDelete": "删除",
     "contextMenuShare": "发布中...",
@@ -406,7 +428,11 @@
       "pushedToHub": "你的预设已推送到 Hub",
       "descriptionPlaceholder": "请输入描述...",
       "willBePublic": "发布你的预设将使其公开",
-      "publicSubtitle": "你的预设现在为 <custom-bold>公开</custom-bold>。其他人可以在 lmstudio.ai 下载和复刻它",
+      "willBePrivate": "仅您可见",
+      "willBeOrgVisible": "组织内成员均可见",
+      "publicSubtitle": "你的预设现在为 <custom-bold>公开</custom-bold>。其他人可以在 lmstudio.ai 下载和 fork 它",
+      "privateUsageReached": "私有预设的数量已达上限",
+      "continueInBrowser": "在浏览器继续",
       "confirmShareButton": "发布",
       "error": "预设发布失败",
       "createFreeAccount": "请在 Hub 创建免费账号以发布预设"
@@ -423,11 +449,43 @@
       "error": "推送更新失败",
       "confirmUpdateButton": "推送"
     },
+    "resolve": {
+      "title": "解决冲突...",
+      "tooltip": "打开窗口以解决与 Hub 版本的差异"
+    },
+    "loginToManage": {
+      "title": "登录以管理..."
+    },
+    "downloadFromHub": {
+      "title": "下载",
+      "downloading": "下载中...",
+      "success": "下载完成！",
+      "error": "下载失败"
+    },
+    "push": {
+      "title": "推送更改",
+      "pushing": "推送中...",
+      "success": "推送成功！",
+      "tooltip": "将本地更改推送到 Hub 上托管的远程版本",
+      "error": "推送失败"
+    },
+    "saveAsNewModal": {
+      "title": "哎呀！在 Hub 上未找到预设",
+      "confirmSaveAsNewDescription": "您是否希望将此预设作为新版本发布？",
+      "confirmButton": "作为新版本发布"
+    },
     "pull": {
+      "title": "拉取最新版本",
       "error": "拉取失败",
       "contextMenuErrorMessage": "拉取失败",
       "success": "已拉取",
-      "pulling": "拉取中..."
+      "pulling": "拉取中...",
+      "upToDate": "已是最新版本！",
+      "unsavedChangesModal": {
+        "title": "你有未保存的更改。",
+        "bodyContent": "从远程拉取的内容将覆盖您的未保存更改，是否继续？",
+        "confirmButton": "覆盖未保存的更改"
+      }
     },
     "import": {
       "title": "从文件导入预设",
@@ -438,7 +496,7 @@
       "importPreset_one": "导入预设",
       "importPreset_other": "导入 {{count}} 个预设",
       "selectDialog": {
-        "title": "选择预设文件（.json）",
+        "title": "选择预设文件（.json 或者 .tar.gz）",
         "button": "导入"
       },
       "error": "导入预设失败",
@@ -486,20 +544,29 @@
       "speculativeDecoding": "包含在预设中"
     }
   },
-  "flashAttentionWarning": "闪电注意力是一项实验性功能,可能会导致某些模型出现问题。如果您遇到问题,请尝试禁用它。",
-  "llamaKvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantization. If you encounter problems, reset to the default \"F16\".",
+
+  "flashAttentionWarning": "Flash Attention 是一项实验性功能,可能会导致某些模型出现问题。如果您遇到问题,请尝试禁用它。",
+  "llamaKvCacheQuantizationWarning": "KV 缓存量化是一项实验性功能，可能会导致某些模型出现问题。V 缓存量化必须启用 Flash Attention。如果遇到问题，请将默认值重置为\"F16\"。",
+
   "seedUncheckedHint": "随机种子",
   "ropeFrequencyBaseUncheckedHint": "自动",
   "ropeFrequencyScaleUncheckedHint": "自动",
+
   "hardware": {
     "environmentVariables": "环境变量",
     "environmentVariables.info": "如果不确定,请保留默认值",
     "environmentVariables.reset": "重置为默认值",
+    
+    "gpus.information": "配置检测到的图形处理单元 (GPU）",
     "gpuSettings": {
+      "editMaxCapacity": "编辑最大容量",
+      "hideEditMaxCapacity": "隐藏最大容量编辑",
+      "allOffWarning": "所有 GPU 均已关闭或禁用，请确保分配了至少一个 GPU 以加载模型",
       "split": {
         "title": "分配策略",
         "placeholder": "选择 GPU 内存分配方式",
         "options": {
+          "generalDescription": "配置模型将如何加载到您的 GPU 上",
           "evenly": {
             "title": "均匀分配",
             "description": "在多个 GPU 之间均匀分配内存"
@@ -507,16 +574,20 @@
           "priorityOrder": {
             "title": "按顺序填充",
             "description": "先在第一个 GPU 上分配内存,然后依次分配到后续 GPU"
+          },
+          "custom": {
+            "title": "自定义",
+            "description": "分配内存",
+            "maxAllocation": "最大分配"
           }
         }
       },
-      "priority": {
-        "title": "GPU 填充顺序"
-      },
       "deviceId.info": "此设备的唯一标识符",
-      "changesOnlyAffectNewlyLoadedModels": "更改仅影响新加载的模型"
+      "changesOnlyAffectNewlyLoadedModels": "更改仅影响新加载的模型",
+      "toggleGpu": "启用/禁用 GPU"
     }
   },
+
   "load.gpuSplitConfig/title": "GPU 分配配置",
   "envVars/title": "设置环境变量",
   "envVars": {

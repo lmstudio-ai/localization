@@ -3,7 +3,9 @@
   "tabs/extensions": "LM 运行环境",
   "loadSettings/title": "加载设置",
   "modelSettings/placeholder": "选择一个模型进行配置",
+
   "loadedModels/noModels": "没有已加载的模型",
+
   "serverOptions/title": "服务器选项",
   "serverOptions/configurableTitle": "可配置选项",
   "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果该端口已被占用，您可能需要更改此设置。",
@@ -25,18 +27,44 @@
   "serverOptions/contentLogging/title": "记录提示和响应",
   "serverOptions/contentLogging/subtitle": "本地请求/响应日志记录设置",
   "serverOptions/contentLogging/hint": "是否在本地服务器日志文件中记录提示和/或响应。",
-  "serverOptions/jitModelLoading/title": "即时模型加载",
+  "serverOptions/redactContent/title": "内容脱敏",
+  "serverOptions/redactContent/hint": "启用后，可防止敏感数据（如请求和响应内容）被记录在日志中。",
+  "serverOptions/logIncomingTokens/title": "记录传入的 Token",
+  "serverOptions/logIncomingTokens/hint": "是否在生成过程中记录每个 Token",
+  "serverOptions/fileLoggingMode/title": "文件日志模式",
+  "serverOptions/fileLoggingMode/off/title": "关闭",
+  "serverOptions/fileLoggingMode/off/hint": "不创建日志文件",
+  "serverOptions/fileLoggingMode/succinct/title": "简洁",
+  "serverOptions/fileLoggingMode/succinct/hint": "记录与控制台相同的内容。长请求将被截断。",
+  "serverOptions/fileLoggingMode/full/title": "完整",
+  "serverOptions/fileLoggingMode/full/hint": "不对长请求进行截断。",
+  "serverOptions/jitModelLoading/title": "JIT（即时）模型加载",
   "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
+  "serverOptions/jitModelLoadingTTL/title": "自动卸载未使用的即时加载模型",
+  "serverOptions/jitModelLoadingTTL/hint": "通过 API 请求即时加载的模型，若在一段时间内未被使用，将会被自动卸载(TTL)",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "最大空闲 TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "分钟",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "仅保留最后一个即时加载的模型",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保在任意时刻最多只有一个即时加载的模型（会卸载之前的模型）",
+
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
+
   "runtimeSettings/title": "运行环境设置",
   "runtimeSettings/chooseRuntime/title": "配置运行环境",
   "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
   "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
+
+  "runtimeSettings/chooseFrameworks/title": "框架",
+  "runtimeSettings/chooseFrameworks/description": "为每个功能选择要使用的框架",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "内置解析器",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "文档解析器",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "请选择文档解析器",
+
   "runtimeOptions/uninstall": "卸载",
   "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？",
   "runtimeOptions/uninstallDialog/body": "卸载此运行环境将从系统中移除它。此操作不可逆。",
@@ -47,13 +75,105 @@
   "runtimeOptions/noCompatibleRuntimes": "未找到兼容的运行环境",
   "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
   "runtimeOptions/noRuntimes": "未找到运行环境",
-  "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
+
+  "runtimes": {
+    "manageLMRuntimes": "管理 LM 运行环境",
+    "includeOlderRuntimeVersions": "包含旧版本",
+    "dismiss": "关闭",
+    "updateAvailableToast": {
+      "title": "LM 运行环境更新可用！"
+    },
+    "updatedToast": {
+      "title": " ✅ LM 运行环境已更新：{{runtime}} → v{{version}}",
+      "preferencesUpdated": "新加载的 {{compatibilityTypes}} 模型将使用更新后的运行环境。"
+    },
+    "noAvx2ErrorMessage": "所有 LM 运行环境当前都需要支持 AVX2 指令集的 CPU",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "运行环境扩展包",
+      "refresh": "刷新",
+      "refreshing": "刷新中...",
+      "filterSegment": {
+        "compatibleOnly": "仅兼容",
+        "all": "全部"
+      },
+      "card": {
+        "releaseNotes": "版本说明",
+        "latestVersionInstalled": "已安装最新版本",
+        "updateAvailable": "更新可用"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "管理可用的运行环境"
+      },
+      "dropdownOptions": {
+        "installedVersions": "管理版本",
+        "close": "关闭"
+      },
+      "tabs": {
+        "all": "全部",
+        "frameworks": "我的框架",
+        "engines": "我的引擎"
+      },
+      "detailsModal": {
+        "installedVersions": "{{runtimeName}}的已安装版本",
+        "manifestJsonTitle": "清单 JSON（高级）",
+        "releaseNotesTitle": "版本说明",
+        "noReleaseNotes": "该版本无可用的版本说明",
+        "back": "返回",
+        "close": "关闭"
+      },
+      "noEngines": "未安装引擎",
+      "noFrameworks": "未安装框架"
+    }
+  },
+
+  "inferenceParams/noParams": "此模型类型无可用配置的推理参数",
+
+  "quickDocs": {
+    "tabChipTitle": "快速文档",
+    "newToolUsePopover": "代码片段现已在“快速文档”中提供。点击此处开始使用工具！",
+    "newToolUsePopoverTitle": "📚 快速文档",
+    "learnMore": "ℹ️ 👾 要了解有关 LM Studio 本地服务器端的更多信息，请访问[文档](https://lmstudio.ai/docs)。",
+    "helloWorld": {
+      "title": "你好，世界！"
+    },
+    "chat": {
+      "title": "聊天"
+    },
+    "structuredOutput": {
+      "title": "结构化输出"
+    },
+    "imageInput": {
+      "title": "图像输入"
+    },
+    "embeddings": {
+      "title": "文本嵌入"
+    },
+    "toolUse": {
+      "title": "工具使用",
+      "tab": {
+        "saveAsPythonFile": "保存为Python文件",
+        "runTheScript": "运行脚本：",
+        "savePythonFileCopyPaste": "保存为Python文件以进行复制粘贴命令"
+      }
+    },
+    "newBadge": "新功能"
+  },
+
   "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
   "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个token。注意：OpenAI 认为此端点已'弃用'。",
-  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响。",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
+
   "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
   "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
+
+  "model": {
+    "toolUseSectionTitle": "工具使用",
+    "toolUseDescription": "检测到此模型经过工具使用的训练\n\n打开<custom-link>快速文档</custom-link>以了解更多信息。"
+  },
+
   "apiConfigOptions/title": "API 配置"
 }

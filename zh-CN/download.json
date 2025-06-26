@@ -1,5 +1,15 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "解压中...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "解压中...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "解压中...",
+  "postDownloadActionExecutor.modifyModelData/status": "更新模型文件中...",
+  "postDownloadActionExecutor.notification/status": "通知用户中...",
+  "postDownloadActionExecutor.writeString/status": "写入元数据中...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "更新选中版本中...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "删除未使用的扩展中...",
+  "postDownloadActionExecutor.pluginInstall/status": "安装插件中...",
+  "postDownloadActionExecutor.pluginUninstall/status": "卸载插件中...",
+
   "finalizing": "完成下载...（这可能需要几分钟）",
   "noOptions": "没有可用的兼容下载选项",
   
@@ -11,7 +21,7 @@
   "deeplink/confirmation/downloadButton": "下载",
   "deeplink/confirmation/nevermindButton": "取消",
   "deeplink/confirmation/modelPresent/title": "找到 Hugging Face 模型 ✅",
-  "deeplink/confirmation/modelPresent/body": "此模型文件已经在您的本地机器上可用。",
+  "deeplink/confirmation/modelPresent/body": "好消息！此模型文件已经在您的本地机器上可用。",
   "deeplink/confirmation/loadInChat": "在新聊天中加载 {{ modelName }}",
   "deeplink/error/modelNotFound/title": "未找到该模型",
   "deeplink/error/modelNotFound/body": "请再次检查模型名称，并考虑尝试不同的下载选项。",
@@ -19,5 +29,15 @@
   
   "downloadsPanel/title": "下载",
   "downloadsPanel/sectionTitle/ongoing": "正在进行",
-  "downloadsPanel/sectionTitle/completed": "已完成"
+  "downloadsPanel/sectionTitle/completed": "已完成",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "在 Finder 中显示",
+      "mac/error": "在 Finder 中显示失败",
+      "nonMac": "在文件资源管理器中显示",
+      "nonMac/error": "在文件资源管理器中显示失败"
+    },
+    "completed": "下载完成！",
+    "loadModel": "加载模型"
+  }
 }
