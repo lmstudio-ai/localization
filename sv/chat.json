@@ -89,6 +89,11 @@
 	"actions/createFolderAtRoot": "Ny mapp...",
 	"actions/createFolderAtRoot/error": "Misslyckades med att skapa mapp vid roten",
 	"actions/createChat/error": "Misslyckades med att skapa chatt",
+  "actions/openInFolder/mac": "Visa i Finder",
+  "actions/openInFolder/pc": "Öppna i Utforskaren",
+
+	"actions/createFolder/error": "Misslyckades med att skapa chatt",
+	"actions/deleteChat/errorTitle": "Misslyckades med att radera chatt",
 
 	"userFile/fileSizeLimit": "Filstorleksgräns är ",
 	"userFile/noImageSupport": "Modellen stöder inte bildinmatning",
@@ -98,7 +103,12 @@
 	"userFile/unsupportedFileType": "Ej stödd filtyp - endast bilder, PDF-filer och .txt-filer stöds.",
 	"userFile/maxFilesPerMessage": "Maximalt antal filer per meddelande nått. Kan inte lägga till fler än {{files}} filer.",
 	"userFile/maxFileSizePerMessage": "Maximal filstorlek per meddelande nådd. Kan inte lägga till filer större än {{size}}.",
+	"userFile/maxFileSizePerConversation": "Maximal filstorlek per konversation är nådd. Kan inte lägga till filer större än {{size}}. ",
+	"userFile/failedToUploadError/title": "Misslyckades med att ladda upp fil",
+	"userFile/failedToAddFile/title": "Misslyckades med att lägga till fil i chatten",
 	"errorTitle": "Fel",
+	"userFile/chatTerminalDocumentsCount_one": "{{count}} dokument i chatten",
+	"userFile/chatTerminalDocumentsCount_other": "{{count}} dokument i chatten",
 
 	"prediction/busyModel/title": "Modellen är upptagen",
 	"prediction/busyModel/message": "Vänligen vänta tills modellen är klar och försök igen",
@@ -118,10 +128,32 @@
 	"style/viewMode/plaintext": "Ren text",
 	"style/viewMode/monospace": "Monospace",
 
+	"speculativeDecodingVisualization/toggle": "Visualisera accepterade utkasttoken",
+	"speculativeDecodingVisualization/fromDraftModel_one": "Accepterad utkasttoken",
+	"speculativeDecodingVisualization/fromDraftModel_other": "Accepterade utkasttoken",
+	"speculativeDecodingVisualization/cannotChangeViewMode": "Val av visningsläge är inaktiverat när utkasttoken visualiseras.",
+
 	"style/fontSize/label": "Teckenstorlek",
 	"style/fontSize/medium": "Standard",
 	"style/fontSize/large": "Stor",
 	"style/fontSize/small": "Liten",
+
+	"style/debugBlocks/label": "Visa felsökningsinformationsblock",
+	
+	"style/thinkingUI/label": "Expandera resoneringsblock som standard",
+	"style/chatFullWidth/label": "Expandera chattcontainern till fönstrets bredd",
+	
+	"style/chatUtilityMenusShowLabel/label": "Visa etiketter för chattverktygsmenyer",
+	
+	"messageBlocks": {
+		"expandBlockTooltip": "Expandera innehåll",
+		"collapseBlockTooltip": "Komprimera innehåll",
+		"debug": {
+			"label": "FELSÖKNINGSINFO",
+			"collapseTooltip": "Komprimera felsökningsinformationsblock",
+			"expandTooltip": "Expandera felsökningsinformationsblock"
+		}
+	},
 
 	"topBarActions/duplicateChat": "Duplicera chatt",
 	"topBarActions/clearChat": "Rensa alla meddelanden",
@@ -131,5 +163,80 @@
 
 	"noModels.indexing": "Indexerar modellfiler... (detta kan ta en stund)",
 	"noModels.downloading": "Laddar ner din första LLM...",
-	"noModels": "Inga LLM:er ännu! Ladda ner en för att komma igång!"
+	"noModels": "Inga LLM:er ännu! Ladda ner en för att komma igång!",
+
+	"plugins": {
+		"pluginTrigger": {
+			"noPlugins": "Plugin",
+			"multiplePlugins": "{{dynamicValue}} plugins"
+		},
+		"pluginSelect": {
+			"title": "Plugins",
+			"dropdown": {
+				"configure": "Konfigurera",
+				"disable": "Inaktivera",
+				"fork": "Förgrena",
+				"uninstall": "Avinstallera"
+			},
+			"actionButtons": {
+				"create": "Skapa",
+				"import": "Importera",
+				"discover": "Utforska"
+			},
+			"recentlyCreated": {
+				"title": "Nyligen skapade plugins",
+				"placeholder": "Plugins du skapar kommer visas här"
+			},
+			"startRunningDevelopmentPlugin/error": "Misslyckades med att starta plugin i utvecklingsläge",
+			"stopRunningDevelopmentPlugin/error": "Misslyckades med att stoppa plugin i utvecklingsläge"
+		},
+		"pluginConfiguration": {
+			"title": "Pluginkonfiguration",
+			"selectAPlugin": "Välj en plugin för att redigera dess konfigurationer",
+			"preprocessorAndGenerator": "Denna plugin innehåller en anpassad förbehandlare och generator",
+			"generatorOnly": "Denna plugin innehåller en anpassad generator",
+			"preprocessorOnly": "Denna plugin innehåller en anpassad förbehandlare"
+		},
+		"instructions": {
+			"runTheFollowing": "För att köra din plugin, öppna en terminal och ange",
+			"pushTo": "Dela din plugin med andra genom att publicera till Hub (valfritt)",
+			"createdSuccessfully": "Plugin skapades framgångsrikt",
+			"creatingPlugin": "Skapar plugin...",
+			"projectFilesTitle": "Projektfiler",
+			"buttons": {
+				"documentation": "Dokumentation",
+				"dismiss": "Avvisa",
+				"publish": "Publicera",
+				"openInZed": "Öppna i Zed",
+				"openInVscode": "Öppna i VS Code",
+				"revealInFinder": "Visa i Finder",
+				"openInFileExplorer": "Öppna i Utforskaren"
+			}
+		},
+		"localFork": {
+			"error": "Misslyckades med att skapa en lokal utvecklingskopia av pluginen."
+		},
+		"restartErrorPlugin/error": "Misslyckades med att starta om pluginen"
+	},
+
+	"genInfo": {
+		"tokensPerSecond": "{{tokensPerSecond}} token/sek",
+		"predictedTokensCount": "{{predictedTokensCount}} token",
+		"timeToFirstTokenSec": "{{timeToFirstTokenSec}}s till första token",
+		"stopReason": "Stopporsak: {{stopReason}}",
+		"stopReason.userStopped": "Användaren avbröt",
+		"stopReason.modelUnloaded": "Modellen avlastades",
+		"stopReason.failed": "Generering misslyckades",
+		"stopReason.eosFound": "EOS-token hittades",
+		"stopReason.stopStringFound": "Stoppsträng hittades",
+		"stopReason.toolCalls": "Verktygsanrop",
+		"stopReason.maxPredictedTokensReached": "Maximalt antal förutsedda token uppnåddes",
+		"stopReason.contextLengthReached": "Kontextlängdsgräns uppnåddes",
+		"speculativeDecodedBy": "Utkastmodell: {{decodedBy}}",
+		"speculativeDecodingStats": "Accepterade {{accepted}}/{{total}} utkasttoken ({{percentage}}%)"
+	},
+
+	"tabs": {
+		"systemPromptEditorTab.headerLabel": "Redigerar systemprompt"
+	}
 }
