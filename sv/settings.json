@@ -1,12 +1,13 @@
 {
 	"settingsDialogTitle": "Appinställningar",
 	"settingsDialogButtonTooltip": "Appinställningar",
-	
+	"accountDialogButtonTooltip": "Konto",
+
 	"settingsNewButtonPopover": {
 		"primary": "Appinställningar finns nu i det nedre högra hörnet",
 		"secondary": "Klicka på ⚙️-knappen för att öppna dem.",
 		"tertiary": "Eller tryck på"
-  },
+	},
 	"appUpdate": "Appuppdatering",
 	"checkingAppUpdate": "Söker efter uppdateringar...",
 	"checkForUpdates": "Sök efter uppdateringar",
@@ -23,6 +24,7 @@
 	"yourCurrentVersion": "Du använder för närvarande:",
 	"latestVersion": "Den senaste versionen är:",
 	"downloadLabel": "Uppdatera nu",
+	"downloadLabel/Linux": "Ladda ner uppdatering",
 	"cancelDownloadLabel": "Avbryt",
 	"downloadingUpdate": "Laddar ner uppdatering...",
 	"updateDownloaded": "Ny uppdatering nedladdad framgångsrikt. Starta om appen för att tillämpa uppdateringen.",
@@ -30,6 +32,9 @@
 	"appUpdatedToastTitle": "Uppdaterad till {{title}}",
 	"appUpdatedToastDescriptionPrefix": "Visa ",
 	"AppUpdatedToastDescriptionReleaseNotes": "Versionsanteckningar",
+	"toolUseToastTitle": "Nytt i Beta: Verktygsanvändning och Function Calls API",
+	"toolUseToastDescription": "Drop-in-ersättning för OpenAI Tool Use med utvalda modeller som Llama 3.1/3.2, Mistral och Qwen.",
+	"toolUseToastButtonText": "Gå till utvecklarsidan för att prova",
 	"doItLater": "Jag gör det senare",
 	"failedToUpdate": "Appuppdatering misslyckades. Kontrollera din internetanslutning eller försök igen senare.",
 	"retryInBackground": "Försök igen i bakgrunden",
@@ -42,6 +47,7 @@
 	"preferences": "Inställningar",
 	"general": "Allmänt",
 	"sideButtonLabels": "Visa sidoknappsetiketter",
+	"showModelFileNames": "Mina modeller: visa alltid hela modellfilens namn",
 	"colorThemeLabel": "Färgtema",
 	"complexityLevelLabel": "Användargränssnittets komplexitetsnivå",
 	"selectComplexityLevelPlaceholder": "Välj en standardkomplexitetsnivå för användargränssnittet",
@@ -53,17 +59,26 @@
 	"chat/highlightChatMessageOnHover": "Markera chattmeddelande vid hovring",
 	"chat/doubleClickMessageToEdit": "Dubbelklicka på ett chattmeddelande för att redigera",
 
+	"chat/aiNaming/label": "Chatt-AI-namngivning",
+	"chat/aiNaming/mode/label": "AI-genererade chattnamn",
+	"chat/aiNaming/mode/value/never": "Aldrig",
+	"chat/aiNaming/mode/value/never/subTitle": "Skapa inte AI-genererade chattnamn",
+	"chat/aiNaming/mode/value/auto": "Auto",
+	"chat/aiNaming/mode/value/auto/subTitle": "Avgör om namn ska skapas baserat på genereringshastighet",
+	"chat/aiNaming/mode/value/always": "Alltid",
+	"chat/aiNaming/mode/value/always/subTitle": "Skapa AI-genererade chattnamn oavsett genereringshastighet",
+	"chat/aiNaming/emoji": "Använd emojis i AI-genererade chattnamn",
 	"chat/keyboardShortcuts/label": "Tangentbordsgenvägar",
 	"chat/keyboardShortcuts/verbPrefix": "Använd",
 	"chat/keyboardShortcuts/regenerate": "för att regenerera det senaste meddelandet i chatten",
 	"chat/keyboardShortcuts/sendMessage": "för att skicka meddelande",
-	
+
 	"onboarding/blockTitle": "Introduktionshjälp",
 	"onboarding/dismissedHints": "Avfärdade introduktionshjälp",
 	"onboarding/resetHintTooltip": "Klicka för att återaktivera denna introduktionshjälp",
 	"onboarding/resetAllHints": "Återställ all introduktionshjälp",
 	"onboarding/noneDismissed": "Inga avfärdade hjälpmeddelanden, för närvarande visas alla introduktionshjälpmeddelanden tills de avfärdas",
-	
+
 	"firstTimeExperienceLabel": "Chatt första gången upplevelse",
 	"firstTimeExperienceMarkCompletedLabel": "Markera som slutförd",
 	"firstTimeExperienceResetLabel": "Återställ",
@@ -76,16 +91,17 @@
 	"languageLabel": "Språk",
 	"changeLanguageLabel": "Välj appens språk (fortfarande under utveckling)",
 	"developerLabel": "Utvecklare",
+	"localServiceLabel": "Lokal LLM-tjänst (utan gränssnitt)",
 	"showExperimentalFeaturesLabel": "Visa experimentella funktioner",
 	"appFirstLoadLabel": "Appens första laddningsupplevelse",
 	"showDebugInfoBlocksInChatLabel": "Visa felsökningsinformationsblock i chatten",
 	"autoLoadBundledLLMLabel": "Ladda automatiskt en bundlad LLM-modell vid start",
 	"showReleaseNotes": "Visa versionsanteckningar",
 	"hideReleaseNotes": "Dölj versionsanteckningar",
-	
+
 	"backendDownloadNewUpdate": "Nyare backends är tillgängliga!",
 	"backendDownloadNewUpdateAction": "Gå till utvecklarsidan",
-	
+
 	"backendDownloadChannel.label": "LM Studio Extension Packs nedladdningskanal",
 	"backendDownloadChannel.value.stable": "Stabil",
 	"backendDownloadChannel.value.beta": "Beta",
@@ -96,9 +112,10 @@
 	"appUpdateChannel.label": "LM Studio Uppdateringskanal",
 	"appUpdateChannel.value.stable": "Stabil",
 	"appUpdateChannel.value.beta": "Beta",
+	"appUpdateChannel.value.alpha": "Alpha",
 	"appUpdateChannel.shortLabel": "Appuppdateringskanal",
 	"appUpdateChannel.hint": "Välj kanalen från vilken du vill ta emot LM Studio-appuppdateringar. \"{{stableName}}\" är den rekommenderade kanalen för de flesta användare.",
-	
+
 	"modelLoadingGuardrails.label": "Modellinläsningsskydd",
 	"modelLoadingGuardrails.description": "Att ladda modeller bortom systemresursgränser kan orsaka systeminstabilitet eller frysning. Skyddsräcken förhindrar oavsiktlig överbelastning. Justera dessa gränser här om det behövs, men var medveten om att ladda modeller nära systemets gräns kan minska stabiliteten.",
 	"modelLoadingGuardrails.value.off": "AV (Ej rekommenderat)",
@@ -114,7 +131,7 @@
 	"modelLoadingGuardrails.value.high/subTitle": "Starka försiktighetsåtgärder mot systemöverbelastning",
 	"modelLoadingGuardrails.value.high/detail": "Strikt detalj",
 	"modelLoadingGuardrails.value.custom": "Anpassad",
-		"modelLoadingGuardrails.value.custom/subTitle": "Ställ in din egen gräns för maximal modellstorlek som kan laddas",
+	"modelLoadingGuardrails.value.custom/subTitle": "Ställ in din egen gräns för maximal modellstorlek som kan laddas",
 	"modelLoadingGuardrails.value.custom/detail": "Anpassad detalj",
 	"modelLoadingGuardrails.custom.label": "Minnesgräns: ",
 	"modelLoadingGuardrails.custom.unitGB": "GB",
@@ -122,13 +139,22 @@
 
 	"experimentalLoadPresets": "Aktivera stöd för modellinläsningskonfiguration i förinställningar",
 	"experimentalLoadPresets.description": "Om förinställningar ska tillåtas inkludera modellinläsningskonfigurationer. Denna funktion är experimentell och vi välkomnar feedback.",
-	
+
+	"unloadPreviousJITModelOnLoad": "JIT-modeller auto-avlastning: säkerställ att högst 1 modell är inläst via JIT samtidigt (avlastar föregående modell)",
+	"autoDeleteExtensionPacks": "Ta automatiskt bort minst nyligen använda Runtime Extension Packs",
+	"autoUpdateExtensionPacks": "Uppdatera valda Runtime Extension Packs automatiskt",
+	"useHFProxy.label": "Använd LM Studios Hugging Face-proxy",
+	"useHFProxy.hint": "Använd LM Studios Hugging Face-proxy för att söka och ladda ner modeller. Detta kan hjälpa användare som har problem att komma åt Hugging Face direkt.",
+	"separateReasoningContentInResponses": "Separera `reasoning_content` och `content` i API-svar när det är tillämpligt",
+	"separateReasoningContentInResponses/hint": "Denna inställning fungerar endast för 'reasoning'-modeller som DeepSeek R1, dess destillerade varianter och andra modeller som producerar CoT i `<think>` och `</think>`-taggar.",
+
 	"promptWhenCommittingUnsavedChangesWithNewFields": "Förinställningar: Visa bekräftelsedialog när nya fält läggs till i förinställningen",
 	"promptWhenCommittingUnsavedChangesWithNewFields.description": "Detta är användbart om du vill förhindra att nya fält oavsiktligt läggs till i förinställningar",
-	
-	"autoStartOnLogin": "Starta LLM-tjänst vid inloggning",
-	"autoStartOnLogin.description": "Starta automatiskt LLM-tjänsten när du loggar in på din dator",
-	
+
+	"enableLocalService": "Aktivera lokal LLM-tjänst",
+	"enableLocalService.subtitle": "Använd LM Studios LLM-server utan att behöva ha LM Studio-applikationen öppen",
+	"enableLocalService.description": "När detta är aktiverat startas LM Studios lokala LLM-tjänst automatiskt vid uppstart. Att stänga LM Studio lämnar även den lokala LLM-tjänsten igång i systemfältet.",
+
 	"expandConfigsOnClick": "Expandera konfigurationer vid klick istället för vid hovring",
 
 	"migrateChats": {
@@ -155,5 +181,15 @@
 		"hasBetterFooterCardText": "Vi har förbättrat chattmigreringen sedan du migrerade dina gamla chattar. Du kan köra migrationsprocessen igen. (Vi kommer att skapa en ny mapp för att innehålla de nyss migrerade chattarna.)",
 		"dismissConfirm": "Avfärda",
 		"dismissConfirmDescription": "Du kan alltid hantera chattmigrering i Inställningar"
+	},
+	"toolConfirmation": {
+		"label": "Verktygsbekräftelse",
+		"neverAsk": {
+			"label": "Fråga aldrig om bekräftelse innan ett verktyg körs (REKOMMENDERAS INTE)",
+			"hint": "Inaktivera bekräftelser innan ett verktyg körs. Detta rekommenderas inte.",
+			"warnTitle": "Är du säker?",
+			"warnDescription": "Att inaktivera bekräftelser för verktygsanrop är farligt. Om någon av dina plugins har bidragit med ett verktyg som kan utföra destruktiva åtgärder (såsom att köra ett kommando, ta bort filer, skriva över filer, ladda upp filer, etc), kommer modellen att kunna göra detta utan någon bekräftelse. Du kan alltid inaktivera bekräftelser för enskilda verktyg eller till och med per plugin. Att aktivera detta alternativ rekommenderas INTE. Var försiktig.",
+			"warnButton": "Jag förstår riskerna"
+		}
 	}
 }

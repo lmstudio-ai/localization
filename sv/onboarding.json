@@ -20,5 +20,23 @@
         "description": "LLM kommer att titta på din fråga och de hämtade utdragen från dina dokument, och försöka generera ett svar. Experimentera med olika frågor för att hitta vad som fungerar bäst."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Verktygsanvändning 🛠️ (Funktionsanrop)",
+      "text_0": "Vissa modeller (t.ex. Llama 3.1/3.2, Mistral, Qwen och fler) har tränats för att använda verktyg.",
+      "text_1": "I praktiken innebär detta: du tillhandahåller en array av 'verktyg' (funktionssignaturer) till LLM i ett mycket specifikt format, och LLM kan välja att 'anropa' dem baserat på användarens prompt.",
+      "text_2": "Du kan tänka dig användningsområden som att fråga ett API, köra kod, eller egentligen vad som helst som kan uttryckas som ett funktionsanrop."
+    },
+    "step_1": {
+      "title": "Kom igång med Verktygsanvändning",
+      "toolUseCanWorkWithAnyModel": "Modeller som har tränats för verktygsanvändning presterar bättre än andra, men du kan försöka använda verktyg med vilken modell som helst. Läs <customlink>dokumentationen</customlink> för att lära dig mer.\nModeller som har tränats för verktygsanvändning kommer att markeras med en ny badge:",
+      "hasCompatibleModel": "🎉 Det ser ut som att du redan har modeller med verktygsstöd!",
+      "downloadRecommendedModel": "Ladda ner en modell som har tränats för verktygsanvändning:"
+    },
+    "nextButton": "Nästa",
+    "letsGoButton": "Ladda modell och starta server",
+    "doneButton": "Stäng"
   }
 }

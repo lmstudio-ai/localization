@@ -1,5 +1,271 @@
 {
   "copyLmStudioLinkButton/toolTip": "Kopiera modellens nedladdningslänk",
 
-  "filter.noMatches": "Inga träffar"
+  "filter.noMatches": "Inga träffar",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Extraherar resurser"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Kontrollerar körningskompatibilitet"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexerar körningar"
+    },
+    "indexingModels": {
+      "badge": "Indexerar modeller"
+    },
+    "authenticating": {
+      "badge": "Autentiserar"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Uppdaterar tilläggspaket ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Logga in på LM Studio Hub",
+    "authError": "Autentisering misslyckades",
+    "noAccount": "Har du inget konto?",
+    "signUp": "Registrera dig",
+    "havingTrouble": "Har du problem?",
+    "retry": "Försök igen"
+  },
+  "artifacts": {
+    "fetchError": "Kunde inte hämta artefakter",
+    "organizationVisible": "Synlig för organisationen"
+  },
+
+  "incompatible": "Inkompatibel",
+  "compatible": "Kompatibel",
+  "public": "Offentlig",
+  "private": "Privat",
+  "yes": "Ja",
+  "no": "Nej",
+  "go": "Gå",
+  "proceedWithEllipsis": "Fortsätt...",
+  "proceed": "Fortsätt",
+  "inProgress": "Pågår...",
+  "failed": "Misslyckades",
+  "pending": "Väntar",
+  "doneWithExclamation": "Klar!",
+  "done": "Klar",
+  "complete": {
+    "completeWithEllipsis": "Slutför...",
+    "complete": "Slutför",
+    "completingWithEllipsis": "Slutför...",
+    "completing": "Slutför",
+    "completedWithExclamation": "Slutfört!",
+    "completed": "Slutfört"
+  },
+  "cancel": {
+    "cancelWithEllipsis": "Avbryt...",
+    "cancel": "Avbryt",
+    "cancelingWithEllipsis": "Avbryter...",
+    "canceling": "Avbryter",
+    "canceled": "Avbruten"
+  },
+  "next": {
+    "nextWithEllipsis": "Nästa...",
+    "next": "Nästa"
+  },
+  "back": {
+    "backWithEllipsis": "Tillbaka...",
+    "back": "Tillbaka"
+  },
+  "close": {
+    "closeWithEllipsis": "Stäng...",
+    "close": "Stäng",
+    "closingWithEllipsis": "Stänger...",
+    "closing": "Stänger",
+    "closedWithExclamation": "Stängd!",
+    "closed": "Stängd"
+  },
+  "delete": {
+    "deleteWithEllipsis": "Ta bort...",
+    "delete": "Ta bort",
+    "deletingWithEllipsis": "Tar bort...",
+    "deleting": "Tar bort",
+    "deletedWithExclamation": "Borttagen!",
+    "deleted": "Borttagen"
+  },
+  "retry": {
+    "retryWithEllipsis": "Försök igen...",
+    "retry": "Försök igen",
+    "retryingWithEllipsis": "Försöker igen...",
+    "retrying": "Försöker igen"
+  },
+  "refresh": {
+    "refreshWithEllipsis": "Uppdatera...",
+    "refresh": "Uppdatera",
+    "refreshingWithEllipsis": "Uppdaterar...",
+    "refreshing": "Uppdaterar",
+    "refreshedWithExclamation": "Uppdaterad!",
+    "refreshed": "Uppdaterad"
+  },
+  "confirm": {
+    "confirm": "Bekräfta",
+    "confirmingWithEllipsis": "Bekräftar...",
+    "confirming": "Bekräftar",
+    "confirmedWithExclamation": "Bekräftad!",
+    "confirmed": "Bekräftad"
+  },
+  "copy": {
+    "copyWithEllipsis": "Kopiera...",
+    "copy": "Kopiera",
+    "copyingWithEllipsis": "Kopierar...",
+    "copying": "Kopierar",
+    "copiedWithExclamation": "Kopierad!",
+    "copied": "Kopierad"
+  },
+  "edit": {
+    "editWithEllipsis": "Redigera...",
+    "edit": "Redigera",
+    "editingWithEllipsis": "Redigerar...",
+    "editing": "Redigerar",
+    "editedWithExclamation": "Redigerad!",
+    "edited": "Redigerad"
+  },
+  "load": {
+    "loadWithEllipsis": "Ladda...",
+    "load": "Ladda",
+    "loadingWithEllipsis": "Laddar...",
+    "loading": "Laddar",
+    "loadedWithExclamation": "Laddad!",
+    "loaded": "Laddad"
+  },
+  "save": {
+    "saveWithEllipsis": "Spara...",
+    "save": "Spara",
+    "savingWithEllipsis": "Sparar...",
+    "saving": "Sparar",
+    "savedWithExclamation": "Sparad!",
+    "saved": "Sparad"
+  },
+  "saveAs": {
+    "saveAsWithEllipsis": "Spara som...",
+    "saveAs": "Spara som"
+  },
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Spara som ny...",
+    "saveAsNew": "Spara som ny"
+  },
+  "search": {
+    "searchWithEllipsis": "Sök...",
+    "search": "Sök",
+    "searchingWithEllipsis": "Söker...",
+    "searching": "Söker"
+  },
+  "update": {
+    "updateWithEllipsis": "Uppdatera...",
+    "update": "Uppdatera",
+    "updatingWithEllipsis": "Uppdaterar...",
+    "updating": "Uppdaterar",
+    "updatedWithExclamation": "Uppdaterad!",
+    "updated": "Uppdaterad"
+  },
+  "create": {
+    "createWithEllipsis": "Skapa...",
+    "create": "Skapa",
+    "creatingWithEllipsis": "Skapar...",
+    "creating": "Skapar",
+    "createdWithExclamation": "Skapad!",
+    "created": "Skapad"
+  },
+  "reset": {
+    "resetWithEllipsis": "Återställ...",
+    "reset": "Återställ",
+    "resettingWithEllipsis": "Återställer...",
+    "resetting": "Återställer"
+  },
+  "pause": {
+    "pause": "Pausa",
+    "pausingWithEllipsis": "Pausar...",
+    "pausing": "Pausar",
+    "paused": "Pausad"
+  },
+  "download": {
+    "download": "Ladda ner",
+    "downloadingWithEllipsis": "Laddar ner...",
+    "downloading": "Laddar ner",
+    "downloadedWithExclamation": "Nerladdad!",
+    "downloaded": "Nerladdad"
+  },
+  "upload": {
+    "uploadWithEllipsis": "Ladda upp...",
+    "upload": "Ladda upp",
+    "uploadingWithEllipsis": "Laddar upp...",
+    "uploading": "Laddar upp",
+    "uploadedWithExclamation": "Uppladdad!",
+    "uploaded": "Uppladdad"
+  },
+  "remove": {
+    "removeWithEllipsis": "Ta bort...",
+    "remove": "Ta bort",
+    "removingWithEllipsis": "Tar bort...",
+    "removing": "Tar bort",
+    "removedWithExclamation": "Borttagen!",
+    "removed": "Borttagen"
+  },
+  "uninstall": {
+    "uninstallWithEllipsis": "Avinstallera...",
+    "uninstall": "Avinstallera",
+    "uninstallingWithEllipsis": "Avinstallerar...",
+    "uninstalling": "Avinstallerar",
+    "uninstalledWithExclamation": "Avinstallerad!",
+    "uninstalled": "Avinstallerad"
+  },
+  "resume": {
+    "resumeWithEllipsis": "Återuppta...",
+    "resume": "Återuppta",
+    "resumingWithEllipsis": "Återupptar...",
+    "resuming": "Återupptar"
+  },
+  "start": {
+    "startWithEllipsis": "Starta...",
+    "start": "Starta",
+    "startingWithEllipsis": "Startar...",
+    "starting": "Startar",
+    "started": "Startad"
+  },
+  "stop": {
+    "stopWithEllipsis": "Stoppa...",
+    "stop": "Stoppa",
+    "stoppingWithEllipsis": "Stoppar...",
+    "stopping": "Stoppar",
+    "stoppedWithExclamation": "Stoppad!",
+    "stopped": "Stoppad"
+  },
+  "import": {
+    "importWithEllipsis": "Importera...",
+    "import": "Importera",
+    "importingWithEllipsis": "Importerar...",
+    "importing": "Importerar",
+    "importedWithExclamation": "Importerad!",
+    "imported": "Importerad"
+  },
+  "letsGo": {
+    "letsGo": "Kör igång",
+    "letsGoWithEllipsis": "Kör igång...",
+    "letsGoWithExclamation": "Kör igång!"
+  },
+  "run": {
+    "runWithEllipsis": "Kör...",
+    "run": "Kör",
+    "runningWithEllipsis": "Kör...",
+    "running": "Kör"
+  },
+  "configure": {
+    "configureWithEllipsis": "Konfigurera...",
+    "configure": "Konfigurera",
+    "configuringWithEllipsis": "Konfigurerar...",
+    "configured": "Konfigurerad"
+  },
+  "publish": {
+    "publishWithEllipsis": "Publicera...",
+    "publish": "Publicera",
+    "publishingWithEllipsis": "Publicerar...",
+    "publishing": "Publicerar",
+    "publishedWithExclamation": "Publicerad!",
+    "published": "Publicerad"
+  }
 }

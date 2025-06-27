@@ -12,30 +12,22 @@
 	"modelsTable.arch/label": "Arkitektur",
 	"modelsTable.params/label": "Parametrar",
 	"modelsTable.publisher/label": "Utgivare",
-	"modelsTable.llms/label": "LLM",
-	"modelsTable.embeddingModels/label": "Inbäddningsmodell",
-	"modelsTable.quant/label": "Kvant",
+	"modelsTable.displayName/label": "Namn",
+	"modelsTable.modelKey/label": "Modellnyckel",
 	"modelsTable.size/label": "Storlek",
 	"modelsTable.dateModified/label": "Ändringsdatum",
 	"modelsTable.actions/label": "Åtgärder",
+	
+	"modelsTable.llms/label": "LLM",
+	"modelsTable.embeddingModels/label": "Inbäddningsmodell",
+	"modelsTable.quant/label": "Kvant",
 	
 	"action.model.delete": "Radera",
 	"action.model.delete.full": "Radera modell",
 	"action.model.delete.confirmation/title": "Radera {{name}}",
 	"action.model.delete.confirmation/description": "Är du säker? Detta kommer permanent att radera alla filer associerade med denna modell från din maskin. Denna åtgärd är oåterkallelig.",
 	"action.model.delete.confirmation/confirm": "Radera",
-	
-	"action.createVirtual": "Skapa förinställning",
-	"action.createVirtual.details/title": "Skapa en förinställning",
-	"action.createVirtual.details/create": "Skapa",
-	"action.createVirtual.details/cancel": "Avbryt",
-	"action.createVirtual.details.base/label": "Basmodell",
-	"action.createVirtual.details.name/label": "Namn",
-	"action.createVirtual.details.includeMachineDependent/label": "Inkludera maskinberoende konfigurationer",
-	"action.createVirtual.details.includeMachineDependent/hint": "Om datorberoende konfigurationer (såsom GPU-inställningar) ska inkluderas i förinställningen. Rekommenderas inte för delning.",
-	"action.createVirtual.details.config/label": "Anpassade konfigurationer",
-	"action.createVirtual.details.config.empty": "Inga anpassade konfigurationer",
-	"action.createVirtual.details/error": "Misslyckades med att skapa virtuell modell.",
+	"action.model.delete/error": "Misslyckades med att radera modell",
 
 	"loader.model.bundled": "bundlad",
 	"action.cancel": "Avbryt",
@@ -50,12 +42,19 @@
 	"unresolvedVirtualModels/title_other": "Misslyckades med att lösa följande virtuella modeller:",
 	"unresolvedVirtualModels.missingModel": "En beroendemodell saknas: {{missing}}. Beroendekedja:\n{{chain}}",
 	"unresolvedVirtualModels.circular": "Cirkulärt beroende upptäckt.",
-	
+	"unresolvedVirtualModels.fix": "Åtgärda",
+	"unresolvedVirtualModels.revealInExplorer": "Visa i Utforskaren",
+	"unresolvedVirtualModels.revealInFinder": "Visa i Finder",
+	"unresolvedVirtualModels.reveal/error": "Misslyckades med att visa",
+
 	"modelsDirectory": "Modellkatalog",
 	"modelsDirectory.change": "Ändra...",
+	"modelsDirectory.change/error": "Failed to change models directory",
 	"modelsDirectory.reset": "Återställ till standardväg",
 	"modelsDirectory.reveal.mac": "Visa i Finder",
 	"modelsDirectory.reveal.nonMac": "Öppna i Utforskaren",
+	"modelsDirectory.reveal.mac/error": "Misslyckades med att öppna i Finder",
+	"modelsDirectory.reveal.nonMac/error": "Misslyckades med att öppna i Utforskaren",
 	"modelsDirectory.forceReindex": "Uppdatera",
 	"loadState/loaded": "Inläst",
 	"loadState/loading": "Läser in",
@@ -68,18 +67,49 @@
 	"contextMenu/unpin": "Ta bort nål",
 	"contextMenu/copyAbsolutePath": "Kopiera absolut sökväg",
 	"contextMenu/copyModelName": "Kopiera modellsökväg",
+	"contextMenu/copyModelDefaultIdentifier": "Kopiera standardidentifierare",
+	"contextMenu/showRawMetadata": "Visa råmetadata",
 	"contextMenu/openOnHuggingFace": "Öppna på Hugging Face",
+	"contextMenu": {
+		"showOnWeb": "Visa på webben",
+		"pullLatest": {
+			"label": "Hämta senaste",
+			"checking": "Letar efter uppdateringar...",
+			"upToDate": "Uppdaterad",
+			"error": "Misslyckades med att leta efter uppdateringar"
+		}
+	},
 	"tooltip/moreActions": "Fler åtgärder",
 	"tooltip/getInfo": "Få information",
 	"tooltip/editModelDefaultConfig": "Redigera modellens standardkonfiguration",
 	"tooltip/editModelDefaultConfig/override": "Redigera modellens standardkonfiguration (* har för närvarande ändringar)",
 	"tooltip/visionBadge": "Denna modell kan bearbeta bildinmatningar",
-	
+	"tooltip/toolUseBadge": "Denna modell har tränats för verktygsanvändning",
+
 	"visionBadge/label": "Visning aktiverad",
-	
+	"toolUseBadge/label": "Tränad för verktygsanvändning",
+
 	"loader.action.load": "Ladda modell",
 	"loader.action.clearChanges": "Återställ ändringar",
 	"loader.action.cancel": "Avbryt",
 	"loader.info.clickOnModelToLoad": "Klicka på en modell för att ladda den",
-	"loader.info.configureLoadParameters": "Konfigurera modellens inläsningsparametrar"
+	"loader.info.configureLoadParameters": "Konfigurera modellens inläsningsparametrar",
+	"loader.info.activeGeneratorWarning": "Du använder ett plugin med en anpassad generator. Din nuvarande inlästa modell kan eller kan inte användas under detta plugin, beroende på generatorns implementation.",
+
+	"virtual": {
+		"local": {
+			"create": "Skapa virtuell modell",
+			"title": "Skapa en lokal virtuell modell",
+			"description": "Skapa en virtuell modell genom att bunta en modell med en uppsättning konfigurationer. De underliggande vikterna kommer inte att dupliceras.",
+			"modelKey.label": "Modellnyckel",
+			"modelKey.placeholder": "Ange en unik modellnyckel",
+			"modelKey.normalized": "Din modellnyckel kommer att normaliseras till: {{normalized}}",
+			"baseModel.label": "Basmodell",
+			"baseModel.placeholder": "Välj en basmodell",
+			"baseModel.empty": "Ladda ner en modell att använda som basmodell",
+			"next": "Nästa",
+			"confirm": "Skapa",
+			"error": "Misslyckades med att skapa virtuell modell"
+		}
+	}
 }
