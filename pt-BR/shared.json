@@ -1,7 +1,7 @@
 {
   "copyLmStudioLinkButton/toolTip": "Copiar Link de Download do Modelo",
 
-  "filter.noMatches": "Nenhuma correspondência",
+  "filter.noMatches": "Nenhuma correspondência encontrada",
   "longRunningTask": {
     "unbundlingDependencies": {
       "badge": "Extraindo Recursos"
@@ -23,12 +23,12 @@
     }
   },
   "auth": {
-    "prompt": "Faça login no LM Studio Hub",
+    "prompt": "Faça login no Hub do LM Studio",
     "authError": "Falha na autenticação",
     "noAccount": "Não tem uma conta?",
     "signUp": "Cadastre-se",
     "havingTrouble": "Está com problemas?",
-    "retry": "Tentar novamente"
+    "retry": "Tentar Novamente"
   },
   "artifacts": {
     "fetchError": "Falha ao buscar artefatos"
