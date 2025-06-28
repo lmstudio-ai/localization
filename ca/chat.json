@@ -38,8 +38,8 @@
   "notes/noteLabel": "Nota",
   "notes/copyContent": "Copia la nota",
 
-  "actions/sendMessage/error": "Error en enviar el missatge",
-  "actions/loadModel/error": "🥲 Error en carregar el model",
+  "actions/sendMessage/error": "No s'ha pogut enviar el missatge",
+  "actions/loadModel/error": "🥲 No s'ha pogut carregar el model",
   "actions/addFile": "[Experimental] Adjuntar un fitxer al missatge\n(.pdf, plaintext, o .docx)",
   "actions/addFile/label": "Adjuntar Fitxers",
   "actions/changeRole": "Canvia entre els rols d'Usuari i Assistent.\n\nÉs útil per dirigir la conversa en una dirrecció específica.\n\nEs pot utilitzar per planificar escenaris 'few-shot learning' o 'in-context learning'",
@@ -50,20 +50,20 @@
   "actions/editMessage": "Editar el missatge",
   "actions/editMessage/cannotEditPreprocessed": "No es poden editar missatges preprocessats, ja que se sobreescriurien després d'executar el preprocessador. Si vols editar el missatge, pots: \n\n - Tornar al missatge original i editar-lo, o\n - Canviar el preprocessador perquè produeixi el resultat desitjat.",
   "actions/regenerateMessage": "Tornar a generar el missatge",
-  "actions/regenerateMessage/error": "Error en tornar a generar el missatge",
+  "actions/regenerateMessage/error": "No s'ha pogut tornar a generar el missatge",
   "actions/branchChat": "Desa al xat a una branca després d'aquest missatge",
-  "actions/branchChat/error": "Error en desar el xat a una branca",
+  "actions/branchChat/error": "No s'ha pogut desar el xat a una branca",
   "actions/continueAssistantMessage": "Continuar el missatge a l'assistent",
-  "actions/continueAssistantMessage/error": "Error en continuar el missatge a l'assistent",
+  "actions/continueAssistantMessage/error": "No s'ha pogut continuar el missatge a l'assistent",
   "actions/predictNext": "Generar Resposta amb IA",
-  "actions/predictNext/error": "Error en generar resposta amb IA",
+  "actions/predictNext/error": "No s'ha pogut generar resposta amb IA",
   "actions/loadLastModel": "Carrega l'últim model utilitzat",
   "actions/loadLastModel/tooltip": "Fes clic per carregar l'últim model utilitzat en aquest xat:\n\n{{lastModel}}",
-  "actions/loadLastModel/error": "Error en carregar l'útim model utilitzat.",
+  "actions/loadLastModel/error": "No s'ha pogut carregar l'útim model utilitzat.",
   "actions/continueCurrentModel": "Utilitza el model actual",
   "actions/continueCurrentModel/tooltip": "Model actual: {{currentModel}}",
   "actions/changeToLastUsedModel": "Carrega {{lastModel}}",
-  "actions/changeToLastUsedModel/error": "Error en canviar a l'últim model utilitzat.",
+  "actions/changeToLastUsedModel/error": "No s'ha pogut en canviar a l'últim model utilitzat.",
   "actions/changeToLastUsedModel/tooltip": "Vas utilitzar un model diferent l'última vegada que vas enviar un missatge a aquest xat. Fes clic per descarregar el model seleccionat actualment ({{currentModel}}) i carregar el model utilitzar per última vegada:\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "Canvia a {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "Fes clic per canviar a l'últim model utilitzat en aquest xat:\n\n{{lastModel}}",
@@ -83,17 +83,17 @@
   "modelLoader/manualLoadParams/label": "Escull manualment els paràmetres de càrrega del model",
   "modelLoader/manualLoadParams/hint/before": "(o prem ",
   "modelLoader/manualLoadParams/hint/after": ")",
-  "actions/move/error": "Error en moure'l",
-  "actions/rename/error": "Error en canviar el nom",
+  "actions/move/error": "No s'ha pogut moure",
+  "actions/rename/error": "No s'ha pogut canviar el nom",
   "actions/createChatAtRoot": "Nou Xat...",
-  "actions/createChatAtRoot/error": "Error en crear un xat a l'arrel",
+  "actions/createChatAtRoot/error": "No s'ha pogut crear un xat a l'arrel",
   "actions/createFolderAtRoot": "Nova Carpeta...",
-  "actions/createFolderAtRoot/error": "Error en crear una carpeta a l'arrel",
+  "actions/createFolderAtRoot/error": "No s'ha pogut crear una carpeta a l'arrel",
   "actions/openInFolder/mac": "Mostra al Cercador",
   "actions/openInFolder/pc": "Mostra a l'Explorador de Fitxers",
 
-  "actions/createChat/error": "Error en crear el xat",
-  "actions/deleteChat/errorTitle": "Error en eliminar el xat",
+  "actions/createChat/error": "No s'ha pogut crear el xat",
+  "actions/deleteChat/errorTitle": "No s'ha pogut eliminar el xat",
 
   "userFile/fileSizeLimit": "La mida límit dels fitxers és ",
   "userFile/noImageSupport": "El model no suporta imatges",
@@ -104,8 +104,8 @@
   "userFile/maxFilesPerMessage": "Has excedit el nombre màxim de fitxers per missatge. No es poden afegir més de {{files}} fitxers. ",
   "userFile/maxFileSizePerMessage": "Has excedit la mida màxima de fitxers per missatge. Els fitxers no poden ser majors que {{size}}. ",
   "userFile/maxFileSizePerConversation": "Has excedit la mida màxima dels fitxers per conversa. No es poden adjuntar fitxers majors que {{size}}. ",
-  "userFile/failedToUploadError/title": "Error en pujar el fitxer",
-  "userFile/failedToAddFile/title": "Error en adjuntar el fitxer al xat",
+  "userFile/failedToUploadError/title": "No s'ha pogut pujar el fitxer",
+  "userFile/failedToAddFile/title": "No s'ha pogut adjuntar el fitxer al xat",
   "errorTitle": "Error",
   "userFile/chatTerminalDocumentsCount_one": "{{count}} document al xat",
   "userFile/chatTerminalDocumentsCount_other": "{{count}} documents al xat",
@@ -115,7 +115,7 @@
   "prediction/noModel/title": "Cap model seleccionat",
   "prediction/modelLoading": "Missatge en espera, s'enviarà quan el model acabi de carregar",
   "prediction/noModel/message": "Selecciona un model per enviar-ne el missatge",
-  "prediction/unloadModel/error": "Error en descarregar el model",
+  "prediction/unloadModel/error": "No s'ha pogut descarregar el model",
 
   "retrieval/user/processingLabel": "L'IA està pensant...",
   "retrieval/powerUser/intermediateStepsHidden": "Passos intermedis ocults. Fes clic per mostrar-los.",
@@ -187,8 +187,8 @@
         "title": "Plugins Creats Recentment",
         "placeholder": "Els plugins que creïs apareixeran aquí"
       },
-      "startRunningDevelopmentPlugin/error": "Error en executar el plugin en mode desenvolupador",
-      "stopRunningDevelopmentPlugin/error": "Error en parar l'execució del plugin en mode desenvolupador"
+      "startRunningDevelopmentPlugin/error": "No s'ha pogut executar el plugin en mode desenvolupador",
+      "stopRunningDevelopmentPlugin/error": "No s'ha pogut parar l'execució del plugin en mode desenvolupador"
     },
     "pluginConfiguration": {
       "title": "Configuració dels Plugins",
@@ -214,9 +214,9 @@
       }
     },
     "localFork": {
-      "error": "Error en crear una còpia de desenvolupament local del plugin."
+      "error": "No s'ha pogut crear una còpia de desenvolupament local del plugin."
     },
-    "restartErrorPlugin/error": "Error en recarregar el plugin"
+    "restartErrorPlugin/error": "No s'ha pogut recarregar el plugin"
   },
 
   "genInfo": {
@@ -226,7 +226,7 @@
     "stopReason": "Motiu d'aturada: {{stopReason}}",
     "stopReason.userStopped": "L'Usuari l'Atura",
     "stopReason.modelUnloaded": "Model Descarregat",
-    "stopReason.failed": "Error en la Generació",
+    "stopReason.failed": "No s'ha Pogut Generar",
     "stopReason.eosFound": "Token EOS Trobat",
     "stopReason.stopStringFound": "Cadena d'Aturada Trobada",
     "stopReason.toolCalls": "Tool Calls [TODO]",

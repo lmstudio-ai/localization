@@ -24,7 +24,7 @@
   },
   "auth": {
     "prompt": "Inicia sessió al LM Studio Hub",
-    "authError": "Error a l'autenticar",
+    "authError": "No s'ha pogut autenticar",
     "noAccount": "No tens un compte?",
     "signUp": "Registra't",
     "havingTrouble": "Tens problemes?",
