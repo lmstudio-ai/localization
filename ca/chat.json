@@ -89,7 +89,7 @@
   "actions/createChatAtRoot/error": "No s'ha pogut crear un xat a l'arrel",
   "actions/createFolderAtRoot": "Nova Carpeta...",
   "actions/createFolderAtRoot/error": "No s'ha pogut crear una carpeta a l'arrel",
-  "actions/openInFolder/mac": "Mostra al Cercador",
+  "actions/openInFolder/mac": "Mostra al Finder",
   "actions/openInFolder/pc": "Mostra a l'Explorador de Fitxers",
 
   "actions/createChat/error": "No s'ha pogut crear el xat",
@@ -209,7 +209,7 @@
         "publish": "Publicar",
         "openInZed": "Obre-ho a Zed",
         "openInVscode": "Obre-ho a VS Code",
-        "revealInFinder": "Mostra'l al Cercador",
+        "revealInFinder": "Mostra'l al Finder",
         "openInFileExplorer": "Obre'l a l'Explorador de Fitxers"
       }
     },

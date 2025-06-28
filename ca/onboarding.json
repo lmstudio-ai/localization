@@ -2,13 +2,13 @@
   "action.skipOnboarding": "Salta't la introducció",
   "action.next": "Següent",
   "action.back": "Endarrere",
-  "action.finish": "Finalitzar",
+  "action.finish": "Finalitza",
 
   "dismissable_rag_modal": {
     "description": "Ara pots xatejar amb els teus documents utilitzant Retrieval Augmented Generation (RAG). Així funciona:",
     "instructions": {
       "attach_files": {
-        "title": "Adjuntar Fitxers",
+        "title": "Adjunta Fitxers",
         "description": "Puja fins a 5 de cop, amb una mida combinada màxima de 30MB. Els formats suportats són PDF, DOCX, TXT i CSV."
       },
       "be_specific": {
