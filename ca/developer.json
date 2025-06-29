@@ -87,7 +87,7 @@
       "title": " ✅ Entorn d'Execució LM Actualitzat: {{runtime}} → v{{version}}",
       "preferencesUpdated": "Models {{compatibilityTypes}} carregats a partir d'ara utilitzaran l'entorn d'execució actualitzat."
     },
-    "noAvx2ErrorMessage": "Tots els entorns d'execució LM requereixen un CPU que suporti AVX2",
+    "noAvx2ErrorMessage": "Tots els entorns d'execució LM requereixen una CPU que suporti AVX2",
     "downloadableRuntimes": {
       "runtimeExtensionPacks": "Paquets d'Extensió d'Entorns d'Execució",
       "refresh": "Refresca",
