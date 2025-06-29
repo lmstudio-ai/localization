@@ -1,5 +1,7 @@
 Cercar TODO als documents
 
-Mirar // a models
+Comprovar //
+
+Me falta settings, config
 
 Sincronitzar settings
