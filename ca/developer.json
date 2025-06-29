@@ -1,68 +1,179 @@
 {
   "tabs/server": "Servidor Local",
-  "tabs/extensions": "Entorns d'Execució LM",
-  "loadSettings/title": "Carrega la Configuració",
-  "modelSettings/placeholder": "Selecciona un model per configurar-lo",
+  "tabs/extensions": "Entorns d'Execució del LM",
+  "loadSettings/title": "Carrega la configuració",
+  "modelSettings/placeholder": "Selecciona un model per a configurar-lo",
 
   "loadedModels/noModels": "Cap model carregat",
 
   "serverOptions/title": "Opcions del Servidor",
   "serverOptions/configurableTitle": "Opcions Configurables",
-  "serverOptions/port/hint": "Estableix el port de xarxa que el servidor local utilitzarà. Per defecte, LM Studio utilitza el port 1234. És possible que s'hagi de canviar si el port ja té un altre ús.",
+  "serverOptions/port/hint": "Estableix quin port de la xarxa utilitzarà el servidor local. Per defecte, el LM Studio utilitza el port 1234. És possible que hagis de canviar-lo si aquest port ja s'està usant.",
   "serverOptions/port/subtitle": "El port a escoltar",
-  "serverOptions/autostart/title": "Auto-iniciar el Servidor",
-  "serverOptions/autostart/hint": "Inicia automàticament el servidor local en carregar un model",
-  "serverOptions/port/integerWarning": "El port ha de ser un nombre sencer",
-  "serverOptions/port/invalidPortWarning": "El port ha d'estar entre 1 i 65535",
+  "serverOptions/autostart/title": "Autoiniciar el servidor",
+  "serverOptions/autostart/hint": "Encén automàticament el servidor de LLMs locals del LM Studio en encendre l'ordinador o obrir l'app",
+  "serverOptions/port/integerWarning": "El port ha de ser un nombre natural",
+  "serverOptions/port/invalidPortWarning": "El nombre del port ha d'estar entre 1 i 65535",
   "serverOptions/cors/title": "Activa CORS",
-  "serverOptions/cors/hint1": "Activar CORS (Cross-origin Resource Sharing) permetria que els webs que visites enviessin sol·licituts al servidor de LM Studio.",
-  "serverOptions/cors/hint2": "Pot ser necessari activar CORS quan VS Code (les seves extensions) o un web enviï una sol·licitud.",
-  "serverOptions/cors/subtitle": "Permet peticions cross-origin",
-  "serverOptions/network/title": "Permet Dispositius en la Xarxa Local",
-  "serverOptions/network/subtitle": "Mostra el servidor als dispositius de la xarxa",
-  "serverOptions/network/hint1": "Decideix si altres dispositius en la teva xarxa es poden connectar al servidor.",
-  "serverOptions/network/hint2": "Si no es marca, el servidor només escoltarà al host local.",
-  "serverOptions/verboseLogging/title": "Inici de Sessió Detallat",
-  "serverOptions/verboseLogging/subtitle": "Activa l'inici de sessió detallat per al servidor local",
+  "serverOptions/cors/hint1": "Activar CORS (Cross-origin Resource Sharing) permetria que els webs que visitis facin peticions al servidor del LM Studio.",
+  "serverOptions/cors/hint2": "És possible que sigui necessari activar CORS quan es facin peticions des d'un web o VS Code / altres extensions.",
+  "serverOptions/cors/subtitle": "Permet les peticions cross-origin",
+  "serverOptions/network/title": "Serveix a la Xarxa Local",
+  "serverOptions/network/subtitle": "Exposa el servidor a altres dispositius de la xarxa",
+  "serverOptions/network/hint1": "Decideix si permetre connexions d'altres dispositius de la xarxa.",
+  "serverOptions/network/hint2": "Si no es marca, el servidor només escoltarà a localhost.",
+  "serverOptions/verboseLogging/title": "Registre Detallat (Verbose Logging)",
+  "serverOptions/verboseLogging/subtitle": "Activa el registre detallat pel servidor local",
   "serverOptions/contentLogging/title": "Registra Prompts i Respostes",
-  "serverOptions/contentLogging/subtitle": "Petició local / respon registrant la configuració",
-  "serverOptions/contentLogging/hint": "Decideix si registrar prompts i/o respostes en el fitxer del registre del servidor local.",
-  "serverOptions/jitModelLoading/title": "Càrrega de Models Just-a-Temps",
-  "serverOptions/jitModelLoading/hint": "En activar-ho, si la petició especificava un model que no està carregat, serà carregat i utilitzat automàticament. A més, el \"/v1/models\" endpoint inclourà també models que no esiguin carregats encara.",
-  "serverOptions/loadModel/error": "Error en carregar el model",
+  "serverOptions/contentLogging/subtitle": "Configuració de registre de peticions locals / respostes",
+  "serverOptions/contentLogging/hint": "Decideix si registrar els prompts i/o les respoestes del servidor local a un fitxer log.",
+  "serverOptions/redactContent/title": "Censurar Contingut",
+  "serverOptions/redactContent/hint": "Quan s'activi, impedeix que informació sensible, com el contingut de les peticions i les respostes, quedi enregistrada.",
+  "serverOptions/logIncomingTokens/title": "Registra els Tokens Entrants",
+  "serverOptions/logIncomingTokens/hint": "Decideix si registrar cadascún dels tokens a mesura que es generen.",
+  "serverOptions/fileLoggingMode/title": "Tipus de Fitxer de Registre",
+  "serverOptions/fileLoggingMode/off/title": "APAGAT",
+  "serverOptions/fileLoggingMode/off/hint": "No crea cap fitxer de registre",
+  "serverOptions/fileLoggingMode/succinct/title": "Breu",
+  "serverOptions/fileLoggingMode/succinct/hint": "Registra el contingut com està a la consola. Les peticions llargues es truncaran.",
+  "serverOptions/fileLoggingMode/full/title": "Complet",
+  "serverOptions/fileLoggingMode/full/hint": "No truncarà les peticions llargues.",
+  "serverOptions/jitModelLoading/title": "Càrrega del Model a Temps (Just-in-Time)",
+  "serverOptions/jitModelLoading/hint": "Quan s'activi, si una petició es fa a un model que no està carregat, es carregarà i utilitzarà automàticament. A més, l'endpoint de \"/v1/models\" també inclourà models que no estiguin carregats encara.",
+  "serverOptions/loadModel/error": "No s'ha pogut carregar el model",
+  "serverOptions/jitModelLoadingTTL/title": "Descarrega el model carregat amb JIT automàticament quan es deixi d'utilitzar",
+  "serverOptions/jitModelLoadingTTL/hint": "Un model carregat amb Just-in-time (JIT) per respondre a la petició d'una API serà descarregat automàticament després de romandre sense utilitzar una estona (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Temps d'Espera Màxim TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minuts",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Només mantén l'últim model carregat JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Assegura't que, com a màxim, hi hagi un model carregat via JIT en qualsevol moment (descarregarà models previs)",
 
   "serverLogs/scrollToBottom": "Ves al final",
-  "serverLogs/clearLogs": "Neteja els registres ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Obre la carpeta dels registres del servidor",
+  "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Obre la carpeta dels registres",
 
-  "runtimeSettings/title": "Configuració dels Entorns d'Execució",
-  "runtimeSettings/chooseRuntime/title": "Configura Entorns d'Execució",
-  "runtimeSettings/chooseRuntime/description": "Selecciona un entorn d'execució per a cada format de model",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostra tots els entorns d'execució",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per defecte, LM Studio només mostra l'última versió de cada entorn d'execució compatible. Activa aquesta opció per veure tots els entorns d'execució disponibles.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un entorn d'execució",
+  "runtimeSettings/title": "Configuració de Runtimes",
+  "runtimeSettings/chooseRuntime/title": "Seleccions",
+  "runtimeSettings/chooseRuntime/description": "Selecciona un motor per utilitzar a cada format de model",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostra tots els paquets d'extensió",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Per defecte, el LM Studio només mostra l'última versió de cada paquet d'extensió. Activa aquesta opció per veure tots els paquets d'extensió disponibles.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un motor",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Selecciona un framework per utilitzar a cadascuna de les funcionalitats",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Parser integrat",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Parser pe a Documents",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecciona un parser de documents",
 
   "runtimeOptions/uninstall": "Desinstal·la",
   "runtimeOptions/uninstallDialog/title": "Desinstal·la {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstal·lar l'entorn d'execució l'el·liminarà del sistema. L'acció és irreversible.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arxius no s'el·liminaran fins que no es reiniciï LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Error en desinstal·lar l'entorn d'execució",
+  "runtimeOptions/uninstallDialog/body": "Desinstal·lar aquest entorn d'execució l'eliminarà del sistema. Aquesta acció és irreversible.",
+  "runtimeOptions/uninstallDialog/body/caveats": "És possible que alguns fitxers només s'eliminin després de reiniciar el LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "No s'ha pogut desinstal·lar l'entorn d'execució",
   "runtimeOptions/uninstallDialog/confirm": "Continua i Desinstal·la",
   "runtimeOptions/uninstallDialog/cancel": "Cancel·la",
   "runtimeOptions/noCompatibleRuntimes": "Cap entorn d'execució compatible trobat",
-  "runtimeOptions/downloadIncompatibleRuntime": "Aquest entorn d'execució no és compatible amb el teu maquinari. Probablement no funcionarà.",
-  "runtimeOptions/noRuntimes": "Cap enorn d'execució trobat",
+  "runtimeOptions/downloadIncompatibleRuntime": "S'ha determinat que aquest entorn d'execució no és compatible amb el teu maquinari. Probablement no funcioni.",
+  "runtimeOptions/noRuntimes": "Cap entorn d'execució trobat",
 
-  "inferenceParams/noParams": "No configurable inference parameters available for this model type",
+  "runtimes": {
+    "manageLMRuntimes": "Gestiona Entorns d'Execució del LM",
+    "includeOlderRuntimeVersions": "Inclou-hi versions antigues",
+    "dismiss": "Ignora",
+    "updateAvailableToast": {
+      "title": "Actualització de l'Entorn d'Execució LM Disponible!"
+    },
+    "updatedToast": {
+      "title": " ✅ Entorn d'Execució LM Actualitzat: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Models {{compatibilityTypes}} carregats a partir d'ara utilitzaran l'entorn d'execució actualitzat."
+    },
+    "noAvx2ErrorMessage": "Tots els entorns d'execució LM requereixen un CPU que suporti AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Paquets d'Extensió d'Entorns d'Execució",
+      "refresh": "Refresca",
+      "refreshing": "Refrescant...",
+      "filterSegment": {
+        "compatibleOnly": "Només Compatibles",
+        "all": "Tots"
+      },
+      "card": {
+        "releaseNotes": "Notes de la Versió",
+        "latestVersionInstalled": "Última Versió Instal·lada",
+        "updateAvailable": "Actualització Disponible"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Gestiona Entorns d'Execució Actius"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Gestiona Versions",
+        "close": "Tanca"
+      },
+      "tabs": {
+        "all": "Tots",
+        "frameworks": "Els Meus Frameworks",
+        "engines": "Els Meus Motors"
+      },
+      "detailsModal": {
+        "installedVersions": "Versions instal·lades per a {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (avançat)",
+        "releaseNotesTitle": "Notes de la Versió",
+        "noReleaseNotes": "Aquesta versió no té notes de la versió",
+        "back": "Enrere",
+        "close": "Tanca"
+      },
+      "noEngines": "Cap motor instal·lat",
+      "noFrameworks": "Cap frameworks instal·lat"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportats (Com OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Llistat dels models carregats",
-  "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Envia un historial de xat al model per poder predir la pròxima resposta de l'assistent.",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Genera embeddings de texts donat un text. Agafa una cadena o conjunt de cadenes (strings).",
+  "inferenceParams/noParams": "No hi ha paràmetres d'inferència configurables disponibles per a aquest tipus de model",
 
-  "model.createVirtualModelFromInstance": "Guarda la configuració com un nou model virtual",
-  "model.createVirtualModelFromInstance/error": "Error en guardar la configuració com un nou model virtual",
+  "quickDocs": {
+    "tabChipTitle": "Guia Ràpida",
+    "newToolUsePopover": "Els fragments de codi ara estan disponibles a la \"Guia Ràpida\". Fes clic aquí per iniciar-te amb l'ús d'eines!",
+    "newToolUsePopoverTitle": "📚 Guia Ràpida",
+    "learnMore": "ℹ️ 👾 Per aprendre'n més sobre els endpoints del servidor local del LM Studio, fes una ullada a la [documentació](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Xat"
+    },
+    "structuredOutput": {
+      "title": "Output Estructurat"
+    },
+    "imageInput": {
+      "title": "Inserció d'Imatges"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Ús d'Eines",
+      "tab": {
+        "saveAsPythonFile": "Desa com un fitxer de Python",
+        "runTheScript": "Executa el codi:",
+        "savePythonFileCopyPaste": "Desa com a fitxer python per tenir una instrucció copiar-enganxar"
+      }
+    },
+    "newBadge": "Nou"
+  },
 
-  "apiConfigOptions/title": "Configurar l'API"
+  "endpoints/openaiCompatRest/title": "Endpoints suportats (com els d'OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Llista els models actualment carregats",
+  "endpoints/openaiCompatRest/postCompletions": "Mode de Emplenament de Text. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Emplenament dels Xats. Envia l'historial del xat al model per poder predir la pròxima resposta de l'assistent",
+  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings. [TODO]",
+
+  "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
+  "model.createVirtualModelFromInstance/error": "No s'ha pogut desar la configuració com un nou model virtual",
+
+  "model": {
+    "toolUseSectionTitle": "Ús d'Eines",
+    "toolUseDescription": "S'ha detectat que aquest model pot utilitzar eines\n\nObre la <custom-link>guia ràpida</custom-link> per a obtenir més informació"
+  },
+
+  "apiConfigOptions/title": "Configuració de l'API"
 }
