@@ -1,64 +1,64 @@
 {
   "tabs/server": "Servidor Local",
-  "tabs/extensions": "Extensões",
+  "tabs/extensions": "Tempos de Execução",
   "loadSettings/title": "Carregar configurações",
-  "modelSettings/placeholder": "Selecione um modelo para configurá-lo",
+  "modelSettings/placeholder": "Selecione um modelo para configurar",
 
   "loadedModels/noModels": "Nenhum modelo carregado",
 
   "serverOptions/title": "Opções do Servidor",
   "serverOptions/configurableTitle": "Opções Configuráveis",
-  "serverOptions/port/hint": "Defina qual porta de rede o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Pode ser necessário alterá-la se a porta já estiver em uso.",
-  "serverOptions/port/subtitle": "A porta para escutar",
+  "serverOptions/port/hint": "Defina a porta de rede que o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Pode ser necessário alterar se a porta já estiver em uso.",
+  "serverOptions/port/subtitle": "A porta em que o servidor irá operar",
   "serverOptions/autostart/title": "Iniciar servidor automaticamente",
-  "serverOptions/autostart/hint": "Inicie o servidor local automaticamente quando um modelo for carregado",
+  "serverOptions/autostart/hint": "Inicia o servidor local de LLMs do LM Studio automaticamente na inicialização do aplicativo ou serviço.",
   "serverOptions/port/integerWarning": "O número da porta deve ser um inteiro",
   "serverOptions/port/invalidPortWarning": "A porta deve estar entre 1 e 65535",
   "serverOptions/cors/title": "Habilitar CORS",
-  "serverOptions/cors/hint1": "Habilitar CORS (Compartilhamento de Recursos entre Origens) permitiria que sites que você visita façam solicitações ao servidor LM Studio.",
-  "serverOptions/cors/hint2": "CORS pode ser necessário ao fazer solicitações a partir de uma página da web ou VS Code / outras extensões.",
-  "serverOptions/cors/subtitle": "Permitir solicitações entre origens",
+  "serverOptions/cors/hint1": "Habilitar o CORS (Compartilhamento de Recursos de Origem Cruzada) permite que sites que você visita façam requisições ao servidor do LM Studio.",
+  "serverOptions/cors/hint2": "O CORS pode ser necessário ao fazer requisições a partir de uma página web, do VS Code ou de outras extensões.",
+  "serverOptions/cors/subtitle": "Permitir requisições de origem cruzada",
   "serverOptions/network/title": "Servir na Rede Local",
-  "serverOptions/network/subtitle": "Expor servidor para dispositivos na rede",
-  "serverOptions/network/hint1": "Permitir conexões de outros dispositivos na rede.",
-  "serverOptions/network/hint2": "Se não estiver marcado, o servidor escutará apenas no localhost.",
-  "serverOptions/verboseLogging/title": "Log Detalhado",
-  "serverOptions/verboseLogging/subtitle": "Habilitar log detalhado para o servidor local",
+  "serverOptions/network/subtitle": "Expor o servidor a dispositivos na mesma rede",
+  "serverOptions/network/hint1": "Permite conexões de outros dispositivos na rede.",
+  "serverOptions/network/hint2": "Se desmarcado, o servidor aceitará conexões apenas de localhost.",
+  "serverOptions/verboseLogging/title": "Registros Detalhados",
+  "serverOptions/verboseLogging/subtitle": "Habilita registros detalhados para o servidor local",
   "serverOptions/contentLogging/title": "Registrar Prompts e Respostas",
-  "serverOptions/contentLogging/subtitle": "Configurações de registro de solicitações/respostas locais",
-  "serverOptions/contentLogging/hint": "Se os prompts e/ou a resposta devem ser registrados no arquivo de log do servidor local.",
+  "serverOptions/contentLogging/subtitle": "Configurações de registro para requisições/respostas locais",
+  "serverOptions/contentLogging/hint": "Define se os prompts e/ou respostas devem ser registrados no arquivo de registro do servidor local.",
   "serverOptions/fileLoggingMode/title": "Modo de Registro em Arquivo",
   "serverOptions/fileLoggingMode/off/title": "DESLIGADO",
-  "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de log",
+  "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de registro",
   "serverOptions/fileLoggingMode/succinct/title": "Sucinto",
-  "serverOptions/fileLoggingMode/succinct/hint": "Registrar o mesmo conteúdo que no console. Solicitações longas serão truncadas.",
+  "serverOptions/fileLoggingMode/succinct/hint": "Registra o mesmo conteúdo do console. Requisições longas serão truncadas.",
   "serverOptions/fileLoggingMode/full/title": "Completo",
-  "serverOptions/fileLoggingMode/full/hint": "Não truncar solicitações longas.",
-  "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time",
-  "serverOptions/jitModelLoading/hint": "Quando habilitado, se uma solicitação especificar um modelo que não está carregado, ele será automaticamente carregado e usado. Além disso, o endpoint \"/v1/models\" também incluirá modelos que ainda não foram carregados.",
+  "serverOptions/fileLoggingMode/full/hint": "Não truncar requisições longas.",
+  "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time (JIT)",
+  "serverOptions/jitModelLoading/hint": "Quando habilitado, se uma requisição especificar um modelo que não está carregado, ele será carregado e usado automaticamente. Além disso, o endpoint \"/v1/models\" incluirá modelos que ainda não foram carregados.",
   "serverOptions/loadModel/error": "Falha ao carregar o modelo",
-  "serverOptions/jitModelLoadingTTL/title": "Descarregar automaticamente modelos carregados JIT não utilizados",
-  "serverOptions/jitModelLoadingTTL/hint": "Um modelo que foi carregado Just-in-Time (JIT) para atender a uma solicitação de API será descarregado automaticamente após ficar sem uso por um determinado período (TTL).",
+  "serverOptions/jitModelLoadingTTL/title": "Descarregar automaticamente modelos JIT não utilizados",
+  "serverOptions/jitModelLoadingTTL/hint": "Um modelo carregado via Just-in-Time (JIT) para uma requisição de API será descarregado automaticamente após um período de inatividade (TTL).",
   "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máximo de inatividade",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter Apenas o Último Modelo Carregado JIT",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Garante que no máximo 1 modelo seja carregado via JIT a qualquer momento (descarrega o modelo anterior)",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter Apenas o Último Modelo Carregado via JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Garante que no máximo 1 modelo carregado via JIT permaneça na memória por vez (descarrega o modelo anterior).",
 
-  "serverLogs/scrollToBottom": "Ir para o final",
-  "serverLogs/clearLogs": "Limpar logs ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Abrir pasta de logs do servidor",
+  "serverLogs/scrollToBottom": "Rolar para o final",
+  "serverLogs/clearLogs": "Limpar registros ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Abrir pasta de registros do servidor",
 
   "runtimeSettings/title": "Configurações de Tempo de Execução",
-  "runtimeSettings/chooseRuntime/title": "Configurar Tempos de Execução",
-  "runtimeSettings/chooseRuntime/description": "Selecione um tempo de execução para cada formato de modelo",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todas as versões",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por padrão, o LM Studio exibe apenas a versão mais recente de cada tempo de execução. Ative esta opção para ver todas as versões disponíveis.",
+  "runtimeSettings/chooseRuntime/title": "Seleções Padrão",
+  "runtimeSettings/chooseRuntime/description": "Selecione um tempo de execução padrão para cada formato de modelo",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todos os tempos de execução",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por padrão, o LM Studio mostra apenas a versão mais recente de cada tempo de execução compatível. Habilite para ver todos.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Selecione um Tempo de Execução",
 
   "runtimeOptions/uninstall": "Desinstalar",
   "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
   "runtimeOptions/uninstallDialog/body": "Desinstalar este tempo de execução o removerá do sistema. Esta ação é irreversível.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arquivos podem ser removidos apenas após reiniciar o LM Studio.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arquivos podem ser removidos apenas após a reinicialização do LM Studio.",
   "runtimeOptions/uninstallDialog/error": "Falha ao desinstalar o tempo de execução",
   "runtimeOptions/uninstallDialog/confirm": "Continuar e Desinstalar",
   "runtimeOptions/uninstallDialog/cancel": "Cancelar",
@@ -67,17 +67,17 @@
   "runtimeOptions/noRuntimes": "Nenhum tempo de execução encontrado",
 
   "runtimes": {
-    "manageLMRuntimes": "Gerenciar Tempos de Execução LM",
-    "includeOlderRuntimeVersions": "Incluir versões mais antigas do tempo de execução",
+    "manageLMRuntimes": "Gerenciar Tempos de Execução de LM",
+    "includeOlderRuntimeVersions": "Incluir versões mais antigas",
     "dismiss": "Dispensar",
     "updateAvailableToast": {
-      "title": "Atualização de Tempo de Execução LM Disponível!"
+      "title": "Atualização de Tempo de Execução de LM Disponível!"
     },
     "updatedToast": {
-      "title": " ✅ Tempo de Execução LM Atualizado: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Modelos {{compatibilityTypes}} recém-carregados usarão o tempo de execução atualizado."
+      "title": " ✅ Tempo de Execução de LM Atualizado: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Modelos do tipo {{compatibilityTypes}} recém-carregados usarão o tempo de execução atualizado."
     },
-    "noAvx2ErrorMessage": "Todos os Tempos de Execução LM atualmente requerem uma CPU com suporte AVX2",
+    "noAvx2ErrorMessage": "Todos os Tempos de Execução de LM atualmente requerem uma CPU com suporte a AVX2.",
     "downloadableRuntimes": {
       "runtimeExtensionPacks": "Pacotes de Extensão de Tempo de Execução",
       "refresh": "Atualizar",
@@ -107,7 +107,7 @@
       },
       "detailsModal": {
         "installedVersions": "Versões instaladas para {{runtimeName}}",
-        "manifestJsonTitle": "JSON do Manifesto (avançado)",
+        "manifestJsonTitle": "Manifesto JSON (avançado)",
         "releaseNotesTitle": "Notas da Versão",
         "noReleaseNotes": "Nenhuma nota de versão disponível para esta versão",
         "back": "Voltar",
@@ -122,7 +122,7 @@
 
   "quickDocs": {
     "tabChipTitle": "Docs Rápidos",
-    "newToolUsePopover": "Trechos de Código estão agora disponíveis aqui em \"Docs Rápidos\". Clique aqui para começar com o uso de ferramentas!",
+    "newToolUsePopover": "Trechos de código agora estão disponíveis aqui em \"Docs Rápidos\". Clique aqui para começar a usar ferramentas!",
     "newToolUsePopoverTitle": "📚 Docs Rápidos",
     "learnMore": "ℹ️ 👾 Para saber mais sobre os endpoints do servidor local do LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
     "helloWorld": {
@@ -151,18 +151,18 @@
     "newBadge": "Novo"
   },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportados (compatíveis com OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Liste os modelos carregados atualmente",
-  "endpoints/openaiCompatRest/postCompletions": "Modo de Compleções de Texto. Preveja o(s) próximo(s) token(s) dado um prompt. Nota: A OpenAI considera este endpoint 'obsoleto'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Compleções de chat. Envie um histórico de chat para o modelo para prever a próxima resposta do assistente",
-  "endpoints/openaiCompatRest/postEmbeddings": "Incorporação de Texto. Gere incorporações de texto para uma entrada de texto dada. Aceita uma string ou matriz de strings.",
+  "endpoints/openaiCompatRest/title": "Endpoints suportados (padrão OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Lista os modelos carregados atualmente",
+  "endpoints/openaiCompatRest/postCompletions": "Modo de Conclusão de Texto. Prevê os próximos tokens a partir de um prompt. Nota: A OpenAI considera este endpoint 'obsoleto'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Conclusão de Conversa. Envia um histórico de conversa para o modelo prever a próxima resposta do assistente.",
+  "endpoints/openaiCompatRest/postEmbeddings": "Embedding de Texto. Gera embeddings de texto para uma entrada. Aceita uma string ou uma lista de strings.",
 
   "model.createVirtualModelFromInstance": "Salvar Configurações como um Novo Modelo Virtual",
   "model.createVirtualModelFromInstance/error": "Falha ao salvar as configurações como um novo modelo virtual",
 
   "model": {
     "toolUseSectionTitle": "Uso de Ferramentas",
-    "toolUseDescription": "Este modelo foi detectado como treinado para uso de ferramentas\n\nAbra <custom-link>docs rápidos</custom-link> para mais informações"
+    "toolUseDescription": "Este modelo foi treinado para o uso de ferramentas.\n\nAbra os <custom-link>Docs Rápidos</custom-link> para mais informações."
   },
 
   "apiConfigOptions/title": "Configuração da API"
