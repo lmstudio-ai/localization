@@ -26,11 +26,28 @@
 	"serverOptions/verboseLogging/subtitle": "Aktivera detaljerad loggning för den lokala servern",
 	"serverOptions/contentLogging/title": "Logga uppmaningar och svar",
 	"serverOptions/contentLogging/subtitle": "Inställningar för lokal begäran / svar loggning",
+	"serverOptions/redactContent/title": "Maskera innehåll",
+	"serverOptions/redactContent/hint": "När aktiverat förhindras känslig data, såsom innehållet i förfrågningar och svar, från att loggas.",
 	"serverOptions/contentLogging/hint": "Om uppmaningar och/eller svar ska loggas i den lokala serverns loggfil.",
+	"serverOptions/logIncomingTokens/title": "Logga inkommande token",
+	"serverOptions/logIncomingTokens/hint": "Om varje token ska loggas när de genereras.",
+	"serverOptions/fileLoggingMode/title": "Fil-loggningsläge",
+	"serverOptions/fileLoggingMode/off/title": "AV",
+	"serverOptions/fileLoggingMode/off/hint": "Skapa inga loggfiler",
+	"serverOptions/fileLoggingMode/succinct/title": "Kortfattat",
+	"serverOptions/fileLoggingMode/succinct/hint": "Logga samma innehåll som i konsolen. Långa förfrågningar kommer att trunkeras.",
+	"serverOptions/fileLoggingMode/full/title": "Fullständigt",
+	"serverOptions/fileLoggingMode/full/hint": "Trunkera inte långa förfrågningar.",
 	"serverOptions/jitModelLoading/title": "Just-in-Time modellinläsning",
 	"serverOptions/jitModelLoading/hint": "När aktiverad, om en begäran specificerar en modell som inte är inläst, kommer den automatiskt att laddas och användas. Dessutom kommer \"/v1/models\"-endpointen också att inkludera modeller som ännu inte är inlästa.",
 	"serverOptions/loadModel/error": "Misslyckades med att ladda modell",
-	
+	"serverOptions/jitModelLoadingTTL/title": "Autoavlasta oanvända JIT-inlästa modeller",
+	"serverOptions/jitModelLoadingTTL/hint": "En modell som laddats Just-in-time (JIT) för att hantera en API-förfrågan kommer automatiskt att avlastas efter att ha varit oanvänd en viss tid (TTL).",
+	"serverOptions/jitModelLoadingTTL/ttl/label": "Max inaktiv TTL",
+	"serverOptions/jitModelLoadingTTL/ttl/unit": "minuter",
+	"serverOptions/unloadPreviousJITModelOnLoad/title": "Behåll endast senaste JIT-inlästa modell",
+	"serverOptions/unloadPreviousJITModelOnLoad/hint": "Säkerställ att högst 1 modell är inläst via JIT åt gången (avlastar föregående modell)",
+
 	"serverLogs/scrollToBottom": "Hoppa till botten",
 	"serverLogs/clearLogs": "Rensa loggar ({{shortcut}})",
 	"serverLogs/openLogsFolder": "Öppna serverloggsmappen",
@@ -42,6 +59,12 @@
 	"runtimeSettings/chooseRuntime/showAllVersions/hint": "Som standard visar LM Studio endast den senaste versionen av varje kompatibel körmiljö. Aktivera detta alternativ för att se alla tillgängliga körmiljöer.",
 	"runtimeSettings/chooseRuntime/select/placeholder": "Välj en körmiljö",
 	
+	"runtimeSettings/chooseFrameworks/title": "Ramverk",
+	"runtimeSettings/chooseFrameworks/description": "Välj ett ramverk att använda för varje funktionalitet",
+	"runtimeSettings/chooseFramework/documentParser/builtIn/label": "Inbyggd tolk",
+	"runtimeSettings/chooseFramework/documentParser/select/label": "Dokumenttolk",
+	"runtimeSettings/chooseFramework/documentParser/select/placeholder": "Välj en dokumenttolk",
+
 	"runtimeOptions/uninstall": "Avinstallera",
 	"runtimeOptions/uninstallDialog/title": "Avinstallera {{runtimeName}}?",
 	"runtimeOptions/uninstallDialog/body": "Avinstallation av denna körmiljö kommer att ta bort den från systemet. Denna åtgärd är oåterkallelig.",
@@ -53,16 +76,104 @@
 	"runtimeOptions/downloadIncompatibleRuntime": "Denna körmiljö bedömdes vara inkompatibel med din maskin. Den kommer troligen inte att fungera.",
 	"runtimeOptions/noRuntimes": "Inga körmiljöer hittades",
 	
+		"runtimes": {
+		"manageLMRuntimes": "Hantera LM-körmiljöer",
+		"includeOlderRuntimeVersions": "Inkludera äldre versioner",
+		"dismiss": "Avfärda",
+		"updateAvailableToast": {
+			"title": "Uppdatering av LM-körmiljö tillgänglig!"
+		},
+		"updatedToast": {
+			"title": "✅ LM-körmiljö uppdaterad: {{runtime}} → v{{version}}",
+			"preferencesUpdated": "Nyligen inlästa {{compatibilityTypes}} modeller kommer att använda den uppdaterade körmiljön."
+		},
+		"noAvx2ErrorMessage": "Alla LM-körmiljöer kräver för närvarande en CPU med AVX2-stöd",
+		"downloadableRuntimes": {
+			"runtimeExtensionPacks": "Körmiljöpaket",
+			"refresh": "Uppdatera",
+			"refreshing": "Uppdaterar...",
+			"filterSegment": {
+				"compatibleOnly": "Endast kompatibla",
+				"all": "Alla"
+			},
+			"card": {
+				"releaseNotes": "Versionsanteckningar",
+				"latestVersionInstalled": "Senaste versionen installerad",
+				"updateAvailable": "Uppdatering tillgänglig"
+			}
+		},
+		"installedRuntimes": {
+			"manage": {
+				"title": "Hantera aktiva körmiljöer"
+			},
+			"dropdownOptions": {
+				"installedVersions": "Hantera versioner",
+				"close": "Stäng"
+			},
+			"tabs": {
+				"all": "Alla",
+				"frameworks": "Mina ramverk",
+				"engines": "Mina motorer"
+			},
+			"detailsModal": {
+				"installedVersions": "Installerade versioner för {{runtimeName}}",
+				"manifestJsonTitle": "Manifest JSON (avancerat)",
+				"releaseNotesTitle": "Versionsanteckningar",
+				"noReleaseNotes": "Inga versionsanteckningar tillgängliga för denna version",
+				"back": "Tillbaka",
+				"close": "Stäng"
+			},
+			"noEngines": "Inga motorer installerade",
+			"noFrameworks": "Inga ramverk installerade"
+		}
+	},
+
 	"inferenceParams/noParams": "Inga konfigurerbara prediktionsparametrar tillgängliga för denna modelltyp",
 	
+	"quickDocs": {
+		"tabChipTitle": "Snabbdokumentation",
+		"newToolUsePopover": "Kodexempel finns nu här i \"Snabbdokumentation\". Klicka här för att komma igång med verktygsanvändning!",
+		"newToolUsePopoverTitle": "📚 Snabbdokumentation",
+		"learnMore": "ℹ️ 👾 För att lära dig mer om LM Studio:s lokala serverendpoints, besök [dokumentationen](https://lmstudio.ai/docs).",
+		"helloWorld": {
+			"title": "Hej, världen!"
+		},
+		"chat": {
+			"title": "Chatt"
+		},
+		"structuredOutput": {
+			"title": "Strukturerad utdata"
+		},
+		"imageInput": {
+			"title": "Bildinmatning"
+		},
+		"embeddings": {
+			"title": "Inbäddningar"
+		},
+		"toolUse": {
+			"title": "Verktygsanvändning",
+			"tab": {
+				"saveAsPythonFile": "Spara som Python-fil",
+				"runTheScript": "Kör skriptet:",
+				"savePythonFileCopyPaste": "Spara som Python-fil för kopiera-och-klistra-in-kommando"
+			}
+		},
+		"newBadge": "Ny"
+	},
+
 	"endpoints/openaiCompatRest/title": "Stödda slutpunkter (OpenAI-liknande)",
 	"endpoints/openaiCompatRest/getModels": "Lista de för närvarande inlästa modellerna",
 	"endpoints/openaiCompatRest/postCompletions": "Textkompletteringsläge. Förutsäg nästa token(s) givet en prompt. Obs: OpenAI anser att denna slutpunkt är 'föråldrad'.",
 	"endpoints/openaiCompatRest/postChatCompletions": "Chattkompletteringar. Skicka en chattlogg till modellen för att förutsäga nästa assistentsvar",
 	"endpoints/openaiCompatRest/postEmbeddings": "Textinbäddning. Generera textinbäddningar för en given textinmatning. Tar en sträng eller en array av strängar.",
-	
+
 	"model.createVirtualModelFromInstance": "Spara inställningar som en ny virtuell modell",
 	"model.createVirtualModelFromInstance/error": "Misslyckades med att spara inställningar som en ny virtuell modell",
-	
+
+	"model": {
+		"toolUseSectionTitle": "Verktygsanvändning",
+		"toolUseDescription": "Denna modell har identifierats som tränad för verktygsanvändning\n\nÖppna <custom-link>snabbdokumentation</custom-link> för mer information"
+	},
+
 	"apiConfigOptions/title": "API-konfiguration"
 }

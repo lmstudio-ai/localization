@@ -23,7 +23,7 @@ LM Studio localization
 - Vietnamese [@trinhvanminh](https://github.com/trinhvanminh), [@godkyo98](https://github.com/godkyo98)
 - Portuguese (BR) [@Sm1g00l](https://github.com/Sm1g00l), [@altiereslima](https://github.com/altiereslima)
 - Portuguese (PT) [@catarino](https://github.com/catarino)
-- Chinese (zh-CN) [@neotan](https://github.com/neotan), [@SweetDream0256](https://github.com/SweetDream0256), [@enKl03B](https://github.com/enKl03B), [@evansrrr](https://github.com/evansrrr), [@xkonglong](https://github.com/xkonglong)
+- Chinese (zh-CN) [@neotan](https://github.com/neotan), [@SweetDream0256](https://github.com/SweetDream0256), [@enKl03B](https://github.com/enKl03B), [@evansrrr](https://github.com/evansrrr), [@xkonglong](https://github.com/xkonglong), [@shadow01a](https://github.com/shadow01a)
 - Chinese (zh-HK), (zh-TW) [@neotan](https://github.com/neotan), [ceshizhuanyong895](https://github.com/ceshizhuanyong895), [@BrassaiKao](https://github.com/BrassaiKao)
 - Chinese (zh-Hant) [@kywarai](https://github.com/kywarai), [ceshizhuanyong895](https://github.com/ceshizhuanyong895)
 - Ukrainian (uk) [@hmelenok](https://github.com/hmelenok)
