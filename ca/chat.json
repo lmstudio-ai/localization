@@ -188,7 +188,10 @@
         "placeholder": "Els plugins que creïs apareixeran aquí"
       },
       "startRunningDevelopmentPlugin/error": "No s'ha pogut executar el plugin en mode desenvolupador",
-      "stopRunningDevelopmentPlugin/error": "No s'ha pogut parar l'execució del plugin en mode desenvolupador"
+      "stopRunningDevelopmentPlugin/error": "No s'ha pogut parar l'execució del plugin en mode desenvolupador",
+      "forceReInitPlugin/error": "No s'ha pogut reiniciar el plugin"
+
+
     },
     "pluginConfiguration": {
       "title": "Configuració dels Plugins",
