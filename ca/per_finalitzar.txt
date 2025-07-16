@@ -1,5 +1,0 @@
-Cercar TODO als documents
-
-Comprovar //
-
-Me falta config
