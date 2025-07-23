@@ -23,10 +23,12 @@
   "noChatSelectedPlaceholder": "チャットを選択してください",
   "unnamedChat": "名称未設定のチャット",
   "emptyFolder": "フォルダーが空です",
+
   "tokenCount": "トークンカウント",
   "messageTokenCount": "メッセージのトークン数",
   "tokenCount/hint": "メッセージ内のトークン数です。現在選択されているモデルのトークナイザーを使用してカウントされます。\n\nモデルがロードされている必要があります。",
   "messageTokenCount/hint": "メッセージ内のトークン数です。現在選択されているモデルのトークナイザーを使用してカウントされます。\n\n**ファイル添付のトークン数の推定値は含まれません**。",
+
   "notes": "会話メモ",
   "notes/add/first": "メモを追加",
   "notes/add/another": "別のメモを追加",
@@ -35,9 +37,11 @@
   "notes/delete": "メモを削除",
   "notes/noteLabel": "メモ",
   "notes/copyContent": "メモの内容をコピー",
+
   "actions/sendMessage/error": "メッセージの送信に失敗しました",
   "actions/loadModel/error": "🥲 モデルのロードに失敗しました",
   "actions/addFile": "[実験的] このメッセージにファイルを添付\n(.pdf、プレーンテキスト、または .docx)",
+  "actions/addFile/label": "ファイルを添付",
   "actions/changeRole": "ユーザーとアシスタントの役割を切り替えます。\n\nこれにより、会話を特定の方向に誘導することができます。\n\nfew-shot learningやin-context learningのシナリオで使用することが可能です。",
   "actions/addImage": "画像を追加",
   "actions/deleteMessage": "メッセージを削除",
@@ -85,7 +89,12 @@
   "actions/createChatAtRoot/error": "ルートでのチャット作成に失敗しました",
   "actions/createFolderAtRoot": "新しいフォルダーを作成",
   "actions/createFolderAtRoot/error": "ルートでのフォルダー作成に失敗しました",
+  "actions/openInFolder/mac": "Finderで表示",
+  "actions/openInFolder/pc": "エクスプローラーで表示",
+
   "actions/createChat/error": "チャット作成に失敗しました",
+  "actions/deleteChat/errorTitle": "チャットの削除に失敗しました",
+
   "userFile/fileSizeLimit": "ファイルサイズの上限は ",
   "userFile/noImageSupport": "モデルは画像入力をサポートしていません",
   "userFile/errorPrefix": "エラー - ",
@@ -94,31 +103,140 @@
   "userFile/unsupportedFileType": "サポートされていないファイルタイプ - 画像、PDF、および .txt ファイルのみサポートされています。",
   "userFile/maxFilesPerMessage": "メッセージあたりの最大ファイル数に達しました。これ以上ファイルを追加できません。 ({{files}} ファイルまで)",
   "userFile/maxFileSizePerMessage": "メッセージあたりの最大ファイルサイズに達しました。{{size}} より大きなファイルは追加できません。 ",
+  "userFile/maxFileSizePerConversation": "会話あたりの最大ファイルサイズに達しました。{{size}} より大きなファイルは追加できません。 ",
+  "userFile/failedToUploadError/title": "ファイルのアップロードに失敗しました",
+  "userFile/failedToAddFile/title": "チャットへのファイル追加に失敗しました",
   "errorTitle": "エラー",
+  "userFile/chatTerminalDocumentsCount_one": "チャット内のドキュメント {{count}} 件",
+  "userFile/chatTerminalDocumentsCount_other": "チャット内のドキュメント {{count}} 件",
+
   "prediction/busyModel/title": "モデルがビジー状態です",
   "prediction/busyModel/message": "モデルが処理を完了するまでお待ちください",
   "prediction/noModel/title": "モデルが選択されていません",
   "prediction/modelLoading": "メッセージがキューに入りました。モデルの読み込みが完了したら送信されます",
   "prediction/noModel/message": "メッセージを送信するにはモデルを選択してください",
   "prediction/unloadModel/error": "モデルのアンロードに失敗しました",
+
   "retrieval/user/processingLabel": "AIが考えています...",
   "retrieval/powerUser/intermediateStepsHidden": "中間ステップは非表示です。クリックして展開。",
   "retrieval/actions/clickToExpand": "中間ステップを展開するにはクリック",
   "retrieval/actions/clickToCollapse": "中間ステップを折りたたむにはクリック",
+
   "style": "チャットの外観",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "プレーンテキスト",
   "style/viewMode/monospace": "等幅フォント",
+
+  "speculativeDecodingVisualization/fromDraftModel_one": "受理されたドラフトトークン",
+  "speculativeDecodingVisualization/fromDraftModel_other": "受理されたドラフトトークン",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "ドラフトトークンの可視化中は表示モードの選択はできません。",
+
   "style/fontSize/label": "フォントサイズ",
   "style/fontSize/medium": "デフォルト",
   "style/fontSize/large": "大きい",
   "style/fontSize/small": "小さい",
+
+  "style/debugBlocks/label": "デバッグ情報ブロックを表示",
+
+  "style/thinkingUI/label": "推論ブロックをデフォルトで展開",
+  "style/chatFullWidth/label": "チャットコンテナをウィンドウ幅に拡張",
+
+  "style/chatUtilityMenusShowLabel/label": "チャットユーティリティメニューラベルを表示",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "内容を展開",
+    "collapseBlockTooltip": "内容を折りたたむ",
+    "debug": {
+      "label": "デバッグ情報",
+      "collapseTooltip": "デバッグ情報ブロックを折りたたむ",
+      "expandTooltip": "デバッグ情報ブロックを展開"
+    }
+  },
+
   "topBarActions/duplicateChat": "チャットを複製する",
   "topBarActions/clearChat": "全てのメッセージをクリア",
   "topBarActions/clearChatConfirmation": "このチャットでの全てのメッセージをクリアしても良いですか？",
   "topBarActions/clearChatCancel": "キャンセル",
   "topBarActions/clearChatDelete": "全てクリア",
+
   "noModels.indexing": "モデルファイルをインデックスしています... (時間がかかる場合があります)",
   "noModels.downloading": "あなたの初めてのLLMをダウンロード中...",
-  "noModels": "LLMモデルがまだありません！利用を開始するにはダウンロードしてください！"
+  "noModels": "LLMモデルがまだありません！利用を開始するにはダウンロードしてください！",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "プラグイン",
+      "multiplePlugins": "{{dynamicValue}} 個のプラグイン"
+    },
+    "pluginSelect": {
+      "title": "プラグイン",
+      "dropdown": {
+        "configure": "設定",
+        "disable": "無効化",
+        "fork": "フォーク",
+        "uninstall": "アンインストール"
+      },
+      "actionButtons": {
+        "create": "作成",
+        "import": "インポート",
+        "discover": "発見"
+      },
+      "recentlyCreated": {
+        "title": "最近作成したプラグイン",
+        "placeholder": "作成したプラグインはここに表示されます"
+      },
+      "startRunningDevelopmentPlugin/error": "開発モードでプラグインの実行に失敗しました",
+      "stopRunningDevelopmentPlugin/error": "開発モードでプラグインの停止に失敗しました",
+      "forceReInitPlugin/error": "プラグインの再起動に失敗しました"
+    },
+    "pluginConfiguration": {
+      "title": "プラグイン設定",
+      "selectAPlugin": "編集するプラグインを選択してください",
+      "preprocessorAndGenerator": "このプラグインにはカスタムのプリプロセッサとジェネレータが含まれています",
+      "generatorOnly": "このプラグインにはカスタムのジェネレータが含まれています",
+      "preprocessorOnly": "このプラグインにはカスタムのプリプロセッサが含まれています"
+    },
+    "instructions": {
+      "runTheFollowing": "プラグインを実行するには、ターミナルで次を入力してください",
+      "pushTo": "他のユーザーと共有するにはHubにプッシュします（任意）",
+      "createdSuccessfully": "プラグインが正常に作成されました",
+      "creatingPlugin": "プラグインを作成中...",
+      "projectFilesTitle": "プロジェクトファイル",
+      "buttons": {
+        "documentation": "ドキュメント",
+        "dismiss": "閉じる",
+        "publish": "公開",
+        "openInZed": "Zedで開く",
+        "openInVscode": "VS Codeで開く",
+        "revealInFinder": "Finderで表示",
+        "openInFileExplorer": "エクスプローラーで表示"
+      }
+    },
+    "localFork": {
+      "error": "ローカル開発用コピーの作成に失敗しました。"
+    },
+    "restartErrorPlugin/error": "プラグインの再起動に失敗しました"
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} トークン/秒",
+    "predictedTokensCount": "{{predictedTokensCount}} トークン",
+    "timeToFirstTokenSec": "最初のトークンまで{{timeToFirstTokenSec}}秒",
+    "stopReason": "停止理由: {{stopReason}}",
+    "stopReason.userStopped": "ユーザーによる停止",
+    "stopReason.modelUnloaded": "モデルのアンロード",
+    "stopReason.failed": "生成失敗",
+    "stopReason.eosFound": "EOSトークン検出",
+    "stopReason.stopStringFound": "ストップ文字列検出",
+    "stopReason.toolCalls": "ツール呼び出し",
+    "stopReason.maxPredictedTokensReached": "最大生成トークン数到達",
+    "stopReason.contextLengthReached": "コンテキスト長制限到達",
+    "speculativeDecodedBy": "ドラフトモデル: {{decodedBy}}",
+    "speculativeDecodingStats": "ドラフトトークン {{accepted}}/{{total}} 件受理 ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "システムプロンプトの編集"
+  }
 }

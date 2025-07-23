@@ -18,6 +18,8 @@
   "modelsTable.size/label": "サイズ",
   "modelsTable.dateModified/label": "最終更新日",
   "modelsTable.actions/label": "アクション",
+  "modelsTable.displayName/label": "名前",
+  "modelsTable.modelKey/label": "モデルキー",
 
   "action.model.delete": "削除",
   "action.model.delete.full": "モデルを削除",
@@ -68,18 +70,50 @@
   "contextMenu/unpin": "固定を解除",
   "contextMenu/copyAbsolutePath": "絶対パスをコピー",
   "contextMenu/copyModelName": "モデルパスをコピー",
+  "contextMenu/copyModelDefaultIdentifier": "デフォルト識別子をコピー",
+  "contextMenu/showRawMetadata": "生メタデータを表示",
   "contextMenu/openOnHuggingFace": "Hugging Faceで開く",
+  "contextMenu": {
+    "showOnWeb": "Webで表示",
+    "pullLatest": {
+      "label": "最新版を取得",
+      "checking": "更新を確認中...",
+      "upToDate": "最新版です",
+      "error": "更新の確認に失敗しました"
+    }
+  },
+
   "tooltip/moreActions": "その他のアクション",
   "tooltip/getInfo": "情報を取得",
   "tooltip/editModelDefaultConfig": "モデルのデフォルト設定を編集",
   "tooltip/editModelDefaultConfig/override": "モデルのデフォルト設定を編集 (*現在は上書きされています)",
   "tooltip/visionBadge": "このモデルは画像入力を処理できます",
+  "tooltip/toolUseBadge": "このモデルはツール利用に対応しています",
 
   "visionBadge/label": "画像入力対応",
+  "toolUseBadge/label": "ツール利用対応",
 
   "loader.action.load": "モデルを読み込む",
   "loader.action.clearChanges": "変更をクリア",
   "loader.action.cancel": "キャンセル",
   "loader.info.clickOnModelToLoad": "モデルをクリックして読み込みます",
-  "loader.info.configureLoadParameters": "モデルの読み込みパラメータを設定"
+  "loader.info.configureLoadParameters": "モデルの読み込みパラメータを設定",
+  "loader.info.activeGeneratorWarning": "プラグインでカスタムジェネレーターを使用中です。現在読み込まれているモデルがこのプラグイン下で適用されるかは、ジェネレーターの実装によります。",
+
+  "virtual": {
+    "local": {
+      "create": "仮想モデルを作成",
+      "title": "ローカル仮想モデルを作成",
+      "description": "モデルと設定をまとめて仮想モデルを作成します。重みファイルは複製されません。",
+      "modelKey.label": "モデルキー",
+      "modelKey.placeholder": "一意なモデルキーを入力",
+      "modelKey.normalized": "モデルキーは次のように正規化されます: {{normalized}}",
+      "baseModel.label": "ベースモデル",
+      "baseModel.placeholder": "ベースモデルを選択",
+      "baseModel.empty": "ベースモデルとして使用するモデルをダウンロードしてください",
+      "next": "次へ",
+      "confirm": "作成",
+      "error": "仮想モデルの作成に失敗しました"
+    }
+  }
 }
