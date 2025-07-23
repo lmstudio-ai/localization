@@ -1,7 +1,18 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "展開中...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.modifyModelData/status": "Updating model data...",
+  "postDownloadActionExecutor.notification/status": "Notifying user...",
+  "postDownloadActionExecutor.writeString/status": "Writing metadata...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Updating selected version...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Deleting unused extensions...",
+  "postDownloadActionExecutor.pluginInstall/status": "Installing plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Uninstalling plugin...",
+
   "finalizing": "ダウンロードの最終処理中...（しばらくお待ちください）",
   "noOptions": "利用可能な互換性のあるオプションがありません",
+
   "deeplink/confirmation/title": "Hugging Face 🤗 からモデルをダウンロード",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "推奨オプションを選択",
@@ -17,5 +28,15 @@
   "deeplink/actions/trySearching": "{{modelName}} をHugging Faceで検索してみる",
   "downloadsPanel/title": "ダウンロード",
   "downloadsPanel/sectionTitle/ongoing": "進行中",
-  "downloadsPanel/sectionTitle/completed": "完了"
+  "downloadsPanel/sectionTitle/completed": "完了",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finderで表示",
+      "mac/error": "Finderで表示できませんでした",
+      "nonMac": "ファイルエクスプローラーで表示",
+      "nonMac/error": "ファイルエクスプローラーで表示できませんでした"
+    },
+    "completed": "ダウンロード完了",
+    "loadModel": "モデルを読み込む"
+  }
 }
