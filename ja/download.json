@@ -1,6 +1,6 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "展開中...",
-  "postDownloadActionExecutor.tarGzExtraction/status": "Extracting files...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "ファイルを展開中...",
   "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extracting files...",
   "postDownloadActionExecutor.modifyModelData/status": "Updating model data...",
   "postDownloadActionExecutor.notification/status": "Notifying user...",
