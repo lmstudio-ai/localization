@@ -155,8 +155,8 @@
     }
   },
 
-  "topBarActions/duplicateChat": "Duplicate",
-  "topBarActions/clearChat": "Clear All",
+  "topBarActions/duplicateChat": "Duplicate chat",
+  "topBarActions/clearChat": "Clear all messages...",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
   "topBarActions/clearChatCancel": "Cancel",
   "topBarActions/clearChatDelete": "Clear All",
