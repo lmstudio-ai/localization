@@ -42,7 +42,7 @@
   "llm.prediction.systemPrompt/closeEditor": "Close Editor",
   "llm.prediction.systemPrompt/openedEditor": "Opened in Editor...",
   "llm.prediction.systemPrompt/edit": "Edit System Prompt...",
-  "llm.prediction.systemPrompt/addInstructionsExtended": "Add instructions...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "Add instructions...",
   "llm.prediction.systemPrompt/addInstructions": "Add instructions",
   "llm.prediction.temperature/title": "Temperature",
   "llm.prediction.temperature/subTitle": "How much randomness to introduce. 0 will yield the same result every time, while higher values will increase creativity and variance",
