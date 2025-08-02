@@ -155,6 +155,9 @@
     }
   },
 
+  "chatTabOptions/clearAllMessages": "Esborra tots els missatges...",
+  "chatTabOptions/duplicateChat": "Duplica el xat",
+
   "topBarActions/duplicateChat": "Duplicar",
   "topBarActions/clearChat": "Esborrar tot",
   "topBarActions/clearChatConfirmation": "Estàs segur que vols esborrar tots els missatges d'aquest xat?",
