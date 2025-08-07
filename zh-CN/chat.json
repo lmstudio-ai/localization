@@ -41,8 +41,8 @@
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
   "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
+  "actions/addFile/label": "附加文件",
   "actions/changeRole": "在用户和助手角色之间切换。\n\n这对于引导对话朝特定方向发展非常有用。\n\n可用于构建‘少样本学习’或‘情境学习’场景",
-
   "actions/addImage": "添加图片",
   "actions/deleteMessage": "删除消息",
   "actions/deleteMessage/confirmation": "您确定要删除这条消息吗？",
@@ -188,7 +188,8 @@
         "placeholder": "你创建的插件会显示在这里"
       },
       "startRunningDevelopmentPlugin/error": "开发模式插件启动失败",
-      "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败"
+      "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败",
+      "forceReInitPlugin/error": "重启插件失败"
     },
     "pluginConfiguration": {
       "title": "插件配置",
