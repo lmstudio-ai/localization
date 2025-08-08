@@ -41,6 +41,7 @@
   "actions/sendMessage/error": "Falha ao enviar mensagem",
   "actions/loadModel/error": "🥲 Falha ao carregar o modelo",
   "actions/addFile": "[Experimental] Anexar um arquivo a esta mensagem\n(.pdf, .txt, ou .docx)",
+  "actions/addFile/label": "Anexar Arquivo",
   "actions/changeRole": "Alternar entre os papéis de Usuário e Assistente.\n\nÚtil para direcionar a conversa para um caminho específico.\n\nPode ser usado para criar cenários de 'aprendizado de poucos exemplos' (few-shot learning) ou 'aprendizado em contexto' (in-context learning).",
   "actions/addImage": "Adicionar imagem",
   "actions/deleteMessage": "Excluir mensagem",
@@ -76,7 +77,7 @@
   "editMessageConfirm/save": "Salvar",
   "editMessageConfirm/discard": "Descartar Alterações",
   "tokenCount/totalNotAvailable": "Tokens: {{current}}",
-  "tokenCount/totalAvailable": "Tokens: {{current}} / {{total}}",
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "Contexto {{percentage}}% preenchido",
   "tokenCount/contextOverflow": "O contexto da conversa excedeu o limite de tokens do modelo. Dependendo da sua Política de Excesso de Contexto, o texto poderá ser truncado ou a mensagem não será enviada.",
   "modelLoader/manualLoadParams/label": "Escolher parâmetros de carregamento do modelo manualmente",
@@ -88,6 +89,9 @@
   "actions/createChatAtRoot/error": "Falha ao criar conversa",
   "actions/createFolderAtRoot": "Nova Pasta...",
   "actions/createFolderAtRoot/error": "Falha ao criar pasta",
+  "actions/openInFolder/mac": "Revelar no Finder",
+  "actions/openInFolder/pc": "Revelar no Explorador de Arquivos",
+
   "actions/createChat/error": "Falha ao criar conversa",
   "actions/deleteChat/errorTitle": "Falha ao excluir conversa",
 
@@ -139,6 +143,8 @@
   "style/thinkingUI/label": "Expandir blocos de raciocínio por padrão",
   "style/chatFullWidth/label": "Expandir a área da conversa para a largura da janela",
 
+  "style/chatUtilityMenusShowLabel/label": "Mostrar rótulos do menu de utilitários da conversa",
+
   "messageBlocks": {
     "expandBlockTooltip": "Expandir conteúdo",
     "collapseBlockTooltip": "Recolher conteúdo",
@@ -148,6 +154,9 @@
       "expandTooltip": "Expandir bloco de depuração"
     }
   },
+
+  "chatTabOptions/clearAllMessages": "Limpar todas as mensagens...",
+  "chatTabOptions/duplicateChat": "Duplicar conversa",
 
   "topBarActions/duplicateChat": "Duplicar",
   "topBarActions/clearChat": "Limpar Tudo",
@@ -182,7 +191,8 @@
         "placeholder": "Plugins que você criar aparecerão aqui"
       },
       "startRunningDevelopmentPlugin/error": "Falha ao iniciar plugin em modo de desenvolvimento",
-      "stopRunningDevelopmentPlugin/error": "Falha ao parar plugin em modo de desenvolvimento"
+      "stopRunningDevelopmentPlugin/error": "Falha ao parar plugin em modo de desenvolvimento",
+      "forceReInitPlugin/error": "Falha ao reiniciar o plugin"
     },
     "pluginConfiguration": {
       "title": "Configuração de Plugin",
@@ -206,7 +216,11 @@
         "revealInFinder": "Revelar no Finder",
         "openInFileExplorer": "Abrir no Explorador de Arquivos"
       }
-    }
+    },
+    "localFork": {
+      "error": "Falha ao criar uma cópia de desenvolvimento local do plugin."
+    },
+    "restartErrorPlugin/error": "Falha ao reiniciar o plugin"
   },
 
   "genInfo": {
@@ -224,5 +238,9 @@
     "stopReason.contextLengthReached": "Limite de contexto atingido",
     "speculativeDecodedBy": "Modelo de rascunho: {{decodedBy}}",
     "speculativeDecodingStats": "Aceitos {{accepted}}/{{total}} tokens de rascunho ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Editando o Prompt de Sistema"
   }
 }
