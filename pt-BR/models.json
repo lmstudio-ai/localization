@@ -27,18 +27,7 @@
   "action.model.delete.confirmation/title": "Excluir {{name}}",
   "action.model.delete.confirmation/description": "Você tem certeza? Isso excluirá permanentemente todos os arquivos associados a este modelo da sua máquina. Esta ação é irreversível.",
   "action.model.delete.confirmation/confirm": "Excluir",
-
-  "action.createVirtual": "Criar Predefinição",
-  "action.createVirtual.details/title": "Criar uma Predefinição",
-  "action.createVirtual.details/create": "Criar",
-  "action.createVirtual.details/cancel": "Cancelar",
-  "action.createVirtual.details.base/label": "Modelo Base",
-  "action.createVirtual.details.name/label": "Nome",
-  "action.createVirtual.details.includeMachineDependent/label": "Incluir Configs. Dependentes da Máquina",
-  "action.createVirtual.details.includeMachineDependent/hint": "Define se as configurações dependentes da máquina (como ajustes de GPU) devem ser incluídas na predefinição. Não recomendado para compartilhamento.",
-  "action.createVirtual.details.config/label": "Substituições de Config.",
-  "action.createVirtual.details.config.empty": "Nenhuma substituição de configuração",
-  "action.createVirtual.details/error": "Falha ao criar o modelo virtual.",
+  "action.model.delete/error": "Falha ao excluir o modelo",
 
   "loader.model.bundled": "Incluso",
   "action.cancel": "Cancelar",
@@ -53,12 +42,19 @@
   "unresolvedVirtualModels/title_other": "Falha ao resolver os seguintes modelos virtuais:",
   "unresolvedVirtualModels.missingModel": "Um modelo dependente está faltando: {{missing}}. Caminho da dependência:\n{{chain}}",
   "unresolvedVirtualModels.circular": "Dependência circular detectada.",
+  "unresolvedVirtualModels.fix": "Corrigir",
+  "unresolvedVirtualModels.revealInExplorer": "Revelar no Explorador de Arquivos",
+  "unresolvedVirtualModels.revealInFinder": "Revelar no Finder",
+  "unresolvedVirtualModels.reveal/error": "Falha ao revelar",
 
   "modelsDirectory": "Diretório de Modelos",
   "modelsDirectory.change": "Alterar...",
+  "modelsDirectory.change/error": "Falha ao alterar o diretório de modelos",
   "modelsDirectory.reset": "Redefinir para o Caminho Padrão",
   "modelsDirectory.reveal.mac": "Revelar no Finder",
   "modelsDirectory.reveal.nonMac": "Abrir no Explorador de Arquivos",
+  "modelsDirectory.reveal.mac/error": "Falha ao abrir no Finder",
+  "modelsDirectory.reveal.nonMac/error": "Falha ao abrir no Explorador de Arquivos",
   "modelsDirectory.forceReindex": "Atualizar",
   "loadState/loaded": "Carregado",
   "loadState/loading": "Carregando",
@@ -74,6 +70,15 @@
   "contextMenu/copyModelDefaultIdentifier": "Copiar Identificador Padrão",
   "contextMenu/showRawMetadata": "Mostrar Metadados Brutos",
   "contextMenu/openOnHuggingFace": "Abrir no Hugging Face",
+  "contextMenu": {
+    "showOnWeb": "Mostrar na Web",
+    "pullLatest": {
+      "label": "Puxar Versão Mais Recente",
+      "checking": "Verificando atualizações...",
+      "upToDate": "Atualizado",
+      "error": "Falha ao verificar atualizações"
+    }
+  },
   "tooltip/moreActions": "Mais Ações",
   "tooltip/getInfo": "Obter Informações",
   "tooltip/editModelDefaultConfig": "Editar config. padrão do modelo",
@@ -89,5 +94,22 @@
   "loader.action.cancel": "Cancelar",
   "loader.info.clickOnModelToLoad": "Clique em um modelo para carregá-lo",
   "loader.info.configureLoadParameters": "Configure os parâmetros de carregamento do modelo",
-  "loader.info.activeGeneratorWarning": "Você está usando um plugin com um gerador personalizado. Dependendo da implementação do gerador, o seu modelo atual pode ou não ser aplicado."
+  "loader.info.activeGeneratorWarning": "Você está usando um plugin com um gerador personalizado. Seu modelo carregado atualmente pode ou não ser aplicado sob este plugin, dependendo da implementação do gerador.",
+
+  "virtual": {
+    "local": {
+      "create": "Criar Modelo Virtual",
+      "title": "Criar um Modelo Virtual Local",
+      "description": "Crie um modelo virtual agrupando um modelo com um conjunto de configurações. Os pesos subjacentes não serão duplicados.",
+      "modelKey.label": "Chave do Modelo",
+      "modelKey.placeholder": "Insira uma chave de modelo única",
+      "modelKey.normalized": "A chave do seu modelo será normalizada para: {{normalized}}",
+      "baseModel.label": "Modelo Base",
+      "baseModel.placeholder": "Selecione um modelo base",
+      "baseModel.empty": "Baixe um modelo para usar como modelo base",
+      "next": "Avançar",
+      "confirm": "Criar",
+      "error": "Falha ao criar o modelo virtual"
+    }
+  }
 }

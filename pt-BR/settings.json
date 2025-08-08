@@ -1,6 +1,7 @@
 {
   "settingsDialogTitle": "Configurações do Aplicativo",
   "settingsDialogButtonTooltip": "Configurações do Aplicativo",
+  "accountDialogButtonTooltip": "Conta",
 
   "settingsNewButtonPopover": {
     "primary": "As Configurações do Aplicativo agora ficam no canto inferior direito",
@@ -140,6 +141,7 @@
   "experimentalLoadPresets.description": "Permite que predefinições incluam configurações de carregamento de modelo. Este recurso é experimental e agradecemos o feedback.",
 
   "unloadPreviousJITModelOnLoad": "Auto-remoção de modelos JIT: garante que no máximo 1 modelo carregado via JIT esteja ativo (descarrega o anterior)",
+  "autoDeleteExtensionPacks": "Excluir automaticamente os Pacotes de Extensão de Tempo de Execução menos usados",
   "autoUpdateExtensionPacks": "Atualizar automaticamente Pacotes de Extensão de Tempo de Execução selecionados",
   "useHFProxy.label": "Usar o Proxy do Hugging Face do LM Studio",
   "useHFProxy.hint": "Use o proxy do LM Studio para buscar e baixar modelos do Hugging Face. Isso pode ajudar usuários com dificuldades de acesso direto.",
@@ -179,5 +181,15 @@
     "hasBetterFooterCardText": "Melhoramos o migrador de conversas. Você pode executar o processo novamente (uma nova pasta será criada para as conversas migradas).",
     "dismissConfirm": "Dispensar",
     "dismissConfirmDescription": "Você pode gerenciar a migração de conversas a qualquer momento nas Configurações."
+  },
+  "toolConfirmation": {
+    "label": "Confirmação de Chamada de Ferramenta",
+    "neverAsk": {
+      "label": "Nunca pedir confirmações antes de executar uma ferramenta (NÃO RECOMENDADO)",
+      "hint": "Desativa as confirmações antes de executar uma ferramenta. Isso não é recomendado.",
+      "warnTitle": "Tem certeza?",
+      "warnDescription": "Desativar as confirmações de chamada de ferramenta é perigoso. Se algum dos seus plugins tiver uma ferramenta com potencial para realizar ações destrutivas (como executar um comando, excluir arquivos, sobrescrever arquivos, enviar arquivos, etc.), o modelo poderá fazê-lo sem qualquer confirmação. Você sempre pode desativar as confirmações por ferramenta ou até mesmo por plugin. Ativar esta opção NÃO é recomendado. Por favor, tenha cuidado.",
+      "warnButton": "Eu entendo os riscos"
+    }
   }
 }

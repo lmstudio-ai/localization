@@ -1,8 +1,18 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extraindo...",
+  "postDownloadActionExecutor.zipExtraction/status": "Extraindo arquivos...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extraindo arquivos...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraindo arquivos...",
+  "postDownloadActionExecutor.modifyModelData/status": "Atualizando dados do modelo...",
+  "postDownloadActionExecutor.notification/status": "Notificando o usuário...",
+  "postDownloadActionExecutor.writeString/status": "Escrevendo metadados...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Atualizando a versão selecionada...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Excluindo extensões não utilizadas...",
+  "postDownloadActionExecutor.pluginInstall/status": "Instalando plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Desinstalando plugin...",
+
   "finalizing": "Finalizando o download... (isso pode levar alguns instantes)",
   "noOptions": "Nenhuma opção compatível disponível para download",
-  
+
   "deeplink/confirmation/title": "Baixar modelo do Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Selecionar recomendado",
@@ -19,6 +29,15 @@
 
   "downloadsPanel/title": "Downloads",
   "downloadsPanel/sectionTitle/ongoing": "Em Andamento",
-  "downloadsPanel/sectionTitle/completed": "Concluídos"
+  "downloadsPanel/sectionTitle/completed": "Concluídos",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Revelar no Finder",
+      "mac/error": "Falha ao revelar no Finder",
+      "nonMac": "Revelar no Explorador de Arquivos",
+      "nonMac/error": "Falha ao revelar no Explorador de Arquivos"
+    },
+    "completed": "Download Concluído",
+    "loadModel": "Carregar Modelo"
+  }
 }
-  

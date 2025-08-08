@@ -27,6 +27,10 @@
   "serverOptions/contentLogging/title": "Registrar Prompts e Respostas",
   "serverOptions/contentLogging/subtitle": "Configurações de registro para requisições/respostas locais",
   "serverOptions/contentLogging/hint": "Define se os prompts e/ou respostas devem ser registrados no arquivo de registro do servidor local.",
+  "serverOptions/redactContent/title": "Redigir Conteúdo",
+  "serverOptions/redactContent/hint": "Quando ativado, evita o registro de dados sensíveis, como o conteúdo das requisições e respostas.",
+  "serverOptions/logIncomingTokens/title": "Registrar Tokens Gerados",
+  "serverOptions/logIncomingTokens/hint": "Define se cada token deve ser registrado conforme é gerado.",
   "serverOptions/fileLoggingMode/title": "Modo de Registro em Arquivo",
   "serverOptions/fileLoggingMode/off/title": "DESLIGADO",
   "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de registro",
@@ -54,6 +58,12 @@
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todos os tempos de execução",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por padrão, o LM Studio mostra apenas a versão mais recente de cada tempo de execução compatível. Habilite para ver todos.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Selecione um Tempo de Execução",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Selecione um framework para usar em cada funcionalidade",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Analisador Integrado",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Analisador de Documentos",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecione um analisador de documentos",
 
   "runtimeOptions/uninstall": "Desinstalar",
   "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
