@@ -1,0 +1,304 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Cóipeáil Nasc Íoslódála an tSamhail",
+
+  "filter.noMatches": "Gan aon mheaitseálacha",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Acmhainní a Bhaint Amach"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Ag Seiceáil Comhoiriúnachtaí Ama Rith"
+    },
+    "indexingRuntimes": {
+      "badge": "Innéacsú Amanna Rith"
+    },
+    "indexingModels": {
+      "badge": "Samhlacha Innéacsaithe"
+    },
+    "authenticating": {
+      "badge": "Ag fíordheimhniú"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Ag Nuashonrú Pacáiste Síneadh ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Logáil isteach i LM Studio Hub",
+    "authError": "Theip ar fhíordheimhniú",
+    "noAccount": "Nach bhfuil cuntas agat?",
+    "signUp": "Cláraigh",
+    "havingTrouble": "An bhfuil deacracht agat?",
+    "retry": "Bain triail eile as"
+  },
+  "artifacts": {
+    "fetchError": "Theip ar na déantáin a fháil",
+    "organizationVisible": "Eagraíocht Infheicthe"
+  },
+
+  "incompatible": "Neamh-chomhoiriúnach",
+  "compatible": "Comhoiriúnach",
+  "public": "Poiblí",
+  "private": "Príobháideach",
+  "yes": "Tá",
+  "no": "Níl",
+  "go": "Téigh",
+
+  "proceedWithEllipsis": "Lean ar aghaidh...",
+  "proceed": "Lean ar aghaidh",
+  "inProgress": "Ar siúl...",
+  "failed": "Theip air",
+  "pending": "Ar feitheamh",
+  "doneWithExclamation": "Déanta!",
+  "done": "Déanta",
+
+  "complete": {
+    "completeWithEllipsis": "Críochnaithe...",
+    "complete": "Críochnaithe",
+    "completingWithEllipsis": "Ag críochnú...",
+    "completing": "Ag críochnú",
+    "completedWithExclamation": "Críochnaithe!",
+    "completed": "Críochnaithe"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "Cealaigh...",
+    "cancel": "Cealaigh",
+    "cancelingWithEllipsis": "Ag cealú...",
+    "canceling": "Ag cealú",
+    "canceled": "Cealaithe"
+  },
+
+  "next": {
+    "nextWithEllipsis": "Ar Aghaidh...",
+    "next": "Ar Aghaidh"
+  },
+
+  "back": {
+    "backWithEllipsis": "Ar ais...",
+    "back": "Ar ais"
+  },
+
+  "close": {
+    "closeWithEllipsis": "Dún...",
+    "close": "Dún",
+    "closingWithEllipsis": "Ag dúnadh...",
+    "closing": "Ag dúnadh",
+    "closedWithExclamation": "Dúnta!",
+    "closed": "Dúnta"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "Scrios...",
+    "delete": "Scrios",
+    "deletingWithEllipsis": "Ag scriosadh...",
+    "deleting": "Ag scriosadh",
+    "deletedWithExclamation": "Scriosta!",
+    "deleted": "Scriosta"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "Bain triail eile as...",
+    "retry": "Bain triail eile as",
+    "retryingWithEllipsis": "Ag triail arís...",
+    "retrying": "Ag triail arís"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "Athnuaigh...",
+    "refresh": "Athnuaigh",
+    "refreshingWithEllipsis": "Ag athnuachan...",
+    "refreshing": "Ag athnuachan",
+    "refreshedWithExclamation": "Athnuaite!",
+    "refreshed": "Athnuaite"
+  },
+
+  "confirm": {
+    "confirm": "Deimhnigh",
+    "confirmingWithEllipsis": "Ag deimhniú...",
+    "confirming": "Ag deimhniú",
+    "confirmedWithExclamation": "Deimhnithe!",
+    "confirmed": "Deimhnithe"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "Cóipeáil...",
+    "copy": "Cóipeáil",
+    "copyingWithEllipsis": "Ag cóipeáil...",
+    "copying": "Ag cóipeáil",
+    "copiedWithExclamation": "Cóipeáilte!",
+    "copied": "Cóipeáilte"
+  },
+
+  "edit": {
+    "editWithEllipsis": "Cuir in Eagar...",
+    "edit": "Cuir in Eagar",
+    "editingWithEllipsis": "Ag eagarthóireacht...",
+    "editing": "Ag eagarthóireacht",
+    "editedWithExclamation": "Curtha in eagar!",
+    "edited": "Curtha in eagar"
+  },
+
+  "load": {
+    "loadWithEllipsis": "Luchtaigh...",
+    "load": "Luchtaigh",
+    "loadingWithEllipsis": "Ag luchtú...",
+    "loading": "Ag luchtú",
+    "loadedWithExclamation": "Luchtaithe!",
+    "loaded": "Luchtaithe"
+  },
+
+  "save": {
+    "saveWithEllipsis": "Sábháil...",
+    "save": "Sábháil",
+    "savingWithEllipsis": "Ag sábháil...",
+    "saving": "Ag sábháil",
+    "savedWithExclamation": "Sábháilte!",
+    "saved": "Sábháilte"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "Sábháil Mar...",
+    "saveAs": "Sábháil Mar"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Sábháil Mar Nua...",
+    "saveAsNew": "Sábháil Mar Nua"
+  },
+
+  "search": {
+    "searchWithEllipsis": "Cuardaigh...",
+    "search": "Cuardaigh",
+    "searchingWithEllipsis": "Ag cuardach...",
+    "searching": "Ag cuardach"
+  },
+
+  "update": {
+    "updateWithEllipsis": "Nuashonrú...",
+    "update": "Nuashonrú",
+    "updatingWithEllipsis": "Updating...",
+    "updating": "Ag nuashonrú",
+    "updatedWithExclamation": "Nuashonraithe!",
+    "updated": "Nuashonraithe"
+  },
+
+  "create": {
+    "createWithEllipsis": "Cruthaigh...",
+    "create": "Cruthaigh",
+    "creatingWithEllipsis": "Ag cruthú",
+    "creating": "Ag cruthú",
+    "createdWithExclamation": "Cruthaithe!",
+    "created": "Cruthaithe"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "Athshocraigh...",
+    "reset": "Athshocraigh",
+    "resettingWithEllipsis": "Ag athshocrú...",
+    "resetting": "Ag athshocrú"
+  },
+
+  "pause": {
+    "pause": "Sos",
+    "pausingWithEllipsis": "Ag sos...",
+    "pausing": "Ag sos",
+    "paused": "Sosaithe"
+  },
+
+  "download": {
+    "download": "Íoslódáil",
+    "downloadingWithEllipsis": "Ag íoslódáil...",
+    "downloading": "Ag íoslódáil",
+    "downloadedWithExclamation": "Íoslódáilte!",
+    "downloaded": "Íoslódáilte"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "Uaslódáil...",
+    "upload": "Uaslódáil",
+    "uploadingWithEllipsis": "Ag uaslódáil...",
+    "uploading": "Ag uaslódáil",
+    "uploadedWithExclamation": "Uaslódáilte!",
+    "uploaded": "Uaslódáilte"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "Bain...",
+    "remove": "Bain",
+    "removingWithEllipsis": "Ag baint...",
+    "removing": "Ag baint",
+    "removedWithExclamation": "Bainte!",
+    "removed": "Bainte"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "Díshuiteáil...",
+    "uninstall": "Díshuiteáil",
+    "uninstallingWithEllipsis": "Ag Díshuiteáil...",
+    "uninstalling": "Ag Díshuiteáil",
+    "uninstalledWithExclamation": "Díshuiteáilte!",
+    "uninstalled": "Díshuiteáilte"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "Atosú...",
+    "resume": "Atosú",
+    "resumingWithEllipsis": "Ag atosú...",
+    "resuming": "Ag atosú"
+  },
+
+  "start": {
+    "startWithEllipsis": "Tosaigh...",
+    "start": "Tosaigh",
+    "startingWithEllipsis": "Ag tosú...",
+    "starting": "Ag tosú",
+    "started": "Thosaigh"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "Stad...",
+    "stop": "Stad",
+    "stoppingWithEllipsis": "Ag stopadh...",
+    "stopping": "Ag stopadh",
+    "stoppedWithExclamation": "Stoptha!",
+    "stopped": "Stoptha"
+  },
+
+  "import": {
+    "importWithEllipsis": "Iompórtáil...",
+    "import": "Iompórtáil",
+    "importingWithEllipsis": "Ag allmhairiú...",
+    "importing": "Ag allmhairiú",
+    "importedWithExclamation": "Imported!",
+    "imported": "Iompórtáilte"
+  },
+
+  "letsGo": {
+    "letsGo": "Rachaimid",
+    "letsGoWithEllipsis": "Rachaimid...",
+    "letsGoWithExclamation": "Rachaimid!"
+  },
+
+  "run": {
+    "runWithEllipsis": "Rith...",
+    "run": "Rith",
+    "runningWithEllipsis": "Ag rith...",
+    "running": "Ag rith"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "Cumraigh...",
+    "configure": "Cumraigh",
+    "configuringWithEllipsis": "Cumraithe...",
+    "configured": "Cumraithe"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Foilsigh...",
+    "publish": "Foilsigh",
+    "publishingWithEllipsis": "Foilsitheoireacht...",
+    "publishing": "Foilsitheoireacht",
+    "publishedWithExclamation": "Foilsithe!",
+    "published": "Foilsithe"
+  }
+}

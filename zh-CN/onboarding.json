@@ -5,7 +5,7 @@
   "action.finish": "完成",
   
   "dismissable_rag_modal": {
-    "description": "现在您可以使用检索增强生成 (RAG) 与自己的文档进行聊天。以下是其工作原理：",
+    "description": "现在您可以使用检索增强生成 (RAG) 以使用自己的文档与模型进行聊天。以下是其工作原理：",
     "instructions": {
       "attach_files": {
         "title": "上传文件",
@@ -20,5 +20,23 @@
         "description": "大语言模型将查看您的查询和从文档中检索到的摘录，并尝试生成回应。通过尝试不同的查询来找到最佳方法。"
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta：工具使用 🛠️（函数调用）",
+      "text_0": "某些模型（例如 Llama 3.1/3.2、Mistral、Qwen 等）经过工具使用的训练。",
+      "text_1": "实际操作的含义是：您以特定格式向大语言模型提供一组「工具」（函数签名），模型会根据用户的提示决定是否调用这些工具。",
+      "text_2": "您可以想象一些应用场景，例如调用 API、运行代码，或任何可通过函数调用表达的操作。"
+    },
+    "step_1": {
+      "title": "开始使用工具功能",
+      "toolUseCanWorkWithAnyModel": "经过工具使用训练的模型表现会更优，但您也可以尝试在任意模型上使用工具。阅读<customlink>文档</customlink>了解详情。\n经过工具使用训练的模型会带有新标识：",
+      "hasCompatibleModel": "🎉 看来您已有支持工具使用的模型！",
+      "downloadRecommendedModel": "下载经过工具使用训练的模型："
+    },
+    "nextButton": "下一步",
+    "letsGoButton": "加载模型并启动服务器",
+    "doneButton": "忽略"
   }
 }

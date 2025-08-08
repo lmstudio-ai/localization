@@ -155,6 +155,9 @@
     }
   },
 
+  "chatTabOptions/clearAllMessages": "Clear all messages...",
+  "chatTabOptions/duplicateChat": "Duplicate chat",
+
   "topBarActions/duplicateChat": "Duplicate",
   "topBarActions/clearChat": "Clear All",
   "topBarActions/clearChatConfirmation": "Are you sure you want to clear all messages in this chat?",
@@ -188,7 +191,8 @@
         "placeholder": "Plugins you create will appear here"
       },
       "startRunningDevelopmentPlugin/error": "Failed to start running plugin in development mode",
-      "stopRunningDevelopmentPlugin/error": "Failed to stop running plugin in development mode"
+      "stopRunningDevelopmentPlugin/error": "Failed to stop running plugin in development mode",
+      "forceReInitPlugin/error": "Failed to restart the plugin"
     },
     "pluginConfiguration": {
       "title": "Plugin Configuration",

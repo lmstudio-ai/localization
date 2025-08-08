@@ -1,0 +1,304 @@
+{
+  "copyLmStudioLinkButton/toolTip": "मॉडेल डाउनलोड लिंक कॉपी करा",
+
+  "filter.noMatches": "जुळणी आढळली नाही",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "संसाधने बाहेर काढत आहे"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "रनटाइम संगतता तपासत आहे"
+    },
+    "indexingRuntimes": {
+      "badge": "रनटाइम अनुक्रमित करत आहे"
+    },
+    "indexingModels": {
+      "badge": "मॉडेल्स अनुक्रमित करत आहे"
+    },
+    "authenticating": {
+      "badge": "प्रमाणीकरण करत आहे"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "एक्स्टेंशन पॅक अपडेट करत आहे ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "LM स्टुडिओ हब मध्ये लॉग इन करा",
+    "authError": "प्रमाणीकरण अयशस्वी",
+    "noAccount": "खाते नाही?",
+    "signUp": "साइन अप करा",
+    "havingTrouble": "समस्या येत आहे?",
+    "retry": "पुन्हा प्रयत्न करा"
+  },
+  "artifacts": {
+    "fetchError": "आर्टिफॅक्ट्स आणण्यात अयशस्वी",
+    "organizationVisible": "संस्थेसाठी दृश्यमान"
+  },
+
+  "incompatible": "असंगत",
+  "compatible": "संगत",
+  "public": "सार्वजनिक",
+  "private": "खाजगी",
+  "yes": "होय",
+  "no": "नाही",
+  "go": "जा",
+
+  "proceedWithEllipsis": "पुढे जा...",
+  "proceed": "पुढे जा",
+  "inProgress": "प्रगतीपथावर...",
+  "failed": "अयशस्वी",
+  "pending": "प्रलंबित",
+  "doneWithExclamation": "पूर्ण झाले!",
+  "done": "पूर्ण",
+
+  "complete": {
+    "completeWithEllipsis": "पूर्ण करा...",
+    "complete": "पूर्ण करा",
+    "completingWithEllipsis": "पूर्ण करत आहे...",
+    "completing": "पूर्ण करत आहे",
+    "completedWithExclamation": "पूर्ण झाले!",
+    "completed": "पूर्ण झाले"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "रद्द करा...",
+    "cancel": "रद्द करा",
+    "cancelingWithEllipsis": "रद्द करत आहे...",
+    "canceling": "रद्द करत आहे",
+    "canceled": "रद्द केले"
+  },
+
+  "next": {
+    "nextWithEllipsis": "पुढील...",
+    "next": "पुढील"
+  },
+
+  "back": {
+    "backWithEllipsis": "मागे...",
+    "back": "मागे"
+  },
+
+  "close": {
+    "closeWithEllipsis": "बंद करा...",
+    "close": "बंद करा",
+    "closingWithEllipsis": "बंद करत आहे...",
+    "closing": "बंद करत आहे",
+    "closedWithExclamation": "बंद केले!",
+    "closed": "बंद केले"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "हटवा...",
+    "delete": "हटवा",
+    "deletingWithEllipsis": "हटवत आहे...",
+    "deleting": "हटवत आहे",
+    "deletedWithExclamation": "हटवले!",
+    "deleted": "हटवले"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "पुन्हा प्रयत्न करा...",
+    "retry": "पुन्हा प्रयत्न करा",
+    "retryingWithEllipsis": "पुन्हा प्रयत्न करत आहे...",
+    "retrying": "पुन्हा प्रयत्न करत आहे"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "रिफ्रेश करा...",
+    "refresh": "रिफ्रेश करा",
+    "refreshingWithEllipsis": "रिफ्रेश करत आहे...",
+    "refreshing": "रिफ्रेश करत आहे",
+    "refreshedWithExclamation": "रिफ्रेश केले!",
+    "refreshed": "रिफ्रेश केले"
+  },
+
+  "confirm": {
+    "confirm": "पुष्टी करा",
+    "confirmingWithEllipsis": "पुष्टी करत आहे...",
+    "confirming": "पुष्टी करत आहे",
+    "confirmedWithExclamation": "पुष्टी केली!",
+    "confirmed": "पुष्टी केली"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "कॉपी करा...",
+    "copy": "कॉपी करा",
+    "copyingWithEllipsis": "कॉपी करत आहे...",
+    "copying": "कॉपी करत आहे",
+    "copiedWithExclamation": "कॉपी केले!",
+    "copied": "कॉपी केले"
+  },
+
+  "edit": {
+    "editWithEllipsis": "संपादित करा...",
+    "edit": "संपादित करा",
+    "editingWithEllipsis": "संपादित करत आहे...",
+    "editing": "संपादित करत आहे",
+    "editedWithExclamation": "संपादित केले!",
+    "edited": "संपादित केले"
+  },
+
+  "load": {
+    "loadWithEllipsis": "लोड करा...",
+    "load": "लोड करा",
+    "loadingWithEllipsis": "लोड करत आहे...",
+    "loading": "लोड करत आहे",
+    "loadedWithExclamation": "लोड केले!",
+    "loaded": "लोड केले"
+  },
+
+  "save": {
+    "saveWithEllipsis": "सेव्ह करा...",
+    "save": "सेव्ह करा",
+    "savingWithEllipsis": "सेव्ह करत आहे...",
+    "saving": "सेव्ह करत आहे",
+    "savedWithExclamation": "सेव्ह केले!",
+    "saved": "सेव्ह केले"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "असे सेव्ह करा...",
+    "saveAs": "असे सेव्ह करा"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "नवीन म्हणून सेव्ह करा...",
+    "saveAsNew": "नवीन म्हणून सेव्ह करा"
+  },
+
+  "search": {
+    "searchWithEllipsis": "शोधा...",
+    "search": "शोधा",
+    "searchingWithEllipsis": "शोधत आहे...",
+    "searching": "शोधत आहे"
+  },
+
+  "update": {
+    "updateWithEllipsis": "अपडेट करा...",
+    "update": "अपडेट करा",
+    "updatingWithEllipsis": "अपडेट करत आहे...",
+    "updating": "अपडेट करत आहे",
+    "updatedWithExclamation": "अपडेट केले!",
+    "updated": "अपडेट केले"
+  },
+
+  "create": {
+    "createWithEllipsis": "तयार करा...",
+    "create": "तयार करा",
+    "creatingWithEllipsis": "तयार करत आहे",
+    "creating": "तयार करत आहे",
+    "createdWithExclamation": "तयार केले!",
+    "created": "तयार केले"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "रीसेट करा...",
+    "reset": "रीसेट करा",
+    "resettingWithEllipsis": "रीसेट करत आहे...",
+    "resetting": "रीसेट करत आहे"
+  },
+
+  "pause": {
+    "pause": "थांबवा",
+    "pausingWithEllipsis": "थांबवत आहे...",
+    "pausing": "थांबवत आहे",
+    "paused": "थांबवले"
+  },
+
+  "download": {
+    "download": "डाउनलोड करा",
+    "downloadingWithEllipsis": "डाउनलोड करत आहे...",
+    "downloading": "डाउनलोड करत आहे",
+    "downloadedWithExclamation": "डाउनलोड केले!",
+    "downloaded": "डाउनलोड केले"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "अपलोड करा...",
+    "upload": "अपलोड करा",
+    "uploadingWithEllipsis": "अपलोड करत आहे...",
+    "uploading": "अपलोड करत आहे",
+    "uploadedWithExclamation": "अपलोड केले!",
+    "uploaded": "अपलोड केले"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "काढून टाका...",
+    "remove": "काढून टाका",
+    "removingWithEllipsis": "काढून टाकत आहे...",
+    "removing": "काढून टाकत आहे",
+    "removedWithExclamation": "काढून टाकले!",
+    "removed": "काढून टाकले"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "अनइन्स्टॉल करा...",
+    "uninstall": "अनइन्स्टॉल करा",
+    "uninstallingWithEllipsis": "अनइन्स्टॉल करत आहे...",
+    "uninstalling": "अनइन्स्टॉल करत आहे",
+    "uninstalledWithExclamation": "अनइन्स्टॉल केले!",
+    "uninstalled": "अनइन्स्टॉल केले"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "पुन्हा सुरू करा...",
+    "resume": "पुन्हा सुरू करा",
+    "resumingWithEllipsis": "पुन्हा सुरू करत आहे...",
+    "resuming": "पुन्हा सुरू करत आहे"
+  },
+
+  "start": {
+    "startWithEllipsis": "सुरू करा...",
+    "start": "सुरू करा",
+    "startingWithEllipsis": "सुरू करत आहे...",
+    "starting": "सुरू करत आहे",
+    "started": "सुरू केले"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "थांबवा...",
+    "stop": "थांबवा",
+    "stoppingWithEllipsis": "थांबवत आहे...",
+    "stopping": "थांबवत आहे",
+    "stoppedWithExclamation": "थांबवले!",
+    "stopped": "थांबवले"
+  },
+
+  "import": {
+    "importWithEllipsis": "आयात करा...",
+    "import": "आयात करा",
+    "importingWithEllipsis": "आयात करत आहे...",
+    "importing": "आयात करत आहे",
+    "importedWithExclamation": "आयात केले!",
+    "imported": "आयात केले"
+  },
+
+  "letsGo": {
+    "letsGo": "चला जाऊया",
+    "letsGoWithEllipsis": "चला जाऊया...",
+    "letsGoWithExclamation": "चला जाऊया!"
+  },
+
+  "run": {
+    "runWithEllipsis": "चालवा...",
+    "run": "चालवा",
+    "runningWithEllipsis": "चालत आहे...",
+    "running": "चालत आहे"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "कॉन्फिगर करा...",
+    "configure": "कॉन्फिगर करा",
+    "configuringWithEllipsis": "कॉन्फिगर करत आहे...",
+    "configured": "कॉन्फिगर केले"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "प्रकाशित करा...",
+    "publish": "प्रकाशित करा",
+    "publishingWithEllipsis": "प्रकाशित करत आहे...",
+    "publishing": "प्रकाशित करत आहे",
+    "publishedWithExclamation": "प्रकाशित केले!",
+    "published": "प्रकाशित केले"
+  }
+}

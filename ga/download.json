@@ -1,0 +1,43 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Ag baint comhad...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Ag baint comhad...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Ag baint comhad...",
+  "postDownloadActionExecutor.modifyModelData/status": "Sonraí samhail á nuashonrú…",
+  "postDownloadActionExecutor.notification/status": "Úsáideoir á chur ar an eolas...",
+  "postDownloadActionExecutor.writeString/status": "Meiteashonraí á scríobh...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Ag nuashonrú an leagan roghnaithe...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Ag scriosadh síntí neamhúsáidte...",
+  "postDownloadActionExecutor.pluginInstall/status": "Ag suiteáil breiseán...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Ag díshuiteáil an breiseán...",
+
+  "finalizing": "Ag críochnú an íoslódáil... (d’fhéadfadh sé seo cúpla nóiméad a thógáil)",
+  "noOptions": "Níl aon roghanna comhoiriúnacha ar fáil le híoslódáil",
+
+  "deeplink/confirmation/title": "Íosluchtaigh samhail ó Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Roghnaigh molta",
+  "deeplink/confirmation/selectOption": "Roghnaigh rogha íoslódála",
+  "deeplink/confirmation/recommendedOption": "Is dócha gurb é an rogha is fearr é do fhormhór na n-úsáideoirí",
+  "deeplink/confirmation/downloadButton": "Íoslódáil",
+  "deeplink/confirmation/nevermindButton": "is cuma",
+  "deeplink/confirmation/modelPresent/title": "Samhail Aghaidhe Barrógach aimsithe ✅",
+  "deeplink/confirmation/modelPresent/body": "Dea-scéal! Tá an comhad samhail seo ar fáil cheana féin ar do mheaisín áitiúil.",
+  "deeplink/confirmation/loadInChat": "Luchtaigh {{modelName}} i gcomhrá nua",
+  "deeplink/error/modelNotFound/title": "Ruh roh, ní rabhamar in ann an samhail seo a aimsiú",
+  "deeplink/error/modelNotFound/body": "Seiceáil ainm an samhail faoi dhó agus smaoinigh ar rogha íoslódála eile a thriail.",
+  "deeplink/actions/trySearching": "Bain triail as cuardach a dhéanamh ar {{modelName}} ar Hugging Face",
+  
+  "downloadsPanel/title": "Íoslódálacha",
+  "downloadsPanel/sectionTitle/ongoing": "Ar siúl",
+  "downloadsPanel/sectionTitle/completed": "Críochnaithe",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Reveal in Finder",
+      "mac/error": "Theip ar nochtadh in Aimsitheoir",
+      "nonMac": "Nocht i Taiscéalaí Comhad",
+      "nonMac/error": "Theip ar nochtadh i Taiscéalaí Comhad"
+    },
+    "completed": "Íoslódáil Críochnaithe",
+    "loadModel": "Luchtaigh an Múnla"
+  }
+}

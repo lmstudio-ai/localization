@@ -1,6 +1,8 @@
 {
   "settingsDialogTitle": "应用设置",
   "settingsDialogButtonTooltip": "应用设置",
+  "accountDialogButtonTooltip": "账户",
+
   "settingsNewButtonPopover": {
     "primary": "应用设置现已移至右下角",
     "secondary": "点击⚙️按钮来打开",
@@ -10,8 +12,8 @@
   "checkingAppUpdate": "正在检查更新...",
   "checkForUpdates": "检查更新",
   "failedCheckingAppUpdate": "检查更新失败",
-  "newUpdateAvailable": "LM Studio 新版本可用！🎉",
-  "newBetaUpdateAvailable": "LM Studio 新测试版可用！🛠️🎉",
+  "newUpdateAvailable": "LM Studio 有新版本可用！🎉",
+  "newBetaUpdateAvailable": "LM Studio 有新测试版可用！🛠️🎉",
   "downloadingInProgress": "正在下载更新...",
   "downloadUpdate": "更新至 LM Studio {{version}}",
   "downloadBetaUpdate": "更新至 LM Studio 测试版 {{version}} (版本号 {{build}})",
@@ -56,6 +58,7 @@
   "chat/alwaysShowPromptTemplate": "始终在聊天侧栏显示提示模板",
   "chat/highlightChatMessageOnHover": "鼠标悬停时高亮显示聊天消息",
   "chat/doubleClickMessageToEdit": "双击聊天消息以编辑",
+
   "chat/aiNaming/label": "AI命名聊天",
   "chat/aiNaming/mode/label": "AI生成的聊天名称",
   "chat/aiNaming/mode/value/never": "关闭",
@@ -69,11 +72,13 @@
   "chat/keyboardShortcuts/verbPrefix": "使用",
   "chat/keyboardShortcuts/regenerate": "重新生成聊天中的最后一条消息",
   "chat/keyboardShortcuts/sendMessage": "发送消息",
+
   "onboarding/blockTitle": "新手引导",
   "onboarding/dismissedHints": "已关闭的新手引导",
   "onboarding/resetHintTooltip": "点击以重新启用新手引导",
   "onboarding/resetAllHints": "重置所有新手引导",
   "onboarding/noneDismissed": "没有已关闭的提示，目前所有提示项都会显示，直至下次关闭",
+
   "firstTimeExperienceLabel": "首次聊天体验",
   "firstTimeExperienceMarkCompletedLabel": "标记为已完成",
   "firstTimeExperienceResetLabel": "重置",
@@ -93,20 +98,24 @@
   "autoLoadBundledLLMLabel": "启动时自动加载捆绑的大语言模型",
   "showReleaseNotes": "显示发行说明",
   "hideReleaseNotes": "隐藏发行说明",
+
   "backendDownloadNewUpdate": "有新的后端可用！",
   "backendDownloadNewUpdateAction": "前往开发者页面",
+
   "backendDownloadChannel.label": "LM Studio 扩展包下载频道",
   "backendDownloadChannel.value.stable": "稳定版",
   "backendDownloadChannel.value.beta": "测试版",
   "backendDownloadChannel.value.latest": "开发版",
   "backendDownloadChannel.shortLabel": "运行环境下载频道",
   "backendDownloadChannel.hint": "选择从哪个频道下载 LM Studio 扩展包。\"{{stableName}}\" 是推荐给大多数用户的通道。",
+
   "appUpdateChannel.label": "LM Studio 更新频道",
   "appUpdateChannel.value.stable": "稳定版",
   "appUpdateChannel.value.beta": "beta测试版",
   "appUpdateChannel.value.alpha": "alpha测试版",
   "appUpdateChannel.shortLabel": "应用更新频道",
   "appUpdateChannel.hint": "选择从哪个频道接收 LM Studio 应用更新。\"{{stableName}}\" 是推荐给大多数用户的通道。",
+
   "modelLoadingGuardrails.label": "模型加载保护",
   "modelLoadingGuardrails.description": "超出系统资源限制加载模型可能导致系统不稳定或卡死。保护措施可以防止意外过载。如果需要，可以在这里调整这些限制。但请注意，接近系统极限加载模型可能会降低稳定性。",
   "modelLoadingGuardrails.value.off": "关闭（不推荐）",
@@ -127,22 +136,27 @@
   "modelLoadingGuardrails.custom.label": "内存限制：",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "为模型加载设置自定义内存限制。如果加载的模型会超过此限制，则不会加载模型。",
+
   "experimentalLoadPresets": "在预设中启用模型加载配置支持",
   "experimentalLoadPresets.description": "是否允许预设包含模型加载配置。此功能尚处于试验阶段，我们欢迎反馈。",
+
   "unloadPreviousJITModelOnLoad": "模型自动卸载：始终仅允许一个JIT模型加载（加载新模型时卸载上一个）",
-  "autoUpdateExtensionPacks": "自动更新选中运行时扩展包",
+  "autoDeleteExtensionPacks": "自动删除最近最少使用的运行环境扩展包",
+  "autoUpdateExtensionPacks": "自动更新选中运行环境扩展包",
   "useHFProxy.label": "使用 LM Studio 的 Hugging Face 代理",
   "useHFProxy.hint": "使用 LM Studio 提供的 Hugging Face 代理进行模型搜索和下载。适用于无法直接访问 Hugging Face 的用户。",
   "separateReasoningContentInResponses": "在API响应中区分 `reasoning_content` 和 `content`（如适用）",
   "separateReasoningContentInResponses/hint": "该设置仅适用于像 DeepSeek R1 及其蒸馏模型等输出带有 <think> 和 </think> 标记的推理模型。",
+
   "promptWhenCommittingUnsavedChangesWithNewFields": "提交新字段到预设时显示确认对话框",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "如果您想避免意外向预设添加新字段，这将非常有用",
-  "autoStartOnLogin": "登录时自动启动LLM服务",
-  "autoStartOnLogin.description": "当您登录计算机时自动启动LLM服务",
+
   "enableLocalService": "启用本地 LLM 服务",
   "enableLocalService.subtitle": "使用 LM Studio 的 LLM 服务器，而无需保持 LM Studio 应用程序打开",
   "enableLocalService.description": "启用时，LM Studio 本地 LLM 服务将自动启动。关闭 LM Studio 时，本地 LLM 服务也将在系统托盘中继续运行。",
+
   "expandConfigsOnClick": "点击而非悬停时展开配置",
+
   "migrateChats": {
     "label": "迁移 0.3.0 之前的聊天记录",
     "hasBetterLabel": "重新迁移 0.3.0 之前的聊天记录",
@@ -167,5 +181,15 @@
     "hasBetterFooterCardText": "自从您上次迁移旧聊天记录以来，我们已经改进了聊天记录迁移器。您可以重新运行迁移。（我们将创建一个包含新迁移聊天记录的新文件夹。）",
     "dismissConfirm": "关闭",
     "dismissConfirmDescription": "您随时可以在设置中处理聊天记录迁移"
+  },
+  "toolConfirmation": {
+    "label": "工具调用确认",
+    "neverAsk": {
+      "label": "运行工具前不再询问确认（不建议）",
+      "hint": "禁用运行工具前的确认提示。不建议此操作。",
+      "warnTitle": "确定吗？",
+      "warnDescription": "禁用工具调用确认非常危险。如果您的插件中包含可能执行破坏性操作的工具（例如运行命令、删除文件、覆盖文件、上传文件等），模型将无需确认即可执行这些操作。您可以通过逐个工具或逐个插件的方式禁用确认提示。强烈不建议启用此选项。请谨慎操作。",
+      "warnButton": "我了解风险"
+    }
   }
 }
