@@ -62,11 +62,11 @@
   "chat/aiNaming/label": "聊天 AI 命名",
   "chat/aiNaming/mode/label": "AI 生成的聊天名稱",
   "chat/aiNaming/mode/value/never": "從不",
-  "chat/aiNaming/mode/value/never/subTitle": "不要創建 AI 生成的聊天名稱",
+  "chat/aiNaming/mode/value/never/subTitle": "不要建立 AI 生成的聊天名稱",
   "chat/aiNaming/mode/value/auto": "自動",
-  "chat/aiNaming/mode/value/auto/subTitle": "根據生成速度決定是否創建名稱",
+  "chat/aiNaming/mode/value/auto/subTitle": "根據生成速度決定是否建立名稱",
   "chat/aiNaming/mode/value/always": "總是",
-  "chat/aiNaming/mode/value/always/subTitle": "無論生成速度如何，都創建 AI 生成的聊天名稱",
+  "chat/aiNaming/mode/value/always/subTitle": "無論生成速度如何，都建立 AI 生成的聊天名稱",
   "chat/aiNaming/emoji": "在 AI 生成的聊天名稱中使用表情符號",
   "chat/keyboardShortcuts/label": "鍵盤快捷鍵",
   "chat/keyboardShortcuts/verbPrefix": "使用",
@@ -107,14 +107,14 @@
   "backendDownloadChannel.value.beta": "測試版",
   "backendDownloadChannel.value.latest": "開發版",
   "backendDownloadChannel.shortLabel": "執行階段下載通道",
-  "backendDownloadChannel.hint": "選擇從哪個通道下載 LM Studio 擴充套件。 \"{{stableName}}\" 是大多數使用者的推薦通道。",
+  "backendDownloadChannel.hint": "選擇從哪個通道下載 LM Studio 擴充套件。 \"{{stableName}}\" 是大多數使用者的建議通道。",
 
   "appUpdateChannel.label": "更新通道",
   "appUpdateChannel.value.stable": "穩定版",
   "appUpdateChannel.value.beta": "測試版",
   "appUpdateChannel.value.alpha": "Alpha 版",
   "appUpdateChannel.shortLabel": "應用程式更新通道",
-  "appUpdateChannel.hint": "選擇從哪個通道接收 LM Studio 應用程式更新。 \"{{stableName}}\" 是大多數使用者的推薦通道。",
+  "appUpdateChannel.hint": "選擇從哪個通道接收 LM Studio 應用程式更新。 \"{{stableName}}\" 是大多數使用者的建議通道。",
 
   "modelLoadingGuardrails.label": "模型載入安全措施",
   "modelLoadingGuardrails.description": "載入超出系統資源限制的模型可能導致系統不穩定或凍結。 安全措施可防止意外超載。 如果需要，可以在這裡調整這些限制，但請注意，載入接近系統極限的模型可能會降低穩定性。",
@@ -137,7 +137,7 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "設定模型載入的自訂記憶體限制。 如果載入模型會超過此限制，則不會載入。",
 
-  "experimentalLoadPresets": "啟用預設配置中模型載入支持",
+  "experimentalLoadPresets": "啟用預設配置中模型載入支援",
   "experimentalLoadPresets.description": "是否允許預設包含模型載入配置。 此功能是實驗性的，我們歡迎您的回饋。",
 
   "unloadPreviousJITModelOnLoad": "JIT 模型自動卸載：確保每次最多只有 1 個模型透過 JIT 載入（卸載先前的模型）",
@@ -149,7 +149,7 @@
   "separateReasoningContentInResponses/hint": "此設定只適用於「推理（reasoning）」模型，例如 DeepSeek R1、其蒸餾版本，及其他會在 `<think>` 與 `</think>` 標籤中產生鏈式推理（CoT，Chain of Thought）的模型。",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "預設：在將新欄位提交到預設時顯示確認對話框",
-  "promptWhenCommittingUnsavedChangesWithNewFields.description": "如果您想防止意外地將新欄位添加到預設中，這很有用。",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "如果您想防止意外地將新欄位新增到預設中，這很有用。",
 
   "enableLocalService": "啟用本機 LLM 服務",
   "enableLocalService.subtitle": "無需保持 LM Studio 應用程式開啟即可使用 LM Studio 的 LLM 伺服器",
@@ -164,7 +164,7 @@
     "action_other": "遷移 {{count}} 個聊天",
     "inProgress": "正在遷移聊天...",
     "hint": {
-      "primary": "我們重新設計了 v0.3.0+ 對話的內部數據結構，以支持多版本聊天訊息。為了讓舊的對話出現在應用程式中，需要將它們遷移到新的格式。",
+      "primary": "我們重新設計了 v0.3.0+ 對話的內部數據結構，以支援多版本聊天訊息。為了讓舊的對話出現在應用程式中，需要將它們遷移到新的格式。",
       "details": "遷移過程不會刪除您的舊聊天，而是會以新格式複製它們。",
       "footer": "您仍然可以透過 LM Studio 的較早版本存取您的舊聊天。目前，圖片不會自動遷移。"
     },
@@ -193,3 +193,4 @@
     }
   }
 }
+
