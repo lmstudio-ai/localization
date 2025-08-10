@@ -21,11 +21,29 @@
   "loadParameters/title": "読み込みパラメータ",
   "loadParameters/description": "モデルがメモリに読み込まれる際の設定を制御します。",
   "loadParameters/reload": "変更を適用するには再読み込み",
+  "loadParameters/reload/error": "モデルの再読み込みに失敗しました",
   "discardChanges": "変更を破棄",
   "loadModelToSeeOptions": "オプションを表示するにはモデルを読み込んでください",
+  "schematicsError.title": "以下の項目にエラーがあります:",
+  "manifestSections": {
+    "structuredOutput/title": "構造化出力",
+    "speculativeDecoding/title": "投機的デコーディング",
+    "sampling/title": "サンプリング",
+    "settings/title": "設定",
+    "toolUse/title": "Tool Use",
+    "promptTemplate/title": "プロンプトテンプレート",
+    "customFields/title": "カスタム項目"
+  },
+
   "llm.prediction.systemPrompt/title": "システムプロンプト",
   "llm.prediction.systemPrompt/description": "モデルに対して背景となる指示やルール、制約、全体的な要件を提供するためのフィールドです。このフィールドは「システムプロンプト」とも呼ばれます。",
   "llm.prediction.systemPrompt/subTitle": "AIへのガイドライン",
+  "llm.prediction.systemPrompt/openEditor": "エディタ",
+  "llm.prediction.systemPrompt/closeEditor": "エディタを閉じる",
+  "llm.prediction.systemPrompt/openedEditor": "エディタで開く...",
+  "llm.prediction.systemPrompt/edit": "システムプロンプトを編集...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "インストラクションを追加...",
+  "llm.prediction.systemPrompt/addInstructions": "インストラクションを追加",
   "llm.prediction.temperature/title": "temperature",
   "llm.prediction.temperature/subTitle": "ランダム性をどれくらい加えるか。0にすると毎回同じ結果になり、高い値にすると創造性と多様性が増加します。",
   "llm.prediction.temperature/info": "llama.cpp のドキュメントによると、デフォルト値は <{{dynamicValue}}> で、ランダム性と決定論のバランスを取ります。極端な場合、temperatureが0だと常に最も可能性の高いトークンが選ばれ、毎回同じ結果になります。",
@@ -61,6 +79,9 @@
   "llm.prediction.llama.presencePenalty/title": "Presence ペナルティ",
   "llm.prediction.llama.tailFreeSampling/title": "Tail-Freeサンプリング",
   "llm.prediction.llama.locallyTypicalSampling/title": "ローカルTypicalサンプリング",
+  "llm.prediction.mlx.topKSampling/title": "Top-Kサンプリング",
+  "llm.prediction.mlx.topKSampling/subTitle": "次のトークンを最も確率の高いK個のトークンに制限します。temperatureと同様の機能を持ちます。",
+  "llm.prediction.mlx.topKSampling/info": "次のトークンを最も確率の高いK個のトークンに制限します。temperatureと同様の機能を持ちます。",
   "llm.prediction.onnx.topKSampling/title": "Top-Kサンプリング",
   "llm.prediction.onnx.topKSampling/subTitle": "次のトークンを最も確率の高いK個のトークンに制限します。temperatureと同様の機能を持ちます。",
   "llm.prediction.onnx.topKSampling/info": "ONNXのドキュメントによると、最も確率の高いボキャブラリトークンの上位K個をTop-Kフィルタリングのために保持します。デフォルトではこのフィルタはオフです。",
@@ -76,6 +97,21 @@
   "llm.prediction.structured/description": "上級者向け: モデルから特定の出力形式を強制するためにJSONスキーマを指定できます。詳細については[ドキュメント](https://lmstudio.ai/docs/advanced/structured-output)をご覧ください。",
   "llm.prediction.promptTemplate/title": "プロンプトテンプレート",
   "llm.prediction.promptTemplate/subTitle": "チャットでメッセージがモデルに送信されるフォーマットです。これを変更すると予期しない動作が発生する可能性があります。変更前に必ず確認してください。",
+
+  "llm.load.mainGpu/title": "メインGPU",
+  "llm.load.mainGpu/subTitle": "モデルの計算に優先して使用するGPU",
+  "llm.load.mainGpu/placeholder": "メインGPUを選択...",
+  "llm.load.splitStrategy/title": "分割戦略",
+  "llm.load.splitStrategy/subTitle": "複数のGPU間でモデル計算を分割する方法",
+  "llm.load.splitStrategy/placeholder": "分割戦略を選択...",
+  "llm.load.offloadKVCacheToGpu/title": "KVキャッシュをGPUメモリにオフロード",
+  "llm.load.offloadKVCacheToGpu/subTitle": "KVキャッシュをGPUメモリにオフロードします。パフォーマンスは向上しますが、より多くのGPUメモリが必要となります。",
+  "load.gpuStrictVramCap/title": "モデルのオフロードをGPU専用メモリに制限",
+  "load.gpuStrictVramCap.customSubTitleOff": "OFF: GPU専用メモリを上限まで使用した場合、モデルの重みを共有メモリへオフロードします。",
+  "load.gpuStrictVramCap.customSubTitleOn": "ON: モデルの重みはGPU専用メモリとRAMのみへオフロードされます。コンテキストは共有メモリを使用する場合があります。",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "モデルのオフロードはGPU専用メモリに制限されます。実際にオフロードされるレイヤー数は異なる場合があります。",
+  "load.allGpusDisabledWarning": "全GPUが無効です。オフロードする場合は、少なくとも1つを有効にしてください。",
+
   "llm.load.contextLength/title": "コンテキスト長",
   "llm.load.contextLength/subTitle": "1つのプロンプトでモデルが処理できるトークンの最大数。コンテキストのオーバーフローオプションは「予測パラメータ」セクションにあります。",
   "llm.load.contextLength/info": "モデルが一度に処理できるトークンの最大数を指定します。これにより、処理中に保持されるコンテキスト量が影響を受けます。",
@@ -83,6 +119,7 @@
   "llm.load.seed/title": "シード値",
   "llm.load.seed/subTitle": "テキスト生成に使用される乱数生成器のシード値。-1でランダムになります。",
   "llm.load.seed/info": "乱数シード: 乱数生成のシード値を設定して結果を再現可能にします。",
+
   "llm.load.llama.evalBatchSize/title": "評価バッチサイズ",
   "llm.load.llama.evalBatchSize/subTitle": "一度に処理する入力トークンの数。これを増やすとパフォーマンスが向上しますが、メモリ使用量も増加します。",
   "llm.load.llama.evalBatchSize/info": "評価時に一度に処理される例の数を設定し、速度とメモリ使用量に影響を与えます。",
@@ -109,6 +146,7 @@
   "llm.load.llama.tryMmap/title": "mmap()を試す",
   "llm.load.llama.tryMmap/subTitle": "モデルのロード時間を短縮します。モデルがシステムRAMを超える場合は、これを無効にするとパフォーマンスが向上することがあります。",
   "llm.load.llama.tryMmap/info": "モデルファイルをディスクからメモリに直接読み込みます。",
+
   "embedding.load.contextLength/title": "コンテキスト長",
   "embedding.load.contextLength/subTitle": "1つのプロンプトでモデルが処理できるトークンの最大数。「予測パラメータ」セクションでコンテキストのオーバーフローオプションを参照してください。",
   "embedding.load.contextLength/info": "モデルが一度に処理できるトークンの最大数を指定し、処理中に保持されるコンテキストの量に影響します。",
@@ -132,7 +170,9 @@
   "embedding.load.llama.tryMmap/info": "モデルファイルをディスクからメモリに直接読み込みます。",
   "embedding.load.seed/title": "シード値",
   "embedding.load.seed/subTitle": "テキスト生成に使用される乱数生成器のシード値。-1でランダムになります。",
+
   "embedding.load.seed/info": "ランダムシード値: 乱数生成のシード値を設定して、再現可能な結果を得られるようにします。",
+
   "presetTooltip": {
     "included/title": "適用される項目",
     "included/description": "次のフィールドが適用されます",
@@ -152,6 +192,12 @@
       "emptyParagraph": "<空>"
     },
     "checkboxNumeric": {
+      "off": "オフ"
+    },
+    "llamaCacheQuantizationType": {
+      "off": "オフ"
+    },
+    "mlxKvCacheBits": {
       "off": "オフ"
     },
     "stringArray": {
@@ -199,6 +245,10 @@
     "llamaAccelerationOffloadRatio": {
       "max": "最大",
       "off": "オフ"
+    },
+    "gpuSplitStrategy": {
+      "evenly": "均等",
+      "favorMainGpu": "メインGPUを優先"
     }
   },
   "saveConflictResolution": {
@@ -219,6 +269,14 @@
     "confirm": "確認",
     "cancel": "キャンセル"
   },
+  "empty": "<空>",
+  "noModelSelected": "モデルが選択されていません",
+  "apiIdentifier.label": "API識別子",
+  "apiIdentifier.hint": "必要な場合は、このモデルの識別子を入力してください。APIリクエストで使用されます。デフォルトの識別子を使用する場合は、空白のままにしてください。",
+  "idleTTL.label": "アイドル時の自動アンロード (TTL)",
+  "idleTTL.hint": "設定した場合、未使用で指定された時間が経過すると、モデルは自動的にアンロードされます。",
+  "idleTTL.mins": "分",
+
   "presets": {
     "title": "プリセット",
     "commitChanges": "変更を適用",
