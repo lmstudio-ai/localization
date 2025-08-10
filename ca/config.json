@@ -129,17 +129,17 @@
   "load.gpuStrictVramCap/title": "Limita la Càrrega del Model a la Memòria de la GPU",
   "load.gpuStrictVramCap.customSubTitleOff": "APAGAT: Permet que la càrrega del model es comparteixi amb la memòria RAM si la memòria de la GPU és plena",
   "load.gpuStrictVramCap.customSubTitleOn": "ENCÈS: El sistema limitarà la quantitat de càrrega a la memòria de la GPU o a la RAM. El context pot ser desat a la memòria compartida igualment",
-  //
-  "load.gpuStrictVramCap.customGpuOffloadWarning": "Model offload limited to dedicated GPU memory. Actual number of offloaded layers may differ",
-  "load.allGpusDisabledWarning": "All GPUs are currently disabled. Enable at least one to offload",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "La càrrega del model està limitada a la memòria de la GPU. El nombre real de capes carregades podria ser diferent",
+  "load.allGpusDisabledWarning": "Totes les GPUs estan desactivades. Activa'n al menys una per carregar-la",
 
-  "llm.load.contextLength/title": "Context Length",
-  "llm.load.contextLength/subTitle": "The maximum number of tokens the model can attend to in one prompt. See the Conversation Overflow options under \"Inference params\" for more ways to manage this",
-  "llm.load.contextLength/info": "Specifies the maximum number of tokens the model can consider at once, impacting how much context it retains during processing",
-  "llm.load.contextLength/warning": "Setting a high value for context length can significantly impact memory usage",
-  "llm.load.seed/title": "Seed",
-  "llm.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random",
-  "llm.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
+  "llm.load.contextLength/title": "Llargada del Context",
+  "llm.load.contextLength/subTitle": "El nombre màxim de tokens que el model pot assumir en un prompt. Revisa les opcions de Sobrecàrrega de Converses a \"Paràmetres de Predicció\" per trobar més formes de gestionar-ho",
+  "llm.load.contextLength/info": "Especifica el nombre màxim de tokens que el model pot considerar a la vegada, impactant en la quantitat de context que pot retenir durant el processat",
+  "llm.load.contextLength/warning": "Establir un valor alt per la llargada del context pot impactar significativament en l'ús de memòria",
+  "llm.load.seed/title": "Llavor",
+  "llm.load.seed/subTitle": "La llavor que utilitza el generador de nombres aleatoris a la generació de text. -1 és aleatori",
+  "llm.load.seed/info": "Llavor aleatòria: Estableix la llavor pel generador de nombres aleatoris per assegurar resultats reproduïbles",
+  //
 
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
   "llm.load.llama.evalBatchSize/subTitle": "Number of input tokens to process at a time. Increasing this increases performance at the cost of memory usage",
@@ -545,71 +545,71 @@
       "error": "Failed to download preset."
     },
     "inclusiveness": {
-      "speculativeDecoding": "Include in Preset"
+      "speculativeDecoding": "Inclou al Preset"
     }
   },
+//
+  "flashAttentionWarning": "L'Atenció Flash és una característica experimental que pot causar problemes en certs models. Si trobes problemes, prova desactivant-la.",
+  "llamaKvCacheQuantizationWarning": "La KV Cache Quantization és una característica experimental que pot causar problemes en certs models. L'Atenció Flash ha d'estar activada perquè funcioni. Si trobes problemes, estableix el valor per defecte \"F16\".",
 
-  "flashAttentionWarning": "Flash Attention is an experimental feature that may cause issues with some models. If you encounter problems, try disabling it.",
-  "llamaKvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantization. If you encounter problems, reset to the default \"F16\".",
-
-  "seedUncheckedHint": "Random Seed",
+  "seedUncheckedHint": "Llavor Aleatòria",
   "ropeFrequencyBaseUncheckedHint": "Auto",
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
   "hardware": {
     "environmentVariables": "Environment Variables",
-    "environmentVariables.info": "If you're unsure, leave these at their default values",
-    "environmentVariables.reset": "Reset to default",
+    "environmentVariables.info": "Si no estás segur, deixa els valors per defecte",
+    "environmentVariables.reset": "Torna als valors per defecte",
 
-    "gpus.information": "Configure graphics processing units (GPUs) detected on your machine",
+    "gpus.information": "Configura les unitats de processament gràfic (GPUs) trobades al teu dispositiu",
     "gpuSettings": {
-      "editMaxCapacity": "Edit Max Capacity",
-      "hideEditMaxCapacity": "Hide Edit Max Capacity",
-      "allOffWarning": "All GPUs are off or disabled, ensure that there is some GPU allocation to enable loading models",
+      "editMaxCapacity": "Edita la Capacitat Màxima",
+      "hideEditMaxCapacity": "Amaga Edita la Capacitat Màx",
+      "allOffWarning": "Totes les GPUs estan apagades o desactivades, assegura't que hi ha alguna GPU per poder distribuir la càrrega dels models",
       "split": {
-        "title": "Strategy",
-        "placeholder": "Select a GPU memory allocation",
+        "title": "Estratègia",
+        "placeholder": "Selecciona una distribució de memòria de les GPUs",
         "options": {
-          "generalDescription": "Configure how models will be loaded onto your GPUs",
+          "generalDescription": "Configura com els models es carregaran a les GPUs",
           "evenly": {
-            "title": "Split evenly",
-            "description": "Allocate memory evenly across GPUs"
+            "title": "Distribució Equitativa",
+            "description": "Distribueix la memòria equitativament a les diferents GPUs"
           },
           "priorityOrder": {
-            "title": "Priority order",
-            "description": "Drag to reorder priority. The system will try to allocate more on GPUs listed first"
+            "title": "Ordre de prioritat",
+            "description": "Arrastra per ordenar la prioritat. El sistema provarà distribuir-ne més a les primeres GPUs de la llista"
           },
           "custom": {
-            "title": "Custom",
-            "description": "Allocate memory",
-            "maxAllocation": "Maximum Allocation"
+            "title": "Personalitzat",
+            "description": "Destina la memòria",
+            "maxAllocation": "Màxima Distribució"
           }
         }
       },
-      "deviceId.info": "Unique identifier for this device",
-      "changesOnlyAffectNewlyLoadedModels": "Changes will only affect newly loaded models",
-      "toggleGpu": "Enable/Disable GPU"
+      "deviceId.info": "Identificador Únic per a aquest dispositiu",
+      "changesOnlyAffectNewlyLoadedModels": "Els canvis només afectaran als models carregats a partir d'ara",
+      "toggleGpu": "Activa/Desactiva la GPU"
     }
   },
 
-  "load.gpuSplitConfig/title": "GPU Split Configuration",
-  "envVars/title": "Set an Environment Variable",
+  "load.gpuSplitConfig/title": "Configuració de GPU Dividida",
+  "envVars/title": "Estableix una Environment Variable",
   "envVars": {
     "select": {
-      "placeholder": "Select an environment variable...",
-      "noOptions": "No more available",
+      "placeholder": "Selecciona una environment variable...",
+      "noOptions": "Cap altra disponible",
       "filter": {
-        "placeholder": "Filter search results",
-        "resultsFound_zero": "No results found",
-        "resultsFound_one": "1 result found",
-        "resultsFound_other": "{{count}} results found"
+        "placeholder": "Filtra els resultats",
+        "resultsFound_zero": "Cap resultat",
+        "resultsFound_one": "1 resultat",
+        "resultsFound_other": "{{count}} resultats trobats"
       }
     },
     "inputValue": {
-      "placeholder": "Enter a value"
+      "placeholder": "Introdueix un valor"
     },
     "values": {
-      "title": "Current Values"
+      "title": "Valors Actuals"
     }
   }
 }
