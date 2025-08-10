@@ -1,0 +1,42 @@
+{
+  "action.skipOnboarding": "Scipeáil an clárú",
+  "action.next": "Ar Aghaidh",
+  "action.back": "Ar ais",
+  "action.finish": "Críochnaigh",
+
+  "dismissable_rag_modal": {
+    "description": "Is féidir leat comhrá a dhéanamh anois le do dhoiciméid féin ag baint úsáide as Retrieval Augmented Generation (RAG). Seo mar a oibríonn sé:",
+    "instructions": {
+      "attach_files": {
+        "title": "Ceangail Comhaid",
+        "description": "Uaslódáil suas le 5 chomhad ag an am céanna, le huasmhéid comhcheangailte de 30MB. I measc na bhformáidí a dtacaítear leo tá PDF, DOCX, TXT, agus CSV."
+      },
+      "be_specific": {
+        "title": "Bí Sonrach",
+        "description": "Agus ceisteanna á gcur agat, luaigh an oiread sonraí agus is féidir. Cuidíonn sé seo leis an gcóras an fhaisnéis is ábhartha a aisghabháil ó do dhoiciméid."
+      },
+      "get_responses": {
+        "title": "Faigh Freagraí agus Déan Turgnamh",
+        "description": "Breathnóidh an LLM ar d’fhiosrúchán agus ar na sleachta a aisghabhtar ó do dhoiciméid, agus déanfaidh sé iarracht freagra a ghiniúint. Déan turgnamh le fiosrúcháin éagsúla chun a fháil amach cad is fearr a oibríonn."
+      }
+    }
+  },
+  
+  "toolUse": {
+    "step_0": {
+      "title": "Béite: Úsáid Uirlisí 🛠️ (Glao Feidhme)",
+      "text_0": "Rinneadh roinnt samhlacha (e.g. Llama 3.1/3.2, Mistral, Qwen agus níos mó) a oiliúint chun uirlisí a úsáid.",
+      "text_1": "Is é a chiallaíonn sé seo go praiticiúil ná: soláthraíonn tú réimse 'uirlisí' (sínithe feidhme) don LLM i bhformáid an-sonrach, agus is féidir leis an LLM cinneadh a dhéanamh cibé acu ba chóir glaoch orthu bunaithe ar leid an úsáideora.",
+      "text_2": "Is féidir leat cásanna úsáide a shamhlú amhail ceistiú a dhéanamh ar API, cód a rith, nó aon rud i ndáiríre is féidir a chur in iúl mar ghlao feidhme."
+    },
+    "step_1": {
+      "title": "Tosaigh le hÚsáid Uirlisí",
+      "toolUseCanWorkWithAnyModel": "Feidhmeoidh samhlacha a ndearnadh oiliúint orthu le húsáid uirlisí níos fearr ná cinn eile, ach is féidir leat iarracht a dhéanamh uirlisí a úsáid le haon samhail ar bith. Léigh an <customlink>doiciméadú</customlink> chun tuilleadh eolais a fháil.\nMarcálfar samhlacha a ndearnadh oiliúint orthu le húsáid uirlisí le suaitheantas nua:",
+      "hasCompatibleModel": "🎉 Is cosúil go bhfuil samhlacha le tacaíocht uirlisí agat cheana féin!",
+      "downloadRecommendedModel": "Íoslódáil samhail atá oilte le húsáid uirlisí:"
+    },
+    "nextButton": "Ar Aghaidh",
+    "letsGoButton": "Luchtaigh an tsamhail agus cuir tús leis an bhfreastalaí",
+    "doneButton": "Díbhe"
+  }
+}
