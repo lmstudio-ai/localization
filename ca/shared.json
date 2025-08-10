@@ -31,7 +31,7 @@
     "retry": "Torna a Intentar"
   },
   "artifacts": {
-    "fetchError": "Failed to fetch artifacts [TODO]",
+    "fetchError": "No s'han pogut obtenir els artifacts",
     "organizationVisible": "Organització Visible"
   },
 

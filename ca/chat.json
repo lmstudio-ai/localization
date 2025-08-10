@@ -235,11 +235,11 @@
     "stopReason.failed": "No s'ha Pogut Generar",
     "stopReason.eosFound": "Token EOS Trobat",
     "stopReason.stopStringFound": "Cadena d'Aturada Trobada",
-    "stopReason.toolCalls": "Tool Calls [TODO]",
+    "stopReason.toolCalls": "Ús d'Eines",
     "stopReason.maxPredictedTokensReached": "Predicció de Tokens Màxima Assolida",
     "stopReason.contextLengthReached": "Límit de Llargada de Context Assolit",
     "speculativeDecodedBy": "Esborrany del model: {{decodedBy}}",
-    "speculativeDecodingStats": "Acceptats {{accepted}}/{{total}} draft tokens ({{percentage}}%) [TODO]" 
+    "speculativeDecodingStats": "Acceptats {{accepted}}/{{total}} tokens previstos ({{percentage}}%) [TODO]" 
   },
 
   "tabs": {

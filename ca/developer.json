@@ -165,7 +165,7 @@
   "endpoints/openaiCompatRest/getModels": "Llista els models actualment carregats",
   "endpoints/openaiCompatRest/postCompletions": "Mode de Emplenament de Text. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Emplenament dels Xats. Envia l'historial del xat al model per poder predir la pròxima resposta de l'assistent",
-  "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings. [TODO]",
+  "endpoints/openaiCompatRest/postEmbeddings": "Embedding de text. Genera embeddings de text donada una entrada de text. Accepta una cadena o un conjunt de cadenes",
 
   "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
   "model.createVirtualModelFromInstance/error": "No s'ha pogut desar la configuració com un nou model virtual",

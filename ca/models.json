@@ -13,14 +13,14 @@
   "modelsTable.params/label": "Paràms",
   "modelsTable.publisher/label": "Editor",
   "modelsTable.displayName/label": "Nom",
-  "modelsTable.modelKey/label": "Model Key [TODO]",
+  "modelsTable.modelKey/label": "Clau del Model",
   "modelsTable.size/label": "Mida",
   "modelsTable.dateModified/label": "Última Modificació",
   "modelsTable.actions/label": "Accions",
 
   "modelsTable.quant/label": "Quant",
   "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model [TODO]",
+  "modelsTable.embeddingModels/label": "Embedding Model",
 
   "action.model.delete": "Elimina",
   "action.model.delete.full": "Eliminar Model",
@@ -29,7 +29,7 @@
   "action.model.delete.confirmation/confirm": "Elimina",
   "action.model.delete/error": "Error en eliminar el model",
 
-  "loader.model.bundled": "Bundled [TODO]",
+  "loader.model.bundled": "Empaquetat",
   "action.cancel": "Cancel·la",
   "indexingOngoing": "Indexant models... Pot trigar una estona",
   "index/error_one": "No s'ha pogut indexar la següent carpeta:",
@@ -73,7 +73,7 @@
   "contextMenu": {
     "showOnWeb": "Mostra al Web",
     "pullLatest": {
-      "label": "Pull Latest [TODO]",
+      "label": "Pull Latest",
       "checking": "Cercant actualitzacions...",
       "upToDate": "Estàs al dia",
       "error": "No s'ha pogut cercar actualitzacions"
@@ -82,7 +82,7 @@
   "tooltip/moreActions": "Més Accions",
   "tooltip/getInfo": "Mostra Info",
   "tooltip/editModelDefaultConfig": "Edita la configuració per defecte del model",
-  "tooltip/editModelDefaultConfig/override": "Edita la configuració per defecte del model (* has overrides [TODO])",
+  "tooltip/editModelDefaultConfig/override": "Edita la configuració per defecte del model (* has fet canvis)",
   "tooltip/visionBadge": "Aquest model suporta el processament d'imatges",
   "tooltip/toolUseBadge": "Aquest model ha estat entrenat per utilitzar eines",
 
@@ -100,7 +100,7 @@
     "local": {
       "create": "Crea un Model Virtual",
       "title": "Crea un Model Virtual Local",
-      "description": "Crea un model virtual combinant un model amb un conjunt de configuracions. The underlying weights will not be duplicated [TODO].",
+      "description": "Crea un model virtual combinant un model amb un conjunt de configuracions. The underlying weights will not be duplicated.",
       "modelKey.label": "Clau del Model",
       "modelKey.placeholder": "Introdueix una clau única pel model",
       "modelKey.normalized": "La teva clau serà normalitzada a: {{normalized}}",
