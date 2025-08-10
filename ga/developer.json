@@ -1,0 +1,177 @@
+{
+  "tabs/server": "Freastalaí Áitiúil",
+  "tabs/extensions": "LM Amanna rithe",
+  "loadSettings/title": "Luchtaigh socruithe",
+  "modelSettings/placeholder": "Roghnaigh samhail chun é a chumrú",
+
+  "loadedModels/noModels": "Níl aon samhail lódáilte",
+
+  "serverOptions/title": "Roghanna Freastalaí",
+  "serverOptions/configurableTitle": "Roghanna Inchumraithe",
+  "serverOptions/port/hint": "Socraigh cén port líonraithe a úsáidfidh an freastalaí áitiúil. De réir réamhshocraithe, úsáideann LM Studio an port 1234. B’fhéidir go mbeidh ort é seo a athrú má tá an port in úsáid cheana féin.",
+  "serverOptions/port/subtitle": "An port le héisteacht air",
+  "serverOptions/autostart/title": "Freastalaí tosaithe go huathoibríoch",
+  "serverOptions/autostart/hint": "Cas ar fhreastalaí áitiúil LLManna LM Studio go huathoibríoch nuair a thosaíonn an aip nó an tseirbhís",
+  "serverOptions/port/integerWarning": "Ní mór uimhir an phoirt a bheith ina slánuimhir",
+  "serverOptions/port/invalidPortWarning": "Ní mór don phort a bheith idir 1 agus 65535",
+  "serverOptions/cors/title": "Cumasaigh CORS",
+  "serverOptions/cors/hint1": "Trí CORS (Comhroinnt Acmhainní Tras-bhunaidh) a chumasú, bheadh ​​sé indéanta do shuíomhanna gréasáin a dtugann tú cuairt orthu iarratais a dhéanamh chuig freastalaí LM Studio.",
+  "serverOptions/cors/hint2": "D’fhéadfadh go mbeadh CORS ag teastáil agus iarratais á ndéanamh ó leathanach gréasáin nó ó Chód VS / síneadh eile.",
+  "serverOptions/cors/subtitle": "Ceadaigh iarratais tras-bhunaidh",
+  "serverOptions/network/title": "Freastal ar Líonra Áitiúil",
+  "serverOptions/network/subtitle": "Nochtaigh an freastalaí do ghléasanna ar an líonra",
+  "serverOptions/network/hint1": "Cibé acu ar cheart naisc ó ghléasanna eile ar an líonra a cheadú nó nach gceadófar.",
+  "serverOptions/network/hint2": "Mura bhfuil sé seiceáilte, ní éistfidh an freastalaí ach le localhost.",
+  "serverOptions/verboseLogging/title": "Logáil Fhoclach",
+  "serverOptions/verboseLogging/subtitle": "Cumasaigh logáil fhoclach don fhreastalaí áitiúil",
+  "serverOptions/contentLogging/title": "Logáil Leideanna agus Freagraí",
+  "serverOptions/contentLogging/subtitle": "Socruithe logála áitiúla iarratais/freagartha",
+  "serverOptions/contentLogging/hint": "Cibé acu ar cheart leideanna agus/nó an freagra a logáil i gcomhad loga an fhreastalaí áitiúil.",
+  "serverOptions/redactContent/title": "Ábhar a Cheartú",
+  "serverOptions/redactContent/hint": "Nuair a bhíonn sé cumasaithe, cuirtear cosc ar shonraí íogaire, amhail ábhar na n-iarratas agus na bhfreagraí, a bheith logáilte.",
+  "serverOptions/logIncomingTokens/title": "Logáil Comharthaí Isteach",
+  "serverOptions/logIncomingTokens/hint": "Cibé acu ar cheart gach comhartha a logáil agus iad á nginiúint.",
+  "serverOptions/fileLoggingMode/title": "Mód Logála Comhad",
+  "serverOptions/fileLoggingMode/off/title": "AS",
+  "serverOptions/fileLoggingMode/off/hint": "Ná cruthaigh comhaid loga",
+  "serverOptions/fileLoggingMode/succinct/title": "Gonta",
+  "serverOptions/fileLoggingMode/succinct/hint": "Logáil an t-ábhar céanna agus atá sa chonsól. Gearrfar iarratais fhada.",
+  "serverOptions/fileLoggingMode/full/title": "Lán",
+  "serverOptions/fileLoggingMode/full/hint": "Ná giorraigh iarratais fhada.",
+  "serverOptions/jitModelLoading/title": "Ag Lódáil Samhail Díreach in Am",
+  "serverOptions/jitModelLoading/hint": "Nuair a bhíonn sé cumasaithe, má shonraítear samhail nach bhfuil luchtaithe in iarratas, luchtófar agus úsáidfear í go huathoibríoch. Ina theannta sin, áireofar sa chríochphointe \"/v1/models\" samhlacha nach bhfuil luchtaithe fós.",
+  "serverOptions/loadModel/error": "Theip ar an tsamhail a lódáil",
+  "serverOptions/jitModelLoadingTTL/title": "Díluchtaigh samhlacha JIT luchtaithe neamhúsáidte go huathoibríoch",
+  "serverOptions/jitModelLoadingTTL/hint": "Déanfar samhail a luchtáladh Díreach in Am (JIT) chun freastal ar iarratas API a dhíluchtú go huathoibríoch tar éis gan a bheith in úsáid ar feadh tamaill (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL díomhaoin uasta",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "nóiméad",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Coinnigh an tSamhail JIT Luchtaithe Deireanach Amháin",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Cinntigh nach bhfuil ach samhail amháin á luchtú trí JIT ag aon am ar leith (díluchtaíonn sé an tsamhail roimhe seo)",
+
+  "serverLogs/scrollToBottom": "Léim go bun",
+  "serverLogs/clearLogs": "Glan logaí ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Oscail fillteán logaí an fhreastalaí",
+
+  "runtimeSettings/title": "Socruithe rith-ama",
+  "runtimeSettings/chooseRuntime/title": "Roghanna",
+  "runtimeSettings/chooseRuntime/description": "Roghnaigh inneall le húsáid do gach formáid samhail",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Taispeáin na pacáistí síneadh go léir",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "De réir réamhshocraithe, ní thaispeánann LM Studio ach an leagan is déanaí de gach pacáiste síneadh. Cumasaigh an rogha seo chun na pacáistí síneadh uile atá ar fáil a fheiceáil.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Roghnaigh inneall",
+
+  "runtimeSettings/chooseFrameworks/title": "Creatlacha",
+  "runtimeSettings/chooseFrameworks/description": "Roghnaigh creat le húsáid do gach feidhmiúlacht",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Parsálaí ionsuite",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Parsálaí Doiciméad",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Roghnaigh parsálaí doiciméad",
+
+  "runtimeOptions/uninstall": "Díshuiteáil",
+  "runtimeOptions/uninstallDialog/title": "Díshuiteáil {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Bainfear an t-am rith seo den chóras má dhíshuiteálann tú é. Ní féidir an gníomh seo a aisiompú.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Ní fhéadfar roinnt comhad a bhaint ach amháin tar éis atosú LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Theip ar an am rith a dhíshuiteáil",
+  "runtimeOptions/uninstallDialog/confirm": "Lean ar aghaidh agus Díshuiteáil",
+  "runtimeOptions/uninstallDialog/cancel": "Cealaigh",
+  "runtimeOptions/noCompatibleRuntimes": "Níor aimsíodh aon amanna rithe comhoiriúnacha",
+  "runtimeOptions/downloadIncompatibleRuntime": "Cinneadh nach raibh an t-am rithe seo comhoiriúnach le do mheaisín. Is dócha nach n-oibreoidh sé.",
+  "runtimeOptions/noRuntimes": "Níor aimsíodh aon amanna rithe",
+
+  "runtimes": {
+    "manageLMRuntimes": "Bainistigh Amanna Rith LM",
+    "includeOlderRuntimeVersions": "Cuir leaganacha níos sine san áireamh",
+    "dismiss": "Díbhe",
+    "updateAvailableToast": {
+      "title": "Nuashonrú Am Rith LM ar Fáil!"
+    },
+    "updatedToast": {
+      "title": "✅ Nuashonraithe Am Rith LM: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Úsáidfidh samhlacha {{compatibilityTypes}} atá luchtaithe le déanaí an t-am rite nuashonraithe."
+    },
+    "noAvx2ErrorMessage": "Éilíonn gach Am Rith LM LAP le tacaíocht AVX2 faoi láthair.",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Pacáistí Síneadh Ama Rith",
+      "refresh": "Athnuaigh",
+      "refreshing": "Ag athnuachan...",
+      "filterSegment": {
+        "compatibleOnly": "Comhoiriúnach Amháin",
+        "all": "Gach"
+      },
+      "card": {
+        "releaseNotes": "Nótaí Eisiúna",
+        "latestVersionInstalled": "An Leagan is Déanaí Suiteáilte",
+        "updateAvailable": "Nuashonrú ar Fáil"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Bainistigh Amanna Rith Gníomhacha"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Bainistigh Leaganacha",
+        "close": "Dún"
+      },
+      "tabs": {
+        "all": "Gach",
+        "frameworks": "Mo Chreatlach",
+        "engines": "Mo Innill"
+      },
+      "detailsModal": {
+        "installedVersions": "Leaganacha suiteáilte le haghaidh {{runtimeName}}",
+        "manifestJsonTitle": "JSON Léirithe (ardleibhéil)",
+        "releaseNotesTitle": "Nótaí Eisiúna",
+        "noReleaseNotes": "Níl aon nótaí scaoilte ar fáil don leagan seo",
+        "back": "Ar ais",
+        "close": "Dún"
+      },
+      "noEngines": "Gan aon innill suiteáilte",
+      "noFrameworks": "Gan aon chreatlach suiteáilte"
+    }
+  },
+
+  "inferenceParams/noParams": "Níl aon pharaiméadair inbhainte inchumraithe ar fáil don chineál samhail seo",
+
+  "quickDocs": {
+    "tabChipTitle": "Doiciméid Thapa",
+    "newToolUsePopover": "Tá Sleachta Cód ar fáil anois anseo i \"Doiciméid Thapa\". Cliceáil anseo chun tús a chur le húsáid uirlisí!",
+    "newToolUsePopoverTitle": "📚 Doiciméid Thapa",
+    "learnMore": "ℹ️ 👾 Chun tuilleadh eolais a fháil faoi chríochphointí freastalaí áitiúil LM Studio, tabhair cuairt ar an [dhoiciméadú](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Haigh, a Dhomhanda!"
+    },
+    "chat": {
+      "title": "Comhrá"
+    },
+    "structuredOutput": {
+      "title": "Aschur Struchtúrtha"
+    },
+    "imageInput": {
+      "title": "Ionchur Íomhá"
+    },
+    "embeddings": {
+      "title": "Ionsáithí"
+    },
+    "toolUse": {
+      "title": "Úsáid Uirlisí",
+      "tab": {
+        "saveAsPythonFile": "Sábháil mar chomhad Python",
+        "runTheScript": "Rith an script:",
+        "savePythonFileCopyPaste": "Sábháil mar chomhad Python le haghaidh ordú cóipeála agus greamaigh"
+      }
+    },
+    "newBadge": "Nua"
+  },
+
+  "endpoints/openaiCompatRest/title": "Críochphointí tacaithe (cosúil le OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Liostaigh na samhlacha atá luchtaithe faoi láthair",
+  "endpoints/openaiCompatRest/postCompletions": "Mód Comhlánuithe Téacs. Réamh-mheas an chéad chomhartha/comharthaí eile nuair a thugtar leid. Tabhair faoi deara: Meastar go bhfuil an críochphointe seo 'as feidhm' ag OpenAI.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Críochnuithe comhrá. Seol stair comhrá chuig an tsamhail chun an chéad fhreagra cúntóra eile a thuar.",
+  "endpoints/openaiCompatRest/postEmbeddings": "Leabú Téacs. Gin leabaithe téacs le haghaidh ionchur téacs ar leith. Glacann sé teaghrán nó eagar teaghrán.",
+  "model.createVirtualModelFromInstance": "Sábháil Socruithe mar Samhail Fíorúil Nua",
+  "model.createVirtualModelFromInstance/error": "Theip ar shocruithe a shábháil mar samhail fíorúil nua",
+  "model": {
+    "toolUseSectionTitle": "Úsáid Uirlisí",
+    "toolUseDescription": "Braitear gur traenáladh an tsamhail seo le húsáid uirlisí\n\nOscail <custom-link>doiciméid thapa</custom-link> le haghaidh tuilleadh eolais"
+  },
+  
+  "apiConfigOptions/title": "Cumraíocht API"
+}
