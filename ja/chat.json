@@ -60,6 +60,7 @@
   "actions/continueCurrentModel/tooltip": "現在のモデル: {{currentModel}}",
   "actions/changeToLastUsedModel": "{{lastModel}} を読み込み",
   "actions/changeToLastUsedModel/error": "最後に使用したモデルへの変更に失敗しました。",
+  
   "actions/changeToLastUsedModel/tooltip": "前回このチャットで送信したメッセージで使用した別のモデルがあります。クリックして現在選択されているモデル（{{currentModel}}）をアンロードし、このチャットで最後に使用したモデルを読み込みます:\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "{{lastModel}} に切り替え",
   "actions/switchToLastUsedModel/tooltip": "このチャットで最後に使用したモデルに切り替えるにはクリック:\n\n{{lastModel}}",
@@ -77,6 +78,7 @@
   "tokenCount/totalAvailablePercentage": "コンテキストの使用率は{{percentage}}%です",
   "tokenCount/contextOverflow": "未処理のコンテキストがモデルの最大トークン制限を超えています。コンテキスト制限超過ポリシーに応じて、コンテキストが切り詰められるか、メッセージが送信されない場合があります。",
   "modelLoader/manualLoadParams/label": "モデル読み込みパラメータを手動で選択",
+
   "modelLoader/manualLoadParams/hint/before": "(またはホールド ",
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "移動に失敗しました",
