@@ -1,59 +1,179 @@
 {
   "tabs/server": "ローカルサーバー",
-  "tabs/extensions": "LMランタイム",
+  "tabs/extensions": "LM Runtimes",
   "loadSettings/title": "設定を読み込む",
-  "modelSettings/placeholder": "設定するモデルを選択",
+  "modelSettings/placeholder": "構成するモデルを選択",
+
   "loadedModels/noModels": "モデルが読み込まれていません",
+
   "serverOptions/title": "サーバーオプション",
-  "serverOptions/configurableTitle": "設定可能なオプション",
-  "serverOptions/port/hint": "ローカルサーバーが使用するネットワークポートを設定します。デフォルトでは、LM Studioはポート1234を使用します。このポートが既に使用されている場合は、変更する必要があります。",
+  "serverOptions/configurableTitle": "構成可能なオプション",
+  "serverOptions/port/hint": "ローカルサーバーが使用するネットワークポートを設定します。デフォルトでは、LM Studioはポート1234を使用します。このポートがすでに使用されている場合は、変更する必要があります。",
   "serverOptions/port/subtitle": "リッスンするポート",
-  "serverOptions/autostart/title": "サーバーの自動起動",
-  "serverOptions/autostart/hint": "モデルが読み込まれた際に自動でローカルサーバーを起動します",
-  "serverOptions/port/integerWarning": "ポート番号は整数でなければなりません",
+  "serverOptions/autostart/title": "自動起動サーバー",
+  "serverOptions/autostart/hint": "アプリまたはサービスの起動時にLM StudioのローカルLLMsサーバーを自動的にオンにします",
+  "serverOptions/port/integerWarning": "ポート番号は整数である必要があります",
   "serverOptions/port/invalidPortWarning": "ポートは1から65535の間である必要があります",
   "serverOptions/cors/title": "CORSを有効にする",
-  "serverOptions/cors/hint1": "CORS（クロスオリジンリソース共有）を有効にすると、アクセスしたウェブサイトがLM Studioサーバーにリクエストを送信できるようになります。",
-  "serverOptions/cors/hint2": "CORSはウェブページやVS Code、その他の拡張機能からリクエストを送信する際に必要になる場合があります。",
+  "serverOptions/cors/hint1": "CORS（Cross-origin Resource Sharing）を有効にすると、訪問するウェブサイトがLM Studioサーバーにリクエストを送信できるようになります。",
+  "serverOptions/cors/hint2": "CORSは、ウェブページやVS Code / 他の拡張機能からリクエストを送信する際に必要になる場合があります。",
   "serverOptions/cors/subtitle": "クロスオリジンリクエストを許可する",
-  "serverOptions/network/title": "ローカルネットワークでサービング",
-  "serverOptions/network/subtitle": "サーバーをネットワーク上のデバイスに公開",
-  "serverOptions/network/hint1": "他のネットワークデバイスからの接続を許可するかどうかを設定します。",
-  "serverOptions/network/hint2": "チェックを外した場合、サーバーはlocalhostのみをリッスンします。",
-  "serverOptions/verboseLogging/title": "詳細ログを有効にする",
-  "serverOptions/verboseLogging/subtitle": "ローカルサーバーの詳細なログを有効にする",
+  "serverOptions/network/title": "ローカルネットワークで提供",
+  "serverOptions/network/subtitle": "ネットワーク上のデバイスにサーバーを公開",
+  "serverOptions/network/hint1": "ネットワーク上の他のデバイスからの接続を許可するかどうか。",
+  "serverOptions/network/hint2": "チェックされていない場合、サーバーはlocalhostのみでリッスンします。",
+  "serverOptions/verboseLogging/title": "詳細ログ",
+  "serverOptions/verboseLogging/subtitle": "ローカルサーバーの詳細ログを有効にします",
   "serverOptions/contentLogging/title": "プロンプトとレスポンスをログに記録",
   "serverOptions/contentLogging/subtitle": "ローカルリクエスト/レスポンスのログ設定",
-  "serverOptions/contentLogging/hint": "ローカルサーバーログファイルにプロンプトやレスポンスを記録するかどうかを設定します。",
-  "serverOptions/jitModelLoading/title": "JITモデル読み込み",
-  "serverOptions/jitModelLoading/hint": "有効にすると、リクエストで指定されたモデルが未読み込みの場合、自動的に読み込まれ使用されます。さらに、\"/v1/models\" エンドポイントにもまだ読み込まれていないモデルが含まれるようになります。",
+  "serverOptions/contentLogging/hint": "ローカルサーバーログファイルにプロンプトおよび/またはレスポンスを記録するかどうか。",
+  "serverOptions/redactContent/title": "コンテンツを編集",
+  "serverOptions/redactContent/hint": "有効にすると、リクエストやレスポンスの内容などの機密データがログに記録されないようにします。",
+  "serverOptions/logIncomingTokens/title": "受信トークンをログに記録",
+  "serverOptions/logIncomingTokens/hint": "生成中の各トークンをログに記録するかどうか。",
+  "serverOptions/fileLoggingMode/title": "ファイルログモード",
+  "serverOptions/fileLoggingMode/off/title": "OFF",
+  "serverOptions/fileLoggingMode/off/hint": "ログファイルを作成しない",
+  "serverOptions/fileLoggingMode/succinct/title": "簡潔",
+  "serverOptions/fileLoggingMode/succinct/hint": "コンソールと同じ内容をログに記録します。長いリクエストは切り捨てられます。",
+  "serverOptions/fileLoggingMode/full/title": "フル",
+  "serverOptions/fileLoggingMode/full/hint": "長いリクエストを切り捨てないでください。",
+  "serverOptions/jitModelLoading/title": "ジャストインタイムモデルロード",
+  "serverOptions/jitModelLoading/hint": "有効にすると、リクエストで指定されたモデルが読み込まれていない場合、自動的に読み込まれて使用されます。さらに、\"/v1/models\"エンドポイントには、まだ読み込まれていないモデルも含まれます。",
   "serverOptions/loadModel/error": "モデルの読み込みに失敗しました",
-  "serverLogs/scrollToBottom": "一番下にジャンプ",
+  "serverOptions/jitModelLoadingTTL/title": "未使用のJITロードモデルを自動的にアンロード",
+  "serverOptions/jitModelLoadingTTL/hint": "APIリクエストに応じてジャストインタイム（JIT）で読み込まれたモデルは、一定期間（TTL）使用されなかった場合に自動的にアンロードされます。",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "最大アイドルTTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "分",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "最後のJITロードモデルのみを保持",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "任意の時点でJITを介してロードされるモデルは最大1つに制限されます（以前のモデルはアンロードされます）",
+
+  "serverLogs/scrollToBottom": "一番下に移動",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
-  "serverLogs/openLogsFolder": "サーバーログフォルダを開く",
+  "serverLogs/openLogsFolder": "サーバーログフォルダーを開く",
+
   "runtimeSettings/title": "ランタイム設定",
-  "runtimeSettings/chooseRuntime/title": "ランタイムの設定",
-  "runtimeSettings/chooseRuntime/description": "各モデルフォーマットに対してランタイムを選択",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "全バージョンを表示",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "デフォルトでは、LM Studioは各ランタイムの最新バージョンのみを表示します。このオプションを有効にすると、利用可能な全バージョンが表示されます。",
-  "runtimeSettings/chooseRuntime/select/placeholder": "ランタイムを選択",
+  "runtimeSettings/chooseRuntime/title": "選択",
+  "runtimeSettings/chooseRuntime/description": "各モデルフォーマットに使用するエンジンを選択します",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "すべての拡張パックを表示",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "デフォルトでは、LM Studioは各拡張パックの最新バージョンのみを表示します。このオプションを有効にすると、すべての利用可能な拡張パックが表示されます。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "エンジンを選択",
+
+  "runtimeSettings/chooseFrameworks/title": "フレームワーク",
+  "runtimeSettings/chooseFrameworks/description": "各機能に使用するフレームワークを選択してください",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "組み込みパーサー",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "ドキュメントパーサー",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "ドキュメントパーサーを選択",
+
   "runtimeOptions/uninstall": "アンインストール",
-  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} をアンインストールしますか？",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}}をアンインストールしますか?",
   "runtimeOptions/uninstallDialog/body": "このランタイムをアンインストールすると、システムから削除されます。この操作は元に戻せません。",
-  "runtimeOptions/uninstallDialog/body/caveats": "一部のファイルはLM Studioを再起動後にのみ削除される場合があります。",
+  "runtimeOptions/uninstallDialog/body/caveats": "一部のファイルはLM Studioの再起動後にのみ削除される場合があります。",
   "runtimeOptions/uninstallDialog/error": "ランタイムのアンインストールに失敗しました",
   "runtimeOptions/uninstallDialog/confirm": "続行してアンインストール",
   "runtimeOptions/uninstallDialog/cancel": "キャンセル",
   "runtimeOptions/noCompatibleRuntimes": "互換性のあるランタイムが見つかりません",
-  "runtimeOptions/downloadIncompatibleRuntime": "このランタイムはお使いのマシンでは互換性がないと判断されました。おそらく動作しません。",
+  "runtimeOptions/downloadIncompatibleRuntime": "このランタイムはお使いのマシンと互換性がないと判断されました。正常に動作しない可能性があります。",
   "runtimeOptions/noRuntimes": "ランタイムが見つかりません",
-  "inferenceParams/noParams": "このモデルタイプには設定可能な推論パラメーターがありません",
-  "endpoints/openaiCompatRest/title": "サポートされているエンドポイント (OpenAI互換)",
-  "endpoints/openaiCompatRest/getModels": "現在読み込まれているモデルを一覧表示",
-  "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトをもとに次のトークンを予測します。注:OpenAIではこのエンドポイントを「非推奨」としています。",
-  "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信して、次のアシスタントレスポンスを予測します",
-  "endpoints/openaiCompatRest/postEmbeddings": "テキストの埋め込み（Embedding）。指定されたテキスト入力に対して埋め込みを生成します。文字列または文字列の配列を受け取ります。",
-  "model.createVirtualModelFromInstance": "設定を新しいバーチャルモデルとして保存",
-  "model.createVirtualModelFromInstance/error": "設定のバーチャルモデルとしての保存に失敗しました",
+
+  "runtimes": {
+    "manageLMRuntimes": "LMランタイムの管理",
+    "includeOlderRuntimeVersions": "古いバージョンも含める",
+    "dismiss": "閉じる",
+    "updateAvailableToast": {
+      "title": "LMランタイムのアップデートがあります！"
+    },
+    "updatedToast": {
+      "title": " ✅ LMランタイムが更新されました: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "新しくロードされた{{compatibilityTypes}}モデルは更新されたランタイムを使用します。"
+    },
+    "noAvx2ErrorMessage": "すべてのLMランタイムは現在AVX2対応CPUが必要です",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "ランタイム拡張パック",
+      "refresh": "更新",
+      "refreshing": "更新中...",
+      "filterSegment": {
+        "compatibleOnly": "互換性のみ",
+        "all": "すべて"
+      },
+      "card": {
+        "releaseNotes": "リリースノート",
+        "latestVersionInstalled": "最新バージョンがインストール済み",
+        "updateAvailable": "アップデート可能"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "アクティブランタイムの管理"
+      },
+      "dropdownOptions": {
+        "installedVersions": "バージョン管理",
+        "close": "閉じる"
+      },
+      "tabs": {
+        "all": "すべて",
+        "frameworks": "マイフレームワーク",
+        "engines": "マイエンジン"
+      },
+      "detailsModal": {
+        "installedVersions": "{{runtimeName}}のインストール済みバージョン",
+        "manifestJsonTitle": "マニフェストJSON（詳細）",
+        "releaseNotesTitle": "リリースノート",
+        "noReleaseNotes": "このバージョンのリリースノートはありません",
+        "back": "戻る",
+        "close": "閉じる"
+      },
+      "noEngines": "エンジンがインストールされていません",
+      "noFrameworks": "フレームワークがインストールされていません"
+    }
+  },
+
+  "inferenceParams/noParams": "このモデルタイプには設定可能な推論パラメータがありません",
+
+  "quickDocs": {
+    "tabChipTitle": "クイックドキュメント",
+    "newToolUsePopover": "コードスニペットが\"クイックドキュメント\"で利用可能になりました。ツールの使い方はこちらをクリック！",
+    "newToolUsePopoverTitle": "📚 クイックドキュメント",
+    "learnMore": "ℹ️ 👾 LM Studioローカルサーバーのエンドポイントについて詳しくは[ドキュメント](https://lmstudio.ai/docs)をご覧ください。",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "チャット"
+    },
+    "structuredOutput": {
+      "title": "構造化出力"
+    },
+    "imageInput": {
+      "title": "画像入力"
+    },
+    "embeddings": {
+      "title": "埋め込み"
+    },
+    "toolUse": {
+      "title": "ツール利用",
+      "tab": {
+        "saveAsPythonFile": "Pythonファイルとして保存",
+        "runTheScript": "スクリプトを実行:",
+        "savePythonFileCopyPaste": "コピペ用Pythonファイルとして保存"
+      }
+    },
+    "newBadge": "新規"
+  },
+
+  "endpoints/openaiCompatRest/title": "対応エンドポイント（OpenAI互換）",
+  "endpoints/openaiCompatRest/getModels": "現在ロードされているモデル一覧",
+  "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトに基づき次のトークンを予測します。※OpenAIではこのエンドポイントは非推奨です。",
+  "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信し、次のアシスタント応答を予測します",
+  "endpoints/openaiCompatRest/postEmbeddings": "テキスト埋め込み。指定したテキスト入力に対して埋め込みベクトルを生成します。文字列または文字列配列を受け付けます。",
+
+  "model.createVirtualModelFromInstance": "設定を新しい仮想モデルとして保存",
+  "model.createVirtualModelFromInstance/error": "設定の仮想モデル保存に失敗しました",
+
+  "model": {
+    "toolUseSectionTitle": "ツール利用",
+    "toolUseDescription": "このモデルはツール利用向けに訓練されています\n\n詳細は<custom-link>クイックドキュメント</custom-link>をご覧ください"
+  },
+
   "apiConfigOptions/title": "API設定"
 }
