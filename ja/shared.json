@@ -274,9 +274,9 @@
   },
 
   "letsGo": {
-    "letsGo": "Let's Go",
-    "letsGoWithEllipsis": "Let's Go...",
-    "letsGoWithExclamation": "Let's Go!"
+    "letsGo": "始めましょう",
+    "letsGoWithEllipsis": "始めましょう...",
+    "letsGoWithExclamation": "始めましょう！"
   },
 
   "run": {
