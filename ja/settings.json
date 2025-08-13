@@ -33,7 +33,7 @@
   "appUpdatedToastDescriptionPrefix": "を表示",
   "AppUpdatedToastDescriptionReleaseNotes": "リリースノート",
   "toolUseToastTitle": "ベータの新機能: Tool Use と Function Calls API",
-  "toolUseToastDescription": "Drop-in replacement for OpenAI Tool Use with select models such as Llama 3.1/3.2, Mistral, and Qwen.",
+  "toolUseToastDescription": "Llama 3.1/3.2、Mistral、Qwen などの一部モデルで OpenAI Tool Use をそのまま置き換えて利用できます。",
   "toolUseToastButtonText": "開発者ページに行き試してみる",
   "doItLater": "後でやります",
   "failedToUpdate": "アプリの更新に失敗しました。インターネット接続を再確認するか、後でもう一度お試しください。",
