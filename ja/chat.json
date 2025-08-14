@@ -23,10 +23,12 @@
   "noChatSelectedPlaceholder": "チャットを選択してください",
   "unnamedChat": "名称未設定のチャット",
   "emptyFolder": "フォルダーが空です",
+
   "tokenCount": "トークンカウント",
   "messageTokenCount": "メッセージのトークン数",
   "tokenCount/hint": "メッセージ内のトークン数です。現在選択されているモデルのトークナイザーを使用してカウントされます。\n\nモデルがロードされている必要があります。",
   "messageTokenCount/hint": "メッセージ内のトークン数です。現在選択されているモデルのトークナイザーを使用してカウントされます。\n\n**ファイル添付のトークン数の推定値は含まれません**。",
+
   "notes": "会話メモ",
   "notes/add/first": "メモを追加",
   "notes/add/another": "別のメモを追加",
@@ -35,9 +37,11 @@
   "notes/delete": "メモを削除",
   "notes/noteLabel": "メモ",
   "notes/copyContent": "メモの内容をコピー",
+
   "actions/sendMessage/error": "メッセージの送信に失敗しました",
   "actions/loadModel/error": "🥲 モデルのロードに失敗しました",
   "actions/addFile": "[実験的] このメッセージにファイルを添付\n(.pdf、プレーンテキスト、または .docx)",
+  "actions/addFile/label": "ファイルを添付",
   "actions/changeRole": "ユーザーとアシスタントの役割を切り替えます。\n\nこれにより、会話を特定の方向に誘導することができます。\n\nfew-shot learningやin-context learningのシナリオで使用することが可能です。",
   "actions/addImage": "画像を追加",
   "actions/deleteMessage": "メッセージを削除",
@@ -85,7 +89,12 @@
   "actions/createChatAtRoot/error": "ルートでのチャット作成に失敗しました",
   "actions/createFolderAtRoot": "新しいフォルダーを作成",
   "actions/createFolderAtRoot/error": "ルートでのフォルダー作成に失敗しました",
+  "actions/openInFolder/mac": "Finderで開く",
+  "actions/openInFolder/pc": "File Explorerで開く",
+
   "actions/createChat/error": "チャット作成に失敗しました",
+  "actions/deleteChat/errorTitle": "チャット削除に失敗しました",
+
   "userFile/fileSizeLimit": "ファイルサイズの上限は ",
   "userFile/noImageSupport": "モデルは画像入力をサポートしていません",
   "userFile/errorPrefix": "エラー - ",
@@ -94,31 +103,50 @@
   "userFile/unsupportedFileType": "サポートされていないファイルタイプ - 画像、PDF、および .txt ファイルのみサポートされています。",
   "userFile/maxFilesPerMessage": "メッセージあたりの最大ファイル数に達しました。これ以上ファイルを追加できません。 ({{files}} ファイルまで)",
   "userFile/maxFileSizePerMessage": "メッセージあたりの最大ファイルサイズに達しました。{{size}} より大きなファイルは追加できません。 ",
+  "userFile/maxFileSizePerConversation": "会話あたりの最大ファイルサイズに達しました。{{size}} より大きなファイルは追加できません。",
+  "userFile/failedToUploadError/title": "ファイルのアップロードに失敗しました",
+  "userFile/failedToAddFile/title": "チャットへのファイル追加に失敗しました",
   "errorTitle": "エラー",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} 個のドキュメントがチャットに存在します",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} 個のドキュメントがチャットに存在します",
+
   "prediction/busyModel/title": "モデルがビジー状態です",
   "prediction/busyModel/message": "モデルが処理を完了するまでお待ちください",
   "prediction/noModel/title": "モデルが選択されていません",
   "prediction/modelLoading": "メッセージがキューに入りました。モデルの読み込みが完了したら送信されます",
   "prediction/noModel/message": "メッセージを送信するにはモデルを選択してください",
   "prediction/unloadModel/error": "モデルのアンロードに失敗しました",
+
   "retrieval/user/processingLabel": "AIが考えています...",
   "retrieval/powerUser/intermediateStepsHidden": "中間ステップは非表示です。クリックして展開。",
   "retrieval/actions/clickToExpand": "中間ステップを展開するにはクリック",
   "retrieval/actions/clickToCollapse": "中間ステップを折りたたむにはクリック",
+
   "style": "チャットの外観",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "プレーンテキスト",
   "style/viewMode/monospace": "等幅フォント",
+
   "style/fontSize/label": "フォントサイズ",
   "style/fontSize/medium": "デフォルト",
   "style/fontSize/large": "大きい",
   "style/fontSize/small": "小さい",
+
+  "chatTabOptions/clearAllMessages": "全てのメッセージをクリア...",
+  "chatTabOptions/duplicateChat": "チャットを複製する",
+
   "topBarActions/duplicateChat": "チャットを複製する",
   "topBarActions/clearChat": "全てのメッセージをクリア",
   "topBarActions/clearChatConfirmation": "このチャットでの全てのメッセージをクリアしても良いですか？",
   "topBarActions/clearChatCancel": "キャンセル",
   "topBarActions/clearChatDelete": "全てクリア",
+
   "noModels.indexing": "モデルファイルをインデックスしています... (時間がかかる場合があります)",
   "noModels.downloading": "あなたの初めてのLLMをダウンロード中...",
-  "noModels": "LLMモデルがまだありません！利用を開始するにはダウンロードしてください！"
+  "noModels": "LLMモデルがまだありません！利用を開始するにはダウンロードしてください！",
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "システムプロンプトを編集"
+  }
 }

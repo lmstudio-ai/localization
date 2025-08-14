@@ -23,6 +23,7 @@
   "download.option.recommended/description": "お使いのハードウェアに基づいてこのオプションが推奨されます。",
   "download.option.downloaded/title": "ダウンロード済み",
   "download.option.downloading/title": "ダウンロード中 ({{progressPercentile}}%)",
+  "failedToStartDownload": "ダウンロード開始に失敗しました",
 
   "feed.action.refresh": "フィードを更新"
 }
