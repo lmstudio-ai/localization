@@ -1,21 +1,43 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "展開中...",
-  "finalizing": "ダウンロードの最終処理中...（しばらくお待ちください）",
-  "noOptions": "利用可能な互換性のあるオプションがありません",
+  "postDownloadActionExecutor.zipExtraction/status": "ファイルを解凍中...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "ファイルを解凍中...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "ファイルを解凍中...",
+  "postDownloadActionExecutor.modifyModelData/status": "モデルデータを更新中...",
+  "postDownloadActionExecutor.notification/status": "ユーザーに通知中...",
+  "postDownloadActionExecutor.writeString/status": "メタデータを書き込み中...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "選択したバージョンを更新中...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "未使用の拡張機能を削除中...",
+  "postDownloadActionExecutor.pluginInstall/status": "プラグインをインストール中...",
+  "postDownloadActionExecutor.pluginUninstall/status": "プラグインをアンインストール中...",
+
+  "finalizing": "ダウンロードを最終化中... (しばらくお待ちください)",
+  "noOptions": "ダウンロード可能な互換オプションがありません",
+
   "deeplink/confirmation/title": "Hugging Face 🤗 からモデルをダウンロード",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "推奨オプションを選択",
+  "deeplink/confirmation/selectRecommended": "推奨を選択",
   "deeplink/confirmation/selectOption": "ダウンロードオプションを選択",
-  "deeplink/confirmation/recommendedOption": "ほとんどのユーザーに最適と思われるオプション",
+  "deeplink/confirmation/recommendedOption": "おそらくほとんどのユーザーにとって最良のオプション",
   "deeplink/confirmation/downloadButton": "ダウンロード",
-  "deeplink/confirmation/nevermindButton": "やっぱりやめる",
-  "deeplink/confirmation/modelPresent/title": "Hugging Faceモデルが見つかりました ✅",
-  "deeplink/confirmation/modelPresent/body": "良いニュースです！このモデルファイルは既にローカルマシンに存在しています。",
-  "deeplink/confirmation/loadInChat": "{{ modelName }} を新しいチャットに読み込む",
-  "deeplink/error/modelNotFound/title": "モデルが見つかりませんでした",
-  "deeplink/error/modelNotFound/body": "モデル名をもう一度確認し、別のダウンロードオプションを試してみてください。",
-  "deeplink/actions/trySearching": "{{modelName}} をHugging Faceで検索してみる",
+  "deeplink/confirmation/nevermindButton": "気にしない",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face でモデルが見つかりました ✅",
+  "deeplink/confirmation/modelPresent/body": "良いニュースです！このモデルファイルはすでにローカルマシンにあります。",
+  "deeplink/confirmation/loadInChat": "新しいチャットで {{ modelName }} を読み込む",
+  "deeplink/error/modelNotFound/title": "Ruh roh, このモデルを見つけられませんでした",
+  "deeplink/error/modelNotFound/body": "モデル名を再確認し、別のダウンロードオプションを試してみてください。",
+  "deeplink/actions/trySearching": "Hugging Face で {{modelName}} を検索してみてください",
+
   "downloadsPanel/title": "ダウンロード",
   "downloadsPanel/sectionTitle/ongoing": "進行中",
-  "downloadsPanel/sectionTitle/completed": "完了"
+  "downloadsPanel/sectionTitle/completed": "完了",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finderで表示",
+      "mac/error": "Finderで表示できませんでした",
+      "nonMac": "ファイルエクスプローラーで表示",
+      "nonMac/error": "ファイルエクスプローラーで表示できませんでした"
+    },
+    "completed": "ダウンロード完了",
+    "loadModel": "モデルを読み込む"
+  }
 }
