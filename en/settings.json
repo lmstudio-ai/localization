@@ -92,6 +92,7 @@
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
+  "modelLoadingLabel": "Model Load Settings",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
@@ -191,5 +192,19 @@
       "warnDescription": "Disabling tool call confirmations is dangerous. If any of your plugins contributed a tool that has the potential to perform destructive actions (such as running a command, deleting files, overwriting files, uploading files, etc), the model will be able to do so without any confirmation. You can always disable confirmations on a per-tool or even per-plugin basis. Enabling this option is NOT recommended. Please be careful.",
       "warnButton": "I understand the risks"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "Default Context Length",
+    "maxTitle": "Use maximum",
+    "customTitle": "Custom value",
+    "maxSubtitle": "Use the maximum context length supported by each model.",
+    "customSubtitle": "Use a custom length or the model's maximum, whichever is lower.",
+    "invalidNaNError": "Invalid context length value. Using {value}",
+    "invalidRangeError": "Invalid context length value. Should be in the range of 1 and 2^30. Using {value}",
+    "largeContextWarning": "Setting a context length above 8000 may cause performance issues."
+  },
+  "jitTTL": {
+    "subtitle": "JIT-loaded models will be automatically unloaded after being idle for the specified duration."
   }
 }
