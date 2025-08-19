@@ -92,7 +92,7 @@
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
-  "modelLoadingLabel": "Model Load Settings",
+  "modelDefaultsLabel": "Model Defaults",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
@@ -196,13 +196,13 @@
 
   "defaultContextLength": {
     "label": "Default Context Length",
-    "maxTitle": "Use maximum",
+    "maxTitle": "Model Maximum",
     "customTitle": "Custom value",
     "maxSubtitle": "Use the maximum context length supported by each model.",
-    "customSubtitle": "Use a custom length or the model's maximum, whichever is lower.",
-    "invalidNaNError": "Invalid context length value. Using {value}",
-    "invalidRangeError": "Invalid context length value. Should be in the range of 1 and 2^30. Using {value}",
-    "largeContextWarning": "Setting a context length above 8000 may cause performance issues."
+    "customSubtitle": "Set the default context length for loading new models. If the model's supported maximum context length is lower, that value will be used.",
+    "invalidNaNError": "Invalid context length value. Using {{value}}",
+    "invalidRangeError": "Invalid context length value. Should be in the range of 1 and 2^30. Using {{value}}",
+    "largeContextWarning": "The higher the context length, the more memory the model will take. If you are unsure, don't change the default"
   },
   "jitTTL": {
     "subtitle": "JIT-loaded models will be automatically unloaded after being idle for the specified duration."
