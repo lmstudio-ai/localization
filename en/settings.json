@@ -92,7 +92,7 @@
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
-  "modelLoadingLabel": "Model Load Settings",
+  "modelDefaultsLabel": "Model Defaults",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
