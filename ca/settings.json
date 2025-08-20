@@ -58,6 +58,7 @@
   "chat/alwaysShowPromptTemplate": "Mostra sempre una plantilla de prompt a la barra lateral del Xat",
   "chat/highlightChatMessageOnHover": "Remarca els missatges dels xats al passar per sobre",
   "chat/doubleClickMessageToEdit": "Fes doble clic a un missatge per editar-lo",
+
   "chat/aiNaming/label": "Anomenar els Xats amb IA",
   "chat/aiNaming/mode/label": "Noms dels Xats Generats amb IA",
   "chat/aiNaming/mode/value/never": "Mai",
@@ -91,6 +92,7 @@
   "changeLanguageLabel": "Selecciona l'idioma de l'app (en desenvolupament)",
   "developerLabel": "Desenvolupador",
   "localServiceLabel": "Servei Local LLM (headless)",
+  "modelDefaultsLabel": "Configuració per Defecte del Model",
   "showExperimentalFeaturesLabel": "Mostra característiques experimentals",
   "appFirstLoadLabel": "Experiència de primer inici de l'app",
   "showDebugInfoBlocksInChatLabel": "Mostra blocs de depuració al xat",
@@ -184,11 +186,25 @@
   "toolConfirmation": {
     "label": "Confirmació d'Ús d'Eines",
     "neverAsk": {
-      "label": "No demanis permís mai abans d'executar eines (NO RECOMANAT)",
-      "hint": "Desactiva la confirmació abans d'executar una eina. No es recomana.",
+      "label": "No demanis mai permís abans d'utilitzar eines (NO RECOMANAT)",
+      "hint": "Desactiva la confirmació abans d'utilitzar una eina. No es recomana activar-ho.",
       "warnTitle": "Estàs segur?",
       "warnDescription": "Desactivar les confirmacions a l'hora d'usar eines és perillós. Si un dels teus plugins ha contribuït a una eina que té el potencial de portar a terme accions destructives (com executar ordres al terminal, eliminar fitxers, sobreescriure fitxers, pujar fitxers, etc.), el model serà capaç de fer tot això sense demanar-te permís. Sempre podràs desactivar les confirmacions individualment per a cadascuna de les eines o dels plugins. NO es recomana activar aquesta opció. Si us plau, sigues curós.",
       "warnButton": "Entenc els riscos"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "Llargada del Context per Defecte",
+    "maxTitle": "Màxim del Model",
+    "customTitle": "Valor personalitzat",
+    "maxSubtitle": "Utilitza la llargada de context màxima que suporti cada model.",
+    "customSubtitle": "Estableix la llargada del context a l'hora de carregar nous models. Si la llargada del context màxima suportada pel model és inferior, s'ignorarà el teu valor.",
+    "invalidNaNError": "Valor per la llargada del context invàl·lida. Utilitzant {{value}}",
+    "invalidRangeError": "Valor per la llargada del context invàl·lida. Ha d'estar entre 1 i 2^30. Utilitzant {{value}}",
+    "largeContextWarning": "Contra més llarg sigui el context, més ocuparà a la memòria. Si no estàs segur, deixa el valor per defecte."
+  },
+  "jitTTL": {
+    "subtitle": "Els models carregats amb JIT es descarregaran automàticament després d'estar en repòs durant el temps especificat."
   }
 }
