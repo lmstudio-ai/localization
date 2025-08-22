@@ -31,12 +31,19 @@
     "sampling/title": "Amostragem",
     "settings/title": "Configurações",
     "toolUse/title": "Uso de Ferramentas",
-    "promptTemplate/title": "Modelo de Prompt"
+    "promptTemplate/title": "Modelo de Prompt",
+    "customFields/title": "Campos Personalizados"
   },
 
   "llm.prediction.systemPrompt/title": "Prompt de Sistema",
   "llm.prediction.systemPrompt/description": "Use este campo para fornecer instruções de base ao modelo, como regras, restrições ou requisitos gerais.",
   "llm.prediction.systemPrompt/subTitle": "Diretrizes para a IA",
+  "llm.prediction.systemPrompt/openEditor": "Editor",
+  "llm.prediction.systemPrompt/closeEditor": "Fechar Editor",
+  "llm.prediction.systemPrompt/openedEditor": "Aberto no Editor...",
+  "llm.prediction.systemPrompt/edit": "Editar Prompt de Sistema...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "Adicionar instruções...",
+  "llm.prediction.systemPrompt/addInstructions": "Adicionar instruções",
   "llm.prediction.temperature/title": "Temperatura",
   "llm.prediction.temperature/subTitle": "Define o nível de aleatoriedade. 0 sempre produzirá o mesmo resultado, enquanto valores mais altos aumentam a criatividade e a variação.",
   "llm.prediction.temperature/info": "Da documentação do llama.cpp: \"O valor padrão é <{{dynamicValue}}>, que oferece um equilíbrio entre aleatoriedade e determinismo. No extremo, uma temperatura de 0 sempre escolherá o token mais provável, resultando em saídas idênticas a cada execução.\"",
@@ -110,6 +117,20 @@
   "llm.prediction.speculativeDecoding.draftModel/title": "Modelo de Rascunho",
   "llm.prediction.reasoning.parsing/title": "Análise da Seção de Raciocínio",
   "llm.prediction.reasoning.parsing/subTitle": "Como analisar seções de raciocínio na saída do modelo.",
+
+  "llm.load.mainGpu/title": "GPU Principal",
+  "llm.load.mainGpu/subTitle": "A GPU a ser priorizada para o processamento do modelo",
+  "llm.load.mainGpu/placeholder": "Selecione a GPU principal...",
+  "llm.load.splitStrategy/title": "Estratégia de Divisão",
+  "llm.load.splitStrategy/subTitle": "Como dividir o processamento do modelo entre as GPUs",
+  "llm.load.splitStrategy/placeholder": "Selecione a estratégia de divisão...",
+  "llm.load.offloadKVCacheToGpu/title": "Descarregar Cache KV para a Memória da GPU",
+  "llm.load.offloadKVCacheToGpu/subTitle": "Descarrega o cache KV para a memória da GPU. Melhora o desempenho, mas requer mais memória da GPU",
+  "load.gpuStrictVramCap/title": "Limitar Descarregamento do Modelo à Memória Dedicada da GPU",
+  "load.gpuStrictVramCap.customSubTitleOff": "DESLIGADO: Permite que os pesos do modelo sejam descarregados para a memória compartilhada se a memória dedicada da GPU estiver cheia",
+  "load.gpuStrictVramCap.customSubTitleOn": "LIGADO: O sistema limitará o descarregamento dos pesos do modelo apenas à memória dedicada da GPU e à RAM. O contexto ainda pode usar a memória compartilhada",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "Descarregamento do modelo limitado à memória dedicada da GPU. O número real de camadas descarregadas pode ser diferente",
+  "load.allGpusDisabledWarning": "Todas as GPUs estão desativadas. Ative pelo menos uma para permitir o descarregamento",
 
   "llm.load.contextLength/title": "Tamanho do Contexto",
   "llm.load.contextLength/subTitle": "O número máximo de tokens que o modelo pode processar de uma vez. Veja as opções de Excesso de Contexto para mais formas de gerenciar isso.",
@@ -219,7 +240,10 @@
     "legacy/description": "Esta é uma predefinição legada. Ela inclui campos que agora são gerenciados automaticamente ou não são mais aplicáveis.",
     "button/publish": "Publicar no Hub",
     "button/pushUpdate": "Enviar Alterações para o Hub",
-    "button/export": "Exportar"
+    "button/noChangesToPush": "Nenhuma alteração para enviar",
+    "button/export": "Exportar",
+    "hubLabel": "Predefinição do Hub por {{user}}",
+    "ownHubLabel": "Sua predefinição do Hub"
   },
 
   "customInputs": {
@@ -281,7 +305,7 @@
       "max": "MÁX.",
       "off": "DESL."
     },
-    "llamaAccelerationSplitStrategy": {
+    "gpuSplitStrategy": {
       "evenly": "Dividir Igualmente",
       "favorMainGpu": "Priorizar GPU Principal"
     },
@@ -378,10 +402,12 @@
     "discardChanges/info": "Descarta todas as alterações não salvas e restaura a predefinição ao seu estado original.",
     "newEmptyPreset": "+ Nova Predefinição",
     "importPreset": "Importar",
+    "contextMenuCopyIdentifier": "Copiar Identificador da Predefinição",
     "contextMenuSelect": "Aplicar Predefinição",
     "contextMenuDelete": "Excluir...",
     "contextMenuShare": "Publicar...",
     "contextMenuOpenInHub": "Ver no Hub",
+    "contextMenuPullFromHub": "Puxar Versão Mais Recente",
     "contextMenuPushChanges": "Enviar alterações para o Hub",
     "contextMenuPushingChanges": "Enviando...",
     "contextMenuPushedChanges": "Alterações enviadas",
@@ -405,7 +431,11 @@
       "pushedToHub": "Sua predefinição foi enviada para o Hub",
       "descriptionPlaceholder": "Digite uma descrição...",
       "willBePublic": "Publicar sua predefinição a tornará pública.",
+      "willBePrivate": "Apenas você poderá ver esta predefinição",
+      "willBeOrgVisible": "Esta predefinição será visível para todos na organização.",
       "publicSubtitle": "Sua predefinição é <custom-bold>Pública</custom-bold>. Outros poderão baixá-la e fazer fork em lmstudio.ai.",
+      "privateUsageReached": "Limite de predefinições privadas atingido.",
+      "continueInBrowser": "Continuar no Navegador",
       "confirmShareButton": "Publicar",
       "error": "Falha ao publicar predefinição.",
       "createFreeAccount": "Crie uma conta gratuita no Hub para publicar predefinições."
@@ -419,8 +449,46 @@
       "loading": "Enviando...",
       "cancel": "Cancelar",
       "createFreeAccount": "Crie uma conta gratuita no Hub para publicar predefinições.",
-      "error": "Falha ao enviar atualização.",
+      "error": "Falha ao enviar atualização",
       "confirmUpdateButton": "Enviar"
+    },
+    "resolve": {
+      "title": "Resolver conflitos...",
+      "tooltip": "Abre um pop-up para resolver as diferenças com a versão do Hub"
+    },
+    "loginToManage": {
+      "title": "Faça login para gerenciar..."
+    },
+    "downloadFromHub": {
+      "title": "Baixar",
+      "downloading": "Baixando...",
+      "success": "Baixado!",
+      "error": "Falha ao baixar"
+    },
+    "push": {
+      "title": "Enviar alterações",
+      "pushing": "Enviando...",
+      "success": "Enviado",
+      "tooltip": "Envie suas alterações locais para a versão remota hospedada no Hub",
+      "error": "Falha ao enviar"
+    },
+    "saveAsNewModal": {
+      "title": "Opa! Não foi possível encontrar a predefinição no Hub",
+      "confirmSaveAsNewDescription": "Você deseja publicar esta predefinição como uma nova?",
+      "confirmButton": "Publicar como Nova"
+    },
+    "pull": {
+      "title": "Pull Latest",
+      "error": "Falha ao puxar",
+      "contextMenuErrorMessage": "Falha ao puxar",
+      "success": "Pulled",
+      "pulling": "Pulling...",
+      "upToDate": "Up to date!",
+      "unsavedChangesModal": {
+        "title": "Você tem alterações não salvas.",
+        "bodyContent": "Puxar da versão remota irá sobrescrever suas alterações não salvas. Continuar?",
+        "confirmButton": "Sobrescrever Alterações Não Salvas"
+      }
     },
     "import": {
       "title": "Importar Predefinição de um Arquivo",
@@ -488,24 +556,59 @@
   "ropeFrequencyScaleUncheckedHint": "Automático",
 
   "hardware": {
-    "advancedGpuSettings": "Configurações Avançadas de GPU",
-    "advancedGpuSettings.info": "Se não tiver certeza, mantenha os valores padrão.",
-    "advancedGpuSettings.reset": "Redefinir para Padrão",
-    "environmentVariables": {
-      "title": "Variáveis de Ambiente",
-      "description": "Variáveis de ambiente ativas durante a vida útil do modelo.",
-      "key.placeholder": "Selecionar var...",
-      "value.placeholder": "Valor"
+    "environmentVariables": "Variáveis de Ambiente",
+    "environmentVariables.info": "Se não tiver certeza, mantenha os valores padrão",
+    "environmentVariables.reset": "Redefinir para o padrão",
+
+    "gpus.information": "Configure as unidades de processamento gráfico (GPUs) detectadas em sua máquina",
+    "gpuSettings": {
+      "editMaxCapacity": "Editar Capacidade Máxima",
+      "hideEditMaxCapacity": "Ocultar Edição de Capacidade Máxima",
+      "allOffWarning": "Todas as GPUs estão desligadas ou desativadas. Certifique-se de que haja alguma alocação de GPU para permitir o carregamento de modelos",
+      "split": {
+        "title": "Estratégia",
+        "placeholder": "Selecione uma alocação de memória da GPU",
+        "options": {
+          "generalDescription": "Configure como os modelos serão carregados em suas GPUs",
+          "evenly": {
+            "title": "Dividir igualmente",
+            "description": "Alocar memória igualmente entre as GPUs"
+          },
+          "priorityOrder": {
+            "title": "Ordem de prioridade",
+            "description": "Arraste para reordenar a prioridade. O sistema tentará alocar mais nas GPUs listadas primeiro"
+          },
+          "custom": {
+            "title": "Personalizado",
+            "description": "Alocar memória",
+            "maxAllocation": "Alocação Máxima"
+          }
+        }
+      },
+      "deviceId.info": "Identificador único para este dispositivo",
+      "changesOnlyAffectNewlyLoadedModels": "As alterações afetarão apenas os modelos recém-carregados",
+      "toggleGpu": "Ativar/Desativar GPU"
+    }
+  },
+
+  "load.gpuSplitConfig/title": "Configuração de Divisão da GPU",
+  "envVars/title": "Definir uma Variável de Ambiente",
+  "envVars": {
+    "select": {
+      "placeholder": "Selecione uma variável de ambiente...",
+      "noOptions": "Nenhuma outra disponível",
+      "filter": {
+        "placeholder": "Filtrar resultados da busca",
+        "resultsFound_zero": "Nenhum resultado encontrado",
+        "resultsFound_one": "1 resultado encontrado",
+        "resultsFound_other": "{{count}} resultados encontrados"
+      }
     },
-    "mainGpu": {
-      "title": "GPU Principal",
-      "description": "A GPU a ser priorizada para o processamento do modelo.",
-      "placeholder": "Selecionar GPU principal..."
+    "inputValue": {
+      "placeholder": "Insira um valor"
     },
-    "splitStrategy": {
-      "title": "Estratégia de Divisão",
-      "description": "Como dividir o processamento do modelo entre as GPUs.",
-      "placeholder": "Selecionar estratégia de divisão..."
+    "values": {
+      "title": "Valores Atuais"
     }
   }
 }
