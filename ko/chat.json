@@ -41,6 +41,7 @@
   "actions/sendMessage/error": "메시지 전송 실패",
   "actions/loadModel/error": "🥲 모델 로드 실패",
   "actions/addFile": "[실험적] 이 메시지에 파일 첨부\n(.pdf, 일반 텍스트, 또는 .docx)",
+  "actions/addFile/label": "파일 첨부",
   "actions/changeRole": "사용자와 어시스턴트 역할 전환.\n\n대화 방향을 특정 방향으로 유도하는 데 유용합니다.\n\n'소수 샷 학습' 또는 '문맥 내 학습' 시나리오 구성에 사용 가능",
   "actions/addImage": "이미지 추가",
   "actions/deleteMessage": "메시지 삭제",
@@ -88,6 +89,9 @@
   "actions/createChatAtRoot/error": "루트에서 채팅 생성 실패",
   "actions/createFolderAtRoot": "새 폴더 만들기",
   "actions/createFolderAtRoot/error": "루트에서 폴더 생성 실패",
+  "actions/openInFolder/mac": "Finder에서 보기",
+  "actions/openInFolder/pc": "파일 탐색기에서 보기",
+
   "actions/createChat/error": "채팅 생성 실패",
   "actions/deleteChat/errorTitle": "채팅 삭제 실패",
 
@@ -134,6 +138,13 @@
   "style/thinkingUI/label": "추론 블록을 기본적으로 확장",
   "style/chatFullWidth/label": "채팅 컨테이너를 창 너비에 맞게 확장",
 
+  "style/chatUtilityMenusShowLabel/label": "채팅 유틸리티 메뉴 레이블 표시",
+
+  "speculativeDecodingVisualization/toggle": "수락된 초안 토큰 시각화",
+  "speculativeDecodingVisualization/fromDraftModel_one": "수락된 초안 토큰",
+  "speculativeDecodingVisualization/fromDraftModel_other": "수락된 초안 토큰들",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "초안 토큰 시각화 시 보기 모드 선택이 비활성화됩니다.",
+
   "messageBlocks": {
     "expandBlockTooltip": "콘텐츠 확장",
     "collapseBlockTooltip": "콘텐츠 접기",
@@ -144,7 +155,10 @@
     }
   },
 
-  "topBarActions/duplicateChat": "채팅 복제",
+  "chatTabOptions/clearAllMessages": "모든 메시지 지우기...",
+  "chatTabOptions/duplicateChat": "채팅 복제",
+
+  "topBarActions/duplicateChat": "복제",
   "topBarActions/clearChat": "모든 메시지 지우기",
   "topBarActions/clearChatConfirmation": "이 채팅의 모든 메시지를 지우시겠습니까?",
   "topBarActions/clearChatCancel": "취소",
@@ -177,7 +191,8 @@
         "placeholder": "생성한 플러그인이 여기에 표시됩니다"
       },
       "startRunningDevelopmentPlugin/error": "개발 모드에서 플러그인 실행 시작 실패",
-      "stopRunningDevelopmentPlugin/error": "개발 모드에서 플러그인 실행 중지 실패"
+      "stopRunningDevelopmentPlugin/error": "개발 모드에서 플러그인 실행 중지 실패",
+      "forceReInitPlugin/error": "플러그인 재시작 실패"
     },
     "pluginConfiguration": {
       "title": "플러그인 구성",
@@ -201,7 +216,11 @@
         "revealInFinder": "Finder에서 보기",
         "openInFileExplorer": "파일 탐색기에서 열기"
       }
-    }
+    },
+    "localFork": {
+      "error": "플러그인의 로컬 개발 복사본 생성에 실패했습니다."
+    },
+    "restartErrorPlugin/error": "플러그인 재시작에 실패했습니다"
   },
 
   "genInfo": {
@@ -219,5 +238,9 @@
     "stopReason.contextLengthReached": "컨텍스트 길이 제한 도달",
     "speculativeDecodedBy": "초안 모델: {{decodedBy}}",
     "speculativeDecodingStats": "{{total}}개 중 {{accepted}}개의 초안 토큰 수락 ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "시스템 프롬프트 편집 중"
   }
 }
