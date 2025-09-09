@@ -280,6 +280,10 @@
       "max": "الحد الأقصى",
       "off": "إيقاف"
     },
+    "gpuSplitStrategy": {
+      "evenly": "بالتساوي",
+      "favorMainGpu": "تفضيل GPU الرئيسي"
+    },
     "llamaAccelerationSplitStrategy": {
       "evenly": "بالتساوي",
       "favorMainGpu": "تفضيل GPU الرئيسي"
