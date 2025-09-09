@@ -23,6 +23,7 @@
   "download.option.recommended/description": "بناءً على عتادك، هذا الخيار موصى به.",
   "download.option.downloaded/title": "تم التحميل",
   "download.option.downloading/title": "جارٍ التحميل ({{progressPercentile}}%)",
+  "failedToStartDownload": "فشل في بدء التحميل",
 
   "feed.action.refresh": "تحديث التغذية"
 }
