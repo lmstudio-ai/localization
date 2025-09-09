@@ -87,6 +87,16 @@
   "contextMenu.pullLatest.upToDate": "محدث",
   "contextMenu.pullLatest.error": "فشل في البحث عن التحديثات",
   "contextMenu.showOnWeb": "عرض على الويب",
+
+  "contextMenu": {
+    "showOnWeb": "عرض على الويب",
+    "pullLatest": {
+      "label": "سحب الأحدث",
+      "checking": "البحث عن تحديثات...",
+      "upToDate": "محدث",
+      "error": "فشل في البحث عن التحديثات"
+    }
+  },
   "tooltip/moreActions": "المزيد من الإجراءات",
   "tooltip/getInfo": "الحصول على المعلومات",
   "tooltip/editModelDefaultConfig": "تحرير الإعدادات الافتراضية للنموذج",
@@ -115,5 +125,22 @@
   "virtual.local.modelKey.normalized": "سيتم تطبيع مفتاح النموذج الخاص بك إلى: {{normalized}}",
   "virtual.local.next": "التالي",
   "virtual.local.confirm": "إنشاء",
-  "virtual.local.error": "فشل في إنشاء النموذج الافتراضي"
+  "virtual.local.error": "فشل في إنشاء النموذج الافتراضي",
+
+  "virtual": {
+    "local": {
+      "create": "إنشاء نموذج افتراضي",
+      "title": "إنشاء نموذج افتراضي محلي",
+      "description": "إنشاء نموذج افتراضي عن طريق جمع نموذج مع مجموعة من الإعدادات. لن يتم تكرار الأوزان الأساسية.",
+      "modelKey.label": "مفتاح النموذج",
+      "modelKey.placeholder": "أدخل مفتاح نموذج فريد",
+      "modelKey.normalized": "سيتم تطبيع مفتاح النموذج الخاص بك إلى: {{normalized}}",
+      "baseModel.label": "النموذج الأساسي",
+      "baseModel.placeholder": "اختر نموذجاً أساسياً",
+      "baseModel.empty": "قم بتحميل نموذج لاستخدامه كنموذج أساسي",
+      "next": "التالي",
+      "confirm": "إنشاء",
+      "error": "فشل في إنشاء النموذج الافتراضي"
+    }
+  }
 }
