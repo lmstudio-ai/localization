@@ -1,5 +1,4 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "جارٍ الاستخراج...",
   "finalizing": "جارٍ إنهاء التحميل... (قد يستغرق هذا بضع لحظات)",
   "noOptions": "لا تتوفر خيارات متوافقة للتحميل",
   
@@ -19,6 +18,23 @@
 
   "downloadsPanel/title": "التحميلات",
   "downloadsPanel/sectionTitle/ongoing": "جارية",
-  "downloadsPanel/sectionTitle/completed": "مكتملة"
+  "downloadsPanel/sectionTitle/completed": "مكتملة",
+  "downloadsPanel.completed": "تم التحميل",
+  "downloadsPanel.loadModel": "تحميل النموذج",
+  "downloadsPanel.reveal.mac": "إظهار في Finder",
+  "downloadsPanel.reveal.mac/error": "فشل في الإظهار في Finder",
+  "downloadsPanel.reveal.nonMac": "إظهار في مستكشف الملفات",
+  "downloadsPanel.reveal.nonMac/error": "فشل في الإظهار في مستكشف الملفات",
+
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "حذف الإضافات غير المستخدمة...",
+  "postDownloadActionExecutor.modifyModelData/status": "تحديث بيانات النموذج...",
+  "postDownloadActionExecutor.notification/status": "إشعار المستخدم...",
+  "postDownloadActionExecutor.pluginInstall/status": "تثبيت الإضافة...",
+  "postDownloadActionExecutor.pluginUninstall/status": "إلغاء تثبيت الإضافة...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "استخراج الملفات...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "استخراج الملفات...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "تحديث الإصدار المحدد...",
+  "postDownloadActionExecutor.writeString/status": "كتابة البيانات الوصفية...",
+  "postDownloadActionExecutor.zipExtraction/status": "جارٍ الاستخراج..."
 }
   
