@@ -31,7 +31,28 @@
     "sampling/title": "أخذ العينات",
     "settings/title": "الإعدادات",
     "toolUse/title": "استخدام الأدوات",
-    "promptTemplate/title": "قالب الموجه"
+    "promptTemplate/title": "قالب الموجه",
+    "customFields/title": "حقول مخصصة"
+  },
+
+  "envVars/title": "تعيين متغير بيئة",
+  "envVars": {
+    "inputValue": {
+      "placeholder": "أدخل قيمة"
+    },
+    "select": {
+      "filter": {
+        "placeholder": "تصفية نتائج البحث",
+        "resultsFound_zero": "لا توجد نتائج",
+        "resultsFound_one": "تم العثور على نتيجة واحدة",
+        "resultsFound_other": "تم العثور على {{count}} نتائج"
+      },
+      "noOptions": "لا توجد المزيد من الخيارات",
+      "placeholder": "اختر متغير بيئة..."
+    },
+    "values": {
+      "title": "القيم الحالية"
+    }
   },
 
   "llm.prediction.systemPrompt/title": "موجه النظام",
@@ -498,7 +519,42 @@
       "title": "متغيرات البيئة",
       "description": "متغيرات البيئة النشطة خلال حياة النموذج.",
       "key.placeholder": "اختر متغير...",
-      "value.placeholder": "القيمة"
+      "value.placeholder": "القيمة",
+      "info": "إذا كنت غير متأكد، اترك هذه في قيمها الافتراضية",
+      "reset": "إعادة تعيين إلى الافتراضي"
+    },
+    "gpuSettings": {
+      "allOffWarning": "جميع GPUs متوقفة أو معطلة، تأكد من وجود بعض تخصيص GPU لتمكين تحميل النماذج",
+      "changesOnlyAffectNewlyLoadedModels": "ستؤثر التغييرات فقط على النماذج المحملة حديثاً",
+      "deviceId": {
+        "info": "معرف فريد لهذا الجهاز"
+      },
+      "editMaxCapacity": "تحرير الحد الأقصى للسعة",
+      "hideEditMaxCapacity": "إخفاء تحرير الحد الأقصى للسعة",
+      "split": {
+        "options": {
+          "custom": {
+            "description": "تخصيص الذاكرة",
+            "maxAllocation": "الحد الأقصى للتخصيص",
+            "title": "مخصص"
+          },
+          "evenly": {
+            "description": "تخصيص الذاكرة بالتساوي عبر GPUs",
+            "title": "تقسيم بالتساوي"
+          },
+          "generalDescription": "تكوين كيفية تحميل النماذج على GPUs الخاصة بك",
+          "priorityOrder": {
+            "description": "اسحب لإعادة ترتيب الأولوية. سيحاول النظام تخصيص المزيد على GPUs المدرجة أولاً",
+            "title": "ترتيب الأولوية"
+          }
+        },
+        "placeholder": "اختر تخصيص ذاكرة GPU",
+        "title": "الإستراتيجية"
+      },
+      "toggleGpu": "تمكين/تعطيل GPU"
+    },
+    "gpus": {
+      "information": "تكوين وحدات معالجة الرسوميات (GPUs) المكتشفة على جهازك"
     },
     "mainGpu": {
       "title": "GPU الرئيسي",
