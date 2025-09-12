@@ -31,8 +31,274 @@
     "retry": "다시 시도"
   },
   "artifacts": {
-    "fetchError": "아티팩트 가져오기 실패"
+    "fetchError": "아티팩트 가져오기 실패",
+    "organizationVisible": "조직에 표시됨"
   },
   "incompatible": "호환되지 않음",
-  "compatible": "호환됨"
+  "compatible": "호환됨",
+
+  "public": "공개",
+  "private": "비공개",
+  "yes": "예",
+  "no": "아니오",
+  "go": "이동",
+
+  "proceedWithEllipsis": "계속...",
+  "proceed": "계속",
+  "inProgress": "진행 중...",
+  "failed": "실패",
+  "pending": "대기 중",
+  "doneWithExclamation": "완료!",
+  "done": "완료",
+
+  "back": {
+    "back": "뒤로",
+    "backWithEllipsis": "뒤로..."
+  },
+
+  "cancel": {
+    "cancel": "취소",
+    "cancelWithEllipsis": "취소...",
+    "canceled": "취소됨",
+    "canceling": "취소 중",
+    "cancelingWithEllipsis": "취소 중..."
+  },
+
+  "close": {
+    "close": "닫기",
+    "closeWithEllipsis": "닫기...",
+    "closed": "닫힘",
+    "closedWithExclamation": "닫힘!",
+    "closing": "닫는 중",
+    "closingWithEllipsis": "닫는 중..."
+  },
+
+  "configure": {
+    "configure": "구성",
+    "configureWithEllipsis": "구성...",
+    "configured": "구성됨",
+    "configuringWithEllipsis": "구성 중..."
+  },
+
+  "letsGo": {
+    "letsGo": "시작하기",
+    "letsGoWithEllipsis": "시작하기...",
+    "letsGoWithExclamation": "시작하기!"
+  },
+
+  "pause": {
+    "pause": "일시 정지",
+    "paused": "일시 정지됨",
+    "pausing": "일시 정지 중",
+    "pausingWithEllipsis": "일시 정지 중..."
+  },
+
+  "resume": {
+    "resume": "재시작",
+    "resumeWithEllipsis": "재시작...",
+    "resuming": "재시작 중",
+    "resumingWithEllipsis": "재시작 중..."
+  },
+
+  "run": {
+    "run": "실행",
+    "runWithEllipsis": "실행...",
+    "running": "실행 중",
+    "runningWithEllipsis": "실행 중..."
+  },
+
+  "saveAs": {
+    "saveAs": "다른 이름으로 저장",
+    "saveAsWithEllipsis": "다른 이름으로 저장..."
+  },
+
+  "saveAsNew": {
+    "saveAsNew": "새로 저장",
+    "saveAsNewWithEllipsis": "새로 저장..."
+  },
+
+  "search": {
+    "search": "검색",
+    "searchWithEllipsis": "검색...",
+    "searching": "검색 중",
+    "searchingWithEllipsis": "검색 중..."
+  },
+
+  "next": {
+    "next": "다음",
+    "nextWithEllipsis": "다음..."
+  },
+
+  "complete": {
+    "complete": "완료",
+    "completeWithEllipsis": "완료...",
+    "completed": "완료됨",
+    "completedWithExclamation": "완료됨!",
+    "completing": "완료 중",
+    "completingWithEllipsis": "완료 중..."
+  },
+
+  "confirm": {
+    "confirm": "확인",
+    "confirmed": "확인됨",
+    "confirmedWithExclamation": "확인됨!",
+    "confirming": "확인 중",
+    "confirmingWithEllipsis": "확인 중..."
+  },
+
+  "copy": {
+    "copy": "복사",
+    "copyWithEllipsis": "복사...",
+    "copying": "복사 중",
+    "copyingWithEllipsis": "복사 중...",
+    "copied": "복사됨",
+    "copiedWithExclamation": "복사됨!"
+  },
+
+  "create": {
+    "create": "생성",
+    "createWithEllipsis": "생성...",
+    "created": "생성됨",
+    "createdWithExclamation": "생성됨!",
+    "creating": "생성 중",
+    "creatingWithEllipsis": "생성 중..."
+  },
+
+  "delete": {
+    "delete": "삭제",
+    "deleteWithEllipsis": "삭제...",
+    "deleted": "삭제됨",
+    "deletedWithExclamation": "삭제됨!",
+    "deleting": "삭제 중",
+    "deletingWithEllipsis": "삭제 중..."
+  },
+
+  "download": {
+    "download": "다운로드",
+    "downloaded": "다운로드됨",
+    "downloadedWithExclamation": "다운로드됨!",
+    "downloading": "다운로드 중",
+    "downloadingWithEllipsis": "다운로드 중..."
+  },
+
+  "edit": {
+    "edit": "편집",
+    "editWithEllipsis": "편집...",
+    "edited": "편집됨",
+    "editedWithExclamation": "편집됨!",
+    "editing": "편집 중",
+    "editingWithEllipsis": "편집 중..."
+  },
+
+  "import": {
+    "import": "가져오기",
+    "importWithEllipsis": "가져오기...",
+    "imported": "가져옴",
+    "importedWithExclamation": "가져옴!",
+    "importing": "가져오는 중",
+    "importingWithEllipsis": "가져오는 중..."
+  },
+
+  "load": {
+    "load": "로드",
+    "loadWithEllipsis": "로드...",
+    "loaded": "로드됨",
+    "loadedWithExclamation": "로드됨!",
+    "loading": "로드 중",
+    "loadingWithEllipsis": "로드 중..."
+  },
+
+  "publish": {
+    "publish": "게시",
+    "publishWithEllipsis": "게시...",
+    "published": "게시됨",
+    "publishedWithExclamation": "게시됨!",
+    "publishing": "게시 중",
+    "publishingWithEllipsis": "게시 중..."
+  },
+
+  "refresh": {
+    "refresh": "새로 고침",
+    "refreshWithEllipsis": "새로 고침...",
+    "refreshed": "새로 고쳐짐",
+    "refreshedWithExclamation": "새로 고쳐짐!",
+    "refreshing": "새로 고침 중",
+    "refreshingWithEllipsis": "새로 고침 중..."
+  },
+
+  "remove": {
+    "remove": "제거",
+    "removeWithEllipsis": "제거...",
+    "removed": "제거됨",
+    "removedWithExclamation": "제거됨!",
+    "removing": "제거 중",
+    "removingWithEllipsis": "제거 중..."
+  },
+
+  "reset": {
+    "reset": "재설정",
+    "resetWithEllipsis": "재설정...",
+    "resetting": "재설정 중",
+    "resettingWithEllipsis": "재설정 중..."
+  },
+
+  "retry": {
+    "retry": "재시도",
+    "retryWithEllipsis": "재시도...",
+    "retrying": "재시도 중",
+    "retryingWithEllipsis": "재시도 중..."
+  },
+
+  "save": {
+    "save": "저장",
+    "saveWithEllipsis": "저장...",
+    "saved": "저장됨",
+    "savedWithExclamation": "저장됨!",
+    "saving": "저장 중",
+    "savingWithEllipsis": "저장 중..."
+  },
+
+  "start": {
+    "start": "시작",
+    "startWithEllipsis": "시작...",
+    "started": "시작됨",
+    "starting": "시작 중",
+    "startingWithEllipsis": "시작 중..."
+  },
+
+  "stop": {
+    "stop": "중지",
+    "stopWithEllipsis": "중지...",
+    "stopped": "중지됨",
+    "stoppedWithExclamation": "중지됨!",
+    "stopping": "중지 중",
+    "stoppingWithEllipsis": "중지 중..."
+  },
+
+  "update": {
+    "update": "업데이트",
+    "updateWithEllipsis": "업데이트...",
+    "updated": "업데이트됨",
+    "updatedWithExclamation": "업데이트됨!",
+    "updating": "업데이트 중",
+    "updatingWithEllipsis": "업데이트 중..."
+  },
+
+  "upload": {
+    "upload": "업로드",
+    "uploadWithEllipsis": "업로드...",
+    "uploaded": "업로드됨",
+    "uploadedWithExclamation": "업로드됨!",
+    "uploading": "업로드 중",
+    "uploadingWithEllipsis": "업로드 중..."
+  },
+
+  "uninstall": {
+    "uninstall": "제거",
+    "uninstallWithEllipsis": "제거...",
+    "uninstalled": "제거됨",
+    "uninstalledWithExclamation": "제거됨!",
+    "uninstalling": "제거 중",
+    "uninstallingWithEllipsis": "제거 중..."
+  }
 }

@@ -26,6 +26,7 @@
   "action.model.delete.confirmation/title": "{{name}} 삭제",
   "action.model.delete.confirmation/description": "정말로 삭제하시겠습니까? 이 작업은 이 모델과 관련된 모든 파일을 기기에서 영구적으로 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
   "action.model.delete.confirmation/confirm": "삭제",
+  "action.model.delete/error": "모델 삭제 실패",
 
   "action.createVirtual": "프리셋 생성",
   "action.createVirtual.details/title": "프리셋 생성",
@@ -52,6 +53,10 @@
   "unresolvedVirtualModels/title_other": "다음 가상 모델들을 해결하는 데 실패했습니다:",
   "unresolvedVirtualModels.missingModel": "종속 모델이 누락되었습니다: {{missing}}. 종속 경로:\n{{chain}}",
   "unresolvedVirtualModels.circular": "순환 종속성이 감지되었습니다.",
+  "unresolvedVirtualModels.fix": "수정",
+  "unresolvedVirtualModels.revealInExplorer": "탐색기에서 보기",
+  "unresolvedVirtualModels.revealInFinder": "Finder에서 보기",
+  "unresolvedVirtualModels.reveal/error": "보기 실패",
 
   "modelsDirectory": "모델 디렉토리",
   "modelsDirectory.change": "변경...",
@@ -59,6 +64,9 @@
   "modelsDirectory.reveal.mac": "Finder에서 보기",
   "modelsDirectory.reveal.nonMac": "파일 탐색기에서 열기",
   "modelsDirectory.forceReindex": "새로 고침",
+  "modelsDirectory.change/error": "모델 디렉토리 변경 실패",
+  "modelsDirectory.reveal.mac/error": "Finder에서 열기 실패",
+  "modelsDirectory.reveal.nonMac/error": "파일 탐색기에서 열기 실패",
   "loadState/loaded": "로드됨",
   "loadState/loading": "로드 중",
   "loadState/unloaded": "언로드됨",
@@ -73,6 +81,29 @@
   "contextMenu/copyModelDefaultIdentifier": "기본 식별자 복사",
   "contextMenu/showRawMetadata": "원시 메타데이터 보기",
   "contextMenu/openOnHuggingFace": "Hugging Face에서 열기",
+  "contextMenu": {
+    "pullLatest": "최신 버전 가져오기",
+    "pullLatest.label": "최신 버전 가져오기",
+    "pullLatest.checking": "업데이트 확인 중...",
+    "pullLatest.upToDate": "최신 상태",
+    "pullLatest.error": "업데이트 확인 실패",
+    "pullLatest.updating": "업데이트 중",
+    "pullLatest.updated": "업데이트됨",
+    "pullLatest.failed": "실패",
+    "pullLatest.cantUpdate": "업데이트할 수 없음",
+    "pullLatest.cantUpdate.body": "이 모델은 업데이트할 수 없습니다",
+    "pullLatest.updateAvailable": "업데이트 사용 가능",
+    "pullLatest.updateAvailable.body": "이 모델에 대한 업데이트가 사용 가능합니다",
+    "downloadMoreQuantizations": "더 많은 양자화 다운로드",
+    "openInHub": "Hub에서 열기",
+    "redownload": "다시 다운로드",
+    "copyId": "모델 ID 복사",
+    "copyPath": "경로 복사",
+    "revealInFinder": "Finder에서 보기",
+    "revealInExplorer": "파일 탐색기에서 보기",
+    "delete": "삭제",
+    "showOnWeb": "웹에서 보기"
+  },
   "tooltip/moreActions": "추가 작업",
   "tooltip/getInfo": "정보 얻기",
   "tooltip/editModelDefaultConfig": "모델 기본 구성 편집",
@@ -88,5 +119,22 @@
   "loader.action.cancel": "취소",
   "loader.info.clickOnModelToLoad": "로드할 모델을 클릭하세요",
   "loader.info.configureLoadParameters": "모델 로드 매개변수 구성",
-  "loader.info.activeGeneratorWarning": "사용자 정의 생성기가 있는 플러그인을 사용 중입니다. 현재 로드된 모델은 생성기의 구현에 따라 이 플러그인에서 적용될 수도 있고 적용되지 않을 수도 있습니다"
+  "loader.info.activeGeneratorWarning": "사용자 정의 생성기가 있는 플러그인을 사용 중입니다. 현재 로드된 모델은 생성기의 구현에 따라 이 플러그인에서 적용될 수도 있고 적용되지 않을 수도 있습니다",
+
+  "virtual": {
+    "local": {
+      "create": "가상 모델 생성",
+      "title": "로컬 가상 모델 생성",
+      "description": "모델을 구성 세트와 함께 번들링하여 가상 모델을 생성합니다. 기본 가중치는 복제되지 않습니다.",
+      "modelKey.label": "모델 키",
+      "modelKey.placeholder": "고유한 모델 키 입력",
+      "modelKey.normalized": "모델 키가 다음과 같이 정규화됩니다: {{normalized}}",
+      "baseModel.label": "기본 모델",
+      "baseModel.placeholder": "기본 모델 선택",
+      "baseModel.empty": "기본 모델로 사용할 모델을 다운로드하세요",
+      "next": "다음",
+      "confirm": "생성",
+      "error": "가상 모델 생성 실패"
+    }
+  }
 }
