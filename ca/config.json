@@ -139,7 +139,6 @@
   "llm.load.seed/title": "Llavor",
   "llm.load.seed/subTitle": "La llavor que utilitza el generador de nombres aleatoris a la generació de text. -1 és aleatori",
   "llm.load.seed/info": "Llavor aleatòria: Estableix la llavor pel generador de nombres aleatoris per assegurar resultats reproduïbles",
-  //
   "llm.load.numCpuExpertLayersRatio/title": "Force Model Expert Weights onto CPU",
   "llm.load.numCpuExpertLayersRatio/subTitle": "Whether to force MoE expert weights into CPU RAM. Saves VRAM and can be faster than partial GPU offload. Not recommended if the model fits entirely in VRAM.",
   "llm.load.numCpuExpertLayersRatio/info": "Specifies whether or not to put all MoE expert layers in to CPU RAM. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast",
@@ -376,21 +375,21 @@
 
   "presets": {
     "title": "Preset",
-    "commitChanges": "Commit Changes",
-    "commitChanges/description": "Commit your changes to the preset.",
-    "commitChanges.manual": "New fields detected. You will be able to choose which changes to include in the preset.",
-    "commitChanges.manual.hold.0": "Hold",
-    "commitChanges.manual.hold.1": "to choose which changes to commit to the preset.",
-    "commitChanges.saveAll.hold.0": "Hold",
-    "commitChanges.saveAll.hold.1": "to save all changes.",
-    "commitChanges.saveInPreset.hold.0": "Hold",
-    "commitChanges.saveInPreset.hold.1": "to only save changes to fields that are already included in the preset.",
-    "commitChanges/error": "Failed to commit changes to the preset.",
-    "commitChanges.manual/description": "Choose which changes to include in the preset.",
+    "saveChanges": "Save",
+    "saveChanges/description": "Save your changes to the preset.",
+    "saveChanges.manual": "New fields detected. You will be able to choose which changes to include in the preset.",
+    "saveChanges.manual.hold.0": "Hold",
+    "saveChanges.manual.hold.1": "to choose which changes to save to the preset.",
+    "saveChanges.saveAll.hold.0": "Hold",
+    "saveChanges.saveAll.hold.1": "to save all changes.",
+    "saveChanges.saveInPreset.hold.0": "Hold",
+    "saveChanges.saveInPreset.hold.1": "to only save changes to fields that are already included in the preset.",
+    "saveChanges/error": "Failed to save changes to the preset.",
+    "saveChanges.manual/description": "Choose which changes to include in the preset.",
     "saveAs": "Save As New...",
     "presetNamePlaceholder": "Enter a name for the preset...",
     "cannotCommitChangesLegacy": "This is a legacy preset and cannot be modified. You can create a copy by using \"Save As New...\".",
-    "cannotCommitChangesNoChanges": "No changes to commit.",
+    "cannotSaveChangesNoChanges": "No changes to save.",
     "emptyNoUnsaved": "Select a Preset...",
     "emptyWithUnsaved": "Unsaved Preset",
     "saveEmptyWithUnsaved": "Save Preset As...",
@@ -403,7 +402,7 @@
     "select/error": "Failed to select preset.",
     "delete/error": "Failed to delete preset.",
     "discardChanges": "Discard Unsaved",
-    "discardChanges/info": "Discard all uncommitted changes and restore the preset to its original state",
+    "discardChanges/info": "Discard all unsaved changes and restore the preset to its original state",
     "newEmptyPreset": "+ New Preset",
     "importPreset": "Import",
     "contextMenuCopyIdentifier": "Copy Preset Identifier",
@@ -525,31 +524,30 @@
         "seeError": "See Error",
         "noName": "No preset name",
         "useInChat": "Use in Chat"
-        //
       },
       "importFromUrl": {
-        "button": "Importa d'una URL...",
-        "title": "Importa d'una URL",
-        "back": "Importa d'un Fitxer...",
-        "action": "Enganxa a continuació l'URL de la plantilla del LM Studio Hub que vulguis importar",
-        "invalidUrl": "URL Invàl·lida. Assegura't que estàs enganxant correctament l'URL.",
-        "tip": "Pots instal·lar el preset directament prement {{buttonName}} al LM Studio Hub",
-        "confirm": "Importa",
-        "cancel": "Cancel·la",
-        "loading": "Important...",
-        "error": "No s'ha pogut descarregar."
+        "button": "Import from URL...",
+        "title": "Import from URL",
+        "back": "Import from File...",
+        "action": "Paste the LM Studio Hub URL of the preset you want to import below",
+        "invalidUrl": "Invalid URL. Please make sure you are pasting a correct LM Studio Hub URL.",
+        "tip": "You can install the preset directly with the {{buttonName}} button in LM Studio Hub",
+        "confirm": "Import",
+        "cancel": "Cancel",
+        "loading": "Importing...",
+        "error": "Failed to download preset."
       }
     },
     "download": {
-      "title": "Pull <preset-name /> del LM Studio Hub",
-      "subtitle": "Desa <custom-name /> als teus presets. Fer-ho et permetrà utilitzar-lo a l'app",
+      "title": "Pull <preset-name /> from LM Studio Hub",
+      "subtitle": "Save <custom-name /> to your presets. Doing so you will allow you to use this preset in the app",
       "button": "Pull",
       "button/loading": "Pulling...",
-      "cancel": "Cancel·la",
-      "error": "No s'ha pogut descarregar."
+      "cancel": "Cancel",
+      "error": "Failed to download preset."
     },
     "inclusiveness": {
-      "speculativeDecoding": "Inclou al Preset"
+      "speculativeDecoding": "Include in Preset"
     }
   },
 
