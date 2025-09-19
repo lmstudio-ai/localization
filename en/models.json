@@ -103,7 +103,7 @@
   "loader.guardrails.notEnoughResources/moreInfo": "More Info",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "It appears your system does not have enough memory to load this model.",
   "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "We estimate it will take <memoryBytes /> of memory.",
-  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "If you believe this is incorrect, you can adjust the model loading guardrails in settings or hold <altOptionKey /> to load anyway.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "You can adjust the model loading guardrails in settings or hold <altOptionKey /> to load anyway.",
   "loader.guardrails.notEnoughResources.moreInfoSection.note": "Note: Loading a model that is too large may overload your system and cause it to freeze.",
 
   "virtual": {
