@@ -47,6 +47,8 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "serverOptions/allowMcp/title": "Allow MCP",
+  "serverOptions/allowMcp/hint": "When enabled, allows server requests to connect to MCP servers. Enable with caution, as some MCP servers can be unsafe",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
