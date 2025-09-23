@@ -48,7 +48,11 @@
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
   "serverOptions/allowMcp/title": "Allow MCP",
-  "serverOptions/allowMcp/hint": "When enabled, allows server requests to connect to MCP servers. Enable with caution, as some MCP servers can be unsafe",
+  "serverOptions/allowMcp/hint": "Choose how server requests are allowed to use MCP. Always be cautious when installing and using MCP servers, as the can be unsafe.",
+  "serverOptions/allowMcp/mode/off": "Off",
+  "serverOptions/allowMcp/mode/off/hint": "Don't allow server requests to use MCP",
+  "serverOptions/allowMcp/mode/mcpJson": "mcp.json",
+  "serverOptions/allowMcp/mode/mcpJson/hint": "Allow MCP servers configured in your mcp.json",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
