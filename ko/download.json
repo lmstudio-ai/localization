@@ -11,7 +11,6 @@
   "postDownloadActionExecutor.pluginUninstall/status": "플러그인 제거 중...",
   "finalizing": "다운로드 마무리 중... (잠시만 기다려 주세요)",
   "noOptions": "다운로드 가능한 호환 옵션이 없습니다",
-  
   "deeplink/confirmation/title": "Hugging Face에서 모델 다운로드 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "권장 옵션 선택",
@@ -25,7 +24,6 @@
   "deeplink/error/modelNotFound/title": "모델을 찾을 수 없습니다",
   "deeplink/error/modelNotFound/body": "모델 이름을 다시 확인하고 다른 다운로드 옵션을 시도해 보세요.",
   "deeplink/actions/trySearching": "Hugging Face에서 {{modelName}} 검색 시도",
-
   "downloadsPanel/title": "다운로드",
   "downloadsPanel/sectionTitle/ongoing": "진행 중",
   "downloadsPanel/sectionTitle/completed": "완료됨",

@@ -23,12 +23,10 @@
   "noChatSelectedPlaceholder": "채팅을 선택하세요",
   "unnamedChat": "이름 없는 채팅",
   "emptyFolder": "빈 폴더",
-
   "tokenCount": "토큰 수",
   "messageTokenCount": "입력 토큰 수",
   "tokenCount/hint": "메시지의 토큰 수입니다. 현재 선택된 모델의 토크나이저를 사용하여 계산됩니다.\n\n모델이 로드되어 있어야 합니다.",
   "messageTokenCount/hint": "메시지의 토큰 수입니다. 현재 선택된 모델의 토크나이저를 사용하여 계산됩니다.\n\n파일 첨부의 토큰 수는 포함되지 **않습니다**.",
-
   "notes": "대화 메모",
   "notes/add/first": "메모 추가",
   "notes/add/another": "다른 메모 추가",
@@ -37,7 +35,6 @@
   "notes/delete": "메모 삭제",
   "notes/noteLabel": "메모",
   "notes/copyContent": "메모 내용 복사",
-
   "actions/sendMessage/error": "메시지 전송 실패",
   "actions/loadModel/error": "🥲 모델 로드 실패",
   "actions/addFile": "[실험적] 이 메시지에 파일 첨부\n(.pdf, 일반 텍스트, 또는 .docx)",
@@ -91,10 +88,8 @@
   "actions/createFolderAtRoot/error": "루트에서 폴더 생성 실패",
   "actions/openInFolder/mac": "Finder에서 보기",
   "actions/openInFolder/pc": "파일 탐색기에서 보기",
-
   "actions/createChat/error": "채팅 생성 실패",
   "actions/deleteChat/errorTitle": "채팅 삭제 실패",
-
   "userFile/fileSizeLimit": "파일 크기 제한: ",
   "userFile/noImageSupport": "모델이 이미지 입력을 지원하지 않습니다",
   "userFile/errorPrefix": "오류 - ",
@@ -109,42 +104,32 @@
   "errorTitle": "오류",
   "userFile/chatTerminalDocumentsCount_one": "채팅에 {{count}}개의 문서",
   "userFile/chatTerminalDocumentsCount_other": "채팅에 {{count}}개의 문서",
-
   "prediction/busyModel/title": "모델이 사용 중입니다",
   "prediction/busyModel/message": "모델이 작업을 완료할 때까지 기다렸다가 다시 시도하세요",
   "prediction/noModel/title": "모델이 선택되지 않았습니다",
   "prediction/modelLoading": "메시지가 대기열에 추가되었습니다. 모델 로딩이 완료되면 전송됩니다",
   "prediction/noModel/message": "메시지를 보내려면 모델을 선택하세요",
   "prediction/unloadModel/error": "모델 언로드 실패",
-
   "retrieval/user/processingLabel": "AI가 생각 중입니다...",
   "retrieval/powerUser/intermediateStepsHidden": "중간 단계가 숨겨졌습니다. 클릭하여 확장하세요.",
   "retrieval/actions/clickToExpand": "중간 단계 확장하기",
   "retrieval/actions/clickToCollapse": "중간 단계 접기",
-
   "style": "채팅 외관",
-
   "style/viewMode/markdown": "마크다운",
   "style/viewMode/plaintext": "일반 텍스트",
   "style/viewMode/monospace": "모노스페이스",
-
-  "style/fontSize/label": "글꼴 크기",
-  "style/fontSize/medium": "기본",
-  "style/fontSize/large": "크게",
-  "style/fontSize/small": "작게",
-
-  "style/debugBlocks/label": "디버그 정보 블록 표시",
-
-  "style/thinkingUI/label": "추론 블록을 기본적으로 확장",
-  "style/chatFullWidth/label": "채팅 컨테이너를 창 너비에 맞게 확장",
-
-  "style/chatUtilityMenusShowLabel/label": "채팅 유틸리티 메뉴 레이블 표시",
-
   "speculativeDecodingVisualization/toggle": "수락된 초안 토큰 시각화",
   "speculativeDecodingVisualization/fromDraftModel_one": "수락된 초안 토큰",
   "speculativeDecodingVisualization/fromDraftModel_other": "수락된 초안 토큰들",
   "speculativeDecodingVisualization/cannotChangeViewMode": "초안 토큰 시각화 시 보기 모드 선택이 비활성화됩니다.",
-
+  "style/fontSize/label": "글꼴 크기",
+  "style/fontSize/medium": "기본",
+  "style/fontSize/large": "크게",
+  "style/fontSize/small": "작게",
+  "style/debugBlocks/label": "디버그 정보 블록 표시",
+  "style/thinkingUI/label": "추론 블록을 기본적으로 확장",
+  "style/chatFullWidth/label": "채팅 컨테이너를 창 너비에 맞게 확장",
+  "style/chatUtilityMenusShowLabel/label": "채팅 유틸리티 메뉴 레이블 표시",
   "messageBlocks": {
     "expandBlockTooltip": "콘텐츠 확장",
     "collapseBlockTooltip": "콘텐츠 접기",
@@ -154,20 +139,16 @@
       "expandTooltip": "디버그 정보 블록 확장"
     }
   },
-
   "chatTabOptions/clearAllMessages": "모든 메시지 지우기...",
   "chatTabOptions/duplicateChat": "채팅 복제",
-
   "topBarActions/duplicateChat": "복제",
   "topBarActions/clearChat": "모든 메시지 지우기",
   "topBarActions/clearChatConfirmation": "이 채팅의 모든 메시지를 지우시겠습니까?",
   "topBarActions/clearChatCancel": "취소",
   "topBarActions/clearChatDelete": "모두 지우기",
-
   "noModels.indexing": "모델 파일 인덱싱 중... (잠시 기다려주세요)",
   "noModels.downloading": "첫 번째 LLM 다운로드 중...",
   "noModels": "아직 LLM이 없습니다! 시작하려면 하나를 다운로드하세요!",
-
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "플러그인",
@@ -222,7 +203,6 @@
     },
     "restartErrorPlugin/error": "플러그인 재시작에 실패했습니다"
   },
-
   "genInfo": {
     "tokensPerSecond": "초당 {{tokensPerSecond}}토큰",
     "predictedTokensCount": "{{predictedTokensCount}}개 토큰",
@@ -239,7 +219,6 @@
     "speculativeDecodedBy": "초안 모델: {{decodedBy}}",
     "speculativeDecodingStats": "{{total}}개 중 {{accepted}}개의 초안 토큰 수락 ({{percentage}}%)"
   },
-
   "tabs": {
     "systemPromptEditorTab.headerLabel": "시스템 프롬프트 편집 중"
   }
