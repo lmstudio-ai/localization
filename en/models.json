@@ -95,7 +95,7 @@
   "loader.info.clickOnModelToLoad": "Click on a model to load it",
   "loader.info.configureLoadParameters": "Configure the model load parameters",
   "loader.info.activeGeneratorWarning": "You are using a plugin with a custom generator. Your currently loaded model may or may not be applied under this plugin, depending on the generator's implementation",
-  "loader.guardrails.estimatedMemoryUsage": "Estimated Memory Usage:",
+  "loader.guardrails.estimatedMemoryUsage": "Estimated Memory Usage",
   "loader.guardrails.total": "Total",
   "loader.guardrails.gpu": "GPU",
   "loader.guardrails.unavailable": "Memory estimate unavailable for this model",
