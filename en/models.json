@@ -100,7 +100,7 @@
   "loader.guardrails.gpu": "GPU",
   "loader.guardrails.unavailable": "Memory estimate unavailable for this model",
   "loader.guardrails.notEnoughResources": "Not enough resources to load the model with the current settings",
-  "loader.guardrails.notEnoughResources/moreInfo": "More Info",
+  "loader.guardrails.notEnoughResources/options": "Options",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "It appears your system does not have enough memory to load this model.",
   "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "We estimate it will take <memoryBytes /> of memory.",
   "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "You can adjust the model loading guardrails in settings or hold <altOptionKey /> to load anyway.",
