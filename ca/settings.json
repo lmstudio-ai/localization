@@ -137,6 +137,7 @@
   "modelLoadingGuardrails.custom.label": "Límit de Memòria: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Estableix un límit de memòria personalitzat per carregar models. Els models que excedeixin aquest límit no carregaran.",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carregar Igualment' sense mantenir presionat Alt/Option",
 
   "experimentalLoadPresets": "Activa el suport de configuracions de càrrega per a models presets",
   "experimentalLoadPresets.description": "Decideix si permetre als presets incloure configuracions de càrrega per als models. Aquesta característica és experimental i agrairíem els comentaris.",

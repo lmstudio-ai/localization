@@ -95,16 +95,16 @@
   "loader.info.clickOnModelToLoad": "Fes clic en un model per carregar-lo",
   "loader.info.configureLoadParameters": "Configura els paràmetres de càrrega del model",
   "loader.info.activeGeneratorWarning": "Estàs utilitzant un plugin amb un generador personalitzat. El plugin pot o no afectar al model ja carregat, depenent de la implementació del plugin",
-  "loader.guardrails.estimatedMemoryUsage": "Memòria en Ús Aproximada:",
+  "loader.guardrails.estimatedMemoryUsage": "Memòria en Ús Aproximada",
   "loader.guardrails.total": "Total",
   "loader.guardrails.gpu": "GPU",
   "loader.guardrails.unavailable": "Memòria aproximada no disponible per aquest model",
   "loader.guardrails.notEnoughResources": "No es pot carregar el model amb la configuració actual degut a una falta de recursos",
-  "loader.guardrails.notEnoughResources/moreInfo": "Més Info",
+  "loader.guardrails.notEnoughResources/options": "Opcions",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "El teu sistema no té suficient memòria per carregar aquest model.",
-  "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "Necessitaràs aproximadament <memoryBytes /> de la memòria.",
   "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Pots ajustar la protecció de càrrega del model a la configuració o mantenir <altOptionKey /> per carregar-lo de totes maneres.",
-  "loader.guardrails.notEnoughResources.moreInfoSection.note": "Nota: Carregar un model massa gran podria sobrecarregar el teu sistema i causar inestabilitat.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Carregar un model massa gran pot sobrecarregar el teu sistema i provocar inestabilitat.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carregar Igualment' sense mantenir presionat Alt/Option",
 
   "virtual": {
     "local": {

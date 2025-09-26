@@ -53,6 +53,8 @@
   "serverOptions/allowMcp/mode/off/hint": "No permetis que les peticions utilitzin MCP",
   "serverOptions/allowMcp/mode/mcpJson": "mcp.json",
   "serverOptions/allowMcp/mode/mcpJson/hint": "Permet els servidors MCP configurats al teu fitxer mcp.json",
+  "serverOptions/allowMcp/mode/all": "Tots",
+  "serverOptions/allowMcp/mode/all/hint": "Permet tant els servidors a mcp.json com als servidors definits en demanda pels clients",
 
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",
