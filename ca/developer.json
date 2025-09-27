@@ -51,11 +51,9 @@
   "serverOptions/allowMcp/hint": "Escull com les peticions poden utilitzar MCP. Sigues curós quan instal·lis i utilitzis servidors MCP, ja que poden ser perillosos.",
   "serverOptions/allowMcp/mode/off": "Apagat",
   "serverOptions/allowMcp/mode/off/hint": "No permetis que les peticions utilitzin MCP",
-  "serverOptions/allowMcp/mode/mcpJson": "mcp.json",
-  "serverOptions/allowMcp/mode/mcpJson/hint": "Permet els servidors MCP configurats al teu fitxer mcp.json",
-  "serverOptions/allowMcp/mode/all": "Tots",
-  "serverOptions/allowMcp/mode/all/hint": "Permet tant els servidors a mcp.json com als servidors definits en demanda pels clients",
-
+  "serverOptions/allowMcp/mode/remote": "Remot",
+  "serverOptions/allowMcp/mode/remote/hint": "Permet connexions amb servidors MCP remots",
+ 
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",
   "serverLogs/openLogsFolder": "Obre la carpeta dels registres",
