@@ -32,6 +32,7 @@
   "loader.model.bundled": "Bundled",
   "action.cancel": "Cancel",
   "indexingOngoing": "Indexing models... This may take a few seconds",
+  "indexingPageLoaderText": "Indexing models...",
   "index/error_one": "Failed to index the following folder:",
   "index/error_other": "Failed to index the following folders:",
   "badModels/title_one": "Failed to index the following model:",
