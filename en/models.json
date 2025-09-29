@@ -120,6 +120,12 @@
       "next": "Next",
       "confirm": "Create",
       "error": "Failed to create virtual model"
+    },
+    "altsSelect": {
+      "title": "Select a source model",
+      "resetButton": "Reset to default",
+      "description": "This model has multiple possible sources. Choose which one to use by default when this model is loaded",
+      "trigger": "Model variants"
     }
   }
 }
