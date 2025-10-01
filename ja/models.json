@@ -95,6 +95,16 @@
   "loader.info.clickOnModelToLoad": "モデルをクリックして読み込みます",
   "loader.info.configureLoadParameters": "モデルの読み込みパラメーターを設定します",
   "loader.info.activeGeneratorWarning": "カスタムジェネレーターを使用しているプラグインを使用しています。このプラグインに応じて、現在読み込まれているモデルが適用される場合とされない場合があります",
+  "loader.guardrails.estimatedMemoryUsage": "推定メモリ使用量:",
+  "loader.guardrails.total": "計",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "このモデルのメモリ推定値は利用できません",
+  "loader.guardrails.notEnoughResources": "現在の設定でモデルを読み込むためのリソースが不足しています",
+  "loader.guardrails.notEnoughResources/moreInfo": "詳細情報",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "システムにこのモデルを読み込むのに十分なメモリがないようです。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "推定では <memoryBytes /> のメモリが必要です。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "設定でモデルの読み込みガードレールを調整するか、<altOptionKey /> を押しながら読み込むことができます。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.note": "注: 大きすぎるモデルを読み込むと、システムがオーバーロードされてフリーズする可能性があります。",
 
   "virtual": {
     "local": {
