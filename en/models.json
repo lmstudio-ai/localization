@@ -32,6 +32,7 @@
   "loader.model.bundled": "Bundled",
   "action.cancel": "Cancel",
   "indexingOngoing": "Indexing models... This may take a few seconds",
+  "indexingPageLoaderText": "Indexing models...",
   "index/error_one": "Failed to index the following folder:",
   "index/error_other": "Failed to index the following folders:",
   "badModels/title_one": "Failed to index the following model:",
@@ -120,6 +121,12 @@
       "next": "Next",
       "confirm": "Create",
       "error": "Failed to create virtual model"
+    },
+    "altsSelect": {
+      "title": "Select a source model",
+      "resetButton": "Reset to default",
+      "description": "This model has multiple possible sources. Choose which one to use by default when this model is loaded",
+      "trigger": "Model variants"
     }
   }
 }

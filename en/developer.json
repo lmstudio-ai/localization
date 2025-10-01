@@ -53,6 +53,8 @@
   "serverOptions/allowMcp/mode/off/hint": "Don't allow server requests to use MCP",
   "serverOptions/allowMcp/mode/remote": "Remote",
   "serverOptions/allowMcp/mode/remote/hint": "Allow connection to remote MCP servers",
+  "serverOptions/allowMcp/mode/all": "All",
+  "serverOptions/allowMcp/mode/all/hint": "Allow connection to remote MCP servers and local MCP servers defined in your mcp.json",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
