@@ -53,6 +53,8 @@
   "serverOptions/allowMcp/mode/off/hint": "No permetis que les peticions utilitzin MCP",
   "serverOptions/allowMcp/mode/remote": "Remot",
   "serverOptions/allowMcp/mode/remote/hint": "Permet connexions amb servidors MCP remots",
+  "serverOptions/allowMcp/mode/all": "Totes",
+  "serverOptions/allowMcp/mode/all/hint": "Permet connexions amb servidors MCP remots i locals definits al teu mcp.json",
  
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",

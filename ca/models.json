@@ -32,6 +32,7 @@
   "loader.model.bundled": "Empaquetat",
   "action.cancel": "Cancel·la",
   "indexingOngoing": "Indexant models... Pot trigar una estona",
+  "indexingPageLoaderText": "Indexant models...",
   "index/error_one": "No s'ha pogut indexar la següent carpeta:",
   "index/error_other": "No s'ha pogut indexar les següents carpetes:",
   "badModels/title_one": "No s'ha pogut indexar el següent model:",
@@ -120,6 +121,12 @@
       "next": "Següent",
       "confirm": "Crea",
       "error": "No s'ha pogut crear el model virtual"
+    },
+    "altsSelect": {
+      "title": "Selecciona una font pel model",
+      "resetButton": "Torna al valor per defecte",
+      "description": "Aquest model té múltiples fonts possibles. Selecciona quina s'hauria d'utilitzar quan es carregui el model",
+      "trigger": "Variants del model"
     }
   }
 }
