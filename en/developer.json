@@ -169,11 +169,17 @@
     "newBadge": "New"
   },
 
-  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
+  "endpoints/openaiCompatRest/title": "Supported endpoints{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI-like",
   "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
   "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
   "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "List available models",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Load a model with options",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Download a model",
+  "endpoints/lmStudioRestV1/postChat": "Chat with a model. Supports stateful multi-turn conversations and MCP",
 
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
