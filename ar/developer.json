@@ -43,6 +43,10 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "دقائق",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "الاحتفاظ فقط بآخر نموذج JIT محمل",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "ضمان تحميل نموذج واحد كحد أقصى عبر JIT في أي وقت معين (إلغاء تحميل النموذج السابق)",
+  "serverOptions/logIncomingTokens/title": "تسجيل الرموز الواردة",
+  "serverOptions/logIncomingTokens/hint": "ما إذا كان سيتم تسجيل كل رمز أثناء توليده.",
+  "serverOptions/redactContent/title": "إخفاء المحتوى",
+  "serverOptions/redactContent/hint": "عند التمكين، منع البيانات الحساسة، مثل محتوى الطلبات والردود من التسجيل.",
 
   "serverLogs/scrollToBottom": "الانتقال إلى الأسفل",
   "serverLogs/clearLogs": "مسح السجلات ({{shortcut}})",
@@ -54,6 +58,11 @@
   "runtimeSettings/chooseRuntime/showAllVersions/label": "عرض جميع بيئات التشغيل",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "افتراضياً، يعرض LM Studio فقط أحدث إصدار من كل بيئة تشغيل متوافقة. قم بتمكين هذا الخيار لرؤية جميع بيئات التشغيل المتاحة.",
   "runtimeSettings/chooseRuntime/select/placeholder": "اختر بيئة تشغيل",
+  "runtimeSettings/chooseFrameworks/title": "إطارات العمل",
+  "runtimeSettings/chooseFrameworks/description": "اختر إطار عمل لاستخدامه لكل وظيفة",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "محلل المستندات",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "اختر محلل مستندات",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "محلل مدمج",
 
   "runtimeOptions/uninstall": "إلغاء التثبيت",
   "runtimeOptions/uninstallDialog/title": "إلغاء تثبيت {{runtimeName}}؟",
