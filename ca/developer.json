@@ -169,11 +169,17 @@
     "newBadge": "Nou"
   },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportats (com els d'OpenAI)",
+  "endpoints/openaiCompatRest/title": "Endpoints suportats{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Com el d'OpenAI",
   "endpoints/openaiCompatRest/getModels": "Llista els models actualment carregats",
   "endpoints/openaiCompatRest/postCompletions": "Mode de Emplenament de Text. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Emplenament dels Xats. Envia l'historial del xat al model per poder predir la pròxima resposta de l'assistent",
   "endpoints/openaiCompatRest/postEmbeddings": "Embedding de text. Genera embeddings de text donada una entrada de text. Accepta una cadena o un conjunt de cadenes",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Llista els models disponibles",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Carrega un model amb opcions",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Descarrega un model",
+  "endpoints/lmStudioRestV1/postChat": "Xateja amb un model. Suporta converses a torns 'stateful multi-turn conversations' i MCP",
 
   "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
   "model.createVirtualModelFromInstance/error": "No s'ha pogut desar la configuració com un nou model virtual",
