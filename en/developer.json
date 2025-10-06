@@ -175,7 +175,7 @@
   "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
   "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
-  "endpoints/openaiCompatRest/postResponses": "Advanced interface for generating model responses. Create stateful interactions using the output of previous responses as input.",
+  "endpoints/openaiCompatRest/postResponses": "Advanced interface for generating model responses. Create stateful interactions by passing the id of a previous responses as input to the next.",
   "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
   "endpoints/lmStudioRestV1/getModels": "List available models",
   "endpoints/lmStudioRestV1/postModelsLoad": "Load a model with options",
