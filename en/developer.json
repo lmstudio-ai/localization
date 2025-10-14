@@ -48,7 +48,7 @@
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
   "serverOptions/allowMcp/title": "Allow Remote MCP",
-  "serverOptions/allowMcp/hint": "When enabled, server requests can use remote MCP. Always be cautious when using MCP servers, as the can be unsafe.",
+  "serverOptions/allowMcp/hint": "When enabled, server requests can use remote MCP. Always be cautious when using MCP servers, as they can be unsafe.",
   "serverOptions/allowMcp/mode/off": "Off",
   "serverOptions/allowMcp/mode/off/hint": "Don't allow server requests to use MCP",
   "serverOptions/allowMcp/mode/remote": "Remote",
