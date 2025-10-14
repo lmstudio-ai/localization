@@ -30,7 +30,7 @@
   "updateDownloaded": "アプリを再起動して更新を適用する必要があります",
   "restartAppToUpdate": "アプリを再起動して更新を適用します",
   "appUpdatedToastTitle": "{{title}}に更新されました",
-  "appUpdatedToastDescriptionPrefix": "を表示",
+  "appUpdatedToastDescriptionPrefix": "表示 →",
   "AppUpdatedToastDescriptionReleaseNotes": "リリースノート",
   "toolUseToastTitle": "ベータの新機能: Tool Use と Function Calls API",
   "toolUseToastDescription": "Llama 3.1/3.2、Mistral、Qwen などの一部モデルで OpenAI Tool Use をそのまま置き換えて利用できます。",
@@ -137,6 +137,7 @@
   "modelLoadingGuardrails.custom.label": "メモリ制限: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "モデルの読み込みに対するカスタムメモリ制限を設定します。この制限を超えるモデルは読み込まれません。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(推奨しません) Alt/Optionを押さずに「とにかく読み込む」を常に許可",
 
   "experimentalLoadPresets": "モデル読み込みのプリセットにおける設定サポートを有効にする",
   "experimentalLoadPresets.description": "プリセットがモデル読み込み設定を含むことを許可するかどうかを指定します。この機能は実験的であり、フィードバックを歓迎します。",

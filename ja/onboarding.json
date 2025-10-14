@@ -31,9 +31,9 @@
     },
     "step_1": {
       "title": "Tool Useを開始する",
-      "toolUseCanWorkWithAnyModel": "ツール使用のためにトレーニングされたモデルは他のモデルよりも優れたパフォーマンスを発揮しますが、あらゆるモデルでツールを使用しようとすることができます。詳細については、<customlink>ドキュメント</customlink>をお読みください。\nツール使用のためにトレーニングされたモデルには新しいバッジが付けられます:",
+      "toolUseCanWorkWithAnyModel": "Tool Use のためにトレーニングされたモデルは他のモデルよりも優れたパフォーマンスを発揮しますが、あらゆるモデルでツールを使用しようとすることができます。詳細については、<customlink>ドキュメント</customlink>をお読みください。\nTool Use のためにトレーニングされたモデルには新しいバッジが付けられます:",
       "hasCompatibleModel": "🎉 すでにツールサポートのあるモデルをお持ちのようです！",
-      "downloadRecommendedModel": "ツール使用のためにトレーニングされたモデルをダウンロード:"
+      "downloadRecommendedModel": "Tool Use のためにトレーニングされたモデルをダウンロード:"
     },
     "nextButton": "次へ",
     "letsGoButton": "モデルを読み込み、サーバーを起動",

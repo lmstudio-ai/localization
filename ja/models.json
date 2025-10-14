@@ -32,6 +32,7 @@
   "loader.model.bundled": "バンドル済み",
   "action.cancel": "キャンセル",
   "indexingOngoing": "モデルをインデックス中... しばらくお待ちください",
+  "indexingPageLoaderText": "モデルをインデックス中...",
   "index/error_one": "次のフォルダーのインデックス作成に失敗しました:",
   "index/error_other": "次のフォルダーのインデックス作成に失敗しました:",
   "badModels/title_one": "次のモデルのインデックス作成に失敗しました:",
@@ -63,7 +64,7 @@
   "loadState/idle": "アイドル",
   "pinned": "このモデルはピン留めされています。右クリックしてピン留めを解除します。",
   "lastUsed": "最終使用",
-  "contextMenu/pin": "上にピン留め",
+  "contextMenu/pin": "上部にピン留め",
   "contextMenu/unpin": "ピン留めを解除",
   "contextMenu/copyAbsolutePath": "絶対パスをコピー",
   "contextMenu/copyModelName": "モデル名をコピー",
@@ -84,10 +85,10 @@
   "tooltip/editModelDefaultConfig": "モデルのデフォルト設定を編集",
   "tooltip/editModelDefaultConfig/override": "モデルのデフォルト設定を編集 (* はオーバーライドがあります)",
   "tooltip/visionBadge": "このモデルは画像入力を処理できます",
-  "tooltip/toolUseBadge": "このモデルはツール使用のためにトレーニングされています",
+  "tooltip/toolUseBadge": "このモデルはTool Useのためにトレーニングされています",
 
   "visionBadge/label": "Vision は有効です",
-  "toolUseBadge/label": "ツール使用のためにトレーニングされています",
+  "toolUseBadge/label": "Tool Useのためにトレーニングされています",
 
   "loader.action.load": "モデルを読み込む",
   "loader.action.clearChanges": "変更をクリア",
@@ -102,9 +103,9 @@
   "loader.guardrails.notEnoughResources": "現在の設定でモデルを読み込むためのリソースが不足しています",
   "loader.guardrails.notEnoughResources/moreInfo": "詳細情報",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "システムにこのモデルを読み込むのに十分なメモリがないようです。",
-  "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "推定では <memoryBytes /> のメモリが必要です。",
-  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "設定でモデルの読み込みガードレールを調整するか、<altOptionKey /> を押しながら読み込むことができます。",
-  "loader.guardrails.notEnoughResources.moreInfoSection.note": "注: 大きすぎるモデルを読み込むと、システムがオーバーロードされてフリーズする可能性があります。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "設定でモデルの読み込み制限を調整するか、<altOptionkey /> を押しながら操作すると、制限を無視して読み込めます。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "大きすぎるモデルを読み込むと、システムがオーバーロードされてフリーズする可能性があります。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(推奨しません) Alt/Optionを押さずに「とにかく読み込む」を常に許可",
 
   "virtual": {
     "local": {
@@ -120,6 +121,12 @@
       "next": "次へ",
       "confirm": "作成",
       "error": "仮想モデルの作成に失敗しました"
+    },
+    "altsSelect": {
+      "title": "モデルソースの選択",
+      "resetButton": "デフォルトにリセット",
+      "description": "このモデルには複数の可能なソースがあります。モデルが読み込まれたときにデフォルトで使用するソースを選択してください。",
+      "trigger": "モデルのバリアント"
     }
   }
 }

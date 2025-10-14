@@ -51,8 +51,10 @@
   "serverOptions/allowMcp/hint": "サーバーリクエストがMCPを使用できるようにする方法を選択します。MCPサーバーのインストールと使用には常に注意してください。安全でない可能性があります。",
   "serverOptions/allowMcp/mode/off": "オフ",
   "serverOptions/allowMcp/mode/off/hint": "サーバーリクエストがMCPを使用することを許可しない",
-  "serverOptions/allowMcp/mode/mcpJson": "mcp.json",
-  "serverOptions/allowMcp/mode/mcpJson/hint": "mcp.jsonで構成されたMCPサーバーを許可します",
+  "serverOptions/allowMcp/mode/remote": "リモート",
+  "serverOptions/allowMcp/mode/remote/hint": "リモートMCPサーバーへの接続を許可します",
+  "serverOptions/allowMcp/mode/all": "すべて",
+  "serverOptions/allowMcp/mode/all/hint": "リモートMCPサーバーとmcp.jsonで定義されたローカルMCPサーバーへの接続を許可します",
 
   "serverLogs/scrollToBottom": "一番下に移動",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
@@ -138,7 +140,7 @@
 
   "quickDocs": {
     "tabChipTitle": "クイックドキュメント",
-    "newToolUsePopover": "コードスニペットが\"クイックドキュメント\"で利用可能になりました。ツールの使い方はこちらをクリック！",
+    "newToolUsePopover": "コードスニペットが\"クイックドキュメント\"で利用可能になりました。Tool Useの使い方はこちらをクリック！",
     "newToolUsePopoverTitle": "📚 クイックドキュメント",
     "learnMore": "ℹ️ 👾 LM Studioローカルサーバーのエンドポイントについて詳しくは[ドキュメント](https://lmstudio.ai/docs)をご覧ください。",
     "helloWorld": {
@@ -157,7 +159,7 @@
       "title": "埋め込み"
     },
     "toolUse": {
-      "title": "ツール利用",
+      "title": "Tool Use",
       "tab": {
         "saveAsPythonFile": "Pythonファイルとして保存",
         "runTheScript": "スクリプトを実行:",
@@ -167,18 +169,25 @@
     "newBadge": "新規"
   },
 
-  "endpoints/openaiCompatRest/title": "対応エンドポイント（OpenAI互換）",
+  "endpoints/openaiCompatRest/title": "対応エンドポイント{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI 互換",
   "endpoints/openaiCompatRest/getModels": "現在ロードされているモデル一覧",
   "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトに基づき次のトークンを予測します。※OpenAIではこのエンドポイントは非推奨です。",
   "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信し、次のアシスタント応答を予測します",
   "endpoints/openaiCompatRest/postEmbeddings": "テキスト埋め込み。指定したテキスト入力に対して埋め込みベクトルを生成します。文字列または文字列配列を受け付けます。",
+  "endpoints/openaiCompatRest/postResponses": "モデル応答を生成するための高度なインターフェース。前の応答のIDを次の入力として渡すことで、状態を持つインタラクションを作成します。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "利用可能なモデルの一覧",
+  "endpoints/lmStudioRestV1/postModelsLoad": "オプションを指定してモデルをロード",
+  "endpoints/lmStudioRestV1/postModelsDownload": "モデルをダウンロード",
+  "endpoints/lmStudioRestV1/postChat": "モデルとのチャット。状態を持つマルチターン会話とMCPをサポート",
 
   "model.createVirtualModelFromInstance": "設定を新しい仮想モデルとして保存",
   "model.createVirtualModelFromInstance/error": "設定の仮想モデル保存に失敗しました",
 
   "model": {
-    "toolUseSectionTitle": "ツール利用",
-    "toolUseDescription": "このモデルはツール利用向けに訓練されています\n\n詳細は<custom-link>クイックドキュメント</custom-link>をご覧ください"
+    "toolUseSectionTitle": "Tool Use（ツール利用）",
+    "toolUseDescription": "このモデルはTool Use向けに訓練されています\n\n詳細は<custom-link>クイックドキュメント</custom-link>をご覧ください"
   },
 
   "apiConfigOptions/title": "API設定"
