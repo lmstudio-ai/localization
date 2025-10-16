@@ -47,6 +47,14 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分钟",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "仅保留最后一个即时加载的模型",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保在任意时刻最多只有一个即时加载的模型（会卸载之前的模型）",
+  "serverOptions/allowMcp/title": "允许 MCP",
+  "serverOptions/allowMcp/hint": "选择服务器请求如何访问 MCP。在使用 MCP 服务器。请始终保持谨慎，因为它们可能不安全。",
+  "serverOptions/allowMcp/mode/off": "关闭",
+  "serverOptions/allowMcp/mode/off/hint": "不允许服务器请求使用 MCP",
+  "serverOptions/allowMcp/mode/remote": "远程",
+  "serverOptions/allowMcp/mode/remote/hint": "允许连接到远程 MCP 服务器",
+  "serverOptions/allowMcp/mode/all": "全部",
+  "serverOptions/allowMcp/mode/all/hint": "允许连接到远程 MCP 服务器及您在 mcp.json 中定义的本地 MCP 服务器",
 
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
@@ -117,7 +125,7 @@
       },
       "detailsModal": {
         "installedVersions": "{{runtimeName}}的已安装版本",
-        "manifestJsonTitle": "清单 JSON（高级）",
+        "manifestJsonTitle": "Manifest JSON（高级）",
         "releaseNotesTitle": "版本说明",
         "noReleaseNotes": "该版本无可用的版本说明",
         "back": "返回",
@@ -161,15 +169,21 @@
     "newBadge": "新功能"
   },
 
-  "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
+  "endpoints/openaiCompatRest/title": "支持的端点{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "(与 OpenAI 兼容的格式)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个token。注意：OpenAI 认为此端点已'弃用'。",
-  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应。",
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。根据给定的提示预测下一个 token(s)。注意：OpenAI 将此端点视为“已弃用”。",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史记录以预测下一条助手回复。",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
+  "endpoints/openaiCompatRest/postResponses": "生成模型响应的高级接口。通过将先前响应的 ID 作为输入传递给下一个响应，创建有状态交互。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "列出可用的模型",
+  "endpoints/lmStudioRestV1/postModelsLoad": "加载带有选项的模型",
+  "endpoints/lmStudioRestV1/postModelsDownload": "下载模型",
+  "endpoints/lmStudioRestV1/postChat": "与模型聊天。支持有状态的多轮对话和 MCP。",
 
   "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
   "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
-
   "model": {
     "toolUseSectionTitle": "工具使用",
     "toolUseDescription": "检测到此模型经过工具使用的训练\n\n打开<custom-link>快速文档</custom-link>以了解更多信息。"
