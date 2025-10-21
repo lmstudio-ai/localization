@@ -47,12 +47,13 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "最後のJITロードモデルのみを保持",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "任意の時点でJITを介してロードされるモデルは最大1つに制限されます（以前のモデルはアンロードされます）",
-  "serverOptions/allowMcp/title": "MCPを許可",
-  "serverOptions/allowMcp/hint": "サーバーリクエストがMCPを使用できるようにする方法を選択します。MCPサーバーのインストールと使用には常に注意してください。安全でない可能性があります。",
+  "serverOptions/allowMcp/title": "リモートMCPを許可",
+  "serverOptions/allowMcp/hint": "有効にすると、サーバーリクエストがリモートMCPを使用できるようになります。MCPサーバーを使用する際は常に注意してください。安全でない可能性があります。",
   "serverOptions/allowMcp/mode/off": "オフ",
   "serverOptions/allowMcp/mode/off/hint": "サーバーリクエストがMCPを使用することを許可しない",
   "serverOptions/allowMcp/mode/remote": "リモート",
   "serverOptions/allowMcp/mode/remote/hint": "リモートMCPサーバーへの接続を許可します",
+
   "serverOptions/allowMcp/mode/all": "すべて",
   "serverOptions/allowMcp/mode/all/hint": "リモートMCPサーバーとmcp.jsonで定義されたローカルMCPサーバーへの接続を許可します",
 
