@@ -43,6 +43,7 @@
   "actions/loadModel/tooltip": "تحميل نموذج جديد",
   "actions/loadModel/confirmation": "هل تريد تحميل النموذج؟",
   "actions/addFile": "[تجريبي] إرفاق ملف بهذه الرسالة\n(.pdf، نص عادي، أو .docx)",
+  "actions/addFile/label": "إرفاق ملف",
   "actions/changeRole": "التبديل بين أدوار المستخدم والمساعد.\n\nهذا مفيد لتوجيه المحادثة في اتجاه معين.\n\nيمكن استخدامه لتنظيم سيناريوهات 'التعلم القليل' أو 'التعلم في السياق'",
   "actions/addImage": "إضافة صورة",
   "actions/deleteMessage": "حذف الرسالة",
@@ -90,6 +91,8 @@
   "actions/createChatAtRoot/error": "فشل في إنشاء محادثة في الجذر",
   "actions/createFolderAtRoot": "مجلد جديد...",
   "actions/createFolderAtRoot/error": "فشل في إنشاء مجلد في الجذر",
+  "actions/openInFolder/mac": "إظهار في Finder",
+  "actions/openInFolder/pc": "إظهار في مستكشف الملفات",
   "actions/createChat/error": "فشل في إنشاء محادثة",
   "actions/deleteChat/errorTitle": "فشل في حذف المحادثة",
 
@@ -141,6 +144,8 @@
   "style/thinkingUI/label": "توسيع كتل التفكير افتراضياً",
   "style/chatFullWidth/label": "توسيع حاوية المحادثة إلى عرض النافذة",
 
+  "style/chatUtilityMenusShowLabel/label": "إظهار تسميات قائمة أدوات المحادثة",
+
   "messageBlocks": {
     "expandBlockTooltip": "توسيع المحتوى",
     "collapseBlockTooltip": "طي المحتوى",
@@ -150,6 +155,9 @@
       "expandTooltip": "توسيع كتلة معلومات التصحيح"
     }
   },
+
+  "chatTabOptions/clearAllMessages": "مسح جميع الرسائل...",
+  "chatTabOptions/duplicateChat": "تكرار المحادثة",
 
   "topBarActions/duplicateChat": "تكرار",
   "topBarActions/clearChat": "مسح الكل",
@@ -184,7 +192,8 @@
         "placeholder": "ستظهر الإضافات التي تنشئها هنا"
       },
       "startRunningDevelopmentPlugin/error": "فشل في بدء تشغيل الإضافة في وضع التطوير",
-      "stopRunningDevelopmentPlugin/error": "فشل في إيقاف تشغيل الإضافة في وضع التطوير"
+      "stopRunningDevelopmentPlugin/error": "فشل في إيقاف تشغيل الإضافة في وضع التطوير",
+      "forceReInitPlugin/error": "فشل في إعادة تشغيل الإضافة"
     },
     "pluginConfiguration": {
       "title": "تكوين الإضافة",
@@ -208,7 +217,11 @@
         "revealInFinder": "إظهار في Finder",
         "openInFileExplorer": "فتح في مستكشف الملفات"
       }
-    }
+    },
+    "localFork": {
+      "error": "فشل في إنشاء نسخة تطوير محلية من الإضافة."
+    },
+    "restartErrorPlugin/error": "فشل في إعادة تشغيل الإضافة"
   },
 
   "genInfo": {
@@ -226,5 +239,9 @@
     "stopReason.contextLengthReached": "تم الوصول إلى حد طول السياق",
     "speculativeDecodedBy": "نموذج المسودة: {{decodedBy}}",
     "speculativeDecodingStats": "تم قبول {{accepted}}/{{total}} رموز مسودة ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "تحرير موجه النظام"
   }
 }
