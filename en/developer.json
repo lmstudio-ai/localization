@@ -179,6 +179,7 @@
   "endpoints/lmStudioRestV1/postModelsLoad": "Load a model with options",
   "endpoints/lmStudioRestV1/postModelsDownload": "Download a model",
   "endpoints/lmStudioRestV1/postChat": "Chat with a model. Supports stateful multi-turn conversations and MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Get the download status of a model",
 
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
