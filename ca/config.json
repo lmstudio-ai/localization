@@ -526,12 +526,12 @@
         "useInChat": "Use in Chat"
       },
       "importFromUrl": {
-        "button": "Import from URL...",
-        "title": "Import from URL",
-        "back": "Import from File...",
-        "action": "Paste the LM Studio Hub URL of the preset you want to import below",
-        "invalidUrl": "Invalid URL. Please make sure you are pasting a correct LM Studio Hub URL.",
-        "tip": "You can install the preset directly with the {{buttonName}} button in LM Studio Hub",
+        "button": "Importa d'una URL...",
+        "title": "Importa d'una URL",
+        "back": "Importa d'un Fitxer...",
+        "action": "Enganxa a continuació l'URL del preset del LM Studio Hub que vulguis importar",
+        "invalidUrl": "URL Invàl·lida. Si us plau, assegura't que tens un enllaç correcte.",
+        "tip": "Pots instal·lar el preset directament amb el botó {{buttonName}} al LM Studio Hub",
         "confirm": "Import",
         "cancel": "Cancel",
         "loading": "Importing...",
@@ -559,7 +559,7 @@
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
   "hardware": {
-    "environmentVariables": "Environment Variables",
+    "environmentVariables": "Variables d'Entorn",
     "environmentVariables.info": "Si no estás segur, deixa els valors per defecte",
     "environmentVariables.reset": "Torna als valors per defecte",
 

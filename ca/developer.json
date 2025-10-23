@@ -1,6 +1,6 @@
 {
   "tabs/server": "Servidor Local",
-  "tabs/extensions": "Entorns d'Execució del LM",
+  "tabs/extensions": "Runtimes del LM",
   "loadSettings/title": "Carrega la configuració",
   "modelSettings/placeholder": "Selecciona un model per a configurar-lo",
 
@@ -73,29 +73,29 @@
 
   "runtimeOptions/uninstall": "Desinstal·la",
   "runtimeOptions/uninstallDialog/title": "Desinstal·la {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstal·lar aquest entorn d'execució l'eliminarà del sistema. Aquesta acció és irreversible.",
+  "runtimeOptions/uninstallDialog/body": "Desinstal·lar el runtime l'eliminarà del sistema. Aquesta acció és irreversible.",
   "runtimeOptions/uninstallDialog/body/caveats": "És possible que alguns fitxers només s'eliminin després de reiniciar el LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "No s'ha pogut desinstal·lar l'entorn d'execució",
+  "runtimeOptions/uninstallDialog/error": "No s'ha pogut desinstal·lar el runtime",
   "runtimeOptions/uninstallDialog/confirm": "Continua i Desinstal·la",
   "runtimeOptions/uninstallDialog/cancel": "Cancel·la",
-  "runtimeOptions/noCompatibleRuntimes": "Cap entorn d'execució compatible trobat",
-  "runtimeOptions/downloadIncompatibleRuntime": "S'ha determinat que aquest entorn d'execució no és compatible amb el teu maquinari. Probablement no funcioni.",
-  "runtimeOptions/noRuntimes": "Cap entorn d'execució trobat",
+  "runtimeOptions/noCompatibleRuntimes": "Cap runtime compatible trobat",
+  "runtimeOptions/downloadIncompatibleRuntime": "S'ha determinat que aquest runtime no és compatible amb el teu maquinari. Probablement no funcioni.",
+  "runtimeOptions/noRuntimes": "Cap runtime trobat",
 
   "runtimes": {
-    "manageLMRuntimes": "Gestiona Entorns d'Execució del LM",
+    "manageLMRuntimes": "Gestiona els Runtimes del LM",
     "includeOlderRuntimeVersions": "Inclou-hi versions antigues",
     "dismiss": "Ignora",
     "updateAvailableToast": {
-      "title": "Actualització de l'Entorn d'Execució LM Disponible!"
+      "title": "Actualització del Runtime LM Disponible!"
     },
     "updatedToast": {
-      "title": " ✅ Entorn d'Execució LM Actualitzat: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Models {{compatibilityTypes}} carregats a partir d'ara utilitzaran l'entorn d'execució actualitzat."
+      "title": " ✅ Runtime LM Actualitzat: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Els models {{compatibilityTypes}} carregats a partir d'ara utilitzaran el runtime actualitzat."
     },
-    "noAvx2ErrorMessage": "Tots els entorns d'execució LM requereixen una CPU que suporti AVX2",
+    "noAvx2ErrorMessage": "Tots els runtimes LM requereixen una CPU que suporti AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Paquets d'Extensió d'Entorns d'Execució",
+      "runtimeExtensionPacks": "Paquets d'Extensió de Runtimes",
       "refresh": "Refresca",
       "refreshing": "Refrescant...",
       "filterSegment": {
@@ -110,7 +110,7 @@
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Gestiona Entorns d'Execució Actius"
+        "title": "Gestiona els Runtimes Actius"
       },
       "dropdownOptions": {
         "installedVersions": "Gestiona Versions",
@@ -179,6 +179,7 @@
   "endpoints/lmStudioRestV1/postModelsLoad": "Carrega un model amb opcions",
   "endpoints/lmStudioRestV1/postModelsDownload": "Descarrega un model",
   "endpoints/lmStudioRestV1/postChat": "Xateja amb un model. Suporta converses a torns 'stateful multi-turn conversations' i MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Comprova l'estat de la descàrrega del model",
 
   "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
   "model.createVirtualModelFromInstance/error": "No s'ha pogut desar la configuració com un nou model virtual",

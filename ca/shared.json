@@ -7,10 +7,10 @@
       "badge": "Extraient Recursos"
     },
     "performingBackendHardwareSurvey": {
-      "badge": "Comprovant la Compatibilitat dels Entorns d'Execució"
+      "badge": "Comprovant la Compatibilitat dels Runtimes"
     },
     "indexingRuntimes": {
-      "badge": "Indexant Entorns d'Execució"
+      "badge": "Indexant Runtimes"
     },
     "indexingModels": {
       "badge": "Indexant Models"

@@ -107,7 +107,7 @@
   "backendDownloadChannel.value.stable": "Estable",
   "backendDownloadChannel.value.beta": "Beta",
   "backendDownloadChannel.value.latest": "Dev",
-  "backendDownloadChannel.shortLabel": "Canal de Descàrrega d'Entorns d'Execució",
+  "backendDownloadChannel.shortLabel": "Canal de Descàrrega de Runtimes",
   "backendDownloadChannel.hint": "Escull el canal d'on descarregar els paquets d'extensió del LM Studio. \"{{stableName}}\" és el canal recomanat a la majoria d'usuaris.",
 
   "appUpdateChannel.label": "Canal d'Actualitzacions",
@@ -143,8 +143,8 @@
   "experimentalLoadPresets.description": "Decideix si permetre als presets incloure configuracions de càrrega per als models. Aquesta característica és experimental i agrairíem els comentaris.",
 
   "unloadPreviousJITModelOnLoad": "Expulsar models JIT automàticament: assegura't que mai hi haurà més d'1 model carregat via JIT en qualsevol moment (descarregarà altres models)",
-  "autoDeleteExtensionPacks": "Elimina automàticament el Paquet d'Extensió d'Entorns d'Execució menys utilitzat últimament",
-  "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Extensió d'Entorns d'Execució seleccionats",
+  "autoDeleteExtensionPacks": "Elimina automàticament el Paquet d'Extensió de Runtime menys utilitzat últimament",
+  "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Extensió de Runtime seleccionats",
   "useHFProxy.label": "Utilitza el Proxy Hugging Face Proxy del LM Studio",
   "useHFProxy.hint": "Utilitza el Proxy Hugging Face Proxy del LM Studio per cercar i descarregar models. Això pot ser útil si tens problemes a l'hora d'accedir a Hugging Face directament.",
   "separateReasoningContentInResponses": "Quan sigui possible, separa `reasoning_content` i `content` a les respostes per a les API",
