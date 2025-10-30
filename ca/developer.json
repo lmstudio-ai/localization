@@ -48,7 +48,7 @@
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Només mantén l'últim model carregat JIT",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Assegura't que, com a màxim, hi hagi un model carregat via JIT en qualsevol moment (descarregarà models previs)",
   "serverOptions/allowMcp/title": "Permet MCPs Remots",
-  "serverOptions/allowMcp/hint": "Quan estigui activat, escull com vols que les peticions accedeixin a MCPs remots. Sigues curós quan utilitzis servidors MCP, ja que poden ser perillosos.",
+  "serverOptions/allowMcp/hint": "Permet utilitzar MCPs que no es trobin al teu mcp.json. Aquestes connexions MCP són efímeres i només existeixen durant la duració de la petició. Pel moment, només se suporten MCPs remots.",
   "serverOptions/allowMcp/mode/off": "Apagat",
   "serverOptions/allowMcp/mode/off/hint": "No permetis que les peticions utilitzin MCP",
   "serverOptions/allowMcp/mode/remote": "Remot",
