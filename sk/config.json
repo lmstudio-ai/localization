@@ -52,7 +52,7 @@
   "llm.prediction.topKSampling/info": "Z dokumentácie llama.cpp:\nVzorkovanie top-k je metóda generovania textu, ktorá vyberá ďalší token iba z top k najpravdepodobnejších tokenov predpovedaných modelom.\nPomáha znížiť riziko generovania nízkopravdepodobných alebo nesmyselných tokenov, ale môže tiež obmedziť rozmanitosť výstupu.\nVyššia hodnota pre top-k (napr. 100) zváži viac tokenov a viedie k rozmanitejšiemu textu, zatiaľ čo nižšia hodnota (napr. 10) sa zameria na najpravdepodobnejšie tokeny a generuje konzervatívnejší text.\n• Predvolená hodnota je <{{dynamicValue}}>",
   "llm.prediction.llama.cpuThreads/title": "CPU vlákna",
   "llm.prediction.llama.cpuThreads/subTitle": "Počet CPU vlákien použitých počas inferencie",
-  "llm.prediction.llama.cpuThreads/info": "Počet vlákien použitých počas výpočtu. Zvýšenie počtu vlákien sa nevždy koreluje s lepším výkonom. Predvolené je <{{dynamicValue}}>.",
+  "llm.prediction.llama.cpuThreads/info": "Počet vlákien použitých počas výpočtu. Zvýšenie počtu vlákien sa nie vždy koreluje s lepším výkonom. Predvolené je <{{dynamicValue}}>.",
   "llm.prediction.maxPredictedTokens/title": "Obmedziť dĺžku odpovede",
   "llm.prediction.maxPredictedTokens/subTitle": "Voliteľne obmedziť dĺžku odpovede AI",
   "llm.prediction.maxPredictedTokens/info": "Ovláda maximálnu dĺžku odpovede chatbota. Zapnite pre nastavenie limitu maximálnej dĺžky odpovede, alebo vypnite, aby chatbot rozhodoval, kedy má prestať.",
