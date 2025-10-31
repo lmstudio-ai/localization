@@ -79,15 +79,15 @@
   "onboarding/resetAllHints": "Obnoviť všetky tipy pri úvode",
   "onboarding/noneDismissed": "Žiadne zrušené tipy, momentálne sa zobrazia všetky pomocné tipy pri úvode, kým nebudú znovu zrušené",
 
-  "firstTimeExperienceLabel": "Skúsenosť pri prvom použití rozhovoru",
+  "firstTimeExperienceLabel": "Skúsenosť pri prvom použití chatu",
   "firstTimeExperienceMarkCompletedLabel": "Označiť ako dokončené",
   "firstTimeExperienceResetLabel": "Obnoviť",
-  "showPromptSuggestionsLabel": "Zobraziť návrhy výziev pri vytváraní nového rozhovoru",
+  "showPromptSuggestionsLabel": "Zobraziť návrhy otázok pri začatí nového chatu",
   "darkThemeLabel": "Tmavá",
   "lightThemeLabel": "Svetlá",
   "systemThemeLabel": "Automaticky",
   "sepiaThemeLabel": "Sépiová",
-  "unloadPreviousModelLabel": "Pri výbere modelu na načítanie najskôr uvoľniť všetky aktuálne načítané modely",
+  "unloadPreviousModelLabel": "Pri výbere modelu na načítanie najskôr uvoľnite všetky aktuálne načítané modely",
   "languageLabel": "Jazyk",
   "changeLanguageLabel": "Vyberte jazyk aplikácie (stále vo vývoji)",
   "developerLabel": "Vývojár",
@@ -160,29 +160,29 @@
   "expandConfigsOnClick": "Rozbaliť konfigurácie po kliknutí namiesto prejdenia myšou",
 
   "migrateChats": {
-    "label": "Migrovať rozhovory pred verziou 0.3.0",
-    "hasBetterLabel": "Znovu migrovať rozhovory pred verziou 0.3.0",
+    "label": "Migrovať chaty z verzií pred 0.3.0",
+    "hasBetterLabel": "Znovu migrovať chaty z verzií pred 0.3.0",
     "action_one": "Migrovať 1 rozhovor",
     "action_other": "Migrovať {{count}} rozhovorov",
-    "inProgress": "Migrujem rozhovory...",
+    "inProgress": "Migrujem chaty...",
     "hint": {
-      "primary": "Zmenili sme internú štruktúru údajov pre rozhovory verzie 0.3.0+ na podporu funkcií ako sú správy rozhovoru s viacerými verziami. Aby sa staršie rozhovory zobrazili v aplikácii, musia byť migrované do nového formátu.",
-      "details": "Proces migrácie NEODSTRÁNI vaše staré rozhovory, ale vytvorí z nich kópiu v novom formáte. ",
-      "footer": "Stále máte prístup k vašim starým rozhovorom prostredníctvom starších verzií LM Studio. Momentálne obrázky nebudú migrované automaticky."
+      "primary": "Zmenili sme internú štruktúru údajov pre chaty vo verzii 0.3.0+ na podporu funkcií, ako sú správy chatu s viacerými verziami. Aby sa staršie chaty zobrazili v aplikácii, musia byť migrované do nového formátu.",
+      "details": "Proces migrácie NEODSTRÁNI vaše staré chaty, ale vytvorí z nich kópiu v novom formáte. ",
+      "footer": "Stále máte prístup k vašim starým chatom prostredníctvom starších verzií LM Studio. Momentálne obrázky nebudú migrované automaticky."
     },
     "hasBetterHint": {
-      "primary": "Od doby, čo ste migrovali vaše staré rozhovory, sme zlepšili migrátor rozhovorov. Chceli by ste ho spustiť znovu?",
-      "details": "Proces migrácie vytvorí nový priečinok obsahujúci znovu migrované rozhovory. Vaše staré rozhovory zostanú nedotknuté.",
-      "footer": "Stále máte prístup k vašim starým rozhovorom prostredníctvom starších verzií LM Studio. Momentálne obrázky nebudú migrované automaticky."
+      "primary": "Od doby, čo ste migrovali vaše staré chaty, sme zlepšili migrátor chatov. Chceli by ste ho spustiť znovu?",
+      "details": "Proces migrácie vytvorí nový priečinok obsahujúci znovu migrované chaty. Vaše staré chaty zostanú nedotknuté.",
+      "footer": "Stále máte prístup k vašim starým chatom prostredníctvom starších verzií LM Studio. Momentálne obrázky nebudú migrované automaticky."
     },
-    "success": "Rozhovory boli úspešne migrované!",
-    "success_one": "Úspešne migrovaný 1 rozhovor",
-    "success_other": "Úspešne migrovaných {{count}} rozhovorov",
+    "success": "Chaty boli úspešne migrované!",
+    "success_one": "Úspešne migrovaný 1 chat",
+    "success_other": "Úspešne migrovaných {{count}} chatov",
     "showInstructionsButton": "Zobraziť inštrukcie",
-    "footerCardText": "Rozhovory z predchádzajúcich verzií LM Studio musia byť migrované, aby bolo možné ich použiť v tejto verzii.",
-    "hasBetterFooterCardText": "Od doby, čo ste migrovali vaše staré rozhovory, sme zlepšili migrátor rozhovorov. Môžete znovu spustiť proces migrácie. (Vytvoríme nový priečinok obsahujúci znovu migrované rozhovory.)",
+    "footerCardText": "Chaty z predchádzajúcich verzií LM Studio musia byť migrované, aby bolo možné ich použiť v tejto verzii.",
+    "hasBetterFooterCardText": "Od doby, čo ste migrovali vaše staré chaty, sme zlepšili migrátor chatov. Môžete znovu spustiť proces migrácie. (Vytvoríme nový priečinok obsahujúci znovu migrované chaty.)",
     "dismissConfirm": "Zrušiť",
-    "dismissConfirmDescription": "Migráciu rozhovorov môžete vždy spravovať v Nastaveniach"
+    "dismissConfirmDescription": "Migráciu chatov môžete vždy spravovať v Nastaveniach"
   },
   "toolConfirmation": {
     "label": "Potvrdenie volania nástroja",
