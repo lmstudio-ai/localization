@@ -5,7 +5,7 @@
   "action.finish": "Dokončiť",
 
   "dismissable_rag_modal": {
-    "description": "Môžete teraz robiť rozhovory so svojimi vlastnými dokumentmi pomocou generovania rozšíreného vyhľadávania (RAG). Tu je, ako to funguje:",
+    "description": "Teraz môžete chatovať so svojimi dokumentmi pomocou rozšíreného vyhľadávania (RAG). Tu je, ako to funguje:",
     "instructions": {
       "attach_files": {
         "title": "Pripojiť súbory",
