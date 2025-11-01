@@ -20,7 +20,7 @@
   "deeplink/confirmation/recommendedOption": "Pravdepodobne najlepšia možnosť pre väčšinu používateľov",
   "deeplink/confirmation/downloadButton": "Stiahnuť",
   "deeplink/confirmation/nevermindButton": "Nevadí",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Model Nájdený ✅",
+  "deeplink/confirmation/modelPresent/title": "Model z Hugging Face nájdený ✅",
   "deeplink/confirmation/modelPresent/body": "Dobré správy! Tento súbor modelu je už dostupný na vašom lokálnom zariadení.",
   "deeplink/confirmation/loadInChat": "Načítať {{ modelName }} do nového chatu",
   "deeplink/error/modelNotFound/title": "Uff, nepodarilo sa nám nájsť tento model",
