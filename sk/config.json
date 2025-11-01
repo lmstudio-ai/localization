@@ -205,7 +205,7 @@
   "embedding.load.llama.ropeFrequencyBase/info": "[Rozšírené] Upravuje základnú frekvenciu pre Rotary Positional Encoding, ovplyvňuje, ako je zakomponovaná informácia o pozícii",
   "embedding.load.llama.evalBatchSize/title": "Veľkosť evaluačnej dávky",
   "embedding.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovaných naraz. Zvýšenie tohto zvyšuje výkon na úkor využitia pamäte",
-  "embedding.load.llama.evalBatchSize/info": "Nastavuje počet tokenov spracovaných spoločne v jednej dávke počas evaluácie",
+  "embedding.load.llama.evalBatchSize/info": "Nastavuje počet tokenov spracovaných spoločne v jednej dávke počas vyhodnocovania",
   "embedding.load.llama.ropeFrequencyScale/title": "Mierka frekvencie RoPE",
   "embedding.load.llama.ropeFrequencyScale/subTitle": "Dĺžka kontextu je škálovaná týmto faktorom na rozšírenie efektívneho kontextu pomocou RoPE",
   "embedding.load.llama.ropeFrequencyScale/info": "[Rozšírené] Upravuje škálovanie frekvencie pre Rotary Positional Encoding na kontrolu granularity pozície",
