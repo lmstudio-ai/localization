@@ -31,7 +31,7 @@
     },
     "step_1": {
       "title": "Začíname s používaním nástrojov",
-      "toolUseCanWorkWithAnyModel": "Modely, ktoré boli vytrénované na používanie nástrojov, budú fungovať lepšie ako iné, ale môžete skúsiť použiť nástroje s akýmkoľvek modelom. Prečítajte si <customlink>dokumentáciu</customlink>, kde sa dozviete viac.\nModely, ktoré boli vytrénované na používanie nástrojov, budú označené novým symbolom:",
+      "toolUseCanWorkWithAnyModel": "Modely vytrénované na používanie nástrojov budú fungovať lepšie ako ostatné, ale nástroje môžete skúsiť použiť s akýmkoľvek modelom. Prečítajte si <customlink>dokumentáciu</customlink>, kde sa dozviete viac.\nModely, ktoré boli vytrénované na používanie nástrojov, budú označené novým symbolom:",
       "hasCompatibleModel": "🎉 Vyzerá to, že už máte modely s podporou nástrojov!",
       "downloadRecommendedModel": "Stiahnite si model, ktorý bol vytrénovaný na používanie nástrojov:"
     },
