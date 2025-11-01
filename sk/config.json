@@ -520,7 +520,7 @@
         "button": "Importovať z URL...",
         "title": "Importovať z URL",
         "back": "Importovať zo súboru...",
-        "action": "Vložte nižšie URL Hub LM Studio predvoľby, ktorú chcete importovať",
+        "action": "Vložte nižšie URL predvoľby z Hub LM Studio, ktorú chcete importovať",
         "invalidUrl": "Neplatná URL. Prosím, uistite sa, že ste vložili správnu URL Hub LM Studio.",
         "tip": "Môžete nainštalovať predvoľbu priamo tlačidlom {{buttonName}} na Hub LM Studio",
         "confirm": "Importovať",
