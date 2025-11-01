@@ -531,7 +531,7 @@
     },
     "download": {
       "title": "Stiahnuť <preset-name /> z Hub LM Studio",
-      "subtitle": "Uložiť <custom-name /> do vašich predvolieb. Týmto umožníte používať túto predvoľbu v aplikácii",
+      "subtitle": "Uložiť <custom-name /> do vašich predvolieb. Týmto umožníte aby ste mohli túto predvoľbu používať v aplikácii",
       "button": "Stiahnuť",
       "button/loading": "Sťahuje sa...",
       "cancel": "Zrušiť",
