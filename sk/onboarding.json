@@ -1,0 +1,42 @@
+{
+  "action.skipOnboarding": "Preskočiť úvod",
+  "action.next": "Ďalej",
+  "action.back": "Späť",
+  "action.finish": "Dokončiť",
+
+  "dismissable_rag_modal": {
+    "description": "Teraz môžete chatovať so svojimi dokumentmi pomocou rozšíreného vyhľadávania (RAG). Tu je, ako to funguje:",
+    "instructions": {
+      "attach_files": {
+        "title": "Pripojiť súbory",
+        "description": "Nahrajte až 5 súborov naraz s maximálnou kombinovanou veľkosťou 30 MB. Podporované formáty zahŕňajú PDF, DOCX, TXT a CSV."
+      },
+      "be_specific": {
+        "title": "Buďte konkrétny",
+        "description": "Pri kladení otázok uveďte čo najviac podrobností. To pomáha systému načítať najrelevantnejšie informácie z vašich dokumentov."
+      },
+      "get_responses": {
+        "title": "Získajte odpovede a experimentujte",
+        "description": "Jazykový model sa pozrie na vašu požiadavku a načítané úryvky z vašich dokumentov a pokúsi sa vygenerovať odpoveď. Experimentujte s rôznymi požiadavkami a zistite, čo funguje najlepšie."
+      }
+    }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Používanie nástrojov 🛠️ (Volanie funkcií)",
+      "text_0": "Niektoré modely (napr. Llama 3.1/3.2, Mistral, Qwen a ďalšie) boli vytrénované na používanie nástrojov.",
+      "text_1": "To znamená v praxi: poskytnete modelu pole 'nástrojov' (signatúry funkcií) v konkrétnom formáte a model sa môže rozhodnúť, či ich 'zavolať' na základe vstupu používateľa.",
+      "text_2": "Môžete si predstaviť prípady použitia ako napríklad dotazovanie API, spustenie kódu alebo v podstate čokoľvek, čo sa dá vyjadriť ako volanie funkcie."
+    },
+    "step_1": {
+      "title": "Začíname s používaním nástrojov",
+      "toolUseCanWorkWithAnyModel": "Modely vytrénované na používanie nástrojov budú fungovať lepšie ako ostatné, ale nástroje môžete skúsiť použiť s akýmkoľvek modelom. Prečítajte si <customlink>dokumentáciu</customlink>, kde sa dozviete viac.\nModely, ktoré boli vytrénované na používanie nástrojov, budú označené novým symbolom:",
+      "hasCompatibleModel": "🎉 Vyzerá to, že už máte modely s podporou nástrojov!",
+      "downloadRecommendedModel": "Stiahnite si model, ktorý bol vytrénovaný na používanie nástrojov:"
+    },
+    "nextButton": "Ďalej",
+    "letsGoButton": "Načítať model a spustiť server",
+    "doneButton": "Zrušiť"
+  }
+}
