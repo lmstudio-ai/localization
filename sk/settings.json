@@ -87,7 +87,7 @@
   "lightThemeLabel": "Svetlá",
   "systemThemeLabel": "Automaticky",
   "sepiaThemeLabel": "Sépiová",
-  "unloadPreviousModelLabel": "Pri výbere modelu na načítanie najskôr uvoľnite všetky aktuálne načítané modely",
+  "unloadPreviousModelLabel": "Pri výbere modelu na načítanie najprv uvoľnite všetky aktuálne načítané modely",
   "languageLabel": "Jazyk",
   "changeLanguageLabel": "Vyberte jazyk aplikácie (stále vo vývoji)",
   "developerLabel": "Vývojár",
