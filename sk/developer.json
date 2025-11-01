@@ -480,7 +480,7 @@
       "upToDate": "Aktuálne!",
       "unsavedChangesModal": {
         "title": "Máte neuložené zmeny.",
-        "bodyContent": "Sťahovanie z vzdialeného zdroja prepíše vaše neuložené zmeny. Pokračovať?",
+        "bodyContent": "Sťahovanie zo vzdialeného zdroja prepíše vaše neuložené zmeny. Pokračovať?",
         "confirmButton": "Prepísať neuložené zmeny"
       }
     },
