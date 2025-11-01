@@ -141,7 +141,7 @@
   "llm.load.numCpuExpertLayersRatio/info": "Určuje, či umiestniť všetky MoE expertné vrstvy do CPU RAM. Necháva attention vrstvy na GPU, šetrí VRAM a zároveň udržuje inferenciu pomerne rýchlu",
   "llm.load.llama.evalBatchSize/title": "Veľkosť evaluačnej dávky",
   "llm.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovaných naraz. Zvýšenie tohto zvyšuje výkon na úkor využitia pamäte",
-  "llm.load.llama.evalBatchSize/info": "Nastavuje počet príkladov spracovaných spoločne v jednej dávke počas evaluácie, ovplyvňuje rýchlosť a využitie pamäte",
+  "llm.load.llama.evalBatchSize/info": "Nastavuje počet príkladov spracovaných spoločne v jednej dávke počas vyhodnocovania, ovplyvňuje rýchlosť a využitie pamäte",
   "llm.load.llama.ropeFrequencyBase/title": "Základná frekvencia RoPE",
   "llm.load.llama.ropeFrequencyBase/subTitle": "Vlastná základná frekvencia pre rotačné pozície (RoPE). Zvýšenie tohto môže umožniť lepší výkon pri vysokých dĺžkach kontextu",
   "llm.load.llama.ropeFrequencyBase/info": "[Rozšírené] Upravuje základnú frekvenciu pre Rotary Positional Encoding, ovplyvňuje, ako je zakomponovaná informácia o pozícii",
