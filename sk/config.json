@@ -17,7 +17,7 @@
   "advancedTab/noConfigsText": "Nemáte žiadne neuložené zmeny - upravte hodnoty vyššie, aby ste tu videli prepísania.",
   "loadInstanceFirst": "Na zobrazenie konfigurovateľných parametrov načítajte model",
   "noListedConfigs": "Žiadne konfigurovateľné parametre",
-  "generationParameters/info": "Experimentujte s základnými parametrami, ktoré ovplyvňujú generovanie textu.",
+  "generationParameters/info": "Experimentujte so základnými parametrami, ktoré ovplyvňujú generovanie textu.",
   "loadParameters/title": "Parametre načítania",
   "loadParameters/description": "Nastavenia na kontrolu spôsobu inicializácie a načítania modelu do pamäte.",
   "loadParameters/reload": "Znova načítať pre aplikovanie zmien",
