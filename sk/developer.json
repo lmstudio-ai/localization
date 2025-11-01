@@ -342,7 +342,7 @@
   "saveConflictResolution": {
     "title": "Vyberte, ktoré hodnoty zahrnúť do predvoľby",
     "description": "Vyberte a zvoľte, ktoré hodnoty ponechať",
-    "instructions": "Kliknutím na hodnotu ju zahrnete",
+    "instructions": "Kliknutím na hodnotu ju zahrniete",
     "userValues": "Predchádzajúca hodnota",
     "presetValues": "Nová hodnota",
     "confirm": "Potvrdiť",
