@@ -21,7 +21,7 @@
   "loadParameters/title": "Parametre načítania",
   "loadParameters/description": "Nastavenia na kontrolu spôsobu inicializácie a načítania modelu do pamäte.",
   "loadParameters/reload": "Znova načítať pre aplikovanie zmien",
-  "loadParameters/reload/error": "Znovunačítanie modelu zlyhalo",
+  "loadParameters/reload/error": "Načítanie modelu zlyhalo",
   "discardChanges": "Zahodiť zmeny",
   "loadModelToSeeOptions": "Na zobrazenie možností načítajte model",
   "schematicsError.title": "Schéma konfigurácie obsahuje chyby v nasledujúcich poliach:",
@@ -227,7 +227,7 @@
     "included/empty": "V tomto kontexte sa nevzťahujú žiadne polia tejto predvoľby.",
     "included/conflict": "Budete požiadaní, aby ste si vybrali, či sa táto hodnota má aplikovať",
     "separateLoad/title": "Konfigurácia načítania",
-    "separateLoad/description.1": "Predvoľba tiež zahŕňa nasledujúcu konfiguráciu načítania. Konfigurácia načítania sa týka celého modelu a vyžaduje znovunačítanie modelu, aby nadobudla účinnosť. Držte",
+    "separateLoad/description.1": "Predvoľba tiež zahŕňa nasledujúcu konfiguráciu načítania. Konfigurácia načítania sa týka celého modelu a vyžaduje opätovné načítanie modelu, aby nadobudla účinnosť. Držte"
     "separateLoad/description.2": "pre aplikovanie na",
     "separateLoad/description.3": ".",
     "excluded/title": "Nemusí sa vzťahovať",
