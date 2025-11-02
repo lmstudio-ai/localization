@@ -212,7 +212,7 @@
         "dismiss": "Zavrieť",
         "publish": "Zverejniť",
         "openInZed": "Otvoriť v Zed",
-        "openInVscode": "Otvoriť v VS Code",
+        "openInVscode": "Otvoriť vo VS Code",
         "revealInFinder": "Zobraziť vo vyhľadávači",
         "openInFileExplorer": "Otvoriť v správcovi súborov"
       }
