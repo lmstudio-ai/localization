@@ -50,7 +50,7 @@
   "actions/editMessage": "Upraviť správu",
   "actions/editMessage/cannotEditPreprocessed": "Nie je možné upravovať predspracované správy, pretože budú prepísané po spustení preprocesora. Ak chcete správu upraviť, buď: \n\n - Prepnite na pôvodnú správu a upravte ju, alebo\n - Zmeňte preprocesor tak, aby vytváral požadovaný výstup.",
   "actions/regenerateMessage": "Znovu vygenerovať správu",
-  "actions/regenerateMessage/error": "Vygenerovanie správy zlyhalo",
+  "actions/regenerateMessage/error": "Opätovné vygenerovanie správy zlyhalo",
   "actions/branchChat": "Vetviť chat po tejto správe",
   "actions/branchChat/error": "Vetvenie chatu zlyhalo",
   "actions/continueAssistantMessage": "Pokračovať v správe asistenta",
