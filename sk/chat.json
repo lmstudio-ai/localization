@@ -126,7 +126,7 @@
 
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Prostý text",
-  "style/viewMode/monospace": "Neproporcionálne písmo",
+  "style/viewMode/monospace": "Písmo s pevnou šírkou",
 
   "speculativeDecodingVisualization/toggle": "Vizualizovať prijaté návrhy tokenov",
   "speculativeDecodingVisualization/fromDraftModel_one": "Prijatý návrh tokenu",
@@ -141,7 +141,7 @@
   "style/debugBlocks/label": "Zobraziť bloky ladiacich informácií",
 
   "style/thinkingUI/label": "Rozbaliť bloky uvažovania v predvolenom nastavení",
-  "style/chatFullWidth/label": "Rozšíriť kontajner chatu na šírku okna",
+  "style/chatFullWidth/label": "Zobraziť chat cez celú šírku okna",
 
   "style/chatUtilityMenusShowLabel/label": "Zobraziť popisy menu nástrojov chatu",
 
