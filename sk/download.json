@@ -23,7 +23,7 @@
   "deeplink/confirmation/modelPresent/title": "Model z Hugging Face nájdený ✅",
   "deeplink/confirmation/modelPresent/body": "Dobré správy! Tento súbor modelu je už dostupný na vašom lokálnom zariadení.",
   "deeplink/confirmation/loadInChat": "Načítať {{ modelName }} do nového chatu",
-  "deeplink/error/modelNotFound/title": "Uff, nepodarilo sa nám nájsť tento model",
+  "deeplink/error/modelNotFound/title": "Ups, nepodarilo sa nám nájsť tento model",
   "deeplink/error/modelNotFound/body": "Dvakrát skontrolujte názov modelu a zvážte vyskúšanie inej možnosti sťahovania.",
   "deeplink/actions/trySearching": "Skúste vyhľadať {{modelName}} na Hugging Face",
 
