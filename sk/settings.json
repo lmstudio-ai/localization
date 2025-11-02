@@ -33,7 +33,7 @@
   "appUpdatedToastDescriptionPrefix": "Zobraziť ",
   "AppUpdatedToastDescriptionReleaseNotes": "Poznámky k vydaniu",
   "toolUseToastTitle": "Novinka v bete: Používanie nástrojov a API volaní funkcií",
-  "toolUseToastDescription": "Priama náhrada pre OpenAI používanie nástrojov s vybranými modelmi ako Llama 3.1/3.2, Mistral a Qwen.",
+  "toolUseToastDescription": "Priama náhrada za používanie nástrojov OpenAI s vybranými modelmi ako Llama 3.1/3.2, Mistral a Qwen.",
   "toolUseToastButtonText": "Prejdite na vývojársku stránku a vyskúšajte to",
   "doItLater": "Urobím to neskôr",
   "failedToUpdate": "Aktualizácia aplikácie zlyhala. Prosím, skontrolujte svoje internetové pripojenie alebo to skúste neskôr.",
@@ -70,7 +70,7 @@
   "chat/aiNaming/emoji": "Používať emotikony v automaticky generovaných názvoch rozhovorov",
   "chat/keyboardShortcuts/label": "Klávesové skratky",
   "chat/keyboardShortcuts/verbPrefix": "Použiť",
-  "chat/keyboardShortcuts/regenerate": "pre znovu vygenerovanie poslednej správy v rozhovore",
+  "chat/keyboardShortcuts/regenerate": "pre opätovné vygenerovanie poslednej správy v rozhovore",
   "chat/keyboardShortcuts/sendMessage": "pre odoslanie správy",
 
   "onboarding/blockTitle": "Tipy pri úvode",
@@ -123,7 +123,7 @@
   "modelLoadingGuardrails.value.off/subTitle": "Žiadne opatrenia proti preťaženiu systému",
   "modelLoadingGuardrails.value.off/detail": "Detail vypnutia",
   "modelLoadingGuardrails.value.low": "Voľné",
-  "modelLoadingGuardrails.value.low/subTitle": "Mierne opatrenia proti preťaženiu systému",
+  "modelLoadingGuardrails.value.low/subTitle": "Slabé opatrenia proti preťaženiu systému",
   "modelLoadingGuardrails.value.low/detail": "Detail voľných opatrení",
   "modelLoadingGuardrails.value.medium": "Vyvážené",
   "modelLoadingGuardrails.value.medium/subTitle": "Mierne opatrenia proti preťaženiu systému",
@@ -190,7 +190,7 @@
       "label": "Nikdy nepýtať potvrdenia pred spustením nástroja (NEODPORÚČA SA)",
       "hint": "Zakázať potvrdenia pred spustením nástroja. Toto sa neodporúča.",
       "warnTitle": "Ste si istý?",
-      "warnDescription": "Zakázanie potvrdení pri volaní nástrojov je nebezpečné. Ak niektorý z vašich doplnkov pridal nástroj, ktorý má potenciál vykonávať deštruktívne akcie (ako spustenie príkazu, zmazanie súborov, prepísanie súborov, nahratie súborov atď.), model bude môcť takéto akcie vykonávať bez akéhokoľvek potvrdenia. Potvrdenia môžete kedykoľvek zakázať pre jednotlivé nástroje alebo dokonca pre jednotlivé doplnky. Povolenie tejto možnosti sa NEODPORÚČA. Prosím, buďte opatrný.",
+      "warnDescription": "Zakázanie potvrdení pri volaní nástrojov je nebezpečné. Ak niektorý z vašich doplnkov pridal nástroj, ktorý má potenciál vykonávať deštruktívne akcie (ako spustenie príkazu, zmazanie súborov, prepísanie súborov, nahratie súborov atď.), model bude môcť takéto akcie vykonávať bez akéhokoľvek upozornenia alebo potvrdenia. Potvrdenia môžete kedykoľvek zakázať pre jednotlivé nástroje alebo dokonca pre jednotlivé doplnky. Povolenie tejto možnosti sa NEODPORÚČA. Prosím, buďte opatrný.",
       "warnButton": "Rozumiem rizikám"
     }
   },
