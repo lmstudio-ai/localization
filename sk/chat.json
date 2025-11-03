@@ -1,6 +1,6 @@
 {
-  "modelLoaderPlaceholder": "Vyberte model na načítanie",
-  "systemPromptPlaceholder": "Nastavte systémový prompt",
+  "modelLoaderPlaceholder": "Vyberte model, ktorý chcete načítať",
+  "systemPromptPlaceholder": "Zadajte systémový prompt",
   "userRoleText": "Používateľ",
   "assistantRoleText": "Asistent",
   "addMessageButtonText": "Pridať",
@@ -40,8 +40,8 @@
 
   "actions/sendMessage/error": "Odoslanie správy zlyhalo",
   "actions/loadModel/error": "🥲 Načítanie modelu zlyhalo",
-  "actions/addFile": "[Experimentálne] Pripojiť súbor k tejto správe\n(.pdf, prostý text alebo .docx)",
-  "actions/addFile/label": "Pripojiť súbor",
+  "actions/addFile": "[Experimentálne] Priložiť súbor k tejto správe\n(.pdf, prostý text alebo .docx)",
+  "actions/addFile/label": "Priložiť súbor",
   "actions/changeRole": "Prepnúť medzi rolami Používateľ a Asistent.\n\nJe to užitočné na usmernenie konverzácie požadovaným smerom.\n\nMôže byť použité na prípravu scenárov 'few-shot learning' alebo 'in-context learning'",
   "actions/addImage": "Pripojiť obrázok",
   "actions/deleteMessage": "Odstrániť správu",
@@ -49,12 +49,12 @@
   "actions/copyMessage": "Kopírovať správu",
   "actions/editMessage": "Upraviť správu",
   "actions/editMessage/cannotEditPreprocessed": "Nie je možné upravovať predspracované správy, pretože budú prepísané po spustení preprocesora. Ak chcete správu upraviť, buď: \n\n - Prepnite na pôvodnú správu a upravte ju, alebo\n - Zmeňte preprocesor tak, aby vytváral požadovaný výstup.",
-  "actions/regenerateMessage": "Znovu vygenerovať správu",
-  "actions/regenerateMessage/error": "Opätovné vygenerovanie správy zlyhalo",
-  "actions/branchChat": "Vetviť chat po tejto správe",
-  "actions/branchChat/error": "Vetvenie chatu zlyhalo",
-  "actions/continueAssistantMessage": "Pokračovať v správe asistenta",
-  "actions/continueAssistantMessage/error": "Pokračovanie v správe asistenta zlyhalo",
+  "actions/regenerateMessage": "Znova vygenerovať odpoveď",
+  "actions/regenerateMessage/error": "Opätovné vygenerovanie odpovede zlyhalo",
+  "actions/branchChat": "Rozvetviť chat od tejto správy",
+  "actions/branchChat/error": "Rozvetvenie chatu zlyhalo",
+  "actions/continueAssistantMessage": "Pokračovať v odpovedi asistenta",
+  "actions/continueAssistantMessage/error": "Pokračovanie v odpovedi asistenta zlyhalo",
   "actions/predictNext": "Vygenerovať odpoveď AI",
   "actions/predictNext/error": "Vygenerovanie odpovede AI zlyhalo",
   "actions/loadLastModel": "Znova načítať naposledy použitý model",
@@ -155,18 +155,18 @@
     }
   },
 
-  "chatTabOptions/clearAllMessages": "Vymazať všetky správy...",
+  "chatTabOptions/clearAllMessages": "Vymazať všetky odpovede...",
   "chatTabOptions/duplicateChat": "Duplikovať chat",
 
   "topBarActions/duplicateChat": "Duplikovať",
   "topBarActions/clearChat": "Vymazať všetko",
-  "topBarActions/clearChatConfirmation": "Ste si istý, že chcete vymazať všetky správy v tomto chate?",
+  "topBarActions/clearChatConfirmation": "Ste si istý, že chcete vymazať všetky odpovede v tomto chate?",
   "topBarActions/clearChatCancel": "Zrušiť",
   "topBarActions/clearChatDelete": "Vymazať všetko",
 
   "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
   "noModels.downloading": "Sťahovanie vášho prvého LLM...",
-  "noModels": "Zatiaľ žiadne LLM! Stiahnite si jedno, aby ste mohli začať!",
+  "noModels": "Zatiaľ žiadne LLM! Stiahnite si jeden, aby ste mohli začať!",
 
   "plugins": {
     "pluginTrigger": {
