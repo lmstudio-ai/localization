@@ -75,7 +75,7 @@
   "llm.prediction.contextOverflowPolicy/subTitle": "Ako sa model má správať, keď konverzácia rastie príliš veľká na to, aby s ním vedel pracovať",
   "llm.prediction.contextOverflowPolicy/info": "Rozhodnite, čo robiť, keď konverzácia presiahne veľkosť pracovnej pamäte modelu ('kontext')",
   "llm.prediction.llama.frequencyPenalty/title": "Trest za frekvenciu",
-  "llm.prediction.llama.presencePenalty/title": "Trest za prítomnosť",
+  "llm.prediction.llama.presencePenalty/title": "Trest za výskyt",
   "llm.prediction.llama.tailFreeSampling/title": "Vzorkovanie bez chvosta",
   "llm.prediction.llama.locallyTypicalSampling/title": "Lokálne typické vzorkovanie",
   "llm.prediction.llama.xtcProbability/title": "Pravdepodobnosť XTC vzorkovania",
