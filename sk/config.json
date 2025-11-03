@@ -43,7 +43,7 @@
   "llm.prediction.systemPrompt/edit": "Upraviť systémový prompt...",
   "llm.prediction.systemPrompt/addInstructionsWithMore": "Pridať inštrukcie...",
   "llm.prediction.systemPrompt/addInstructions": "Pridať inštrukcie",
-  "llm.prediction.temperature/title": "Teplota",
+  "llm.prediction.temperature/title": "Kreativita (teplota)",
   "llm.prediction.temperature/subTitle": "Ako veľa náhodnosti zaviesť. 0 bude vždy vytvárať rovnaký výsledok, zatiaľ čo vyššie hodnoty zvýšia kreativitu a rozmanitosť",
   "llm.prediction.temperature/info": "Z dokumentácie llama.cpp: \"Predvolená hodnota je <{{dynamicValue}}>, čo poskytuje rovnováhu medzi náhodnosťou a determinizmom. V extréme teplota 0 vždy vyberie najpravdepodobnejší ďalší token, čo vedie k rovnakým výstupom v každom behu\"",
   "llm.prediction.llama.sampling/title": "Vzorkovanie",
