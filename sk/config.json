@@ -130,7 +130,7 @@
   "load.gpuStrictVramCap/customGpuOffloadWarning": "Odloženie modelu obmedzené na vyhradenú pamäť GPU. Skutočný počet odložených vrstiev sa môže líšiť",
   "load.allGpusDisabledWarning": "Všetky GPU sú momentálne zakázané. Povoľte aspoň jednu pre odloženie",
   "llm.load.contextLength/title": "Dĺžka kontextu",
-  "llm.load.contextLength/subTitle": "Maximálny počet tokenov, ktoré model môže v jednom prompte zohľadniť. Viac spôsobov, ako s týmto spravovať, nájdete v možnostiach pretečenia konverzácie pod \"Inferenčné parametre\"",
+  "llm.load.contextLength/subTitle": "Maximálny počet tokenov, ktoré model dokáže spracovať naraz. Správu pretečenia kontextu nájdete pod "Inferenčné parametre"",
   "llm.load.contextLength/info": "Určuje maximálny počet tokenov, ktoré model môže zohľadniť naraz, ovplyvňuje, koľko kontextu si zachová počas spracovania",
   "llm.load.contextLength/warning": "Nastavenie vysokej hodnoty pre dĺžku kontextu môže výrazne ovplyvniť využitie pamäte",
   "llm.load.seed/title": "Seed",
