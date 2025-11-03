@@ -1,7 +1,7 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Kopírovať odkaz na stiahnutie modelu",
+  "copyLmStudioLinkButton/toolTip": "Skopírovať odkaz na stiahnutie modelu",
 
-  "filter.noMatches": "Žiadne výsledky",
+  "filter.noMatches": "Žiadne zhody",
   "longRunningTask": {
     "unbundlingDependencies": {
       "badge": "Rozbaľovanie zdrojov"
@@ -19,35 +19,35 @@
       "badge": "Overovanie"
     },
     "autoUpdatingExtensionPack": {
-      "badge": "Aktualizácia balíka rozšírení ({{name}} v{{version}})"
+      "badge": "Aktualizácia balíka rozšírenia ({{name}} v{{version}})"
     }
   },
   "auth": {
     "prompt": "Prihlásiť sa do LM Studio Hub",
     "authError": "Overenie zlyhalo",
     "noAccount": "Nemáte účet?",
-    "signUp": "Registrovať sa",
-    "havingTrouble": "Máte problémy?",
-    "retry": "Skúsiť znovu"
+    "signUp": "Zaregistrovať sa",
+    "havingTrouble": "Máte problém?",
+    "retry": "Skúsiť znova"
   },
   "artifacts": {
     "fetchError": "Nepodarilo sa načítať artefakty",
     "organizationVisible": "Viditeľné pre organizáciu"
   },
 
-  "incompatible": "Nekompatibilný",
-  "compatible": "Kompatibilný",
-  "public": "Verejný",
-  "private": "Súkromný",
+  "incompatible": "Nezlučiteľné",
+  "compatible": "Zlučiteľné",
+  "public": "Verejné",
+  "private": "Súkromné",
   "yes": "Áno",
   "no": "Nie",
-  "go": "Prejsť",
+  "go": "Spustiť",
 
   "proceedWithEllipsis": "Pokračovať...",
   "proceed": "Pokračovať",
   "inProgress": "Prebieha...",
   "failed": "Zlyhalo",
-  "pending": "Čakajúce",
+  "pending": "Čaká sa",
   "doneWithExclamation": "Hotovo!",
   "done": "Hotovo",
   "beta": "Beta",
@@ -55,8 +55,8 @@
   "complete": {
     "completeWithEllipsis": "Dokončiť...",
     "complete": "Dokončiť",
-    "completingWithEllipsis": "Dokončovanie...",
-    "completing": "Dokončovanie",
+    "completingWithEllipsis": "Dokončuje sa...",
+    "completing": "Dokončuje sa",
     "completedWithExclamation": "Dokončené!",
     "completed": "Dokončené"
   },
@@ -64,8 +64,8 @@
   "cancel": {
     "cancelWithEllipsis": "Zrušiť...",
     "cancel": "Zrušiť",
-    "cancelingWithEllipsis": "Zrušovanie...",
-    "canceling": "Zrušovanie",
+    "cancelingWithEllipsis": "Rušenie...",
+    "canceling": "Rušenie",
     "canceled": "Zrušené"
   },
 
@@ -80,12 +80,12 @@
   },
 
   "close": {
-    "closeWithEllipsis": "Zatvoriť...",
-    "close": "Zatvoriť",
+    "closeWithEllipsis": "Zavrieť...",
+    "close": "Zavrieť",
     "closingWithEllipsis": "Zatváranie...",
     "closing": "Zatváranie",
-    "closedWithExclamation": "Zatvorené!",
-    "closed": "Zatvorené"
+    "closedWithExclamation": "Zavreté!",
+    "closed": "Zavreté"
   },
 
   "delete": {
@@ -98,10 +98,10 @@
   },
 
   "retry": {
-    "retryWithEllipsis": "Skúsiť znovu...",
-    "retry": "Skúsiť znovu",
-    "retryingWithEllipsis": "Opakovanie...",
-    "retrying": "Opakovanie"
+    "retryWithEllipsis": "Skúsiť znova...",
+    "retry": "Skúsiť znova",
+    "retryingWithEllipsis": "Opakovaná snaha...",
+    "retrying": "Opakovaná snaha"
   },
 
   "refresh": {
@@ -163,15 +163,15 @@
   },
 
   "saveAsNew": {
-    "saveAsNewWithEllipsis": "Uložiť ako nový...",
-    "saveAsNew": "Uložiť ako nový"
+    "saveAsNewWithEllipsis": "Uložiť ako nové...",
+    "saveAsNew": "Uložiť ako nové"
   },
 
   "search": {
     "searchWithEllipsis": "Hľadať...",
     "search": "Hľadať",
-    "searchingWithEllipsis": "Hľadanie...",
-    "searching": "Hľadanie"
+    "searchingWithEllipsis": "Vyhľadávanie...",
+    "searching": "Vyhľadávanie"
   },
 
   "update": {
@@ -186,7 +186,7 @@
   "create": {
     "createWithEllipsis": "Vytvoriť...",
     "create": "Vytvoriť",
-    "creatingWithEllipsis": "Vytváranie",
+    "creatingWithEllipsis": "Vytváranie...",
     "creating": "Vytváranie",
     "createdWithExclamation": "Vytvorené!",
     "created": "Vytvorené"
@@ -219,8 +219,8 @@
     "upload": "Nahrať",
     "uploadingWithEllipsis": "Nahrávanie...",
     "uploading": "Nahrávanie",
-    "uploadedWithExclamation": "Nahrané!",
-    "uploaded": "Nahrané"
+    "uploadedWithExclamation": "Nahraté!",
+    "uploaded": "Nahraté"
   },
 
   "remove": {
@@ -288,18 +288,18 @@
   },
 
   "configure": {
-    "configureWithEllipsis": "Konfigurovať...",
-    "configure": "Konfigurovať",
-    "configuringWithEllipsis": "Konfigurácia...",
-    "configured": "Konfigurované"
+    "configureWithEllipsis": "Nastaviť...",
+    "configure": "Nastaviť",
+    "configuringWithEllipsis": "Nastavovanie...",
+    "configured": "Nastavené"
   },
 
   "publish": {
-    "publishWithEllipsis": "Zverejniť...",
-    "publish": "Zverejniť",
-    "publishingWithEllipsis": "Zverejňovanie...",
-    "publishing": "Zverejňovanie",
-    "publishedWithExclamation": "Zverejnené!",
-    "published": "Zverejnené"
+    "publishWithEllipsis": "Publikovať...",
+    "publish": "Publikovať",
+    "publishingWithEllipsis": "Publikovanie...",
+    "publishing": "Publikovanie",
+    "publishedWithExclamation": "Publikované!",
+    "published": "Publikované"
   }
 }
