@@ -43,7 +43,7 @@
   "actions/addFile": "[Experimentálne] Priložiť súbor k tejto správe\n(.pdf, prostý text alebo .docx)",
   "actions/addFile/label": "Priložiť súbor",
   "actions/changeRole": "Prepnúť medzi rolami Používateľ a Asistent.\n\nJe to užitočné na usmernenie konverzácie požadovaným smerom.\n\nMôže byť použité na prípravu scenárov 'few-shot learning' alebo 'in-context learning'",
-  "actions/addImage": "Pripojiť obrázok",
+  "actions/addImage": "Priložiť obrázok",
   "actions/deleteMessage": "Odstrániť správu",
   "actions/deleteMessage/confirmation": "Ste si istý, že chcete odstrániť túto správu?",
   "actions/copyMessage": "Kopírovať správu",
