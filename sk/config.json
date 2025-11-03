@@ -83,7 +83,7 @@
   "llm.prediction.llama.xtcProbability/info": "XTC (Exclude Top Choices) vzorkovanie bude aktivované s touto pravdepodobnosťou, na generovaný token. XTC vzorkovanie zvyčajne zvyšuje kreativitu a znižuje klišé",
   "llm.prediction.llama.xtcThreshold/title": "Prah XTC vzorkovania",
   "llm.prediction.llama.xtcThreshold/subTitle": "XTC (Exclude Top Choices) prah. S pravdepodobnosťou `xtc-probability` vyhľadá tokeny s pravdepodobnosťami medzi `xtc-threshold` a 0.5 a odstráni všetky takéto tokeny okrem najmenej pravdepodobného.",
-  "llm.prediction.llama.xtcThreshold/info": "XTC (Exclude Top Choices) prah. S pravdepodobnosťou `xtc-probability` vyhľadá tokeny s pravdepodobnosťami medzi `xtc-threshold` a 0.5 a odstráni všetky takéto tokeny okrem najmenej pravdepodobného."
+  "llm.prediction.llama.xtcThreshold/info": "XTC (Exclude Top Choices) prah. S pravdepodobnosťou `xtc-probability` vyhľadá tokeny s pravdepodobnosťami medzi `xtc-threshold` a 0.5 a odstráni všetky takéto tokeny okrem najmenej pravdepodobného.",
   "llm.prediction.mlx.topKSampling/title": "Vzorkovanie Top K",
   "llm.prediction.mlx.topKSampling/subTitle": "Obmedzí ďalší token na jeden z top-k najpravdepodobnejších tokenov. Funguje podobne ako teplota",
   "llm.prediction.mlx.topKSampling/info": "Obmedzí ďalší token na jeden z top-k najpravdepodobnejších tokenov. Funguje podobne ako teplota",
