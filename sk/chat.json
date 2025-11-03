@@ -213,8 +213,8 @@
         "publish": "Zverejniť",
         "openInZed": "Otvoriť v Zed",
         "openInVscode": "Otvoriť vo VS Code",
-        "revealInFinder": "Zobraziť vo vyhľadávači",
-        "openInFileExplorer": "Otvoriť v správcovi súborov"
+        "revealInFinder": "Zobraziť vo Finderi",
+        "openInFileExplorer": "Otvoriť v Prieskumníkovi súborov"
       }
     },
     "localFork": {
