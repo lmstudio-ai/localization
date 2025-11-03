@@ -89,8 +89,8 @@
   "actions/createChatAtRoot/error": "Vytvorenie chatu v koreni zlyhalo",
   "actions/createFolderAtRoot": "Nový priečinok...",
   "actions/createFolderAtRoot/error": "Vytvorenie priečinka v koreni zlyhalo",
-  "actions/openInFolder/mac": "Zobraziť vo vyhľadávači",
-  "actions/openInFolder/pc": "Zobraziť v správcovi súborov",
+  "actions/openInFolder/mac": "Zobraziť vo Finderi",
+  "actions/openInFolder/pc": "Zobraziť v Prieskumníkovi súborov",
 
   "actions/createChat/error": "Vytvorenie chatu zlyhalo",
   "actions/deleteChat/errorTitle": "Odstránenie chatu zlyhalo",
@@ -118,7 +118,7 @@
   "prediction/unloadModel/error": "Odstránenie modelu zlyhalo",
 
   "retrieval/user/processingLabel": "AI premýšľa...",
-  "retrieval/powerUser/intermediateStepsHidden": "Medzikroky skryté. Kliknite na rozbalenie.",
+  "retrieval/powerUser/intermediateStepsHidden": "Medzikroky sú skryté. Kliknite na rozbalenie.",
   "retrieval/actions/clickToExpand": "Kliknutím rozbalíte medzikroky",
   "retrieval/actions/clickToCollapse": "Kliknutím zbalíte medzikroky",
 
@@ -166,7 +166,7 @@
 
   "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
   "noModels.downloading": "Sťahovanie vášho prvého LLM...",
-  "noModels": "Zatiaľ žiadne LLM! Stiahnite si jeden, aby ste mohli začať!",
+  "noModels": "Zatiaľ žiadne LLM! Stiahnite si jedno, aby ste mohli začať!",
 
   "plugins": {
     "pluginTrigger": {
