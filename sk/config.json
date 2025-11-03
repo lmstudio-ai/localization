@@ -27,7 +27,7 @@
   "schematicsError.title": "Schéma konfigurácie obsahuje chyby v nasledujúcich poliach:",
   "manifestSections": {
     "structuredOutput/title": "Štruktúrovaný výstup",
-    "speculativeDecoding/title": "Spekulatívne dekódovanie",
+    "speculativeDecoding/title": "Špekulatívne dekódovanie",
     "sampling/title": "Vzorkovanie",
     "settings/title": "Nastavenia",
     "toolUse/title": "Použitie nástrojov",
@@ -318,10 +318,10 @@
       "recommendedForQwenModels": "Odporúčané pre Qwen modely",
       "onboardingModal": {
         "introducing": "Predstavujeme",
-        "speculativeDecoding": "Spekulatívne dekódovanie",
+        "speculativeDecoding": "Špekulatívne dekódovanie",
         "firstStepBody": "Zrýchlenie inferencie pre <custom-span>llama.cpp</custom-span> a <custom-span>MLX</custom-span> modely",
         "secondStepTitle": "Zrýchlenie inferencie so spekulatívnym dekódovaním",
-        "secondStepBody": "Spekulatívne dekódovanie je technika zahŕňajúca spoluprácu dvoch modelov:\n - Väčší \"hlavný\" model\n - Menší \"draft\" model\nPočas generovania draft model rýchlo navrhuje tokeny na overenie hlavnému modelu. Overovanie tokenov je oveľa rýchlejší proces než ich skutočné generovanie, čo je zdroj zrýchlení. **Všeobecne platí, že čím väčší rozdiel veľkosti medzi hlavným modelom a draft modelom, tým väčšie zrýchlenie**.\nNa zachovanie kvality hlavný model prijíma len tokeny, ktoré sa zhodujú s tým, čo by sám vygeneroval, čo umožňuje kvalitu odpovede väčšieho modelu pri rýchlejších rýchlostiach inferencie. Oba modely musia zdieľať rovnakú slovníkovú zásobu.",
+        "secondStepBody": "Špekulatívne dekódovanie je technika zahŕňajúca spoluprácu dvoch modelov:\n - Väčší \"hlavný\" model\n - Menší \"draft\" model\nPočas generovania draft model rýchlo navrhuje tokeny na overenie hlavnému modelu. Overovanie tokenov je oveľa rýchlejší proces než ich skutočné generovanie, čo je zdroj zrýchlení. **Všeobecne platí, že čím väčší rozdiel veľkosti medzi hlavným modelom a draft modelom, tým väčšie zrýchlenie**.\nNa zachovanie kvality hlavný model prijíma len tokeny, ktoré sa zhodujú s tým, čo by sám vygeneroval, čo umožňuje kvalitu odpovede väčšieho modelu pri rýchlejších rýchlostiach inferencie. Oba modely musia zdieľať rovnakú slovníkovú zásobu.",
         "draftModelRecommendationsTitle": "Odporúčania draft modelov",
         "basedOnCurrentModels": "Na základe vašich aktuálnych modelov",
         "close": "Zatvoriť",
@@ -329,8 +329,8 @@
         "done": "Hotovo"
       },
       "speculativeDecodingLoadModelToSeeOptions": "Prosím, najskôr načítajte model <model-badge /> ",
-      "errorEngineNotSupported": "Spekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Prosím, aktualizujte engine (<key/>) a znovu načítajte model na použitie tejto funkcie.",
-      "errorEngineNotSupported/noKey": "Spekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Prosím, aktualizujte engine a znovu načítajte model na použitie tejto funkcie."
+      "errorEngineNotSupported": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Prosím, aktualizujte engine (<key/>) a znovu načítajte model na použitie tejto funkcie.",
+      "errorEngineNotSupported/noKey": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Prosím, aktualizujte engine a znovu načítajte model na použitie tejto funkcie."
     },
     "llmReasoningParsing": {
       "startString/label": "Začiatočný reťazec",
