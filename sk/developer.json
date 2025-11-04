@@ -37,7 +37,7 @@
   "serverOptions/fileLoggingMode/succinct/title": "Stručne",
   "serverOptions/fileLoggingMode/succinct/hint": "Loguje rovnaký obsah ako v konzole. Dlhé požiadavky budú skrátené.",
   "serverOptions/fileLoggingMode/full/title": "Plné",
-  "serverOptions/fileLoggingMode/full/hint": "Neskračovať dlhé požiadavky.",
+  "serverOptions/fileLoggingMode/full/hint": "Neskracovať dlhé požiadavky.",
   "serverOptions/jitModelLoading/title": "Načasované načítanie modelu (JIT)",
   "serverOptions/jitModelLoading/hint": "Ak je povolené, ak požiadavka určí model, ktorý nie je načítaný, automaticky sa načíta a použije. Endpoint \"/v1/models\" bude tiež obsahovať modely, ktoré ešte nie sú načítané.",
   "serverOptions/loadModel/error": "Nepodarilo sa načítať model",
