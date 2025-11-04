@@ -78,7 +78,7 @@
   "editMessageConfirm/discard": "Zahodiť zmeny", 
   "tokenCount/totalNotAvailable": "Tokeny: {{current}}", 
   "tokenCount/totalAvailable": "Tokeny: {{current}}/{{total}}", 
-  "tokenCount/totalAvailablePercentage": "Kontekst je zaplnený na {{percentage}}%", 
+  "tokenCount/totalAvailablePercentage": "Kontext je zaplnený na {{percentage}}%", 
   "tokenCount/contextOverflow": "Nepredspracovaný kontext presahuje maximálny limit tokenov modelu. V závislosti od politiky pretečenia môže byť kontext skrátený alebo správa neodoslaná.", 
   "modelLoader/manualLoadParams/label": "Manuálne vybrať parametre načítania modelu", 
   "modelLoader/manualLoadParams/hint/before": "(alebo podrž ", 
