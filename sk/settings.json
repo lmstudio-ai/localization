@@ -190,7 +190,7 @@
       "label": "Nikdy nezobrazovať potvrdenia pred spustením nástroja (NEODPORÚČANÉ)",
       "hint": "Vypnúť potvrdenia pred spustením nástroja. Toto sa neodporúča.",
       "warnTitle": "Ste si istý?",
-      "warnDescription": "Vypnutie potvrdení spustenia nástroja je nebezpečné. Ak ktorýkoľvek plugin poskytne nástroj s potenciálne destruktívnymi akciami (napr. spustenie príkazu, vymazanie súborov, prepísanie súborov, nahranie súborov atď.), model ich môže vykonať bez potvrdenia. Potvrdenia môžete vždy vypnúť pre konkrétny nástroj alebo plugin. Povolenie tejto možnosti sa NEODPORÚČA. Buďte opatrní.",
+      "warnDescription": "Vypnutie potvrdení spustenia nástroja je nebezpečné. Ak ktorýkoľvek plugin poskytne nástroj s potenciálne deštruktívnymi akciami (napr. spustenie príkazu, vymazanie súborov, prepísanie súborov, nahranie súborov atď.), model ich môže vykonať bez potvrdenia. Potvrdenia môžete vždy vypnúť pre konkrétny nástroj alebo plugin. Povolenie tejto možnosti sa NEODPORÚČA. Buďte opatrní.",
       "warnButton": "Chápem riziká"
     }
   },
