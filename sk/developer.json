@@ -54,6 +54,9 @@
   "serverOptions/allowMcp/mode/remote": "Vzdialené",
   "serverOptions/allowMcp/mode/remote/hint": "Povoliť pripojenie k vzdialeným MCP serverom",
 
+  "serverOptions/start/error": "Nepodarilo sa spustiť server",
+  "serverOptions/stop/error": "Nepodarilo sa zastaviť server",
+
   "serverLogs/scrollToBottom": "Skočiť na koniec",
   "serverLogs/clearLogs": "Vymazať logy ({{shortcut}})",
   "serverLogs/openLogsFolder": "Otvoriť priečinok s logmi servera",
