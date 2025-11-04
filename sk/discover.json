@@ -6,7 +6,7 @@
   "searchBar/huggingFaceError": "Pri získavaní výsledkov z Hugging Face nastala chyba, skúste to o chvíľu znova",
   "sortBy": "Zoradiť podľa",
   "searchSortKey.default/title": "Najlepšia zhoda",
-  "searchSortKey.likes/title": "Najviac páči sa mi",
+  "searchSortKey.likes/title": "Najviac obľúbené",
   "searchSortKey.downloads/title": "Najviac stiahnuté",
   "searchSortKey.lastModified/title": "Nedávno aktualizované",
   "searchSortKey.createdAt/title": "Nedávno vytvorené",
