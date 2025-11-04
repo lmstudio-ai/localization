@@ -54,6 +54,9 @@
   "serverOptions/allowMcp/mode/remote": "Remote",
   "serverOptions/allowMcp/mode/remote/hint": "Allow connection to remote MCP servers",
 
+  "serverOptions/start/error": "Failed to start the server",
+  "serverOptions/stop/error": "Failed to stop the server",
+
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
   "serverLogs/openLogsFolder": "Open server logs folder",
