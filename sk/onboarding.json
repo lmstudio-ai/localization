@@ -3,6 +3,7 @@
   "action.next": "Ďalej",
   "action.back": "Späť",
   "action.finish": "Dokončiť",
+  
   "dismissable_rag_modal": {
     "description": "Teraz môžete chatovať s vlastnými dokumentmi pomocou Retrieval Augmented Generation (RAG). Takto to funguje:",
     "instructions": {
@@ -20,6 +21,7 @@
       }
     }
   },
+  
   "toolUse": {
     "step_0": {
       "title": "Beta: Použitie nástrojov 🛠️ (Volanie funkcií)",
