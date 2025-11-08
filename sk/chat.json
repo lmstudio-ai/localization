@@ -23,10 +23,12 @@
   "noChatSelectedPlaceholder": "Vyber chat",
   "unnamedChat": "Nepomenovaný chat",
   "emptyFolder": "Priečinok je prázdny",
+  
   "tokenCount": "Počet tokenov",
   "messageTokenCount": "Počet vstupných tokenov",
   "tokenCount/hint": "Počet tokenov v správe. Počítané pomocou tokenizéra aktuálne zvoleného modelu.\n\nVyžaduje načítaný model.",
   "messageTokenCount/hint": "Počet tokenov v správe. Počítané pomocou tokenizéra aktuálne zvoleného modelu.\n\n**Nezahŕňa** odhad tokenov v pripojených súboroch.",
+  
   "notes": "Poznámky ku konverzácii",
   "notes/add/first": "Pridať poznámku",
   "notes/add/another": "Pridať ďalšiu poznámku",
@@ -35,6 +37,7 @@
   "notes/delete": "Odstrániť poznámku",
   "notes/noteLabel": "Poznámka",
   "notes/copyContent": "Kopírovať obsah poznámky",
+  
   "actions/sendMessage/error": "Nepodarilo sa odoslať správu",
   "actions/loadModel/error": "🥲 Nepodarilo sa načítať model",
   "actions/addFile": "[Experimentálne] Pripojiť súbor k tejto správe\n(.pdf, text alebo .docx)",
@@ -88,8 +91,10 @@
   "actions/createFolderAtRoot/error": "Nepodarilo sa vytvoriť priečinok v koreňovom adresári",
   "actions/openInFolder/mac": "Zobraziť vo Finderi",
   "actions/openInFolder/pc": "Zobraziť v Prieskumníkovi",
+  
   "actions/createChat/error": "Nepodarilo sa vytvoriť chat",
   "actions/deleteChat/errorTitle": "Nepodarilo sa odstrániť chat",
+  
   "userFile/fileSizeLimit": "Limit veľkosti súboru je ",
   "userFile/noImageSupport": "Model nepodporuje obrazové vstupy",
   "userFile/errorPrefix": "Chyba – ",
@@ -104,32 +109,42 @@
   "errorTitle": "Chyba",
   "userFile/chatTerminalDocumentsCount_one": "{{count}} dokument v chate",
   "userFile/chatTerminalDocumentsCount_other": "{{count}} dokumentov v chate",
+  
   "prediction/busyModel/title": "Model je zaneprázdnený",
   "prediction/busyModel/message": "Počkaj, kým model dokončí spracovanie, a skús znova",
   "prediction/noModel/title": "Nie je vybraný žiadny model",
   "prediction/modelLoading": "Správa zaradená do frontu, odošle sa po načítaní modelu",
   "prediction/noModel/message": "Vyber model na odoslanie správy",
   "prediction/unloadModel/error": "Nepodarilo sa vysunúť model",
+  
   "retrieval/user/processingLabel": "AI premýšľa...",
   "retrieval/powerUser/intermediateStepsHidden": "Medzikroky sú skryté. Klikni pre zobrazenie.",
   "retrieval/actions/clickToExpand": "Klikni pre zobrazenie medzikrokov",
   "retrieval/actions/clickToCollapse": "Klikni pre skrytie medzikrokov",
+  
   "style": "Vzhľad",
+  
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Čistý text",
   "style/viewMode/monospace": "Monospace",
+  
   "speculativeDecodingVisualization/toggle": "Zobraziť prijaté návrhové tokeny",
   "speculativeDecodingVisualization/fromDraftModel_one": "Prijatý návrhový token",
   "speculativeDecodingVisualization/fromDraftModel_other": "Prijaté návrhové tokeny",
   "speculativeDecodingVisualization/cannotChangeViewMode": "Režim zobrazenia nie je možné zmeniť pri vizualizácii návrhových tokenov.",
+  
   "style/fontSize/label": "Veľkosť písma",
   "style/fontSize/medium": "Predvolené",
   "style/fontSize/large": "Veľké",
   "style/fontSize/small": "Malé",
+  
   "style/debugBlocks/label": "Zobraziť ladiace bloky",
+  
   "style/thinkingUI/label": "Rozbaliť bloky uvažovania predvolene",
   "style/chatFullWidth/label": "Rozšíriť chat na šírku okna",
+  
   "style/chatUtilityMenusShowLabel/label": "Zobraziť popisky pomocných menu chatu",
+  
   "messageBlocks": {
     "expandBlockTooltip": "Rozbaliť obsah",
     "collapseBlockTooltip": "Zbaliť obsah",
@@ -139,16 +154,20 @@
       "expandTooltip": "Rozbaliť ladiaci blok"
     }
   },
+  
   "chatTabOptions/clearAllMessages": "Vymazať všetky správy...",
   "chatTabOptions/duplicateChat": "Duplikovať chat",
+  
   "topBarActions/duplicateChat": "Duplikovať",
   "topBarActions/clearChat": "Vymazať všetko",
   "topBarActions/clearChatConfirmation": "Naozaj chceš vymazať všetky správy v tomto chate?",
   "topBarActions/clearChatCancel": "Zrušiť",
   "topBarActions/clearChatDelete": "Vymazať všetko",
+  
   "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
   "noModels.downloading": "Sťahovanie tvojho prvého LLM...",
   "noModels": "Zatiaľ žiadne LLM! Stiahni si jeden a začni!",
+  
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "Plugin",
@@ -203,6 +222,7 @@
     },
     "restartErrorPlugin/error": "Nepodarilo sa reštartovať plugin"
   },
+  
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} tok/s",
     "predictedTokensCount": "{{predictedTokensCount}} tokenov",
@@ -219,6 +239,7 @@
     "speculativeDecodedBy": "Návrhový model: {{decodedBy}}",
     "speculativeDecodingStats": "Prijatých {{accepted}}/{{total}} návrhových tokenov ({{percentage}}%)"
   },
+  
   "tabs": {
     "systemPromptEditorTab.headerLabel": "Úprava systémového promptu"
   }
