@@ -9,8 +9,10 @@
   "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Mazanie nepoužitých rozšírení...",
   "postDownloadActionExecutor.pluginInstall/status": "Inštalácia pluginu...",
   "postDownloadActionExecutor.pluginUninstall/status": "Odinštalovanie pluginu...",
+  
   "finalizing": "Dokončovanie sťahovania... (môže to chvíľu trvať)",
   "noOptions": "Nie sú k dispozícii žiadne kompatibilné možnosti sťahovania",
+  
   "deeplink/confirmation/title": "Stiahnuť model z Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Vybrať odporúčanú možnosť",
@@ -24,6 +26,7 @@
   "deeplink/error/modelNotFound/title": "Ups, model sa nepodarilo nájsť",
   "deeplink/error/modelNotFound/body": "Skontrolujte názov modelu a zvážte skúsiť inú možnosť sťahovania.",
   "deeplink/actions/trySearching": "Skúste vyhľadať {{modelName}} na Hugging Face",
+  
   "downloadsPanel/title": "Sťahovania",
   "downloadsPanel/sectionTitle/ongoing": "Prebieha",
   "downloadsPanel/sectionTitle/completed": "Dokončené",
