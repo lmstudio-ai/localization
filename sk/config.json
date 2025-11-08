@@ -34,7 +34,6 @@
     "promptTemplate/title": "Šablóna výzvy",
     "customFields/title": "Vlastné polia"
   },
-  
   "llm.prediction.systemPrompt/title": "Systémová výzva",
   "llm.prediction.systemPrompt/description": "Použite toto pole na poskytnutie základných inštrukcií modelu, ako sú pravidlá, obmedzenia alebo všeobecné požiadavky.",
   "llm.prediction.systemPrompt/subTitle": "Pokyny pre AI",
@@ -97,7 +96,7 @@
   "llm.prediction.onnx.topPSampling/title": "Top P výber",
   "llm.prediction.onnx.topPSampling/subTitle": "Minimálna kumulatívna pravdepodobnosť pre možné nasledujúce tokeny. Funguje podobne ako teplota",
   "llm.prediction.onnx.topPSampling/info": "Z dokumentácie ONNX:\n\nLen tie tokeny s najvyššou pravdepodobnosťou, ktorých pravdepodobnosti sa sčítajú na TopP alebo vyššie, sa zachovajú pre generovanie\n\n• Tento filter je predvolene vypnutý",
-  "llm.prediction.seed/title": "Seed"
+  "llm.prediction.seed/title": "Seed",
   "llm.prediction.structured/title": "Štruktúrovaný výstup",
   "llm.prediction.structured/info": "Štruktúrovaný výstup",
   "llm.prediction.structured/description": "Pokročilé: môžete poskytnúť [JSON Schema](https://json-schema.org/learn/miscellaneous-examples) na vynútenie konkrétneho formátu výstupu od modelu. Pre viac informácií si prečítajte [dokumentáciu](https://lmstudio.ai/docs/advanced/structured-output)",
@@ -116,8 +115,7 @@
   "llm.prediction.speculativeDecoding.maxTokensToDraft/subTitle": "Maximálny počet tokenov povolených v návrhu. Strop, ak všetky pravdepodobnosti tokenov sú > prah. Nižšie hodnoty zvyčajne znamenajú nižšie riziko, nižšiu odmenu",
   "llm.prediction.speculativeDecoding.draftModel/title": "Návrhový model",
   "llm.prediction.reasoning.parsing/title": "Parsovanie sekcií uvažovania",
-  "llm.prediction.reasoning.parsing/subTitle": "Ako parsovať sekcie uvažovania vo výstupe modelu"
-
+  "llm.prediction.reasoning.parsing/subTitle": "Ako parsovať sekcie uvažovania vo výstupe modelu",
   "llm.load.mainGpu/title": "Hlavná GPU",
   "llm.load.mainGpu/subTitle": "GPU, ktorú treba uprednostniť pri výpočtoch modelu",
   "llm.load.mainGpu/placeholder": "Vyberte hlavnú GPU...",
@@ -130,8 +128,7 @@
   "load.gpuStrictVramCap.customSubTitleOff": "VYPNUTÉ: Povoliť prenos váh modelu do zdieľanej pamäte, ak je vyhradená GPU pamäť plná",
   "load.gpuStrictVramCap.customSubTitleOn": "ZAPNUTÉ: Systém obmedzí prenos váh modelu len na vyhradenú GPU pamäť a RAM. Kontext môže stále používať zdieľanú pamäť",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Prenos modelu obmedzený na vyhradenú GPU pamäť. Skutočný počet prenesených vrstiev sa môže líšiť",
-  "load.allGpusDisabledWarning": "Všetky GPU sú momentálne zakázané. Povoliť aspoň jednu na prenos"
-
+  "load.allGpusDisabledWarning": "Všetky GPU sú momentálne zakázané. Povoliť aspoň jednu na prenos",
   "llm.load.contextLength/title": "Dĺžka kontextu",
   "llm.load.contextLength/subTitle": "Maximálny počet tokenov, na ktoré sa model môže zamerať v jednom prompt-e. Pre viac možností správy kontextu pozri „Možnosti pretečenia konverzácie“ v sekcii „Inference params“",
   "llm.load.contextLength/info": "Špecifikuje maximálny počet tokenov, ktoré môže model zvážiť naraz, ovplyvňuje, koľko kontextu si uchová počas spracovania",
@@ -141,8 +138,7 @@
   "llm.load.seed/info": "Náhodný Seed: Nastavuje seed pre generovanie náhodných čísel, aby sa zabezpečila reprodukovateľnosť výsledkov",
   "llm.load.numCpuExpertLayersRatio/title": "Vynútiť váhy expertov modelu do CPU",
   "llm.load.numCpuExpertLayersRatio/subTitle": "Určuje, či vynútiť váhy MoE expertov do RAM CPU. Šetrí VRAM a môže byť rýchlejšie ako čiastočný prenos na GPU. Neodporúča sa, ak model úplne sedí v VRAM.",
-  "llm.load.numCpuExpertLayersRatio/info": "Určuje, či vložiť všetky MoE expert vrstvy do RAM CPU. Attention vrstvy zostávajú na GPU, šetrí VRAM a udržiava pomerne rýchlu inferenciu"
-
+  "llm.load.numCpuExpertLayersRatio/info": "Určuje, či vložiť všetky MoE expert vrstvy do RAM CPU. Attention vrstvy zostávajú na GPU, šetrí VRAM a udržiava pomerne rýchlu inferenciu",
   "llm.load.llama.evalBatchSize/title": "Veľkosť batch-evaluácie",
   "llm.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovávaných naraz. Zvýšenie zlepšuje výkon, ale zvyšuje využitie pamäte",
   "llm.load.llama.evalBatchSize/info": "Nastavuje počet príkladov spracovávaných spoločne v jednom batch-e počas evaluácie, ovplyvňuje rýchlosť a využitie pamäte",
@@ -200,8 +196,7 @@
   "llm.load.mlx.kvCacheQuantization/groupSize/speedy": "Rýchle",
   "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Pokročilé: Konfigurácia kvantizovanej veľkosti 'matmul group size'\n\n• Presnosť = veľkosť skupiny 32\n• Vyvážené = veľkosť skupiny 64\n• Rýchle = veľkosť skupiny 128\n",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Začať kvantizovať pri dosiahnutí tejto dĺžky kontextu",
-  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "Keď kontext dosiahne tento počet tokenov,\nzačni kvantizovať KV cache"
-
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "Keď kontext dosiahne tento počet tokenov,\nzačni kvantizovať KV cache",
   "embedding.load.contextLength/title": "Dĺžka kontextu",
   "embedding.load.contextLength/subTitle": "Maximálny počet tokenov, ktorým sa model môže venovať v jednej prompt. Pre ďalšie možnosti správy kontextu pozri „Conversation Overflow“ v sekcii „Inference params“",
   "embedding.load.contextLength/info": "Určuje maximálny počet tokenov, ktoré môže model spracovať naraz, ovplyvňuje, koľko kontextu si model zachová počas spracovania",
@@ -224,155 +219,151 @@
   "embedding.load.llama.tryMmap/subTitle": "Zlepšuje čas načítania modelu. Vypnutie môže zlepšiť výkon pri modeli väčšom než dostupná RAM",
   "embedding.load.llama.tryMmap/info": "Načíta modelové súbory priamo z disku do pamäte",
   "embedding.load.seed/title": "Seed",
-  "embedding.load.seed/subTitle": "Seed pre generátor náhodných čísel používaný pri generovaní textu. -1 znamená náhodný seed"
-
-  "embedding.load.seed/info": "Náhodný seed: Nastavuje seed pre generovanie náhodných čísel, aby boli výsledky reprodukovateľné"
-
- "presetTooltip": {
-  "included/title": "Prednastavené hodnoty",
-  "included/description": "Nasledujúce polia budú použité",
-  "included/empty": "Žiadne polia tohto prednastavenia sa v tomto kontexte neuplatňujú.",
-  "included/conflict": "Budete vyzvaní, aby ste sa rozhodli, či použiť túto hodnotu",
-  "separateLoad/title": "Konfigurácia pri načítaní",
-  "separateLoad/description.1": "Prednastavenie tiež obsahuje nasledujúcu konfiguráciu pri načítaní. Konfigurácia pri načítaní platí pre celý model a vyžaduje jeho znovunačítanie. Podržte",
-  "separateLoad/description.2": "na použitie pre",
-  "separateLoad/description.3": ".",
-  "excluded/title": "Nemusí sa uplatniť",
-  "excluded/description": "Nasledujúce polia sú súčasťou prednastavenia, ale v aktuálnom kontexte sa neuplatňujú.",
-  "legacy/title": "Staršie prednastavenie",
-  "legacy/description": "Toto prednastavenie je staršie. Obsahuje nasledujúce polia, ktoré sú buď teraz spracovávané automaticky, alebo už nie sú relevantné.",
-  "button/publish": "Zverejniť na Hub",
-  "button/pushUpdate": "Odoslať zmeny na Hub",
-  "button/noChangesToPush": "Žiadne zmeny na odoslanie",
-  "button/export": "Exportovať",
-  "hubLabel": "Prednastavenie z Hub od {{user}}",
-  "ownHubLabel": "Vaše prednastavenie z Hub"
+  "embedding.load.seed/subTitle": "Seed pre generátor náhodných čísel používaný pri generovaní textu. -1 znamená náhodný seed",
+  "embedding.load.seed/info": "Náhodný seed: Nastavuje seed pre generovanie náhodných čísel, aby boli výsledky reprodukovateľné",
+  "presetTooltip": {
+    "included/title": "Prednastavené hodnoty",
+    "included/description": "Nasledujúce polia budú použité",
+    "included/empty": "Žiadne polia tohto prednastavenia sa v tomto kontexte neuplatňujú.",
+    "included/conflict": "Budete vyzvaní, aby ste sa rozhodli, či použiť túto hodnotu",
+    "separateLoad/title": "Konfigurácia pri načítaní",
+    "separateLoad/description.1": "Prednastavenie tiež obsahuje nasledujúcu konfiguráciu pri načítaní. Konfigurácia pri načítaní platí pre celý model a vyžaduje jeho znovunačítanie. Podržte",
+    "separateLoad/description.2": "na použitie pre",
+    "separateLoad/description.3": ".",
+    "excluded/title": "Nemusí sa uplatniť",
+    "excluded/description": "Nasledujúce polia sú súčasťou prednastavenia, ale v aktuálnom kontexte sa neuplatňujú.",
+    "legacy/title": "Staršie prednastavenie",
+    "legacy/description": "Toto prednastavenie je staršie. Obsahuje nasledujúce polia, ktoré sú buď teraz spracovávané automaticky, alebo už nie sú relevantné.",
+    "button/publish": "Zverejniť na Hub",
+    "button/pushUpdate": "Odoslať zmeny na Hub",
+    "button/noChangesToPush": "Žiadne zmeny na odoslanie",
+    "button/export": "Exportovať",
+    "hubLabel": "Prednastavenie z Hub od {{user}}",
+    "ownHubLabel": "Vaše prednastavenie z Hub"
+  },
+  "customInputs": {
+    "string": {
+      "emptyParagraph": "<Prázdne>"
     },
-	
-"customInputs": {
-  "string": {
-    "emptyParagraph": "<Prázdne>"
-  },
-  "checkboxNumeric": {
-    "off": "VYPNUTÉ"
-  },
-  "llamaCacheQuantizationType": {
-    "off": "VYPNUTÉ"
-  },
-  "mlxKvCacheBits": {
-    "off": "VYPNUTÉ"
-  },
-  "stringArray": {
-    "empty": "<Prázdne>"
-  },
-  "llmPromptTemplate": {
-    "type": "Typ",
-    "types.jinja/label": "Šablóna (Jinja)",
-    "jinja.bosToken/label": "BOS Token",
-    "jinja.eosToken/label": "EOS Token",
-    "jinja.template/label": "Šablóna",
-    "jinja/error": "Nepodarilo sa spracovať Jinja šablónu: {{error}}",
-    "jinja/empty": "Prosím, zadajte vyššie Jinja šablónu.",
-    "jinja/unlikelyToWork": "Zadaná Jinja šablóna pravdepodobne nebude fungovať, pretože neodkazuje na premennú \"messages\". Skontrolujte, či ste zadali správnu šablónu.",
-    "types.manual/label": "Manuálne",
-    "manual.subfield.beforeSystem/label": "Pred systémom",
-    "manual.subfield.beforeSystem/placeholder": "Zadajte prefix systému...",
-    "manual.subfield.afterSystem/label": "Za systémom",
-    "manual.subfield.afterSystem/placeholder": "Zadajte suffix systému...",
-    "manual.subfield.beforeUser/label": "Pred používateľom",
-    "manual.subfield.beforeUser/placeholder": "Zadajte prefix používateľa...",
-    "manual.subfield.afterUser/label": "Za používateľom",
-    "manual.subfield.afterUser/placeholder": "Zadajte suffix používateľa...",
-    "manual.subfield.beforeAssistant/label": "Pred asistentom",
-    "manual.subfield.beforeAssistant/placeholder": "Zadajte prefix asistenta...",
-    "manual.subfield.afterAssistant/label": "Za asistentom",
-    "manual.subfield.afterAssistant/placeholder": "Zadajte suffix asistenta...",
-    "stopStrings/label": "Doplnkové stop reťazce",
-    "stopStrings/subTitle": "Šablónou špecifické stop reťazce, ktoré sa použijú okrem tých, ktoré zadal používateľ."
-   },
-"contextLength": {
-  "maxValueTooltip": "Toto je maximálny počet tokenov, ktoré model dokáže spracovať. Kliknite pre nastavenie kontextu na túto hodnotu",
-  "maxValueTextStart": "Model podporuje až",
-  "maxValueTextEnd": "tokenov",
-  "tooltipHint": "Aj keď model môže podporovať určitý počet tokenov, výkon môže klesnúť, ak vaše zdroje stroja nedokážu spracovať záťaž – buďte opatrní pri zvyšovaní tejto hodnoty"
-},
-"contextOverflowPolicy": {
-  "stopAtLimit": "Zastaviť pri limite",
-  "stopAtLimitSub": "Zastaví generovanie, keď sa pamäť modelu zaplní",
-  "truncateMiddle": "Orezať stred",
-  "truncateMiddleSub": "Odstráni správy zo stredu konverzácie, aby sa uvoľnilo miesto pre nové. Model si stále pamätá začiatok konverzácie",
-  "rollingWindow": "Posuvné okno",
-  "rollingWindowSub": "Model vždy dostane posledné správy, ale môže zabudnúť začiatok konverzácie"
-},
-"llamaAccelerationOffloadRatio": {
-  "max": "MAX",
-  "off": "VYPNUTÉ"
-},
-"gpuSplitStrategy": {
-  "evenly": "Rovnomerne",
-  "favorMainGpu": "Uprednostniť hlavnú GPU"
-},
-"speculativeDecodingDraftModel": {
-  "readMore": "Prečítajte si, ako to funguje",
-  "placeholder": "Vyberte kompatibilný draft model",
-  "noCompatible": "Neboli nájdené kompatibilné draft modely pre váš aktuálny výber modelu",
-  "stillLoading": "Identifikácia kompatibilných draft modelov...",
-  "notCompatible": "Vybraný draft model (<draft/>) nie je kompatibilný s aktuálnym modelom (<current/>)",
-  "off": "VYPNUTÉ",
-  "loadModelToSeeOptions": "Na zobrazenie kompatibilných možností načítajte model <keyboard-shortcut />",
-  "compatibleWithNumberOfModels": "Odporúča sa pre aspoň {{dynamicValue}} vašich modelov",
-  "recommendedForSomeModels": "Odporúča sa pre niektoré modely",
-  "recommendedForLlamaModels": "Odporúča sa pre Llama modely",
-  "recommendedForQwenModels": "Odporúča sa pre Qwen modely",
-  "onboardingModal": {
-    "introducing": "Predstavujeme",
-    "speculativeDecoding": "Špekulatívne dekódovanie",
-    "firstStepBody": "Zrýchlenie inferencie pre <custom-span>llama.cpp</custom-span> a <custom-span>MLX</custom-span> modely",
-    "secondStepTitle": "Zrýchlenie inferencie so špekulatívnym dekódovaním",
-    "secondStepBody": "Špekulatívne dekódovanie je technika, ktorá spolupracuje s dvoma modelmi:\n - Väčší \"hlavný\" model\n - Menší \"draft\" model\n\nPočas generovania draft model rýchlo navrhuje tokeny, ktoré overuje väčší hlavný model. Overovanie tokenov je omnoho rýchlejšie ako ich generovanie, čo prináša zrýchlenie. **Vo všeobecnosti platí, že čím väčší je rozdiel medzi hlavným a draft modelom, tým väčšie zrýchlenie**.\n\nAby sa zachovala kvalita, hlavný model prijíma iba tokeny, ktoré zodpovedajú tomu, čo by sám vygeneroval, čo umožňuje kvalitu odpovedí väčšieho modelu pri rýchlejšej inferencii. Oba modely musia zdieľať rovnakú slovnú zásobu.",
-    "draftModelRecommendationsTitle": "Odporúčania pre draft modely",
-    "basedOnCurrentModels": "Na základe vašich aktuálnych modelov",
-    "close": "Zavrieť",
-    "next": "Ďalej",
-    "done": "Hotovo"
-  },
-  "speculativeDecodingLoadModelToSeeOptions": "Najprv načítajte model <model-badge />",
-  "errorEngineNotSupported": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Aktualizujte engine (<key/>) a načítajte model, aby ste mohli použiť túto funkciu.",
-  "errorEngineNotSupported/noKey": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Aktualizujte engine a načítajte model, aby ste mohli použiť túto funkciu."
- },
-"llmReasoningParsing": {
-  "startString/label": "Začiatočný reťazec",
-  "startString/placeholder": "Zadajte začiatočný reťazec...",
-  "endString/label": "Koncový reťazec",
-  "endString/placeholder": "Zadajte koncový reťazec..."
+    "checkboxNumeric": {
+      "off": "VYPNUTÉ"
+    },
+    "llamaCacheQuantizationType": {
+      "off": "VYPNUTÉ"
+    },
+    "mlxKvCacheBits": {
+      "off": "VYPNUTÉ"
+    },
+    "stringArray": {
+      "empty": "<Prázdne>"
+    },
+    "llmPromptTemplate": {
+      "type": "Typ",
+      "types.jinja/label": "Šablóna (Jinja)",
+      "jinja.bosToken/label": "BOS Token",
+      "jinja.eosToken/label": "EOS Token",
+      "jinja.template/label": "Šablóna",
+      "jinja/error": "Nepodarilo sa spracovať Jinja šablónu: {{error}}",
+      "jinja/empty": "Prosím, zadajte vyššie Jinja šablónu.",
+      "jinja/unlikelyToWork": "Zadaná Jinja šablóna pravdepodobne nebude fungovať, pretože neodkazuje na premennú \"messages\". Skontrolujte, či ste zadali správnu šablónu.",
+      "types.manual/label": "Manuálne",
+      "manual.subfield.beforeSystem/label": "Pred systémom",
+      "manual.subfield.beforeSystem/placeholder": "Zadajte prefix systému...",
+      "manual.subfield.afterSystem/label": "Za systémom",
+      "manual.subfield.afterSystem/placeholder": "Zadajte suffix systému...",
+      "manual.subfield.beforeUser/label": "Pred používateľom",
+      "manual.subfield.beforeUser/placeholder": "Zadajte prefix používateľa...",
+      "manual.subfield.afterUser/label": "Za používateľom",
+      "manual.subfield.afterUser/placeholder": "Zadajte suffix používateľa...",
+      "manual.subfield.beforeAssistant/label": "Pred asistentom",
+      "manual.subfield.beforeAssistant/placeholder": "Zadajte prefix asistenta...",
+      "manual.subfield.afterAssistant/label": "Za asistentom",
+      "manual.subfield.afterAssistant/placeholder": "Zadajte suffix asistenta...",
+      "stopStrings/label": "Doplnkové stop reťazce",
+      "stopStrings/subTitle": "Šablónou špecifické stop reťazce, ktoré sa použijú okrem tých, ktoré zadal používateľ."
+    },
+    "contextLength": {
+      "maxValueTooltip": "Toto je maximálny počet tokenov, ktoré model dokáže spracovať. Kliknite pre nastavenie kontextu na túto hodnotu",
+      "maxValueTextStart": "Model podporuje až",
+      "maxValueTextEnd": "tokenov",
+      "tooltipHint": "Aj keď model môže podporovať určitý počet tokenov, výkon môže klesnúť, ak vaše zdroje stroja nedokážu spracovať záťaž – buďte opatrní pri zvyšovaní tejto hodnoty"
+    },
+    "contextOverflowPolicy": {
+      "stopAtLimit": "Zastaviť pri limite",
+      "stopAtLimitSub": "Zastaví generovanie, keď sa pamäť modelu zaplní",
+      "truncateMiddle": "Orezať stred",
+      "truncateMiddleSub": "Odstráni správy zo stredu konverzácie, aby sa uvoľnilo miesto pre nové. Model si stále pamätá začiatok konverzácie",
+      "rollingWindow": "Posuvné okno",
+      "rollingWindowSub": "Model vždy dostane posledné správy, ale môže zabudnúť začiatok konverzácie"
+    },
+    "llamaAccelerationOffloadRatio": {
+      "max": "MAX",
+      "off": "VYPNUTÉ"
+    },
+    "gpuSplitStrategy": {
+      "evenly": "Rovnomerne",
+      "favorMainGpu": "Uprednostniť hlavnú GPU"
+    },
+    "speculativeDecodingDraftModel": {
+      "readMore": "Prečítajte si, ako to funguje",
+      "placeholder": "Vyberte kompatibilný draft model",
+      "noCompatible": "Neboli nájdené kompatibilné draft modely pre váš aktuálny výber modelu",
+      "stillLoading": "Identifikácia kompatibilných draft modelov...",
+      "notCompatible": "Vybraný draft model (<draft/>) nie je kompatibilný s aktuálnym modelom (<current/>)",
+      "off": "VYPNUTÉ",
+      "loadModelToSeeOptions": "Na zobrazenie kompatibilných možností načítajte model <keyboard-shortcut />",
+      "compatibleWithNumberOfModels": "Odporúča sa pre aspoň {{dynamicValue}} vašich modelov",
+      "recommendedForSomeModels": "Odporúča sa pre niektoré modely",
+      "recommendedForLlamaModels": "Odporúča sa pre Llama modely",
+      "recommendedForQwenModels": "Odporúča sa pre Qwen modely",
+      "onboardingModal": {
+        "introducing": "Predstavujeme",
+        "speculativeDecoding": "Špekulatívne dekódovanie",
+        "firstStepBody": "Zrýchlenie inferencie pre <custom-span>llama.cpp</custom-span> a <custom-span>MLX</custom-span> modely",
+        "secondStepTitle": "Zrýchlenie inferencie so špekulatívnym dekódovaním",
+        "secondStepBody": "Špekulatívne dekódovanie je technika, ktorá spolupracuje s dvoma modelmi:\n - Väčší \"hlavný\" model\n - Menší \"draft\" model\n\nPočas generovania draft model rýchlo navrhuje tokeny, ktoré overuje väčší hlavný model. Overovanie tokenov je omnoho rýchlejšie ako ich generovanie, čo prináša zrýchlenie. **Vo všeobecnosti platí, že čím väčší je rozdiel medzi hlavným a draft modelom, tým väčšie zrýchlenie**.\n\nAby sa zachovala kvalita, hlavný model prijíma iba tokeny, ktoré zodpovedajú tomu, čo by sám vygeneroval, čo umožňuje kvalitu odpovedí väčšieho modelu pri rýchlejšej inferencii. Oba modely musia zdieľať rovnakú slovnú zásobu.",
+        "draftModelRecommendationsTitle": "Odporúčania pre draft modely",
+        "basedOnCurrentModels": "Na základe vašich aktuálnych modelov",
+        "close": "Zavrieť",
+        "next": "Ďalej",
+        "done": "Hotovo"
+      },
+      "speculativeDecodingLoadModelToSeeOptions": "Najprv načítajte model <model-badge />",
+      "errorEngineNotSupported": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Aktualizujte engine (<key/>) a načítajte model, aby ste mohli použiť túto funkciu.",
+      "errorEngineNotSupported/noKey": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} enginu {{engineName}}. Aktualizujte engine a načítajte model, aby ste mohli použiť túto funkciu."
+    },
+    "llmReasoningParsing": {
+      "startString/label": "Začiatočný reťazec",
+      "startString/placeholder": "Zadajte začiatočný reťazec...",
+      "endString/label": "Koncový reťazec",
+      "endString/placeholder": "Zadajte koncový reťazec..."
     }
   },
-"saveConflictResolution": {
-  "title": "Vyberte hodnoty, ktoré zahrnúť do prednastavenia",
-  "description": "Vyberte, ktoré hodnoty si ponecháte",
-  "instructions": "Kliknite na hodnotu pre jej zahrnutie",
-  "userValues": "Predchádzajúca hodnota",
-  "presetValues": "Nová hodnota",
-  "confirm": "Potvrdiť",
-  "cancel": "Zrušiť"
-},
-"applyConflictResolution": {
-  "title": "Ktoré hodnoty si ponechať?",
-  "description": "Máte nezaznamenané zmeny, ktoré sa prekrývajú s prichádzajúcim prednastavením",
-  "instructions": "Kliknite na hodnotu, ktorú chcete ponechať",
-  "userValues": "Aktuálna hodnota",
-  "presetValues": "Prichádzajúca hodnota prednastavenia",
-  "confirm": "Potvrdiť",
-  "cancel": "Zrušiť"
- },
-   "empty": "<Prázdne>",
+  "saveConflictResolution": {
+    "title": "Vyberte hodnoty, ktoré zahrnúť do prednastavenia",
+    "description": "Vyberte, ktoré hodnoty si ponecháte",
+    "instructions": "Kliknite na hodnotu pre jej zahrnutie",
+    "userValues": "Predchádzajúca hodnota",
+    "presetValues": "Nová hodnota",
+    "confirm": "Potvrdiť",
+    "cancel": "Zrušiť"
+  },
+  "applyConflictResolution": {
+    "title": "Ktoré hodnoty si ponechať?",
+    "description": "Máte nezaznamenané zmeny, ktoré sa prekrývajú s prichádzajúcim prednastavením",
+    "instructions": "Kliknite na hodnotu, ktorú chcete ponechať",
+    "userValues": "Aktuálna hodnota",
+    "presetValues": "Prichádzajúca hodnota prednastavenia",
+    "confirm": "Potvrdiť",
+    "cancel": "Zrušiť"
+  },
+  "empty": "<Prázdne>",
   "noModelSelected": "Žiadny model nevybraný",
   "apiIdentifier.label": "Identifikátor API",
   "apiIdentifier.hint": "Voliteľne zadajte identifikátor pre tento model. Použije sa pri požiadavkách API. Nechajte prázdne pre predvolený identifikátor.",
   "idleTTL.label": "Automatické odloženie, ak je nečinný (TTL)",
   "idleTTL.hint": "Ak je nastavené, model sa automaticky odloží po uplynutí určitého času nečinnosti.",
   "idleTTL.mins": "min",
-
   "presets": {
     "title": "Prednastavenie",
     "saveChanges": "Uložiť",
@@ -550,19 +541,15 @@
       "speculativeDecoding": "Zahrnúť do prednastavenia"
     }
   },
-
   "flashAttentionWarning": "Flash Attention je experimentálna funkcia, ktorá môže spôsobiť problémy s niektorými modelmi. Ak sa vyskytnú problémy, skúste ju vypnúť.",
   "llamaKvCacheQuantizationWarning": "KV Cache kvantizácia je experimentálna funkcia, ktorá môže spôsobiť problémy s niektorými modelmi. Pre kvantizáciu V cache musí byť povolený Flash Attention. Ak sa vyskytnú problémy, resetujte na predvolenú hodnotu „F16“.",
-
   "seedUncheckedHint": "Náhodné semeno",
   "ropeFrequencyBaseUncheckedHint": "Automaticky",
   "ropeFrequencyScaleUncheckedHint": "Automaticky",
-
   "hardware": {
     "environmentVariables": "Premenné prostredia",
     "environmentVariables.info": "Ak si nie ste istí, nechajte tieto hodnoty predvolené",
     "environmentVariables.reset": "Obnoviť predvolené",
-
     "gpus.information": "Konfigurácia grafických procesorov (GPU) zistených na vašom zariadení",
     "gpuSettings": {
       "editMaxCapacity": "Upraviť maximálnu kapacitu",
@@ -593,7 +580,6 @@
       "toggleGpu": "Povoliť/Zakázať GPU"
     }
   },
-
   "load.gpuSplitConfig/title": "Konfigurácia rozdelenia GPU",
   "envVars/title": "Nastaviť premennú prostredia",
   "envVars": {
