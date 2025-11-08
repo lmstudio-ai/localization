@@ -3,9 +3,7 @@
   "tabs/extensions": "LM Runtime",
   "loadSettings/title": "Načítať nastavenia",
   "modelSettings/placeholder": "Vyberte model na konfiguráciu",
-
   "loadedModels/noModels": "Žiadne načítané modely",
-
   "serverOptions/title": "Možnosti servera",
   "serverOptions/configurableTitle": "Konfigurovateľné možnosti",
   "serverOptions/port/hint": "Nastavte, ktorý sieťový port bude používať lokálny server. Predvolene LM Studio používa port 1234. Možno ho bude potrebné zmeniť, ak je port už obsadený.",
@@ -53,27 +51,22 @@
   "serverOptions/allowMcp/mode/off/hint": "Nepovoliť serverovým požiadavkám používať MCP",
   "serverOptions/allowMcp/mode/remote": "Vzdialené",
   "serverOptions/allowMcp/mode/remote/hint": "Povoliť pripojenie k vzdialeným MCP serverom",
-
   "serverOptions/start/error": "Nepodarilo sa spustiť server",
   "serverOptions/stop/error": "Nepodarilo sa zastaviť server",
-
   "serverLogs/scrollToBottom": "Skočiť na koniec",
   "serverLogs/clearLogs": "Vymazať logy ({{shortcut}})",
   "serverLogs/openLogsFolder": "Otvoriť priečinok s logmi servera",
-
   "runtimeSettings/title": "Nastavenia runtime",
   "runtimeSettings/chooseRuntime/title": "Výbery",
   "runtimeSettings/chooseRuntime/description": "Vyberte engine pre každý formát modelu",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobraziť všetky balíčky rozšírení",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Predvolene LM Studio zobrazuje len najnovšiu verziu každého balíčka. Povolením tejto možnosti zobrazíte všetky dostupné verzie.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Vybrať engine",
-
   "runtimeSettings/chooseFrameworks/title": "Frameworky",
   "runtimeSettings/chooseFrameworks/description": "Vyberte framework pre každú funkcionalitu",
   "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Vstavaný parser",
   "runtimeSettings/chooseFramework/documentParser/select/label": "Parser dokumentov",
   "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Vybrať parser dokumentov",
-
   "runtimeOptions/uninstall": "Odinštalovať",
   "runtimeOptions/uninstallDialog/title": "Odinštalovať {{runtimeName}}?",
   "runtimeOptions/uninstallDialog/body": "Odinštalovanie tohto runtime odstráni ho zo systému. Táto akcia je nezvratná.",
@@ -84,7 +77,6 @@
   "runtimeOptions/noCompatibleRuntimes": "Nenašli sa kompatibilné runtime",
   "runtimeOptions/downloadIncompatibleRuntime": "Tento runtime je nekompatibilný s vaším zariadením a pravdepodobne nebude fungovať.",
   "runtimeOptions/noRuntimes": "Nenašli sa žiadne runtime",
-
   "runtimes": {
     "manageLMRuntimes": "Spravovať LM Runtime",
     "includeOlderRuntimeVersions": "Zahrnúť staršie verzie",
@@ -136,9 +128,7 @@
       "noFrameworks": "Žiadne nainštalované frameworky"
     }
   },
-
   "inferenceParams/noParams": "Pre tento typ modelu nie sú dostupné konfigurovateľné parametre inferencie",
-
   "quickDocs": {
     "tabChipTitle": "Rýchla dokumentácia",
     "newToolUsePopover": "Kódové ukážky sú teraz dostupné tu v \"Rýchlej dokumentácii\". Kliknite sem, aby ste začali používať nástroje!",
@@ -169,7 +159,6 @@
     },
     "newBadge": "Nové"
   },
-
   "endpoints/openaiCompatRest/title": "Podporované endpointy{{extra}}",
   "endpoints/openaiCompatRest/segmentedLabel": "Ako OpenAI",
   "endpoints/openaiCompatRest/getModels": "Zoznam aktuálne načítaných modelov",
@@ -183,14 +172,11 @@
   "endpoints/lmStudioRestV1/postModelsDownload": "Stiahnuť model",
   "endpoints/lmStudioRestV1/postChat": "Chatovať s modelom. Podporuje viackolové konverzácie a MCP",
   "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Získať stav sťahovania modelu",
-
   "model.createVirtualModelFromInstance": "Uložiť nastavenia ako nový virtuálny model",
   "model.createVirtualModelFromInstance/error": "Nepodarilo sa uložiť nastavenia ako nový virtuálny model",
-
   "model": {
     "toolUseSectionTitle": "Použitie nástrojov",
     "toolUseDescription": "Tento model je detegovaný ako trénovaný na použitie nástrojov\n\nOtvorte <custom-link>rýchlu dokumentáciu</custom-link> pre viac informácií"
   },
-
   "apiConfigOptions/title": "Konfigurácia API"
 }
