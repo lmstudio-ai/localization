@@ -3,10 +3,12 @@
   "filterModels.placeholder": "Filtrovať modely...",
   "aggregate_one": "Máte {{count}} lokálny model, ktorý zaberá {{size}} miesta na disku.",
   "aggregate_other": "Máte {{count}} lokálnych modelov, ktoré zaberajú {{size}} miesta na disku.",
+  
   "noModels.title": "Vaše lokálne modely sa tu zobrazia.",
   "noModels.discoverButtonText.prefix": "Kliknite na",
   "noModels.discoverButtonText.suffix": "tlačidlo v ľavom paneli, aby ste objavili zaujímavé LLM na stiahnutie.",
   "noModels.discoverModelsPrompt": "Choďte a preskúmajte niektoré lokálne LLM!",
+  
   "modelsTable.arch/label": "Arch",
   "modelsTable.params/label": "Parametre",
   "modelsTable.publisher/label": "Vydavateľ",
@@ -15,15 +17,18 @@
   "modelsTable.size/label": "Veľkosť",
   "modelsTable.dateModified/label": "Dátum úpravy",
   "modelsTable.actions/label": "Akcie",
+  
   "modelsTable.quant/label": "Quant",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "Embedovací model",
+  
   "action.model.delete": "Vymazať",
   "action.model.delete.full": "Vymazať model",
   "action.model.delete.confirmation/title": "Vymazať {{name}}",
   "action.model.delete.confirmation/description": "Ste si istí? Týmto sa natrvalo vymažú všetky súbory spojené s týmto modelom z vášho počítača. Táto akcia je nezvratná.",
   "action.model.delete.confirmation/confirm": "Vymazať",
   "action.model.delete/error": "Nepodarilo sa vymazať model",
+  
   "loader.model.bundled": "Zabalený",
   "action.cancel": "Zrušiť",
   "indexingOngoing": "Indexovanie modelov... Toto môže trvať niekoľko sekúnd",
@@ -42,6 +47,7 @@
   "unresolvedVirtualModels.revealInExplorer": "Zobraziť v Prieskumníkovi",
   "unresolvedVirtualModels.revealInFinder": "Zobraziť vo Finderi",
   "unresolvedVirtualModels.reveal/error": "Nepodarilo sa zobraziť",
+  
   "modelsDirectory": "Adresár modelov",
   "modelsDirectory.change": "Zmeniť...",
   "modelsDirectory.change/error": "Nepodarilo sa zmeniť adresár modelov",
@@ -80,8 +86,10 @@
   "tooltip/editModelDefaultConfig/override": "Upraviť predvolené nastavenia modelu (* má prepísania)",
   "tooltip/visionBadge": "Tento model môže spracovávať obrazové vstupy",
   "tooltip/toolUseBadge": "Tento model bol trénovaný na použitie nástrojov",
+  
   "visionBadge/label": "Podpora vizuálu",
   "toolUseBadge/label": "Trénovaný na používanie nástrojov",
+  
   "loader.action.load": "Načítať model",
   "loader.action.clearChanges": "Vymazať zmeny",
   "loader.action.cancel": "Zrušiť",
@@ -98,6 +106,7 @@
   "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Môžete upraviť pravidlá načítania modelu v nastaveniach alebo držať <altOptionKey /> pre načítanie napriek tomu.",
   "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Načítanie príliš veľkého modelu môže preťažiť systém a spôsobiť jeho zamrznutie.",
   "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(Neodporúča sa) Vždy povoliť 'Načítať napriek tomu' bez držania Alt/Option",
+  
   "virtual": {
     "local": {
       "create": "Vytvoriť virtuálny model",
