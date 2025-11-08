@@ -2,7 +2,6 @@
   "settingsDialogTitle": "Nastavenia aplikácie",
   "settingsDialogButtonTooltip": "Nastavenia aplikácie",
   "accountDialogButtonTooltip": "Účet",
-
   "settingsNewButtonPopover": {
     "primary": "Nastavenia aplikácie sú teraz v pravom dolnom rohu",
     "secondary": "Kliknite na tlačidlo ⚙️ pre otvorenie.",
@@ -58,7 +57,6 @@
   "chat/alwaysShowPromptTemplate": "Vždy zobrazovať šablónu promptu v bočnom paneli chatu",
   "chat/highlightChatMessageOnHover": "Zvýrazniť správu pri prejdení myšou",
   "chat/doubleClickMessageToEdit": "Dvojklikom upraviť správu v chate",
-
   "chat/aiNaming/label": "Pomenovanie AI chatu",
   "chat/aiNaming/mode/label": "AI generované názvy chatov",
   "chat/aiNaming/mode/value/never": "Nikdy",
@@ -72,13 +70,11 @@
   "chat/keyboardShortcuts/verbPrefix": "Použiť",
   "chat/keyboardShortcuts/regenerate": "pre znovuvygenerovanie poslednej správy v chate",
   "chat/keyboardShortcuts/sendMessage": "pre odoslanie správy",
-
   "onboarding/blockTitle": "Tipy pri prvom spustení",
   "onboarding/dismissedHints": "Zatvorené tipy pri onboardingu",
   "onboarding/resetHintTooltip": "Kliknite pre opätovné zobrazenie tohto tipu",
   "onboarding/resetAllHints": "Resetovať všetky tipy pri onboardingu",
   "onboarding/noneDismissed": "Žiadne tipy neboli zatvorené, všetky tipy sa zobrazia, kým nebudú zatvorené",
-
   "firstTimeExperienceLabel": "Prvé skúsenosti s chatom",
   "firstTimeExperienceMarkCompletedLabel": "Označiť ako dokončené",
   "firstTimeExperienceResetLabel": "Resetovať",
@@ -98,25 +94,21 @@
   "showDebugInfoBlocksInChatLabel": "Zobraziť debug info bloky v chate",
   "autoLoadBundledLLMLabel": "Automaticky načítať zabudovaný LLM model pri štarte",
   "showReleaseNotes": "Zobraziť poznámky k vydaniu",
-  "hideReleaseNotes": "Skryť poznámky k vydaniu"
-
+  "hideReleaseNotes": "Skryť poznámky k vydaniu",
   "backendDownloadNewUpdate": "Sú k dispozícii novšie backendy!",
   "backendDownloadNewUpdateAction": "Prejsť na stránku pre vývojárov",
-
   "backendDownloadChannel.label": "Kanál pre sťahovanie balíkov rozšírení LM Studia",
   "backendDownloadChannel.value.stable": "Stabilný",
   "backendDownloadChannel.value.beta": "Beta",
   "backendDownloadChannel.value.latest": "Dev",
   "backendDownloadChannel.shortLabel": "Kanál sťahovania runtime",
   "backendDownloadChannel.hint": "Vyberte kanál, z ktorého sa majú sťahovať balíky rozšírení LM Studia. \"{{stableName}}\" je odporúčaný kanál pre väčšinu používateľov.",
-
   "appUpdateChannel.label": "Kanál aktualizácií",
   "appUpdateChannel.value.stable": "Stabilný",
   "appUpdateChannel.value.beta": "Beta",
   "appUpdateChannel.value.alpha": "Alfa",
   "appUpdateChannel.shortLabel": "Kanál aktualizácií aplikácie",
   "appUpdateChannel.hint": "Vyberte kanál, z ktorého budete dostávať aktualizácie LM Studia. \"{{stableName}}\" je odporúčaný kanál pre väčšinu používateľov.",
-
   "modelLoadingGuardrails.label": "Ochranné limity načítania modelu",
   "modelLoadingGuardrails.description": "Načítanie modelov nad limit systémových zdrojov môže spôsobiť nestabilitu alebo zamrznutie systému. Ochranné limity zabraňujú neúmyselnému preťaženiu. Ak je to potrebné, upravte tieto limity, ale buďte si vedomí, že načítanie modelov blízko limitu systému môže znížiť stabilitu.",
   "modelLoadingGuardrails.value.off": "VYP (Nepodporované)",
@@ -138,10 +130,8 @@
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Nastavte vlastný limit pamäte pre načítanie modelu. Modely sa nenačítajú, ak by prekročili tento limit.",
   "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Nepodporované) Vždy povoliť 'Načítať aj tak' bez držania Alt/Option",
-
   "experimentalLoadPresets": "Povoliť podporu konfigurácie načítania modelov v prednastaveniach",
   "experimentalLoadPresets.description": "Určuje, či prednastavenia môžu obsahovať konfigurácie načítania modelov. Táto funkcia je experimentálna a vítame spätnú väzbu.",
-
   "unloadPreviousJITModelOnLoad": "Automatické uvoľnenie JIT modelov: zaručí, že je načítaný maximálne 1 model cez JIT naraz (uvoľní predchádzajúci model)",
   "autoDeleteExtensionPacks": "Automaticky odstrániť najmenej používané Runtime balíky rozšírení",
   "autoUpdateExtensionPacks": "Automaticky aktualizovať vybrané Runtime balíky rozšírení",
@@ -149,16 +139,12 @@
   "useHFProxy.hint": "Použite Hugging Face Proxy LM Studia na vyhľadávanie a sťahovanie modelov. Pomáha používateľom, ktorí majú problémy s priamym prístupom k Hugging Face.",
   "separateReasoningContentInResponses": "Ak je to vhodné, oddeliť `reasoning_content` a `content` v odpovediach API",
   "separateReasoningContentInResponses/hint": "Toto nastavenie funguje len pre 'reasoning' modely ako DeepSeek R1, jeho destilované varianty a ďalšie modely, ktoré produkujú CoT v tagoch `<think>` a `</think>`.",
-
   "promptWhenCommittingUnsavedChangesWithNewFields": "Prednastavenia: Zobraziť potvrdenie pri pridávaní nových polí do prednastavenia",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "Užitočné, ak chcete zabrániť neúmyselnému pridaniu nových polí do prednastavení",
-
   "enableLocalService": "Povoliť lokálnu LLM službu",
   "enableLocalService.subtitle": "Používajte server LLM LM Studia bez toho, aby ste museli mať otvorenú aplikáciu LM Studio",
   "enableLocalService.description": "Po povolení sa LM Studio Local LLM Service spustí pri štarte systému. Zatvorenie LM Studia tiež nechá službu bežať v systémovej lište.",
-
   "expandConfigsOnClick": "Rozbaliť nastavenia kliknutím namiesto prejdenia myšou",
-
   "migrateChats": {
     "label": "Migrovať chaty pred verziou 0.3.0",
     "hasBetterLabel": "Znovu migrovať chaty pred verziou 0.3.0",
@@ -194,7 +180,6 @@
       "warnButton": "Chápem riziká"
     }
   },
-
   "defaultContextLength": {
     "label": "Predvolená dĺžka kontextu",
     "maxTitle": "Maximálna hodnota modelu",
