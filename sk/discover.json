@@ -24,5 +24,6 @@
   "download.option.downloaded/title": "Stiahnuté",
   "download.option.downloading/title": "Sťahovanie ({{progressPercentile}}%)",
   "failedToStartDownload": "Nepodarilo sa spustiť sťahovanie",
+  
   "feed.action.refresh": "Obnoviť feed"
 }
