@@ -388,7 +388,7 @@
     "saveChanges.manual/description": "Vyberte, ktoré zmeny zahrnúť do prednastavenia.",
     "saveAs": "Uložiť ako nové...",
     "presetNamePlaceholder": "Zadajte názov prednastavenia...",
-    "cannotCommitChangesLegacy": "Toto je staršie prednastavenie a nemožno ho upravovať. Môžete vytvoriť kópiu pomocou „Uložiť ako nové...“",
+    "cannotCommitChangesLegacy": "Toto je staršie prednastavenie, ktoré nie je možné upraviť. Môžete vytvoriť kópiu pomocou „Uložiť ako nové...“",
     "cannotSaveChangesNoChanges": "Žiadne zmeny na uloženie.",
     "emptyNoUnsaved": "Vyberte prednastavenie...",
     "emptyWithUnsaved": "Neuložené prednastavenie",
