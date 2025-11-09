@@ -28,7 +28,7 @@
   "deeplink/actions/trySearching": "Skúste vyhľadať {{modelName}} na Hugging Face",
   
   "downloadsPanel/title": "Sťahovania",
-  "downloadsPanel/sectionTitle/ongoing": "Prebieha",
+  "downloadsPanel/sectionTitle/ongoing": "Prebiehajúce",
   "downloadsPanel/sectionTitle/completed": "Dokončené",
   "downloadsPanel": {
     "reveal": {
