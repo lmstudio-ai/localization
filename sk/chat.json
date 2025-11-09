@@ -165,7 +165,7 @@
   "topBarActions/clearChatDelete": "Vymazať všetko",
   
   "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
-  "noModels.downloading": "Prebieha sťahovanie vášho prvého LLM...",
+  "noModels.downloading": "Sťahovanie vášho prvého LLM...",
   "noModels": "Zatiaľ žiadne LLM! Stiahnite si jeden a začnite!",
   
   "plugins": {
