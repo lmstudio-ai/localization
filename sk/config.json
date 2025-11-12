@@ -217,7 +217,7 @@
   "embedding.load.llama.acceleration.offloadRatio/title": "GPU offload",
   "embedding.load.llama.acceleration.offloadRatio/subTitle": "Počet diskrétnych vrstiev modelu, ktoré sa majú spracovať na GPU pre akceleráciu",
   "embedding.load.llama.acceleration.offloadRatio/info": "Nastavuje počet vrstiev, ktoré sa majú offloadovať na GPU.",
-  "embedding.load.llama.keepModelInMemory/title": "Držať model v pamäti",
+  "embedding.load.llama.keepModelInMemory/title": "Ponechať model v pamäti",
   "embedding.load.llama.keepModelInMemory/subTitle": "Rezervuje systémovú pamäť pre model aj pri offloade na GPU. Zlepšuje výkon, ale vyžaduje viac RAM",
   "embedding.load.llama.keepModelInMemory/info": "Zabraňuje swapovaniu modelu na disk, zabezpečuje rýchlejší prístup za cenu vyššieho využitia RAM",
   "embedding.load.llama.tryMmap/title": "Skúsiť mmap()",
