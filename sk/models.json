@@ -9,7 +9,7 @@
   "noModels.discoverButtonText.suffix": "tlačidlo v ľavom paneli, aby ste objavili zaujímavé LLM na stiahnutie.",
   "noModels.discoverModelsPrompt": "Choďte a preskúmajte niektoré lokálne LLM!",
   
-  "modelsTable.arch/label": "Arch",
+  "modelsTable.arch/label": "Architektúra",
   "modelsTable.params/label": "Parametre",
   "modelsTable.publisher/label": "Vydavateľ",
   "modelsTable.displayName/label": "Názov",
@@ -18,7 +18,7 @@
   "modelsTable.dateModified/label": "Dátum úpravy",
   "modelsTable.actions/label": "Akcie",
   
-  "modelsTable.quant/label": "Quant",
+  "modelsTable.quant/label": "Kvantizácia",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "Embedovací model",
   
