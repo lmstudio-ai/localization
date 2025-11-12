@@ -103,9 +103,9 @@
   "loader.guardrails.notEnoughResources": "Nedostatok zdrojov na načítanie modelu s aktuálnymi nastaveniami",
   "loader.guardrails.notEnoughResources/options": "Možnosti",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "Zdá sa, že váš systém nemá dostatok pamäte na načítanie tohto modelu.",
-  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Môžete upraviť pravidlá načítania modelu v nastaveniach alebo držať <altOptionKey /> pre načítanie napriek tomu.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Môžete upraviť pravidlá načítania modelu v nastaveniach alebo stlačiť <altOptionKey /> pre načítanie napriek tomu.",
   "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Načítanie príliš veľkého modelu môže preťažiť systém a spôsobiť jeho zamrznutie.",
-  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(Neodporúča sa) Vždy povoliť 'Načítať napriek tomu' bez držania Alt/Option",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(Neodporúča sa) Vždy povoliť 'Načítať napriek tomu' bez stlačenia Alt/Option",
   
   "virtual": {
     "local": {
