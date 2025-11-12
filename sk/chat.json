@@ -98,12 +98,12 @@
   "userFile/fileSizeLimit": "Limit veľkosti súboru je ",
   "userFile/noImageSupport": "Model nepodporuje obrazové vstupy",
   "userFile/errorPrefix": "Chyba – ",
-  "userFile/supportedImagePrefix": "Nepodporovaný typ obrázka – podporované sú iba ",
+  "userFile/supportedImagePrefix": "Nepodporovaný typ obrázka – podporované sú len ",
   "userFile/supportedImageSuffix": " formáty",
   "userFile/unsupportedFileType": "Nepodporovaný typ súboru – podporované sú len obrázky, PDF a .txt súbory.",
-  "userFile/maxFilesPerMessage": "Bol dosiahnutý maximálny počet súborov na správu. Nie je možné pridať viac ako {{files}} súborov.",
+  "userFile/maxFilesPerMessage": "Bol dosiahnutý maximálny počet súborov na jednu správu. Nie je možné pridať viac ako {{files}} súborov.",
   "userFile/maxFileSizePerMessage": "Dosiahnutá maximálna veľkosť súboru na správu. Nie je možné pridať súbory väčšie ako {{size}}.",
-  "userFile/maxFileSizePerConversation": "Dosiahnutá maximálna veľkosť súborov pre konverzáciu. Nie je možné pridať súbory väčšie ako {{size}}.",
+  "userFile/maxFileSizePerConversation": "Dosiahnutá maximálna veľkosť súborov pre túto konverzáciu. Nie je možné pridať súbory väčšie ako {{size}}.",
   "userFile/failedToUploadError/title": "Nepodarilo sa nahrať súbor",
   "userFile/failedToAddFile/title": "Nepodarilo sa pridať súbor do chatu",
   "errorTitle": "Chyba",
@@ -111,11 +111,11 @@
   "userFile/chatTerminalDocumentsCount_other": "{{count}} dokumentov v chate",
   
   "prediction/busyModel/title": "Model je zaneprázdnený",
-  "prediction/busyModel/message": "Počkajte, kým model dokončí spracovanie, a skúste znova",
+  "prediction/busyModel/message": "Počkajte, kým model dokončí spracovanie, a skúste to znova",
   "prediction/noModel/title": "Nie je vybraný žiadny model",
   "prediction/modelLoading": "Správa zaradená do frontu, odošle sa po načítaní modelu",
   "prediction/noModel/message": "Vyberte model na odoslanie správy",
-  "prediction/unloadModel/error": "Nepodarilo sa vysunúť model",
+  "prediction/unloadModel/error": "Nepodarilo sa odpojiť model",
   
   "retrieval/user/processingLabel": "AI premýšľa...",
   "retrieval/powerUser/intermediateStepsHidden": "Medzikroky sú skryté. Kliknite pre zobrazenie.",
@@ -166,7 +166,7 @@
   
   "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
   "noModels.downloading": "Sťahovanie vášho prvého LLM...",
-  "noModels": "Zatiaľ žiadne LLM! Stiahnite si jeden a začnite!",
+  "noModels": "Zatiaľ nemáte žiadne LLM! Stiahnite si jeden a začnite!",
   
   "plugins": {
     "pluginTrigger": {
@@ -203,7 +203,7 @@
     },
     "instructions": {
       "runTheFollowing": "Ak chcete spustiť svoj plugin, otvorte terminál a zadajte",
-      "pushTo": "Zdieľajte svoj plugin s ostatnými odoslaním na Hub (voliteľné)",
+      "pushTo": "Zdieľajte svoj plugin s ostatnými jeho odoslaním na Hub (voliteľné)",
       "createdSuccessfully": "Plugin bol úspešne vytvorený",
       "creatingPlugin": "Vytváranie pluginu...",
       "projectFilesTitle": "Súbory projektu",
@@ -226,7 +226,7 @@
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} tok/s",
     "predictedTokensCount": "{{predictedTokensCount}} tokenov",
-    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s do prvého tokenu",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}} s do prvého tokenu",
     "stopReason": "Dôvod zastavenia: {{stopReason}}",
     "stopReason.userStopped": "Zastavené používateľom",
     "stopReason.modelUnloaded": "Model odpojený",
