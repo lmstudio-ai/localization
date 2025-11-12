@@ -81,7 +81,7 @@
   "tokenCount/totalAvailablePercentage": "Kontext je zaplnený na {{percentage}}%",
   "tokenCount/contextOverflow": "Nepredspracovaný kontext presahuje maximálny limit tokenov modelu. V závislosti od politiky pretečenia môže byť kontext skrátený alebo správa neodoslaná.",
   "modelLoader/manualLoadParams/label": "Manuálne vyberte parametre načítania modelu",
-  "modelLoader/manualLoadParams/hint/before": "(alebo podržte ",
+  "modelLoader/manualLoadParams/hint/before": "(alebo stlačte ",
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "Nepodarilo sa presunúť",
   "actions/rename/error": "Nepodarilo sa premenovať",
