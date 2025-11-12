@@ -76,7 +76,7 @@
   
   "runtimeOptions/uninstall": "Odinštalovať",
   "runtimeOptions/uninstallDialog/title": "Odinštalovať {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Odinštalovanie tohto runtime odstráni ho zo systému. Táto akcia je nezvratná.",
+  "runtimeOptions/uninstallDialog/body": "Odinštalovanie tohto runtime ho odstráni zo systému. Táto akcia je nezvratná.",
   "runtimeOptions/uninstallDialog/body/caveats": "Niektoré súbory sa môžu odstrániť až po reštarte LM Studio.",
   "runtimeOptions/uninstallDialog/error": "Nepodarilo sa odinštalovať runtime",
   "runtimeOptions/uninstallDialog/confirm": "Pokračovať a odinštalovať",
