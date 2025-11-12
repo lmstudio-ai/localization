@@ -141,7 +141,7 @@
   "llm.load.seed/info": "Náhodný Seed: Nastavuje seed pre generovanie náhodných čísel, aby sa zabezpečila reprodukovateľnosť výsledkov",
   "llm.load.numCpuExpertLayersRatio/title": "Vynútiť váhy expertov modelu do CPU",
   "llm.load.numCpuExpertLayersRatio/subTitle": "Určuje, či vynútiť váhy MoE expertov do RAM CPU. Šetrí VRAM a môže byť rýchlejšie ako čiastočný prenos na GPU. Neodporúča sa, ak model úplne sedí v VRAM.",
-  "llm.load.numCpuExpertLayersRatio/info": "Určuje, či vložiť všetky MoE expert vrstvy do RAM CPU. Attention vrstvy zostávajú na GPU, šetrí VRAM a udržiava pomerne rýchlu inferenciu",
+  "llm.load.numCpuExpertLayersRatio/info": "Určuje, či vložiť všetky MoE expert vrstvy do RAM CPU. Attention vrstvy zostávajú na GPU, šetrí VRAM a zachováva pomerne rýchlu inferenciu",
   
   "llm.load.llama.evalBatchSize/title": "Veľkosť batch-evaluácie",
   "llm.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovávaných naraz. Zvýšenie zlepšuje výkon, ale zvyšuje využitie pamäte",
@@ -161,7 +161,7 @@
   "llm.load.numExperts/title": "Počet expertov",
   "llm.load.numExperts/subTitle": "Počet expertov, ktorí sa majú použiť v modeli",
   "llm.load.numExperts/info": "Počet expertov, ktorí sa majú použiť v modeli",
-  "llm.load.llama.keepModelInMemory/title": "Držať model v pamäti",
+  "llm.load.llama.keepModelInMemory/title": "Ponechať model v pamäti",
   "llm.load.llama.keepModelInMemory/subTitle": "Rezervuje systémovú pamäť pre model aj pri offloade na GPU. Zlepšuje výkon, ale vyžaduje viac RAM",
   "llm.load.llama.keepModelInMemory/info": "Zabraňuje swapovaniu modelu na disk, zabezpečuje rýchlejší prístup za cenu vyššieho využitia RAM",
   "llm.load.llama.useFp16ForKVCache/title": "Použiť FP16 pre KV Cache",
