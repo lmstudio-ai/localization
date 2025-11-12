@@ -45,7 +45,7 @@
   "serverOptions/jitModelLoadingTTL/hint": "Model načítaný JIT na obsluhu API požiadavky sa automaticky uvoľní po určitom čase nečinnosti (TTL).",
   "serverOptions/jitModelLoadingTTL/ttl/label": "Maximálna nečinnosť",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minúty",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Udržať len posledný JIT model",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Ponechať len posledný JIT model",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Zabezpečiť, že v danom čase je načítaný maximálne 1 JIT model (uvoľní predchádzajúci model)",
   "serverOptions/allowMcp/title": "Povoliť vzdialené MCP",
   "serverOptions/allowMcp/hint": "Povoliť používanie MCP, ktoré nie sú v mcp.json. Tieto MCP pripojenia sú efemérne a existujú len počas požiadavky. Momentálne sú podporované iba vzdialené MCP.",
