@@ -298,103 +298,302 @@
     },
     "contextOverflowPolicy": {
       "stopAtLimit": "Zastaviť pri limite",
+      "stopAtLimitSub": "Zastaviť generovanie, keď sa naplní pamäť modelu",
+      "truncateMiddle": "Skrátiť stred",
+      "truncateMiddleSub": "Odstráni správy zo stredu konverzácie, aby sa uvoľnilo miesto pre novšie. Model si však bude pamätať začiatok konverzácie.",
+      "rollingWindow": "Posuvné okno",
+      "rollingWindowSub": "Model bude mať vždy prístup k niekoľkým najnovším správam, ale môže zabudnúť začiatok konverzácie."
+    },
+      "llamaAccelerationOffloadRatio": {
+      "max": "MAX",
+      "off": "VYPNUTÉ"
+    },
+    "gpuSplitStrategy": {
+      "evenly": "Rovnomerne",
+      "favorMainGpu": "Uprednostniť hlavnú GPU"
+    },
+    "speculativeDecodingDraftModel": {
+      "readMore": "Prečítajte si, ako to funguje",
+      "placeholder": "Vyberte kompatibilný návrhový model",
+      "noCompatible": "Pre aktuálne zvolený model sa nenašli žiadne kompatibilné návrhové modely",
+      "stillLoading": "Identifikujú sa kompatibilné návrhové modely...",
+      "notCompatible": "Vybraný návrhový model (<draft/>) nie je kompatibilný s aktuálne zvoleným modelom (<current/>).",
+      "off": "VYPNUTÉ",
+      "loadModelToSeeOptions": "Načítajte model <keyboard-shortcut />, aby ste videli dostupné možnosti",
+      "compatibleWithNumberOfModels": "Odporúča sa pre aspoň {{dynamicValue}} vašich modelov",
+      "recommendedForSomeModels": "Odporúča sa pre niektoré modely",
+      "recommendedForLlamaModels": "Odporúča sa pre modely Llama",
+      "recommendedForQwenModels": "Odporúča sa pre modely Qwen",
+      "onboardingModal": {
+      "introducing": "Predstavujeme",
+      "speculativeDecoding": "Špekulatívne dekódovanie",
+      "firstStepBody": "Zrýchlenie inferencie pre modely <custom-span>llama.cpp</custom-span> a <custom-span>MLX</custom-span>",
+      "secondStepTitle": "Zrýchlenie inferencie pomocou špekulatívneho dekódovania",
+      "secondStepBody": "Špekulatívne dekódovanie je technika, pri ktorej spolupracujú dva modely:\n - Väčší „hlavný“ model\n - Menší „návrhový“ model\n\nPočas generovania návrhový model rýchlo navrhuje tokeny, ktoré väčší hlavný model overuje. Overovanie tokenov je oveľa rýchlejšie ako ich generovanie, čo prináša zrýchlenie. **Čím väčší je rozdiel vo veľkosti medzi hlavným a návrhovým modelom, tým väčšie zrýchlenie**.\n\nNa zachovanie kvality hlavný model prijíma iba tokeny, ktoré zodpovedajú tým, ktoré by vygeneroval sám, čím zachováva kvalitu odpovedí väčšieho modelu pri vyššej rýchlosti. Oba modely musia zdieľať rovnakú slovnú zásobu.",
+      "draftModelRecommendationsTitle": "Odporúčané návrhové modely",
+      "basedOnCurrentModels": "Na základe vašich aktuálnych modelov",
+      "close": "Zavrieť",
+      "next": "Ďalej",
+      "done": "Hotovo"
+    },
+    "speculativeDecodingLoadModelToSeeOptions": "Najskôr načítajte model <model-badge />",
+    "errorEngineNotSupported": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} jadra {{engineName}}. Aktualizujte jadro (<key/>) a znova načítajte model, aby ste mohli túto funkciu použiť.",
+    "errorEngineNotSupported/noKey": "Špekulatívne dekódovanie vyžaduje aspoň verziu {{minVersion}} jadra {{engineName}}. Aktualizujte jadro a znova načítajte model, aby ste mohli túto funkciu použiť."
+  },
+  "llmReasoningParsing": {
+    "startString/label": "Počiatočný reťazec",
+    "startString/placeholder": "Zadajte počiatočný reťazec...",
+    "endString/label": "Koncový reťazec",
+    "endString/placeholder": "Zadajte koncový reťazec..."
+  }
+},
+"saveConflictResolution": {
+  "title": "Vyberte, ktoré hodnoty zahrnúť do predvoľby",
+  "description": "Vyberte, ktoré hodnoty chcete ponechať",
+  "instructions": "Kliknite na hodnotu, ktorú chcete zahrnúť",
+  "userValues": "Predchádzajúca hodnota",
+  "presetValues": "Nová hodnota",
+  "confirm": "Potvrdiť",
+  "cancel": "Zrušiť"
+  },
+  "applyConflictResolution": {
+    "title": "Ktoré hodnoty ponechať?",
+    "description": "Máte neuložené zmeny, ktoré sa prekrývajú s prichádzajúcou predvoľbou",
+    "instructions": "Kliknite na hodnotu, ktorú chcete ponechať",
+    "userValues": "Aktuálna hodnota",
+    "presetValues": "Hodnota z predvoľby",
+    "confirm": "Potvrdiť",
+    "cancel": "Zrušiť"
+  },
+  "empty": "<Prázdne>",
+  "noModelSelected": "Nie je vybraný žiadny model",
+  "apiIdentifier.label": "Identifikátor API",
+  "apiIdentifier.hint": "Voliteľne môžete zadať identifikátor pre tento model. Použije sa v API požiadavkách. Ak ho necháte prázdny, použije sa predvolený identifikátor.",
+  "idleTTL.label": "Automatické odpojenie pri nečinnosti (TTL)",
+  "idleTTL.hint": "Ak je nastavené, model sa automaticky odpojí po uplynutí zadanej doby nečinnosti.",
+  "idleTTL.mins": "min",
 
-      "importPreset_zero": "Prednastavení na import",
-      "importPreset_one": "Prednastavenie na import",
-      "importPreset_other": "Prednastavení na import: {{count}}",
+  "presets": {
+    "title": "Predvoľba",
+    "saveChanges": "Uložiť",
+    "saveChanges/description": "Uložiť vaše zmeny do predvoľby.",
+    "saveChanges.manual": "Zistené nové polia. Budete si môcť vybrať, ktoré zmeny zahrnúť do predvoľby.",
+    "saveChanges.manual.hold.0": "Stlačte",
+    "saveChanges.manual.hold.1": "na výber zmien, ktoré sa majú uložiť do predvoľby.",
+    "saveChanges.saveAll.hold.0": "Stlačte",
+    "saveChanges.saveAll.hold.1": "na uloženie všetkých zmien.",
+    "saveChanges.saveInPreset.hold.0": "Stlačte",
+    "saveChanges.saveInPreset.hold.1": "na uloženie len tých zmien, ktoré sú už súčasťou predvoľby.",
+    "saveChanges/error": "Nepodarilo sa uložiť zmeny do predvoľby.",
+    "saveChanges.manual/description": "Vyberte, ktoré zmeny chcete zahrnúť do predvoľby.",
+    "saveAs": "Uložiť ako novú...",
+    "presetNamePlaceholder": "Zadajte názov predvoľby...",
+    "cannotCommitChangesLegacy": "Toto je staršia predvoľba, ktorú nie je možné upraviť. Môžete vytvoriť kópiu pomocou \"Uložiť ako novú...\".",
+    "cannotSaveChangesNoChanges": "Žiadne zmeny na uloženie.",
+    "emptyNoUnsaved": "Vyberte predvoľbu...",
+    "emptyWithUnsaved": "Neuložená predvoľba",
+    "saveEmptyWithUnsaved": "Uložiť predvoľbu ako...",
+    "saveConfirm": "Uložiť",
+    "saveCancel": "Zrušiť",
+    "saving": "Ukladá sa...",
+    "save/error": "Nepodarilo sa uložiť predvoľbu.",
+    "deselect": "Zrušiť výber predvoľby",
+    "deselect/error": "Nepodarilo sa zrušiť výber predvoľby.",
+    "select/error": "Nepodarilo sa vybrať predvoľbu.",
+    "delete/error": "Nepodarilo sa odstrániť predvoľbu.",
+    "discardChanges": "Zahodiť neuložené zmeny",
+    "discardChanges/info": "Zahodiť všetky neuložené zmeny a obnoviť pôvodný stav predvoľby",
+    "newEmptyPreset": "+ Nová predvoľba",
+    "importPreset": "Importovať",
+    "contextMenuCopyIdentifier": "Kopírovať identifikátor predvoľby",
+    "contextMenuSelect": "Použiť predvoľbu",
+    "contextMenuDelete": "Odstrániť...",
+    "contextMenuShare": "Zverejniť...",
+    "contextMenuOpenInHub": "Zobraziť na webe",
+    "contextMenuPullFromHub": "Stiahnuť najnovšie",
+    "contextMenuPushChanges": "Odoslať zmeny do Hubu",
+    "contextMenuPushingChanges": "Odosiela sa...",
+    "contextMenuPushedChanges": "Zmeny boli odoslané",
+    "contextMenuExport": "Exportovať súbor",
+    "contextMenuRevealInExplorer": "Zobraziť v Prieskumníkovi",
+    "contextMenuRevealInFinder": "Zobraziť vo Finderi",
+    "share": {
+      "title": "Zverejniť predvoľbu",
+      "action": "Zdieľajte svoju predvoľbu, aby si ju ostatní mohli stiahnuť, označiť a upraviť",
+      "presetOwnerLabel": "Vlastník",
+      "uploadAs": "Vaša predvoľba bude vytvorená ako {{name}}",
+      "presetNameLabel": "Názov predvoľby",
+      "descriptionLabel": "Popis (voliteľné)",
+      "loading": "Zverejňuje sa...",
+      "success": "Predvoľba úspešne odoslaná",
+      "presetIsLive": "<preset-name /> je teraz aktívna na Hube!",
+      "close": "Zavrieť",
+      "confirmViewOnWeb": "Zobraziť na webe",
+      "confirmCopy": "Kopírovať URL",
+      "confirmCopied": "Skopírované!",
+      "pushedToHub": "Vaša predvoľba bola odoslaná do Hubu",
+      "descriptionPlaceholder": "Zadajte popis...",
+      "willBePublic": "Táto predvoľba bude verejná. Každý na internete ju bude môcť vidieť.",
+      "willBePrivate": "Predvoľba bude viditeľná len pre vás",
+      "willBeOrgVisible": "Predvoľba bude viditeľná pre všetkých v organizácii.",
+      "publicSubtitle": "Vaša predvoľba je <custom-bold>verejná</custom-bold>. Ostatní si ju môžu stiahnuť a upraviť na lmstudio.ai",
+      "privateUsageReached": "Bol dosiahnutý limit počtu súkromných predvolieb.",
+      "continueInBrowser": "Pokračovať v prehliadači",
+      "confirmShareButton": "Zverejniť",
+      "error": "Nepodarilo sa zverejniť predvoľbu",
+      "createFreeAccount": "Vytvorte si bezplatný účet na Hube, aby ste mohli zverejňovať predvoľby"
+    },
+    "update": {
+      "title": "Odoslať zmeny do Hubu",
+      "title/success": "Predvoľba úspešne aktualizovaná",
+      "subtitle": "Upravte <custom-preset-name /> a odošlite zmeny do Hubu",
+      "descriptionLabel": "Popis",
+      "descriptionPlaceholder": "Zadajte popis...",
+      "loading": "Odosiela sa...",
+      "cancel": "Zrušiť",
+      "createFreeAccount": "Vytvorte si bezplatný účet na Hube, aby ste mohli zverejňovať predvoľby",
+      "error": "Nepodarilo sa odoslať aktualizáciu",
+      "confirmUpdateButton": "Odoslať"
+    },
+    "resolve": {
+      "title": "Riešiť konflikty...",
+      "tooltip": "Otvoriť okno na vyriešenie rozdielov s verziou na Hube"
+    },
+    "loginToManage": {
+      "title": "Prihláste sa na správu..."
+    },
+    "downloadFromHub": {
+      "title": "Stiahnuť",
+      "downloading": "Sťahuje sa...",
+      "success": "Stiahnuté!",
+      "error": "Nepodarilo sa stiahnuť"
+    },
+    "push": {
+      "title": "Odoslať zmeny",
+      "pushing": "Odosiela sa...",
+      "success": "Odoslané",
+      "tooltip": "Odošlite svoje lokálne zmeny na vzdialenú verziu v Hube",
+      "error": "Nepodarilo sa odoslať"
+    },
+    "saveAsNewModal": {
+      "title": "Ups! Predvoľba sa nenašla na Hube",
+      "confirmSaveAsNewDescription": "Chcete túto predvoľbu zverejniť ako novú?",
+      "confirmButton": "Zverejniť ako novú"
+    },
+    "pull": {
+      "title": "Stiahnuť najnovšie",
+      "error": "Nepodarilo sa stiahnuť",
+      "contextMenuErrorMessage": "Nepodarilo sa stiahnuť",
+      "success": "Stiahnuté",
+      "pulling": "Sťahuje sa...",
+      "upToDate": "Aktuálne!",
+      "unsavedChangesModal": {
+        "title": "Máte neuložené zmeny.",
+        "bodyContent": "Stiahnutie z Hubu prepíše vaše neuložené zmeny. Pokračovať?",
+        "confirmButton": "Prepísať neuložené zmeny"
+      }
+    },
+    "import": {
+      "title": "Importovať predvoľbu zo súboru",
+      "dragPrompt": "Pretiahnite súbory predvolieb (.tar.gz alebo preset.json) alebo <custom-link>vyberte zo svojho počítača</custom-link>",
+      "remove": "Odstrániť",
+      "cancel": "Zrušiť",
+      "importPreset_zero": "Importovaných predvolieb",
+      "importPreset_one": "Importovať predvoľbu",
+      "importPreset_other": "Importovaných predvolieb: {{count}}",
       "selectDialog": {
-        "title": "Vybrať súbor prednastavenia (preset.json alebo .tar.gz)",
+        "title": "Vyberte súbor predvoľby (preset.json alebo .tar.gz)",
         "button": "Importovať"
       },
-      "error": "Nepodarilo sa importovať prednastavenie",
+      "error": "Nepodarilo sa importovať predvoľbu",
       "resultsModal": {
-        "titleSuccessSection_one": "Úspešne importované 1 prednastavenie",
-        "titleSuccessSection_other": "Úspešne importovaných prednastavení: {{count}}",
+        "titleSuccessSection_one": "1 predvoľba úspešne importovaná",
+        "titleSuccessSection_other": "Predvolieb úspešne importovaných: {{count}}",
         "titleFailSection_zero": "",
-        "titleFailSection_one": "({{count}} zlyhalo)",
-        "titleFailSection_other": "({{count}} zlyhalo)",
-        "titleAllFailed": "Nepodarilo sa importovať prednastavenia",
-        "importMore": "Importovať viac",
+        "titleFailSection_one": "(neúspešná: {{count}})",
+        "titleFailSection_other": "(neúspešných: {{count}})",
+        "titleAllFailed": "Import predvolieb zlyhal",
+        "importMore": "Importovať ďalšie",
         "close": "Hotovo",
         "successBadge": "Úspech",
-        "alreadyExistsBadge": "Prednastavenie už existuje",
+        "alreadyExistsBadge": "Predvoľba už existuje",
         "errorBadge": "Chyba",
         "invalidFileBadge": "Neplatný súbor",
-        "otherErrorBadge": "Nepodarilo sa importovať prednastavenie",
+        "otherErrorBadge": "Nepodarilo sa importovať predvoľbu",
         "errorViewDetailsButton": "Zobraziť podrobnosti",
-        "seeError": "Pozrieť chybu",
-        "noName": "Bez názvu prednastavenia",
+        "seeError": "Zobraziť chybu",
+        "noName": "Bez názvu predvoľby",
         "useInChat": "Použiť v chate"
       },
       "importFromUrl": {
         "button": "Importovať z URL...",
         "title": "Importovať z URL",
         "back": "Importovať zo súboru...",
-        "action": "Vložte URL prednastavenia z LM Studio Hub nižšie",
-        "invalidUrl": "Neplatná URL. Skontrolujte, či vkladáte správnu URL prednastavenia z LM Studio Hub.",
-        "tip": "Prednastavenie môžete nainštalovať priamo pomocou tlačidla {{buttonName}} v LM Studio Hub",
+        "action": "Vložte URL adresu predvoľby z LM Studio Hub, ktorú chcete importovať",
+        "invalidUrl": "Neplatná URL. Uistite sa, že vkladáte platnú adresu LM Studio Hub.",
+        "tip": "Predvoľbu môžete nainštalovať priamo pomocou tlačidla {{buttonName}} v LM Studio Hub",
         "confirm": "Importovať",
         "cancel": "Zrušiť",
-        "loading": "Importovanie...",
-        "error": "Nepodarilo sa stiahnuť prednastavenie."
+        "loading": "Importuje sa...",
+        "error": "Nepodarilo sa stiahnuť predvoľbu."
       }
     },
     "download": {
       "title": "Stiahnuť <preset-name /> z LM Studio Hub",
-      "subtitle": "Uložiť <custom-name /> do svojich prednastavení. Týmto umožníte používanie prednastavenia v aplikácii",
+      "subtitle": "Uložte <custom-name /> do svojich predvolieb. Týmto ju budete môcť používať v aplikácii",
       "button": "Stiahnuť",
-      "button/loading": "Sťahovanie...",
+      "button/loading": "Sťahuje sa...",
       "cancel": "Zrušiť",
-      "error": "Nepodarilo sa stiahnuť prednastavenie."
+      "error": "Nepodarilo sa stiahnuť predvoľbu."
     },
     "inclusiveness": {
-      "speculativeDecoding": "Zahrnúť do prednastavenia"
+      "speculativeDecoding": "Zahrnúť do predvoľby"
     }
   },
-  
-  "flashAttentionWarning": "Flash Attention je experimentálna funkcia, ktorá môže spôsobiť problémy s niektorými modelmi. Ak sa vyskytnú problémy, skúste ju vypnúť.",
-  "llamaKvCacheQuantizationWarning": "KV Cache kvantizácia je experimentálna funkcia, ktorá môže spôsobiť problémy s niektorými modelmi. Pre kvantizáciu V cache musí byť povolený Flash Attention. Ak sa vyskytnú problémy, resetujte na predvolenú hodnotu „F16“.",
 
-  "seedUncheckedHint": "Náhodné semeno",
+  "flashAttentionWarning": "Flash Attention je experimentálna funkcia, ktorá môže spôsobovať problémy s niektorými modelmi. Ak narazíte na problémy, skúste ju vypnúť.",
+  "llamaKvCacheQuantizationWarning": "KV Cache kvantizácia je experimentálna funkcia, ktorá môže spôsobovať problémy s niektorými modelmi. Pre kvantizáciu V cache musí byť zapnutá funkcia Flash Attention. Ak sa vyskytnú problémy, obnovte predvolené nastavenie „F16“.",
+
+  "seedUncheckedHint": "Náhodné semienko",
   "ropeFrequencyBaseUncheckedHint": "Automaticky",
   "ropeFrequencyScaleUncheckedHint": "Automaticky",
 
   "hardware": {
     "environmentVariables": "Premenné prostredia",
-    "environmentVariables.info": "Ak si nie ste istí, nechajte tieto hodnoty predvolené",
+    "environmentVariables.info": "Ak si nie ste istí, ponechajte predvolené hodnoty",
     "environmentVariables.reset": "Obnoviť predvolené",
-  
-    "gpus.information": "Konfigurácia grafických procesorov (GPU) zistených na vašom zariadení",
+
+    "gpus.information": "Nastavte grafické jednotky (GPU) zistené vo vašom zariadení",
     "gpuSettings": {
       "editMaxCapacity": "Upraviť maximálnu kapacitu",
-      "hideEditMaxCapacity": "Skryť úpravu maximálnej kapacity",
-      "allOffWarning": "Všetky GPU sú vypnuté alebo zakázané, uistite sa, že je pridelená nejaká GPU pre načítanie modelov",
+      "hideEditMaxCapacity": "Skryť úpravu kapacity",
+      "allOffWarning": "Všetky GPU sú vypnuté alebo zakázané. Uistite sa, že aspoň jedna GPU má pridelenú pamäť pre načítanie modelov.",
       "split": {
         "title": "Stratégia",
-        "placeholder": "Vyberte pridelenie pamäte GPU",
+        "placeholder": "Vyberte spôsob alokácie pamäte GPU",
         "options": {
-          "generalDescription": "Konfigurujte, ako budú modely načítané na vaše GPU",
+          "generalDescription": "Nastavte, ako sa budú modely načítavať na GPU",
           "evenly": {
-            "title": "Rovnomerne rozdeliť",
-            "description": "Rozdeľte pamäť rovnomerne medzi GPU"
+            "title": "Rozdeliť rovnomerne",
+            "description": "Alokovať pamäť rovnomerne medzi GPU"
           },
           "priorityOrder": {
-            "title": "Poradie priority",
-            "description": "Ťahaním zmeňte poradie priority. Systém sa pokúsi alokovať viac na GPU uvedených ako prvé"
+            "title": "Poradie priorít",
+            "description": "Ťahaním zmeňte poradie priorít. Systém sa pokúsi prideliť viac pamäte GPU, ktoré sú uvedené ako prvé."
           },
           "custom": {
             "title": "Vlastné",
-            "description": "Pridelenie pamäte",
-            "maxAllocation": "Maximálne pridelenie"
+            "description": "Vlastná alokácia pamäte",
+            "maxAllocation": "Maximálna alokácia"
           }
         }
       },
       "deviceId.info": "Jedinečný identifikátor tohto zariadenia",
-      "changesOnlyAffectNewlyLoadedModels": "Zmeny ovplyvnia len novo načítané modely",
+      "changesOnlyAffectNewlyLoadedModels": "Zmeny sa prejavia iba pri novo načítaných modeloch",
       "toggleGpu": "Povoliť/Zakázať GPU"
     }
   },
-  
+
   "load.gpuSplitConfig/title": "Konfigurácia rozdelenia GPU",
   "envVars/title": "Nastaviť premennú prostredia",
   "envVars": {
@@ -404,8 +603,8 @@
       "filter": {
         "placeholder": "Filtrovať výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
-        "resultsFound_one": "Nájdený 1 výsledok",
-        "resultsFound_other": "Nájdených výsledkov: {{count}}"
+        "resultsFound_one": "1 výsledok nájdený",
+        "resultsFound_other": "{{count}} výsledkov nájdených"
       }
     },
     "inputValue": {
