@@ -203,7 +203,7 @@
   "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "Keď kontext dosiahne tento počet tokenov,\nzačni kvantizovať KV cache",
 
   "embedding.load.contextLength/title": "Dĺžka kontextu",
-  "embedding.load.contextLength/subTitle": "Maximálny počet tokenov, ktorým sa model môže venovať v jednej prompt. Pre ďalšie možnosti správy kontextu pozri „Conversation Overflow“ v sekcii „Inference params“",
+  "embedding.load.contextLength/subTitle": "Maximálny počet tokenov, ktorým sa model môže venovať v jednom prompt-e. Pre ďalšie možnosti správy kontextu pozri „Conversation Overflow“ v sekcii „Inference params“",
   "embedding.load.contextLength/info": "Určuje maximálny počet tokenov, ktoré môže model spracovať naraz, ovplyvňuje, koľko kontextu si model zachová počas spracovania",
   "embedding.load.llama.ropeFrequencyBase/title": "Základná frekvencia RoPE",
   "embedding.load.llama.ropeFrequencyBase/subTitle": "Vlastná základná frekvencia pre rotačné pozičné embeddingy (RoPE). Zvýšenie môže zlepšiť výkon pri dlhých kontextoch",
