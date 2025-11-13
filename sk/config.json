@@ -500,15 +500,15 @@
       "cancel": "Zrušiť",
       "importPreset_zero": "Importovaných predvolieb",
       "importPreset_one": "Importovať predvoľbu",
-      "importPreset_other": "Importovaných predvolieb: {{count}}",
+      "importPreset_other": "Importovaných predvolieb ({{count}})",
       "selectDialog": {
         "title": "Vyberte súbor predvoľby (preset.json alebo .tar.gz)",
         "button": "Importovať"
       },
       "error": "Nepodarilo sa importovať predvoľbu",
       "resultsModal": {
-        "titleSuccessSection_one": "1 predvoľba úspešne importovaná",
-        "titleSuccessSection_other": "Predvolieb úspešne importovaných: {{count}}",
+        "titleSuccessSection_one": "Predvoľba úspešne importovaná (1)",
+        "titleSuccessSection_other": "Predvolieb úspešne importovaných ({{count}})",
         "titleFailSection_zero": "",
         "titleFailSection_one": "(neúspešná: {{count}})",
         "titleFailSection_other": "(neúspešných: {{count}})",
