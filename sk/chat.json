@@ -75,7 +75,7 @@
   "editMessageConfirm/message": "Urobili ste zmeny v správe. Chcete ich uložiť?",
   "editMessageConfirm/keepEditing": "Pokračovať v úpravách",
   "editMessageConfirm/save": "Uložiť",
-  "editMessageConfirm/discard": "Zahodiť zmeny",
+  "editMessageConfirm/discard": "Zrušiť zmeny",
   "tokenCount/totalNotAvailable": "Tokeny: {{current}}",
   "tokenCount/totalAvailable": "Tokeny: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "Kontext je zaplnený na {{percentage}}%",
