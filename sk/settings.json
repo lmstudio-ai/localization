@@ -162,8 +162,8 @@
   "migrateChats": {
     "label": "Migrovať chaty pred verziou 0.3.0",
     "hasBetterLabel": "Znovu migrovať chaty pred verziou 0.3.0",
-    "action_one": "Chat na migráciu: 1",
-    "action_other": "Chatov na migráciu: {{count}}",
+    "action_one": "Chat na migráciu (1)",
+    "action_other": "Chaty na migráciu ({{count}})",
     "inProgress": "Migrácia chatov prebieha...",
     "hint": {
       "primary": "Prepracovali sme vnútornú dátovú štruktúru pre chaty v0.3.0+, aby podporovala funkcie ako multi-verzné správy. Staršie chaty je potrebné migrovať do nového formátu, aby sa zobrazovali v aplikácii.",
@@ -176,8 +176,8 @@
       "footer": "K starým chatom sa stále môžete dostať cez staršie verzie LM Studia. Obrázky sa momentálne nemigrujú automaticky."
     },
     "success": "Chaty úspešne migrované!",
-    "success_one": "Úspešne migrovaný chat: 1",
-    "success_other": "Úspešne migrovaných chatov: {{count}}",
+    "success_one": "Úspešne migrovaný chat (1)",
+    "success_other": "Úspešne migrované chaty ({{count}})",
     "showInstructionsButton": "Zobraziť návod",
     "footerCardText": "Chaty zo starších verzií LM Studia je potrebné migrovať, aby boli použiteľné v tejto verzii.",
     "hasBetterFooterCardText": "Vylepšili sme migrátor chatov od vašej poslednej migrácie. Migráciu môžete spustiť znova. (Vytvoríme novú zložku pre nové migrované chaty.)",
