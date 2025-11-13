@@ -229,24 +229,24 @@
   "embedding.load.seed/info": "Náhodný seed: Nastavuje seed pre generovanie náhodných čísel, aby boli výsledky reprodukovateľné",
 
   "presetTooltip": {
-    "included/title": "Prednastavené hodnoty",
+    "included/title": "Predvolené hodnoty",
     "included/description": "Nasledujúce polia budú použité",
-    "included/empty": "Žiadne polia tohto prednastavenia sa v tomto kontexte neuplatňujú.",
+    "included/empty": "Žiadne polia tejto predvolby sa v tomto kontexte neuplatňujú",
     "included/conflict": "Budete vyzvaní, aby ste sa rozhodli, či použiť túto hodnotu",
     "separateLoad/title": "Konfigurácia pri načítaní",
-    "separateLoad/description.1": "Prednastavenie tiež obsahuje nasledujúcu konfiguráciu pri načítaní. Konfigurácia pri načítaní platí pre celý model a vyžaduje jeho znovunačítanie. Stlačte",
+    "separateLoad/description.1": "Predvoľba tiež obsahuje nasledujúcu konfiguráciu pri načítaní. Konfigurácia pri načítaní platí pre celý model a vyžaduje jeho znovunačítanie. Stlačte",
     "separateLoad/description.2": "na použitie pre",
     "separateLoad/description.3": ".",
     "excluded/title": "Nemusí sa uplatniť",
-    "excluded/description": "Nasledujúce polia sú súčasťou prednastavenia, ale v aktuálnom kontexte sa neuplatňujú.",
-    "legacy/title": "Staršie prednastavenie",
-    "legacy/description": "Toto prednastavenie je staršie. Obsahuje nasledujúce polia, ktoré sú buď teraz spracovávané automaticky, alebo už nie sú relevantné.",
+    "excluded/description": "Nasledujúce polia sú zahrnuté v predvolbe, ale v aktuálnom kontexte sa neuplatňujú.",
+    "legacy/title": "Staršia predvoľba",
+    "legacy/description": "Táto predvoľba je staršia. Obsahuje nasledujúce polia, ktoré sú buď teraz spracovávané automaticky, alebo už nie sú relevantné.",
     "button/publish": "Zverejniť na Hub",
     "button/pushUpdate": "Odoslať zmeny na Hub",
     "button/noChangesToPush": "Žiadne zmeny na odoslanie",
     "button/export": "Exportovať",
-    "hubLabel": "Prednastavenie z Hub od {{user}}",
-    "ownHubLabel": "Vaše prednastavenie z Hub"
+    "hubLabel": "Predvoľba z Hub od {{user}}",
+    "ownHubLabel": "Vaša predvoľba z Hub"
   },
   
   "customInputs": {
