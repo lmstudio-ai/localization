@@ -500,7 +500,7 @@
       "cancel": "Zrušiť",
       "importPreset_zero": "Importovaných predvolieb",
       "importPreset_one": "Importovať predvoľbu",
-      "importPreset_other": "Importovaných predvolieb ({{count}})",
+      "importPreset_other": "Importované predvoľby ({{count}})",
       "selectDialog": {
         "title": "Vyberte súbor predvoľby (preset.json alebo .tar.gz)",
         "button": "Importovať"
@@ -508,10 +508,10 @@
       "error": "Nepodarilo sa importovať predvoľbu",
       "resultsModal": {
         "titleSuccessSection_one": "Predvoľba úspešne importovaná (1)",
-        "titleSuccessSection_other": "Predvolieb úspešne importovaných ({{count}})",
+        "titleSuccessSection_other": "Predvoľby úspešne importované ({{count}})",
         "titleFailSection_zero": "",
         "titleFailSection_one": "(neúspešná: {{count}})",
-        "titleFailSection_other": "(neúspešných: {{count}})",
+        "titleFailSection_other": "(neúspešné: {{count}})",
         "titleAllFailed": "Import predvolieb zlyhal",
         "importMore": "Importovať ďalšie",
         "close": "Hotovo",
@@ -604,7 +604,7 @@
         "placeholder": "Filtrovať výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
         "resultsFound_one": "Nájdený výsledok (1)",
-        "resultsFound_other": "Nájdených výsledkov ({{count}})"
+        "resultsFound_other": "Nájdené výsledky ({{count}})"
       }
     },
     "inputValue": {
