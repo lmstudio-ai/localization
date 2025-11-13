@@ -162,8 +162,8 @@
   "migrateChats": {
     "label": "Migrovať chaty pred verziou 0.3.0",
     "hasBetterLabel": "Znovu migrovať chaty pred verziou 0.3.0",
-    "action_one": "Migrovať 1 chat",
-    "action_other": "Migrovať {{count}} chatov",
+    "action_one": "Chat na migráciu 1",
+    "action_other": "Chatov na migráciu: {{count}}",
     "inProgress": "Migrácia chatov prebieha...",
     "hint": {
       "primary": "Prepracovali sme vnútornú dátovú štruktúru pre chaty v0.3.0+, aby podporovala funkcie ako multi-verzné správy. Staršie chaty je potrebné migrovať do nového formátu, aby sa zobrazovali v aplikácii.",
