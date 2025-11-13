@@ -150,8 +150,8 @@
   "separateReasoningContentInResponses": "Ak je to vhodné, oddeliť `reasoning_content` a `content` v odpovediach API",
   "separateReasoningContentInResponses/hint": "Toto nastavenie funguje len pre 'reasoning' modely ako DeepSeek R1, jeho destilované varianty a ďalšie modely, ktoré produkujú CoT v tagoch `<think>` a `</think>`.",
   
-  "promptWhenCommittingUnsavedChangesWithNewFields": "Prednastavenia: Zobraziť potvrdenie pri pridávaní nových polí do prednastavenia",
-  "promptWhenCommittingUnsavedChangesWithNewFields.description": "Užitočné, ak chcete zabrániť neúmyselnému pridaniu nových polí do prednastavení",
+  "promptWhenCommittingUnsavedChangesWithNewFields": "Predvoľby: Zobraziť potvrdenie pri uložení nových polí do predvoľby",
+  "promptWhenCommittingUnsavedChangesWithNewFields.description": "Užitočné, ak chcete zabrániť neúmyselnému pridaniu nových polí do predvolieb",
   
   "enableLocalService": "Povoliť lokálnu LLM službu",
   "enableLocalService.subtitle": "Používajte server LLM LM Studia bez toho, aby ste museli mať otvorenú aplikáciu LM Studio",
