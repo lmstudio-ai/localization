@@ -603,8 +603,8 @@
       "filter": {
         "placeholder": "Filtrovať výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
-        "resultsFound_one": "Nájdený 1 výsledok",
-        "resultsFound_other": "Nájdených výsledkov: {{count}}"
+        "resultsFound_one": "Nájdený výsledok (1)",
+        "resultsFound_other": "Nájdených výsledkov ({{count}})"
       }
     },
     "inputValue": {
