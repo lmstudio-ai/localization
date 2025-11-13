@@ -301,7 +301,7 @@
 
       "importPreset_zero": "Prednastavení na import",
       "importPreset_one": "Prednastavenie na import",
-      "importPreset_other": "Prednastavení na import {{count}}",
+      "importPreset_other": "Prednastavení na import: {{count}}",
       "selectDialog": {
         "title": "Vybrať súbor prednastavenia (preset.json alebo .tar.gz)",
         "button": "Importovať"
