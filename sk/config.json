@@ -308,8 +308,8 @@
       },
       "error": "Nepodarilo sa importovať prednastavenie",
       "resultsModal": {
-        "titleSuccessSection_one": "1 prednastavenie úspešne importované",
-        "titleSuccessSection_other": "{{count}} prednastavení úspešne importovaných",
+        "titleSuccessSection_one": "Úspešne importovaných prednastavení 1",
+        "titleSuccessSection_other": "Úspešne importovaných prednastavení {{count}}",
         "titleFailSection_zero": "",
         "titleFailSection_one": "({{count}} zlyhalo)",
         "titleFailSection_other": "({{count}} zlyhalo)",
