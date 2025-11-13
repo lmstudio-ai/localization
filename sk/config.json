@@ -287,8 +287,8 @@
       "manual.subfield.beforeAssistant/placeholder": "Zadajte prefix asistenta...",
       "manual.subfield.afterAssistant/label": "Za asistentom",
       "manual.subfield.afterAssistant/placeholder": "Zadajte suffix asistenta...",
-      "stopStrings/label": "Doplnkové stop reťazce",
-      "stopStrings/subTitle": "Šablónou špecifické stop reťazce, ktoré sa použijú okrem tých, ktoré zadal používateľ."
+      "stopStrings/label": "Dodatočné ukončovacie reťazce",
+      "stopStrings/subTitle": "Špecifické ukončovacie reťazce šablóny, ktoré sa použijú navyše k reťazcom zadaným používateľom."
     },
     "contextLength": {
       "maxValueTooltip": "Toto je maximálny počet tokenov, ktoré model dokáže spracovať. Kliknite pre nastavenie kontextu na túto hodnotu",
