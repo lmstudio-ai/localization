@@ -107,8 +107,8 @@
   "userFile/failedToUploadError/title": "Nepodarilo sa nahrať súbor",
   "userFile/failedToAddFile/title": "Nepodarilo sa pridať súbor do chatu",
   "errorTitle": "Chyba",
-  "userFile/chatTerminalDocumentsCount_one": "{{count}} dokument v chate",
-  "userFile/chatTerminalDocumentsCount_other": "{{count}} dokumentov v chate",
+  "userFile/chatTerminalDocumentsCount_one": "Dokumentov v chate: {{count}}",
+  "userFile/chatTerminalDocumentsCount_other": "Dokumentov v chate: {{count}}",
   
   "prediction/busyModel/title": "Model je zaneprázdnený",
   "prediction/busyModel/message": "Počkajte, kým model dokončí spracovanie, a skúste to znova",
