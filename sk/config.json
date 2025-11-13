@@ -405,7 +405,7 @@
         "placeholder": "Filtrovať výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
         "resultsFound_one": "Nájdený 1 výsledok",
-        "resultsFound_other": "Nájdených {{count}} výsledkov"
+        "resultsFound_other": "Nájdených výsledkov {{count}}"
       }
     },
     "inputValue": {
