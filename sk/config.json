@@ -208,7 +208,7 @@
   "embedding.load.llama.ropeFrequencyBase/title": "Základná frekvencia RoPE",
   "embedding.load.llama.ropeFrequencyBase/subTitle": "Vlastná základná frekvencia pre rotačné pozičné embeddingy (RoPE). Zvýšenie môže zlepšiť výkon pri dlhých kontextoch",
   "embedding.load.llama.ropeFrequencyBase/info": "[Pokročilé] Upravuje základnú frekvenciu pre rotačné pozičné kódovanie, ovplyvňuje, ako sa zakóduje pozičná informácia",
-  "embedding.load.llama.evalBatchSize/title": "Veľkosť evaluačnej dávky",
+  "embedding.load.llama.evalBatchSize/title": "Veľkosť dávky pri evaluácii",
   "embedding.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovávaných súčasne. Zvýšenie zlepšuje výkon, ale zvyšuje využitie pamäte",
   "embedding.load.llama.evalBatchSize/info": "Určuje počet tokenov spracovávaných naraz v jednej dávke počas evaluácie",
   "embedding.load.llama.ropeFrequencyScale/title": "Škálovanie frekvencie RoPE",
@@ -239,7 +239,7 @@
     "separateLoad/description.3": ".",
     "excluded/title": "Nemusí sa uplatniť",
     "excluded/description": "Nasledujúce polia sú zahrnuté v predvolbe, ale v aktuálnom kontexte sa neuplatňujú.",
-    "legacy/title": "Staršia predvoľba",
+    "legacy/title": "Zastaralá predvoľba",
     "legacy/description": "Táto predvoľba je staršia. Obsahuje nasledujúce polia, ktoré sú buď teraz spracovávané automaticky, alebo už nie sú relevantné.",
     "button/publish": "Zverejniť na Hub",
     "button/pushUpdate": "Odoslať zmeny na Hub",
@@ -401,8 +401,8 @@
     "deselect/error": "Nepodarilo sa zrušiť výber predvoľby.",
     "select/error": "Nepodarilo sa vybrať predvoľbu.",
     "delete/error": "Nepodarilo sa odstrániť predvoľbu.",
-    "discardChanges": "Zahodiť neuložené zmeny",
-    "discardChanges/info": "Zahodiť všetky neuložené zmeny a obnoviť pôvodný stav predvoľby",
+    "discardChanges": "Zrušiť neuložené zmeny",
+    "discardChanges/info": "Zrušiť všetky neuložené zmeny a obnoviť pôvodný stav predvoľby",
     "newEmptyPreset": "+ Nová predvoľba",
     "importPreset": "Importovať",
     "contextMenuCopyIdentifier": "Kopírovať identifikátor predvoľby",
@@ -603,8 +603,8 @@
       "filter": {
         "placeholder": "Filtrovať výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
-        "resultsFound_one": "Výsledok nájdený: 1",
-        "resultsFound_other": "Výsledkov nájdených: {{count}}"
+        "resultsFound_one": "Nájdený 1 výsledok",
+        "resultsFound_other": "Nájdených výsledkov: {{count}}"
       }
     },
     "inputValue": {
