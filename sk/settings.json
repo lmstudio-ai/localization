@@ -139,8 +139,8 @@
   "modelLoadingGuardrails.custom.description": "Nastavte vlastný limit pamäte pre načítanie modelu. Modely sa nenačítajú, ak by prekročili tento limit.",
   "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Nepodporované) Vždy povoliť 'Načítať aj tak' bez stlačenia Alt/Option",
   
-  "experimentalLoadPresets": "Povoliť podporu konfigurácie načítania modelov v prednastaveniach",
-  "experimentalLoadPresets.description": "Určuje, či prednastavenia môžu obsahovať konfigurácie načítania modelov. Táto funkcia je experimentálna a vítame spätnú väzbu.",
+  "experimentalLoadPresets": "Povoliť podporu konfigurácie načítania modelov v predvoľbách",
+  "experimentalLoadPresets.description": "Určuje, či predvoľby môžu obsahovať konfigurácie načítania modelov. Táto funkcia je experimentálna a vítame spätnú väzbu.",
   
   "unloadPreviousJITModelOnLoad": "Automatické uvoľnenie JIT modelov: zabezpečí, že je načítaný maximálne 1 model cez JIT naraz (uvoľní predchádzajúci model)",
   "autoDeleteExtensionPacks": "Automaticky odstrániť najmenej používané Runtime balíky rozšírení",
