@@ -1,8 +1,8 @@
 {
   "pageTitle": "Moje modely",
   "filterModels.placeholder": "Filtrovať modely...",
-  "aggregate_one": "Máte {{count}} lokálny model, ktorý zaberá {{size}} miesta na disku.",
-  "aggregate_other": "Máte {{count}} lokálnych modelov, ktoré zaberajú {{size}} miesta na disku.",
+  "aggregate_one": "Počet lokálnych modelov: {{count}}, využité miesto na disku: {{size}}.",
+  "aggregate_other": "Počet lokálnych modelov: {{count}}, využité miesto na disku: {{size}}.",
   
   "noModels.title": "Vaše lokálne modely sa tu zobrazia.",
   "noModels.discoverButtonText.prefix": "Kliknite na",
