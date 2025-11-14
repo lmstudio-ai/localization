@@ -91,7 +91,7 @@
   "languageLabel": "Jazyk",
   "changeLanguageLabel": "Vybrať jazyk aplikácie (stále vo vývoji)",
   "developerLabel": "Vývojár",
-  "localServiceLabel": "Lokálna LLM služba (headless)",
+  "localServiceLabel": "Lokálna LLM služba (bez rozhrania)",
   "modelDefaultsLabel": "Predvolené nastavenia modelu",
   "showExperimentalFeaturesLabel": "Zobraziť experimentálne funkcie",
   "appFirstLoadLabel": "Prvé spustenie aplikácie",
