@@ -145,7 +145,7 @@
   
   "llm.load.llama.evalBatchSize/title": "Veľkosť dávky pri evaluácii",
   "llm.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovávaných súčasne. Zvýšenie zlepšuje výkon, ale zvyšuje využitie pamäte",
-  "llm.load.llama.evalBatchSize/info": "Určuje počet príkladov spracovávaných naraz v jednej dávke počas evaluácie, ovplyvňuje rýchlosť a využitie pamäte",
+  "llm.load.llama.evalBatchSize/info": "Nastavuje počet príkladov spracovávaných naraz v jednej dávke počas evaluácie, ovplyvňuje rýchlosť a využitie pamäte",
   "llm.load.llama.ropeFrequencyBase/title": "Základná frekvencia RoPE",
   "llm.load.llama.ropeFrequencyBase/subTitle": "Vlastná základná frekvencia pre rotačné pozičné embeddingy (RoPE). Zvýšenie môže zlepšiť výkon pri dlhých kontextoch",
   "llm.load.llama.ropeFrequencyBase/info": "[Pokročilé] Upravuje základnú frekvenciu rotačného pozičného kódovania, ovplyvňuje, ako sa zakóduje pozičná informácia",
