@@ -127,8 +127,8 @@
   "llm.load.offloadKVCacheToGpu/title": "Preniesť KV cache do pamäte GPU",
   "llm.load.offloadKVCacheToGpu/subTitle": "Preneste KV cache do pamäte GPU. Zlepšuje výkon, ale vyžaduje viac pamäte GPU",
   "load.gpuStrictVramCap/title": "Obmedziť prenos modelu len na vyhradenú GPU pamäť",
-  "load.gpuStrictVramCap.customSubTitleOff": "VYPNUTÉ: Povoliť prenos váh modelu do zdieľanej pamäte, ak je vyhradená GPU pamäť plná",
-  "load.gpuStrictVramCap.customSubTitleOn": "ZAPNUTÉ: Systém obmedzí prenos váh modelu len na vyhradenú GPU pamäť a RAM. Kontext môže stále používať zdieľanú pamäť",
+  "load.gpuStrictVramCap.customSubTitleOff": "VYP: Povoliť prenos váh modelu do zdieľanej pamäte, ak je vyhradená GPU pamäť plná",
+  "load.gpuStrictVramCap.customSubTitleOn": "ZAP: Systém obmedzí prenos váh modelu len na vyhradenú GPU pamäť a RAM. Kontext môže stále používať zdieľanú pamäť",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "Prenos modelu obmedzený na vyhradenú GPU pamäť. Skutočný počet prenesených vrstiev sa môže líšiť",
   "load.allGpusDisabledWarning": "Všetky GPU sú momentálne zakázané. Povoliť aspoň jednu na prenos",
   
