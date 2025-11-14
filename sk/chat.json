@@ -197,9 +197,9 @@
     "pluginConfiguration": {
       "title": "Konfigurácia pluginu",
       "selectAPlugin": "Vyberte plugin na úpravu konfigurácie",
-      "preprocessorAndGenerator": "Tento plugin obsahuje vlastný preprocessor aj generátor",
+      "preprocessorAndGenerator": "Tento plugin obsahuje vlastný preprocesor aj generátor",
       "generatorOnly": "Tento plugin obsahuje vlastný generátor",
-      "preprocessorOnly": "Tento plugin obsahuje vlastný preprocessor"
+      "preprocessorOnly": "Tento plugin obsahuje vlastný preprocesor"
     },
     "instructions": {
       "runTheFollowing": "Ak chcete spustiť svoj plugin, otvorte terminál a zadajte",
