@@ -306,7 +306,7 @@
     },
       "llamaAccelerationOffloadRatio": {
       "max": "MAX",
-      "off": "VYPNUTÉ"
+      "off": "VYP"
     },
     "gpuSplitStrategy": {
       "evenly": "Rovnomerne",
@@ -318,7 +318,7 @@
       "noCompatible": "Pre aktuálne zvolený model sa nenašli žiadne kompatibilné návrhové modely",
       "stillLoading": "Identifikujú sa kompatibilné návrhové modely...",
       "notCompatible": "Vybraný návrhový model (<draft/>) nie je kompatibilný s aktuálne zvoleným modelom (<current/>).",
-      "off": "VYPNUTÉ",
+      "off": "VYP",
       "loadModelToSeeOptions": "Načítajte model <keyboard-shortcut />, aby ste videli dostupné možnosti",
       "compatibleWithNumberOfModels": "Odporúča sa pre aspoň {{dynamicValue}} vašich modelov",
       "recommendedForSomeModels": "Odporúča sa pre niektoré modely",
