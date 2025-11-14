@@ -48,7 +48,7 @@
   "actions/deleteMessage/confirmation": "Naozaj chcete odstrániť túto správu?",
   "actions/copyMessage": "Kopírovať správu",
   "actions/editMessage": "Upraviť správu",
-  "actions/editMessage/cannotEditPreprocessed": "Nie je možné upraviť predspracované správy, pretože budú prepísané po spustení preprocessora. Ak chcete upraviť správu, buď:\n\n - Prepnite na pôvodnú správu a upravte ju, alebo\n - Zmeňte preprocessor tak, aby vytváral požadovaný výstup.",
+  "actions/editMessage/cannotEditPreprocessed": "Nie je možné upraviť predspracované správy, pretože budú prepísané po spustení preprocesora. Ak chcete upraviť správu, buď:\n\n - Prepnite na pôvodnú správu a upravte ju, alebo\n - Zmeňte preprocesor tak, aby vytváral požadovaný výstup.",
   "actions/regenerateMessage": "Znova vygenerovať správu",
   "actions/regenerateMessage/error": "Nepodarilo sa znovu vygenerovať správu",
   "actions/branchChat": "Vytvoriť vetvu chatu po tejto správe",
