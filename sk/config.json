@@ -254,13 +254,13 @@
       "emptyParagraph": "<Prázdne>"
     },
     "checkboxNumeric": {
-      "off": "VYPNUTÉ"
+      "off": "VYP"
     },
     "llamaCacheQuantizationType": {
-      "off": "VYPNUTÉ"
+      "off": "VYP"
     },
     "mlxKvCacheBits": {
-      "off": "VYPNUTÉ"
+      "off": "VYP"
     },
     "stringArray": {
       "empty": "<Prázdne>"
