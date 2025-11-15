@@ -1,6 +1,6 @@
 {
   "noInstanceSelected": "Nie je vybraný žiadny model",
-  "resetToDefault": "Resetovať",
+  "resetToDefault": "Obnoviť",
   "showAdvancedSettings": "Zobraziť pokročilé nastavenia",
   "showAll": "Všetko",
   "basicSettings": "Základné",
@@ -91,7 +91,7 @@
   "llm.prediction.onnx.topKSampling/title": "Top K výber",
   "llm.prediction.onnx.topKSampling/subTitle": "Obmedzuje nasledujúci token na jeden z top-k najpravdepodobnejších tokenov. Funguje podobne ako teplota",
   "llm.prediction.onnx.topKSampling/info": "Z dokumentácie ONNX:\n\nPočet tokenov s najvyššou pravdepodobnosťou, ktoré sa zachovajú pri top-k filtrovaní\n\n• Tento filter je predvolene vypnutý",
-  "llm.prediction.onnx.repeatPenalty/title": "Penalizácia opakovania",
+  "llm.prediction.onnx.repeatPenalty/title": "Obmedzenie opakovania",
   "llm.prediction.onnx.repeatPenalty/subTitle": "Ako veľmi odradiť od opakovania toho istého tokenu",
   "llm.prediction.onnx.repeatPenalty/info": "Vyššia hodnota odrádza model od opakovania sa",
   "llm.prediction.onnx.topPSampling/title": "Top P výber",
