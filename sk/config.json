@@ -299,10 +299,6 @@
     "contextOverflowPolicy": {
       "stopAtLimit": "Zastaviť pri limite",
       "stopAtLimitSub": "Zastaviť generovanie, keď sa naplní pamäť modelu",
-      "truncateMiddle": "   },
-    "contextOverflowPolicy": {
-      "stopAtLimit": "Zastaviť pri limite",
-      "stopAtLimitSub": "Zastaviť generovanie, keď sa naplní pamäť modelu",
       "truncateMiddle": "Vynechať stred",
       "truncateMiddleSub": "Odstráni správy zo stredu konverzácie, aby sa uvoľnilo miesto pre novšie. Model si však bude pamätať začiatok konverzácie.",
       "rollingWindow": "Posledné správy",
