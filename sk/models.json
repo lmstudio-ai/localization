@@ -2,7 +2,7 @@
   "pageTitle": "Moje modely",
   "filterModels.placeholder": "Filtrovať modely...",
   "aggregate_one": "Lokálny model: {{count}}, využité miesto na disku: {{size}}.",
-  "aggregate_other": "Lokálnych modelov: {{count}}, využité miesto na disku: {{size}}.",
+  "aggregate_other": "Lokálne modely: {{count}}, využité miesto na disku: {{size}}.",
   
   "noModels.title": "Vaše lokálne modely sa tu zobrazia.",
   "noModels.discoverButtonText.prefix": "Kliknite na",
@@ -87,7 +87,7 @@
   "tooltip/visionBadge": "Tento model môže spracovávať obrazové vstupy",
   "tooltip/toolUseBadge": "Tento model bol trénovaný na použitie nástrojov",
   
-  "visionBadge/label": "Podpora vizuálu",
+  "visionBadge/label": "Podpora vizuálnych vstupov",
   "toolUseBadge/label": "Trénovaný na používanie nástrojov",
   
   "loader.action.load": "Načítať model",
