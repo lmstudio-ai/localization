@@ -97,7 +97,7 @@
   "llm.prediction.onnx.topPSampling/title": "Top P výber",
   "llm.prediction.onnx.topPSampling/subTitle": "Minimálna kumulatívna pravdepodobnosť pre možné nasledujúce tokeny. Funguje podobne ako teplota",
   "llm.prediction.onnx.topPSampling/info": "Z dokumentácie ONNX:\n\nLen tie tokeny s najvyššou pravdepodobnosťou, ktorých pravdepodobnosti sa sčítajú na TopP alebo vyššie, sa zachovajú pre generovanie\n\n• Tento filter je predvolene vypnutý",
-  "llm.prediction.seed/title": "Seed",
+  "llm.prediction.seed/title": "Inicializačné číslo",
   "llm.prediction.structured/title": "Štruktúrovaný výstup",
   "llm.prediction.structured/info": "Štruktúrovaný výstup",
   "llm.prediction.structured/description": "Pokročilé: môžete poskytnúť [JSON Schema](https://json-schema.org/learn/miscellaneous-examples) na vynútenie konkrétneho formátu výstupu od modelu. Pre viac informácií si prečítajte [dokumentáciu](https://lmstudio.ai/docs/advanced/structured-output)",
