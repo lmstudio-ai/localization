@@ -94,7 +94,7 @@
     },
     "updatedToast": {
       "title": " ✅ LM Runtime aktualizovaný: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Novonarodené {{compatibilityTypes}} modely budú používať aktualizovaný runtime."
+      "preferencesUpdated": "Novovytvorené {{compatibilityTypes}} modely budú používať aktualizovaný runtime."
     },
     "noAvx2ErrorMessage": "Všetky LM Runtime vyžadujú CPU s podporou AVX2",
     "downloadableRuntimes": {
