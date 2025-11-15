@@ -27,7 +27,7 @@
   "schematicsError.title": "Schéma konfigurácie obsahuje chyby v nasledujúcich poliach:",
   "manifestSections": {
     "structuredOutput/title": "Štruktúrovaný výstup",
-    "speculativeDecoding/title": "Špekulatívne dekódovanie",
+    "speculativeDecoding/title": "Predbežné dekódovanie",
     "sampling/title": "Vzorkovanie",
     "settings/title": "Nastavenia",
     "toolUse/title": "Použitie nástroja",
