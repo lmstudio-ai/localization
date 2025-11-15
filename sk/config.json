@@ -60,7 +60,7 @@
   "llm.prediction.maxPredictedTokens/inputLabel": "Maximálna dĺžka odpovede (tokeny)",
   "llm.prediction.maxPredictedTokens/wordEstimate": "Približne {{maxWords}} slov",
   "llm.prediction.repeatPenalty/title": "Obmedzenie opakovania",
-  "llm.prediction.repeatPenalty/subTitle": "Ako veľmi odradiť opakovanie toho istého tokenu",
+  "llm.prediction.repeatPenalty/subTitle": "Ako veľmi odradiť od opakovania toho istého tokenu",
   "llm.prediction.repeatPenalty/info": "Z dokumentácie llama.cpp: \"Pomáha predísť generovaniu opakujúceho sa alebo jednotvárneho textu.\n\nVyššia hodnota (napr. 1.5) silnejšie obmedzuje opakovania, nižšia hodnota (napr. 0.9) je miernejšia.\" • Predvolená hodnota je <{{dynamicValue}}>",
   "llm.prediction.minPSampling/title": "Min P vzorkovanie",
   "llm.prediction.minPSampling/subTitle": "Minimálna základná pravdepodobnosť, aby bol token vybraný do výstupu",
