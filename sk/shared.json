@@ -4,7 +4,7 @@
   "filter.noMatches": "Žiadne zhody",
   "longRunningTask": {
     "unbundlingDependencies": {
-      "badge": "Rozbaľovanie zdrojov"
+      "badge": "Rozbaľovanie závislostí"
     },
     "performingBackendHardwareSurvey": {
       "badge": "Kontrola kompatibility runtime"
@@ -100,8 +100,8 @@
   "retry": {
     "retryWithEllipsis": "Skúsiť znova...",
     "retry": "Skúsiť znova",
-    "retryingWithEllipsis": "Opakovaná snaha...",
-    "retrying": "Opakovaná snaha"
+    "retryingWithEllipsis": "Opakovanie...",
+    "retrying": "Opakovanie"
   },
   
   "refresh": {
