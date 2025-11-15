@@ -49,7 +49,7 @@
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Zabezpečiť, že v danom čase je načítaný maximálne 1 JIT model (uvoľní predchádzajúci model)",
   "serverOptions/allowMcp/title": "Povoliť vzdialené MCP",
   "serverOptions/allowMcp/hint": "Povoliť používanie MCP, ktoré nie sú v mcp.json. Tieto MCP pripojenia sú efemérne a existujú len počas požiadavky. Momentálne sú podporované iba vzdialené MCP.",
-  "serverOptions/allowMcp/mode/off": "Vyp",
+  "serverOptions/allowMcp/mode/off": "Vyp.",
   "serverOptions/allowMcp/mode/off/hint": "Nepovoliť serverovým požiadavkám používať MCP",
   "serverOptions/allowMcp/mode/remote": "Vzdialené",
   "serverOptions/allowMcp/mode/remote/hint": "Povoliť pripojenie k vzdialeným MCP serverom",
