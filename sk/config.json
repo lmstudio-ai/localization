@@ -120,7 +120,7 @@
   
   "llm.load.mainGpu/title": "Primárna GPU",
   "llm.load.mainGpu/subTitle": "GPU, ktorú treba uprednostniť pri výpočtoch modelu",
-  "llm.load.mainGpu/placeholder": "Vyberte hlavnú GPU...",
+  "llm.load.mainGpu/placeholder": "Vyberte primárnu GPU...",
   "llm.load.splitStrategy/title": "Spôsob rozdelenia",
   "llm.load.splitStrategy/subTitle": "Ako rozdeliť výpočty modelu medzi GPU",
   "llm.load.splitStrategy/placeholder": "Vyberte stratégiu rozdelenia...",
