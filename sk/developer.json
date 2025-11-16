@@ -2,7 +2,7 @@
   "tabs/server": "Lokálny server",
   "tabs/extensions": "LM Runtime",
   "loadSettings/title": "Načítať nastavenia",
-  "modelSettings/placeholder": "Vybrať model na konfiguráciu",
+  "modelSettings/placeholder": "Vyberte model na konfiguráciu",
   
   "loadedModels/noModels": "Žiadne načítané modely",
   
@@ -66,13 +66,13 @@
   "runtimeSettings/chooseRuntime/description": "Vyberte engine pre každý formát modelu",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobraziť všetky balíčky rozšírení",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Predvolene LM Studio zobrazuje len najnovšiu verziu každého balíčka. Povolením tejto možnosti zobrazíte všetky dostupné verzie.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Vybrať engine",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Vyberte engine",
   
   "runtimeSettings/chooseFrameworks/title": "Frameworky",
   "runtimeSettings/chooseFrameworks/description": "Vyberte framework pre každú funkcionalitu",
   "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Vstavaný parser",
   "runtimeSettings/chooseFramework/documentParser/select/label": "Parser dokumentov",
-  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Vybrať parser dokumentov",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Vyberte parser dokumentov",
   
   "runtimeOptions/uninstall": "Odinštalovať",
   "runtimeOptions/uninstallDialog/title": "Odinštalovať {{runtimeName}}?",
