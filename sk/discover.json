@@ -2,7 +2,7 @@
   "collectionsColumn": "Kolekcie",
   "collectionsColumn/collectionError": "Chyba pri načítaní detailov kolekcie, skúste obnoviť vyššie",
   "bookmarksColumn": "Záložky",
-  "searchBar/placeholder": "Vyhľadať modely na Hugging Face...",
+  "searchBar/placeholder": "Vyhľadajte modely na Hugging Face...",
   "searchBar/huggingFaceError": "Pri získavaní výsledkov z Hugging Face nastala chyba, skúste to o chvíľu znova",
   "sortBy": "Zoradiť podľa",
   "searchSortKey.default/title": "Najlepšia zhoda",
