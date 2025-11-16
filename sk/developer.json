@@ -2,7 +2,7 @@
   "tabs/server": "Lokálny server",
   "tabs/extensions": "LM Runtime",
   "loadSettings/title": "Načítať nastavenia",
-  "modelSettings/placeholder": "Vyberať model na konfiguráciu",
+  "modelSettings/placeholder": "Vybrať model na konfiguráciu",
   
   "loadedModels/noModels": "Žiadne načítané modely",
   
