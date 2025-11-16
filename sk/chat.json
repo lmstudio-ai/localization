@@ -1,6 +1,6 @@
 {
-  "modelLoaderPlaceholder": "Vybrať model na načítanie",
-  "systemPromptPlaceholder": "Nastaviť systémový prompt",
+  "modelLoaderPlaceholder": "Vyberte model na načítanie",
+  "systemPromptPlaceholder": "Nastavte systémový prompt",
   "userRoleText": "Používateľ",
   "assistantRoleText": "Asistent",
   "addMessageButtonText": "Pridať",
@@ -20,7 +20,7 @@
   "noChatSelected": "Nie je vybraný žiadny chat",
   "chatViewOptions": "Možnosti zobrazenia chatu",
   "uiControls/title": "Nastavenia zobrazenia",
-  "noChatSelectedPlaceholder": "Vybrať chat",
+  "noChatSelectedPlaceholder": "Vyberte chat",
   "unnamedChat": "Nepomenovaný chat",
   "emptyFolder": "Priečinok je prázdny",
   
