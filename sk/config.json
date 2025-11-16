@@ -4,7 +4,7 @@
   "showAdvancedSettings": "Zobraziť pokročilé nastavenia",
   "showAll": "Všetko",
   "basicSettings": "Základné",
-  "configSubtitle": "Načítať alebo uložiť predvoľby a experimentovať s prepísaním parametrov modelu",
+  "configSubtitle": "Načítajte alebo uložte predvoľby a experimentujte s prepísaním parametrov modelu",
   "inferenceParameters/title": "Parametre predikcie",
   "inferenceParameters/info": "Experimentujte s parametrami, ktoré ovplyvňujú predikciu.",
   "generalParameters/title": "Všeobecné",
