@@ -116,7 +116,7 @@
       "modelKey.placeholder": "Zadajte unikátny kľúč modelu",
       "modelKey.normalized": "Váš kľúč modelu bude normalizovaný na: {{normalized}}",
       "baseModel.label": "Základný model",
-      "baseModel.placeholder": "Vyberte základný model",
+      "baseModel.placeholder": "Vybrať základný model",
       "baseModel.empty": "Stiahnite model, ktorý chcete použiť ako základ",
       "next": "Ďalej",
       "confirm": "Vytvoriť",
