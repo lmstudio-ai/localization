@@ -77,7 +77,7 @@
   "llm.prediction.contextOverflowPolicy/info": "Rozhodnite, čo robiť, keď konverzácia presiahne veľkosť pracovnej pamäte modelu ('context')",
   "llm.prediction.llama.frequencyPenalty/title": "Obmedzenie frekvencie",
   "llm.prediction.llama.presencePenalty/title": "Obmedzenie prítomnosti",
-  "llm.prediction.llama.tailFreeSampling/title": "Obmedzenie nepravdepodobného",
+  "llm.prediction.llama.tailFreeSampling/title": "Obmedzenie nepravdepodobnosti",
   "llm.prediction.llama.locallyTypicalSampling/title": "Lokálne typický výber",
   "llm.prediction.llama.xtcProbability/title": "Pravdepodobnosť XTC výberu",
   "llm.prediction.llama.xtcProbability/subTitle": "Sampler XTC (Exclude Top Choices) sa aktivuje len s touto pravdepodobnosťou pre každý generovaný token. XTC výber môže zvýšiť kreativitu a znížiť klišé",
