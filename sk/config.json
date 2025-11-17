@@ -154,7 +154,7 @@
   "llm.load.llama.ropeFrequencyScale/info": "[Pokročilé] Mení škálovanie frekvencie pre rotačné pozičné kódovanie, kontroluje granularitu pozičného kódovania",
   "llm.load.llama.acceleration.offloadRatio/title": "Prenos na GPU",
   "llm.load.llama.acceleration.offloadRatio/subTitle": "Počet diskrétnych vrstiev modelu, ktoré sa majú spracovať na GPU pre akceleráciu",
-  "llm.load.llama.acceleration.offloadRatio/info": "Nastavuje počet vrstiev, ktoré sa majú offloadovať na GPU.",
+  "llm.load.llama.acceleration.offloadRatio/info": "Nastavuje počet vrstiev, ktoré sa majú preniesť na GPU.",
   "llm.load.llama.flashAttention/title": "Flash Attention",
   "llm.load.llama.flashAttention/subTitle": "Znižuje využitie pamäte a čas generovania u niektorých modelov",
   "llm.load.llama.flashAttention/info": "Zrýchľuje mechanizmus pozornosti pre rýchlejšie a efektívnejšie spracovanie",
@@ -190,7 +190,7 @@
   "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Prahová dĺžka kontextu pre začiatok kvantizácie KV cache",
   "llm.load.mlx.kvCacheQuantizationStart/info": "Prahová dĺžka kontextu pre začiatok kvantizácie KV cache",
   "llm.load.mlx.kvCacheQuantization/title": "Kvantizácia KV Cache",
-  "llm.load.mlx.kvCacheQuantization/subTitle": "Kvantizovať KV cache modelu. Môže to zrýchliť generovanie a znížiť pamäťovú náročnosť,\ns cenou kvality výstupu modelu.",
+  "llm.load.mlx.kvCacheQuantization/subTitle": "Kvantizácia KV cache modelu môže zrýchliť generovanie a znížiť pamäťovú náročnosť,\navšak na úkor kvality výstupu.",
   "llm.load.mlx.kvCacheQuantization/bits/title": "Bity kvantizácie KV cache",
   "llm.load.mlx.kvCacheQuantization/bits/tooltip": "Počet bitov pre kvantizáciu KV cache",
   "llm.load.mlx.kvCacheQuantization/bits/bits": "Bity",
@@ -294,7 +294,7 @@
       "maxValueTooltip": "Toto je maximálny počet tokenov, ktoré model dokáže spracovať. Kliknite pre nastavenie kontextu na túto hodnotu",
       "maxValueTextStart": "Model podporuje až",
       "maxValueTextEnd": "tokenov",
-      "tooltipHint": "Aj keď model môže podporovať určitý počet tokenov, výkon môže klesnúť, ak vaše zdroje stroja nedokážu spracovať záťaž – buďte opatrní pri zvyšovaní tejto hodnoty"
+      "tooltipHint": "Model síce môže podporovať určitý počet tokenov, no výkon môže klesnúť, ak vaše systémové zdroje nezvládnu záťaž. Buďte opatrní pri zvyšovaní tejto hodnoty"
     },
     "contextOverflowPolicy": {
       "stopAtLimit": "Zastaviť pri limite",
