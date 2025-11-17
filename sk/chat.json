@@ -6,7 +6,7 @@
   "addMessageButtonText": "Pridať",
   "addMessageButtonText/toolTip": "Pridať správu do kontextu bez spustenia predikcie",
   "sendMessageButtonText": "Odoslať",
-  "sendMessageButtonText/toolTip": "Odoslať svoj prompt a históriu konverzácie modelu na spracovanie",
+  "sendMessageButtonText/toolTip": "Odoslať svoju správu a históriu konverzácie modelu na spracovanie",
   "ejectButtonText": "Vysunúť",
   "unloadTooltip": "Vysunúť model z pamäte",
   "cancelButtonText": "Zrušiť",
