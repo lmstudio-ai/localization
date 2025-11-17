@@ -1,6 +1,6 @@
 {
   "pageTitle": "Moje modely",
-  "filterModels.placeholder": "Filtrujte modely...",
+  "filterModels.placeholder": "Filter modelov...",
   "aggregate_one": "Lokálny model: {{count}}, využité miesto na disku: {{size}}.",
   "aggregate_other": "Lokálne modely: {{count}}, využité miesto na disku: {{size}}.",
   
