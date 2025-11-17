@@ -601,7 +601,7 @@
       "placeholder": "Vyberte premennú prostredia...",
       "noOptions": "Žiadne ďalšie dostupné",
       "filter": {
-        "placeholder": "Filtrovať výsledky vyhľadávania",
+        "placeholder": "Filtrujte výsledky vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
         "resultsFound_one": "Nájdený výsledok (1)",
         "resultsFound_other": "Nájdené výsledky ({{count}})"
