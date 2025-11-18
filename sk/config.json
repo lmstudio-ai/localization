@@ -570,7 +570,7 @@
       "allOffWarning": "Všetky GPU sú vypnuté alebo zakázané. Uistite sa, že aspoň jedna GPU má pridelenú pamäť pre načítanie modelov.",
       "split": {
         "title": "Stratégia",
-        "placeholder": "Vyberte spôsob alokácie pamäte GPU",
+        "placeholder": "Vybranie spôsobu alokácie pamäte GPU",
         "options": {
           "generalDescription": "Nastavte, ako sa budú modely načítavať na GPU",
           "evenly": {
@@ -601,7 +601,7 @@
       "placeholder": "Vyberte premennú prostredia...",
       "noOptions": "Žiadne ďalšie dostupné",
       "filter": {
-        "placeholder": "Filtrujte výsledky vyhľadávania",
+        "placeholder": "Filtrovanie výsledkov vyhľadávania",
         "resultsFound_zero": "Nenašli sa žiadne výsledky",
         "resultsFound_one": "Nájdený výsledok (1)",
         "resultsFound_other": "Nájdené výsledky ({{count}})"
