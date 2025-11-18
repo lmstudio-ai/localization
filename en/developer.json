@@ -140,9 +140,9 @@
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
+    "tabChipTitle": "Developer Docs",
+    "newToolUsePopover": "Code Snippets are now available here in \"Developer Docs\". Click here to get started with tool use!",
+    "newToolUsePopoverTitle": "📚 Developer Docs",
     "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -189,7 +189,7 @@
 
   "model": {
     "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>developer docs</custom-link> for more information"
   },
 
   "apiConfigOptions/title": "API Configuration"
