@@ -1,7 +1,7 @@
 {
   "tabs/server": "Lokálny server",
   "tabs/extensions": "LM Runtime",
-  "loadSettings/title": "Načítajte nastavenia",
+  "loadSettings/title": "Načítanie nastavenia",
   "modelSettings/placeholder": "Vyberte model na konfiguráciu",
   
   "loadedModels/noModels": "Žiadne načítané modely",
