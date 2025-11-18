@@ -203,7 +203,7 @@
     "customSubtitle": "Nastaviť predvolenú dĺžku kontextu pre načítanie nových modelov. Ak je maximálna dĺžka podporovaná modelom nižšia, použije sa táto hodnota.",
     "invalidNaNError": "Neplatná hodnota dĺžky kontextu. Používa sa {{value}}",
     "invalidRangeError": "Neplatná hodnota dĺžky kontextu. Mala by byť v rozsahu 1 až 2^30. Používa sa {{value}}",
-    "largeContextWarning": "Čím väčšia dĺžka kontextu, tým viac pamäte model zaberá. Ak si nie ste istí, nemeníte predvolené nastavenie."
+    "largeContextWarning": "Čím väčšia je dĺžka kontextu, tým viac pamäte bude model využívať. Ak si nie ste istí, nemeníte predvolenú hodnotu"
   },
   "jitTTL": {
     "subtitle": "JIT načítané modely sa automaticky uvoľnia po dobe nečinnosti, ktorá je špecifikovaná."
