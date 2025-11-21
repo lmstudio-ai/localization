@@ -140,9 +140,9 @@
   "inferenceParams/noParams": "Pre tento typ modelu nie sú dostupné konfigurovateľné parametre inferencie",
   
   "quickDocs": {
-    "tabChipTitle": "Dokumentácia pre vývojárov",
-    "newToolUsePopover": "Úryvky kódu sú teraz dostupné v \"Dokumentácii pre vývojárov\". Kliknite sem a začnite používať nástroje!",
-    "newToolUsePopoverTitle": "📚 Dokumentácia pre vývojárov",
+    "tabChipTitle": "Dokumentácia pre vývojárov ",
+    "newToolUsePopover": "Úryvky kódu sú teraz dostupné v \"Dokumentácii pre vývojárov\". Kliknite sem a začnite používať nástroje! ",
+    "newToolUsePopoverTitle": "📚 Dokumentácia pre vývojárov ",
     "learnMore": "ℹ️ 👾 Pre viac informácií o lokálnych serverových endpointoch LM Studio navštívte [dokumentáciu](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -189,7 +189,7 @@
 
   "model": {
     "toolUseSectionTitle": "Použitie nástrojov",
-     "toolUseDescription": "Tento model bol zistený ako natrénovaný na používanie nástrojov\n\nOtvorte <custom-link>dokumentáciu pre vývojárov</custom-link> pre viac informácií"
+     "toolUseDescription": "Tento model bol zistený ako natrénovaný na používanie nástrojov\n\nOtvorte <custom-link>dokumentáciu pre vývojárov</custom-link> pre viac informácií "
   },
   
   "apiConfigOptions/title": "Konfigurácia API"
