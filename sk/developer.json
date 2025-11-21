@@ -189,7 +189,7 @@
 
   "model": {
     "toolUseSectionTitle": "Použitie nástrojov",
-    "toolUseDescription": "Tento model bol zistený ako natrénovaný na používanie nástrojov\n\nOtvorte <custom-link>dokumentáciu pre vývojárov</custom-link> pre viac informácií"
+     "toolUseDescription": "Tento model bol zistený ako natrénovaný na používanie nástrojov\n\nOtvorte <custom-link>dokumentáciu pre vývojárov</custom-link> pre viac informácií"
   },
   
   "apiConfigOptions/title": "Konfigurácia API"
