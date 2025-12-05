@@ -54,6 +54,9 @@
   "serverOptions/allowMcp/mode/remote": "Remote",
   "serverOptions/allowMcp/mode/remote/hint": "Allow connection to remote MCP servers",
 
+  "serverOptions/start/error": "Failed to start the server",
+  "serverOptions/stop/error": "Failed to stop the server",
+
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
   "serverLogs/openLogsFolder": "Open server logs folder",
@@ -83,7 +86,7 @@
   "runtimeOptions/noRuntimes": "No runtimes found",
 
   "runtimes": {
-    "manageLMRuntimes": "Manage LM Runtimes",
+    "manageLMRuntimes": "Manage LM Runtime",
     "includeOlderRuntimeVersions": "Include older versions",
     "dismiss": "Dismiss",
     "updateAvailableToast": {
@@ -137,9 +140,9 @@
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
+    "tabChipTitle": "Developer Docs",
+    "newToolUsePopover": "Code Snippets are now available here in \"Developer Docs\". Click here to get started with tool use!",
+    "newToolUsePopoverTitle": "📚 Developer Docs",
     "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -186,7 +189,7 @@
 
   "model": {
     "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>developer docs</custom-link> for more information"
   },
 
   "apiConfigOptions/title": "API Configuration"
