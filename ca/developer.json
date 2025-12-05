@@ -54,6 +54,9 @@
   "serverOptions/allowMcp/mode/remote": "Remot",
   "serverOptions/allowMcp/mode/remote/hint": "Permet connexions amb servidors MCP remots",
  
+  "serverOptions/start/error": "No s'ha pogut iniciar el nou servidor",
+  "serverOptions/stop/error": "No s'ha pogut aturar el servidor",
+
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",
   "serverLogs/openLogsFolder": "Obre la carpeta dels registres",
@@ -83,7 +86,7 @@
   "runtimeOptions/noRuntimes": "Cap runtime trobat",
 
   "runtimes": {
-    "manageLMRuntimes": "Gestiona els Runtimes del LM",
+    "manageLMRuntimes": "Gestiona el Runtime LM",
     "includeOlderRuntimeVersions": "Inclou-hi versions antigues",
     "dismiss": "Ignora",
     "updateAvailableToast": {
@@ -137,9 +140,9 @@
   "inferenceParams/noParams": "No hi ha paràmetres d'inferència configurables disponibles per a aquest tipus de model",
 
   "quickDocs": {
-    "tabChipTitle": "Guia Ràpida",
-    "newToolUsePopover": "Els fragments de codi ara estan disponibles a la \"Guia Ràpida\". Fes clic aquí per iniciar-te amb l'ús d'eines!",
-    "newToolUsePopoverTitle": "📚 Guia Ràpida",
+    "tabChipTitle": "Guia per Desenvolupadors",
+    "newToolUsePopover": "Els fragments de codi ara estan disponibles a la \"Guia per Desenvolupadors\". Fes clic aquí per iniciar-te amb l'ús d'eines!",
+    "newToolUsePopoverTitle": "📚 Guia per Desenvolupadors",
     "learnMore": "ℹ️ 👾 Per aprendre'n més sobre els endpoints del servidor local del LM Studio, fes una ullada a la [documentació](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -186,7 +189,7 @@
 
   "model": {
     "toolUseSectionTitle": "Ús d'Eines",
-    "toolUseDescription": "S'ha detectat que aquest model pot utilitzar eines\n\nObre la <custom-link>guia ràpida</custom-link> per a obtenir més informació"
+    "toolUseDescription": "S'ha detectat que aquest model pot utilitzar eines\n\nObre la <custom-link>guia per desenvolupadors</custom-link> per a obtenir més informació"
   },
 
   "apiConfigOptions/title": "Configuració de l'API"

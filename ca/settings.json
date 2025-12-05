@@ -88,7 +88,7 @@
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sépia",
   "unloadPreviousModelLabel": "Quan seleccionis un model a carregar, descarrega'n primer tots els altres models",
-  "languageLabel": "Idioma",
+  "languageLabel": "Idioma de l'App",
   "changeLanguageLabel": "Selecciona l'idioma de l'app (en desenvolupament)",
   "developerLabel": "Desenvolupador",
   "localServiceLabel": "Servei Local LLM (headless)",
