@@ -1,6 +1,6 @@
 {
   "tabs/server": "Servidor Local",
-  "tabs/extensions": "Entorns d'Execució del LM",
+  "tabs/extensions": "Runtimes del LM",
   "loadSettings/title": "Carrega la configuració",
   "modelSettings/placeholder": "Selecciona un model per a configurar-lo",
 
@@ -47,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minuts",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Només mantén l'últim model carregat JIT",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Assegura't que, com a màxim, hi hagi un model carregat via JIT en qualsevol moment (descarregarà models previs)",
+  "serverOptions/allowMcp/title": "Permet MCPs Remots",
+  "serverOptions/allowMcp/hint": "Permet utilitzar MCPs que no es trobin al teu mcp.json. Aquestes connexions MCP són efímeres i només existeixen durant la duració de la petició. Pel moment, només se suporten MCPs remots.",
+  "serverOptions/allowMcp/mode/off": "Apagat",
+  "serverOptions/allowMcp/mode/off/hint": "No permetis que les peticions utilitzin MCP",
+  "serverOptions/allowMcp/mode/remote": "Remot",
+  "serverOptions/allowMcp/mode/remote/hint": "Permet connexions amb servidors MCP remots",
+ 
+  "serverOptions/start/error": "No s'ha pogut iniciar el nou servidor",
+  "serverOptions/stop/error": "No s'ha pogut aturar el servidor",
 
   "serverLogs/scrollToBottom": "Ves al final",
   "serverLogs/clearLogs": "Esborra els registres ({{shortcut}})",
@@ -67,29 +76,29 @@
 
   "runtimeOptions/uninstall": "Desinstal·la",
   "runtimeOptions/uninstallDialog/title": "Desinstal·la {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstal·lar aquest entorn d'execució l'eliminarà del sistema. Aquesta acció és irreversible.",
+  "runtimeOptions/uninstallDialog/body": "Desinstal·lar el runtime l'eliminarà del sistema. Aquesta acció és irreversible.",
   "runtimeOptions/uninstallDialog/body/caveats": "És possible que alguns fitxers només s'eliminin després de reiniciar el LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "No s'ha pogut desinstal·lar l'entorn d'execució",
+  "runtimeOptions/uninstallDialog/error": "No s'ha pogut desinstal·lar el runtime",
   "runtimeOptions/uninstallDialog/confirm": "Continua i Desinstal·la",
   "runtimeOptions/uninstallDialog/cancel": "Cancel·la",
-  "runtimeOptions/noCompatibleRuntimes": "Cap entorn d'execució compatible trobat",
-  "runtimeOptions/downloadIncompatibleRuntime": "S'ha determinat que aquest entorn d'execució no és compatible amb el teu maquinari. Probablement no funcioni.",
-  "runtimeOptions/noRuntimes": "Cap entorn d'execució trobat",
+  "runtimeOptions/noCompatibleRuntimes": "Cap runtime compatible trobat",
+  "runtimeOptions/downloadIncompatibleRuntime": "S'ha determinat que aquest runtime no és compatible amb el teu maquinari. Probablement no funcioni.",
+  "runtimeOptions/noRuntimes": "Cap runtime trobat",
 
   "runtimes": {
-    "manageLMRuntimes": "Gestiona Entorns d'Execució del LM",
+    "manageLMRuntimes": "Gestiona el Runtime LM",
     "includeOlderRuntimeVersions": "Inclou-hi versions antigues",
     "dismiss": "Ignora",
     "updateAvailableToast": {
-      "title": "Actualització de l'Entorn d'Execució LM Disponible!"
+      "title": "Actualització del Runtime LM Disponible!"
     },
     "updatedToast": {
-      "title": " ✅ Entorn d'Execució LM Actualitzat: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Models {{compatibilityTypes}} carregats a partir d'ara utilitzaran l'entorn d'execució actualitzat."
+      "title": " ✅ Runtime LM Actualitzat: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Els models {{compatibilityTypes}} carregats a partir d'ara utilitzaran el runtime actualitzat."
     },
-    "noAvx2ErrorMessage": "Tots els entorns d'execució LM requereixen una CPU que suporti AVX2",
+    "noAvx2ErrorMessage": "Tots els runtimes LM requereixen una CPU que suporti AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Paquets d'Extensió d'Entorns d'Execució",
+      "runtimeExtensionPacks": "Paquets d'Extensió de Runtimes",
       "refresh": "Refresca",
       "refreshing": "Refrescant...",
       "filterSegment": {
@@ -104,7 +113,7 @@
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Gestiona Entorns d'Execució Actius"
+        "title": "Gestiona els Runtimes Actius"
       },
       "dropdownOptions": {
         "installedVersions": "Gestiona Versions",
@@ -131,9 +140,9 @@
   "inferenceParams/noParams": "No hi ha paràmetres d'inferència configurables disponibles per a aquest tipus de model",
 
   "quickDocs": {
-    "tabChipTitle": "Guia Ràpida",
-    "newToolUsePopover": "Els fragments de codi ara estan disponibles a la \"Guia Ràpida\". Fes clic aquí per iniciar-te amb l'ús d'eines!",
-    "newToolUsePopoverTitle": "📚 Guia Ràpida",
+    "tabChipTitle": "Guia per Desenvolupadors",
+    "newToolUsePopover": "Els fragments de codi ara estan disponibles a la \"Guia per Desenvolupadors\". Fes clic aquí per iniciar-te amb l'ús d'eines!",
+    "newToolUsePopoverTitle": "📚 Guia per Desenvolupadors",
     "learnMore": "ℹ️ 👾 Per aprendre'n més sobre els endpoints del servidor local del LM Studio, fes una ullada a la [documentació](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -161,18 +170,26 @@
     "newBadge": "Nou"
   },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportats (com els d'OpenAI)",
+  "endpoints/openaiCompatRest/title": "Endpoints suportats{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Com el d'OpenAI",
   "endpoints/openaiCompatRest/getModels": "Llista els models actualment carregats",
   "endpoints/openaiCompatRest/postCompletions": "Mode de Emplenament de Text. Prediu el pròxim token(s) donat un prompt. Nota: OpenAI considera aquest endpoint 'obsolet'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Emplenament dels Xats. Envia l'historial del xat al model per poder predir la pròxima resposta de l'assistent",
   "endpoints/openaiCompatRest/postEmbeddings": "Embedding de text. Genera embeddings de text donada una entrada de text. Accepta una cadena o un conjunt de cadenes",
+  "endpoints/openaiCompatRest/postResponses": "Interfaç avançada per generar respostes del model. Crea interaccions més específiques donant l'id d'una resposta prèvia com a input per la següent.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Llista els models disponibles",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Carrega un model amb opcions",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Descarrega un model",
+  "endpoints/lmStudioRestV1/postChat": "Xateja amb un model. Suporta converses a torns 'stateful multi-turn conversations' i MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Comprova l'estat de la descàrrega del model",
 
   "model.createVirtualModelFromInstance": "Desa la Configuració com un Nou Model Virtual",
   "model.createVirtualModelFromInstance/error": "No s'ha pogut desar la configuració com un nou model virtual",
 
   "model": {
     "toolUseSectionTitle": "Ús d'Eines",
-    "toolUseDescription": "S'ha detectat que aquest model pot utilitzar eines\n\nObre la <custom-link>guia ràpida</custom-link> per a obtenir més informació"
+    "toolUseDescription": "S'ha detectat que aquest model pot utilitzar eines\n\nObre la <custom-link>guia per desenvolupadors</custom-link> per a obtenir més informació"
   },
 
   "apiConfigOptions/title": "Configuració de l'API"
