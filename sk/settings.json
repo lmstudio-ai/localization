@@ -88,7 +88,7 @@
   "systemThemeLabel": "Automatická",
   "sepiaThemeLabel": "Sépiová",
   "unloadPreviousModelLabel": "Pri výbere modelu najprv odpojte predtým načítané modely",
-  "languageLabel": "Jazyk",
+  "languageLabel": "Jazyk aplikácie",
   "changeLanguageLabel": "Vybrať jazyk aplikácie (stále vo vývoji)",
   "developerLabel": "Vývojár",
   "localServiceLabel": "Lokálna LLM služba (Bez GUI)",
