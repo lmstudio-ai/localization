@@ -88,6 +88,8 @@
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sepia",
   "unloadPreviousModelLabel": "When selecting a model to load, first unload any currently loaded ones",
+  "languageSelect/placeholder": "Select a language",
+  "languageSelect/title": "App Language",
   "languageLabel": "Language",
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
