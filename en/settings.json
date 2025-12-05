@@ -88,7 +88,7 @@
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sepia",
   "unloadPreviousModelLabel": "When selecting a model to load, first unload any currently loaded ones",
-  "languageLabel": "Language",
+  "languageLabel": "App Language",
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
