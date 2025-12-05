@@ -4,10 +4,10 @@
   "filter.noMatches": "لا توجد نتائج مطابقة",
   "longRunningTask": {
     "unbundlingDependencies": {
-      "badge": "فك حزم التبعيات"
+      "badge": "استخراج الموارد"
     },
     "performingBackendHardwareSurvey": {
-      "badge": "التحقق من توافق العتاد"
+      "badge": "فحص توافق وقت التشغيل"
     },
     "indexingRuntimes": {
       "badge": "فهرسة بيئات التشغيل"
@@ -31,8 +31,274 @@
     "retry": "إعادة المحاولة"
   },
   "artifacts": {
-    "fetchError": "فشل في جلب العناصر"
+    "fetchError": "فشل في جلب العناصر",
+    "organizationVisible": "مرئي للمؤسسة"
   },
+
   "incompatible": "غير متوافق",
-  "compatible": "متوافق"
+  "compatible": "متوافق",
+  "public": "عام",
+  "private": "خاص",
+  "yes": "نعم",
+  "no": "لا",
+  "go": "انطلق",
+
+  "proceedWithEllipsis": "متابعة...",
+  "proceed": "متابعة",
+  "inProgress": "قيد التنفيذ...",
+  "failed": "فشل",
+  "pending": "في الانتظار",
+  "doneWithExclamation": "تم!",
+  "done": "تم",
+
+  "complete": {
+    "completeWithEllipsis": "إكمال...",
+    "complete": "إكمال",
+    "completingWithEllipsis": "جاري الإكمال...",
+    "completing": "جاري الإكمال",
+    "completedWithExclamation": "مكتمل!",
+    "completed": "مكتمل"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "إلغاء...",
+    "cancel": "إلغاء",
+    "cancelingWithEllipsis": "جاري الإلغاء...",
+    "canceling": "جاري الإلغاء",
+    "canceled": "ملغى"
+  },
+
+  "next": {
+    "nextWithEllipsis": "التالي...",
+    "next": "التالي"
+  },
+
+  "back": {
+    "backWithEllipsis": "السابق...",
+    "back": "السابق"
+  },
+
+  "close": {
+    "closeWithEllipsis": "إغلاق...",
+    "close": "إغلاق",
+    "closingWithEllipsis": "جاري الإغلاق...",
+    "closing": "جاري الإغلاق",
+    "closedWithExclamation": "مغلق!",
+    "closed": "مغلق"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "حذف...",
+    "delete": "حذف",
+    "deletingWithEllipsis": "جاري الحذف...",
+    "deleting": "جاري الحذف",
+    "deletedWithExclamation": "محذوف!",
+    "deleted": "محذوف"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "إعادة المحاولة...",
+    "retry": "إعادة المحاولة",
+    "retryingWithEllipsis": "جاري إعادة المحاولة...",
+    "retrying": "جاري إعادة المحاولة"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "تحديث...",
+    "refresh": "تحديث",
+    "refreshingWithEllipsis": "جاري التحديث...",
+    "refreshing": "جاري التحديث",
+    "refreshedWithExclamation": "محدث!",
+    "refreshed": "محدث"
+  },
+
+  "confirm": {
+    "confirm": "تأكيد",
+    "confirmingWithEllipsis": "جاري التأكيد...",
+    "confirming": "جاري التأكيد",
+    "confirmedWithExclamation": "مؤكد!",
+    "confirmed": "مؤكد"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "نسخ...",
+    "copy": "نسخ",
+    "copyingWithEllipsis": "جاري النسخ...",
+    "copying": "جاري النسخ",
+    "copiedWithExclamation": "منسوخ!",
+    "copied": "منسوخ"
+  },
+
+  "edit": {
+    "editWithEllipsis": "تعديل...",
+    "edit": "تعديل",
+    "editingWithEllipsis": "جاري التعديل...",
+    "editing": "جاري التعديل",
+    "editedWithExclamation": "معدل!",
+    "edited": "معدل"
+  },
+
+  "load": {
+    "loadWithEllipsis": "تحميل...",
+    "load": "تحميل",
+    "loadingWithEllipsis": "جاري التحميل...",
+    "loading": "جاري التحميل",
+    "loadedWithExclamation": "محمل!",
+    "loaded": "محمل"
+  },
+
+  "save": {
+    "saveWithEllipsis": "حفظ...",
+    "save": "حفظ",
+    "savingWithEllipsis": "جاري الحفظ...",
+    "saving": "جاري الحفظ",
+    "savedWithExclamation": "محفوظ!",
+    "saved": "محفوظ"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "حفظ باسم...",
+    "saveAs": "حفظ باسم"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "حفظ كجديد...",
+    "saveAsNew": "حفظ كجديد"
+  },
+
+  "search": {
+    "searchWithEllipsis": "بحث...",
+    "search": "بحث",
+    "searchingWithEllipsis": "جاري البحث...",
+    "searching": "جاري البحث"
+  },
+
+  "update": {
+    "updateWithEllipsis": "تحديث...",
+    "update": "تحديث",
+    "updatingWithEllipsis": "جاري التحديث...",
+    "updating": "جاري التحديث",
+    "updatedWithExclamation": "محدث!",
+    "updated": "محدث"
+  },
+
+  "create": {
+    "createWithEllipsis": "إنشاء...",
+    "create": "إنشاء",
+    "creatingWithEllipsis": "جاري الإنشاء...",
+    "creating": "جاري الإنشاء",
+    "createdWithExclamation": "منشأ!",
+    "created": "منشأ"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "إعادة تعيين...",
+    "reset": "إعادة تعيين",
+    "resettingWithEllipsis": "جاري إعادة التعيين...",
+    "resetting": "جاري إعادة التعيين"
+  },
+
+  "pause": {
+    "pause": "إيقاف مؤقت",
+    "pausingWithEllipsis": "جاري الإيقاف المؤقت...",
+    "pausing": "جاري الإيقاف المؤقت",
+    "paused": "متوقف مؤقتاً"
+  },
+
+  "download": {
+    "download": "تنزيل",
+    "downloadingWithEllipsis": "جاري التنزيل...",
+    "downloading": "جاري التنزيل",
+    "downloadedWithExclamation": "منزل!",
+    "downloaded": "منزل"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "رفع...",
+    "upload": "رفع",
+    "uploadingWithEllipsis": "جاري الرفع...",
+    "uploading": "جاري الرفع",
+    "uploadedWithExclamation": "مرفوع!",
+    "uploaded": "مرفوع"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "إزالة...",
+    "remove": "إزالة",
+    "removingWithEllipsis": "جاري الإزالة...",
+    "removing": "جاري الإزالة",
+    "removedWithExclamation": "مزال!",
+    "removed": "مزال"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "إلغاء التثبيت...",
+    "uninstall": "إلغاء التثبيت",
+    "uninstallingWithEllipsis": "جاري إلغاء التثبيت...",
+    "uninstalling": "جاري إلغاء التثبيت",
+    "uninstalledWithExclamation": "ملغى التثبيت!",
+    "uninstalled": "ملغى التثبيت"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "استئناف...",
+    "resume": "استئناف",
+    "resumingWithEllipsis": "جاري الاستئناف...",
+    "resuming": "جاري الاستئناف"
+  },
+
+  "start": {
+    "startWithEllipsis": "بدء...",
+    "start": "بدء",
+    "startingWithEllipsis": "جاري البدء...",
+    "starting": "جاري البدء",
+    "started": "بدأ"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "توقف...",
+    "stop": "توقف",
+    "stoppingWithEllipsis": "جاري التوقف...",
+    "stopping": "جاري التوقف",
+    "stoppedWithExclamation": "متوقف!",
+    "stopped": "متوقف"
+  },
+
+  "import": {
+    "importWithEllipsis": "استيراد...",
+    "import": "استيراد",
+    "importingWithEllipsis": "جاري الاستيراد...",
+    "importing": "جاري الاستيراد",
+    "importedWithExclamation": "مستورد!",
+    "imported": "مستورد"
+  },
+
+  "letsGo": {
+    "letsGo": "لننطلق",
+    "letsGoWithEllipsis": "لننطلق...",
+    "letsGoWithExclamation": "لننطلق!"
+  },
+
+  "run": {
+    "runWithEllipsis": "تشغيل...",
+    "run": "تشغيل",
+    "runningWithEllipsis": "جاري التشغيل...",
+    "running": "جاري التشغيل"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "تكوين...",
+    "configure": "تكوين",
+    "configuringWithEllipsis": "جاري التكوين...",
+    "configured": "مكون"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "نشر...",
+    "publish": "نشر",
+    "publishingWithEllipsis": "جاري النشر...",
+    "publishing": "جاري النشر",
+    "publishedWithExclamation": "منشور!",
+    "published": "منشور"
+  }
 }
