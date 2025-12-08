@@ -1,4 +1,304 @@
 {
   "copyLmStudioLinkButton/toolTip": "モデルのダウンロードリンクをコピー",
-  "filter.noMatches": "一致するものがありません"
+
+  "filter.noMatches": "一致するものはありません",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "リソースを抽出中"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "バックエンドハードウェアの互換性を確認中"
+    },
+    "indexingRuntimes": {
+      "badge": "ランタイムをインデックス中"
+    },
+    "indexingModels": {
+      "badge": "モデルをインデックス中"
+    },
+    "authenticating": {
+      "badge": "認証中"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "拡張パックを更新中 ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "LM Studio Hubにログイン",
+    "authError": "認証に失敗しました",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "signUp": "サインアップ",
+    "havingTrouble": "問題がありますか？",
+    "retry": "再試行"
+  },
+  "artifacts": {
+    "fetchError": "アーティファクトの取得に失敗しました",
+    "organizationVisible": "組織が表示されます"
+  },
+
+  "incompatible": "非互換",
+  "compatible": "互換性あり",
+  "public": "公開",
+  "private": "非公開",
+  "yes": "はい",
+  "no": "いいえ",
+  "go": "実行",
+
+  "proceedWithEllipsis": "続行...",
+  "proceed": "続行",
+  "inProgress": "進行中...",
+  "failed": "失敗",
+  "pending": "保留中",
+  "doneWithExclamation": "完了!",
+  "done": "完了",
+
+  "complete": {
+    "completeWithEllipsis": "完了...",
+    "complete": "完了",
+    "completingWithEllipsis": "完了中...",
+    "completing": "完了中",
+    "completedWithExclamation": "完了!",
+    "completed": "完了"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "キャンセル...",
+    "cancel": "キャンセル",
+    "cancelingWithEllipsis": "キャンセル中...",
+    "canceling": "キャンセル中",
+    "canceled": "キャンセル済み"
+  },
+
+  "next": {
+    "nextWithEllipsis": "次へ...",
+    "next": "次へ"
+  },
+
+  "back": {
+    "backWithEllipsis": "戻る...",
+    "back": "戻る"
+  },
+
+  "close": {
+    "closeWithEllipsis": "閉じる...",
+    "close": "閉じる",
+    "closingWithEllipsis": "閉じる中...",
+    "closing": "閉じる中",
+    "closedWithExclamation": "閉じました!",
+    "closed": "閉じました"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "削除...",
+    "delete": "削除",
+    "deletingWithEllipsis": "削除中...",
+    "deleting": "削除中",
+    "deletedWithExclamation": "削除しました!",
+    "deleted": "削除しました"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "再試行...",
+    "retry": "再試行",
+    "retryingWithEllipsis": "再試行中...",
+    "retrying": "再試行中"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "更新...",
+    "refresh": "更新",
+    "refreshingWithEllipsis": "更新中...",
+    "refreshing": "更新中",
+    "refreshedWithExclamation": "更新しました!",
+    "refreshed": "更新しました"
+  },
+
+  "confirm": {
+    "confirm": "確認",
+    "confirmingWithEllipsis": "確認中...",
+    "confirming": "確認中",
+    "confirmedWithExclamation": "確認しました!",
+    "confirmed": "確認しました"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "コピー...",
+    "copy": "コピー",
+    "copyingWithEllipsis": "コピー中...",
+    "copying": "コピー中",
+    "copiedWithExclamation": "コピーしました!",
+    "copied": "コピーしました"
+  },
+
+  "edit": {
+    "editWithEllipsis": "編集...",
+    "edit": "編集",
+    "editingWithEllipsis": "編集中...",
+    "editing": "編集中",
+    "editedWithExclamation": "編集しました!",
+    "edited": "編集しました"
+  },
+
+  "load": {
+    "loadWithEllipsis": "読み込み...",
+    "load": "読み込み",
+    "loadingWithEllipsis": "読み込み中...",
+    "loading": "読み込み中",
+    "loadedWithExclamation": "読み込みました!",
+    "loaded": "読み込みました"
+  },
+
+  "save": {
+    "saveWithEllipsis": "保存...",
+    "save": "保存",
+    "savingWithEllipsis": "保存中...",
+    "saving": "保存中",
+    "savedWithExclamation": "保存しました!",
+    "saved": "保存しました"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "名前を付けて保存...",
+    "saveAs": "名前を付けて保存"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "名前を付けて保存...",
+    "saveAsNew": "名前を付けて保存"
+  },
+
+  "search": {
+    "searchWithEllipsis": "検索...",
+    "search": "検索",
+    "searchingWithEllipsis": "検索中...",
+    "searching": "検索中"
+  },
+
+  "update": {
+    "updateWithEllipsis": "更新...",
+    "update": "更新",
+    "updatingWithEllipsis": "更新中...",
+    "updating": "更新中",
+    "updatedWithExclamation": "更新しました!",
+    "updated": "更新しました"
+  },
+
+  "create": {
+    "createWithEllipsis": "作成...",
+    "create": "作成",
+    "creatingWithEllipsis": "作成中...",
+    "creating": "作成中",
+    "createdWithExclamation": "作成しました!",
+    "created": "作成しました"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "リセット...",
+    "reset": "リセット",
+    "resettingWithEllipsis": "リセット中...",
+    "resetting": "リセット中"
+  },
+
+  "pause": {
+    "pause": "一時停止",
+    "pausingWithEllipsis": "一時停止中...",
+    "pausing": "一時停止中",
+    "paused": "一時停止"
+  },
+
+  "download": {
+    "download": "ダウンロード",
+    "downloadingWithEllipsis": "ダウンロード中...",
+    "downloading": "ダウンロード中",
+    "downloadedWithExclamation": "ダウンロードしました!",
+    "downloaded": "ダウンロードしました"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "アップロード...",
+    "upload": "アップロード",
+    "uploadingWithEllipsis": "アップロード中...",
+    "uploading": "アップロード中",
+    "uploadedWithExclamation": "アップロードしました!",
+    "uploaded": "アップロードしました"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "削除...",
+    "remove": "削除",
+    "removingWithEllipsis": "削除中...",
+    "removing": "削除中",
+    "removedWithExclamation": "削除しました!",
+    "removed": "削除しました"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "アンインストール...",
+    "uninstall": "アンインストール",
+    "uninstallingWithEllipsis": "アンインストール中...",
+    "uninstalling": "アンインストール中",
+    "uninstalledWithExclamation": "アンインストールしました!",
+    "uninstalled": "アンインストールしました"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "再開...",
+    "resume": "再開",
+    "resumingWithEllipsis": "再開中...",
+    "resuming": "再開中"
+  },
+
+  "start": {
+    "startWithEllipsis": "開始...",
+    "start": "開始",
+    "startingWithEllipsis": "開始中...",
+    "starting": "開始中",
+    "started": "開始しました"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "停止...",
+    "stop": "停止",
+    "stoppingWithEllipsis": "停止中...",
+    "stopping": "停止中",
+    "stoppedWithExclamation": "停止しました!",
+    "stopped": "停止しました"
+  },
+
+  "import": {
+    "importWithEllipsis": "インポート...",
+    "import": "インポート",
+    "importingWithEllipsis": "インポート中...",
+    "importing": "インポート中",
+    "importedWithExclamation": "インポートしました!",
+    "imported": "インポートしました"
+  },
+
+  "letsGo": {
+    "letsGo": "始めましょう",
+    "letsGoWithEllipsis": "始めましょう...",
+    "letsGoWithExclamation": "始めましょう！"
+  },
+
+  "run": {
+    "runWithEllipsis": "実行...",
+    "run": "実行",
+    "runningWithEllipsis": "実行中...",
+    "running": "実行中"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "設定...",
+    "configure": "設定",
+    "configuringWithEllipsis": "設定中...",
+    "configured": "設定完了"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "公開...",
+    "publish": "公開",
+    "publishingWithEllipsis": "公開中...",
+    "publishing": "公開中",
+    "publishedWithExclamation": "公開しました!",
+    "published": "公開しました"
+  }
 }

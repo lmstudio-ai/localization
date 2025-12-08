@@ -47,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "minutes",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Only Keep Last JIT Loaded Model",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Ensure at most 1 model is loaded via JIT at any given time (unloads previous model)",
+  "serverOptions/allowMcp/title": "Allow Remote MCP",
+  "serverOptions/allowMcp/hint": "Allow using MCPs that are not in your mcp.json. These MCP connections are ephemeral, only existing as long as the request. At the moment, only remote MCPs are supported.",
+  "serverOptions/allowMcp/mode/off": "Off",
+  "serverOptions/allowMcp/mode/off/hint": "Don't allow server requests to use MCP",
+  "serverOptions/allowMcp/mode/remote": "Remote",
+  "serverOptions/allowMcp/mode/remote/hint": "Allow connection to remote MCP servers",
+
+  "serverOptions/start/error": "Failed to start the server",
+  "serverOptions/stop/error": "Failed to stop the server",
 
   "serverLogs/scrollToBottom": "Jump to bottom",
   "serverLogs/clearLogs": "Clear logs ({{shortcut}})",
@@ -77,7 +86,7 @@
   "runtimeOptions/noRuntimes": "No runtimes found",
 
   "runtimes": {
-    "manageLMRuntimes": "Manage LM Runtimes",
+    "manageLMRuntimes": "Manage LM Runtime",
     "includeOlderRuntimeVersions": "Include older versions",
     "dismiss": "Dismiss",
     "updateAvailableToast": {
@@ -131,9 +140,9 @@
   "inferenceParams/noParams": "No configurable inference parameters available for this model type",
 
   "quickDocs": {
-    "tabChipTitle": "Quick Docs",
-    "newToolUsePopover": "Code Snippets are now available here in \"Quick Docs\". Click here to get started with tool use!",
-    "newToolUsePopoverTitle": "📚 Quick Docs",
+    "tabChipTitle": "Developer Docs",
+    "newToolUsePopover": "Code Snippets are now available here in \"Developer Docs\". Click here to get started with tool use!",
+    "newToolUsePopoverTitle": "📚 Developer Docs",
     "learnMore": "ℹ️ 👾 To learn more about LM Studio local server endpoints, visit the [documentation](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Hello, World!"
@@ -161,18 +170,26 @@
     "newBadge": "New"
   },
 
-  "endpoints/openaiCompatRest/title": "Supported endpoints (OpenAI-like)",
+  "endpoints/openaiCompatRest/title": "Supported endpoints{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI-like",
   "endpoints/openaiCompatRest/getModels": "List the currently loaded models",
   "endpoints/openaiCompatRest/postCompletions": "Text Completions mode. Predict the next token(s) given a prompt. Note: OpenAI considers this endpoint 'deprecated'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Chat completions. Send a chat history to the model to predict the next assistant response",
   "endpoints/openaiCompatRest/postEmbeddings": "Text Embedding. Generate text embeddings for a given text input. Takes a string or array of strings.",
+  "endpoints/openaiCompatRest/postResponses": "Advanced interface for generating model responses. Create stateful interactions by passing the id of a previous responses as input to the next.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "List available models",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Load a model with options",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Download a model",
+  "endpoints/lmStudioRestV1/postChat": "Chat with a model. Supports stateful multi-turn conversations and MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Get the status of a model download",
 
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
 
   "model": {
     "toolUseSectionTitle": "Tool Use",
-    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>quick docs</custom-link> for more information"
+    "toolUseDescription": "This model is detected to have been trained for tool use\n\nOpen <custom-link>developer docs</custom-link> for more information"
   },
 
   "apiConfigOptions/title": "API Configuration"

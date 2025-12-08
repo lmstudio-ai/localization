@@ -88,10 +88,11 @@
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sepia",
   "unloadPreviousModelLabel": "When selecting a model to load, first unload any currently loaded ones",
-  "languageLabel": "Language",
+  "languageLabel": "App Language",
   "changeLanguageLabel": "Choose app language (still in development)",
   "developerLabel": "Developer",
   "localServiceLabel": "Local LLM Service (headless)",
+  "modelDefaultsLabel": "Model Defaults",
   "showExperimentalFeaturesLabel": "Show experimental features",
   "appFirstLoadLabel": "App first load experience",
   "showDebugInfoBlocksInChatLabel": "Show debug info blocks in chat",
@@ -136,6 +137,7 @@
   "modelLoadingGuardrails.custom.label": "Memory Limit: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Set a custom memory limit for model loading. Models will not load if loading them would exceed this limit.",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Not recommended) Always allow 'Load Anyway' without holding Alt/Option",
 
   "experimentalLoadPresets": "Enable model load configuration support in presets",
   "experimentalLoadPresets.description": "Whether to allow presets to include model load configurations. This feature is experimental and we welcome feedback.",
@@ -191,5 +193,19 @@
       "warnDescription": "Disabling tool call confirmations is dangerous. If any of your plugins contributed a tool that has the potential to perform destructive actions (such as running a command, deleting files, overwriting files, uploading files, etc), the model will be able to do so without any confirmation. You can always disable confirmations on a per-tool or even per-plugin basis. Enabling this option is NOT recommended. Please be careful.",
       "warnButton": "I understand the risks"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "Default Context Length",
+    "maxTitle": "Model Maximum",
+    "customTitle": "Custom value",
+    "maxSubtitle": "Use the maximum context length supported by each model.",
+    "customSubtitle": "Set the default context length for loading new models. If the model's supported maximum context length is lower, that value will be used.",
+    "invalidNaNError": "Invalid context length value. Using {{value}}",
+    "invalidRangeError": "Invalid context length value. Should be in the range of 1 and 2^30. Using {{value}}",
+    "largeContextWarning": "The higher the context length, the more memory the model will take. If you are unsure, don't change the default"
+  },
+  "jitTTL": {
+    "subtitle": "JIT-loaded models will be automatically unloaded after being idle for the specified duration."
   }
 }
