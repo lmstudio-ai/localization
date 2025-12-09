@@ -154,7 +154,7 @@
             "title": "Entrada de Imagem"
         },
         "embeddings": {
-            "title": "Vetores"
+            "title": "Vetorização"
         },
         "toolUse": {
             "title": "Uso de Ferramentas",
