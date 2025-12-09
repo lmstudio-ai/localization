@@ -20,7 +20,7 @@
 
     "modelsTable.quant/label": "Quant.",
     "modelsTable.llms/label": "LLM",
-    "modelsTable.embeddingModels/label": "Modelo de Vetor",
+    "modelsTable.embeddingModels/label": "Modelo de Vetorização",
     "action.model.delete": "Excluir",
     "action.model.delete.full": "Excluir Modelo",
     "action.model.delete.confirmation/title": "Excluir {{name}}",
