@@ -1,179 +1,192 @@
 {
-  "tabs/server": "Servidor Local",
-  "tabs/extensions": "Tempos de Execução",
-  "loadSettings/title": "Carregar configurações",
-  "modelSettings/placeholder": "Selecione um modelo para configurar",
+    "tabs/server": "Servidor Local",
+    "tabs/extensions": "Tempos de Execução",
+    "loadSettings/title": "Configurações de carregamento",
+    "modelSettings/placeholder": "Selecione um modelo para configurá-lo",
 
-  "loadedModels/noModels": "Nenhum modelo carregado",
+    "loadedModels/noModels": "Nenhum modelo carregado",
 
-  "serverOptions/title": "Opções do Servidor",
-  "serverOptions/configurableTitle": "Opções Configuráveis",
-  "serverOptions/port/hint": "Defina a porta de rede que o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Pode ser necessário alterar se a porta já estiver em uso.",
-  "serverOptions/port/subtitle": "A porta em que o servidor irá operar",
-  "serverOptions/autostart/title": "Iniciar servidor automaticamente",
-  "serverOptions/autostart/hint": "Inicia o servidor local de LLMs do LM Studio automaticamente na inicialização do aplicativo ou serviço.",
-  "serverOptions/port/integerWarning": "O número da porta deve ser um inteiro",
-  "serverOptions/port/invalidPortWarning": "A porta deve estar entre 1 e 65535",
-  "serverOptions/cors/title": "Habilitar CORS",
-  "serverOptions/cors/hint1": "Habilitar o CORS (Compartilhamento de Recursos de Origem Cruzada) permite que sites que você visita façam requisições ao servidor do LM Studio.",
-  "serverOptions/cors/hint2": "O CORS pode ser necessário ao fazer requisições a partir de uma página web, do VS Code ou de outras extensões.",
-  "serverOptions/cors/subtitle": "Permitir requisições de origem cruzada",
-  "serverOptions/network/title": "Servir na Rede Local",
-  "serverOptions/network/subtitle": "Expor o servidor a dispositivos na mesma rede",
-  "serverOptions/network/hint1": "Permite conexões de outros dispositivos na rede.",
-  "serverOptions/network/hint2": "Se desmarcado, o servidor aceitará conexões apenas de localhost.",
-  "serverOptions/verboseLogging/title": "Registros Detalhados",
-  "serverOptions/verboseLogging/subtitle": "Habilita registros detalhados para o servidor local",
-  "serverOptions/contentLogging/title": "Registrar Prompts e Respostas",
-  "serverOptions/contentLogging/subtitle": "Configurações de registro para requisições/respostas locais",
-  "serverOptions/contentLogging/hint": "Define se os prompts e/ou respostas devem ser registrados no arquivo de registro do servidor local.",
-  "serverOptions/redactContent/title": "Redigir Conteúdo",
-  "serverOptions/redactContent/hint": "Quando ativado, evita o registro de dados sensíveis, como o conteúdo das requisições e respostas.",
-  "serverOptions/logIncomingTokens/title": "Registrar Tokens Gerados",
-  "serverOptions/logIncomingTokens/hint": "Define se cada token deve ser registrado conforme é gerado.",
-  "serverOptions/fileLoggingMode/title": "Modo de Registro em Arquivo",
-  "serverOptions/fileLoggingMode/off/title": "DESLIGADO",
-  "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de registro",
-  "serverOptions/fileLoggingMode/succinct/title": "Sucinto",
-  "serverOptions/fileLoggingMode/succinct/hint": "Registra o mesmo conteúdo do console. Requisições longas serão truncadas.",
-  "serverOptions/fileLoggingMode/full/title": "Completo",
-  "serverOptions/fileLoggingMode/full/hint": "Não truncar requisições longas.",
-  "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time (JIT)",
-  "serverOptions/jitModelLoading/hint": "Quando habilitado, se uma requisição especificar um modelo que não está carregado, ele será carregado e usado automaticamente. Além disso, o endpoint \"/v1/models\" incluirá modelos que ainda não foram carregados.",
-  "serverOptions/loadModel/error": "Falha ao carregar o modelo",
-  "serverOptions/jitModelLoadingTTL/title": "Descarregar automaticamente modelos JIT não utilizados",
-  "serverOptions/jitModelLoadingTTL/hint": "Um modelo carregado via Just-in-Time (JIT) para uma requisição de API será descarregado automaticamente após um período de inatividade (TTL).",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máximo de inatividade",
-  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter Apenas o Último Modelo Carregado via JIT",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Garante que no máximo 1 modelo carregado via JIT permaneça na memória por vez (descarrega o modelo anterior).",
+    "serverOptions/title": "Opções do Servidor",
+    "serverOptions/configurableTitle": "Opções Configuráveis",
+    "serverOptions/port/hint": "Defina qual porta de rede o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Você pode precisar mudar isso se a porta já estiver em uso.",
+    "serverOptions/port/subtitle": "A porta para escutar",
+    "serverOptions/autostart/title": "Auto-iniciar servidor",
+    "serverOptions/autostart/hint": "Ligar automaticamente o servidor de LLMs locais do LM Studio ao iniciar o app ou serviço",
+    "serverOptions/port/integerWarning": "Número da porta deve ser um inteiro",
+    "serverOptions/port/invalidPortWarning": "Porta deve ser entre 1 e 65535",
+    "serverOptions/cors/title": "Ativar CORS",
+    "serverOptions/cors/hint1": "Ativar CORS (Cross-origin Resource Sharing) permitiria que sites que você visita façam requisições ao servidor LM Studio.",
+    "serverOptions/cors/hint2": "CORS pode ser necessário ao fazer requisições de uma página web ou extensão VS Code / outras.",
+    "serverOptions/cors/subtitle": "Permitir requisições cross-origin",
+    "serverOptions/network/title": "Servir na Rede Local",
+    "serverOptions/network/subtitle": "Expor servidor a dispositivos na rede",
+    "serverOptions/network/hint1": "Se deve permitir conexões de outros dispositivos na rede.",
+    "serverOptions/network/hint2": "Se não marcado, o servidor escutará apenas em localhost.",
+    "serverOptions/verboseLogging/title": "Logs Detalhados",
+    "serverOptions/verboseLogging/subtitle": "Ativar registros detalhados para o servidor local",
+    "serverOptions/contentLogging/title": "Logar Prompts e Respostas",
+    "serverOptions/contentLogging/subtitle": "Configurações de registro de requisição / resposta local",
+    "serverOptions/contentLogging/hint": "Se deve logar prompts e/ou a resposta no arquivo de registro do servidor local.",
+    "serverOptions/redactContent/title": "Ocultar Conteúdo",
+    "serverOptions/redactContent/hint": "Quando ativado, previne que dados sensíveis, como o conteúdo das requisições e respostas, sejam logados.",
+    "serverOptions/logIncomingTokens/title": "Logar Tokens Recebidos",
+    "serverOptions/logIncomingTokens/hint": "Se deve logar cada token conforme eles estão sendo gerados.",
+    "serverOptions/fileLoggingMode/title": "Modo de Registro de Arquivo",
+    "serverOptions/fileLoggingMode/off/title": "DESLIGADO",
+    "serverOptions/fileLoggingMode/off/hint": "Não criar arquivos de registro",
+    "serverOptions/fileLoggingMode/succinct/title": "Sucinto",
+    "serverOptions/fileLoggingMode/succinct/hint": "Logar o mesmo conteúdo que no console. Requisições longas serão truncadas.",
+    "serverOptions/fileLoggingMode/full/title": "Completo",
+    "serverOptions/fileLoggingMode/full/hint": "Não truncar requisições longas.",
+    "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time",
+    "serverOptions/jitModelLoading/hint": "Quando ativado, se uma requisição especificar um modelo que não está carregado, ele será automaticamente carregado e usado. Além disso, o endpoint \"/v1/models\" também incluirá modelos que ainda não estão carregados.",
+    "serverOptions/loadModel/error": "Falha ao carregar modelo",
+    "serverOptions/jitModelLoadingTTL/title": "Auto descarregar modelos JIT não usados",
+    "serverOptions/jitModelLoadingTTL/hint": "Um modelo que foi carregado Just-in-time (JIT) para servir uma requisição de API será automaticamente descarregado após ficar sem uso por alguma duração (TTL).",
+    "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máx. ocioso",
+    "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
+    "serverOptions/unloadPreviousJITModelOnLoad/title": "Manter Apenas Último Modelo JIT Carregado",
+    "serverOptions/unloadPreviousJITModelOnLoad/hint": "Garantir no máximo 1 modelo carregado via JIT a qualquer momento (descarrega modelo anterior)",
+    "serverOptions/allowMcp/title": "Permitir MCP Remoto",
+    "serverOptions/allowMcp/hint": "Permitir usar MCPs que não estão no seu mcp.json. Essas conexões MCP são efêmeras, existindo apenas enquanto durar a requisição. No momento, apenas MCPs remotos são suportados.",
+    "serverOptions/allowMcp/mode/off": "Desligado",
+    "serverOptions/allowMcp/mode/off/hint": "Não permitir requisições do servidor usarem MCP",
+    "serverOptions/allowMcp/mode/remote": "Remoto",
+    "serverOptions/allowMcp/mode/remote/hint": "Permitir conexão a servidores MCP remotos",
 
-  "serverLogs/scrollToBottom": "Rolar para o final",
-  "serverLogs/clearLogs": "Limpar registros ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Abrir pasta de registros do servidor",
+    "serverOptions/start/error": "Falha ao iniciar o servidor",
+    "serverOptions/stop/error": "Falha ao parar o servidor",
 
-  "runtimeSettings/title": "Configurações de Tempo de Execução",
-  "runtimeSettings/chooseRuntime/title": "Seleções Padrão",
-  "runtimeSettings/chooseRuntime/description": "Selecione um tempo de execução padrão para cada formato de modelo",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todos os tempos de execução",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por padrão, o LM Studio mostra apenas a versão mais recente de cada tempo de execução compatível. Habilite para ver todos.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Selecione um Tempo de Execução",
+    "serverLogs/scrollToBottom": "Pular para o final",
+    "serverLogs/clearLogs": "Limpar logs ({{shortcut}})",
+    "serverLogs/openLogsFolder": "Abrir pasta de logs do servidor",
 
-  "runtimeSettings/chooseFrameworks/title": "Frameworks",
-  "runtimeSettings/chooseFrameworks/description": "Selecione um framework para usar em cada funcionalidade",
-  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Analisador Integrado",
-  "runtimeSettings/chooseFramework/documentParser/select/label": "Analisador de Documentos",
-  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecione um analisador de documentos",
+    "runtimeSettings/title": "Configurações de Tempo de Execução",
+    "runtimeSettings/chooseRuntime/title": "Seleções",
+    "runtimeSettings/chooseRuntime/description": "Selecione um motor para usar para cada formato de modelo",
+    "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todos os pacotes de extensão",
+    "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por padrão, o LM Studio mostra apenas a última versão de cada pacote de extensão. Ative esta opção para ver todos os pacotes de extensão disponíveis.",
+    "runtimeSettings/chooseRuntime/select/placeholder": "Selecione um motor",
 
-  "runtimeOptions/uninstall": "Desinstalar",
-  "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstalar este tempo de execução o removerá do sistema. Esta ação é irreversível.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Alguns arquivos podem ser removidos apenas após a reinicialização do LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Falha ao desinstalar o tempo de execução",
-  "runtimeOptions/uninstallDialog/confirm": "Continuar e Desinstalar",
-  "runtimeOptions/uninstallDialog/cancel": "Cancelar",
-  "runtimeOptions/noCompatibleRuntimes": "Nenhum tempo de execução compatível encontrado",
-  "runtimeOptions/downloadIncompatibleRuntime": "Este tempo de execução foi determinado como incompatível com sua máquina. Provavelmente não funcionará.",
-  "runtimeOptions/noRuntimes": "Nenhum tempo de execução encontrado",
+    "runtimeSettings/chooseFrameworks/title": "Frameworks",
+    "runtimeSettings/chooseFrameworks/description": "Selecione um framework para usar para cada funcionalidade",
+    "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Analisador integrado",
+    "runtimeSettings/chooseFramework/documentParser/select/label": "Analisador de Documento",
+    "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecione um analisador de documento",
+    "runtimeOptions/uninstall": "Desinstalar",
+    "runtimeOptions/uninstallDialog/title": "Desinstalar {{runtimeName}}?",
+    "runtimeOptions/uninstallDialog/body": "Desinstalar este tempo de execução irá removê-lo do sistema. Esta ação é irreversível.",
+    "runtimeOptions/uninstallDialog/body/caveats": "Alguns arquivos podem ser removidos apenas após o LM Studio ser reiniciado.",
+    "runtimeOptions/uninstallDialog/error": "Falha ao desinstalar o tempo de execução",
+    "runtimeOptions/uninstallDialog/confirm": "Continuar e Desinstalar",
+    "runtimeOptions/uninstallDialog/cancel": "Cancelar",
+    "runtimeOptions/noCompatibleRuntimes": "Nenhum tempo de execução compatível encontrado",
+    "runtimeOptions/downloadIncompatibleRuntime": "Este tempo de execução foi determinado como incompatível com sua máquina. Provavelmente não funcionará.",
+    "runtimeOptions/noRuntimes": "Nenhum tempo de execução encontrado",
 
-  "runtimes": {
-    "manageLMRuntimes": "Gerenciar Tempos de Execução de LM",
-    "includeOlderRuntimeVersions": "Incluir versões mais antigas",
-    "dismiss": "Dispensar",
-    "updateAvailableToast": {
-      "title": "Atualização de Tempo de Execução de LM Disponível!"
+    "runtimes": {
+        "manageLMRuntimes": "Gerenciar Tempos de Execução de LM",
+        "includeOlderRuntimeVersions": "Incluir versões mais antigas",
+        "dismiss": "Dispensar",
+        "updateAvailableToast": {
+            "title": "Atualização de Tempo de Execução de LM Disponível!"
+        },
+        "updatedToast": {
+            "title": " ✅ Tempo de Execução de LM Atualizado: {{runtime}} → v{{version}}",
+            "preferencesUpdated": "Modelos {{compatibilityTypes}} carregados recentemente usarão o tempo de execução atualizado."
+        },
+        "noAvx2ErrorMessage": "Todos os Tempos de Execução de LM atualmente requerem uma CPU com suporte AVX2",
+        "downloadableRuntimes": {
+            "runtimeExtensionPacks": "Pacotes de Extensão de Tempo de Execução",
+            "refresh": "Atualizar",
+            "refreshing": "Atualizando...",
+            "filterSegment": {
+                "compatibleOnly": "Apenas Compatíveis",
+                "all": "Todos"
+            },
+            "card": {
+                "releaseNotes": "Notas da Versão",
+                "latestVersionInstalled": "Última Versão Instalada",
+                "updateAvailable": "Atualização Disponível"
+            }
+        },
+        "installedRuntimes": {
+            "manage": {
+                "title": "Gerenciar Tempos de Execução Ativos"
+            },
+            "dropdownOptions": {
+                "installedVersions": "Gerenciar Versões",
+                "close": "Fechar"
+            },
+            "tabs": {
+                "all": "Todos",
+                "frameworks": "Meus Frameworks",
+                "engines": "Meus Motores"
+            },
+            "detailsModal": {
+                "installedVersions": "Versões instaladas para {{runtimeName}}",
+                "manifestJsonTitle": "Manifesto JSON (avançado)",
+                "releaseNotesTitle": "Notas da Versão",
+                "noReleaseNotes": "Nenhuma nota de versão disponível para esta versão",
+                "back": "Voltar",
+                "close": "Fechar"
+            },
+            "noEngines": "Nenhum motor instalado",
+            "noFrameworks": "Nenhum framework instalado"
+        }
     },
-    "updatedToast": {
-      "title": " ✅ Tempo de Execução de LM Atualizado: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Modelos do tipo {{compatibilityTypes}} recém-carregados usarão o tempo de execução atualizado."
+    "inferenceParams/noParams": "Nenhum parâmetro de inferência configurável disponível para este tipo de modelo",
+    "quickDocs": {
+        "tabChipTitle": "Docs do Desenvolvedor",
+        "newToolUsePopover": "Trechos de Código agora estão disponíveis aqui em \"Docs do Desenvolvedor\". Clique aqui para começar com uso de ferramentas!",
+        "newToolUsePopoverTitle": "📚 Docs do Desenvolvedor",
+        "learnMore": "ℹ️ 👾 Para saber mais sobre endpoints do servidor local LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
+        "helloWorld": {
+            "title": "Olá, Mundo!"
+        },
+        "chat": {
+            "title": "Conversa"
+        },
+        "structuredOutput": {
+            "title": "Saída Estruturada"
+        },
+        "imageInput": {
+            "title": "Entrada de Imagem"
+        },
+        "embeddings": {
+            "title": "Embeddings"
+        },
+        "toolUse": {
+            "title": "Uso de Ferramentas",
+            "tab": {
+                "saveAsPythonFile": "Salvar como arquivo Python",
+                "runTheScript": "Rodar o script:",
+                "savePythonFileCopyPaste": "Salvar como arquivo Python para um comando copiar-e-colar"
+            }
+        },
+        "newBadge": "Novo"
     },
-    "noAvx2ErrorMessage": "Todos os Tempos de Execução de LM atualmente requerem uma CPU com suporte a AVX2.",
-    "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Pacotes de Extensão de Tempo de Execução",
-      "refresh": "Atualizar",
-      "refreshing": "Atualizando...",
-      "filterSegment": {
-        "compatibleOnly": "Apenas Compatíveis",
-        "all": "Todos"
-      },
-      "card": {
-        "releaseNotes": "Notas da Versão",
-        "latestVersionInstalled": "Última Versão Instalada",
-        "updateAvailable": "Atualização Disponível"
-      }
-    },
-    "installedRuntimes": {
-      "manage": {
-        "title": "Gerenciar Tempos de Execução Ativos"
-      },
-      "dropdownOptions": {
-        "installedVersions": "Gerenciar Versões",
-        "close": "Fechar"
-      },
-      "tabs": {
-        "all": "Todos",
-        "frameworks": "Meus Frameworks",
-        "engines": "Meus Motores"
-      },
-      "detailsModal": {
-        "installedVersions": "Versões instaladas para {{runtimeName}}",
-        "manifestJsonTitle": "Manifesto JSON (avançado)",
-        "releaseNotesTitle": "Notas da Versão",
-        "noReleaseNotes": "Nenhuma nota de versão disponível para esta versão",
-        "back": "Voltar",
-        "close": "Fechar"
-      },
-      "noEngines": "Nenhum motor instalado",
-      "noFrameworks": "Nenhum framework instalado"
-    }
-  },
 
-  "inferenceParams/noParams": "Nenhum parâmetro de inferência configurável disponível para este tipo de modelo",
+    "endpoints/openaiCompatRest/title": "Endpoints suportados{{extra}}",
+    "endpoints/openaiCompatRest/segmentedLabel": "Tipo-OpenAI",
+    "endpoints/openaiCompatRest/getModels": "Listar os modelos carregados atualmente",
+    "endpoints/openaiCompatRest/postCompletions": "Modo de Completar Texto. Prediz o(s) próximo(s) token(s) dado um prompt. Nota: OpenAI considera este endpoint 'depreciado'.",
+    "endpoints/openaiCompatRest/postChatCompletions": "Completar Conversa. Envia um histórico de conversa para o modelo predizer a próxima resposta do assistente",
+    "endpoints/openaiCompatRest/postEmbeddings": "Vetorização de Texto. Gera vetores de texto para uma entrada fornecida. Aceita uma string ou array de strings.",
+    "endpoints/openaiCompatRest/postResponses": "Interface avançada para gerar respostas de modelo. Crie interações com estado passando o id de respostas anteriores como entrada para a próxima.",
+    "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+    "endpoints/lmStudioRestV1/getModels": "Listar modelos disponíveis",
+    "endpoints/lmStudioRestV1/postModelsLoad": "Carregar um modelo com opções",
+    "endpoints/lmStudioRestV1/postModelsDownload": "Baixar um modelo",
+    "endpoints/lmStudioRestV1/postChat": "Conversa com um modelo. Suporta conversas multi-turnos com estado e MCP",
+    "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Obter o status de um download de modelo",
+    "model.createVirtualModelFromInstance": "Salvar Configurações como um Novo Modelo Virtual",
+    "model.createVirtualModelFromInstance/error": "Falha ao salvar configurações como um novo modelo virtual",
 
-  "quickDocs": {
-    "tabChipTitle": "Docs Rápidos",
-    "newToolUsePopover": "Trechos de código agora estão disponíveis aqui em \"Docs Rápidos\". Clique aqui para começar a usar ferramentas!",
-    "newToolUsePopoverTitle": "📚 Docs Rápidos",
-    "learnMore": "ℹ️ 👾 Para saber mais sobre os endpoints do servidor local do LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
-    "helloWorld": {
-      "title": "Olá, Mundo!"
+    "model": {
+        "toolUseSectionTitle": "Uso de Ferramentas",
+        "toolUseDescription": "Este modelo foi detectado como treinado para uso de ferramentas\n\nAbra <custom-link>docs do desenvolvedor</custom-link> para mais informações"
     },
-    "chat": {
-      "title": "Chat"
-    },
-    "structuredOutput": {
-      "title": "Saída Estruturada"
-    },
-    "imageInput": {
-      "title": "Entrada de Imagem"
-    },
-    "embeddings": {
-      "title": "Embeddings"
-    },
-    "toolUse": {
-      "title": "Uso de Ferramentas",
-      "tab": {
-        "saveAsPythonFile": "Salvar como arquivo Python",
-        "runTheScript": "Execute o script:",
-        "savePythonFileCopyPaste": "Salvar como arquivo Python para um comando de copiar e colar"
-      }
-    },
-    "newBadge": "Novo"
-  },
 
-  "endpoints/openaiCompatRest/title": "Endpoints suportados (padrão OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Lista os modelos carregados atualmente",
-  "endpoints/openaiCompatRest/postCompletions": "Modo de Conclusão de Texto. Prevê os próximos tokens a partir de um prompt. Nota: A OpenAI considera este endpoint 'obsoleto'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Conclusão de Conversa. Envia um histórico de conversa para o modelo prever a próxima resposta do assistente.",
-  "endpoints/openaiCompatRest/postEmbeddings": "Embedding de Texto. Gera embeddings de texto para uma entrada. Aceita uma string ou uma lista de strings.",
-
-  "model.createVirtualModelFromInstance": "Salvar Configurações como um Novo Modelo Virtual",
-  "model.createVirtualModelFromInstance/error": "Falha ao salvar as configurações como um novo modelo virtual",
-
-  "model": {
-    "toolUseSectionTitle": "Uso de Ferramentas",
-    "toolUseDescription": "Este modelo foi treinado para o uso de ferramentas.\n\nAbra os <custom-link>Docs Rápidos</custom-link> para mais informações."
-  },
-
-  "apiConfigOptions/title": "Configuração da API"
+    "apiConfigOptions/title": "Configuração da API"
 }
