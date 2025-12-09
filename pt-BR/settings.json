@@ -56,7 +56,7 @@
     "developerComplexityLevelLabel": "Desenvolvedor",
     "chatSettingsLabel": "Configurações de Conversa",
     "chat/alwaysShowPromptTemplate": "Sempre mostrar modelo de prompt na barra lateral da Conversa",
-    "chat/highlightChatMessageOnHover": "Destacar mensagem do chat ao passar o mouse",
+    "chat/highlightChatMessageOnHover": "Destacar mensagem da conversa ao passar o mouse",
     "chat/doubleClickMessageToEdit": "Clique duplo na mensagem da conversa para editar",
 
     "chat/aiNaming/label": "Nomeação de Conversa pela IA",
@@ -143,8 +143,8 @@
     "experimentalLoadPresets.description": "Se deve permitir que predefinições incluam configurações de carregamento de modelo. Este recurso é experimental e aceitamos feedback.",
 
     "unloadPreviousJITModelOnLoad": "Auto-despejo de modelos JIT: garantir no máximo 1 modelo carregado via JIT a qualquer momento (descarrega modelo anterior)",
-    "autoDeleteExtensionPacks": "Auto-excluir Pacotes de Extensão de Runtime menos usados recentemente",
-    "autoUpdateExtensionPacks": "Auto-atualizar Pacotes de Extensão de Runtime selecionados",
+    "autoDeleteExtensionPacks": "Auto-excluir Pacotes de Extensão de Tempo de Execução menos usados recentemente",
+    "autoUpdateExtensionPacks": "Auto-atualizar Pacotes de Extensão de Tempo de Execução selecionados",
     "useHFProxy.label": "Usar Proxy do Hugging Face do LM Studio",
     "useHFProxy.hint": "Usar o Proxy do Hugging Face do LM Studio para buscar e baixar modelos. Isso pode ajudar usuários que têm problemas acessando o Hugging Face diretamente.",
     "separateReasoningContentInResponses": "Quando aplicável, separar `reasoning_content` e `content` em respostas da API",
