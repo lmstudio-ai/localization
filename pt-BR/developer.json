@@ -22,7 +22,7 @@
     "serverOptions/network/subtitle": "Expor servidor a dispositivos na rede",
     "serverOptions/network/hint1": "Se deve permitir conexões de outros dispositivos na rede.",
     "serverOptions/network/hint2": "Se não marcado, o servidor escutará apenas em localhost.",
-    "serverOptions/verboseLogging/title": "Logs Detalhados",
+    "serverOptions/verboseLogging/title": "Registros Detalhados",
     "serverOptions/verboseLogging/subtitle": "Ativar registros detalhados para o servidor local",
     "serverOptions/contentLogging/title": "Logar Prompts e Respostas",
     "serverOptions/contentLogging/subtitle": "Configurações de registro de requisição / resposta local",
@@ -58,8 +58,8 @@
     "serverOptions/stop/error": "Falha ao parar o servidor",
 
     "serverLogs/scrollToBottom": "Pular para o final",
-    "serverLogs/clearLogs": "Limpar logs ({{shortcut}})",
-    "serverLogs/openLogsFolder": "Abrir pasta de logs do servidor",
+    "serverLogs/clearLogs": "Limpar registros ({{shortcut}})",
+    "serverLogs/openLogsFolder": "Abrir pasta de registros do servidor",
 
     "runtimeSettings/title": "Configurações de Tempo de Execução",
     "runtimeSettings/chooseRuntime/title": "Seleções",
@@ -154,7 +154,7 @@
             "title": "Entrada de Imagem"
         },
         "embeddings": {
-            "title": "Embeddings"
+            "title": "Vetores"
         },
         "toolUse": {
             "title": "Uso de Ferramentas",
