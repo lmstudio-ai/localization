@@ -539,7 +539,7 @@
         },
         "download": {
             "title": "Baixar <preset-name /> do LM Studio Hub",
-            "subtitle": "Salvar <custom-name /> em suas predefinições. Fazendo isso você poderá usar esta predefinição no app",
+            "subtitle": "Salvar <custom-name /> em suas predefinições. Fazendo isso você poderá usar esta predefinição no aplicativo",
             "button": "Baixar",
             "button/loading": "Baixando...",
             "cancel": "Cancelar",
