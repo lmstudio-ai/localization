@@ -39,7 +39,7 @@
     "serverOptions/fileLoggingMode/full/title": "Completo",
     "serverOptions/fileLoggingMode/full/hint": "Não truncar requisições longas.",
     "serverOptions/jitModelLoading/title": "Carregamento de Modelo Just-in-Time",
-    "serverOptions/jitModelLoading/hint": "Quando ativado, se uma requisição especificar um modelo que não está carregado, ele será automaticamente carregado e usado. Além disso, o endpoint \"/v1/models\" também incluirá modelos que ainda não estão carregados.",
+    "serverOptions/jitModelLoading/hint": "Quando ativado, se uma requisição especificar um modelo que não está carregado, ele será automaticamente carregado e usado. Além disso, o vetor \"/v1/models\" também incluirá modelos que ainda não estão carregados.",
     "serverOptions/loadModel/error": "Falha ao carregar modelo",
     "serverOptions/jitModelLoadingTTL/title": "Auto descarregar modelos JIT não usados",
     "serverOptions/jitModelLoadingTTL/hint": "Um modelo que foi carregado Just-in-time (JIT) para servir uma requisição de API será automaticamente descarregado após ficar sem uso por alguma duração (TTL).",
@@ -140,7 +140,7 @@
         "tabChipTitle": "Docs do Desenvolvedor",
         "newToolUsePopover": "Trechos de Código agora estão disponíveis aqui em \"Docs do Desenvolvedor\". Clique aqui para começar com uso de ferramentas!",
         "newToolUsePopoverTitle": "📚 Docs do Desenvolvedor",
-        "learnMore": "ℹ️ 👾 Para saber mais sobre endpoints do servidor local LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
+        "learnMore": "ℹ️ 👾 Para saber mais sobre vetores do servidor local LM Studio, visite a [documentação](https://lmstudio.ai/docs).",
         "helloWorld": {
             "title": "Olá, Mundo!"
         },
@@ -167,10 +167,10 @@
         "newBadge": "Novo"
     },
 
-    "endpoints/openaiCompatRest/title": "Endpoints suportados{{extra}}",
+    "endpoints/openaiCompatRest/title": "Vetores suportados{{extra}}",
     "endpoints/openaiCompatRest/segmentedLabel": "Tipo-OpenAI",
     "endpoints/openaiCompatRest/getModels": "Listar os modelos carregados atualmente",
-    "endpoints/openaiCompatRest/postCompletions": "Modo de Completar Texto. Prediz o(s) próximo(s) token(s) dado um prompt. Nota: OpenAI considera este endpoint 'depreciado'.",
+    "endpoints/openaiCompatRest/postCompletions": "Modo de Completar Texto. Prediz o(s) próximo(s) token(s) dado um prompt. Nota: OpenAI considera este vetor 'depreciado'.",
     "endpoints/openaiCompatRest/postChatCompletions": "Completar Conversa. Envia um histórico de conversa para o modelo predizer a próxima resposta do assistente",
     "endpoints/openaiCompatRest/postEmbeddings": "Vetorização de Texto. Gera vetores de texto para uma entrada fornecida. Aceita uma string ou array de strings.",
     "endpoints/openaiCompatRest/postResponses": "Interface avançada para gerar respostas de modelo. Crie interações com estado passando o id de respostas anteriores como entrada para a próxima.",
