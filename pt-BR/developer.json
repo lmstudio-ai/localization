@@ -11,7 +11,7 @@
     "serverOptions/port/hint": "Defina qual porta de rede o servidor local usará. Por padrão, o LM Studio usa a porta 1234. Você pode precisar mudar isso se a porta já estiver em uso.",
     "serverOptions/port/subtitle": "A porta para escutar",
     "serverOptions/autostart/title": "Auto-iniciar servidor",
-    "serverOptions/autostart/hint": "Ligar automaticamente o servidor de LLMs locais do LM Studio ao iniciar o app ou serviço",
+    "serverOptions/autostart/hint": "Ligar automaticamente o servidor de LLMs locais do LM Studio ao iniciar o aplicativo ou serviço",
     "serverOptions/port/integerWarning": "Número da porta deve ser um inteiro",
     "serverOptions/port/invalidPortWarning": "Porta deve ser entre 1 e 65535",
     "serverOptions/cors/title": "Ativar CORS",
