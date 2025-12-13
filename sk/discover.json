@@ -22,7 +22,7 @@
   "download.option.recommended/title": "Odporúčané",
   "download.option.recommended/description": "Na základe vášho hardvéru je táto možnosť odporúčaná.",
   "download.option.downloaded/title": "Stiahnuté",
-  "download.option.downloading/title": "Sťahovanie ({{progressPercentile}}%)",
+  "download.option.downloading/title": "Sťahovanie ({{progressPercentile}} %)",
   "failedToStartDownload": "Nepodarilo sa spustiť sťahovanie",
   
   "feed.action.refresh": "Obnoviť kanál"
