@@ -1,10 +1,10 @@
 {
   "pageTitle": "我的模型",
-  "filterModels.placeholder": "筛选模型...",
+  "filterModels.placeholder": "筛选模型……",
   "aggregate_one": "您有 {{count}} 个本地模型，占用了 {{size}} 的磁盘空间。",
   "aggregate_other": "您有 {{count}} 个本地模型，占用了 {{size}} 的磁盘空间。",
 
-  "noModels.title": "您的本地 LLM 将显示在这里。",
+  "noModels.title": "您的本地模型将显示在这里。",
   "noModels.discoverButtonText.prefix": "点击左侧边栏的",
   "noModels.discoverButtonText.suffix": "按钮来发现有趣的 LLM。",
   "noModels.discoverModelsPrompt": "去探索一些本地 LLM 吧！",
@@ -12,9 +12,9 @@
   "modelsTable.arch/label": "架构",
   "modelsTable.params/label": "参数量",
   "modelsTable.publisher/label": "发布者",
-  "modelsTable.displayName/label": "名字",
+  "modelsTable.displayName/label": "名称",
   "modelsTable.modelKey/label": "模型密钥",
-  "modelsTable.size/label": "尺寸",
+  "modelsTable.size/label": "大小",
   "modelsTable.dateModified/label": "修改日期",
   "modelsTable.actions/label": "操作",
 
@@ -31,16 +31,17 @@
 
   "loader.model.bundled": "捆绑",
   "action.cancel": "取消",
-  "indexingOngoing": "正在索引模型... 这可能需要几秒钟",
+  "indexingOngoing": "正在索引模型…… 这可能需要几秒钟",
+  "indexingPageLoaderText": "正在索引模型……",
   "index/error_one": "索引以下文件夹失败：",
   "index/error_other": "索引以下文件夹失败：",
   "badModels/title_one": "索引以下模型失败：",
   "badModels/title_other": "索引以下模型失败：",
   "badModels.virtualModelIncorrectPlacement": "虚拟模型放置错误。预期位置为 {{expected}}。实际位置为 {{actual}}。",
-  "badModels.virtualModelBadManifest": "无效的虚拟模型清单 (model.yaml)：",
+  "badModels.virtualModelBadManifest": "无效的虚拟模型清单（model.yaml）：",
   "unresolvedVirtualModels/title_one": "解析以下虚拟模型失败：",
   "unresolvedVirtualModels/title_other": "解析以下虚拟模型失败：",
-  "unresolvedVirtualModels.missingModel": "缺少依赖模型：{{missing}}。依赖路径：\n{{chain}}",
+  "unresolvedVirtualModels.missingModel": "缺少依赖模型： {{missing}}。依赖路径：\n{{chain}}",
   "unresolvedVirtualModels.circular": "检测到循环依赖。",
   "unresolvedVirtualModels.fix": "修复",
   "unresolvedVirtualModels.revealInExplorer": "在文件资源管理器中显示",
@@ -48,7 +49,7 @@
   "unresolvedVirtualModels.reveal/error": "显示失败",
 
   "modelsDirectory": "模型目录",
-  "modelsDirectory.change": "更改...",
+  "modelsDirectory.change": "更改……",
   "modelsDirectory.change/error": "修改模型路径失败",
   "modelsDirectory.reset": "重置为默认路径",
   "modelsDirectory.reveal.mac": "在 Finder 中显示",
@@ -67,14 +68,14 @@
   "contextMenu/unpin": "取消固定",
   "contextMenu/copyAbsolutePath": "复制绝对路径",
   "contextMenu/copyModelName": "复制模型路径",
- "contextMenu/copyModelDefaultIdentifier": "复制默认标识符",
+  "contextMenu/copyModelDefaultIdentifier": "复制默认标识符",
   "contextMenu/showRawMetadata": "查看原始元数据",
   "contextMenu/openOnHuggingFace": "在 Hugging Face 上打开",
   "contextMenu": {
     "showOnWeb": "在网页上显示",
     "pullLatest": {
       "label": "拉取最新版本",
-      "checking": "检查更新中...",
+      "checking": "检查更新中……",
       "upToDate": "已是最新版本",
       "error": "检查更新失败"
     }
@@ -82,12 +83,12 @@
   "tooltip/moreActions": "更多操作",
   "tooltip/getInfo": "获取信息",
   "tooltip/editModelDefaultConfig": "编辑模型默认配置",
-  "tooltip/editModelDefaultConfig/override": "编辑模型默认配置（*当前有覆盖）",
+  "tooltip/editModelDefaultConfig/override": "编辑模型默认配置（* 当前有覆盖）",
   "tooltip/visionBadge": "此模型支持图像输入",
   "tooltip/toolUseBadge": "此模型经过工具使用的训练",
 
-  "visionBadge/label": "此模型支持图像输入",
-  "toolUseBadge/label": "此模型经过工具使用的训练",
+  "visionBadge/label": "视觉功能启用",
+  "toolUseBadge/label": "经过工具使用训练",
 
   "loader.action.load": "加载模型",
   "loader.action.clearChanges": "清除更改",
@@ -95,6 +96,16 @@
   "loader.info.clickOnModelToLoad": "点击模型以加载",
   "loader.info.configureLoadParameters": "配置模型加载参数",
   "loader.info.activeGeneratorWarning": "您正在使用带有自定义生成器的插件。当前加载的模型是否适用于该插件，取决于生成器的具体实现方式",
+  "loader.guardrails.estimatedMemoryUsage": "预计内存使用",
+  "loader.guardrails.total": "总计",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "此模型的内存估计不可用",
+  "loader.guardrails.notEnoughResources": "当前设置下没有足够资源加载模型",
+  "loader.guardrails.notEnoughResources/options": "选项",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "您的系统似乎没有足够的内存来加载此模型。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在设置中调整模型加载防护措施，或按住 <altOptionKey /> 强制加载。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "加载过大的模型可能导致系统超载并冻结。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（不推荐）始终允许「强制加载」而无需按住 Alt/Option 键",
 
   "virtual": {
     "local": {
@@ -110,6 +121,12 @@
       "next": "下一步",
       "confirm": "创建",
       "error": "创建虚拟模型失败"
+    },
+    "altsSelect": {
+      "title": "选择源模型",
+      "resetButton": "重置为默认",
+      "description": "此模型有多个可能的来源。选择在加载此模型时默认使用的来源",
+      "trigger": "模型变体"
     }
   }
 }
