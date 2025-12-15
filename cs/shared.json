@@ -1,3 +1,305 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Kopírovat odkaz na stažení modelu"
+  "copyLmStudioLinkButton/toolTip": "Kopírovat odkaz pro stažení modelu",
+
+  "filter.noMatches": "Žádné shody",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Rozbalování prostředků"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Kontrola kompatibility runtime"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexování runtimes"
+    },
+    "indexingModels": {
+      "badge": "Indexování modelů"
+    },
+    "authenticating": {
+      "badge": "Ověřování"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Aktualizace rozšiřujícího balíčku ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Přihlásit se do LM Studio Hub",
+    "authError": "Ověření selhalo",
+    "noAccount": "Nemáte účet?",
+    "signUp": "Zaregistrovat se",
+    "havingTrouble": "Máte potíže?",
+    "retry": "Zkusit znovu"
+  },
+  "artifacts": {
+    "fetchError": "Nepodařilo se načíst artefakty",
+    "organizationVisible": "Viditelné pro organizaci"
+  },
+
+  "incompatible": "Nekompatibilní",
+  "compatible": "Kompatibilní",
+  "public": "Veřejné",
+  "private": "Soukromé",
+  "yes": "Ano",
+  "no": "Ne",
+  "go": "Jít",
+
+  "proceedWithEllipsis": "Pokračovat...",
+  "proceed": "Pokračovat",
+  "inProgress": "Probíhá...",
+  "failed": "Selhalo",
+  "pending": "Čekající",
+  "doneWithExclamation": "Hotovo!",
+  "done": "Hotovo",
+  "beta": "Beta",
+
+  "complete": {
+    "completeWithEllipsis": "Dokončit...",
+    "complete": "Dokončit",
+    "completingWithEllipsis": "Dokončování...",
+    "completing": "Dokončování",
+    "completedWithExclamation": "Dokončeno!",
+    "completed": "Dokončeno"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "Zrušit...",
+    "cancel": "Zrušit",
+    "cancelingWithEllipsis": "Ruší se...",
+    "canceling": "Ruší se",
+    "canceled": "Zrušeno"
+  },
+
+  "next": {
+    "nextWithEllipsis": "Další...",
+    "next": "Další"
+  },
+
+  "back": {
+    "backWithEllipsis": "Zpět...",
+    "back": "Zpět"
+  },
+
+  "close": {
+    "closeWithEllipsis": "Zavřít...",
+    "close": "Zavřít",
+    "closingWithEllipsis": "Zavírání...",
+    "closing": "Zavírání",
+    "closedWithExclamation": "Zavřeno!",
+    "closed": "Zavřeno"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "Smazat...",
+    "delete": "Smazat",
+    "deletingWithEllipsis": "Mazání...",
+    "deleting": "Mazání",
+    "deletedWithExclamation": "Smazáno!",
+    "deleted": "Smazáno"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "Zkusit znovu...",
+    "retry": "Zkusit znovu",
+    "retryingWithEllipsis": "Zkouší se znovu...",
+    "retrying": "Zkouší se znovu"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "Obnovit...",
+    "refresh": "Obnovit",
+    "refreshingWithEllipsis": "Obnovování...",
+    "refreshing": "Obnovování",
+    "refreshedWithExclamation": "Obnoveno!",
+    "refreshed": "Obnoveno"
+  },
+
+  "confirm": {
+    "confirm": "Potvrdit",
+    "confirmingWithEllipsis": "Potvrzování...",
+    "confirming": "Potvrzování",
+    "confirmedWithExclamation": "Potvrzeno!",
+    "confirmed": "Potvrzeno"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "Kopírovat...",
+    "copy": "Kopírovat",
+    "copyingWithEllipsis": "Kopírování...",
+    "copying": "Kopírování",
+    "copiedWithExclamation": "Zkopírováno!",
+    "copied": "Zkopírováno"
+  },
+
+  "edit": {
+    "editWithEllipsis": "Upravit...",
+    "edit": "Upravit",
+    "editingWithEllipsis": "Upravování...",
+    "editing": "Upravování",
+    "editedWithExclamation": "Upraveno!",
+    "edited": "Upraveno"
+  },
+
+  "load": {
+    "loadWithEllipsis": "Načíst...",
+    "load": "Načíst",
+    "loadingWithEllipsis": "Načítání...",
+    "loading": "Načítání",
+    "loadedWithExclamation": "Načteno!",
+    "loaded": "Načteno"
+  },
+
+  "save": {
+    "saveWithEllipsis": "Uložit...",
+    "save": "Uložit",
+    "savingWithEllipsis": "Ukládání...",
+    "saving": "Ukládání",
+    "savedWithExclamation": "Uloženo!",
+    "saved": "Uloženo"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "Uložit jako...",
+    "saveAs": "Uložit jako"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Uložit jako nový...",
+    "saveAsNew": "Uložit jako nový"
+  },
+
+  "search": {
+    "searchWithEllipsis": "Hledat...",
+    "search": "Hledat",
+    "searchingWithEllipsis": "Vyhledávání...",
+    "searching": "Vyhledávání"
+  },
+
+  "update": {
+    "updateWithEllipsis": "Aktualizovat...",
+    "update": "Aktualizovat",
+    "updatingWithEllipsis": "Aktualizování...",
+    "updating": "Aktualizování",
+    "updatedWithExclamation": "Aktualizováno!",
+    "updated": "Aktualizováno"
+  },
+
+  "create": {
+    "createWithEllipsis": "Vytvořit...",
+    "create": "Vytvořit",
+    "creatingWithEllipsis": "Vytváření",
+    "creating": "Vytváření",
+    "createdWithExclamation": "Vytvořeno!",
+    "created": "Vytvořeno"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "Obnovit...",
+    "reset": "Obnovit",
+    "resettingWithEllipsis": "Obnovování...",
+    "resetting": "Obnovování"
+  },
+
+  "pause": {
+    "pause": "Pozastavit",
+    "pausingWithEllipsis": "Pozastavování...",
+    "pausing": "Pozastavování",
+    "paused": "Pozastaveno"
+  },
+
+  "download": {
+    "download": "Stáhnout",
+    "downloadingWithEllipsis": "Stahování...",
+    "downloading": "Stahování",
+    "downloadedWithExclamation": "Staženo!",
+    "downloaded": "Staženo"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "Nahrát...",
+    "upload": "Nahrát",
+    "uploadingWithEllipsis": "Nahrávání...",
+    "uploading": "Nahrávání",
+    "uploadedWithExclamation": "Nahráno!",
+    "uploaded": "Nahráno"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "Odstranit...",
+    "remove": "Odstranit",
+    "removingWithEllipsis": "Odstraňování...",
+    "removing": "Odstraňování",
+    "removedWithExclamation": "Odstraněno!",
+    "removed": "Odstraněno"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "Odinstalovat...",
+    "uninstall": "Odinstalovat",
+    "uninstallingWithEllipsis": "Odinstalování...",
+    "uninstalling": "Odinstalování",
+    "uninstalledWithExclamation": "Odinstalováno!",
+    "uninstalled": "Odinstalováno"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "Obnovit...",
+    "resume": "Obnovit",
+    "resumingWithEllipsis": "Obnovování...",
+    "resuming": "Obnovování"
+  },
+
+  "start": {
+    "startWithEllipsis": "Spustit...",
+    "start": "Spustit",
+    "startingWithEllipsis": "Spouštění...",
+    "starting": "Spouštění",
+    "started": "Spuštěno"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "Zastavit...",
+    "stop": "Zastavit",
+    "stoppingWithEllipsis": "Zastavování...",
+    "stopping": "Zastavování",
+    "stoppedWithExclamation": "Zastaveno!",
+    "stopped": "Zastaveno"
+  },
+
+  "import": {
+    "importWithEllipsis": "Importovat...",
+    "import": "Importovat",
+    "importingWithEllipsis": "Importování...",
+    "importing": "Importování",
+    "importedWithExclamation": "Importováno!",
+    "imported": "Importováno"
+  },
+
+  "letsGo": {
+    "letsGo": "Jdeme na to",
+    "letsGoWithEllipsis": "Jdeme na to...",
+    "letsGoWithExclamation": "Jdeme na to!"
+  },
+
+  "run": {
+    "runWithEllipsis": "Spustit...",
+    "run": "Spustit",
+    "runningWithEllipsis": "Běží...",
+    "running": "Běží"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "Konfigurovat...",
+    "configure": "Konfigurovat",
+    "configuringWithEllipsis": "Konfigurace...",
+    "configured": "Nakonfigurováno"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Publikovat...",
+    "publish": "Publikovat",
+    "publishingWithEllipsis": "Publikování...",
+    "publishing": "Publikování",
+    "publishedWithExclamation": "Publikováno!",
+    "published": "Publikováno"
+  }
 }
