@@ -224,7 +224,7 @@
   },
 
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "tokensPerSecond": "{{tokensPerSecond}} tokens/s",
     "predictedTokensCount": "{{predictedTokensCount}} tokens",
     "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s to first token",
     "stopReason": "Stop reason: {{stopReason}}",
@@ -237,7 +237,9 @@
     "stopReason.maxPredictedTokensReached": "Max Predicted Tokens Reached",
     "stopReason.contextLengthReached": "Context Length Limit Reached",
     "speculativeDecodedBy": "Draft model: {{decodedBy}}",
-    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)"
+    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% draft tokens accepted",
+    "speculativeDecodingTooltip": "Accepted {{accepted}}/{{total}} draft tokens"
   },
 
   "tabs": {
