@@ -193,8 +193,6 @@
       "startRunningDevelopmentPlugin/error": "No s'ha pogut executar el plugin en mode desenvolupador",
       "stopRunningDevelopmentPlugin/error": "No s'ha pogut parar l'execució del plugin en mode desenvolupador",
       "forceReInitPlugin/error": "No s'ha pogut reiniciar el plugin"
-
-
     },
     "pluginConfiguration": {
       "title": "Configuració dels Plugins",
@@ -226,7 +224,7 @@
   },
 
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} tok/seg",
+    "tokensPerSecond": "{{tokensPerSecond}} tokens/seg",
     "predictedTokensCount": "{{predictedTokensCount}} tokens",
     "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s pel primer token",
     "stopReason": "Motiu d'aturada: {{stopReason}}",
@@ -239,7 +237,9 @@
     "stopReason.maxPredictedTokensReached": "Predicció de Tokens Màxima Assolida",
     "stopReason.contextLengthReached": "Límit de Llargada de Context Assolit",
     "speculativeDecodedBy": "Esborrany del model: {{decodedBy}}",
-    "speculativeDecodingStats": "Acceptats {{accepted}}/{{total}} tokens previstos ({{percentage}}%) [TODO]" 
+    "speculativeDecodingStats": "{{accepted}}/{{total}} tokens previstos acceptats ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% de tokens previstos acceptats",
+    "speculativeDecodingTooltip": "Acceptats {{accepted}}/{{total}} tokens previstos"
   },
 
   "tabs": {
