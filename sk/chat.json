@@ -224,7 +224,7 @@
   },
   
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} tokenov/s",
+    "tokensPerSecond": "{{tokensPerSecond}} tok/s",
     "predictedTokensCount": "{{predictedTokensCount}} tokenov",
     "timeToFirstTokenSec": "{{timeToFirstTokenSec}} s do prvého tokenu",
     "stopReason": "Dôvod zastavenia: {{stopReason}}",
