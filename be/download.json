@@ -1,0 +1,43 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Вымаю файлы...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Вымаю файлы...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Вымаю файлы...",
+  "postDownloadActionExecutor.modifyModelData/status": "Абнаўляю дадзеныя мадэлі...",
+  "postDownloadActionExecutor.notification/status": "Паведамляю карыстачу...",
+  "postDownloadActionExecutor.writeString/status": "Запісваю метададзеныя...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Абнаўляю выбраную версію...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Выдаляю нескарыстаныя пашырэнні...",
+  "postDownloadActionExecutor.pluginInstall/status": "Усталёўваю убудову...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Выдаляю убудову...",
+
+  "finalizing": "Сканчаю пампаванне... (гэта можа заняць крыху часу)",
+  "noOptions": "Няма дапасаваных варыянтаў для спампоўкі",
+
+  "deeplink/confirmation/title": "Спампаваць мадэль з Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Абраць рэкамендаванае",
+  "deeplink/confirmation/selectOption": "Абраць варыянт да пампавання",
+  "deeplink/confirmation/recommendedOption": "Напэўна, найлепшы выбар для большасці карыстачоў",
+  "deeplink/confirmation/downloadButton": "Спампаваць",
+  "deeplink/confirmation/nevermindButton": "Скасаваць",
+  "deeplink/confirmation/modelPresent/title": "Мадэль Hugging Face знойдзена ✅",
+  "deeplink/confirmation/modelPresent/body": "Добрыя навіны! Гэты файл мадэлі ўжо даступны на вашым кампутары.",
+  "deeplink/confirmation/loadInChat": "Загрузіць {{ modelName }} у новы чат",
+  "deeplink/error/modelNotFound/title": "Ой, не магу знайсці гэтую мадэль",
+  "deeplink/error/modelNotFound/body": "Праверце назву мадэлі і паспрабуйце іншы варыянт да пампавання.",
+  "deeplink/actions/trySearching": "Паспрабуйце знайсці {{modelName}} на Hugging Face",
+
+  "downloadsPanel/title": "Спампоўкі",
+  "downloadsPanel/sectionTitle/ongoing": "Бягучыя",
+  "downloadsPanel/sectionTitle/completed": "Скончаныя",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Паказаць у Finder",
+      "mac/error": "Не магу паказаць у Finder",
+      "nonMac": "Паказаць у Правадыру",
+      "nonMac/error": "Не магу паказаць у Правадыру"
+    },
+    "completed": "Пампаванне скончанае",
+    "loadModel": "Загрузіць мадэль"
+  }
+}
