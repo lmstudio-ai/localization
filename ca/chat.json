@@ -224,7 +224,7 @@
   },
 
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} tokens/seg",
+    "tokensPerSecond": "{{tokensPerSecond}} tok/seg",
     "predictedTokensCount": "{{predictedTokensCount}} tokens",
     "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s pel primer token",
     "stopReason": "Motiu d'aturada: {{stopReason}}",
