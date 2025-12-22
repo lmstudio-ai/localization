@@ -32,6 +32,7 @@
   "loader.model.bundled": "Empaquetat",
   "action.cancel": "Cancel·la",
   "indexingOngoing": "Indexant models... Pot trigar una estona",
+  "indexingPageLoaderText": "Indexant models...",
   "index/error_one": "No s'ha pogut indexar la següent carpeta:",
   "index/error_other": "No s'ha pogut indexar les següents carpetes:",
   "badModels/title_one": "No s'ha pogut indexar el següent model:",
@@ -95,6 +96,16 @@
   "loader.info.clickOnModelToLoad": "Fes clic en un model per carregar-lo",
   "loader.info.configureLoadParameters": "Configura els paràmetres de càrrega del model",
   "loader.info.activeGeneratorWarning": "Estàs utilitzant un plugin amb un generador personalitzat. El plugin pot o no afectar al model ja carregat, depenent de la implementació del plugin",
+  "loader.guardrails.estimatedMemoryUsage": "Memòria en Ús Aproximada",
+  "loader.guardrails.total": "Total",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "Memòria aproximada no disponible per aquest model",
+  "loader.guardrails.notEnoughResources": "No es pot carregar el model amb la configuració actual degut a una falta de recursos",
+  "loader.guardrails.notEnoughResources/options": "Opcions",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "El teu sistema no té suficient memòria per carregar aquest model.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Pots ajustar la protecció de càrrega del model a la configuració o mantenir <altOptionKey /> per carregar-lo de totes maneres.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Carregar un model massa gran pot sobrecarregar el teu sistema i provocar inestabilitat.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carregar Igualment' sense mantenir presionat Alt/Option",
 
   "virtual": {
     "local": {
@@ -110,6 +121,12 @@
       "next": "Següent",
       "confirm": "Crea",
       "error": "No s'ha pogut crear el model virtual"
+    },
+    "altsSelect": {
+      "title": "Selecciona una font pel model",
+      "resetButton": "Torna al valor per defecte",
+      "description": "Aquest model té múltiples fonts possibles. Selecciona quina s'hauria d'utilitzar quan es carregui el model",
+      "trigger": "Variants del model"
     }
   }
 }
