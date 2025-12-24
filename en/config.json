@@ -139,7 +139,7 @@
   "llm.load.seed/title": "Seed",
   "llm.load.seed/subTitle": "The seed for the random number generator used in text generation. -1 is random",
   "llm.load.seed/info": "Random Seed: Sets the seed for random number generation to ensure reproducible results",
-  "llm.load.numCpuExpertLayersRatio/title": "Force Model Expert Weights onto CPU",
+  "llm.load.numCpuExpertLayersRatio/title": "Number of layers for which to force MoE weights onto CPU",
   "llm.load.numCpuExpertLayersRatio/subTitle": "Number of layers to force the experts into CPU. Saves VRAM and can be faster than partial GPU offload. Not recommended if the model fits entirely in VRAM.",
   "llm.load.numCpuExpertLayersRatio/info": "Specifies the number of layers to force the expert into CPU. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast.",
 
