@@ -15,7 +15,7 @@
   "modelsTable.displayName/label": "Názov",
   "modelsTable.modelKey/label": "Kľúč modelu",
   "modelsTable.size/label": "Veľkosť",
-  "modelsTable.dateModified/label": "Dátum úpravy",
+  "modelsTable.dateModified/label": "Upravené",
   "modelsTable.actions/label": "Akcie",
   
   "modelsTable.quant/label": "Kvantizácia",
@@ -123,9 +123,9 @@
       "error": "Nepodarilo sa vytvoriť virtuálny model"
     },
     "altsSelect": {
-      "title": "Vyberte zdrojový model",
+      "title": "Zmeniť zdroj modelu",
       "resetButton": "Obnoviť na predvolený",
-      "description": "Tento model má viacero možných zdrojov. Vyberte, ktorý sa má použiť predvolene pri načítaní modelu",
+      "description": "Pre tento model je dostupných viacero zdrojových súborov.",
       "trigger": "Varianty modelu"
     }
   }
