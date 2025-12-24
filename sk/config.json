@@ -139,9 +139,9 @@
   "llm.load.seed/title": "Inicializačné číslo",
   "llm.load.seed/subTitle": "Seed pre generátor náhodných čísel používaný pri generovaní textu. -1 znamená náhodné",
   "llm.load.seed/info": "Náhodný Seed: Nastavuje seed pre generovanie náhodných čísel, aby sa zabezpečila reprodukovateľnosť výsledkov",
-  "llm.load.numCpuExpertLayersRatio/title": "Presunúť váhy expertov do CPU",
-  "llm.load.numCpuExpertLayersRatio/subTitle": "Určuje, či vynútiť váhy MoE expertov do RAM CPU. Šetrí VRAM a môže byť rýchlejšie ako čiastočný prenos na GPU. Neodporúča sa, ak model úplne sedí v VRAM.",
-  "llm.load.numCpuExpertLayersRatio/info": "Určuje, či vložiť všetky MoE expert vrstvy do RAM CPU. Attention vrstvy zostávajú na GPU, šetrí VRAM a zachováva pomerne rýchlu inferenciu",
+  "llm.load.numCpuExpertLayersRatio/title": "Počet vrstiev, pre ktoré sa majú MoE váhy presunúť na CPU",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "Počet vrstiev, v ktorých sa majú experti presunúť na CPU. Šetrí VRAM a môže byť rýchlejší než čiastočné presunutie na GPU. Neodporúča sa, ak sa celý model zmestí do VRAM.",
+  "llm.load.numCpuExpertLayersRatio/info": "Určuje počet vrstiev, v ktorých sa majú experti presunúť na CPU. Nechá vrstvy pozornosti na GPU, čím šetrí VRAM a zároveň udržiava pomerne rýchlu inferenciu.",
   
   "llm.load.llama.evalBatchSize/title": "Veľkosť dávky pri vyhodnocovaní",
   "llm.load.llama.evalBatchSize/subTitle": "Počet vstupných tokenov spracovávaných súčasne. Zvýšenie zlepšuje výkon, ale zvyšuje využitie pamäte",
