@@ -1,43 +1,43 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extraindo arquivos...",
-  "postDownloadActionExecutor.tarGzExtraction/status": "Extraindo arquivos...",
-  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraindo arquivos...",
-  "postDownloadActionExecutor.modifyModelData/status": "Atualizando dados do modelo...",
-  "postDownloadActionExecutor.notification/status": "Notificando o usuário...",
-  "postDownloadActionExecutor.writeString/status": "Escrevendo metadados...",
-  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Atualizando a versão selecionada...",
-  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Excluindo extensões não utilizadas...",
-  "postDownloadActionExecutor.pluginInstall/status": "Instalando plugin...",
-  "postDownloadActionExecutor.pluginUninstall/status": "Desinstalando plugin...",
+    "postDownloadActionExecutor.zipExtraction/status": "Extraindo arquivos...",
+    "postDownloadActionExecutor.tarGzExtraction/status": "Extraindo arquivos...",
+    "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraindo arquivos...",
+    "postDownloadActionExecutor.modifyModelData/status": "Atualizando dados do modelo...",
+    "postDownloadActionExecutor.notification/status": "Notificando usuário...",
+    "postDownloadActionExecutor.writeString/status": "Escrevendo metadados...",
+    "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Atualizando versão selecionada...",
+    "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Excluindo extensões não usadas...",
+    "postDownloadActionExecutor.pluginInstall/status": "Instalando plugin...",
+    "postDownloadActionExecutor.pluginUninstall/status": "Desinstalando plugin...",
 
-  "finalizing": "Finalizando o download... (isso pode levar alguns instantes)",
-  "noOptions": "Nenhuma opção compatível disponível para download",
+    "finalizing": "Finalizando download... (isso pode levar alguns momentos)",
+    "noOptions": "Nenhuma opção compatível disponível para download",
 
-  "deeplink/confirmation/title": "Baixar modelo do Hugging Face 🤗",
-  "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Selecionar recomendado",
-  "deeplink/confirmation/selectOption": "Selecionar opção de download",
-  "deeplink/confirmation/recommendedOption": "Provavelmente a melhor opção para a maioria dos usuários",
-  "deeplink/confirmation/downloadButton": "Baixar",
-  "deeplink/confirmation/nevermindButton": "Deixa pra lá",
-  "deeplink/confirmation/modelPresent/title": "Modelo do Hugging Face Encontrado ✅",
-  "deeplink/confirmation/modelPresent/body": "Boas notícias! Este arquivo de modelo já está disponível na sua máquina.",
-  "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} em uma nova conversa",
-  "deeplink/error/modelNotFound/title": "Ops! Não foi possível encontrar este modelo",
-  "deeplink/error/modelNotFound/body": "Verifique o nome do modelo e considere tentar uma opção de download diferente.",
-  "deeplink/actions/trySearching": "Tente pesquisar por {{modelName}} no Hugging Face",
+    "deeplink/confirmation/title": "Baixar modelo do Hugging Face 🤗",
+    "deeplink/confirmation/subtitle": "{{modelName}}",
+    "deeplink/confirmation/selectRecommended": "Selecionar recomendado",
+    "deeplink/confirmation/selectOption": "Selecione opção de download",
+    "deeplink/confirmation/recommendedOption": "Provavelmente a melhor opção para a maioria dos usuários",
+    "deeplink/confirmation/downloadButton": "Baixar",
+    "deeplink/confirmation/nevermindButton": "Deixa pra lá",
+    "deeplink/confirmation/modelPresent/title": "Modelo Hugging Face Encontrado ✅",
+    "deeplink/confirmation/modelPresent/body": "Boas notícias! Este arquivo de modelo já está disponível em sua máquina local.",
+    "deeplink/confirmation/loadInChat": "Carregar {{ modelName }} em uma nova conversa",
+    "deeplink/error/modelNotFound/title": "Ops, não conseguimos encontrar este modelo",
+    "deeplink/error/modelNotFound/body": "Verifique o nome do modelo e considere tentar uma opção de download diferente.",
+    "deeplink/actions/trySearching": "Tente buscar por {{modelName}} no Hugging Face",
 
-  "downloadsPanel/title": "Downloads",
-  "downloadsPanel/sectionTitle/ongoing": "Em Andamento",
-  "downloadsPanel/sectionTitle/completed": "Concluídos",
-  "downloadsPanel": {
-    "reveal": {
-      "mac": "Revelar no Finder",
-      "mac/error": "Falha ao revelar no Finder",
-      "nonMac": "Revelar no Explorador de Arquivos",
-      "nonMac/error": "Falha ao revelar no Explorador de Arquivos"
-    },
-    "completed": "Download Concluído",
-    "loadModel": "Carregar Modelo"
-  }
+    "downloadsPanel/title": "Downloads",
+    "downloadsPanel/sectionTitle/ongoing": "Em andamento",
+    "downloadsPanel/sectionTitle/completed": "Concluído",
+    "downloadsPanel": {
+        "reveal": {
+            "mac": "Mostrar no Finder",
+            "mac/error": "Falha ao mostrar no Finder",
+            "nonMac": "Mostrar no Explorador de Arquivos",
+            "nonMac/error": "Falha ao mostrar no Explorador de Arquivos"
+        },
+        "completed": "Download Concluído",
+        "loadModel": "Carregar Modelo"
+    }
 }
