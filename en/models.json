@@ -15,7 +15,7 @@
   "modelsTable.displayName/label": "Name",
   "modelsTable.modelKey/label": "Model Key",
   "modelsTable.size/label": "Size",
-  "modelsTable.dateModified/label": "Date Modified",
+  "modelsTable.dateModified/label": "Modified",
   "modelsTable.actions/label": "Actions",
 
   "modelsTable.quant/label": "Quant",
@@ -123,9 +123,9 @@
       "error": "Failed to create virtual model"
     },
     "altsSelect": {
-      "title": "Select a source model",
+      "title": "Switch model source",
       "resetButton": "Reset to default",
-      "description": "This model has multiple possible sources. Choose which one to use by default when this model is loaded",
+      "description": "There are multiple available source files for this model.",
       "trigger": "Model variants"
     }
   }
