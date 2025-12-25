@@ -15,7 +15,7 @@
   "modelsTable.displayName/label": "Название",
   "modelsTable.modelKey/label": "Ключ модели",
   "modelsTable.size/label": "Размер",
-  "modelsTable.dateModified/label": "Дата изменения",
+  "modelsTable.dateModified/label": "Изменено",
   "modelsTable.actions/label": "Действия",
 
   "modelsTable.quant/label": "Квантиз.",
@@ -123,9 +123,9 @@
       "error": "Не удалось создать виртуальную модель"
     },
     "altsSelect": {
-      "title": "Выберите исходную модель",
+      "title": "Переключить источник модели",
       "resetButton": "Сбросить к значениям по умолчанию",
-      "description": "У этой модели несколько источников. Выберите тот, который будет использоваться по умолчанию при загрузке.",
+      "description": "Для этой модели доступно несколько исходных файлов.",
       "trigger": "Варианты моделей"
     }
   }
