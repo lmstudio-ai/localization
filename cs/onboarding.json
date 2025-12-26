@@ -1,24 +1,42 @@
 {
-  "action.skipOnboarding": "Přejít dál",
-  "action.next": "Dále",
-  "action.back": "Předchozí",
+  "action.skipOnboarding": "Přeskočit úvodní návod",
+  "action.next": "Další",
+  "action.back": "Zpět",
   "action.finish": "Dokončit",
 
   "dismissable_rag_modal": {
-    "description": "Teď můžete chatovat s vašimi vlastními dokumenty pomocí Retrieval Augmented Generation (RAG). Zde najdete, jak to funguje:",
+    "description": "Nyní můžete chatovat se svými vlastními dokumenty pomocí Retrieval Augmented Generation (RAG). Takto to funguje:",
     "instructions": {
       "attach_files": {
-        "title": "Připojit soubory",
-        "description": "Nahrát až 5 souborů najednou, s maximálním celkovým rozsahem 30MB. Podporované formáty souborů zahrnují PDF, DOCX, TXT a CSV."
+        "title": "Připojte soubory",
+        "description": "Nahrajte až 5 souborů najednou s maximální celkovou velikostí 30 MB. Podporované formáty zahrnují PDF, DOCX, TXT a CSV."
       },
       "be_specific": {
         "title": "Buďte konkrétní",
-        "description": "Při zadávání dotazů zmiňte co nejvíce detailů. To pomůže systému načíst relevantní informace z vašich dokumentů."
+        "description": "Při pokládání otázek zmiňte co nejvíce detailů. To pomůže systému získat nejrelevantnější informace z vašich dokumentů."
       },
       "get_responses": {
-        "title": "Získat odpovědi a experimentovat",
-        "description": "LLM bude zkoumat vaši otázku a načtené vstupy z vašich dokumentů a pokusí se vygenerovat odpověď. Experimentujte s různými dotazy, abyste našli to nejlepší."
+        "title": "Získejte odpovědi a experimentujte",
+        "description": "LLM se podívá na váš dotaz a načtené úryvky z vašich dokumentů a pokusí se vygenerovat odpověď. Experimentujte s různými dotazy, abyste zjistili, co funguje nejlépe."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Použití nástrojů 🛠️ (Function Calling)",
+      "text_0": "Některé modely (např. Llama 3.1/3.2, Mistral, Qwen a další) byly trénovány na používání nástrojů.",
+      "text_1": "Co to v praxi znamená: poskytnete LLM pole 'nástrojů' (signatury funkcí) ve velmi specifickém formátu a LLM může rozhodnout, zda je 'zavolá' na základě uživatelské výzvy.",
+      "text_2": "Můžete si představit případy použití jako dotazování API, spouštění kódu nebo opravdu cokoli, co lze vyjádřit jako volání funkce."
+    },
+    "step_1": {
+      "title": "Začněte s používáním nástrojů",
+      "toolUseCanWorkWithAnyModel": "Modely, které byly trénovány pro použití nástrojů, budou fungovat lépe než jiné, ale můžete zkusit použít nástroje s jakýmkoli modelem. Přečtěte si <customlink>dokumentaci</customlink>, abyste se dozvěděli více.\nModely, které byly trénovány pro použití nástrojů, budou označeny novým odznakem:",
+      "hasCompatibleModel": "🎉 Vypadá to, že již máte modely s podporou nástrojů!",
+      "downloadRecommendedModel": "Stáhněte si model, který byl trénován pro použití nástrojů:"
+    },
+    "nextButton": "Další",
+    "letsGoButton": "Načíst model a spustit server",
+    "doneButton": "Zavřít"
   }
 }
