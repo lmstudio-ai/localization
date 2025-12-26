@@ -126,7 +126,7 @@
       "title": "Switch model source",
       "resetButton": "Reset to default",
       "description": "There are multiple available source files for this model.",
-      "trigger": "Model variants"
+      "trigger": "Variants"
     }
   }
 }
