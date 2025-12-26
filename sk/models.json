@@ -126,7 +126,7 @@
       "title": "Zmeniť zdroj modelu",
       "resetButton": "Obnoviť na predvolený",
       "description": "Pre tento model je dostupných viacero zdrojových súborov.",
-      "trigger": "Varianty modelu"
+      "trigger": "Alternatívy"
     }
   }
 }
