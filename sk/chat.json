@@ -1,0 +1,248 @@
+{
+  "modelLoaderPlaceholder": "Vyberte model na načítanie",
+  "systemPromptPlaceholder": "Nastavte systémový prompt",
+  "userRoleText": "Používateľ",
+  "assistantRoleText": "Asistent",
+  "addMessageButtonText": "Pridať",
+  "addMessageButtonText/toolTip": "Pridať správu do kontextu bez spustenia predikcie",
+  "sendMessageButtonText": "Odoslať",
+  "sendMessageButtonText/toolTip": "Odoslať svoju správu a históriu konverzácie modelu na spracovanie",
+  "ejectButtonText": "Vysunúť",
+  "unloadTooltip": "Vysunúť model z pamäte",
+  "cancelButtonText": "Zrušiť",
+  "loadButtonText": "Načítať",
+  "advancedSegmentText": "Pokročilé",
+  "chatSegmentText": "Chat",
+  "chatSidebarTitle": "Chaty",
+  "newChatButton": "Nový",
+  "newFolderButton": "Nový priečinok",
+  "viewModeLabel": "Režim zobrazenia",
+  "noChatSelected": "Nie je vybraný žiadny chat",
+  "chatViewOptions": "Možnosti zobrazenia chatu",
+  "uiControls/title": "Nastavenia zobrazenia",
+  "noChatSelectedPlaceholder": "Vyberte chat",
+  "unnamedChat": "Nepomenovaný chat",
+  "emptyFolder": "Priečinok je prázdny",
+  
+  "tokenCount": "Počet tokenov",
+  "messageTokenCount": "Počet vstupných tokenov",
+  "tokenCount/hint": "Počet tokenov v správe. Počítané pomocou tokenizéra aktuálne zvoleného modelu.\n\nVyžaduje načítaný model.",
+  "messageTokenCount/hint": "Počet tokenov v správe. Počítané pomocou tokenizéra aktuálne zvoleného modelu.\n\n**Nezahŕňa** odhad tokenov v pripojených súboroch.",
+  
+  "notes": "Poznámky ku konverzácii",
+  "notes/add/first": "Pridať poznámku",
+  "notes/add/another": "Pridať ďalšiu poznámku",
+  "notes/hint": "Uložte si poznámky k tomuto rozhovoru. Poznámky slúžia len pre vašu potrebu a neposielajú sa modelu. Všetky zmeny sa ukladajú automaticky.",
+  "notes/placeholder": "Napíšte svoje poznámky sem...",
+  "notes/delete": "Odstrániť poznámku",
+  "notes/noteLabel": "Poznámka",
+  "notes/copyContent": "Kopírovať obsah poznámky",
+  
+  "actions/sendMessage/error": "Nepodarilo sa odoslať správu",
+  "actions/loadModel/error": "🥲 Nepodarilo sa načítať model",
+  "actions/addFile": "[Experimentálne] Pripojiť súbor k tejto správe\n(.pdf, textový súbor alebo .docx)",
+  "actions/addFile/label": "Pripojiť súbor",
+  "actions/changeRole": "Prepnúť medzi rolami používateľa a asistenta.\n\nUžitočné pri usmerňovaní konverzácie požadovaným smerom.\n\nMožno použiť v scenároch 'few-shot learning' (učenie z niekoľkých príkladov) alebo 'in-context learning' (učenie v kontexte)",
+  "actions/addImage": "Pripojiť obrázok",
+  "actions/deleteMessage": "Odstrániť správu",
+  "actions/deleteMessage/confirmation": "Naozaj chcete odstrániť túto správu?",
+  "actions/copyMessage": "Kopírovať správu",
+  "actions/editMessage": "Upraviť správu",
+  "actions/editMessage/cannotEditPreprocessed": "Nie je možné upraviť predspracované správy, pretože budú prepísané po spustení preprocesora. Ak chcete upraviť správu, buď:\n\n - Prepnite na pôvodnú správu a upravte ju, alebo\n - Zmeňte preprocesor tak, aby vytváral požadovaný výstup.",
+  "actions/regenerateMessage": "Znova vygenerovať správu",
+  "actions/regenerateMessage/error": "Nepodarilo sa znovu vygenerovať správu",
+  "actions/branchChat": "Vytvoriť vetvu chatu po tejto správe",
+  "actions/branchChat/error": "Nepodarilo sa vytvoriť vetvu chatu",
+  "actions/continueAssistantMessage": "Pokračovať v odpovedi asistenta",
+  "actions/continueAssistantMessage/error": "Nepodarilo sa pokračovať v odpovedi asistenta",
+  "actions/predictNext": "Generovať odpoveď AI",
+  "actions/predictNext/error": "Nepodarilo sa vygenerovať odpoveď AI",
+  "actions/loadLastModel": "Znova načítať naposledy použitý model",
+  "actions/loadLastModel/tooltip": "Kliknite pre načítanie modelu, ktorý bol naposledy použitý s týmto chatom:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "Nepodarilo sa načítať naposledy použitý model.",
+  "actions/continueCurrentModel": "Použiť aktuálny model",
+  "actions/continueCurrentModel/tooltip": "Aktuálny model: {{currentModel}}",
+  "actions/changeToLastUsedModel": "Načítať {{lastModel}}",
+  "actions/changeToLastUsedModel/error": "Nepodarilo sa prepnúť na naposledy použitý model.",
+  "actions/changeToLastUsedModel/tooltip": "Použili ste iný model pri poslednej konverzácii v tomto rozhovore. Kliknite na odpojenie aktuálneho modelu ({{currentModel}}) a načítanie modelu, ktorý bol použitý naposledy:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "Prepnúť na {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "Kliknite pre prepnutie na model, ktorý bol naposledy použitý s týmto chatom:\n\n{{lastModel}}",
+  "actions/loadModel": "Načítať model",
+  "actions/toggleViewingProcessed/currentlyFalse": "Aktuálne zobrazujete pôvodnú správu. Kliknite pre zobrazenie správy po spracovaní.",
+  "actions/toggleViewingProcessed/currentlyTrue": "Aktuálne zobrazujete spracovanú správu. Kliknite pre zobrazenie pôvodnej správy.",
+  "actions/toggleViewingProcessed/hint": "Pred odoslaním modelu môže byť správa predspracovaná. Kliknite pre prepínanie medzi pôvodnou a predspracovanou verziou. Len predspracovaná verzia sa odosiela modelu.",
+  "editMessageConfirm/title": "Uložiť zmeny?",
+  "editMessageConfirm/message": "Urobili ste zmeny v správe. Chcete ich uložiť?",
+  "editMessageConfirm/keepEditing": "Pokračovať v úpravách",
+  "editMessageConfirm/save": "Uložiť",
+  "editMessageConfirm/discard": "Zrušiť zmeny",
+  "tokenCount/totalNotAvailable": "Tokeny: {{current}}",
+  "tokenCount/totalAvailable": "Tokeny: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Kontext je zaplnený na {{percentage}} %",
+  "tokenCount/contextOverflow": "Nepredspracovaný kontext presahuje maximálny limit tokenov modelu. V závislosti od politiky pretečenia môže byť kontext skrátený alebo správa neodoslaná.",
+  "modelLoader/manualLoadParams/label": "Manuálne vyberte parametre načítania modelu",
+  "modelLoader/manualLoadParams/hint/before": "(alebo stlačte ",
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "Nepodarilo sa presunúť",
+  "actions/rename/error": "Nepodarilo sa premenovať",
+  "actions/createChatAtRoot": "Nový chat...",
+  "actions/createChatAtRoot/error": "Nepodarilo sa vytvoriť chat v hlavnom priečinku",
+  "actions/createFolderAtRoot": "Nový priečinok...",
+  "actions/createFolderAtRoot/error": "Nepodarilo sa vytvoriť priečinok v hlavnom adresári",
+  "actions/openInFolder/mac": "Zobraziť vo Finderi",
+  "actions/openInFolder/pc": "Zobraziť v Prieskumníkovi",
+  
+  "actions/createChat/error": "Nepodarilo sa vytvoriť chat",
+  "actions/deleteChat/errorTitle": "Nepodarilo sa odstrániť chat",
+  
+  "userFile/fileSizeLimit": "Limit veľkosti súboru je ",
+  "userFile/noImageSupport": "Model nepodporuje obrazové vstupy",
+  "userFile/errorPrefix": "Chyba – ",
+  "userFile/supportedImagePrefix": "Nepodporovaný typ obrázka – podporované sú len ",
+  "userFile/supportedImageSuffix": " formáty",
+  "userFile/unsupportedFileType": "Nepodporovaný typ súboru – podporované sú len obrázky, PDF a .txt súbory.",
+  "userFile/maxFilesPerMessage": "Bol dosiahnutý maximálny počet súborov na jednu konverzáciu. Nie je možné pridať viac ako {{files}} súborov.",
+  "userFile/maxFileSizePerMessage": "Dosiahnutá maximálna veľkosť súboru na konverzáciu. Nie je možné pridať súbory väčšie ako {{size}}.",
+  "userFile/maxFileSizePerConversation": "Dosiahnutá maximálna veľkosť súborov pre túto konverzáciu. Nie je možné pridať súbory väčšie ako {{size}}.",
+  "userFile/failedToUploadError/title": "Nepodarilo sa nahrať súbor",
+  "userFile/failedToAddFile/title": "Nepodarilo sa pridať súbor do chatu",
+  "errorTitle": "Chyba",
+  "userFile/chatTerminalDocumentsCount_one": "Dokument v chate ({{count}})",
+  "userFile/chatTerminalDocumentsCount_other": "Dokumenty v chate ({{count}})",
+  
+  "prediction/busyModel/title": "Model je zaneprázdnený",
+  "prediction/busyModel/message": "Počkajte, kým model dokončí spracovanie, a skúste to znova",
+  "prediction/noModel/title": "Nie je vybraný žiadny model",
+  "prediction/modelLoading": "Správa zaradená do frontu, odošle sa po načítaní modelu",
+  "prediction/noModel/message": "Vyberte model na odoslanie správy",
+  "prediction/unloadModel/error": "Nepodarilo sa odpojiť model",
+  
+  "retrieval/user/processingLabel": "AI premýšľa...",
+  "retrieval/powerUser/intermediateStepsHidden": "Medzikroky sú skryté. Kliknite pre zobrazenie.",
+  "retrieval/actions/clickToExpand": "Kliknite pre zobrazenie medzikrokov",
+  "retrieval/actions/clickToCollapse": "Kliknite pre skrytie medzikrokov",
+  
+  "style": "Vzhľad",
+  
+  "style/viewMode/markdown": "Markdown",
+  "style/viewMode/plaintext": "Čistý text",
+  "style/viewMode/monospace": "Monospace",
+  
+  "speculativeDecodingVisualization/toggle": "Zobraziť prijaté návrhové tokeny",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Prijatý návrhový token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Prijaté návrhové tokeny",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Režim zobrazenia nie je možné zmeniť pri vizualizácii návrhových tokenov.",
+  
+  "style/fontSize/label": "Veľkosť písma",
+  "style/fontSize/medium": "Predvolené",
+  "style/fontSize/large": "Veľké",
+  "style/fontSize/small": "Malé",
+  
+  "style/debugBlocks/label": "Zobraziť ladiace bloky",
+  
+  "style/thinkingUI/label": "Rozbaliť bloky uvažovania predvolene",
+  "style/chatFullWidth/label": "Rozšíriť chat na šírku okna",
+  
+  "style/chatUtilityMenusShowLabel/label": "Zobraziť popisky pomocných menu chatu",
+  
+  "messageBlocks": {
+    "expandBlockTooltip": "Rozbaliť obsah",
+    "collapseBlockTooltip": "Zbaliť obsah",
+    "debug": {
+      "label": "LADENIE",
+      "collapseTooltip": "Zbaliť ladiaci blok",
+      "expandTooltip": "Rozbaliť ladiaci blok"
+    }
+  },
+  
+  "chatTabOptions/clearAllMessages": "Vymazať všetky správy...",
+  "chatTabOptions/duplicateChat": "Duplikovať chat",
+  
+  "topBarActions/duplicateChat": "Duplikovať",
+  "topBarActions/clearChat": "Vymazať všetko",
+  "topBarActions/clearChatConfirmation": "Naozaj chcete vymazať všetky správy v tomto chate?",
+  "topBarActions/clearChatCancel": "Zrušiť",
+  "topBarActions/clearChatDelete": "Vymazať všetko",
+  
+  "noModels.indexing": "Indexovanie súborov modelu... (môže to chvíľu trvať)",
+  "noModels.downloading": "Sťahovanie vášho prvého LLM...",
+  "noModels": "Zatiaľ nemáte žiadne LLM! Stiahnite si jeden a začnite!",
+  
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} pluginov"
+    },
+    "pluginSelect": {
+      "title": "Pluginy",
+      "dropdown": {
+        "configure": "Nastaviť",
+        "disable": "Deaktivovať",
+        "fork": "Vytvoriť kópiu",
+        "uninstall": "Odinštalovať"
+      },
+      "actionButtons": {
+        "create": "Vytvoriť",
+        "import": "Importovať",
+        "discover": "Objaviť"
+      },
+      "recentlyCreated": {
+        "title": "Nedávno vytvorené pluginy",
+        "placeholder": "Pluginy, ktoré vytvoríte, sa zobrazia tu"
+      },
+      "startRunningDevelopmentPlugin/error": "Nepodarilo sa spustiť plugin v režime vývoja",
+      "stopRunningDevelopmentPlugin/error": "Nepodarilo sa zastaviť plugin v režime vývoja",
+      "forceReInitPlugin/error": "Nepodarilo sa reštartovať plugin"
+    },
+    "pluginConfiguration": {
+      "title": "Konfigurácia pluginu",
+      "selectAPlugin": "Vyberte plugin na úpravu konfigurácie",
+      "preprocessorAndGenerator": "Tento plugin obsahuje vlastný preprocesor aj generátor",
+      "generatorOnly": "Tento plugin obsahuje vlastný generátor",
+      "preprocessorOnly": "Tento plugin obsahuje vlastný preprocesor"
+    },
+    "instructions": {
+      "runTheFollowing": "Ak chcete spustiť svoj plugin, otvorte terminál a zadajte",
+      "pushTo": "Zdieľajte svoj plugin s ostatnými jeho odoslaním na Hub (voliteľné)",
+      "createdSuccessfully": "Plugin bol úspešne vytvorený",
+      "creatingPlugin": "Vytváranie pluginu...",
+      "projectFilesTitle": "Súbory projektu",
+      "buttons": {
+        "documentation": "Dokumentácia",
+        "dismiss": "Zavrieť",
+        "publish": "Publikovať",
+        "openInZed": "Otvoriť v Zed",
+        "openInVscode": "Otvoriť vo VS Code",
+        "revealInFinder": "Zobraziť vo Finderi",
+        "openInFileExplorer": "Zobraziť v Prieskumníkovi"
+      }
+    },
+    "localFork": {
+      "error": "Nepodarilo sa vytvoriť lokálnu kópiu pluginu pre vývoj."
+    },
+    "restartErrorPlugin/error": "Nepodarilo sa reštartovať plugin"
+  },
+  
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/s",
+    "predictedTokensCount": "{{predictedTokensCount}} tokenov",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}} s do prvého tokenu",
+    "stopReason": "Dôvod zastavenia: {{stopReason}}",
+    "stopReason.userStopped": "Zastavené používateľom",
+    "stopReason.modelUnloaded": "Model bol odpojený",
+    "stopReason.failed": "Generovanie zlyhalo",
+    "stopReason.eosFound": "Nájdený koncový token (EOS)",
+    "stopReason.stopStringFound": "Nájdený ukončovací reťazec",
+    "stopReason.toolCalls": "Volanie nástrojov",
+    "stopReason.maxPredictedTokensReached": "Dosiahnutý maximálny počet predikovaných tokenov",
+    "stopReason.contextLengthReached": "Dosiahnutý limit dĺžky kontextu",
+    "speculativeDecodedBy": "Návrhový model: {{decodedBy}}",
+    "speculativeDecodingStats": "Prijatých {{accepted}}/{{total}} návrhových tokenov ({{percentage}} %)"
+    "speculativeDecodingAcceptedPercentage": "{{percentage}} % návrhových tokenov prijatých",
+    "speculativeDecodingTooltip": "Prijaté {{accepted}}/{{total}} návrhové tokeny"
+  },
+  
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Úprava systémového promptu"
+  }
+}
