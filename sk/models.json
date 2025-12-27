@@ -1,8 +1,8 @@
 {
   "pageTitle": "Moje modely",
   "filterModels.placeholder": "Filter modelov...",
-  "aggregate_one": "Lokálny model: {{count}}, využité miesto na disku: {{size}}.",
-  "aggregate_other": "Lokálne modely: {{count}}, využité miesto na disku: {{size}}.",
+  "aggregate_one": "Lokálny model: {{count}}, využité miesto na disku: {{size}}",
+  "aggregate_other": "Lokálne modely: {{count}}, využité miesto na disku: {{size}}",
   
   "noModels.title": "Vaše lokálne modely sa tu zobrazia.",
   "noModels.discoverButtonText.prefix": "Kliknite na",
@@ -56,7 +56,7 @@
   "modelsDirectory.reveal.nonMac": "Otvoriť v Prieskumníkovi súborov",
   "modelsDirectory.reveal.mac/error": "Nepodarilo sa otvoriť vo Finderi",
   "modelsDirectory.reveal.nonMac/error": "Nepodarilo sa otvoriť v Prieskumníkovi súborov",
-  "modelsDirectory.forceReindex": "Obnoviť",
+  "modelsDirectory.forceReindex": "Obnoviť zoznam modelov",
   "loadState/loaded": "Načítané",
   "loadState/loading": "Načítava sa",
   "loadState/unloaded": "Nenačítané",
