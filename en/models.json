@@ -1,8 +1,8 @@
 {
   "pageTitle": "My Models",
   "filterModels.placeholder": "Filter models...",
-  "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space.",
-  "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space.",
+  "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space",
+  "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space",
 
   "noModels.title": "Your local models will show up here.",
   "noModels.discoverButtonText.prefix": "Click the",
@@ -56,7 +56,7 @@
   "modelsDirectory.reveal.nonMac": "Open in File Explorer",
   "modelsDirectory.reveal.mac/error": "Failed to open in Finder",
   "modelsDirectory.reveal.nonMac/error": "Failed to open in File Explorer",
-  "modelsDirectory.forceReindex": "Refresh",
+  "modelsDirectory.forceReindex": "Refresh model list",
   "loadState/loaded": "Loaded",
   "loadState/loading": "Loading",
   "loadState/unloaded": "Unloaded",
@@ -126,7 +126,7 @@
       "title": "Switch model source",
       "resetButton": "Reset to default",
       "description": "There are multiple available source files for this model.",
-      "trigger": "Model variants"
+      "trigger": "Variants"
     }
   }
 }
