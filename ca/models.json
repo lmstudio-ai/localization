@@ -1,8 +1,8 @@
 {
   "pageTitle": "Els Meus Models",
   "filterModels.placeholder": "Filtra models...",
-  "aggregate_one": "Tens {{count}} model local, que ocupa {{size}} del teu disc.",
-  "aggregate_other": "Tens {{count}} models locals, que ocupen {{size}} del teu disc.",
+  "aggregate_one": "Tens {{count}} model local, que ocupa {{size}} del teu disc",
+  "aggregate_other": "Tens {{count}} models locals, que ocupen {{size}} del teu disc",
 
   "noModels.title": "Els teus models locals apareixeran aquí.",
   "noModels.discoverButtonText.prefix": "Fes clic al",
@@ -15,7 +15,7 @@
   "modelsTable.displayName/label": "Nom",
   "modelsTable.modelKey/label": "Clau del Model",
   "modelsTable.size/label": "Mida",
-  "modelsTable.dateModified/label": "Última Modificació",
+  "modelsTable.dateModified/label": "Modificació",
   "modelsTable.actions/label": "Accions",
 
   "modelsTable.quant/label": "Quant",
@@ -56,7 +56,7 @@
   "modelsDirectory.reveal.nonMac": "Mostra a l'Explorador de Fitxers",
   "modelsDirectory.reveal.mac/error": "No s'ha pogut obrir al Finder",
   "modelsDirectory.reveal.nonMac/error": "No s'ha pogut obrir a l'Explorador de Fitxers",
-  "modelsDirectory.forceReindex": "Refresca",
+  "modelsDirectory.forceReindex": "Refresca la llista de models",
   "loadState/loaded": "Carregat",
   "loadState/loading": "Carregant",
   "loadState/unloaded": "Descarregat",
@@ -123,10 +123,10 @@
       "error": "No s'ha pogut crear el model virtual"
     },
     "altsSelect": {
-      "title": "Selecciona una font pel model",
+      "title": "Canvia la font del model",
       "resetButton": "Torna al valor per defecte",
-      "description": "Aquest model té múltiples fonts possibles. Selecciona quina s'hauria d'utilitzar quan es carregui el model",
-      "trigger": "Variants del model"
+      "description": "Hi ha múltiples fitxers disponibles per aquest model.",
+      "trigger": "Variants"
     }
   }
 }

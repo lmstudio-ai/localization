@@ -139,10 +139,10 @@
   "llm.load.seed/title": "Llavor",
   "llm.load.seed/subTitle": "La llavor que utilitza el generador de nombres aleatoris a la generació de text. -1 és aleatori",
   "llm.load.seed/info": "Llavor aleatòria: Estableix la llavor pel generador de nombres aleatoris per assegurar resultats reproduïbles",
-  "llm.load.numCpuExpertLayersRatio/title": "Force Model Expert Weights onto CPU",
-  "llm.load.numCpuExpertLayersRatio/subTitle": "Whether to force MoE expert weights into CPU RAM. Saves VRAM and can be faster than partial GPU offload. Not recommended if the model fits entirely in VRAM.",
-  "llm.load.numCpuExpertLayersRatio/info": "Specifies whether or not to put all MoE expert layers in to CPU RAM. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast",
-
+  "llm.load.numCpuExpertLayersRatio/title": "Number of layers for which to force MoE weights onto CPU",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "Number of layers to force the experts into CPU. Saves VRAM and can be faster than partial GPU offload. Not recommended if the model fits entirely in VRAM.",
+  "llm.load.numCpuExpertLayersRatio/info": "Specifies the number of layers to force the expert into CPU. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast.",
+  
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
   "llm.load.llama.evalBatchSize/subTitle": "Number of input tokens to process at a time. Increasing this increases performance at the cost of memory usage",
   "llm.load.llama.evalBatchSize/info": "Sets the number of examples processed together in one batch during evaluation, affecting speed and memory usage",
