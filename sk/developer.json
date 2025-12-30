@@ -1,0 +1,196 @@
+{
+  "tabs/server": "Lokálny server",
+  "tabs/extensions": "LM Runtime",
+  "loadSettings/title": "Načítanie nastavenia",
+  "modelSettings/placeholder": "Vyberte model na konfiguráciu",
+  
+  "loadedModels/noModels": "Žiadne načítané modely",
+  
+  "serverOptions/title": "Možnosti servera",
+  "serverOptions/configurableTitle": "Konfigurovateľné možnosti",
+  "serverOptions/port/hint": "Nastavte, ktorý sieťový port bude používať lokálny server. Predvolene LM Studio používa port 1234. Možno ho bude potrebné zmeniť, ak je port už obsadený.",
+  "serverOptions/port/subtitle": "Port na počúvanie",
+  "serverOptions/autostart/title": "Automatické spustenie servera",
+  "serverOptions/autostart/hint": "Automaticky zapnúť lokálny server LLM v LM Studio pri spustení aplikácie alebo služby",
+  "serverOptions/port/integerWarning": "Číslo portu musí byť celé číslo",
+  "serverOptions/port/invalidPortWarning": "Port musí byť medzi 1 a 65535",
+  "serverOptions/cors/title": "Povoliť CORS",
+  "serverOptions/cors/hint1": "Povolenie CORS (Cross-origin Resource Sharing) umožní webovým stránkam, ktoré navštívite, vykonávať požiadavky na server LM Studio.",
+  "serverOptions/cors/hint2": "CORS môže byť potrebné pri vykonávaní požiadaviek z webovej stránky alebo VS Code / iných rozšírení.",
+  "serverOptions/cors/subtitle": "Povoliť požiadavky z iných domén",
+  "serverOptions/network/title": "Zdieľať v lokálnej sieti",
+  "serverOptions/network/subtitle": "Sprístupniť server zariadeniam v sieti",
+  "serverOptions/network/hint1": "Či povoliť pripojenia z iných zariadení v sieti.",
+  "serverOptions/network/hint2": "Ak nie je zaškrtnuté, server bude počúvať iba na localhost.",
+  "serverOptions/verboseLogging/title": "Podrobné logovanie",
+  "serverOptions/verboseLogging/subtitle": "Povoliť podrobné logovanie lokálneho servera",
+  "serverOptions/contentLogging/title": "Logovať požiadavky a odpovede",
+  "serverOptions/contentLogging/subtitle": "Nastavenia logovania požiadaviek a odpovedí",
+  "serverOptions/contentLogging/hint": "Či logovať požiadavky a/alebo odpovede do lokálneho log súboru.",
+  "serverOptions/redactContent/title": "Redigovať obsah",
+  "serverOptions/redactContent/hint": "Keď je povolené, zabráni sa logovaniu citlivých údajov, ako je obsah požiadaviek a odpovedí.",
+  "serverOptions/logIncomingTokens/title": "Logovať prichádzajúce tokeny",
+  "serverOptions/logIncomingTokens/hint": "Či logovať každý token pri jeho generovaní.",
+  "serverOptions/fileLoggingMode/title": "Režim logovania do súboru",
+  "serverOptions/fileLoggingMode/off/title": "VYP",
+  "serverOptions/fileLoggingMode/off/hint": "Nevytvárať log súbory",
+  "serverOptions/fileLoggingMode/succinct/title": "Stručne",
+  "serverOptions/fileLoggingMode/succinct/hint": "Loguje rovnaký obsah ako v konzole. Dlhé požiadavky budú skrátené.",
+  "serverOptions/fileLoggingMode/full/title": "Plné",
+  "serverOptions/fileLoggingMode/full/hint": "Neskracovať dlhé požiadavky.",
+  "serverOptions/jitModelLoading/title": "Načasované načítanie modelu (JIT)",
+  "serverOptions/jitModelLoading/hint": "Ak je povolené, ak požiadavka určí model, ktorý nie je načítaný, automaticky sa načíta a použije. Endpoint \"/v1/models\" bude tiež obsahovať modely, ktoré ešte nie sú načítané.",
+  "serverOptions/loadModel/error": "Nepodarilo sa načítať model",
+  "serverOptions/jitModelLoadingTTL/title": "Automaticky uvoľniť nepoužité JIT modely",
+  "serverOptions/jitModelLoadingTTL/hint": "Model načítaný JIT na obsluhu API požiadavky sa automaticky uvoľní po určitom čase nečinnosti (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Maximálna nečinnosť",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minúty",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Ponechať len posledný JIT model",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Zabezpečiť, že v danom čase je načítaný maximálne 1 JIT model (uvoľní predchádzajúci model)",
+  "serverOptions/allowMcp/title": "Povoliť vzdialené MCP",
+  "serverOptions/allowMcp/hint": "Povoliť používanie MCP, ktoré nie sú v mcp.json. Tieto MCP pripojenia sú efemérne a existujú len počas požiadavky. Momentálne sú podporované iba vzdialené MCP.",
+  "serverOptions/allowMcp/mode/off": "Vyp.",
+  "serverOptions/allowMcp/mode/off/hint": "Nepovoliť serverovým požiadavkám používať MCP",
+  "serverOptions/allowMcp/mode/remote": "Vzdialené",
+  "serverOptions/allowMcp/mode/remote/hint": "Povoliť pripojenie k vzdialeným MCP serverom",
+  
+  "serverOptions/start/error": "Nepodarilo sa spustiť server",
+  "serverOptions/stop/error": "Nepodarilo sa zastaviť server",
+  
+  "serverLogs/scrollToBottom": "Skočiť na koniec",
+  "serverLogs/clearLogs": "Vymazať logy ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Otvoriť priečinok s logmi servera",
+  
+  "runtimeSettings/title": "Nastavenia runtime",
+  "runtimeSettings/chooseRuntime/title": "Výbery",
+  "runtimeSettings/chooseRuntime/description": "Vyberte engine pre každý formát modelu",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobraziť všetky balíčky rozšírení",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Predvolene LM Studio zobrazuje len najnovšiu verziu každého balíčka. Povolením tejto možnosti zobrazíte všetky dostupné verzie.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Vyberte engine",
+  
+  "runtimeSettings/chooseFrameworks/title": "Frameworky",
+  "runtimeSettings/chooseFrameworks/description": "Vyberte framework pre každú funkcionalitu",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Vstavaný parser",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Parser dokumentov",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Vyberte parser dokumentov",
+  
+  "runtimeOptions/uninstall": "Odinštalovať",
+  "runtimeOptions/uninstallDialog/title": "Odinštalovať {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Odinštalovanie tohto runtime ho odstráni zo systému. Táto akcia je nezvratná.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Niektoré súbory sa môžu odstrániť až po reštarte LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Nepodarilo sa odinštalovať runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Pokračovať a odinštalovať",
+  "runtimeOptions/uninstallDialog/cancel": "Zrušiť",
+  "runtimeOptions/noCompatibleRuntimes": "Nenašli sa kompatibilné runtime",
+  "runtimeOptions/downloadIncompatibleRuntime": "Tento runtime je nekompatibilný s vaším zariadením a pravdepodobne nebude fungovať.",
+  "runtimeOptions/noRuntimes": "Nenašli sa žiadne runtime",
+  
+  "runtimes": {
+    "manageLMRuntimes": "Spravovať LM Runtime",
+    "includeOlderRuntimeVersions": "Zahrnúť staršie verzie",
+    "dismiss": "Zatvoriť",
+    "updateAvailableToast": {
+      "title": "Dostupná aktualizácia LM Runtime!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Runtime aktualizovaný: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Novovytvorené {{compatibilityTypes}} modely budú používať aktualizovaný runtime."
+    },
+    "noAvx2ErrorMessage": "Všetky LM Runtime vyžadujú CPU s podporou AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Balíčky rozšírení Runtime",
+      "refresh": "Obnoviť",
+      "refreshing": "Obnovovanie...",
+      "filterSegment": {
+        "compatibleOnly": "Len kompatibilné",
+        "all": "Všetky"
+      },
+      "card": {
+        "releaseNotes": "Poznámky k vydaniu",
+        "latestVersionInstalled": "Najnovšia verzia nainštalovaná",
+        "updateAvailable": "Dostupná aktualizácia"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Spravovať aktívne runtime"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Spravovať verzie",
+        "close": "Zatvoriť"
+      },
+      "tabs": {
+        "all": "Všetko",
+        "frameworks": "Moje frameworky",
+        "engines": "Moje enginy"
+      },
+      "detailsModal": {
+        "installedVersions": "Nainštalované verzie pre {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (pokročilé)",
+        "releaseNotesTitle": "Poznámky k vydaniu",
+        "noReleaseNotes": "Pre túto verziu nie sú dostupné poznámky",
+        "back": "Späť",
+        "close": "Zatvoriť"
+      },
+      "noEngines": "Žiadne nainštalované enginy",
+      "noFrameworks": "Žiadne nainštalované frameworky"
+    }
+  },
+  
+  "inferenceParams/noParams": "Pre tento typ modelu nie sú dostupné konfigurovateľné parametre inferencie",
+  
+  "quickDocs": {
+    "tabChipTitle": "Dokumentácia pre vývojárov",
+    "newToolUsePopover": "Úryvky kódu sú teraz dostupné v \"Dokumentácii pre vývojárov\". Kliknite sem a začnite používať nástroje!",
+    "newToolUsePopoverTitle": "📚 Dokumentácia pre vývojárov",
+    "learnMore": "ℹ️ 👾 Pre viac informácií o lokálnych serverových endpointoch LM Studio navštívte [dokumentáciu](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Štruktúrovaný výstup"
+    },
+    "imageInput": {
+      "title": "Vstup obrázka"
+    },
+    "embeddings": {
+      "title": "Embeddingy"
+    },
+    "toolUse": {
+      "title": "Použitie nástrojov",
+      "tab": {
+        "saveAsPythonFile": "Uložiť ako Python súbor",
+        "runTheScript": "Spustiť skript:",
+        "savePythonFileCopyPaste": "Uložiť ako Python súbor pre kopírovanie a vloženie"
+      }
+    },
+    "newBadge": "Nové"
+  },
+  
+  "endpoints/openaiCompatRest/title": "Podporované endpointy{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Ako OpenAI",
+  "endpoints/openaiCompatRest/getModels": "Zoznam aktuálne načítaných modelov",
+  "endpoints/openaiCompatRest/postCompletions": "Textové dokončenie. Predikcia ďalšieho tokenu/ov podľa promptu. Pozn.: OpenAI považuje tento endpoint za 'deprecated'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Chatové dokončenie. Odoslať históriu chatu modelu na predikciu nasledujúcej odpovede asistenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Textové embeddingy. Generuje embeddingy pre daný text. Prijíma reťazec alebo pole reťazcov.",
+  "endpoints/openaiCompatRest/postResponses": "Pokročilé rozhranie na generovanie odpovedí modelu. Umožňuje stavové interakcie použitím ID predchádzajúcich odpovedí ako vstupu pre ďalšie.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Zoznam dostupných modelov",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Načítať model s možnosťami",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Stiahnuť model",
+  "endpoints/lmStudioRestV1/postChat": "Chatovať s modelom. Podporuje viackolové konverzácie a MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Získať stav sťahovania modelu",
+  
+  "model.createVirtualModelFromInstance": "Uložiť nastavenia ako nový virtuálny model",
+  "model.createVirtualModelFromInstance/error": "Nepodarilo sa uložiť nastavenia ako nový virtuálny model",
+
+  "model": {
+    "toolUseSectionTitle": "Použitie nástrojov",
+    "toolUseDescription": "Tento model bol zistený ako natrénovaný na používanie nástrojov\n\nOtvorte <custom-link>dokumentáciu pre vývojárov</custom-link> pre viac informácií"
+  },
+  
+  "apiConfigOptions/title": "Konfigurácia API"
+}

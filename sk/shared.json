@@ -1,0 +1,305 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Skopírovať odkaz na stiahnutie modelu",
+  
+  "filter.noMatches": "Žiadne zhody",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Rozbaľovanie závislostí"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Kontrola kompatibility runtime"
+    },
+    "indexingRuntimes": {
+      "badge": "Indexovanie runtime"
+    },
+    "indexingModels": {
+      "badge": "Indexovanie modelov"
+    },
+    "authenticating": {
+      "badge": "Overovanie"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Aktualizácia balíka rozšírenia ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Prihlásiť sa do LM Studio Hub",
+    "authError": "Overenie zlyhalo",
+    "noAccount": "Nemáte účet?",
+    "signUp": "Zaregistrovať sa",
+    "havingTrouble": "Máte problém?",
+    "retry": "Skúsiť znova"
+  },
+  "artifacts": {
+    "fetchError": "Nepodarilo sa načítať artefakty",
+    "organizationVisible": "Viditeľné pre organizáciu"
+  },
+  
+  "incompatible": "Nezlučiteľné",
+  "compatible": "Zlučiteľné",
+  "public": "Verejné",
+  "private": "Súkromné",
+  "yes": "Áno",
+  "no": "Nie",
+  "go": "Spustiť",
+  
+  "proceedWithEllipsis": "Pokračovať...",
+  "proceed": "Pokračovať",
+  "inProgress": "Prebieha...",
+  "failed": "Zlyhalo",
+  "pending": "Čaká sa",
+  "doneWithExclamation": "Hotovo!",
+  "done": "Hotovo",
+  "beta": "Beta",
+  
+  "complete": {
+    "completeWithEllipsis": "Dokončiť...",
+    "complete": "Dokončiť",
+    "completingWithEllipsis": "Dokončuje sa...",
+    "completing": "Dokončuje sa",
+    "completedWithExclamation": "Dokončené!",
+    "completed": "Dokončené"
+  },
+  
+  "cancel": {
+    "cancelWithEllipsis": "Zrušiť...",
+    "cancel": "Zrušiť",
+    "cancelingWithEllipsis": "Rušenie...",
+    "canceling": "Rušenie",
+    "canceled": "Zrušené"
+  },
+  
+  "next": {
+    "nextWithEllipsis": "Ďalej...",
+    "next": "Ďalej"
+  },
+  
+  "back": {
+    "backWithEllipsis": "Späť...",
+    "back": "Späť"
+  },
+  
+  "close": {
+    "closeWithEllipsis": "Zavrieť...",
+    "close": "Zavrieť",
+    "closingWithEllipsis": "Zatváranie...",
+    "closing": "Zatváranie",
+    "closedWithExclamation": "Zavreté!",
+    "closed": "Zavreté"
+  },
+  
+  "delete": {
+    "deleteWithEllipsis": "Odstrániť...",
+    "delete": "Odstrániť",
+    "deletingWithEllipsis": "Odstraňovanie...",
+    "deleting": "Odstraňovanie",
+    "deletedWithExclamation": "Odstránené!",
+    "deleted": "Odstránené"
+  },
+  
+  "retry": {
+    "retryWithEllipsis": "Skúsiť znova...",
+    "retry": "Skúsiť znova",
+    "retryingWithEllipsis": "Opakovanie...",
+    "retrying": "Opakovanie"
+  },
+  
+  "refresh": {
+    "refreshWithEllipsis": "Obnoviť...",
+    "refresh": "Obnoviť",
+    "refreshingWithEllipsis": "Obnovovanie...",
+    "refreshing": "Obnovovanie",
+    "refreshedWithExclamation": "Obnovené!",
+    "refreshed": "Obnovené"
+  },
+  
+  "confirm": {
+    "confirm": "Potvrdiť",
+    "confirmingWithEllipsis": "Potvrdzovanie...",
+    "confirming": "Potvrdzovanie",
+    "confirmedWithExclamation": "Potvrdené!",
+    "confirmed": "Potvrdené"
+  },
+  
+  "copy": {
+    "copyWithEllipsis": "Kopírovať...",
+    "copy": "Kopírovať",
+    "copyingWithEllipsis": "Kopírovanie...",
+    "copying": "Kopírovanie",
+    "copiedWithExclamation": "Skopírované!",
+    "copied": "Skopírované"
+  },
+  
+  "edit": {
+    "editWithEllipsis": "Upraviť...",
+    "edit": "Upraviť",
+    "editingWithEllipsis": "Úprava...",
+    "editing": "Úprava",
+    "editedWithExclamation": "Upravené!",
+    "edited": "Upravené"
+  },
+  
+  "load": {
+    "loadWithEllipsis": "Načítať...",
+    "load": "Načítať",
+    "loadingWithEllipsis": "Načítavanie...",
+    "loading": "Načítavanie",
+    "loadedWithExclamation": "Načítané!",
+    "loaded": "Načítané"
+  },
+  
+  "save": {
+    "saveWithEllipsis": "Uložiť...",
+    "save": "Uložiť",
+    "savingWithEllipsis": "Ukladanie...",
+    "saving": "Ukladanie",
+    "savedWithExclamation": "Uložené!",
+    "saved": "Uložené"
+  },
+  
+  "saveAs": {
+    "saveAsWithEllipsis": "Uložiť ako...",
+    "saveAs": "Uložiť ako"
+  },
+  
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Uložiť ako nové...",
+    "saveAsNew": "Uložiť ako nové"
+  },
+  
+  "search": {
+    "searchWithEllipsis": "Hľadať...",
+    "search": "Hľadať",
+    "searchingWithEllipsis": "Vyhľadávanie...",
+    "searching": "Vyhľadávanie"
+  },
+  
+  "update": {
+    "updateWithEllipsis": "Aktualizovať...",
+    "update": "Aktualizovať",
+    "updatingWithEllipsis": "Aktualizovanie...",
+    "updating": "Aktualizovanie",
+    "updatedWithExclamation": "Aktualizované!",
+    "updated": "Aktualizované"
+  },
+  
+  "create": {
+    "createWithEllipsis": "Vytvoriť...",
+    "create": "Vytvoriť",
+    "creatingWithEllipsis": "Vytváranie...",
+    "creating": "Vytváranie",
+    "createdWithExclamation": "Vytvorené!",
+    "created": "Vytvorené"
+  },
+  
+  "reset": {
+    "resetWithEllipsis": "Obnoviť...",
+    "reset": "Obnoviť",
+    "resettingWithEllipsis": "Obnovovanie...",
+    "resetting": "Obnovovanie"
+  },
+  
+  "pause": {
+    "pause": "Pozastaviť",
+    "pausingWithEllipsis": "Pozastavovanie...",
+    "pausing": "Pozastavovanie",
+    "paused": "Pozastavené"
+  },
+  
+  "download": {
+    "download": "Stiahnuť",
+    "downloadingWithEllipsis": "Sťahovanie...",
+    "downloading": "Sťahovanie",
+    "downloadedWithExclamation": "Stiahnuté!",
+    "downloaded": "Stiahnuté"
+  },
+  
+  "upload": {
+    "uploadWithEllipsis": "Nahrať...",
+    "upload": "Nahrať",
+    "uploadingWithEllipsis": "Nahrávanie...",
+    "uploading": "Nahrávanie",
+    "uploadedWithExclamation": "Nahraté!",
+    "uploaded": "Nahraté"
+  },
+  
+  "remove": {
+    "removeWithEllipsis": "Odstrániť...",
+    "remove": "Odstrániť",
+    "removingWithEllipsis": "Odstraňovanie...",
+    "removing": "Odstraňovanie",
+    "removedWithExclamation": "Odstránené!",
+    "removed": "Odstránené"
+  },
+  
+  "uninstall": {
+    "uninstallWithEllipsis": "Odinštalovať...",
+    "uninstall": "Odinštalovať",
+    "uninstallingWithEllipsis": "Odinštalovanie...",
+    "uninstalling": "Odinštalovanie",
+    "uninstalledWithExclamation": "Odinštalované!",
+    "uninstalled": "Odinštalované"
+  },
+  
+  "resume": {
+    "resumeWithEllipsis": "Pokračovať...",
+    "resume": "Pokračovať",
+    "resumingWithEllipsis": "Pokračovanie...",
+    "resuming": "Pokračovanie"
+  },
+  
+  "start": {
+    "startWithEllipsis": "Spustiť...",
+    "start": "Spustiť",
+    "startingWithEllipsis": "Spúšťanie...",
+    "starting": "Spúšťanie",
+    "started": "Spustené"
+  },
+  
+  "stop": {
+    "stopWithEllipsis": "Zastaviť...",
+    "stop": "Zastaviť",
+    "stoppingWithEllipsis": "Zastavovanie...",
+    "stopping": "Zastavovanie",
+    "stoppedWithExclamation": "Zastavené!",
+    "stopped": "Zastavené"
+  },
+  
+  "import": {
+    "importWithEllipsis": "Importovať...",
+    "import": "Importovať",
+    "importingWithEllipsis": "Importovanie...",
+    "importing": "Importovanie",
+    "importedWithExclamation": "Importované!",
+    "imported": "Importované"
+  },
+  
+  "letsGo": {
+    "letsGo": "Poďme na to",
+    "letsGoWithEllipsis": "Poďme na to...",
+    "letsGoWithExclamation": "Poďme na to!"
+  },
+  
+  "run": {
+    "runWithEllipsis": "Spustiť...",
+    "run": "Spustiť",
+    "runningWithEllipsis": "Spúšťanie...",
+    "running": "Spúšťanie"
+  },
+  
+  "configure": {
+    "configureWithEllipsis": "Nastaviť...",
+    "configure": "Nastaviť",
+    "configuringWithEllipsis": "Nastavovanie...",
+    "configured": "Nastavené"
+  },
+  
+  "publish": {
+    "publishWithEllipsis": "Publikovať...",
+    "publish": "Publikovať",
+    "publishingWithEllipsis": "Publikovanie...",
+    "publishing": "Publikovanie",
+    "publishedWithExclamation": "Publikované!",
+    "published": "Publikované"
+  }
+}
