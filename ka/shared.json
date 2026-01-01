@@ -1,0 +1,270 @@
+{
+  "copyLmStudioLinkButton/toolTip": "მოდელის გადმოწერის ბმულის კოპირება",
+  "filter.noMatches": "დამთხვევების გარეშე",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "რესურსების გამოღება"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "მიმდინარეობს გამშვების შესაძლებლობების შემოწმება"
+    },
+    "indexingRuntimes": {
+      "badge": "გამშვებების დაინდექსება"
+    },
+    "indexingModels": {
+      "badge": "მოდელების დაინდექსება"
+    },
+    "authenticating": {
+      "badge": "მიმდინარეობს ავთენტიკაცია"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "მიმდინარეობს გაფართოებების პაკეტის ({{name}} v{{version}}) განახლება"
+    }
+  },
+  "auth": {
+    "prompt": "LM Studio Hub-ში შესვლა",
+    "authError": "ავთენტიკაცია ჩავარდა",
+    "noAccount": "არ გაქვთ ანგარიში?",
+    "signUp": "რეგისტრაცია",
+    "havingTrouble": "შარში ბრძანდებით?",
+    "retry": "თავიდან ცდა"
+  },
+  "artifacts": {
+    "fetchError": "არტეფაქტების გამოთხოვის შეცდომა",
+    "organizationVisible": "ორგანიზაცია ხილულია"
+  },
+  "incompatible": "არათავსებადი",
+  "compatible": "თავსებადია",
+  "public": "საჯარო",
+  "private": "პირადი",
+  "yes": "დიახ",
+  "no": "არა",
+  "go": "გადასვლა",
+  "proceedWithEllipsis": "გაგრძელება...",
+  "proceed": "გაგრძელება",
+  "inProgress": "მიმდინარეობს...",
+  "failed": "ჩავარდა",
+  "pending": "რიგშია",
+  "doneWithExclamation": "მზადაა!",
+  "done": "მზადაა",
+  "beta": "ბეტა",
+  "complete": {
+    "completeWithEllipsis": "დასრულება...",
+    "complete": "დასრულება",
+    "completingWithEllipsis": "სრულდება...",
+    "completing": "სრულდება",
+    "completedWithExclamation": "სრულდება!",
+    "completed": "დასრულდა"
+  },
+  "cancel": {
+    "cancelWithEllipsis": "გაუქმება...",
+    "cancel": "გაუქმება",
+    "cancelingWithEllipsis": "უქმდება...",
+    "canceling": "უქმდება",
+    "canceled": "გაუქმებულია"
+  },
+  "next": {
+    "nextWithEllipsis": "შემდეგი...",
+    "next": "შემდეგი"
+  },
+  "back": {
+    "backWithEllipsis": "უკან...",
+    "back": "უკან"
+  },
+  "close": {
+    "closeWithEllipsis": "დახურვა...",
+    "close": "დახურულია",
+    "closingWithEllipsis": "იხურება...",
+    "closing": "იხურება",
+    "closedWithExclamation": "დახურულია!",
+    "closed": "დახურულია"
+  },
+  "delete": {
+    "deleteWithEllipsis": "წაშლა...",
+    "delete": "წაშლა",
+    "deletingWithEllipsis": "იშლება...",
+    "deleting": "იშლება",
+    "deletedWithExclamation": "წაიშალა!",
+    "deleted": "წაიშალა"
+  },
+  "retry": {
+    "retryWithEllipsis": "თავიდან ცდა...",
+    "retry": "თავიდან ცდა",
+    "retryingWithEllipsis": "თავიდან ცდა...",
+    "retrying": "თავიდან ცდა"
+  },
+  "refresh": {
+    "refreshWithEllipsis": "განახლება...",
+    "refresh": "განახლება",
+    "refreshingWithEllipsis": "მიმდინარეობს განახლება...",
+    "refreshing": "მიმდინარეობს განახლება",
+    "refreshedWithExclamation": "განახლდა!",
+    "refreshed": "განახლდა"
+  },
+  "confirm": {
+    "confirm": "დადასტურება",
+    "confirmingWithEllipsis": "დადასტურება...",
+    "confirming": "დადასტურება",
+    "confirmedWithExclamation": "დადასტურებულია!",
+    "confirmed": "დადასტურებულია"
+  },
+  "copy": {
+    "copyWithEllipsis": "კოპირება...",
+    "copy": "კოპირება",
+    "copyingWithEllipsis": "კოპირდება...",
+    "copying": "კოპირდება",
+    "copiedWithExclamation": "დაკოპირდა!",
+    "copied": "დაკოპირდა"
+  },
+  "edit": {
+    "editWithEllipsis": "ჩასწორება...",
+    "edit": "ჩასწორება",
+    "editingWithEllipsis": "მიმდინარეობს ჩასწორება...",
+    "editing": "მიმდინარეობს ჩასწორება",
+    "editedWithExclamation": "ჩასწორდა!",
+    "edited": "ჩასწორდა"
+  },
+  "load": {
+    "loadWithEllipsis": "ჩატვირთვა...",
+    "load": "ჩატვირთვა",
+    "loadingWithEllipsis": "იტვირთება...",
+    "loading": "იტვირთება",
+    "loadedWithExclamation": "ჩაიტვირთა!",
+    "loaded": "ჩაიტვირთა"
+  },
+  "save": {
+    "saveWithEllipsis": "შენახვა...",
+    "save": "შენახვა",
+    "savingWithEllipsis": "მიმდინარეობს შენახვა...",
+    "saving": "მიმდინარეობს შენახვა",
+    "savedWithExclamation": "შენახულია!",
+    "saved": "შენახულია"
+  },
+  "saveAs": {
+    "saveAsWithEllipsis": "შენახვა, როგორც...",
+    "saveAs": "შენახვა, როგორც"
+  },
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "შენახვა, როგორც ახალი...",
+    "saveAsNew": "შენახვა, როგორც ახალი"
+  },
+  "search": {
+    "searchWithEllipsis": "ძებნა..",
+    "search": "ძებნა",
+    "searchingWithEllipsis": "მიმდინარეობს ძებნა...",
+    "searching": "მიმდინარეობს ძებნა"
+  },
+  "update": {
+    "updateWithEllipsis": "განახლება...",
+    "update": "განახლება",
+    "updatingWithEllipsis": "მიმდინარეობს განახლება...",
+    "updating": "მიმდინარეობს განახლება",
+    "updatedWithExclamation": "განახლებულია!",
+    "updated": "განახლებულია"
+  },
+  "create": {
+    "createWithEllipsis": "შექმნა...",
+    "create": "შექმნა",
+    "creatingWithEllipsis": "იქმნება...",
+    "creating": "იქმნება",
+    "createdWithExclamation": "შეიქმნა!",
+    "created": "შეიქმნა"
+  },
+  "reset": {
+    "resetWithEllipsis": "ჩამოყრა...",
+    "reset": "ჩამოყრა",
+    "resettingWithEllipsis": "მიმდინარეობს ჩამოყრა...",
+    "resetting": "მიმდინარეობს ჩამოყრა"
+  },
+  "pause": {
+    "pause": "პაუზა",
+    "pausingWithEllipsis": "დაპაუზება...",
+    "pausing": "დაპაუზება",
+    "paused": "დაპაუზებულია"
+  },
+  "download": {
+    "download": "გადმოწერა",
+    "downloadingWithEllipsis": "გადმოწერა...",
+    "downloading": "გადმოწერა",
+    "downloadedWithExclamation": "გადმოწერილია!",
+    "downloaded": "გადმოწერილია"
+  },
+  "upload": {
+    "uploadWithEllipsis": "ატვირთვა...",
+    "upload": "ატვირთვა",
+    "uploadingWithEllipsis": "მიმდინარეობს ატვირთვა...",
+    "uploading": "მიმდინარეობს ატვირთვა",
+    "uploadedWithExclamation": "ატვირთულია!",
+    "uploaded": "ატვირთულია"
+  },
+  "remove": {
+    "removeWithEllipsis": "წაშლა...",
+    "remove": "წაშლა",
+    "removingWithEllipsis": "იშლება...",
+    "removing": "იშლება",
+    "removedWithExclamation": "წაიშალა!",
+    "removed": "წაიშალა"
+  },
+  "uninstall": {
+    "uninstallWithEllipsis": "წაშლა...",
+    "uninstall": "წაშლა",
+    "uninstallingWithEllipsis": "იშლება...",
+    "uninstalling": "იშლება",
+    "uninstalledWithExclamation": "წაიშალა!",
+    "uninstalled": "წაიშალა"
+  },
+  "resume": {
+    "resumeWithEllipsis": "გაგრძელება...",
+    "resume": "გაგრძელება",
+    "resumingWithEllipsis": "გრძელდება...",
+    "resuming": "გრძელდება"
+  },
+  "start": {
+    "startWithEllipsis": "გაშვება...",
+    "start": "გაშვება",
+    "startingWithEllipsis": "მიმდინარეობს გაშვება...",
+    "starting": "მიმდინარეობს გაშვება",
+    "started": "გაშვებულია"
+  },
+  "stop": {
+    "stopWithEllipsis": "გაჩერება...",
+    "stop": "გაჩერება",
+    "stoppingWithEllipsis": "ჩერდება...",
+    "stopping": "ჩერდება",
+    "stoppedWithExclamation": "გაჩერებულია!",
+    "stopped": "გაჩერებულია"
+  },
+  "import": {
+    "importWithEllipsis": "შემოტანა...",
+    "import": "შემოტანა",
+    "importingWithEllipsis": "მიმდინარეობს შემოტანა...",
+    "importing": "მიმდინარეობს შემოტანა",
+    "importedWithExclamation": "შემოტანილია!",
+    "imported": "შემოტანილია"
+  },
+  "letsGo": {
+    "letsGo": "წავედით",
+    "letsGoWithEllipsis": "წავედით...",
+    "letsGoWithExclamation": "წავედით!"
+  },
+  "run": {
+    "runWithEllipsis": "გაშვება...",
+    "run": "გაშვება",
+    "runningWithEllipsis": "გაშვებულია...",
+    "running": "გაშვებულია"
+  },
+  "configure": {
+    "configureWithEllipsis": "მორგება...",
+    "configure": "მორგება",
+    "configuringWithEllipsis": "მიმდინარეობს მორგება...",
+    "configured": "მორგებულია"
+  },
+  "publish": {
+    "publishWithEllipsis": "გამოქვეყნება...",
+    "publish": "გამოქვეყნება",
+    "publishingWithEllipsis": "ქვეყნდება...",
+    "publishing": "ქვეყნდება",
+    "publishedWithExclamation": "გამოქვეყნებულია!",
+    "published": "გამოქვეყნებულია"
+  }
+}
