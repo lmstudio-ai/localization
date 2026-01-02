@@ -4,7 +4,7 @@
   "filter.noMatches": "Žádné shody",
   "longRunningTask": {
     "unbundlingDependencies": {
-      "badge": "Rozbalování prostředků"
+      "badge": "Rozbalování závislostí"
     },
     "performingBackendHardwareSurvey": {
       "badge": "Kontrola kompatibility runtime"
@@ -186,7 +186,7 @@
   "create": {
     "createWithEllipsis": "Vytvořit...",
     "create": "Vytvořit",
-    "creatingWithEllipsis": "Vytváření",
+    "creatingWithEllipsis": "Vytváření...",
     "creating": "Vytváření",
     "createdWithExclamation": "Vytvořeno!",
     "created": "Vytvořeno"

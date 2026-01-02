@@ -10,7 +10,7 @@
   "searchSortKey.downloads/title": "Nejvíce stažení",
   "searchSortKey.lastModified/title": "Nedávno aktualizováno",
   "searchSortKey.createdAt/title": "Nedávno vytvořeno",
-  "download.option.willFitEstimation.caveat": "Mohou existovat další faktory, které brání jeho načtení, jako je architektura modelu, integrita souboru modelu nebo množství dostupné paměti ve vašem počítači.",
+  "download.option.willFitEstimation.caveat": "Mohou existovat i další faktory, které brání jeho načtení, jako je architektura modelu, integrita souboru modelu nebo množství dostupné paměti ve vašem počítači.",
   "download.option.willFitEstimation.fullGPUOffload/title": "Možné úplné přenesení na GPU",
   "download.option.willFitEstimation.fullGPUOffload/description": "Tento model by se mohl vejít celý do paměti vaší GPU. To by mohlo výrazně zrychlit inferenci.",
   "download.option.willFitEstimation.partialGPUOffload/title": "Možné částečné přenesení na GPU",

@@ -42,7 +42,7 @@
   "unresolvedVirtualModels/title_one": "Nepodařilo se vyřešit následující virtuální model:",
   "unresolvedVirtualModels/title_other": "Nepodařilo se vyřešit následující virtuální modely:",
   "unresolvedVirtualModels.missingModel": "Chybí závislý model: {{missing}}. Cesta závislosti:\n{{chain}}",
-  "unresolvedVirtualModels.circular": "Byla detekována cyklická závislost.",
+  "unresolvedVirtualModels.circular": "Detekována cyklická závislost.",
   "unresolvedVirtualModels.fix": "Opravit",
   "unresolvedVirtualModels.revealInExplorer": "Zobrazit v Průzkumníku",
   "unresolvedVirtualModels.revealInFinder": "Zobrazit ve Finderu",
