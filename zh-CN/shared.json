@@ -50,6 +50,7 @@
   "pending": "待处理",
   "doneWithExclamation": "完成！",
   "done": "完成",
+  "beta": "测试",
 
   "complete": {
     "completeWithEllipsis": "完成...",
