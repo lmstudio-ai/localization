@@ -2,7 +2,7 @@
   "tabs/server": "Local Server",
   "tabs/extensions": "LM Runtimes",
   "loadSettings/title": "Load settings",
-  "modelSettings/placeholder": "Select a model to configure it",
+  "modelSettings/placeholder": "No model selected",
 
   "loadedModels/noModels": "No models loaded",
 

@@ -60,6 +60,8 @@
   "actions/loadLastModel": "Reload last used model",
   "actions/loadLastModel/tooltip": "Click to load the model that was last used with this chat:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "Failed to load last used model.",
+  "actions/clearLastUsedModel": "Clear last used model",
+  "actions/clearLastUsedModel/error": "Failed to clear last used model.",
   "actions/continueCurrentModel": "Use current model",
   "actions/continueCurrentModel/tooltip": "Current model: {{currentModel}}",
   "actions/changeToLastUsedModel": "Load {{lastModel}}",
