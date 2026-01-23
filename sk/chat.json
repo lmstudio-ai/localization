@@ -60,6 +60,8 @@
   "actions/loadLastModel": "Znova načítať naposledy použitý model",
   "actions/loadLastModel/tooltip": "Kliknite pre načítanie modelu, ktorý bol naposledy použitý s týmto chatom:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "Nepodarilo sa načítať naposledy použitý model.",
+  "actions/clearLastUsedModel": "Vymazať naposledy použitý model",
+  "actions/clearLastUsedModel/error": "Nepodarilo sa vymazať naposledy použitý model.",
   "actions/continueCurrentModel": "Použiť aktuálny model",
   "actions/continueCurrentModel/tooltip": "Aktuálny model: {{currentModel}}",
   "actions/changeToLastUsedModel": "Načítať {{lastModel}}",
