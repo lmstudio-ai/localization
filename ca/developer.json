@@ -2,7 +2,7 @@
   "tabs/server": "Servidor Local",
   "tabs/extensions": "Runtimes del LM",
   "loadSettings/title": "Carrega la configuració",
-  "modelSettings/placeholder": "Selecciona un model per a configurar-lo",
+  "modelSettings/placeholder": "Cap model seleccionat",
 
   "loadedModels/noModels": "Cap model carregat",
 
