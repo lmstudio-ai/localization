@@ -4,9 +4,9 @@
   "aggregate_one": "You have {{count}} local model, taking up {{size}} of disk space",
   "aggregate_other": "You have {{count}} local models, taking up {{size}} of disk space",
 
-  "noModels.title": "Your local models will show up here.",
+  "noModels.title": "Your models will show up here.",
   "noModels.discoverButtonText.prefix": "Click the",
-  "noModels.discoverButtonText.suffix": "button on the left sidebar to discover interesting LLMs to download.",
+  "noModels.discoverButtonText.suffix": "button to find models to download.",
   "noModels.discoverModelsPrompt": "Go and explore some local LLMs!",
 
   "modelsTable.arch/label": "Arch",
