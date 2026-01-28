@@ -1,0 +1,43 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Rozbaľovanie súborov...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Rozbaľovanie súborov...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Rozbaľovanie súborov...",
+  "postDownloadActionExecutor.modifyModelData/status": "Aktualizácia dát modelu...",
+  "postDownloadActionExecutor.notification/status": "Informovanie používateľa...",
+  "postDownloadActionExecutor.writeString/status": "Zapisovanie metadát...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Aktualizácia vybranej verzie...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Mazanie nepoužitých rozšírení...",
+  "postDownloadActionExecutor.pluginInstall/status": "Inštalácia pluginu...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Odinštalovanie pluginu...",
+  
+  "finalizing": "Dokončovanie sťahovania... (môže to chvíľu trvať)",
+  "noOptions": "Nie sú k dispozícii žiadne kompatibilné možnosti sťahovania",
+  
+  "deeplink/confirmation/title": "Stiahnuť model z Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Vybrať odporúčanú možnosť",
+  "deeplink/confirmation/selectOption": "Vybrať možnosť sťahovania",
+  "deeplink/confirmation/recommendedOption": "Pravdepodobne najlepšia voľba pre väčšinu používateľov",
+  "deeplink/confirmation/downloadButton": "Stiahnuť",
+  "deeplink/confirmation/nevermindButton": "Zrušiť",
+  "deeplink/confirmation/modelPresent/title": "Model z Hugging Face nájdený ✅",
+  "deeplink/confirmation/modelPresent/body": "Skvelá správa! Tento súbor modelu je už dostupný na vašom počítači.",
+  "deeplink/confirmation/loadInChat": "Načítať {{ modelName }} v novej konverzácii",
+  "deeplink/error/modelNotFound/title": "Ups, model sa nepodarilo nájsť",
+  "deeplink/error/modelNotFound/body": "Skontrolujte názov modelu a zvážte skúsiť inú možnosť sťahovania.",
+  "deeplink/actions/trySearching": "Skúste vyhľadať {{modelName}} na Hugging Face",
+  
+  "downloadsPanel/title": "Sťahovania",
+  "downloadsPanel/sectionTitle/ongoing": "Prebiehajúce",
+  "downloadsPanel/sectionTitle/completed": "Dokončené",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Zobraziť vo Finderi",
+      "mac/error": "Nepodarilo sa zobraziť vo Finderi",
+      "nonMac": "Zobraziť v Prieskumníkovi súborov",
+      "nonMac/error": "Nepodarilo sa zobraziť v Prieskumníkovi súborov"
+    },
+    "completed": "Sťahovanie dokončené",
+    "loadModel": "Načítať model"
+  }
+}
