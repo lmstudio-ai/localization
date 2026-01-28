@@ -1,6 +1,7 @@
 {
   "settingsDialogTitle": "App-Einstellungen",
   "settingsDialogButtonTooltip": "App-Einstellungen",
+  "accountDialogButtonTooltip": "Konto",
 
   "settingsNewButtonPopover": {
     "primary": "App-Einstellungen befinden sich jetzt in der unteren rechten Ecke.",
@@ -48,6 +49,9 @@
   "sideButtonLabels": "Seitenleisten-Beschriftungen anzeigen",
   "showModelFileNames": "Meine Modelle: Immer den vollständigen Modell-Dateinamen anzeigen",
   "colorThemeLabel": "Farbschema",
+  "appNavigationBarPositionLabel": "Position der Navigationsleiste",
+  "appNavigationBarPositionTop": "Oben",
+  "appNavigationBarPositionLeft": "Links",
   "complexityLevelLabel": "Komplexitätsstufe der Benutzeroberfläche",
   "selectComplexityLevelPlaceholder": "Wähle eine Standard-Komplexitätsstufe für die Benutzeroberfläche",
   "userComplexityLevelLabel": "Benutzer",
@@ -91,6 +95,7 @@
   "changeLanguageLabel": "Sprache der App ändern (noch in Entwicklung)",
   "developerLabel": "Entwickler",
   "localServiceLabel": "Lokaler LLM-Dienst (Headless)",
+  "modelDefaultsLabel": "Modell-Standardeinstellungen",
   "showExperimentalFeaturesLabel": "Experimentelle Funktionen anzeigen",
   "appFirstLoadLabel": "App-Erfahrung beim ersten Laden",
   "showDebugInfoBlocksInChatLabel": "Debug-Infoblöcke im Chat anzeigen",
@@ -135,11 +140,13 @@
   "modelLoadingGuardrails.custom.label": "Speicherlimit: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Legen Sie ein benutzerdefiniertes Speicherlimit für das Laden von Modellen fest. Modelle werden nicht geladen, wenn dieses Limit überschritten wird.",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Nicht empfohlen) „Trotzdem laden“ immer zulassen, ohne Alt/Option gedrückt zu halten",
 
   "experimentalLoadPresets": "Unterstützung für Modellladekonfigurationen in Voreinstellungen aktivieren",
   "experimentalLoadPresets.description": "Ob Voreinstellungen Modellladekonfigurationen enthalten dürfen. Diese Funktion ist experimentell und wir freuen uns über Feedback.",
 
   "unloadPreviousJITModelOnLoad": "JIT-Modelle automatisch entfernen: Sicherstellen, dass zu jedem Zeitpunkt höchstens 1 Modell über JIT geladen ist (entlädt vorheriges Modell)",
+  "autoDeleteExtensionPacks": "Am wenigsten verwendete Laufzeit-Erweiterungspakete automatisch löschen",
   "autoUpdateExtensionPacks": "Ausgewählte Runtime-Erweiterungspakete automatisch aktualisieren",
   "useHFProxy.label": "LM Studios Hugging Face Proxy verwenden",
   "useHFProxy.hint": "Verwenden Sie LM Studios Hugging Face Proxy zum Suchen und Herunterladen von Modellen. Dies kann Benutzern helfen, die Probleme beim direkten Zugriff auf Hugging Face haben.",
@@ -179,5 +186,29 @@
     "hasBetterFooterCardText": "Wir haben den Chat-Migrator verbessert, seit Sie Ihre alten Chats migriert haben. Sie können den Migrationsprozess erneut ausführen. (Wir erstellen einen neuen Ordner für die neu migrierten Chats.)",
     "dismissConfirm": "Verwerfen",
     "dismissConfirmDescription": "Die Chat-Migration kann jederzeit in den Einstellungen durchgeführt werden"
+  },
+  "toolConfirmation": {
+    "label": "Werkzeugabruf-Bestätigung",
+    "neverAsk": {
+      "label": "Fragen Sie niemals nach Bestätigungen, bevor Sie ein Tool ausführen (NICHT EMPFOHLEN)",
+      "hint": "Deaktivieren Sie die Bestätigungen, bevor Sie ein Tool ausführen. Dies wird nicht empfohlen.",
+      "warnTitle": "Bist du sicher?",
+      "warnDescription": "Das Deaktivieren von Bestätigungen für Werkzeug-Aufrufe ist gefährlich. Wenn eines Ihrer Plugins ein Werkzeug bereitstellt, das potenziell zerstörerische Aktionen ausführen kann (z. B. Befehle ausführen, Dateien löschen, Dateien überschreiben, Dateien hochladen usw.), kann das Modell dies ohne Bestätigung tun. Sie können Bestätigungen jederzeit für einzelne Tools oder sogar für einzelne Plugins deaktivieren. Das Aktivieren dieser Option wird NICHT empfohlen. Bitte seien Sie vorsichtig.",
+      "warnButton": "Ich verstehe das Risiko"
+    }
+  },
+
+  "defaultContextLength": {
+    "label": "Standardkontextlänge",
+    "maxTitle": "Modell Maximum",
+    "customTitle": "Benutzerdefinierter Wert",
+    "maxSubtitle": "Verwenden Sie die maximale Kontextlänge, die von jedem Modell unterstützt wird.",
+    "customSubtitle": "Legen Sie die Standardkontextlänge für das Laden neuer Modelle fest. Wenn die vom Modell unterstützte maximale Kontextlänge geringer ist, wird dieser Wert verwendet.",
+    "invalidNaNError": "Ungültiger Wert für die Kontextlänge. Verwendung des Werts {{value}}",
+    "invalidRangeError": "Ungültiger Wert für die Kontextlänge. Sollte im Bereich zwischen 1 und 2^30 liegen. Verwendung des Werts {{value}}",
+    "largeContextWarning": "Je höher die Kontextlänge, desto mehr Speicher benötigt das Modell. Wenn Sie sich nicht sicher sind, ändern Sie die Standardeinstellung nicht."
+  },
+  "jitTTL": {
+    "subtitle": "JIT-geladene Modelle werden nach einer festgelegten Leerlaufzeit automatisch entladen."
   }
 }
