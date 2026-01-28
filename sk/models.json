@@ -4,7 +4,7 @@
   "aggregate_one": "Lokálny model: {{count}}, využité miesto na disku: {{size}}",
   "aggregate_other": "Lokálne modely: {{count}}, využité miesto na disku: {{size}}",
   
-  "noModels.title": "„Vaše modely sa tu zobrazia.",
+  "noModels.title": "Vaše modely sa tu zobrazia.",
   "noModels.discoverButtonText.prefix": "Kliknite na",
   "noModels.discoverButtonText.suffix": "tlačidlo a vyhľadajte modely na stiahnutie.",
   "noModels.discoverModelsPrompt": "Choďte a preskúmajte niektoré lokálne LLM!",
