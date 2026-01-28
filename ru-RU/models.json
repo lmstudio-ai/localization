@@ -4,9 +4,9 @@
   "aggregate_one": "Количество локальных моделей: {{count}}. Занимают на диске: {{size}}",
   "aggregate_other": "Количество локальных моделей: {{count}}. Занимают на диске: {{size}}",
 
-  "noModels.title": "Ваши локальные модели будут показаны здесь.",
+  "noModels.title": "Ваши модели будут показаны здесь.",
   "noModels.discoverButtonText.prefix": "Нажмите на",
-  "noModels.discoverButtonText.suffix": "кнопку в левой боковой панели, чтобы найти интересные LLM для загрузки.",
+  "noModels.discoverButtonText.suffix": "кнопку, чтобы найти модели для загрузки.",
   "noModels.discoverModelsPrompt": "Попробуйте найти подходящие локальные LLM!",
 
   "modelsTable.arch/label": "Архитектура",
