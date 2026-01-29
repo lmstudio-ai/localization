@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "Treci peste onboarding",
+  "action.next": "Înainte",
+  "action.back": "Înapoi",
+  "action.finish": "Gata",
+
+  "dismissable_rag_modal": {
+    "description": "De acum poţi daloga cu documentele tale folosind Retrieval Augmented Generation (RAG). Iată cum funcţionează:",
+    "instructions": {
+      "attach_files": {
+        "title": "Ataşez fisiere",
+        "description": "Selectează maximum 5 fişiere cu dimensiunea -combinată- de 30 MB. Formaturile suportate: PDF, DOCX, TXT, CSV."
+      },
+      "be_specific": {
+        "title": "Fii mai precis",
+        "description": "Cand întrebi, menţionează cât mai multe detalii e posibil - astfel, sistemul va putea prelua cele mai relevante informaţii din documentele tale."
+      },
+      "get_responses": {
+        "title": "Primeşte replici şi testează-le",
+        "description": "LLM-ul va evalua solicitarea ta şi la citatele din documentele tale, apoi va încerca să genereze o replică. Testează diverse solicitări pentru a afla cum e mai bine."
+      }
+    }
+  }
+}
