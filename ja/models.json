@@ -32,6 +32,7 @@
   "loader.model.bundled": "バンドル済み",
   "action.cancel": "キャンセル",
   "indexingOngoing": "モデルをインデックス中... しばらくお待ちください",
+  "indexingPageLoaderText": "モデルをインデックス中...",
   "index/error_one": "次のフォルダーのインデックス作成に失敗しました:",
   "index/error_other": "次のフォルダーのインデックス作成に失敗しました:",
   "badModels/title_one": "次のモデルのインデックス作成に失敗しました:",
@@ -120,6 +121,12 @@
       "next": "次へ",
       "confirm": "作成",
       "error": "仮想モデルの作成に失敗しました"
+    },
+    "altsSelect": {
+      "title": "モデルソースを切り替え",
+      "resetButton": "デフォルトにリセット",
+      "description": "このモデルには複数の利用可能なソースファイルがあります。",
+      "trigger": "バリアント"
     }
   }
 }

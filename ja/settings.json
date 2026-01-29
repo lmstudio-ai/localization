@@ -49,6 +49,9 @@
   "sideButtonLabels": "サイドボタンのラベルを表示",
   "showModelFileNames": "マイモデル: 常に完全なモデルファイル名を表示",
   "colorThemeLabel": "カラーテーマ",
+  "appNavigationBarPositionLabel": "ナビゲーションバーの位置",
+  "appNavigationBarPositionTop": "上",
+  "appNavigationBarPositionLeft": "左",
   "complexityLevelLabel": "ユーザーインターフェースの複雑さレベル",
   "selectComplexityLevelPlaceholder": "デフォルトのUI複雑さレベルを選択",
   "userComplexityLevelLabel": "ユーザー",
@@ -59,7 +62,7 @@
   "chat/highlightChatMessageOnHover": "チャットメッセージにカーソルを合わせたときにハイライト",
   "chat/doubleClickMessageToEdit": "チャットメッセージをダブルクリックして編集",
 
-  "chat/aiNaming/label": "AI に名前をつける",
+  "chat/aiNaming/label": "AIに名前をつける",
   "chat/aiNaming/mode/label": "AI生成チャット名",
   "chat/aiNaming/mode/value/never": "しない",
   "chat/aiNaming/mode/value/never/subTitle": "AI生成チャット名を作成しない",
@@ -137,6 +140,7 @@
   "modelLoadingGuardrails.custom.label": "メモリ制限: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "モデルの読み込みに対するカスタムメモリ制限を設定します。この制限を超えるモデルは読み込まれません。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(非推奨) Alt/Optionキーを押さずに'Load Anyway'「とにかく読み込む」ことを常に許可する",
 
   "experimentalLoadPresets": "モデル読み込みのプリセットにおける設定サポートを有効にする",
   "experimentalLoadPresets.description": "プリセットがモデル読み込み設定を含むことを許可するかどうかを指定します。この機能は実験的であり、フィードバックを歓迎します。",
