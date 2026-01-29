@@ -49,6 +49,9 @@
   "sideButtonLabels": "サイドボタンのラベルを表示",
   "showModelFileNames": "マイモデル: 常に完全なモデルファイル名を表示",
   "colorThemeLabel": "カラーテーマ",
+  "appNavigationBarPositionLabel": "ナビゲーションバーの位置",
+  "appNavigationBarPositionTop": "上",
+  "appNavigationBarPositionLeft": "左",
   "complexityLevelLabel": "ユーザーインターフェースの複雑さレベル",
   "selectComplexityLevelPlaceholder": "デフォルトのUI複雑さレベルを選択",
   "userComplexityLevelLabel": "ユーザー",
@@ -59,7 +62,7 @@
   "chat/highlightChatMessageOnHover": "チャットメッセージにカーソルを合わせたときにハイライト",
   "chat/doubleClickMessageToEdit": "チャットメッセージをダブルクリックして編集",
 
-  "chat/aiNaming/label": "AI に名前をつける",
+  "chat/aiNaming/label": "AIに名前をつける",
   "chat/aiNaming/mode/label": "AI生成チャット名",
   "chat/aiNaming/mode/value/never": "しない",
   "chat/aiNaming/mode/value/never/subTitle": "AI生成チャット名を作成しない",
@@ -92,6 +95,7 @@
   "changeLanguageLabel": "アプリの言語を選択 (まだ開発中)",
   "developerLabel": "開発者",
   "localServiceLabel": "ローカルLLMサービス (ヘッドレス)",
+  "modelDefaultsLabel": "モデルのデフォルト設定",
   "showExperimentalFeaturesLabel": "実験的機能を表示",
   "appFirstLoadLabel": "アプリ初回ロード体験",
   "showDebugInfoBlocksInChatLabel": "チャットにデバッグ情報ブロックを表示",
@@ -136,6 +140,7 @@
   "modelLoadingGuardrails.custom.label": "メモリ制限: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "モデルの読み込みに対するカスタムメモリ制限を設定します。この制限を超えるモデルは読み込まれません。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(非推奨) Alt/Optionキーを押さずに'Load Anyway'「とにかく読み込む」ことを常に許可する",
 
   "experimentalLoadPresets": "モデル読み込みのプリセットにおける設定サポートを有効にする",
   "experimentalLoadPresets.description": "プリセットがモデル読み込み設定を含むことを許可するかどうかを指定します。この機能は実験的であり、フィードバックを歓迎します。",
@@ -183,7 +188,7 @@
     "dismissConfirmDescription": "チャットの移行は、設定からいつでも行うことができます。"
   },
   "toolConfirmation": {
-    "label": "Tool Call 確認",
+    "label": "ツール呼び出しの確認",
     "neverAsk": {
       "label": "ツールを実行する前に確認を求めない (推奨しません)",
       "hint": "ツールを実行する前の確認を無効にします。これは推奨されません。",
@@ -191,5 +196,19 @@
       "warnDescription": "ツール呼び出しの確認を無効にすることは危険です。プラグインのいずれかが、破壊的なアクションを実行する可能性のあるツールを提供している場合（コマンドの実行、ファイルの削除、ファイルの上書き、ファイルのアップロードなど）、モデルは確認なしにそれを実行できるようになります。ツールごと、またはプラグインごとに確認を無効にすることは常に可能です。このオプションを有効にすることは推奨されません。十分に注意してください。",
       "warnButton": "リスクを理解しました"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "デフォルトのコンテキスト長",
+    "maxTitle": "モデルの最大値",
+    "customTitle": "カスタム値",
+    "maxSubtitle": "各モデルがサポートする最大のコンテキスト長を使用します。",
+    "customSubtitle": "新しいモデルを読み込む際のデフォルトのコンテキスト長を設定します。モデルが対応する最大コンテキスト長がより短い場合は、その値が使用されます。",
+    "invalidNaNError": "無効なコンテキスト長の値です。{{value}} を使用します。",
+    "invalidRangeError": "無効なコンテキスト長の値です。1から2^30の範囲で指定してください。{{value}} を使用します。",
+    "largeContextWarning": "コンテキスト長が大きいほど、モデルが使用するメモリも増加します。よく分からない場合は、デフォルト値を変更しないでください。"
+  },
+  "jitTTL": {
+    "subtitle": "JIT で読み込まれたモデルは、指定された時間アイドル状態が続くと自動的にアンロードされます。"
   }
 }
