@@ -1,68 +1,196 @@
 {
-  "tabs/server": "Τοπικός διακομιστής",
-  "tabs/extensions": "Προγράμματα εκτέλεσης LM",
-  "loadSettings/title": "Ρυθμίσεις φόρτωσης",
+  "tabs/server": "Τοπικός Διακομιστής",
+  "tabs/extensions": "LM Runtimes",
+  "loadSettings/title": "Φόρτωση ρυθμίσεων",
   "modelSettings/placeholder": "Επιλέξτε ένα μοντέλο για να το διαμορφώσετε",
 
   "loadedModels/noModels": "Δεν έχουν φορτωθεί μοντέλα",
 
-  "serverOptions/title": "Επιλογές διακομιστή",
-  "serverOptions/configurableTitle": "Ρυθμιζόμενες επιλογές",
-  "serverOptions/port/hint": "Ορίστε ποια θύρα δικτύωσης θα χρησιμοποιεί ο τοπικός διακομιστής. Από προεπιλογή, το LM Studio χρησιμοποιεί τη θύρα 1234. Ίσως χρειαστεί να την αλλάξετε, αν η θύρα χρησιμοποιείται ήδη.",
-  "serverOptions/port/subtitle": "Η θύρα ακρόασης",
+  "serverOptions/title": "Επιλογές Διακομιστή",
+  "serverOptions/configurableTitle": "Διαμορφώσιμες Επιλογές",
+  "serverOptions/port/hint": "Ορίστε ποια θύρα δικτύου θα χρησιμοποιήσει ο τοπικός διακομιστής. Από προεπιλογή, το LM Studio χρησιμοποιεί τη θύρα 1234. Μπορεί να χρειαστεί να την αλλάξετε αν η θύρα είναι ήδη σε χρήση.",
+  "serverOptions/port/subtitle": "Η θύρα για ακρόαση",
   "serverOptions/autostart/title": "Αυτόματη εκκίνηση διακομιστή",
-  "serverOptions/autostart/hint": "Αυτόματη εκκίνηση του τοπικού διακομιστή όταν φορτώνεται ένα μοντέλο",
+  "serverOptions/autostart/hint": "Αυτόματη ενεργοποίηση του τοπικού διακομιστή LLMs του LM Studio κατά την εκκίνηση της εφαρμογής ή της υπηρεσίας",
   "serverOptions/port/integerWarning": "Ο αριθμός θύρας πρέπει να είναι ακέραιος",
   "serverOptions/port/invalidPortWarning": "Η θύρα πρέπει να είναι μεταξύ 1 και 65535",
   "serverOptions/cors/title": "Ενεργοποίηση CORS",
-  "serverOptions/cors/hint1": "Η ενεργοποίηση του CORS (Cross-origin Resource Sharing) θα επιτρέψει στους ιστότοπους που επισκέπτεστε να κάνουν αιτήσεις στον διακομιστή του LM Studio.",
-  "serverOptions/cors/hint2": "Το CORS μπορεί να απαιτείται κατά την υποβολή αιτημάτων από μια ιστοσελίδα ή VS Code / άλλη επέκταση.",
-  "serverOptions/cors/subtitle": "Επιτρέψτε αιτήσεις διαφορετικής προέλευσης",
-  "serverOptions/network/title": "Υπηρετήστε στο τοπικό δίκτυο",
-  "serverOptions/network/subtitle": "Προβολή του διακομιστή σε συσκευές στο δίκτυο",
-  "serverOptions/network/hint1": "Εάν θέλετε να επιτρέπετε συνδέσεις από άλλες συσκευές στο δίκτυο.",
-  "serverOptions/network/hint2": "Αν δεν επιλεγεί, ο διακομιστής θα ακούει μόνο στο localhost.",
-  "serverOptions/verboseLogging/title": "Λεπτομερής καταγραφή",
-  "serverOptions/verboseLogging/subtitle": "Ενεργοποίηση της λεπτομερής καταγραφής για τον τοπικό διακομιστή",
-  "serverOptions/contentLogging/title": "Καταγραφή των προτροπών και των απαντήσεων",
-  "serverOptions/contentLogging/subtitle": "Τοπικές ρυθμίσεις καταγραφής αιτήσεων / απαντήσεων",
-  "serverOptions/contentLogging/hint": "Εάν θα καταγράφονται οι προτροπές ή/και η απάντηση στο αρχείο καταγραφής του τοπικού διακομιστή.",
-  "serverOptions/jitModelLoading/title": "Φόρτωση μοντέλου Just-in-Time",
-  "serverOptions/jitModelLoading/hint": "Όταν είναι ενεργοποιημένη, εάν μια αίτηση προσδιορίζει ένα μοντέλο που δεν έχει φορτωθεί, θα φορτωθεί και θα χρησιμοποιηθεί αυτόματα. Επιπλέον, το τελικό σημείο \"/v1/models\" θα περιλαμβάνει επίσης μοντέλα που δεν έχουν ακόμη φορτωθεί.",
+  "serverOptions/cors/hint1": "Η ενεργοποίηση CORS (Cross-origin Resource Sharing) θα επιτρέψει στους ιστότοπους που επισκέπτεστε να κάνουν αιτήσεις στον διακομιστή LM Studio.",
+  "serverOptions/cors/hint2": "Το CORS μπορεί να απαιτείται κατά την πραγματοποίηση αιτήσεων από μια ιστοσελίδα ή VS Code / άλλη επέκταση.",
+  "serverOptions/cors/subtitle": "Επιτρέψτε αιτήσεις cross-origin",
+  "serverOptions/network/title": "Εξυπηρέτηση στο Τοπικό Δίκτυο",
+  "serverOptions/network/subtitle": "Έκθεση διακομιστή σε συσκευές στο δίκτυο",
+  "serverOptions/network/hint1": "Καθορίζει αν επιτρέπονται συνδέσεις από άλλες συσκευές στο δίκτυο.",
+  "serverOptions/network/hint2": "Αν δεν είναι επιλεγμένο, ο διακομιστής θα ακούει μόνο στο localhost.",
+  "serverOptions/verboseLogging/title": "Λεπτομερής Καταγραφή",
+  "serverOptions/verboseLogging/subtitle": "Ενεργοποίηση λεπτομερούς καταγραφής για τον τοπικό διακομιστή",
+  "serverOptions/contentLogging/title": "Καταγραφή Προτροπών και Αποκρίσεων",
+  "serverOptions/contentLogging/subtitle": "Ρυθμίσεις καταγραφής τοπικών αιτήσεων / αποκρίσεων",
+  "serverOptions/contentLogging/hint": "Καταγραφή προτροπών και/ή αποκρίσεων στο αρχείο καταγραφής του τοπικού διακομιστή.",
+  "serverOptions/redactContent/title": "Επεξεργασία Περιεχομένου",
+  "serverOptions/redactContent/hint": "Όταν είναι ενεργοποιημένο, αποτρέπεται η καταγραφή ευαίσθητων δεδομένων, όπως το περιεχόμενο αιτήσεων και αποκρίσεων.",
+  "serverOptions/logIncomingTokens/title": "Καταγραφή Εισερχόμενων Tokens",
+  "serverOptions/logIncomingTokens/hint": "Καταγραφή κάθε token καθώς δημιουργείται.",
+  "serverOptions/fileLoggingMode/title": "Λειτουργία Καταγραφής Αρχείων",
+  "serverOptions/fileLoggingMode/off/title": "ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΟ",
+  "serverOptions/fileLoggingMode/off/hint": "Μην δημιουργείτε αρχεία καταγραφής",
+  "serverOptions/fileLoggingMode/succinct/title": "Συνοπτικό",
+  "serverOptions/fileLoggingMode/succinct/hint": "Καταγράψτε το ίδιο περιεχόμενο όπως στην κονσόλα. Οι μεγάλες αιτήσεις θα περικοπούν.",
+  "serverOptions/fileLoggingMode/full/title": "Πλήρες",
+  "serverOptions/fileLoggingMode/full/hint": "Μην περικόπτετε μεγάλες αιτήσεις.",
+  "serverOptions/jitModelLoading/title": "Φόρτωση Μοντέλου Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "Όταν είναι ενεργοποιημένο, αν μια αίτηση καθορίσει ένα μοντέλο που δεν είναι φορτωμένο, θα φορτωθεί αυτόματα και θα χρησιμοποιηθεί. Επιπλέον, το endpoint \"/v1/models\" θα περιλαμβάνει επίσης μοντέλα που δεν έχουν φορτωθεί ακόμα.",
   "serverOptions/loadModel/error": "Αποτυχία φόρτωσης μοντέλου",
+  "serverOptions/jitModelLoadingTTL/title": "Αυτόματη εκφόρτωση αχρησιμοποίητων JIT φορτωμένων μοντέλων",
+  "serverOptions/jitModelLoadingTTL/hint": "Ένα μοντέλο που φορτώθηκε Just-in-time (JIT) για να εξυπηρετήσει μια αίτηση API θα εκφορτωθεί αυτόματα μετά από αχρησία για κάποια διάρκεια (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Μέγιστο αδρανές TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "λεπτά",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Διατήρηση Μόνο Τελευταίου JIT Φορτωμένου Μοντέλου",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Εξασφαλίστε ότι το πολύ 1 μοντέλο είναι φορτωμένο μέσω JIT οποιαδήποτε στιγμή (εκφορτώνει προηγούμενο μοντέλο)",
+  "serverOptions/allowMcp/title": "Επιτρέψτε Απομακρυσμένο MCP",
+  "serverOptions/allowMcp/hint": "Επιτρέψτε τη χρήση MCP που δεν περιλαμβάνονται στο mcp.json.",
+  "serverOptions/allowMcp/mode/off": "Απενεργοποιημένο",
+  "serverOptions/allowMcp/mode/off/hint": "Μην επιτρέπετε αιτήσεις διακομιστή να χρησιμοποιούν MCP",
+  "serverOptions/allowMcp/mode/remote": "Απομακρυσμένο",
+  "serverOptions/allowMcp/mode/remote/hint": "Επιτρέψτε σύνδεση σε απομακρυσμένους διακομιστές MCP",
 
-  "serverLogs/scrollToBottom": "Μετάβαση στο τέλος",
-  "serverLogs/clearLogs": "Εκκαθάριση αρχείων καταγραφής ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Ανοίξτε το φάκελο με τα αρχεία καταγραφής του διακομιστή",
+  "serverOptions/start/error": "Αποτυχία εκκίνησης του διακομιστή",
+  "serverOptions/stop/error": "Αποτυχία διακοπής του διακομιστή",
 
-  "runtimeSettings/title": "Ρυθμίσεις προγράμματος εκτέλεσης",
-  "runtimeSettings/chooseRuntime/title": "Διαμόρφωση προγραμμάτων εκτέλεσης",
-  "runtimeSettings/chooseRuntime/description": "Επιλέξτε πρόγραμμα εκτέλεσης για κάθε μορφή μοντέλου",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Εμφάνιση όλων των προγραμμάτων εκτέλεσης",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Από προεπιλογή, το LM Studio εμφανίζει μόνο την τελευταία έκδοση κάθε συμβατού προγράμματος εκτέλεσης. Ενεργοποιήστε αυτήν την επιλογή για να δείτε όλα τα διαθέσιμα προγράμματα εκτέλεσης.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Επιλέξτε πρόγραμμα εκτέλεσης",
+  "serverLogs/scrollToBottom": "Μετάβαση στο κάτω μέρος",
+  "serverLogs/clearLogs": "Εκκαθάριση καταγραφών ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Άνοιγμα φακέλου καταγραφών διακομιστή",
+
+  "runtimeSettings/title": "Ρυθμίσεις χρόνου εκτέλεσης",
+  "runtimeSettings/chooseRuntime/title": "Επιλογές",
+  "runtimeSettings/chooseRuntime/description": "Επιλέξτε μια μηχανή για χρήση για κάθε μορφή μοντέλου",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Εμφάνιση όλων των πακέτων επέκτασης",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Από προεπιλογή, το LM Studio εμφανίζει μόνο την τελευταία έκδοση κάθε πακέτου επέκτασης. Ενεργοποιήστε αυτή την επιλογή για να δείτε όλα τα διαθέσιμα πακέτα επέκτασης.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Επιλέξτε μια μηχανή",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Επιλέξτε ένα framework για χρήση για κάθε λειτουργία",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Ενσωματωμένος αναλυτής",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Αναλυτής Εγγράφων",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Επιλέξτε έναν αναλυτή εγγράφων",
 
   "runtimeOptions/uninstall": "Απεγκατάσταση",
-  "runtimeOptions/uninstallDialog/title": "Απεγκατάσταση του {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Η απεγκατάσταση αυτού του προγράμματος εκτέλεσης θα το αφαιρέσει από το σύστημα. Αυτή η ενέργεια είναι μη αναστρέψιμη.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Ορισμένα αρχεία ενδέχεται να αφαιρεθούν μόνο μετά την επανεκκίνηση του LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Αποτυχία απεγκατάστασης προγράμματος εκτέλεσης",
-  "runtimeOptions/uninstallDialog/confirm": "Συνέχεια και απεγκατάσταση",
+  "runtimeOptions/uninstallDialog/title": "Απεγκατάσταση {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Η απεγκατάσταση αυτού του runtime θα το αφαιρέσει από το σύστημα. Αυτή η ενέργεια είναι μη αναστρέψιμη.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Ορισμένα αρχεία μπορεί να αφαιρεθούν μόνο μετά την επανεκκίνηση του LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Αποτυχία απεγκατάστασης runtime",
+  "runtimeOptions/uninstallDialog/confirm": "Συνέχεια και Απεγκατάσταση",
   "runtimeOptions/uninstallDialog/cancel": "Ακύρωση",
-  "runtimeOptions/noCompatibleRuntimes": "Δεν βρέθηκαν συμβατά προγράμματα εκτέλεσης",
-  "runtimeOptions/downloadIncompatibleRuntime": "Αυτό το πρόγραμμα εκτέλεσης κρίθηκε ασύμβατο με το μηχάνημά σας. Κατά πάσα πιθανότητα δεν θα λειτουργήσει.",
-  "runtimeOptions/noRuntimes": "Δεν βρέθηκαν προγράμματα εκτέλεσης",
+  "runtimeOptions/noCompatibleRuntimes": "Δεν βρέθηκαν συμβατά runtimes",
+  "runtimeOptions/downloadIncompatibleRuntime": "Αυτό το runtime καθορίστηκε ως ασύμβατο με τον υπολογιστή σας. Πιθανότατα δεν θα λειτουργήσει.",
+  "runtimeOptions/noRuntimes": "Δεν βρέθηκαν runtimes",
 
-  "inferenceParams/noParams": "Δεν υπάρχουν διαμορφώσιμες παράμετροι εξαγωγής συμπερασμάτων για αυτόν τον τύπο μοντέλου",
+  "runtimes": {
+    "manageLMRuntimes": "Διαχείριση LM Runtime",
+    "includeOlderRuntimeVersions": "Συμπερίληψη παλαιότερων εκδόσεων",
+    "dismiss": "Απόρριψη",
+    "updateAvailableToast": {
+      "title": "Διαθέσιμη Ενημέρωση LM Runtime!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Runtime Ενημερώθηκε: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Τα νεοφορτωμένα μοντέλα {{compatibilityTypes}} θα χρησιμοποιήσουν το ενημερωμένο runtime."
+    },
+    "noAvx2ErrorMessage": "Όλα τα LM Runtimes απαιτούν προς το παρόν CPU με υποστήριξη AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Πακέτα Επέκτασης Runtime",
+      "refresh": "Ανανέωση",
+      "refreshing": "Ανανέωση...",
+      "filterSegment": {
+        "compatibleOnly": "Μόνο Συμβατά",
+        "all": "Όλα"
+      },
+      "card": {
+        "releaseNotes": "Σημειώσεις Έκδοσης",
+        "latestVersionInstalled": "Τελευταία Έκδοση Εγκατεστημένη",
+        "updateAvailable": "Διαθέσιμη Ενημέρωση"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Διαχείριση Ενεργών Runtimes"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Διαχείριση Εκδόσεων",
+        "close": "Κλείσιμο"
+      },
+      "tabs": {
+        "all": "Όλα",
+        "frameworks": "Τα Frameworks μου",
+        "engines": "Οι Μηχανές μου"
+      },
+      "detailsModal": {
+        "installedVersions": "Εγκατεστημένες εκδόσεις για {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (προχωρημένο)",
+        "releaseNotesTitle": "Σημειώσεις Έκδοσης",
+        "noReleaseNotes": "Δεν υπάρχουν σημειώσεις έκδοσης διαθέσιμες για αυτή την έκδοση",
+        "back": "Πίσω",
+        "close": "Κλείσιμο"
+      },
+      "noEngines": "Δεν έχουν εγκατασταθεί μηχανές",
+      "noFrameworks": "Δεν έχουν εγκατασταθεί frameworks"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Υποστηριζόμενα τελικά σημεία (τύπου OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Λίστα με τα τρέχοντα φορτωμένα μοντέλα",
-  "endpoints/openaiCompatRest/postCompletions": "Λειτουργία συμπλήρωσης κειμένου. Προβλέψτε το επόμενο token μιας προτροπής. Σημείωση: Το OpenAI θεωρεί αυτό το τελικό σημείο 'απαρχαιωμένο'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Ολοκλήρωση συνομιλιών. Στείλτε ένα ιστορικό συνομιλίας στο μοντέλο για να προβλέψετε την επόμενη απάντηση του βοηθού",
-  "endpoints/openaiCompatRest/postEmbeddings": "Ενσωμάτωση κειμένου. Δημιουργία ενσωμάτωσης κειμένου για ένα δεδομένο κείμενο εισόδου. Δέχεται μια συμβολοσειρά ή έναν πίνακα συμβολοσειρών.",
+  "inferenceParams/noParams": "Δεν υπάρχουν διαμορφώσιμες παράμετροι inference διαθέσιμες για αυτόν τον τύπο μοντέλου",
 
-  "model.createVirtualModelFromInstance": "Αποθήκευση ρυθμίσεων ως νέο εικονικό μοντέλο",
-  "model.createVirtualModelFromInstance/error": "Απέτυχε η αποθήκευση των ρυθμίσεων ως νέο εικονικό μοντέλο",
+  "quickDocs": {
+    "tabChipTitle": "Τεκμηρίωση Προγραμματιστή",
+    "newToolUsePopover": "Τα Αποσπάσματα Κώδικα είναι τώρα διαθέσιμα εδώ στην \"Τεκμηρίωση Προγραμματιστή\". Κάντε κλικ εδώ για να ξεκινήσετε με τη χρήση εργαλείων!",
+    "newToolUsePopoverTitle": "📚 Τεκμηρίωση Προγραμματιστή",
+    "learnMore": "ℹ️ 👾 Για να μάθετε περισσότερα για τα endpoints του τοπικού διακομιστή LM Studio, επισκεφθείτε την [τεκμηρίωση](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Γεια σου, Κόσμε!"
+    },
+    "chat": {
+      "title": "Συνομιλία"
+    },
+    "structuredOutput": {
+      "title": "Δομημένη Έξοδος"
+    },
+    "imageInput": {
+      "title": "Είσοδος Εικόνας"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Χρήση Εργαλείων",
+      "tab": {
+        "saveAsPythonFile": "Αποθήκευση ως αρχείο Python",
+        "runTheScript": "Εκτέλεση του script:",
+        "savePythonFileCopyPaste": "Αποθήκευση ως αρχείο Python για εντολή αντιγραφής-επικόλλησης"
+      }
+    },
+    "newBadge": "Νέο"
+  },
 
-  "apiConfigOptions/title": "Ρύθμιση API"
+  "endpoints/openaiCompatRest/title": "Υποστηριζόμενα endpoints{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI-like",
+  "endpoints/openaiCompatRest/getModels": "Λίστα των τρέχοντα φορτωμένων μοντέλων",
+  "endpoints/openaiCompatRest/postCompletions": "Λειτουργία Συμπλήρωσης Κειμένου. Πρόβλεψη του επόμενου token(s) δεδομένης μιας προτροπής. Σημείωση: Η OpenAI θεωρεί αυτό το endpoint 'deprecated'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Συμπληρώσεις συνομιλίας. Αποστολή ιστορικού συνομιλίας στο μοντέλο για πρόβλεψη της επόμενης απόκρισης βοηθού",
+  "endpoints/openaiCompatRest/postEmbeddings": "Ενσωμάτωση Κειμένου. Δημιουργία ενσωματώσεων κειμένου για δεδομένη είσοδο κειμένου. Παίρνει συμβολοσειρά ή πίνακα συμβολοσειρών.",
+  "endpoints/openaiCompatRest/postResponses": "Προχωρημένη διεπαφή για δημιουργία αποκρίσεων μοντέλου. Δημιουργία stateful αλληλεπιδράσεων περνώντας το id μιας προηγούμενης απόκρισης ως είσοδο στην επόμενη.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Λίστα διαθέσιμων μοντέλων",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Φόρτωση μοντέλου με επιλογές",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Λήψη μοντέλου",
+  "endpoints/lmStudioRestV1/postChat": "Συνομιλία με μοντέλο. Υποστηρίζει stateful multi-turn συνομιλίες και MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Λήψη της κατάστασης λήψης μοντέλου",
+
+  "model.createVirtualModelFromInstance": "Αποθήκευση Ρυθμίσεων ως Νέο Εικονικό Μοντέλο",
+  "model.createVirtualModelFromInstance/error": "Αποτυχία αποθήκευσης ρυθμίσεων ως νέο εικονικό μοντέλο",
+
+  "model": {
+    "toolUseSectionTitle": "Χρήση Εργαλείων",
+    "toolUseDescription": "Αυτό το μοντέλο εντοπίστηκε ότι έχει εκπαιδευτεί για χρήση εργαλείων\n\nΑνοίξτε <custom-link>τεκμηρίωση προγραμματιστή</custom-link> για περισσότερες πληροφορίες"
+  },
+
+  "apiConfigOptions/title": "Διαμόρφωση API"
 }
