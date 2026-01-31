@@ -60,6 +60,8 @@
   "actions/loadLastModel": "前回使用したモデルを再読み込み",
   "actions/loadLastModel/tooltip": "このチャットで最後に使用したモデルを読み込むにはクリック:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "前回使用したモデルの読み込みに失敗しました。",
+  "actions/clearLastUsedModel": "前回使用したモデルをクリア",
+  "actions/clearLastUsedModel/error": "前回使用したモデルのクリアに失敗しました。",
   "actions/continueCurrentModel": "現在のモデルを使用",
   "actions/continueCurrentModel/tooltip": "現在のモデル: {{currentModel}}",
   "actions/changeToLastUsedModel": "{{lastModel}}を読み込む",
@@ -237,7 +239,9 @@
     "stopReason.maxPredictedTokensReached": "最大予測トークン数に到達",
     "stopReason.contextLengthReached": "コンテキスト長制限に到達",
     "speculativeDecodedBy": "ドラフトモデル: {{decodedBy}}",
-    "speculativeDecodingStats": "{{total}}個中{{accepted}}個のドラフトトークンを受理 ({{percentage}}%)"
+    "speculativeDecodingStats": "{{total}}個中{{accepted}}個のドラフトトークンを受理 ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% のドラフトトークンを受理",
+    "speculativeDecodingTooltip": "{{accepted}}/{{total}} 個のドラフトトークンを受理"
   },
 
   "tabs": {
