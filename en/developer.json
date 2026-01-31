@@ -183,6 +183,7 @@
   "endpoints/lmStudioRestV1/postModelsDownload": "Download a model",
   "endpoints/lmStudioRestV1/postChat": "Chat with a model. Supports stateful multi-turn conversations and MCP",
   "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Get the status of a model download",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic-compatible",
 
   "model.createVirtualModelFromInstance": "Save Settings as a New Virtual Model",
   "model.createVirtualModelFromInstance/error": "Failed to save settings as a new virtual model",
