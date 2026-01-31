@@ -183,6 +183,7 @@
   "endpoints/lmStudioRestV1/postModelsDownload": "Stiahnuť model",
   "endpoints/lmStudioRestV1/postChat": "Chatovať s modelom. Podporuje viackolové konverzácie a MCP",
   "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Získať stav sťahovania modelu",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic-kompatibilné",
   
   "model.createVirtualModelFromInstance": "Uložiť nastavenia ako nový virtuálny model",
   "model.createVirtualModelFromInstance/error": "Nepodarilo sa uložiť nastavenia ako nový virtuálny model",
