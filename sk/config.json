@@ -333,7 +333,7 @@
       "speculativeDecoding": "Predbežné dekódovanie",
       "firstStepBody": "Zrýchlenie inferencie pre modely <custom-span>llama.cpp</custom-span> a <custom-span>MLX</custom-span>",
       "secondStepTitle": "Zrýchlenie inferencie pomocou predbežného dekódovania",
-      "secondStepBody": "Predbežné dekódovanie je technika, pri ktorej spolupracujú dva modely:\n - Väčší „hlavný“ model\n - Menší „návrhový“ model\n\nPočas generovania návrhový model rýchlo navrhuje tokeny, ktoré väčší hlavný model overuje. Overovanie tokenov je oveľa rýchlejšie ako ich generovanie, čo prináša zrýchlenie. **Čím väčší je rozdiel vo veľkosti medzi hlavným a návrhovým modelom, tým väčšie zrýchlenie**.\n\nNa zachovanie kvality hlavný model prijíma iba tokeny, ktoré zodpovedajú tým, ktoré by vygeneroval sám, čím zachováva kvalitu odpovedí väčšieho modelu pri vyššej rýchlosti. Oba modely musia zdieľať rovnakú slovnú zásobu.",
+      "secondStepBody": "Predbežné dekódovanie je technika, pri ktorej spolupracujú dva modely:\n - Väčší „hlavný“ model\n - Menší „návrhový“ model\n\nPočas generovania návrhový model rýchlo navrhuje tokeny, ktoré väčší hlavný model overuje. Overovanie tokenov je oveľa rýchlejšie ako ich generovanie, čo prináša zrýchlenie. **Čím väčší je rozdiel vo veľkosti medzi hlavným a návrhovým modelom, tým vyššie je zrýchlenie**.\n\nNa zachovanie kvality hlavný model prijíma iba tokeny, ktoré zodpovedajú tým, ktoré by vygeneroval sám, čím zachováva kvalitu odpovedí väčšieho modelu pri vyššej rýchlosti. Oba modely musia zdieľať rovnakú slovnú zásobu.",
       "draftModelRecommendationsTitle": "Odporúčané návrhové modely",
       "basedOnCurrentModels": "Na základe vašich aktuálnych modelov",
       "close": "Zavrieť",
