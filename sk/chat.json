@@ -239,7 +239,7 @@
     "stopReason.maxPredictedTokensReached": "Dosiahnutý maximálny počet predikovaných tokenov",
     "stopReason.contextLengthReached": "Dosiahnutý limit dĺžky kontextu",
     "speculativeDecodedBy": "Návrhový model: {{decodedBy}}",
-    "speculativeDecodingStats": "Prijatých {{accepted}}/{{total}} návrhových tokenov ({{percentage}} %)"
+    "speculativeDecodingStats": "Prijatých {{accepted}}/{{total}} návrhových tokenov ({{percentage}} %)",
     "speculativeDecodingAcceptedPercentage": "{{percentage}} % návrhových tokenov prijatých",
     "speculativeDecodingTooltip": "Prijaté {{accepted}}/{{total}} návrhové tokeny"
   },
