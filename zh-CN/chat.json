@@ -237,7 +237,9 @@
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% 草稿 Token 已被采纳",
+    "speculativeDecodingTooltip": "已采纳 {{accepted}}/{{total}} 个草稿 Token"
   },
 
   "tabs": {
