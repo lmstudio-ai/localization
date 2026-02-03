@@ -44,6 +44,7 @@ LM Studio localization
 - Hindi (hi) [@suhailtajshaik](https://github.com/suhailtajshaik)
 - Hungarian (hu) [@Mekemoka](https://github.com/Mekemoka)
 - Irish (ga) [@aindriu80](https://github.com/aindriu80)
+- English (en-GB) [@sammcj](https://github.com/sammcj)
 
 Still under development (due to lack of RTL support in LM Studio)
 - Hebrew: [@NHLOCAL](https://github.com/NHLOCAL)
