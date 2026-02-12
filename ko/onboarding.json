@@ -3,7 +3,6 @@
   "action.next": "다음",
   "action.back": "뒤로",
   "action.finish": "완료",
-
   "dismissable_rag_modal": {
     "description": "이제 검색 증강 생성(RAG)을 사용하여 자신의 문서와 채팅할 수 있습니다. 작동 방식은 다음과 같습니다:",
     "instructions": {
@@ -21,7 +20,6 @@
       }
     }
   },
-
   "toolUse": {
     "step_0": {
       "title": "베타: 도구 사용 🛠️ (함수 호출)",
