@@ -1,23 +1,42 @@
 {
-  "action.skipOnboarding": "Pomiń wprowadzenie",
-  "action.next": "Dalej",
+  "action.skipOnboarding": "Pomiń wdrożenie",
+  "action.next": "Następny",
   "action.back": "Wstecz",
   "action.finish": "Zakończ",
+
   "dismissable_rag_modal": {
-    "description": "Teraz możesz rozmawiać z własnymi dokumentami używając Generacji Wspomaganej Wyszukiwaniem (RAG). Oto jak to działa:",
+    "description": "Możesz teraz czatować z własnymi dokumentami dzięki technologii Retrieval Augmented Generation (RAG). Oto jak to działa:",
     "instructions": {
       "attach_files": {
-        "title": "Załącz Pliki",
-        "description": "Prześlij do 5 plików jednocześnie, o maksymalnym łącznym rozmiarze 30MB. Obsługiwane formaty to PDF, DOCX, TXT i CSV."
+        "title": "Dołącz pliki",
+        "description": "Prześlij maksymalnie 5 plików jednocześnie, o maksymalnym łącznym rozmiarze 30 MB. Obsługiwane formaty to PDF, DOCX, TXT i CSV."
       },
       "be_specific": {
-        "title": "Bądź Konkretny",
-        "description": "Zadając pytania, podaj jak najwięcej szczegółów. Pomoże to systemowi pobrać najbardziej odpowiednie informacje z Twoich dokumentów."
+        "title": "Bądź dokładny",
+        "description": "Zadając pytania, podawaj jak najwięcej szczegółów. To pomoże systemowi wyszukać najistotniejsze informacje z Twoich dokumentów."
       },
       "get_responses": {
-        "title": "Otrzymuj Odpowiedzi i Eksperymentuj",
-        "description": "LLM przeanalizuje Twoje zapytanie i pobrane fragmenty z Twoich dokumentów, a następnie spróbuje wygenerować odpowiedź. Eksperymentuj z różnymi zapytaniami, aby znaleźć to, co działa najlepiej."
+        "title": "Uzyskaj odpowiedzi i eksperymentuj",
+        "description": "LLM przeanalizuje Twoje zapytanie i pobrane fragmenty dokumentów, a następnie spróbuje wygenerować odpowiedź. Poeksperymentuj z różnymi zapytaniami, aby znaleźć najlepsze rozwiązanie."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Korzystanie z narzędzi 🛠️ (wywoływanie funkcji)",
+      "text_0": "Niektóre modele (np. Llama 3.1/3.2, Mistral, Qwen i inne) zostały wyszkolone w zakresie korzystania z narzędzi.",
+      "text_1": "W praktyce oznacza to, że udostępniasz LLM tablicę „narzędzi” (sygnatur funkcji) w bardzo konkretnym formacie, a LLM może zdecydować, czy je „wywołać” na podstawie monitu użytkownika.",
+      "text_2": "Można sobie wyobrazić przypadki użycia, takie jak wykonywanie zapytań do interfejsu API, uruchamianie kodu lub cokolwiek, co można wyrazić jako wywołanie funkcji."
+    },
+    "step_1": {
+      "title": "Rozpocznij korzystanie z narzędzi",
+      "toolUseCanWorkWithAnyModel": "Modele, które zostały wyszkolone pod kątem używania narzędzi, będą działać lepiej od innych, ale możesz spróbować używać narzędzi z dowolnym modelem. Przeczytaj <customlink>dokumentację</customlink> aby dowiedzieś się więcej.\nModele, które zostały przeszkolone w zakresie obsługi narzędzi, zostaną oznaczone nowym znacznikiem:",
+      "hasCompatibleModel": "🎉 Wygląda na to, że masz już modele ze wsparciem narzędzi!",
+      "downloadRecommendedModel": "Pobierz model wytrenowany pod kątem korzystania z narzędzi:"
+    },
+    "nextButton": "Następny",
+    "letsGoButton": "Załaduj model i uruchom serwer",
+    "doneButton": "Odrzuć"
   }
 }
