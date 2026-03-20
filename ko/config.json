@@ -414,7 +414,7 @@
     "contextMenuDelete": "삭제",
     "contextMenuShare": "게시...",
     "contextMenuOpenInHub": "웹에서 보기",
-    "contextMenuPullFromHub": "최신 풀",
+    "contextMenuPullFromHub": "최신 내용 가져오기",
     "contextMenuPushChanges": "Hub로 변경 사항 푸시",
     "contextMenuPushingChanges": "푸시 중...",
     "contextMenuPushedChanges": "변경 사항 푸시 완료",
@@ -485,7 +485,7 @@
       "confirmButton": "새로 게시"
     },
     "pull": {
-      "title": "최신 풀",
+      "title": "최신 내용 가져오기",
       "error": "풀 실패",
       "contextMenuErrorMessage": "풀 실패",
       "success": "풀 성공",
