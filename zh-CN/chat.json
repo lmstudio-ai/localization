@@ -68,6 +68,8 @@
   "actions/switchToLastUsedModel": "切换到 {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "点击以切换到上次与这个聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadModel": "加载模型",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失败。",
   "actions/toggleViewingProcessed/currentlyFalse": "当前查看的是原始消息。点击以查看预处理后的消息。",
   "actions/toggleViewingProcessed/currentlyTrue": "当前查看的是预处理后的消息。点击以查看原始消息。",
   "actions/toggleViewingProcessed/hint": "在消息发送给模型之前，它可能会被提示预处理器预处理。点击以切换查看原始消息和预处理后的消息。只有预处理后的消息会发送给模型。",
