@@ -194,7 +194,9 @@
       },
       "startRunningDevelopmentPlugin/error": "Nepodarilo sa spustiť plugin v režime vývoja",
       "stopRunningDevelopmentPlugin/error": "Nepodarilo sa zastaviť plugin v režime vývoja",
-      "forceReInitPlugin/error": "Nepodarilo sa reštartovať plugin"
+      "forceReInitPlugin/error": "Nepodarilo sa reštartovať plugin",
+      "signOutMcpPlugin/error": "Nepodarilo sa odhlásiť z pluginu",
+      "cancelMcpAuthentication/error": "Nepodarilo sa zrušiť autentifikáciu pluginu"
     },
     "pluginConfiguration": {
       "title": "Konfigurácia pluginu",
