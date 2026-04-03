@@ -194,7 +194,9 @@
       },
       "startRunningDevelopmentPlugin/error": "Failed to start running plugin in development mode",
       "stopRunningDevelopmentPlugin/error": "Failed to stop running plugin in development mode",
-      "forceReInitPlugin/error": "Failed to restart the plugin"
+      "forceReInitPlugin/error": "Failed to restart the plugin",
+      "signOutMcpPlugin/error": "Failed to sign out of the plugin",
+      "cancelMcpAuthentication/error": "Failed to cancel plugin authentication"
     },
     "pluginConfiguration": {
       "title": "Plugin Configuration",
