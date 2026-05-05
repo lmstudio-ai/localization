@@ -3,9 +3,7 @@
   "tabs/extensions": "LM 运行环境",
   "loadSettings/title": "加载设置",
   "modelSettings/placeholder": "选择一个模型进行配置",
-
   "loadedModels/noModels": "没有已加载的模型",
-
   "serverOptions/title": "服务器选项",
   "serverOptions/configurableTitle": "可配置选项",
   "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果该端口已被占用，您可能需要更改此设置。",
@@ -47,24 +45,20 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分钟",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "仅保留最后一个即时加载的模型",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保在任意时刻最多只有一个即时加载的模型（会卸载之前的模型）",
-
   "serverLogs/scrollToBottom": "跳转到底部",
   "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
-
   "runtimeSettings/title": "运行环境设置",
   "runtimeSettings/chooseRuntime/title": "配置运行环境",
   "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
   "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
-
   "runtimeSettings/chooseFrameworks/title": "框架",
   "runtimeSettings/chooseFrameworks/description": "为每个功能选择要使用的框架",
   "runtimeSettings/chooseFramework/documentParser/builtIn/label": "内置解析器",
   "runtimeSettings/chooseFramework/documentParser/select/label": "文档解析器",
   "runtimeSettings/chooseFramework/documentParser/select/placeholder": "请选择文档解析器",
-
   "runtimeOptions/uninstall": "卸载",
   "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？",
   "runtimeOptions/uninstallDialog/body": "卸载此运行环境将从系统中移除它。此操作不可逆。",
@@ -75,7 +69,6 @@
   "runtimeOptions/noCompatibleRuntimes": "未找到兼容的运行环境",
   "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
   "runtimeOptions/noRuntimes": "未找到运行环境",
-
   "runtimes": {
     "manageLMRuntimes": "管理 LM 运行环境",
     "includeOlderRuntimeVersions": "包含旧版本",
@@ -127,9 +120,7 @@
       "noFrameworks": "未安装框架"
     }
   },
-
   "inferenceParams/noParams": "此模型类型无可用配置的推理参数",
-
   "quickDocs": {
     "tabChipTitle": "快速文档",
     "newToolUsePopover": "代码片段现已在“快速文档”中提供。点击此处开始使用工具！",
@@ -160,20 +151,77 @@
     },
     "newBadge": "新功能"
   },
-
   "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
   "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
   "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个token。注意：OpenAI 认为此端点已'弃用'。",
   "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应。",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
-
   "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
   "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
-
   "model": {
     "toolUseSectionTitle": "工具使用",
     "toolUseDescription": "检测到此模型经过工具使用的训练\n\n打开<custom-link>快速文档</custom-link>以了解更多信息。"
   },
-
-  "apiConfigOptions/title": "API 配置"
+  "apiConfigOptions/title": "API 配置",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "serverOptions/allowMcp/title": "允許遠端 MCP",
+  "serverOptions/allowMcp/hint": "允許使用不在 mcp.json 中的 MCP。這些 MCP 連線是臨時的，僅在請求期間存在。目前僅支援遠端 MCP。",
+  "serverOptions/allowMcp/mode/off": "關閉",
+  "serverOptions/allowMcp/mode/off/hint": "不允許伺服器請求使用 MCP",
+  "serverOptions/allowMcp/mode/remote": "遠端",
+  "serverOptions/allowMcp/mode/remote/hint": "允許連線到遠端 MCP 伺服器",
+  "serverOptions/start/error": "啟動伺服器失敗",
+  "serverOptions/stop/error": "停止伺服器失敗",
+  "endpoints/lmStudioRestV1/getModels": "列出可用模型",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "取得模型下載狀態",
+  "endpoints/lmStudioRestV1/postChat": "與模型聊天。支援有狀態的多輪對話和 MCP。",
+  "endpoints/lmStudioRestV1/postModelsDownload": "下載模型",
+  "endpoints/lmStudioRestV1/postModelsLoad": "載入模型並設定選項",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI 相容",
+  "endpoints/openaiCompatRest/postResponses": "用於生成模型回應的高階介面。透過將上一次回應的 ID 傳遞給下一次來建立有狀態的互動。",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic 相容",
+  "runtimes/manageLMRuntimes": "管理 LM 執行環境",
+  "runtimes/includeOlderRuntimeVersions": "包含較舊版本",
+  "runtimes/dismiss": "關閉",
+  "runtimes/updateAvailableToast/title": "LM 執行環境有可用更新！",
+  "runtimes/updatedToast/title": "LM 執行環境已更新",
+  "runtimes/relatedModelsToast/title": "相關模型變更",
+  "runtimes/updateAvailableToast/description": "點擊此處進行更新",
+  "runtimes/updatedToast/description": "LM 執行環境已成功更新至 {{runtimeVersion}}",
+  "runtimes/updatedToast/preferencesUpdated": "新載入的 {{compatibilityTypes}} 模型將使用更新的執行環境。",
+  "runtimes/noAvx2ErrorMessage": "所有 LM 執行環境目前需要支援 AVX2 的 CPU",
+  "runtimes/downloadableRuntimes/runtimeExtensionPacks": "執行環境擴充套件包",
+  "runtimes/downloadableRuntimes/refresh": "重新整理",
+  "runtimes/downloadableRuntimes/refreshing": "正在重新整理...",
+  "runtimes/downloadableRuntimes/filterSegment/compatibleOnly": "僅相容",
+  "runtimes/downloadableRuntimes/filterSegment/all": "全部",
+  "runtimes/downloadableRuntimes/card/releaseNotes": "發行說明",
+  "runtimes/downloadableRuntimes/card/latestVersionInstalled": "已安裝最新版本",
+  "runtimes/downloadableRuntimes/card/updateAvailable": "有可用更新",
+  "runtimes/installedRuntimes/manage/title": "管理活躍的執行環境",
+  "runtimes/installedRuntimes/dropdownOptions/installedVersions": "管理版本",
+  "runtimes/installedRuntimes/dropdownOptions/close": "關閉",
+  "runtimes/installedRuntimes/tabs/all": "全部",
+  "runtimes/installedRuntimes/tabs/frameworks": "我的框架",
+  "runtimes/installedRuntimes/tabs/engines": "我的引擎",
+  "runtimes/installedRuntimes/detailsModal/installedVersions": "{{runtimeName}} 的已安裝版本",
+  "runtimes/installedRuntimes/detailsModal/manifestJsonTitle": "Manifest JSON（進階）",
+  "runtimes/installedRuntimes/detailsModal/releaseNotesTitle": "發行說明",
+  "runtimes/installedRuntimes/detailsModal/noReleaseNotes": "此版本無可用發行說明",
+  "runtimes/installedRuntimes/detailsModal/back": "返回",
+  "runtimes/installedRuntimes/detailsModal/close": "關閉",
+  "runtimes/installedRuntimes/noEngines": "未安裝引擎",
+  "runtimes/installedRuntimes/noFrameworks": "未安裝框架",
+  "quickDocs/tabChipTitle": "開發者文件",
+  "quickDocs/newToolUsePopover": "「開發者文件」中現在提供了程式碼片段。點擊此處開始使用工具呼叫！",
+  "quickDocs/newToolUsePopoverTitle": "開發者文件新功能",
+  "quickDocs/noServerRunning/title": "伺服器未執行",
+  "quickDocs/noServerRunning/description": "您需要執行一個伺服器才能使用開發者文件。",
+  "quickDocs/newPresetTool/title": "預設",
+  "quickDocs/newPresetTool/description": "建立可重複使用的預設以管理模型參數",
+  "runtimes/installedRuntimes/detailsModal/versionLabel": "版本 {{version}}",
+  "runtimes/uninstallDialog/title": "卸載 {{runtimeName}}",
+  "runtimes/uninstallDialog/description": "是否確定要卸載 {{runtimeName}}？",
+  "runtimes/uninstallDialog/confirm": "卸載",
+  "runtimes/uninstallDialog/cancel": "取消"
 }
