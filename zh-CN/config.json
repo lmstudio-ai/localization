@@ -34,7 +34,6 @@
     "promptTemplate/title": "提示词模板",
     "customFields/title": "自定义字段"
   },
-
   "llm.prediction.systemPrompt/title": "系统提示",
   "llm.prediction.systemPrompt/description": "使用此字段向模型提供背景指令,如一套规则、约束或一般要求。",
   "llm.prediction.systemPrompt/subTitle": "AI 指南",
@@ -117,7 +116,6 @@
   "llm.prediction.speculativeDecoding.draftModel/title": "草稿模型",
   "llm.prediction.reasoning.parsing/title": "推理过程解析方式",
   "llm.prediction.reasoning.parsing/subTitle": "控制模型输出中推理过程的解析方式",
-
   "llm.load.mainGpu/title": "主 GPU",
   "llm.load.mainGpu/subTitle": "用于模型计算的 GPU 优先级",
   "llm.load.mainGpu/placeholder": "选择主 GPU...",
@@ -131,7 +129,6 @@
   "load.gpuStrictVramCap.customSubTitleOn": "开启：系统将限制模型权重的卸载仅限于专用 GPU 内存及 RAM 。上下文仍可能使用共享内存",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "模型的卸载仅限于专用 GPU 内存。实际卸载的层数可能会有所不同",
   "load.allGpusDisabledWarning": "所有 GPU 目前均被禁用。请启用至少一个以进行卸载",
-
   "llm.load.contextLength/title": "上下文长度",
   "llm.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "llm.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -139,7 +136,6 @@
   "llm.load.seed/title": "种子",
   "llm.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机",
   "llm.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
-
   "llm.load.llama.evalBatchSize/title": "评估批处理大小",
   "llm.load.llama.evalBatchSize/subTitle": "每次处理的输入token数量。增加此值会提高性能，但会增加内存使用量",
   "llm.load.llama.evalBatchSize/info": "设置评估期间一起处理的示例数量,影响速度和内存使用",
@@ -198,7 +194,6 @@
   "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "高级：量化乘法的分组大小配置\n\n• 高精度 = 分组 32\n• 均衡 = 分组 64\n• 极速 = 分组 128\n",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "达到此上下文长度后开始量化",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "当上下文长度达到该值时，开始对 KV 缓存进行量化",
-
   "embedding.load.contextLength/title": "上下文长度",
   "embedding.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "embedding.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -222,9 +217,7 @@
   "embedding.load.llama.tryMmap/info": "直接从磁盘加载模型文件到内存",
   "embedding.load.seed/title": "种子",
   "embedding.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机种子",
-
   "embedding.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
-
   "presetTooltip": {
     "included/title": "预设值",
     "included/description": "以下字段将会被应用",
@@ -245,7 +238,6 @@
     "hubLabel": "来自 {{user}} 的 Hub 预设",
     "ownHubLabel": "您的 Hub 预设"
   },
-
   "customInputs": {
     "string": {
       "emptyParagraph": "<空>"
@@ -369,7 +361,6 @@
   "idleTTL.label": "空闲时自动卸载",
   "idleTTL.hint": "如设置，模型在空闲指定时间后将自动卸载。",
   "idleTTL.mins": "分钟",
-
   "presets": {
     "title": "预设",
     "commitChanges": "提交更改",
@@ -547,19 +538,15 @@
       "speculativeDecoding": "包含在预设中"
     }
   },
-
   "flashAttentionWarning": "Flash Attention 是一项实验性功能,可能会导致某些模型出现问题。如果您遇到问题,请尝试禁用它。",
   "llamaKvCacheQuantizationWarning": "KV 缓存量化是一项实验性功能，可能会导致某些模型出现问题。V 缓存量化必须启用 Flash Attention。如果遇到问题，请将默认值重置为\"F16\"。",
-
   "seedUncheckedHint": "随机种子",
   "ropeFrequencyBaseUncheckedHint": "自动",
   "ropeFrequencyScaleUncheckedHint": "自动",
-
   "hardware": {
     "environmentVariables": "环境变量",
     "environmentVariables.info": "如果不确定,请保留默认值",
     "environmentVariables.reset": "重置为默认值",
-    
     "gpus.information": "配置检测到的图形处理单元 (GPU）",
     "gpuSettings": {
       "editMaxCapacity": "编辑最大容量",
@@ -590,7 +577,6 @@
       "toggleGpu": "启用/禁用 GPU"
     }
   },
-
   "load.gpuSplitConfig/title": "GPU 分配配置",
   "envVars/title": "设置环境变量",
   "envVars": {
@@ -610,5 +596,20 @@
     "values": {
       "title": "当前值"
     }
-  }
+  },
+  "llm/load/numParallelSessions/title": "最大並發預測數",
+  "llm/load/numParallelSessions/subTitle": "模型在給定時間內可以同時運行的最大預測數。並發時每個預測的速度可能會降低，但每個預測啟動更快，總吞吐量更高。",
+  "llm/load/useUnifiedKvCache/title": "統一 KV 快取",
+  "llm/load/useUnifiedKvCache/subTitle": "控制並發預測是否共享單個 KV 快取以節省記憶體。停用可確保每個預測利用完整上下文長度，但會消耗更多記憶體。",
+  "llm/load/numCpuExpertLayersRatio/title": "將 MoE 權重強制分配到 CPU 的層數",
+  "llm/load/numCpuExpertLayersRatio/subTitle": "將專家層強制分配到 CPU 的層數。可節省 VRAM，且可能比部分 GPU 卸載更快。如果模型完全適合 VRAM 則不推薦。",
+  "llm/load/numCpuExpertLayersRatio/info": "指定將專家層強制分配到 CPU 的層數。注意力層保留在 GPU 上，節省 VRAM 同時保持較快的推理速度。",
+  "presets/saveChanges/manual": "檢測到新欄位。您可以選擇要將哪些變更包含到預設中。",
+  "presets/saveChanges/manual/hold/0": "按住",
+  "presets/saveChanges/manual/hold/1": "選擇要儲存到預設中的變更。",
+  "presets/saveChanges/manual/description": "選擇要包含到預設中的變更。",
+  "presets/saveChanges/saveAll/hold/0": "按住",
+  "presets/saveChanges/saveAll/hold/1": "儲存所有變更。",
+  "presets/saveChanges/saveInPreset/hold/0": "按住",
+  "presets/saveChanges/saveInPreset/hold/1": "僅儲存已包含在預設中的欄位的變更。"
 }
