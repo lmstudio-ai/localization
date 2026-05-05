@@ -23,12 +23,10 @@
   "noChatSelectedPlaceholder": "请选择一个聊天",
   "unnamedChat": "未命名聊天",
   "emptyFolder": "文件夹为空",
-
   "tokenCount": "token数",
   "messageTokenCount": "输入token数",
   "tokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
   "messageTokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的token估计值。",
-
   "notes": "对话笔记",
   "notes/add/first": "添加笔记",
   "notes/add/another": "再加一条笔记",
@@ -37,7 +35,6 @@
   "notes/delete": "删除笔记",
   "notes/noteLabel": "笔记",
   "notes/copyContent": "复制笔记内容",
-
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
   "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
@@ -76,13 +73,13 @@
   "editMessageConfirm/keepEditing": "继续编辑",
   "editMessageConfirm/save": "保存",
   "editMessageConfirm/discard": "放弃更改",
-  "tokenCount/totalNotAvailable": "token：{{current}}",
-  "tokenCount/totalAvailable": "token：{{current}}/{{total}}",
+  "tokenCount/totalNotAvailable": "令牌：{{current}}",
+  "tokenCount/totalAvailable": "令牌：{{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
   "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大token限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
   "modelLoader/manualLoadParams/hint/before": "(或按住",
-  "modelLoader/manualLoadParams/hint/after": ")",
+  "modelLoader/manualLoadParams/hint/after": "）",
   "actions/move/error": "移动失败",
   "actions/rename/error": "重命名失败",
   "actions/createChatAtRoot": "新建聊天...",
@@ -91,15 +88,13 @@
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
   "actions/openInFolder/mac": "在 Finder 中显示",
   "actions/openInFolder/pc": "在文件资源管理器中显示",
-
   "actions/createChat/error": "创建聊天失败",
   "actions/deleteChat/errorTitle": "删除聊天失败",
-
   "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
   "userFile/errorPrefix": "错误 - ",
   "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持",
-  "userFile/supportedImageSuffix": "。",
+  "userFile/supportedImageSuffix": "支援的格式",
   "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
   "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
   "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
@@ -109,42 +104,32 @@
   "errorTitle": "错误",
   "userFile/chatTerminalDocumentsCount_one": "对话中有 {{count}} 个文档",
   "userFile/chatTerminalDocumentsCount_other": "对话中有 {{count}} 个文档",
-
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
   "prediction/noModel/title": "未选择模型",
   "prediction/modelLoading": "消息已排队，将在模型加载完成后发送",
   "prediction/noModel/message": "选择一个模型以发送消息",
   "prediction/unloadModel/error": "卸载模型失败",
-
   "retrieval/user/processingLabel": "AI 正在思考...",
   "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击以展开。",
   "retrieval/actions/clickToExpand": "点击以展开中间步骤",
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
-
   "style": "聊天外观",
-
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
-
   "speculativeDecodingVisualization/toggle": "可视化已采纳的草稿token",
   "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的草稿token",
   "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的草稿token",
   "speculativeDecodingVisualization/cannotChangeViewMode": "可视化草稿token时无法切换显示模式。",
-
   "style/fontSize/label": "字体大小",
   "style/fontSize/medium": "默认",
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
-
   "style/debugBlocks/label": "显示调试信息块",
-
   "style/thinkingUI/label": "默认展开推理块",
   "style/chatFullWidth/label": "聊天容器宽度适应窗口",
-
   "style/chatUtilityMenusShowLabel/label": "显示聊天实用工具菜单",
-
   "messageBlocks": {
     "expandBlockTooltip": "展开内容",
     "collapseBlockTooltip": "收起内容",
@@ -154,20 +139,16 @@
       "expandTooltip": "展开调试信息块"
     }
   },
-  
   "chatTabOptions/clearAllMessages": "清空所有聊天记录...",
   "chatTabOptions/duplicateChat": "复制聊天",
-
   "topBarActions/duplicateChat": "复制聊天",
   "topBarActions/clearChat": "清除所有消息",
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
   "topBarActions/clearChatCancel": "取消",
   "topBarActions/clearChatDelete": "全部清除",
-  
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
   "noModels": "还没有LLM！下载一个开始吧！",
-  
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "插件",
@@ -222,7 +203,6 @@
     },
     "restartErrorPlugin/error": "重启插件失败"
   },
-
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} token/s",
     "predictedTokensCount": "{{predictedTokensCount}} token",
@@ -239,8 +219,67 @@
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
     "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
   },
-
   "tabs": {
     "systemPromptEditorTab.headerLabel": "编辑系统提示词"
-  }
+  },
+  "genInfo/tokensPerSecond": "{{tokensPerSecond}} 令牌/秒",
+  "genInfo/predictedTokensCount": "{{predictedTokensCount}} 個令牌",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失败",
+  "genInfo/timeToFirstTokenSec": "首個令牌耗時 {{timeToFirstTokenSec}} 秒",
+  "genInfo/stopReason": "停止原因：{{stopReason}}",
+  "genInfo/stopReason.userStopped": "使用者已停止",
+  "genInfo/stopReason.modelUnloaded": "模型已卸載",
+  "genInfo/stopReason.failed": "生成失敗",
+  "genInfo/stopReason.eosFound": "檢測到 EOS 令牌",
+  "genInfo/stopReason.stopStringFound": "檢測到停止字串",
+  "genInfo/stopReason.toolCalls": "工具呼叫",
+  "genInfo/stopReason.maxPredictedTokensReached": "已達到最大預測令牌數",
+  "genInfo/stopReason.contextLengthReached": "已達到上下文長度限制",
+  "genInfo/speculativeDecodedBy": "草稿模型：{{decodedBy}}",
+  "genInfo/speculativeDecodingStats": "已接受 {{accepted}}/{{total}} 個草稿令牌（{{percentage}}%）",
+  "genInfo/speculativeDecodingAcceptedPercentage": "已接受 {{percentage}}% 的草稿令牌",
+  "genInfo/speculativeDecodingTooltip": "已接受 {{accepted}}/{{total}} 個草稿令牌",
+  "messageBlocks/expandBlockTooltip": "展開內容",
+  "messageBlocks/collapseBlockTooltip": "收起內容",
+  "messageBlocks/debug/label": "偵錯資訊",
+  "messageBlocks/debug/collapseTooltip": "收起偵錯資訊",
+  "messageBlocks/debug/expandTooltip": "展開偵錯資訊",
+  "plugins/pluginTrigger/noPlugins": "外掛",
+  "plugins/pluginTrigger/multiplePlugins": "{{dynamicValue}} 個外掛",
+  "plugins/pluginSelect/title": "外掛",
+  "plugins/pluginSelect/dropdown/configure": "設定",
+  "plugins/pluginSelect/dropdown/disable": "停用",
+  "plugins/pluginSelect/dropdown/fork": "複製",
+  "plugins/pluginSelect/dropdown/uninstall": "卸載",
+  "plugins/pluginSelect/actionButtons/create": "建立",
+  "plugins/pluginSelect/actionButtons/import": "匯入",
+  "plugins/pluginSelect/actionButtons/discover": "探索",
+  "plugins/pluginSelect/recentlyCreated/title": "最近建立的外掛",
+  "plugins/pluginSelect/recentlyCreated/placeholder": "您建立的外掛會顯示在此處",
+  "plugins/pluginSelect/startRunningDevelopmentPlugin/error": "以開發模式啟動外掛失敗",
+  "plugins/pluginSelect/stopRunningDevelopmentPlugin/error": "停止開發模式外掛失敗",
+  "plugins/pluginSelect/forceReInitPlugin/error": "重新啟動外掛失敗",
+  "plugins/pluginSelect/signOutMcpPlugin/error": "登出外掛失敗",
+  "plugins/pluginSelect/cancelMcpAuthentication/error": "取消外掛認證失敗",
+  "plugins/pluginConfiguration/title": "外掛設定",
+  "plugins/pluginConfiguration/selectAPlugin": "選擇一個外掛來編輯其設定",
+  "plugins/pluginConfiguration/preprocessorAndGenerator": "此外掛包含自訂前置處理器和生成器",
+  "plugins/pluginConfiguration/generatorOnly": "此外掛包含自訂生成器",
+  "plugins/pluginConfiguration/preprocessorOnly": "此外掛包含自訂前置處理器",
+  "plugins/instructions/runTheFollowing": "要執行外掛，請開啟終端機並輸入",
+  "plugins/instructions/pushTo": "將您的插件分享給他人，推送到 Hub（可選）",
+  "plugins/instructions/createdSuccessfully": "外掛建立成功",
+  "plugins/instructions/creatingPlugin": "正在建立外掛...",
+  "plugins/instructions/projectFilesTitle": "專案檔案",
+  "plugins/instructions/buttons/documentation": "檔案",
+  "plugins/instructions/buttons/dismiss": "關閉",
+  "plugins/instructions/buttons/publish": "發佈",
+  "plugins/instructions/buttons/openInZed": "在 Zed 中開啟",
+  "plugins/instructions/buttons/openInVscode": "在 VS Code 中開啟",
+  "plugins/instructions/buttons/revealInFinder": "在 Finder 中顯示",
+  "plugins/instructions/buttons/openInFileExplorer": "在檔案總管中開啟",
+  "plugins/localFork/error": "建立外掛的本地開發複製失敗",
+  "plugins/restartErrorPlugin/error": "重新啟動外掛失敗",
+  "tabs/systemPromptEditorTab/headerLabel": "正在編輯系統提示詞"
 }
