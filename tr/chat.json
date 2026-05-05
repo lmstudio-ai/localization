@@ -141,8 +141,10 @@
   "style/fontSize/small": "Küçük",
 
   "style/debugBlocks/label": "Hata Ayıklama Bloklarını Göster",
+
   "style/thinkingUI/label": "Düşünme bloklarını varsayılan olarak genişlet",
   "style/chatFullWidth/label": "Sohbet alanını pencere genişliğine yay",
+  
   "style/chatUtilityMenusShowLabel/label": "Sohbet araç menüsü etiketlerini göster",
 
   "messageBlocks": {
