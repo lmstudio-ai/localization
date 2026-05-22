@@ -148,8 +148,9 @@
   "llm.load.numCpuExpertLayersRatio/info": "Specifies the number of layers to force the expert into CPU. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast.",
 
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
-  "llm.load.llama.evalBatchSize/subTitle": "Number of input tokens to process at a time. Increasing this increases performance at the cost of memory usage",
+  "llm.load.llama.evalBatchSize/subTitle": "Logical number of prompt tokens to process at a time. Increasing this increases performance at the cost of memory usage",
   "llm.load.llama.evalBatchSize/info": "Sets the number of examples processed together in one batch during evaluation, affecting speed and memory usage",
+  "llm.load.llama.physicalBatchSize/subTitle": "Physical number of prompt tokens to process at a time. Increasing this increases performance at the cost of memory usage",
   "llm.load.llama.ropeFrequencyBase/title": "RoPE Frequency Base",
   "llm.load.llama.ropeFrequencyBase/subTitle": "Custom base frequency for rotary positional embeddings (RoPE). Increasing this may enable better performance at high context lengths",
   "llm.load.llama.ropeFrequencyBase/info": "[Advanced] Adjusts the base frequency for Rotary Positional Encoding, affecting how positional information is embedded",
