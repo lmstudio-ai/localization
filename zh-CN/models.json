@@ -32,6 +32,7 @@
   "loader.model.bundled": "捆绑",
   "action.cancel": "取消",
   "indexingOngoing": "正在索引模型... 这可能需要几秒钟",
+  "indexingPageLoaderText": "正在索引模型...",
   "index/error_one": "索引以下文件夹失败：",
   "index/error_other": "索引以下文件夹失败：",
   "badModels/title_one": "索引以下模型失败：",
@@ -95,6 +96,16 @@
   "loader.info.clickOnModelToLoad": "点击模型以加载",
   "loader.info.configureLoadParameters": "配置模型加载参数",
   "loader.info.activeGeneratorWarning": "您正在使用带有自定义生成器的插件。当前加载的模型是否适用于该插件，取决于生成器的具体实现方式",
+  "loader.guardrails.estimatedMemoryUsage": "预计内存占用",
+  "loader.guardrails.total": "总计",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "无法为此模型估算内存占用",
+  "loader.guardrails.notEnoughResources": "当前设置下资源不足，无法加载模型",
+  "loader.guardrails.notEnoughResources/options": "选项",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "您的系统内存似乎不足以加载此模型。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在设置中调整模型加载保护，或按住 <altOptionKey /> 强制加载。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "加载过大的模型可能会导致系统过载甚至死机。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "始终允许“强制加载”而无需按住 Alt/Option （不推荐）",
 
   "virtual": {
     "local": {
@@ -110,6 +121,12 @@
       "next": "下一步",
       "confirm": "创建",
       "error": "创建虚拟模型失败"
+    },
+    "altsSelect": {
+      "title": "选择一个源模型",
+      "resetButton": "重置为默认",
+      "description": "此模型有多个可能的来源。选择在加载此模型时默认使用的来源",
+      "trigger": "模型变体"
     }
   }
 }
