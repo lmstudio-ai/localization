@@ -67,6 +67,8 @@
   "actions/changeToLastUsedModel/tooltip": "您上次在这个聊天中发送消息时使用了不同的模型。点击以卸载当前选定的模型({{currentModel}})并加载上次与这个聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "切换到 {{lastModel}}",
   "actions/switchToLastUsedModel/tooltip": "点击以切换到上次与这个聊天一起使用的模型：\n\n{{lastModel}}",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失败。",
   "actions/loadModel": "加载模型",
   "actions/toggleViewingProcessed/currentlyFalse": "当前查看的是原始消息。点击以查看预处理后的消息。",
   "actions/toggleViewingProcessed/currentlyTrue": "当前查看的是预处理后的消息。点击以查看原始消息。",
@@ -237,7 +239,9 @@
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% 草稿token已采纳",
+    "speculativeDecodingTooltip": "已采纳 {{accepted}}/{{total}} 个草稿token"
   },
 
   "tabs": {
