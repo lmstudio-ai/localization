@@ -1,63 +1,196 @@
 {
   "tabs/server": "Lokální server",
   "tabs/extensions": "LM Runtimes",
-  "loadSettings/title": "Nahrát nastavení",
-  "modelSettings/placeholder": "Vyberte model pro konfiguraci",
+  "loadSettings/title": "Nastavení načítání",
+  "modelSettings/placeholder": "Vyberte model pro jeho konfiguraci",
 
-  "loadedModels/noModels": "Žádné modely nejsou nahrány",
-  
-  "serverOptions/title": "Nastavení serveru",
+  "loadedModels/noModels": "Žádné načtené modely",
+
+  "serverOptions/title": "Možnosti serveru",
   "serverOptions/configurableTitle": "Konfigurovatelné možnosti",
-  "serverOptions/port/hint": "Nastavte, který síťový port bude lokální server používat. Ve výchozím nastavení LM Studio používá port 1234. Možná budete muset tento port změnit, pokud je již použit.",
-  "serverOptions/port/subtitle": "Port, na kterém bude server naslouchat",
-  "serverOptions/autostart/title": "Automatické spuštění serveru",
-  "serverOptions/autostart/hint": "Spustí lokální server automaticky, když je model nahrán",
-  "serverOptions/port/integerWarning": "Port musí být celé číslo",
+  "serverOptions/port/hint": "Nastavte, který síťový port bude lokální server používat. Ve výchozím nastavení používá LM Studio port 1234. Můžete to potřebovat změnit, pokud je port již používán.",
+  "serverOptions/port/subtitle": "Port pro naslouchání",
+  "serverOptions/autostart/title": "Automaticky spustit server",
+  "serverOptions/autostart/hint": "Automaticky zapnout lokální LLM server LM Studio při startu aplikace nebo služby",
+  "serverOptions/port/integerWarning": "Číslo portu musí být celé číslo",
   "serverOptions/port/invalidPortWarning": "Port musí být mezi 1 a 65535",
   "serverOptions/cors/title": "Povolit CORS",
-  "serverOptions/cors/hint1": "Povolení CORS (Cross-origin Resource Sharing) umožní webovým stránkám, které navštívíte, odeslat požadavky na server LM Studio.",
-  "serverOptions/cors/hint2": "CORS může být vyžadováno při odesílání požadavků z webové stránky nebo VS Code / jiného rozšíření.",
-  "serverOptions/cors/subtitle": "Povolit cross-origin požadavky",
-  "serverOptions/network/title": "Služba v místní síti",
-  "serverOptions/network/subtitle": "Povolit přístup k serveru na síti",
-  "serverOptions/network/hint1": "Povolit přístup z jiných zařízení na síti.",
-  "serverOptions/network/hint2": "Pokud není zaškrtnuto, server bude naslouchat pouze na localhostu.",
+  "serverOptions/cors/hint1": "Povolení CORS (Cross-origin Resource Sharing) umožní webovým stránkám, které navštívíte, provádět požadavky na server LM Studio.",
+  "serverOptions/cors/hint2": "CORS může být vyžadován při provádění požadavků z webové stránky nebo VS Code / jiného rozšíření.",
+  "serverOptions/cors/subtitle": "Povolit požadavky z jiných původů",
+  "serverOptions/network/title": "Poskytovat v lokální síti",
+  "serverOptions/network/subtitle": "Zpřístupnit server zařízením v síti",
+  "serverOptions/network/hint1": "Zda povolit připojení z jiných zařízení v síti.",
+  "serverOptions/network/hint2": "Pokud není zaškrtnuto, server bude naslouchat pouze na localhost.",
   "serverOptions/verboseLogging/title": "Podrobné logování",
   "serverOptions/verboseLogging/subtitle": "Povolit podrobné logování pro lokální server",
-  "serverOptions/contentLogging/title": "Logování dotazů a odpovědí",
-  "serverOptions/contentLogging/subtitle": "Nastavení logování dotazů a odpovědí na místním serveru",
-  "serverOptions/contentLogging/hint": "Zda logovat dotazy a/nebo odpovědi v logovacím souboru místního serveru.",
-  "serverOptions/loadModel/error": "Nepodařilo se nahrát model",
-  
-  "serverLogs/scrollToBottom": "Skočit dolů",
-  "serverLogs/clearLogs": "Vymazat logy ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Otevřít složku s logy",
+  "serverOptions/contentLogging/title": "Logovat výzvy a odpovědi",
+  "serverOptions/contentLogging/subtitle": "Nastavení lokálního logování požadavků / odpovědí",
+  "serverOptions/contentLogging/hint": "Zda logovat výzvy a/nebo odpovědi v lokálním souboru protokolu serveru.",
+  "serverOptions/redactContent/title": "Redigovat obsah",
+  "serverOptions/redactContent/hint": "Pokud je povoleno, zabránit logování citlivých dat, jako je obsah požadavků a odpovědí.",
+  "serverOptions/logIncomingTokens/title": "Logovat příchozí tokeny",
+  "serverOptions/logIncomingTokens/hint": "Zda logovat každý token při jeho generování.",
+  "serverOptions/fileLoggingMode/title": "Režim logování do souboru",
+  "serverOptions/fileLoggingMode/off/title": "VYPNUTO",
+  "serverOptions/fileLoggingMode/off/hint": "Nevytvářet soubory protokolu",
+  "serverOptions/fileLoggingMode/succinct/title": "Stručné",
+  "serverOptions/fileLoggingMode/succinct/hint": "Logovat stejný obsah jako v konzoli. Dlouhé požadavky budou zkráceny.",
+  "serverOptions/fileLoggingMode/full/title": "Úplné",
+  "serverOptions/fileLoggingMode/full/hint": "Nezkracovat dlouhé požadavky.",
+  "serverOptions/jitModelLoading/title": "Načítání modelů Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "Pokud je povoleno a požadavek specifikuje model, který není načten, bude automaticky načten a použit. Kromě toho bude koncový bod \"/v1/models\" zahrnovat také modely, které ještě nejsou načteny.",
+  "serverOptions/loadModel/error": "Nepodařilo se načíst model",
+  "serverOptions/jitModelLoadingTTL/title": "Automaticky uvolnit nepoužívané JIT načtené modely",
+  "serverOptions/jitModelLoadingTTL/hint": "Model, který byl načten Just-in-time (JIT) pro obsloužení API požadavku, bude automaticky uvolněn po určité době nečinnosti (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Maximální TTL nečinnosti",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minut",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Zachovat pouze poslední JIT načtený model",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Zajistit, aby byl vždy načten maximálně 1 model přes JIT (uvolní předchozí model)",
+  "serverOptions/allowMcp/title": "Povolit vzdálené MCP",
+  "serverOptions/allowMcp/hint": "Povolit použití MCP, které nejsou ve vašem mcp.json. Tato MCP připojení jsou dočasná, existují pouze po dobu trvání požadavku. V současné době jsou podporovány pouze vzdálené MCP.",
+  "serverOptions/allowMcp/mode/off": "Vypnuto",
+  "serverOptions/allowMcp/mode/off/hint": "Nepovolit serverovým požadavkům používat MCP",
+  "serverOptions/allowMcp/mode/remote": "Vzdálené",
+  "serverOptions/allowMcp/mode/remote/hint": "Povolit připojení ke vzdáleným MCP serverům",
+
+  "serverOptions/start/error": "Nepodařilo se spustit server",
+  "serverOptions/stop/error": "Nepodařilo se zastavit server",
+
+  "serverLogs/scrollToBottom": "Přejít dolů",
+  "serverLogs/clearLogs": "Vymazat protokoly ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Otevřít složku s protokoly serveru",
 
   "runtimeSettings/title": "Nastavení runtime",
-  "runtimeSettings/chooseRuntime/title": "Nastavení runtime",
-  "runtimeSettings/chooseRuntime/description": "Vyberte runtime pro každý formát modelu",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobrazit všechny verze",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Ve výchozím nastavení LM Studio zobrazuje pouze nejnovější verzi každého runtime. Povolením této možnosti můžete zobrazit všechny dostupné verze.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Vyberte runtime",
+  "runtimeSettings/chooseRuntime/title": "Výběry",
+  "runtimeSettings/chooseRuntime/description": "Vyberte engine, který se použije pro každý formát modelu",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Zobrazit všechny balíčky rozšíření",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Ve výchozím nastavení LM Studio zobrazuje pouze nejnovější verzi každého balíčku rozšíření. Povolte tuto možnost, abyste viděli všechny dostupné balíčky rozšíření.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Vyberte engine",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworky",
+  "runtimeSettings/chooseFrameworks/description": "Vyberte framework, který se použije pro každou funkcionalitu",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Vestavěný parser",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Parser dokumentů",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Vyberte parser dokumentů",
 
   "runtimeOptions/uninstall": "Odinstalovat",
   "runtimeOptions/uninstallDialog/title": "Odinstalovat {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Odinstalování tohoto runtime odstraní jej ze systému. Tato akce je nevratná.",
+  "runtimeOptions/uninstallDialog/body": "Odinstalací tohoto runtime jej odstraníte ze systému. Tato akce je nevratná.",
   "runtimeOptions/uninstallDialog/body/caveats": "Některé soubory mohou být odstraněny až po restartování LM Studio.",
   "runtimeOptions/uninstallDialog/error": "Nepodařilo se odinstalovat runtime",
   "runtimeOptions/uninstallDialog/confirm": "Pokračovat a odinstalovat",
   "runtimeOptions/uninstallDialog/cancel": "Zrušit",
+  "runtimeOptions/noCompatibleRuntimes": "Nebyly nalezeny žádné kompatibilní runtimes",
+  "runtimeOptions/downloadIncompatibleRuntime": "Tento runtime byl určen jako nekompatibilní s vaším počítačem. S největší pravděpodobností nebude fungovat.",
+  "runtimeOptions/noRuntimes": "Nebyly nalezeny žádné runtimes",
 
-  "inferenceParams/noParams": "Žádné konfigurovatelné parametry inference pro tento typ modelu",
+  "runtimes": {
+    "manageLMRuntimes": "Spravovat LM Runtime",
+    "includeOlderRuntimeVersions": "Zahrnout starší verze",
+    "dismiss": "Zavřít",
+    "updateAvailableToast": {
+      "title": "Je k dispozici aktualizace LM Runtime!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Runtime aktualizován: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Nově načtené modely {{compatibilityTypes}} budou používat aktualizovaný runtime."
+    },
+    "noAvx2ErrorMessage": "Všechny LM Runtimes v současné době vyžadují CPU s podporou AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Balíčky rozšíření runtime",
+      "refresh": "Obnovit",
+      "refreshing": "Obnovování...",
+      "filterSegment": {
+        "compatibleOnly": "Pouze kompatibilní",
+        "all": "Vše"
+      },
+      "card": {
+        "releaseNotes": "Poznámky k vydání",
+        "latestVersionInstalled": "Nejnovější verze nainstalována",
+        "updateAvailable": "Aktualizace k dispozici"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Spravovat aktivní runtimes"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Spravovat verze",
+        "close": "Zavřít"
+      },
+      "tabs": {
+        "all": "Vše",
+        "frameworks": "Moje frameworky",
+        "engines": "Moje engines"
+      },
+      "detailsModal": {
+        "installedVersions": "Nainstalované verze pro {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (pokročilé)",
+        "releaseNotesTitle": "Poznámky k vydání",
+        "noReleaseNotes": "Pro tuto verzi nejsou k dispozici poznámky k vydání",
+        "back": "Zpět",
+        "close": "Zavřít"
+      },
+      "noEngines": "Žádné nainstalované engines",
+      "noFrameworks": "Žádné nainstalované frameworky"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Podporované koncovky (jako OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Vypsat nahráné modely",
-  "endpoints/openaiCompatRest/postCompletions": "Režim dokončování textu. Předpovídejte další token (tokeny) na základě příkazu. Poznámka: OpenAI považuje tento koncový bod za 'zastaralý'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Dokončování chatu. Odešlete historii chatu modelu pro předpověď další odpovědi asistenta",
-  "endpoints/openaiCompatRest/postEmbeddings": "Textové vložení. Vytvořte textové vložení pro daný textový vstup. Přijímá řetězec nebo pole řetězců.",
+  "inferenceParams/noParams": "Pro tento typ modelu nejsou k dispozici žádné konfigurovatelné parametry inference",
+
+  "quickDocs": {
+    "tabChipTitle": "Dokumentace pro vývojáře",
+    "newToolUsePopover": "Ukázky kódu jsou nyní k dispozici zde v \"Dokumentaci pro vývojáře\". Klikněte sem a začněte s použitím nástrojů!",
+    "newToolUsePopoverTitle": "📚 Dokumentace pro vývojáře",
+    "learnMore": "ℹ️ 👾 Chcete-li se dozvědět více o koncových bodech lokálního serveru LM Studio, navštivte [dokumentaci](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Hello, World!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Strukturovaný výstup"
+    },
+    "imageInput": {
+      "title": "Vstup obrázku"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Použití nástrojů",
+      "tab": {
+        "saveAsPythonFile": "Uložit jako Python soubor",
+        "runTheScript": "Spustit skript:",
+        "savePythonFileCopyPaste": "Uložit jako Python soubor pro příkaz kopírovat-vložit"
+      }
+    },
+    "newBadge": "Nové"
+  },
+
+  "endpoints/openaiCompatRest/title": "Podporované koncové body{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Kompatibilní s OpenAI",
+  "endpoints/openaiCompatRest/getModels": "Vypsat aktuálně načtené modely",
+  "endpoints/openaiCompatRest/postCompletions": "Režim textových dokončení. Předpovědět další token(y) na základě výzvy. Poznámka: OpenAI považuje tento koncový bod za 'zastaralý'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Dokončení chatu. Odeslat historii chatu modelu pro předpověď další odpovědi asistenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Textové embedding. Generovat textové embeddings pro daný textový vstup. Přijímá řetězec nebo pole řetězců.",
+  "endpoints/openaiCompatRest/postResponses": "Pokročilé rozhraní pro generování odpovědí modelu. Vytvářejte stavové interakce předáním id předchozích odpovědí jako vstup do dalších.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Vypsat dostupné modely",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Načíst model s možnostmi",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Stáhnout model",
+  "endpoints/lmStudioRestV1/postChat": "Chatovat s modelem. Podporuje stavové vícekolové konverzace a MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Získat stav stahování modelu",
 
   "model.createVirtualModelFromInstance": "Uložit nastavení jako nový virtuální model",
   "model.createVirtualModelFromInstance/error": "Nepodařilo se uložit nastavení jako nový virtuální model",
 
-  "apiConfigOptions/title": "Nastavení API"
+  "model": {
+    "toolUseSectionTitle": "Použití nástrojů",
+    "toolUseDescription": "Byl detekován, že tento model byl trénován pro použití nástrojů\n\nOtevřete <custom-link>dokumentaci pro vývojáře</custom-link> pro více informací"
+  },
+
+  "apiConfigOptions/title": "Konfigurace API"
 }
