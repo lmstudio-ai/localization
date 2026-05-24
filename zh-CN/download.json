@@ -1,34 +1,34 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "解压中...",
-  "postDownloadActionExecutor.tarGzExtraction/status": "解压中...",
-  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "解压中...",
-  "postDownloadActionExecutor.modifyModelData/status": "更新模型文件中...",
-  "postDownloadActionExecutor.notification/status": "通知用户中...",
-  "postDownloadActionExecutor.writeString/status": "写入元数据中...",
-  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "更新选中版本中...",
-  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "删除未使用的扩展中...",
-  "postDownloadActionExecutor.pluginInstall/status": "安装插件中...",
-  "postDownloadActionExecutor.pluginUninstall/status": "卸载插件中...",
+  "postDownloadActionExecutor.zipExtraction/status": "正在解压文件...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "正在解压文件...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "正在解压文件...",
+  "postDownloadActionExecutor.modifyModelData/status": "正在更新模型数据...",
+  "postDownloadActionExecutor.notification/status": "正在通知用户...",
+  "postDownloadActionExecutor.writeString/status": "正在写入元数据...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "正在更新选定的版本...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "正在删除未使用的扩展...",
+  "postDownloadActionExecutor.pluginInstall/status": "正在安装插件...",
+  "postDownloadActionExecutor.pluginUninstall/status": "正在卸载插件...",
 
-  "finalizing": "完成下载...（这可能需要几分钟）",
+  "finalizing": "正在完成下载...（可能需要片刻）",
   "noOptions": "没有可用的兼容下载选项",
-  
+
   "deeplink/confirmation/title": "从 Hugging Face 下载模型 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "选择推荐项",
   "deeplink/confirmation/selectOption": "选择下载选项",
-  "deeplink/confirmation/recommendedOption": "对大多数用户来说可能是最佳选项",
+  "deeplink/confirmation/recommendedOption": "可能是大多数用户的最佳选择",
   "deeplink/confirmation/downloadButton": "下载",
-  "deeplink/confirmation/nevermindButton": "取消",
+  "deeplink/confirmation/nevermindButton": "算了",
   "deeplink/confirmation/modelPresent/title": "找到 Hugging Face 模型 ✅",
-  "deeplink/confirmation/modelPresent/body": "好消息！此模型文件已经在您的本地机器上可用。",
-  "deeplink/confirmation/loadInChat": "在新聊天中加载 {{ modelName }}",
-  "deeplink/error/modelNotFound/title": "未找到该模型",
-  "deeplink/error/modelNotFound/body": "请再次检查模型名称，并考虑尝试不同的下载选项。",
+  "deeplink/confirmation/modelPresent/body": "好消息！此模型文件已在你的本地机器上可用。",
+  "deeplink/confirmation/loadInChat": "在新对话中加载 {{ modelName }}",
+  "deeplink/error/modelNotFound/title": "哎呀，我们无法找到此模型",
+  "deeplink/error/modelNotFound/body": "请仔细检查模型名称，并考虑尝试不同的下载选项。",
   "deeplink/actions/trySearching": "尝试在 Hugging Face 上搜索 {{modelName}}",
-  
+
   "downloadsPanel/title": "下载",
-  "downloadsPanel/sectionTitle/ongoing": "正在进行",
+  "downloadsPanel/sectionTitle/ongoing": "进行中",
   "downloadsPanel/sectionTitle/completed": "已完成",
   "downloadsPanel": {
     "reveal": {
@@ -37,7 +37,7 @@
       "nonMac": "在文件资源管理器中显示",
       "nonMac/error": "在文件资源管理器中显示失败"
     },
-    "completed": "下载完成！",
+    "completed": "下载完成",
     "loadModel": "加载模型"
   }
 }
