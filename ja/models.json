@@ -3,12 +3,10 @@
   "filterModels.placeholder": "モデルをフィルタ...",
   "aggregate_one": "ローカルモデルが{{count}}つあり、ディスクスペースを{{size}}使用しています。",
   "aggregate_other": "ローカルモデルが{{count}}つあり、ディスクスペースを{{size}}使用しています。",
-
   "noModels.title": "ローカルモデルはここに表示されます。",
   "noModels.discoverButtonText.prefix": "左のサイドバーの",
   "noModels.discoverButtonText.suffix": "ボタンをクリックして、ダウンロードする興味深いLLMを見つけてください。",
   "noModels.discoverModelsPrompt": "ローカルLLMを探索してください！",
-
   "modelsTable.arch/label": "アーキテクチャ",
   "modelsTable.params/label": "パラメータ",
   "modelsTable.publisher/label": "発行者",
@@ -17,21 +15,19 @@
   "modelsTable.size/label": "サイズ",
   "modelsTable.dateModified/label": "最終更新日",
   "modelsTable.actions/label": "アクション",
-
   "modelsTable.quant/label": "量子化",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "埋め込みモデル",
-
   "action.model.delete": "削除",
   "action.model.delete.full": "モデルを削除",
   "action.model.delete.confirmation/title": "{{name}}を削除",
   "action.model.delete.confirmation/description": "本当に削除しますか？これにより、このモデルに関連付けられたすべてのファイルがマシンから永久に削除されます。この操作は元に戻せません。",
   "action.model.delete.confirmation/confirm": "削除",
   "action.model.delete/error": "モデルの削除に失敗しました",
-
   "loader.model.bundled": "バンドル済み",
   "action.cancel": "キャンセル",
   "indexingOngoing": "モデルをインデックス中... しばらくお待ちください",
+  "indexingPageLoaderText": "モデルをインデックス中...",
   "index/error_one": "次のフォルダーのインデックス作成に失敗しました:",
   "index/error_other": "次のフォルダーのインデックス作成に失敗しました:",
   "badModels/title_one": "次のモデルのインデックス作成に失敗しました:",
@@ -46,7 +42,6 @@
   "unresolvedVirtualModels.revealInExplorer": "エクスプローラーで表示",
   "unresolvedVirtualModels.revealInFinder": "Finderで表示",
   "unresolvedVirtualModels.reveal/error": "表示に失敗しました",
-
   "modelsDirectory": "モデルディレクトリ",
   "modelsDirectory.change": "変更...",
   "modelsDirectory.change/error": "モデルディレクトリの変更に失敗しました",
@@ -85,17 +80,24 @@
   "tooltip/editModelDefaultConfig/override": "モデルのデフォルト設定を編集 (* はオーバーライドがあります)",
   "tooltip/visionBadge": "このモデルは画像入力を処理できます",
   "tooltip/toolUseBadge": "このモデルはツール使用のためにトレーニングされています",
-
   "visionBadge/label": "Vision は有効です",
   "toolUseBadge/label": "ツール使用のためにトレーニングされています",
-
   "loader.action.load": "モデルを読み込む",
   "loader.action.clearChanges": "変更をクリア",
   "loader.action.cancel": "キャンセル",
   "loader.info.clickOnModelToLoad": "モデルをクリックして読み込みます",
   "loader.info.configureLoadParameters": "モデルの読み込みパラメーターを設定します",
   "loader.info.activeGeneratorWarning": "カスタムジェネレーターを使用しているプラグインを使用しています。このプラグインに応じて、現在読み込まれているモデルが適用される場合とされない場合があります",
-
+  "loader.guardrails.estimatedMemoryUsage": "推定メモリ使用率",
+  "loader.guardrails.total": "合計",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "このモデルでは推定メモリは利用できません",
+  "loader.guardrails.notEnoughResources": "現在の設定でモデルをロードするにはリソースが足りません",
+  "loader.guardrails.notEnoughResources/options": "オプション",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "お使いのシステムには、このモデルを読み込むのに十分なメモリがないようです。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "設定でモデルの読み込みガードレールを調整するか、Alt/Optionを押してとにかく読み込むことができます。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "大きすぎるモデルを読み込むと、システムに過負荷がかかり、フリーズする可能性があります。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "Alt/Option キーを押さなくても常に「とにかく読み込む」を許可してください。（非推奨）",
   "virtual": {
     "local": {
       "create": "仮想モデルを作成",
@@ -110,6 +112,12 @@
       "next": "次へ",
       "confirm": "作成",
       "error": "仮想モデルの作成に失敗しました"
+    },
+    "altsSelect": {
+      "title": "モデルソースを切り替え",
+      "resetButton": "デフォルトにリセット",
+      "description": "このモデルには複数のソース ファイルが利用可能です。",
+      "trigger": "バリエーション"
     }
   }
 }

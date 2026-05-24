@@ -47,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "最後のJITロードモデルのみを保持",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "任意の時点でJITを介してロードされるモデルは最大1つに制限されます（以前のモデルはアンロードされます）",
+  "serverOptions/allowMcp/title": "リモートMCPを許可",
+  "serverOptions/allowMcp/hint": "mcp.json に記載されていないMCPの許可します。これらのMCP接続は一時的なもので、リクエストが有効な間のみ有効になります。現時点ではリモートMCPのみがサポートされています。",
+  "serverOptions/allowMcp/mode/off": "OFF",
+  "serverOptions/allowMcp/mode/off/hint": "MCPを使用するサーバー要求を許可しない",
+  "serverOptions/allowMcp/mode/remote": "リモート",
+  "serverOptions/allowMcp/mode/remote/hint": "リモートMCPサーバーへの接続を許可する",
+
+  "serverOptions/start/error": "サーバーの起動に失敗しました",
+  "serverOptions/stop/error": "サーバーの停止に失敗しました",
 
   "serverLogs/scrollToBottom": "一番下に移動",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
@@ -166,6 +175,15 @@
   "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトに基づき次のトークンを予測します。※OpenAIではこのエンドポイントは非推奨です。",
   "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信し、次のアシスタント応答を予測します",
   "endpoints/openaiCompatRest/postEmbeddings": "テキスト埋め込み。指定したテキスト入力に対して埋め込みベクトルを生成します。文字列または文字列配列を受け付けます。",
+
+  "endpoints/openaiCompatRest/postResponses": "モデルレスポンスを生成するための高度なインターフェース。前のレスポンスのIDを次のレスポンスの入力として渡すことで、ステートフルなインタラクションを作成できます。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "利用可能なモデルをリストする",
+  "endpoints/lmStudioRestV1/postModelsLoad": "オプション付きモデルをロードする",
+  "endpoints/lmStudioRestV1/postModelsDownload": "モデルをダウンロード",
+  "endpoints/lmStudioRestV1/postChat": "モデルとチャット。ステートフルなマルチターン会話とMCPをサポート",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "モデルのダウンロードのステータスを取得する",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropicとの互換性",
 
   "model.createVirtualModelFromInstance": "設定を新しい仮想モデルとして保存",
   "model.createVirtualModelFromInstance/error": "設定の仮想モデル保存に失敗しました",
