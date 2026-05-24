@@ -1,7 +1,7 @@
 {
   "settingsDialogTitle": "Настройки приложения",
   "settingsDialogButtonTooltip": "Настройки приложения",
-
+  "accountDialogButtonTooltip": "Аккаунт",
   "settingsNewButtonPopover": {
     "primary": "Настройки приложения теперь находятся в правом нижнем углу",
     "secondary": "Нажмите на кнопку ⚙️, чтобы открыть их.",
@@ -42,12 +42,15 @@
   "remindMeLater": "Напомнить мне позже",
   "failedDownloadUpdate": "Не удалось скачать обновление",
   "installAndRelaunch": "Установить и перезапустить",
-  "uptodate": "Вы полностью обновлены! Текущая версия {{version}}",
+  "uptodate": "У вас установлена актуальная версия {{version}}",
   "preferences": "Настройки",
   "general": "Общие",
   "sideButtonLabels": "Показывать текст боковых кнопок",
   "showModelFileNames": "Мои модели: всегда показывать полное название файла модели",
   "colorThemeLabel": "Цветовая тема",
+  "appNavigationBarPositionLabel": "Положение панели навигации",
+  "appNavigationBarPositionTop": "Сверху",
+  "appNavigationBarPositionLeft": "Слева",
   "complexityLevelLabel": "Уровень сложности пользовательского интерфейса",
   "selectComplexityLevelPlaceholder": "Выберите уровень сложности пользовательского интерфейса по умолчанию",
   "userComplexityLevelLabel": "Пользователь",
@@ -57,7 +60,6 @@
   "chat/alwaysShowPromptTemplate": "Всегда отображать шаблон запроса в боковой панели чата",
   "chat/highlightChatMessageOnHover": "Выделять сообщение чата при наведении курсора",
   "chat/doubleClickMessageToEdit": "Дважды щелкните сообщение чата, чтобы отредактировать его",
-
   "chat/aiNaming/label": "Название чата с помощью ИИ",
   "chat/aiNaming/mode/label": "Название чата, сгенерированные ИИ",
   "chat/aiNaming/mode/value/never": "Никогда",
@@ -71,13 +73,11 @@
   "chat/keyboardShortcuts/verbPrefix": "Использовать",
   "chat/keyboardShortcuts/regenerate": "для повторного создания последнего сообщения в чате",
   "chat/keyboardShortcuts/sendMessage": "для отправки сообщения",
-
   "onboarding/blockTitle": "Советы при запуске",
   "onboarding/dismissedHints": "Скрытые советы при запуске",
   "onboarding/resetHintTooltip": "Нажмите, чтобы снова включить этот совет при запуске",
   "onboarding/resetAllHints": "Сбросить все советы при запуске",
   "onboarding/noneDismissed": "Нет отклонённых советов, в настоящее время все советы при запуске будут отображаться до следующего отклонения",
-
   "firstTimeExperienceLabel": "Опыт запуска первого чата",
   "firstTimeExperienceMarkCompletedLabel": "Отметить как завершённое",
   "firstTimeExperienceResetLabel": "Сбросить",
@@ -91,30 +91,27 @@
   "changeLanguageLabel": "Выберите язык приложения (в разработке)",
   "developerLabel": "Разработчик",
   "localServiceLabel": "Локальная служба LLM (без головного модуля)",
+  "modelDefaultsLabel": "Параметры моделей по умолчанию",
   "showExperimentalFeaturesLabel": "Показывать экспериментальные функции",
   "appFirstLoadLabel": "Опыт первого запуска приложения",
   "showDebugInfoBlocksInChatLabel": "Показывать блоки отладочной информации в чате",
-  "autoLoadBundledLLMLabel": "Автоматически загружать пакетную LLM-модель при запуске",
+  "autoLoadBundledLLMLabel": "Автоматически загружать встроенную LLM-модель при запуске",
   "showReleaseNotes": "Показать заметки о выпуске",
   "hideReleaseNotes": "Скрыть заметки о выпуске",
-
   "backendDownloadNewUpdate": "Доступны новые бэкенды!",
   "backendDownloadNewUpdateAction": "Перейти на страницу разработчика",
-
   "backendDownloadChannel.label": "Канал скачивания пакетов расширений LM Studio",
   "backendDownloadChannel.value.stable": "Стабильный",
   "backendDownloadChannel.value.beta": "Бета",
   "backendDownloadChannel.value.latest": "Dev",
   "backendDownloadChannel.shortLabel": "Канал скачивания времени выполнения",
   "backendDownloadChannel.hint": "Выберите канал, с которого нужно сачивать пакеты расширений LM Studio. \"{{stableName}}\" - рекомендуемый канал для большинства пользователей.",
-
   "appUpdateChannel.label": "Канал обновлений",
   "appUpdateChannel.value.stable": "Стабильный",
   "appUpdateChannel.value.beta": "Бета",
   "appUpdateChannel.value.alpha": "Альфа",
   "appUpdateChannel.shortLabel": "Канал обновлений приложения",
   "appUpdateChannel.hint": "Выберите канал, с которого нужно получать обновления для LM Studio. \"{{stableName}}\" - рекомендуемый канал для большинства пользователей.",
-
   "modelLoadingGuardrails.label": "Ограничители загрузки моделей",
   "modelLoadingGuardrails.description": "Загрузка моделей, превышающих лимиты системных ресурсов, может привести к нестабильности системы или зависанию. Ограничители предотвращают случайную перегрузку. При необходимости настройте эти лимиты здесь, но будьте внимательны: загрузка моделей вблизи предела системы может снизить стабильность.",
   "modelLoadingGuardrails.value.off": "Отключено (Не рекомендуется)",
@@ -135,26 +132,22 @@
   "modelLoadingGuardrails.custom.label": "Лимит памяти: ",
   "modelLoadingGuardrails.custom.unitGB": "ГБ",
   "modelLoadingGuardrails.custom.description": "Установите пользовательский лимит памяти для загрузки модели. Модели не будут загружаться, если их загрузка превысит этот лимит.",
-
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Не рекомендуется) Всегда разрешать \"Загрузить всё равно\" без удерживания Alt/Option",
   "experimentalLoadPresets": "Включить поддержку конфигурации загрузки моделей в предустановках",
   "experimentalLoadPresets.description": "Разрешить ли предустановкам включать конфигурации загрузки моделей. Эта функция экспериментальная, и мы приветствуем отзывы.",
-
   "unloadPreviousJITModelOnLoad": "Автоматическая выгрузка JIT-моделей: гарантировать, что одновременно загружено не более 1 модели через JIT (выгружается предыдущая модель)",
+  "autoDeleteExtensionPacks": "Автоматически удалять наименее недавно использовавшиеся пакеты расширений Runtime",
   "autoUpdateExtensionPacks": "Автоматическое обновление выбранных пакетов Runtime Extension Packs",
   "useHFProxy.label": "Использовать прокси Hugging Face от LM Studio",
   "useHFProxy.hint": "Используйте прокси Hugging Face от LM Studio для поиска и загрузки моделей. Это может помочь пользователям, которым трудно получать доступ к Hugging Face напрямую.",
   "separateReasoningContentInResponses": "При необходимости разделять `reasoning_content` и `content` в API-ответах",
   "separateReasoningContentInResponses/hint": "Эта настройка будет работать только для моделей 'reasoning', таких как DeepSeek R1, его варианты дистилляции и другие модели, которые генерируют CoT в тегах `<think>` и `</think>`.",
-
   "promptWhenCommittingUnsavedChangesWithNewFields": "Предустановки: Отображать диалоговое окно подтверждения при добавлении новых полей к предустановке",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "Это полезно, если вы хотите предотвратить случайное добавление новых полей в предустановки.",
-
   "enableLocalService": "Включить службу LLM от LM Studio",
   "enableLocalService.subtitle": "Использовать сервер LLM от LM Studio без необходимости держать приложение LM Studio открытым",
   "enableLocalService.description": "При включении службы, LLM от LM Studio будет запущен при старте. Закрытие LM Studio также оставит службу LLM запущенной в системной панели задач.",
-
   "expandConfigsOnClick": "Разворачивать конфигурации по клику вместо наведения курсора",
-
   "migrateChats": {
     "label": "Миграция чатов pre-0.3.0",
     "hasBetterLabel": "Повторная миграция чатов до pre-0.3.0",
@@ -179,5 +172,28 @@
     "hasBetterFooterCardText": "Мы улучшили миграцию чатов с момента вашей предыдущей миграции. Можно повторно запустить процесс миграции. (Будет создана новая папка для хранения недавно мигрированных чатов.)",
     "dismissConfirm": "Отмена",
     "dismissConfirmDescription": "Вы всегда можете обработать миграцию чатов в Настройках."
+  },
+  "toolConfirmation": {
+    "label": "Подтверждение вызова инструмента",
+    "neverAsk": {
+      "label": "Никогда не запрашивать подтверждение перед запуском инструмента (НЕ РЕКОМЕНДУЕТСЯ)",
+      "hint": "Отключить подтверждения перед запуском инструмента. Не рекомендуется.",
+      "warnTitle": "Вы уверены?",
+      "warnDescription": "Отключение подтверждений вызова инструментов опасно. Если какой-либо из ваших плагинов добавил инструмент, способный выполнять разрушительные действия (например, запуск команд, удаление файлов, перезапись файлов, загрузку файлов и т.д.), модель сможет делать это без какого-либо подтверждения. Вы всегда можете отключить подтверждения для каждого инструмента или даже для каждого плагина отдельно. Включать эту опцию НЕ рекомендуется. Будьте осторожны.",
+      "warnButton": "Я понимаю риски"
+    }
+  },
+  "defaultContextLength": {
+    "label": "Длина контекста по умолчанию",
+    "maxTitle": "Максимум модели",
+    "customTitle": "Пользовательское значение",
+    "maxSubtitle": "Использовать максимальную длину контекста, поддерживаемую каждой моделью.",
+    "customSubtitle": "Установите длину контекста по умолчанию для загрузки новых моделей. Если поддерживаемая моделью максимальная длина контекста меньше, будет использовано это значение.",
+    "invalidNaNError": "Некорректное значение длины контекста. Используется {{value}}",
+    "invalidRangeError": "Некорректное значение длины контекста. Должно быть в диапазоне от 1 до 2^30. Используется {{value}}",
+    "largeContextWarning": "Чем больше длина контекста, тем больше памяти будет занимать модель. Если вы не уверены, не меняйте значение по умолчанию"
+  },
+  "jitTTL": {
+    "subtitle": "JIT-загруженные модели будут автоматически выгружаться после простоя в течение указанного времени."
   }
 }
