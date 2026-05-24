@@ -1,8 +1,9 @@
 {
-"chat": "Czat",
-  "discover": "Odkrywaj",
-  "myModels": "Moje Modele",
-  "developer": "Programista",
+  "chat": "Czat",
+  "discover": "Odkryj",
+  "myModels": "Moje modele",
+  "developer": "Deweloper",
+  "runtimes": "Czas działania",
   "settings": "Ustawienia",
-  "download": "Pobieranie"
+  "download": "Pobrane"
 }

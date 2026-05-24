@@ -1,63 +1,197 @@
 {
   "tabs/server": "Serwer lokalny",
-  "tabs/extensions": "Rozszerzenia",
-  "loadSettings/title": "Wczytaj ustawienia",
-  "modelSettings/placeholder": "Wybierz model do skonfigurowania",
+  "tabs/extensions": "Środowiska wykonawcze LM",
+  "loadSettings/title": "Załaduj ustawienia",
+  "modelSettings/placeholder": "Nie wybrano modelu",
 
-  "loadedModels/noModels": "Brak załadowanych modeli",
+  "loadedModels/noModels": "Nie załadowano modelu",
 
   "serverOptions/title": "Opcje serwera",
   "serverOptions/configurableTitle": "Opcje konfigurowalne",
-  "serverOptions/port/hint": "Ustaw port sieciowy, który będzie używany przez lokalny serwer. Domyślnie LM Studio używa portu 1234. Możesz potrzebować zmienić to, jeśli port jest już zajęty.",
-  "serverOptions/port/subtitle": "Port, na którym serwer będzie nasłuchiwać",
-  "serverOptions/autostart/title": "Automatyczne uruchamianie serwera",
-  "serverOptions/autostart/hint": "Uruchom lokalny serwer automatycznie po załadowaniu modelu",
+  "serverOptions/port/hint": "Ustaw port sieciowy, którego będzie używał serwer lokalny. Domyślnie LM Studio używa portu 1234. Może być konieczna zmiana tego portu, jeśli jest on już używany.",
+  "serverOptions/port/subtitle": "Port do nasłuchiwania",
+  "serverOptions/autostart/title": "Automatyczny start serwera",
+  "serverOptions/autostart/hint": "Automatyczne włączanie lokalnego serwera LLM LM Studio podczas uruchamiania aplikacji lub usługi",
   "serverOptions/port/integerWarning": "Numer portu musi być liczbą całkowitą",
-  "serverOptions/port/invalidPortWarning": "Port musi być w zakresie 1-65535",
+  "serverOptions/port/invalidPortWarning": "Port musi być pomiędzy 1 a 65535",
   "serverOptions/cors/title": "Włącz CORS",
-  "serverOptions/cors/hint1": "Włączenie CORS (Cross-origin Resource Sharing) pozwoli stronom, które odwiedzasz, na wykonywanie żądań do serwera LM Studio.",
-  "serverOptions/cors/hint2": "CORS może być wymagany podczas wykonywania żądań z strony internetowej lub VS Code / innego rozszerzenia.",
-  "serverOptions/cors/subtitle": "Zezwalaj na żądania między źródłami",
+  "serverOptions/cors/hint1": "Włączenie funkcji CORS (Cross-origin Resource Sharing) umożliwi odwiedzanym witrynom internetowym wysyłanie żądań do serwera LM Studio.",
+  "serverOptions/cors/hint2": "CORS może okazać się wymagany przy wysyłaniu żądań ze strony internetowej lub VS Code/innego rozszerzenia.",
+  "serverOptions/cors/subtitle": "Zezwalaj na żądania międzydomenowe (CORS)",
   "serverOptions/network/title": "Serwuj w sieci lokalnej",
   "serverOptions/network/subtitle": "Udostępnij serwer urządzeniom w sieci",
   "serverOptions/network/hint1": "Czy zezwolić na połączenia z innych urządzeń w sieci.",
-  "serverOptions/network/hint2": "Jeśli nie zaznaczone, serwer będzie nasłuchiwał tylko na localhost.",
-  "serverOptions/verboseLogging/title": "Szczegółowe logowanie",
-  "serverOptions/verboseLogging/subtitle": "Włącz szczegółowe logowanie dla lokalnego serwera",
-  "serverOptions/contentLogging/title": "Loguj zapytania i odpowiedzi",
-  "serverOptions/contentLogging/subtitle": "Ustawienia logowania zapytań / odpowiedzi lokalnych",
-  "serverOptions/contentLogging/hint": "Czy logować zapytania i/lub odpowiedzi w pliku logów serwera lokalnego.",
+  "serverOptions/network/hint2": "Jeśli nie zaznaczono, serwer będzie nasłuchiwał tylko na komputerze lokalnym.",
+  "serverOptions/verboseLogging/title": "Szczegółowe rejestrowanie",
+  "serverOptions/verboseLogging/subtitle": "Włącz szczegółowe rejestrowanie dla serwera lokalnego",
+  "serverOptions/contentLogging/title": "Rejestruj monity i odpowiedzi",
+  "serverOptions/contentLogging/subtitle": "Ustawienia rejestrowania lokalnych żądań/odpowiedzi",
+  "serverOptions/contentLogging/hint": "Czy rejestrować monity i/lub odpowiedzi w pliku dziennika serwera lokalnego.",
+  "serverOptions/redactContent/title": "Redact Content",
+  "serverOptions/redactContent/hint": "Po włączeniu tej opcji zapobiegniesz rejestrowaniu poufnych danych, takich jak zawartość żądań i odpowiedzi.",
+  "serverOptions/logIncomingTokens/title": "Rejestruj przychodzące tokeny",
+  "serverOptions/logIncomingTokens/hint": "Czy rejestrować każdy token w momencie jego generowania.",
+  "serverOptions/fileLoggingMode/title": "Tryb rejestrowania plików",
+  "serverOptions/fileLoggingMode/off/title": "Wyłącz",
+  "serverOptions/fileLoggingMode/off/hint": "Nie twórz plików rejestrowania",
+  "serverOptions/fileLoggingMode/succinct/title": "Zwięzły",
+  "serverOptions/fileLoggingMode/succinct/hint": "Rejestruj tę samą zawartość, co w konsoli. Długie żądania zostaną obcięte.",
+  "serverOptions/fileLoggingMode/full/title": "Pełny",
+  "serverOptions/fileLoggingMode/full/hint": "Nie obcinaj długich żądań.",
+  "serverOptions/jitModelLoading/title": "Ładowanie modelu Just-in-Time",
+  "serverOptions/jitModelLoading/hint": "Po włączeniu tej opcji, jeśli żądanie określi model, który nie został załadowany, zostanie on automatycznie załadowany i użyty. Ponadto \"/v1/models\" punkt końcowy będzie zawierał również modele, które nie zostały jeszcze załadowane.",
   "serverOptions/loadModel/error": "Nie udało się załadować modelu",
+  "serverOptions/jitModelLoadingTTL/title": "Automatycznie odmontuj zamontowane modele JIT",
+  "serverOptions/jitModelLoadingTTL/hint": "Model zamontowany w trybie Just-in-time (JIT) w celu obsłużenia żądania API zostanie automatycznie odmontowany po upływie określonego czasu nieużywania (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Maksymalny czas bezczynności TTL",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minuty",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Zachowaj tylko ostatni załadowany model JIT",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Upewnij się, że maksymalnie 1 model jest zamontowany za pomocą JIT w dowolnym momencie (odmontowuje poprzedni model)",
+  "serverOptions/allowMcp/title": "Zezwalaj na zdalny MCP",
+  "serverOptions/allowMcp/hint": "Zezwól na używanie MCP, których nie ma w pliku mcp.json. Te połączenia MCP są ulotne i istnieją tylko tak długo, jak trwa żądanie. Obecnie obsługiwane są tylko zdalne MCP.",
+  "serverOptions/allowMcp/mode/off": "Wyłącz",
+  "serverOptions/allowMcp/mode/off/hint": "Nie zezwalaj na żądania serwera dotyczące korzystania z protokołu MCP",
+  "serverOptions/allowMcp/mode/remote": "Zdalny",
+  "serverOptions/allowMcp/mode/remote/hint": "Zezwól na połączenie ze zdalnymi serwerami MCP",
 
-  "serverLogs/scrollToBottom": "Przejdź na dół",
+  "serverOptions/start/error": "Nie udało się uruchomić serwera",
+  "serverOptions/stop/error": "Nie udało się zatrzymać serwera",
+
+  "serverLogs/scrollToBottom": "Skocz na dół",
   "serverLogs/clearLogs": "Wyczyść logi ({{shortcut}})",
   "serverLogs/openLogsFolder": "Otwórz folder logów serwera",
 
-  "runtimeSettings/title": "Ustawienia środowiska uruchomieniowego",
-  "runtimeSettings/chooseRuntime/title": "Skonfiguruj środowiska uruchomieniowe",
-  "runtimeSettings/chooseRuntime/description": "Wybierz środowisko uruchomieniowe dla każdego formatu modelu",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Pokaż wszystkie wersje",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Domyślnie LM Studio pokazuje tylko najnowszą wersję każdego środowiska uruchomieniowego. Włącz tę opcję, aby zobaczyć wszystkie dostępne wersje.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Wybierz środowisko uruchomieniowe",
+  "runtimeSettings/title": "Ustawienia środowiska wykonawczego",
+  "runtimeSettings/chooseRuntime/title": "Wybory",
+  "runtimeSettings/chooseRuntime/description": "Wybierz silnik, który ma być używany dla każdego formatu modelu",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Pokaż wszystkie pakiety rozszerzeń",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Domyślnie LM Studio wyświetla tylko najnowszą wersję każdego pakietu rozszerzeń. Włącz tę opcję, aby wyświetlić wszystkie dostępne pakiety rozszerzeń.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Wybierz silnik",
+
+  "runtimeSettings/chooseFrameworks/title": "Struktury",
+  "runtimeSettings/chooseFrameworks/description": "Wybierz strukturę, której chcesz użyć dla każdej funkcjonalności",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Wbudowany parser",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Parser dokumentów",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Wybierz parser dokumentu",
 
   "runtimeOptions/uninstall": "Odinstaluj",
-  "runtimeOptions/uninstallDialog/title": "Odinstalować {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Odinstalowanie tego środowiska uruchomieniowego usunie je z systemu. Ta akcja jest nieodwracalna.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Niektóre pliki mogą zostać usunięte tylko po ponownym uruchomieniu LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Nie udało się odinstalować środowiska uruchomieniowego",
+  "runtimeOptions/uninstallDialog/title": "Odinstaluj {{runtimeName}}?",
+  "runtimeOptions/uninstallDialog/body": "Odinstalowanie tego środowiska uruchomieniowego spowoduje jego usunięcie z systemu. Ta czynność jest nieodwracalna.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Niektóre pliki mogą zostać usunięte dopiero po ponownym uruchomieniu LM Studio.",
+  "runtimeOptions/uninstallDialog/error": "Nie udało się odinstalować środowiska wykonawczego",
   "runtimeOptions/uninstallDialog/confirm": "Kontynuuj i odinstaluj",
   "runtimeOptions/uninstallDialog/cancel": "Anuluj",
+  "runtimeOptions/noCompatibleRuntimes": "Nie znaleziono zgodnych środowisk wykonawczych",
+  "runtimeOptions/downloadIncompatibleRuntime": "To środowisko wykonawcze zostało uznane za niezgodne z Twoim komputerem. Najprawdopodobniej nie będzie działać.",
+  "runtimeOptions/noRuntimes": "Nie znaleziono środowisk wykonawczych",
 
-  "inferenceParams/noParams": "Brak konfigurowalnych parametrów wnioskowania dostępnych dla tego typu modelu",
+  "runtimes": {
+    "manageLMRuntimes": "Zarządzaj środowiskiem wykonawczym LM",
+    "includeOlderRuntimeVersions": "Uwzględnij starsze wersje",
+    "dismiss": "Odrzuć",
+    "updateAvailableToast": {
+      "title": "Aktualizacja Środowiska wykonawczego jest dostępna!"
+    },
+    "updatedToast": {
+      "title": " ✅ Zaktualizowano środowisko wykonawcze LM: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Nowo załadowane {{compatibilityTypes}} modele będą używać zaktualizowanego Środowiska wykonawczego."
+    },
+    "noAvx2ErrorMessage": "Wszystkie środowiska uruchomieniowe LM wymagają obecnie procesora obsługującego AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Pakiety rozszerzeń środowiska wykonawczego",
+      "refresh": "Odśwież",
+      "refreshing": "Odświeżanie...",
+      "filterSegment": {
+        "compatibleOnly": "Tylko kompatybilne",
+        "all": "Wszystkie"
+      },
+      "card": {
+        "releaseNotes": "Informacje o wydaniu",
+        "latestVersionInstalled": "Najnowsza wersja zainstalowana",
+        "updateAvailable": "Dostępna aktualizacja"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Zarządzaj aktywnymi środowiskami wykonawczymi"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Zarządzaj wersjami",
+        "close": "Zamknij"
+      },
+      "tabs": {
+        "all": "Wszystko",
+        "frameworks": "Moje struktury",
+        "engines": "Moje silniki"
+      },
+      "detailsModal": {
+        "installedVersions": "Zainstalowane wersje dla {{runtimeName}}",
+        "manifestJsonTitle": "Manifest JSON (zaawansowany)",
+        "releaseNotesTitle": "Informacje o wydaniu",
+        "noReleaseNotes": "Brak dostępnych informacji o wydaniu dla tej wersji",
+        "back": "Wstecz",
+        "close": "Zamknij"
+      },
+      "noEngines": "Brak zainstalowanych silników",
+      "noFrameworks": "Brak zainstalowanych struktur"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Obsługiwane punkty końcowe (podobne do OpenAI)",
+  "inferenceParams/noParams": "Dla tego typu modelu nie są dostępne żadne konfigurowalne parametry wnioskowania",
+
+  "quickDocs": {
+    "tabChipTitle": "Dokumentacja dla programistów",
+    "newToolUsePopover": "Fragmenty kodu są już dostępne w „Dokumentacji dla programistów”. Kliknij tutaj, aby rozpocząć korzystanie z narzędzi!",
+    "newToolUsePopoverTitle": "📚 Dokumentacja dla programistów",
+    "learnMore": "ℹ️ 👾 Aby dowiedzieć się więcej o lokalnych punktach końcowych serwera LM Studio, odwiedź stronę [documentation](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "Witaj świecie!"
+    },
+    "chat": {
+      "title": "Czat"
+    },
+    "structuredOutput": {
+      "title": "Ustrukturyzowane wyjście"
+    },
+    "imageInput": {
+      "title": "Wejście obrazu"
+    },
+    "embeddings": {
+      "title": "Osadzenia"
+    },
+    "toolUse": {
+      "title": "Użycie narzędzia",
+      "tab": {
+        "saveAsPythonFile": "Zapisz jako plik Pythona",
+        "runTheScript": "Uruchom skrypt:",
+        "savePythonFileCopyPaste": "Zapisz jako plik Pythona dla polecenia kopiowania i wklejania"
+      }
+    },
+    "newBadge": "Nowy"
+  },
+
+  "endpoints/openaiCompatRest/title": "Obsługiwane punkty końcowe{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Jak OpenAI",
   "endpoints/openaiCompatRest/getModels": "Lista aktualnie załadowanych modeli",
-  "endpoints/openaiCompatRest/postCompletions": "Tryb Uzupełnień Tekstowych. Przewiduj następny token(y) na podstawie zapytania. Uwaga: OpenAI uważa ten punkt końcowy za 'przestarzały'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Uzupełnienia czatowe. Wyślij historię czatu do modelu, aby przewidzieć następną odpowiedź asystenta",
-  "endpoints/openaiCompatRest/postEmbeddings": "Osadzenia Tekstowe. Generuj osadzenia tekstowe dla podanego wejścia tekstowego. Przyjmuje ciąg lub tablicę ciągów.",
-  
-  "model.createVirtualModelFromInstance": "Zapisz ustawienia jako nowy wirtualny model",
-  "model.createVirtualModelFromInstance/error": "Nie udało się zapisać ustawień jako nowego wirtualnego modelu",
-  
+  "endpoints/openaiCompatRest/postCompletions": "Tryb uzupełniania tekstu. Po wyświetleniu monitu wytypuj następny token(y). Uwaga: OpenAI uważa ten punkt końcowy za „przestarzały”.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Zakończenia czatu. Wyślij historię czatów do modelu, aby przewidzieć następną odpowiedź asystenta",
+  "endpoints/openaiCompatRest/postEmbeddings": "Osadzanie tekstu. Generuj osadzanie tekstu dla danego wprowadzonego tekstu. Pobiera ciąg lub tablicę ciągów.",
+  "endpoints/openaiCompatRest/postResponses": "Zaawansowany interfejs do generowania odpowiedzi modelowych. Twórz interakcje stanowe, przekazując identyfikator poprzednich odpowiedzi jako dane wejściowe do następnej.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Lista dostępnych modeli",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Załaduj model z opcjami",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Pobierz model",
+  "endpoints/lmStudioRestV1/postChat": "Czatuj z modelem. Obsługuje wieloetapowe rozmowy z zachowaniem stanu oraz MCP.",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Uzyskaj status pobrania modelu",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Kompatybilne z Anthropic",
+
+  "model.createVirtualModelFromInstance": "Zapisz ustawienia jako nowy model wirtualny",
+  "model.createVirtualModelFromInstance/error": "Nie udało się zapisać ustawień jako nowego modelu wirtualnego",
+
+  "model": {
+    "toolUseSectionTitle": "Użycie narzędzia",
+    "toolUseDescription": "Wykryto, że model ten został przeszkolony w zakresie obsługi narzędzi\n\nOtwórz <custom-link>developer docs</custom-link> aby uzyskać więcej informacji."
+  },
+
   "apiConfigOptions/title": "Konfiguracja API"
 }
