@@ -1,6 +1,6 @@
 {
   "tabs/server": "Локальный сервер",
-  "tabs/extensions": "LM Runtimes",
+  "tabs/extensions": "Среды выполнения LM",
   "loadSettings/title": "Загрузить настройки",
   "modelSettings/placeholder": "Выбрать модель для настройки",
 
@@ -27,6 +27,10 @@
   "serverOptions/contentLogging/title": "Логировать запросы и ответы",
   "serverOptions/contentLogging/subtitle": "Настройки ведения журнала запросов / ответов локального сервера",
   "serverOptions/contentLogging/hint": "Включить или нет логирование запросов и/или ответов в журнале логов локального сервера.",
+  "serverOptions/redactContent/title": "Скрывать контент",
+  "serverOptions/redactContent/hint": "При включении предотвращает логирование конфиденциальных данных, таких как содержание запросов и ответов.",
+  "serverOptions/logIncomingTokens/title": "Логировать входящие токены",
+  "serverOptions/logIncomingTokens/hint": "Логировать каждый токен по мере его генерации.",
   "serverOptions/fileLoggingMode/title": "Режим ведения логирования файлов",
   "serverOptions/fileLoggingMode/off/title": "ОТКЛЮЧЕНО",
   "serverOptions/fileLoggingMode/off/hint": "Не создавать файлы логов",
@@ -43,43 +47,58 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "минуты",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Сохранять только последнюю загруженную модель JIT",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Убедитесь, что одновременно загружена не более одной модели через JIT (разгружается предыдущая модель)",
+  "serverOptions/allowMcp/title": "Разрешить удалённый MCP",
+  "serverOptions/allowMcp/hint": "Разрешить использование MCP, которых нет в вашем mcp.json. Эти MCP-подключения временны и существуют только во время запроса. На данный момент поддерживаются только удалённые MCP.",
+  "serverOptions/allowMcp/mode/off": "Откл",
+  "serverOptions/allowMcp/mode/off/hint": "Не разрешать запросы к серверу через MCP",
+  "serverOptions/allowMcp/mode/remote": "Удалённый",
+  "serverOptions/allowMcp/mode/remote/hint": "Разрешить подключение к удалённым MCP-серверам",
+
+  "serverOptions/start/error": "Не удалось запустить сервер",
+  "serverOptions/stop/error": "Не удалось остановить сервер",
 
   "serverLogs/scrollToBottom": "Перейти в конец",
   "serverLogs/clearLogs": "Очистить логи ({{shortcut}})",
   "serverLogs/openLogsFolder": "Открыть папку с логами сервера",
 
-  "runtimeSettings/title": "Настройки Runtime",
+  "runtimeSettings/title": "Настройки среды выполнения",
   "runtimeSettings/chooseRuntime/title": "По умолчанию",
-  "runtimeSettings/chooseRuntime/description": "Выберите предустановленный runtime для каждого формата модели",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все runtimes",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждого совместимого runtime. Включите этоот параметр, чтобы увидеть все доступные runtimes.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать Runtime",
+  "runtimeSettings/chooseRuntime/description": "Выберите предустановленную среду выполнения для каждого формата модели",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все среды выполнения",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждого пакета расширений. Включите этот параметр, чтобы увидеть все доступные пакеты расширений.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать среду выполнения",
+
+  "runtimeSettings/chooseFrameworks/title": "Фреймворки",
+  "runtimeSettings/chooseFrameworks/description": "Выберите фреймворк для каждой функции",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Встроенный парсер",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Парсер документов",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Выбрать парсер документов",
 
   "runtimeOptions/uninstall": "Удалить",
   "runtimeOptions/uninstallDialog/title": "Удалить {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Удаление этого runtime удалит его из системы. Это действие необратимо.",
+  "runtimeOptions/uninstallDialog/body": "Удаление этой среды выполнения удалит её из системы. Это действие необратимо.",
   "runtimeOptions/uninstallDialog/body/caveats": "Некоторые файлы могут быть удалены только после перезапуска LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Не удалось удалить runtime",
+  "runtimeOptions/uninstallDialog/error": "Не удалось удалить среду выполнения",
   "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
   "runtimeOptions/uninstallDialog/cancel": "Отмена",
-  "runtimeOptions/noCompatibleRuntimes": "Не найдено совместимых runtimes",
-  "runtimeOptions/downloadIncompatibleRuntime": "Этот runtime был определён как несовместимый с вашим устройством. Скорее всего, он не будет работать.",
-  "runtimeOptions/noRuntimes": "Нет runtimes",
+  "runtimeOptions/noCompatibleRuntimes": "Не найдено совместимых сред выполнения",
+  "runtimeOptions/downloadIncompatibleRuntime": "Эта среда выполнения была определена как несовместимая с вашим устройством. Скорее всего, она не будет работать.",
+  "runtimeOptions/noRuntimes": "Нет сред выполнения",
 
   "runtimes": {
-    "manageLMRuntimes": "Управление LM Runtimes",
-    "includeOlderRuntimeVersions": "Включить старые версии runtime",
+    "manageLMRuntimes": "Управление средами выполнения LM",
+    "includeOlderRuntimeVersions": "Включить старые версии сред выполнения",
     "dismiss": "Отмена",
     "updateAvailableToast": {
-      "title": "Доступно обновление LM Runtime!"
+      "title": "Доступно обновление среды выполнения LM!"
     },
     "updatedToast": {
-      "title": " ✅ LM Runtime обновлен: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Новые загруженные модели с {{compatibilityTypes}} будут использовать обновленный runtime."
+      "title": " ✅ Среда выполнения LM обновлена: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Новые загруженные модели с {{compatibilityTypes}} будут использовать обновленную среду выполнения."
     },
-    "noAvx2ErrorMessage": "Все LM Runtimes требуют процессора с AVX2",
+    "noAvx2ErrorMessage": "Все среды выполнения LM требуют процессора с AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Пакеты расширений runtime",
+      "runtimeExtensionPacks": "Пакеты расширений среды выполнения",
       "refresh": "Обновить",
       "refreshing": "Загрузка...",
       "filterSegment": {
@@ -94,7 +113,7 @@
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Управление активными runtime"
+        "title": "Управление активными средами выполнения"
       },
       "dropdownOptions": {
         "installedVersions": "Управление версиями",
@@ -121,9 +140,9 @@
   "inferenceParams/noParams": "Параметры инференса не доступны для данного типа модели",
 
   "quickDocs": {
-    "tabChipTitle": "Быстрые справки",
-    "newToolUsePopover": "Кодовые фрагменты теперь доступны здесь в \"Быстрых справках\". Нажмите здесь, чтобы начать использовать инструменты!",
-    "newToolUsePopoverTitle": "📚 Быстрые справки",
+    "tabChipTitle": "Документация разработчика",
+    "newToolUsePopover": "Кодовые фрагменты теперь доступны здесь в \"Документации разработчика\". Нажмите здесь, чтобы начать использовать инструменты!",
+    "newToolUsePopoverTitle": "📚 Документация разработчика",
     "learnMore": "ℹ️ 👾 Чтобы узнать больше о конечных точках локального сервера LM Studio, посетите [документацию](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Привет, Мир!"
@@ -151,18 +170,27 @@
     "newBadge": "Новый"
   },
 
-  "endpoints/openaiCompatRest/title": "Поддерживаемые конечные точки (подобные OpenAI)",
+  "endpoints/openaiCompatRest/title": "Поддерживаемые конечные точки{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "Как в OpenAI",
   "endpoints/openaiCompatRest/getModels": "Список загруженных моделей",
   "endpoints/openaiCompatRest/postCompletions": "Режим завершения текста. Предсказание следующего токена(ов) на основе запроса. Обратите внимание: OpenAI считает этот конечный пункт 'устаревшим'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Завершения чата. Отправка истории чата модели для предсказания следующего ответа ассистента",
   "endpoints/openaiCompatRest/postEmbeddings": "Векторное представление текста. Генерация векторных представлений текста на основе заданного текстового ввода. Принимает строку или массив строк.",
+  "endpoints/openaiCompatRest/postResponses": "Расширенный интерфейс для генерации ответов модели. Создание интерактивных взаимодействий путём передачи id предыдущих ответов в качестве входных данных для следующего.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Список доступных моделей",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Загрузить модель с опциями",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Скачать модель",
+  "endpoints/lmStudioRestV1/postChat": "Чат с моделью. Поддерживает многоходовые разговоры с сохранением состояния и MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Получить статус загрузки модели",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Совместимый с Anthropic",
 
   "model.createVirtualModelFromInstance": "Сохранить настройки как новую виртуальную модель",
   "model.createVirtualModelFromInstance/error": "Не удалось сохранить настройки в качестве новой виртуальной модели",
 
   "model": {
     "toolUseSectionTitle": "Использование инструментов",
-    "toolUseDescription": "Обнаружено, что эта модель обучена для использования инструментов\n\nОткройте <custom-link>quick docs</custom-link> для получения дополнительной информации"
+    "toolUseDescription": "Обнаружено, что эта модель обучена для использования инструментов\n\nОткройте <custom-link>developer docs</custom-link> для получения дополнительной информации"
   },
 
   "apiConfigOptions/title": "Настройки API"

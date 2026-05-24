@@ -23,10 +23,12 @@
   "noChatSelectedPlaceholder": "Выберите чат",
   "unnamedChat": "Безымянный чат",
   "emptyFolder": "Папка пуста",
+
   "tokenCount": "Счётчик токенов",
   "messageTokenCount": "Токены во входящем сообщении",
   "tokenCount/hint": "Количество токенов в сообщении, рассчитанное токенизатором текущей модели.\n\nТребует загруженной модели.",
   "messageTokenCount/hint": "Количество токенов во входящем сообщении, рассчитанное токенизатором текущей модели.\n\n**Не включает** токены вложений.",
+
   "notes": "Заметки к беседе",
   "notes/add/first": "Добавить заметку",
   "notes/add/another": "Добавить еще одну заметку",
@@ -35,9 +37,11 @@
   "notes/delete": "Удалить заметку",
   "notes/noteLabel": "Заметка",
   "notes/copyContent": "Копировать содержание заметки",
+
   "actions/sendMessage/error": "Не удалось отправить сообщение",
   "actions/loadModel/error": "🥲 Не удалось загрузить модель",
   "actions/addFile": "[Экспериментально] Прикрепить файл к этому сообщению\n(.pdf, текст или .docx)",
+  "actions/addFile/label": "Прикрепить файл",
   "actions/changeRole": "Переключиться между ролями Пользователя и Ассистента.\n\nЭто полезно для направления диалога в определенное русло.\n\nМожно использовать для моделирования сценариев 'обучения на нескольких примерах' или 'обучения в контексте'.",
   "actions/addImage": "Добавить изображение",
   "actions/deleteMessage": "Удалить сообщение",
@@ -56,6 +60,8 @@
   "actions/loadLastModel": "Перезагрузить последнюю использованную модель",
   "actions/loadLastModel/tooltip": "Нажмите, чтобы загрузить модель, которую вы последний раз использовали с этим чатом:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "Ошибка при загрузке последней использованной модели.",
+  "actions/clearLastUsedModel": "Очистить последнюю использованную модель",
+  "actions/clearLastUsedModel/error": "Не удалось очистить последнюю использованную модель.",
   "actions/continueCurrentModel": "Использовать текущую модель",
   "actions/continueCurrentModel/tooltip": "Текущая модель: {{currentModel}}",
   "actions/changeToLastUsedModel": "Загрузить {{lastModel}}",
@@ -81,51 +87,66 @@
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "Ошибка перемещения",
   "actions/rename/error": "Ошибка переименования",
-  "actions/createChatAtRoot": "Создать новый чат",
+  "actions/createChatAtRoot": "Создать новый чат...",
   "actions/createChatAtRoot/error": "Не удалось создать чат на корневом уровне",
-  "actions/createFolderAtRoot": "Создать новую папку",
+  "actions/createFolderAtRoot": "Создать новую папку...",
   "actions/createFolderAtRoot/error": "Не удалось создать папку на корневом уровне",
+  "actions/openInFolder/mac": "Показать в Finder",
+  "actions/openInFolder/pc": "Показать в проводнике",
+
   "actions/createChat/error": "Не удалось создать чат",
   "actions/deleteChat/errorTitle": "Не удалось удалить чат",
+
   "userFile/fileSizeLimit": "Ограничение размера файла: ",
   "userFile/noImageSupport": "Модель не поддерживает ввод изображений",
   "userFile/errorPrefix": "Ошибка - ",
   "userFile/supportedImagePrefix": "Неподдерживаемый тип изображения - поддерживаются только ",
   "userFile/supportedImageSuffix": " поддерживается",
   "userFile/unsupportedFileType": "Неподдерживаемый тип файла - поддерживаются только изображения, PDF и текстовые файлы.",
-  "userFile/maxFilesPerMessage": "Достигнуто максимальное количество файлов на одно сообщение. Нельзя добавить больше чем {{files}} файлов.",
-  "userFile/maxFileSizePerMessage": "Превышен максимальный размер файла на одно сообщение. Нельзя добавить файлы размером больше {{size}}.",
-  "userFile/maxFileSizePerConversation": "Превышен общий лимит размера файлов (макс. {{size}})",
+  "userFile/maxFilesPerMessage": "Достигнуто максимальное количество файлов на одно сообщение. Нельзя добавить больше чем {{files}} файлов. ",
+  "userFile/maxFileSizePerMessage": "Превышен максимальный размер файла на одно сообщение. Нельзя добавить файлы размером больше {{size}}. ",
+  "userFile/maxFileSizePerConversation": "Превышен общий лимит размера файлов (макс. {{size}}). ",
   "userFile/failedToUploadError/title": "Не удалось загрузить файл",
   "userFile/failedToAddFile/title": "Не удалось прикрепить файл к сообщению",
   "errorTitle": "Ошибка",
   "userFile/chatTerminalDocumentsCount_one": "{{count}} документ в чате",
   "userFile/chatTerminalDocumentsCount_other": "{{count}} документов в чате",
+
   "prediction/busyModel/title": "Модель занята",
   "prediction/busyModel/message": "Пожалуйста, дождитесь завершения работы модели и попробуйте снова",
   "prediction/noModel/title": "Модель не выбрана",
   "prediction/modelLoading": "Сообщение в очереди — отправится после загрузки модели",
   "prediction/noModel/message": "Выберите модель для отправки сообщения",
   "prediction/unloadModel/error": "Не удалось выгрузить модель",
+
   "retrieval/user/processingLabel": "ИИ обрабатывает запрос...",
   "retrieval/powerUser/intermediateStepsHidden": "Скрытые промежуточные шаги. Нажмите, чтобы развернуть.",
   "retrieval/actions/clickToExpand": "Нажмите, чтобы развернуть промежуточные шаги",
   "retrieval/actions/clickToCollapse": "Нажмите, чтобы свернуть промежуточные шаги",
-  "style": "Внешний вид чата",
+
+  "style": "Внешний вид",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Текст",
   "style/viewMode/monospace": "Моноширинный",
-  "speculativeDecodingVisualization/toggle": "визуализировать принятые черновиковые токены",
+
+  "speculativeDecodingVisualization/toggle": "Визуализировать принятые черновиковые токены",
   "speculativeDecodingVisualization/fromDraftModel_one": "Принятые черновиковые токены",
   "speculativeDecodingVisualization/fromDraftModel_other": "Принятые черновиковые токены",
   "speculativeDecodingVisualization/cannotChangeViewMode": "Выбор режима просмотра отключен при визуализации черновиковых токенов.",
+
   "style/fontSize/label": "Размер шрифта",
   "style/fontSize/medium": "По умолчанию",
   "style/fontSize/large": "Большой",
   "style/fontSize/small": "Маленький",
+
   "style/debugBlocks/label": "Показывать блоки отладки",
+
   "style/thinkingUI/label": "Разворачивать блоки рассуждений по умолчанию",
-  "style/chatFullWidth/label": "Растягивать чат на всю ширину",
+  "style/chatFullWidth/label": "Растягивать чат на всю ширину окна",
+
+  "style/chatUtilityMenusShowLabel/label": "Показывать метки меню утилит чата",
+
   "messageBlocks": {
     "expandBlockTooltip": "Развернуть содержимое",
     "collapseBlockTooltip": "Свернуть содержимое",
@@ -135,14 +156,20 @@
       "expandTooltip": "Развернуть блок информации отладки"
     }
   },
+
+  "chatTabOptions/clearAllMessages": "Очистить все сообщения...",
+  "chatTabOptions/duplicateChat": "Дублировать чат",
+
   "topBarActions/duplicateChat": "Дублировать",
-  "topBarActions/clearChat": "Очистить чат",
+  "topBarActions/clearChat": "Очистить все",
   "topBarActions/clearChatConfirmation": "Вы уверены, что хотите удалить все сообщения из этого чата?",
   "topBarActions/clearChatCancel": "Отмена",
-  "topBarActions/clearChatDelete": "Очистить чат",
+  "topBarActions/clearChatDelete": "Очистить все",
+
   "noModels.indexing": "Индексация файлов модели... (это может занять некоторое время)",
   "noModels.downloading": "Скачивается ваша первая LLM...",
   "noModels": "Пока нет LLM — загрузите модель, чтобы начать!",
+
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "Плагин",
@@ -157,7 +184,7 @@
         "uninstall": "Удалить"
       },
       "actionButtons": {
-        "create": "+ Создать",
+        "create": "Создать",
         "import": "Импортировать",
         "discover": "Найти"
       },
@@ -166,7 +193,8 @@
         "placeholder": "Созданные вами плагины будут отображаться здесь"
       },
       "startRunningDevelopmentPlugin/error": "Не удалось запустить плагин в режиме разработки",
-      "stopRunningDevelopmentPlugin/error": "Не удалось остановить плагин в режиме разработки"
+      "stopRunningDevelopmentPlugin/error": "Не удалось остановить плагин в режиме разработки",
+      "forceReInitPlugin/error": "Не удалось перезапустить плагин"
     },
     "pluginConfiguration": {
       "title": "Настройка плагина",
@@ -190,8 +218,13 @@
         "revealInFinder": "Показать в Finder",
         "openInFileExplorer": "Открыть в проводнике"
       }
-    }
+    },
+    "localFork": {
+      "error": "Не удалось создать локальную копию плагина для разработки."
+    },
+    "restartErrorPlugin/error": "Не удалось перезапустить плагин"
   },
+
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} токенов/сек",
     "predictedTokensCount": "{{predictedTokensCount}} токенов",
@@ -206,6 +239,12 @@
     "stopReason.maxPredictedTokensReached": "Достигнут максимальный лимит предсказанных токенов",
     "stopReason.contextLengthReached": "Достигнут лимит длины контекста",
     "speculativeDecodedBy": "Черновая модель: {{decodedBy}}",
-    "speculativeDecodingStats": "Принято {{accepted}}/{{total}} черновых токенов ({{percentage}}%)"
+    "speculativeDecodingStats": "Принято {{accepted}}/{{total}} черновых токенов ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% черновых токенов принято",
+    "speculativeDecodingTooltip": "Принято {{accepted}}/{{total}} черновых токенов"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Редактирование системного промпта"
   }
 }

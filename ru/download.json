@@ -1,5 +1,15 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Извлечение...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Извлечение файлов...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Извлечение файлов...",
+  "postDownloadActionExecutor.modifyModelData/status": "Обновление данных модели...",
+  "postDownloadActionExecutor.notification/status": "Уведомление пользователя...",
+  "postDownloadActionExecutor.writeString/status": "Запись метаданных...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Обновление выбранной версии...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Удаление неиспользуемых расширений...",
+  "postDownloadActionExecutor.pluginInstall/status": "Установка плагина...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Удаление плагина...",
+
   "finalizing": "Завершение скачивания... (это может занять некоторое время)",
   "noOptions": "Нет совместимых вариантов для скачивания",
 
@@ -19,5 +29,15 @@
 
   "downloadsPanel/title": "Загрузки",
   "downloadsPanel/sectionTitle/ongoing": "В процессе",
-  "downloadsPanel/sectionTitle/completed": "Завершённые"
+  "downloadsPanel/sectionTitle/completed": "Завершённые",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Показать в Finder",
+      "mac/error": "Не удалось показать в Finder",
+      "nonMac": "Показать в проводнике",
+      "nonMac/error": "Не удалось показать в проводнике"
+    },
+    "completed": "Скачивание завершено",
+    "loadModel": "Загрузить модель"
+  }
 }
