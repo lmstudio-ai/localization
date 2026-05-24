@@ -1,0 +1,40 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "გაშლა...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "ფაილების ამოღება...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "ფაილების ამოღება...",
+  "postDownloadActionExecutor.modifyModelData/status": "მიმდინარეობს მოდელის მონაცემების განახლება...",
+  "postDownloadActionExecutor.notification/status": "მომხმარებლის გაფრთხილება...",
+  "postDownloadActionExecutor.writeString/status": "მეტამონაცემების ჩაწერა...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "მონიშნული ვერსიის განახლება...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "იშლება გამოუყენებელი გაფართოებები...",
+  "postDownloadActionExecutor.pluginInstall/status": "მიმდინარეობს მოდულის დაყენება...",
+  "postDownloadActionExecutor.pluginUninstall/status": "მიმდინარეობს მოდულის წაშლა...",
+  "finalizing": "გადმოწერის დასრულება... (ამას, შეიძლება, რაღაც დროს დასჭირდეს)",
+  "noOptions": "გადმოსაწერად თავსებადი ვარიანტები ხელმისაწვდომი არაა",
+  "deeplink/confirmation/title": "მოდელის გადმოწერა საიტიდან Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "რეკომდენდებულის არჩევა",
+  "deeplink/confirmation/selectOption": "აირჩიეთ გადმოწერის ვარიანტი",
+  "deeplink/confirmation/recommendedOption": "ალბათ საუკეთესო არჩევანი მომხმარებლების უმრავლესობისთვის",
+  "deeplink/confirmation/downloadButton": "გადმოწერა",
+  "deeplink/confirmation/nevermindButton": "გატარება",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face-ის მოდელი აღმოჩენილია ✅",
+  "deeplink/confirmation/modelPresent/body": "კარგი ამბებია! ამ მოდელის ფაილი უკვე ხელმისაწვდომია თქვენს ლოკალურ მანქანაზე.",
+  "deeplink/confirmation/loadInChat": "{{ modelName }}-ის ჩატვირთვა ახალ ჩატში",
+  "deeplink/error/modelNotFound/title": "ვაი. ეს მოდელი ვერ ვიპოვე",
+  "deeplink/error/modelNotFound/body": "გადაამოწმეთ მოდელის სახელი და იფიქრეთ სხვა გადმოწერის ვარიანტის ცდაზე.",
+  "deeplink/actions/trySearching": "{{modelName}}-ის Hugging Face-ზე მოძებნის ცდა",
+  "downloadsPanel/title": "გადმოწერები",
+  "downloadsPanel/sectionTitle/ongoing": "მიმდინარეობს",
+  "downloadsPanel/sectionTitle/completed": "დასრულდა",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finder-ში გამოჩენა",
+      "mac/error": "Finder-ში გამოჩენა შეუძლებელია",
+      "nonMac": "გამოჩენა ფაილების მმართველში",
+      "nonMac/error": "ფაილების მმართველში გამოჩენა შეუძლებელია"
+    },
+    "completed": "გადმოწერა დასრულდა",
+    "loadModel": "მოდელის ჩატვირთვა"
+  }
+}
