@@ -106,6 +106,8 @@
   "llm.prediction.tools/serverPageDescriptionAddon": "Pass this through the request body as `tools` when using the server API",
   "llm.prediction.promptTemplate/title": "Prompt Template",
   "llm.prediction.promptTemplate/subTitle": "The format in which messages in chat are sent to the model. Changing this may introduce unexpected behavior - make sure you know what you're doing!",
+  "llm.load.promptTemplate/title": "Chat Template",
+  "llm.load.promptTemplate/subTitle": "The template used by engine protocol for chat, tools, reasoning, and multimodal formatting. Changing this requires reloading the model.",
   "llm.prediction.speculativeDecoding.numDraftTokensExact/title": "Draft Tokens to Generate",
   "llm.prediction.speculativeDecoding.numDraftTokensExact/subTitle": "The number of tokens to generate with the draft model per main model token. Find the sweet spot of compute vs. reward",
   "llm.prediction.speculativeDecoding.minContinueDraftingProbability/title": "Drafting Probability Cutoff",
