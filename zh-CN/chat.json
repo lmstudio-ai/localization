@@ -40,7 +40,7 @@
 
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
-  "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
+  "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本， 或 .docx)",
   "actions/addFile/label": "附加文件",
   "actions/changeRole": "在用户和助手角色之间切换。\n\n这对于引导对话朝特定方向发展非常有用。\n\n可用于构建‘少样本学习’或‘情境学习’场景",
   "actions/addImage": "添加图片",
@@ -60,6 +60,8 @@
   "actions/loadLastModel": "重新加载上次使用的模型",
   "actions/loadLastModel/tooltip": "点击以加载上次与该聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "加载上次使用的模型失败。",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失败。",
   "actions/continueCurrentModel": "使用当前模型",
   "actions/continueCurrentModel/tooltip": "当前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "加载 {{lastModel}}",
@@ -192,7 +194,9 @@
       },
       "startRunningDevelopmentPlugin/error": "开发模式插件启动失败",
       "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败",
-      "forceReInitPlugin/error": "重启插件失败"
+      "forceReInitPlugin/error": "重启插件失败",
+      "signOutMcpPlugin/error": "插件登出失败",
+      "cancelMcpAuthentication/error": "取消插件认证失败"
     },
     "pluginConfiguration": {
       "title": "插件配置",
@@ -237,7 +241,9 @@
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% 草稿token已采纳",
+    "speculativeDecodingTooltip": "已采纳 {{accepted}}/{{total}} 个草稿token"
   },
 
   "tabs": {
