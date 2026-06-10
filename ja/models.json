@@ -32,6 +32,7 @@
   "loader.model.bundled": "バンドル済み",
   "action.cancel": "キャンセル",
   "indexingOngoing": "モデルをインデックス中... しばらくお待ちください",
+  "indexingPageLoaderText": "モデルをインデックス中...",
   "index/error_one": "次のフォルダーのインデックス作成に失敗しました:",
   "index/error_other": "次のフォルダーのインデックス作成に失敗しました:",
   "badModels/title_one": "次のモデルのインデックス作成に失敗しました:",
@@ -100,11 +101,14 @@
   "loader.guardrails.gpu": "GPU",
   "loader.guardrails.unavailable": "このモデルのメモリ推定値は利用できません",
   "loader.guardrails.notEnoughResources": "現在の設定でモデルを読み込むためのリソースが不足しています",
+  "loader.guardrails.notEnoughResources/options": "オプション",
   "loader.guardrails.notEnoughResources/moreInfo": "詳細情報",
   "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "システムにこのモデルを読み込むのに十分なメモリがないようです。",
   "loader.guardrails.notEnoughResources.moreInfoSection.conditionalEstimate": "推定では <memoryBytes /> のメモリが必要です。",
   "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "設定でモデルの読み込みガードレールを調整するか、<altOptionKey /> を押しながら読み込むことができます。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "大きすぎるモデルを読み込むと、システムがオーバーロードされてフリーズする可能性があります。",
   "loader.guardrails.notEnoughResources.moreInfoSection.note": "注: 大きすぎるモデルを読み込むと、システムがオーバーロードされてフリーズする可能性があります。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（非推奨）Alt/Option を押さずに「強制的にロード」を常に許可する",
 
   "virtual": {
     "local": {

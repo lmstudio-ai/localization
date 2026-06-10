@@ -51,8 +51,11 @@
   "serverOptions/allowMcp/hint": "サーバーリクエストがMCPを使用できるようにする方法を選択します。MCPサーバーのインストールと使用には常に注意してください。安全でない可能性があります。",
   "serverOptions/allowMcp/mode/off": "オフ",
   "serverOptions/allowMcp/mode/off/hint": "サーバーリクエストがMCPを使用することを許可しない",
-  "serverOptions/allowMcp/mode/mcpJson": "mcp.json",
-  "serverOptions/allowMcp/mode/mcpJson/hint": "mcp.jsonで構成されたMCPサーバーを許可します",
+  "serverOptions/allowMcp/mode/remote": "リモート",
+  "serverOptions/allowMcp/mode/remote/hint": "リモートMCPサーバーへの接続を許可します",
+
+  "serverOptions/start/error": "サーバーの起動に失敗しました",
+  "serverOptions/stop/error": "サーバーの停止に失敗しました",
 
   "serverLogs/scrollToBottom": "一番下に移動",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
@@ -168,10 +171,19 @@
   },
 
   "endpoints/openaiCompatRest/title": "対応エンドポイント（OpenAI互換）",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI互換",
   "endpoints/openaiCompatRest/getModels": "現在ロードされているモデル一覧",
   "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトに基づき次のトークンを予測します。※OpenAIではこのエンドポイントは非推奨です。",
   "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信し、次のアシスタント応答を予測します",
   "endpoints/openaiCompatRest/postEmbeddings": "テキスト埋め込み。指定したテキスト入力に対して埋め込みベクトルを生成します。文字列または文字列配列を受け付けます。",
+  "endpoints/openaiCompatRest/postResponses": "モデル応答生成のための高度なインターフェース。前のレスポンスのIDを次の入力として渡すことで、ステートフルな対話を作成します。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "利用可能なモデル一覧",
+  "endpoints/lmStudioRestV1/postModelsLoad": "モデルを読み込む（オプション付き）",
+  "endpoints/lmStudioRestV1/postModelsDownload": "モデルをダウンロード",
+  "endpoints/lmStudioRestV1/postChat": "モデルとチャット。ステートフルなマルチターン会話とMCPをサポートします",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "モデルダウンロードのステータスを取得",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic互換",
 
   "model.createVirtualModelFromInstance": "設定を新しい仮想モデルとして保存",
   "model.createVirtualModelFromInstance/error": "設定の仮想モデル保存に失敗しました",
