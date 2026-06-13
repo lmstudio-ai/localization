@@ -9,10 +9,8 @@
   "postDownloadActionExecutor.extensionPackAutoDeletion/status": "删除未使用的扩展中...",
   "postDownloadActionExecutor.pluginInstall/status": "安装插件中...",
   "postDownloadActionExecutor.pluginUninstall/status": "卸载插件中...",
-
   "finalizing": "完成下载...（这可能需要几分钟）",
   "noOptions": "没有可用的兼容下载选项",
-  
   "deeplink/confirmation/title": "从 Hugging Face 下载模型 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "选择推荐项",
@@ -26,7 +24,6 @@
   "deeplink/error/modelNotFound/title": "未找到该模型",
   "deeplink/error/modelNotFound/body": "请再次检查模型名称，并考虑尝试不同的下载选项。",
   "deeplink/actions/trySearching": "尝试在 Hugging Face 上搜索 {{modelName}}",
-  
   "downloadsPanel/title": "下载",
   "downloadsPanel/sectionTitle/ongoing": "正在进行",
   "downloadsPanel/sectionTitle/completed": "已完成",
