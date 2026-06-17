@@ -1,0 +1,305 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Model indirme bağlantısını kopyala",
+
+  "filter.noMatches": "Eşleşme yok",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Kaynaklar çıkarılıyor"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Çalışma zamanı uyumlulukları kontrol ediliyor"
+    },
+    "indexingRuntimes": {
+      "badge": "Çalışma zamanları indeksleniyor"
+    },
+    "indexingModels": {
+      "badge": "Modeller indeksleniyor"
+    },
+    "authenticating": {
+      "badge": "Kimlik doğrulanıyor"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Eklenti paketi güncelleniyor ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "LM Studio Hub'a giriş yap",
+    "authError": "Kimlik doğrulama başarısız oldu",
+    "noAccount": "Hesabınız yok mu?",
+    "signUp": "Kaydol",
+    "havingTrouble": "Sorun mu yaşıyorsunuz?",
+    "retry": "Yeniden dene"
+  },
+  "artifacts": {
+    "fetchError": "Artefaktlar alınamadı",
+    "organizationVisible": "Kuruluşa görünür"
+  },
+
+  "incompatible": "Uyumsuz",
+  "compatible": "Uyumlu",
+  "public": "Herkese açık",
+  "private": "Özel",
+  "yes": "Evet",
+  "no": "Hayır",
+  "go": "Git",
+
+  "proceedWithEllipsis": "Devam et...",
+  "proceed": "Devam et",
+  "inProgress": "Devam ediyor...",
+  "failed": "Başarısız oldu",
+  "pending": "Beklemede",
+  "doneWithExclamation": "Tamamlandı!",
+  "done": "Tamamlandı",
+  "beta": "Beta",
+
+  "complete": {
+    "completeWithEllipsis": "Tamamla...",
+    "complete": "Tamamla",
+    "completingWithEllipsis": "Tamamlanıyor...",
+    "completing": "Tamamlanıyor",
+    "completedWithExclamation": "Tamamlandı!",
+    "completed": "Tamamlandı"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "İptal et...",
+    "cancel": "İptal et",
+    "cancelingWithEllipsis": "İptal ediliyor...",
+    "canceling": "İptal ediliyor",
+    "canceled": "İptal edildi"
+  },
+
+  "next": {
+    "nextWithEllipsis": "İleri...",
+    "next": "İleri"
+  },
+
+  "back": {
+    "backWithEllipsis": "Geri...",
+    "back": "Geri"
+  },
+
+  "close": {
+    "closeWithEllipsis": "Kapat...",
+    "close": "Kapat",
+    "closingWithEllipsis": "Kapatılıyor...",
+    "closing": "Kapatılıyor",
+    "closedWithExclamation": "Kapatıldı!",
+    "closed": "Kapatıldı"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "Sil...",
+    "delete": "Sil",
+    "deletingWithEllipsis": "Siliniyor...",
+    "deleting": "Siliniyor",
+    "deletedWithExclamation": "Silindi!",
+    "deleted": "Silindi"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "Yeniden dene...",
+    "retry": "Yeniden dene",
+    "retryingWithEllipsis": "Yeniden deneniyor...",
+    "retrying": "Yeniden deneniyor"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "Yenile...",
+    "refresh": "Yenile",
+    "refreshingWithEllipsis": "Yenileniyor...",
+    "refreshing": "Yenileniyor",
+    "refreshedWithExclamation": "Yenilendi!",
+    "refreshed": "Yenilendi"
+  },
+
+  "confirm": {
+    "confirm": "Onayla",
+    "confirmingWithEllipsis": "Onaylanıyor...",
+    "confirming": "Onaylanıyor",
+    "confirmedWithExclamation": "Onaylandı!",
+    "confirmed": "Onaylandı"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "Kopyala...",
+    "copy": "Kopyala",
+    "copyingWithEllipsis": "Kopyalanıyor...",
+    "copying": "Kopyalanıyor",
+    "copiedWithExclamation": "Kopyalandı!",
+    "copied": "Kopyalandı"
+  },
+
+  "edit": {
+    "editWithEllipsis": "Düzenle...",
+    "edit": "Düzenle",
+    "editingWithEllipsis": "Düzenleniyor...",
+    "editing": "Düzenleniyor",
+    "editedWithExclamation": "Düzenlendi!",
+    "edited": "Düzenlendi"
+  },
+
+  "load": {
+    "loadWithEllipsis": "Yükle...",
+    "load": "Yükle",
+    "loadingWithEllipsis": "Yükleniyor...",
+    "loading": "Yükleniyor",
+    "loadedWithExclamation": "Yüklendi!",
+    "loaded": "Yüklendi"
+  },
+
+  "save": {
+    "saveWithEllipsis": "Kaydet...",
+    "save": "Kaydet",
+    "savingWithEllipsis": "Kaydediliyor...",
+    "saving": "Kaydediliyor",
+    "savedWithExclamation": "Kaydedildi!",
+    "saved": "Kaydedildi"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "Farklı kaydet...",
+    "saveAs": "Farklı kaydet"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Yeni olarak kaydet...",
+    "saveAsNew": "Yeni olarak kaydet"
+  },
+
+  "search": {
+    "searchWithEllipsis": "Ara...",
+    "search": "Ara",
+    "searchingWithEllipsis": "Aranıyor...",
+    "searching": "Aranıyor"
+  },
+
+  "update": {
+    "updateWithEllipsis": "Güncelle...",
+    "update": "Güncelle",
+    "updatingWithEllipsis": "Güncelleniyor...",
+    "updating": "Güncelleniyor",
+    "updatedWithExclamation": "Güncellendi!",
+    "updated": "Güncellendi"
+  },
+
+  "create": {
+    "createWithEllipsis": "Oluştur...",
+    "create": "Oluştur",
+    "creatingWithEllipsis": "Oluşturuluyor...",
+    "creating": "Oluşturuluyor",
+    "createdWithExclamation": "Oluşturuldu!",
+    "created": "Oluşturuldu"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "Sıfırla...",
+    "reset": "Sıfırla",
+    "resettingWithEllipsis": "Sıfırlanıyor...",
+    "resetting": "Sıfırlanıyor"
+  },
+
+  "pause": {
+    "pause": "Duraklat",
+    "pausingWithEllipsis": "Duraklatılıyor...",
+    "pausing": "Duraklatılıyor",
+    "paused": "Duraklatıldı"
+  },
+
+  "download": {
+    "download": "İndir",
+    "downloadingWithEllipsis": "İndiriliyor...",
+    "downloading": "İndiriliyor",
+    "downloadedWithExclamation": "İndirildi!",
+    "downloaded": "İndirildi"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "Yükle...",
+    "upload": "Yükle",
+    "uploadingWithEllipsis": "Yükleniyor...",
+    "uploading": "Yükleniyor",
+    "uploadedWithExclamation": "Yüklendi!",
+    "uploaded": "Yüklendi"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "Kaldır...",
+    "remove": "Kaldır",
+    "removingWithEllipsis": "Kaldırılıyor...",
+    "removing": "Kaldırılıyor",
+    "removedWithExclamation": "Kaldırıldı!",
+    "removed": "Kaldırıldı"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "Kaldır...",
+    "uninstall": "Kaldır",
+    "uninstallingWithEllipsis": "Kaldırılıyor...",
+    "uninstalling": "Kaldırılıyor",
+    "uninstalledWithExclamation": "Kaldırıldı!",
+    "uninstalled": "Kaldırıldı"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "Sürdür...",
+    "resume": "Sürdür",
+    "resumingWithEllipsis": "Sürdürülüyor...",
+    "resuming": "Sürdürülüyor"
+  },
+
+  "start": {
+    "startWithEllipsis": "Başlat...",
+    "start": "Başlat",
+    "startingWithEllipsis": "Başlatılıyor...",
+    "starting": "Başlatılıyor",
+    "started": "Başlatıldı"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "Durdur...",
+    "stop": "Durdur",
+    "stoppingWithEllipsis": "Durduruluyor...",
+    "stopping": "Durduruluyor",
+    "stoppedWithExclamation": "Durduruldu!",
+    "stopped": "Durduruldu"
+  },
+
+  "import": {
+    "importWithEllipsis": "İçe aktar...",
+    "import": "İçe aktar",
+    "importingWithEllipsis": "İçe aktarılıyor...",
+    "importing": "İçe aktarılıyor",
+    "importedWithExclamation": "İçe aktarıldı!",
+    "imported": "İçe aktarıldı"
+  },
+
+  "letsGo": {
+    "letsGo": "Başlayalım",
+    "letsGoWithEllipsis": "Başlayalım...",
+    "letsGoWithExclamation": "Başlayalım!"
+  },
+
+  "run": {
+    "runWithEllipsis": "Çalıştır...",
+    "run": "Çalıştır",
+    "runningWithEllipsis": "Çalıştırılıyor...",
+    "running": "Çalıştırılıyor"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "Yapılandır...",
+    "configure": "Yapılandır",
+    "configuringWithEllipsis": "Yapılandırılıyor...",
+    "configured": "Yapılandırıldı"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Yayınla...",
+    "publish": "Yayınla",
+    "publishingWithEllipsis": "Yayınlanıyor...",
+    "publishing": "Yayınlanıyor",
+    "publishedWithExclamation": "Yayınlandı!",
+    "published": "Yayınlandı"
+  }
+}

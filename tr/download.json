@@ -1,23 +1,43 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Çıkartılıyor...",
+  "postDownloadActionExecutor.zipExtraction/status": "Dosyalar çıkarılıyor...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Dosyalar çıkarılıyor...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Dosyalar çıkarılıyor...",
+  "postDownloadActionExecutor.modifyModelData/status": "Model verileri güncelleniyor...",
+  "postDownloadActionExecutor.notification/status": "Kullanıcı bilgilendiriliyor...",
+  "postDownloadActionExecutor.writeString/status": "Meta veriler yazılıyor...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Seçili sürüm güncelleniyor...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Kullanılmayan eklentiler siliniyor...",
+  "postDownloadActionExecutor.pluginInstall/status": "Eklenti yükleniyor...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Eklenti kaldırılıyor...",
+
   "finalizing": "İndirme tamamlanıyor... (bu birkaç dakika sürebilir)",
   "noOptions": "İndirilebilecek uyumlu seçenek yok",
-  
-  "deeplink/confirmation/title": "Hugging Face'ten modeli indir 🤗",
+
+  "deeplink/confirmation/title": "Hugging Face'ten model indir 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Önerilen seçeneği seçin",
-  "deeplink/confirmation/selectOption": "İndirme seçeneğini seçin",
-  "deeplink/confirmation/recommendedOption": "Çoğu kullanıcı için en iyi seçenek muhtemelen bu",
+  "deeplink/confirmation/selectRecommended": "Önerilen seçeneği seç",
+  "deeplink/confirmation/selectOption": "İndirme seçeneğini seç",
+  "deeplink/confirmation/recommendedOption": "Çoğu kullanıcı için muhtemelen en iyi seçenek",
   "deeplink/confirmation/downloadButton": "İndir",
-  "deeplink/confirmation/nevermindButton": "Boşver",
-  "deeplink/confirmation/modelPresent/title": "Hugging Face Modeli Bulundu ✅",
-  "deeplink/confirmation/modelPresent/body": "İyi haber! Bu model dosyası zaten yerel makinenizde mevcut.",
-  "deeplink/confirmation/loadInChat": "{{modelName}}'i yeni bir sohbette yükle",
-  "deeplink/error/modelNotFound/title": "Hata, bu modeli bulamadık",
-  "deeplink/error/modelNotFound/body": "Model adını bir kez daha kontrol edin ve farklı bir indirme seçeneğini deneyin.",
-  "deeplink/actions/trySearching": "{{modelName}}'i Hugging Face'te aramayı deneyin",
+  "deeplink/confirmation/nevermindButton": "Vazgeç",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face modeli bulundu ✅",
+  "deeplink/confirmation/modelPresent/body": "İyi haber! Bu model dosyası yerel makinenizde zaten mevcut.",
+  "deeplink/confirmation/loadInChat": "{{ modelName }} modelini yeni bir sohbette yükle",
+  "deeplink/error/modelNotFound/title": "Bu modeli bulamadık",
+  "deeplink/error/modelNotFound/body": "Model adını tekrar kontrol edin ve farklı bir indirme seçeneği denemeyi düşünün.",
+  "deeplink/actions/trySearching": "{{modelName}} modelini Hugging Face'te aramayı dene",
 
   "downloadsPanel/title": "İndirmeler",
-  "downloadsPanel/sectionTitle/ongoing": "Devam Ediyor",
-  "downloadsPanel/sectionTitle/completed": "Tamamlandı"
+  "downloadsPanel/sectionTitle/ongoing": "Devam edenler",
+  "downloadsPanel/sectionTitle/completed": "Tamamlananlar",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finder'da göster",
+      "mac/error": "Finder'da gösterilemedi",
+      "nonMac": "Dosya Gezgini'nde göster",
+      "nonMac/error": "Dosya Gezgini'nde gösterilemedi"
+    },
+    "completed": "İndirme tamamlandı",
+    "loadModel": "Modeli yükle"
+  }
 }
