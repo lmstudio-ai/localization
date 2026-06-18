@@ -31,6 +31,7 @@
 
   "loader.model.bundled": "Empaquetat",
   "action.cancel": "Cancel·la",
+  "indexingPageLoaderText": "Indexant models...",
   "indexingOngoing": "Indexant models... Pot trigar una estona",
   "index/error_one": "No s'ha pogut indexar la següent carpeta:",
   "index/error_other": "No s'ha pogut indexar les següents carpetes:",
@@ -89,6 +90,17 @@
   "visionBadge/label": "Visió Activada",
   "toolUseBadge/label": "Entrenat per Ús d'Eines",
 
+  "loader.guardrails.estimatedMemoryUsage": "Ús de Memòria Estimat",
+  "loader.guardrails.total": "Total",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "L'estimació de memòria no està disponible per a aquest model",
+  "loader.guardrails.notEnoughResources": "No hi ha prou recursos per carregar el model amb la configuració actual",
+  "loader.guardrails.notEnoughResources/options": "Opcions",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "Sembla que el teu sistema no té prou memòria per carregar aquest model.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Pots ajustar les proteccions de càrrega del model a la configuració o mantenir premuda <altOptionKey /> per carregar igualment.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Carregar un model massa gran pot sobrecarregar el sistema i fer-lo congelar.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carrega igualment' sense mantenir premuda Alt/Option",
+
   "loader.action.load": "Carrega el Model",
   "loader.action.clearChanges": "Descarta els Canvis",
   "loader.action.cancel": "Cancel·la",
@@ -97,6 +109,12 @@
   "loader.info.activeGeneratorWarning": "Estàs utilitzant un plugin amb un generador personalitzat. El plugin pot o no afectar al model ja carregat, depenent de la implementació del plugin",
 
   "virtual": {
+    "altsSelect": {
+      "title": "Canvia la font del model",
+      "resetButton": "Restableix al valor predeterminat",
+      "description": "Hi ha diversos fitxers font disponibles per a aquest model.",
+      "trigger": "Variants"
+    },
     "local": {
       "create": "Crea un Model Virtual",
       "title": "Crea un Model Virtual Local",
