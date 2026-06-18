@@ -31,12 +31,19 @@
     "sampling/title": "Sampling",
     "settings/title": "Einstellungen",
     "toolUse/title": "Toolverwendung",
-    "promptTemplate/title": "Prompt-Vorlage"
+    "promptTemplate/title": "Prompt-Vorlage",
+    "customFields/title": "Benutzerdefinierte Felder"
   },
 
   "llm.prediction.systemPrompt/title": "System-Prompt",
   "llm.prediction.systemPrompt/description": "Verwenden Sie dieses Feld, um dem Modell Hintergrundanweisungen zu geben, z. B. eine Reihe von Regeln, Einschränkungen oder allgemeinen Anforderungen.",
   "llm.prediction.systemPrompt/subTitle": "Richtlinien für die KI",
+  "llm.prediction.systemPrompt/openEditor": "Editor",
+  "llm.prediction.systemPrompt/closeEditor": "Editor schließen",
+  "llm.prediction.systemPrompt/openedEditor": "Im Editor geöffnet...",
+  "llm.prediction.systemPrompt/edit": "System-Prompt bearbeiten...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "Instruktionen hinzufügen...",
+  "llm.prediction.systemPrompt/addInstructions": "Instruktionen hinzufügen",
   "llm.prediction.temperature/title": "Temperatur",
   "llm.prediction.temperature/subTitle": "Wie viel Zufälligkeit eingeführt werden soll. 0 ergibt jedes Mal das gleiche Ergebnis, während höhere Werte Kreativität und Varianz erhöhen",
   "llm.prediction.temperature/info": "Aus den llama.cpp-Hilfedokumenten: \"Der Standardwert ist <{{dynamicValue}}>, was ein Gleichgewicht zwischen Zufälligkeit und Determinismus bietet. Im Extremfall wählt eine Temperatur von 0 immer das wahrscheinlichste nächste Token aus, was zu identischen Ausgaben bei jedem Durchlauf führt\"",
@@ -111,6 +118,24 @@
   "llm.prediction.reasoning.parsing/title": "Parsing von Begründungsabschnitten",
   "llm.prediction.reasoning.parsing/subTitle": "Wie Begründungsabschnitte in der Ausgabe des Modells geparst werden sollen",
 
+  "llm.load.mainGpu/title": "Haupt-GPU",
+  "llm.load.mainGpu/subTitle": "Die GPU, die für die Modellberechnung priorisiert werden soll",
+  "llm.load.mainGpu/placeholder": "Haupt-GPU auswählen...",
+  "llm.load.splitStrategy/title": "Split Strategie",
+  "llm.load.splitStrategy/subTitle": "Wie die Modellberechnung auf mehrere GPUs aufgeteilt werden soll",
+  "llm.load.splitStrategy/placeholder": "Split Strategie auswählen...",
+  "llm.load.offloadKVCacheToGpu/title": "KV Cache in GPU-Speicher verschieben",
+  "llm.load.offloadKVCacheToGpu/subTitle": "Verschieben Sie den KV Cache in den GPU-Speicher. Verbessert die Leistung, benötigt aber mehr GPU-Speicher",
+  "llm.load.numParallelSessions/title": "Max. gleichzeitige Vorhersagen",
+  "llm.load.numParallelSessions/subTitle": "Maximale Anzahl an Vorhersagen, die gleichzeitig verarbeitet werden können. Die Geschwindigkeit jeder einzelnen Vorhersagen kann abnehmen, wenn mehrere gleichzeitig Vorhersagen gleichzeitig ausgeführt werden, jedoch wird die Gesamtdurchsatzrate erhöht",
+  "llm.load.useUnifiedKvCache/title": "Vereinigter KV Cache",
+  "llm.load.useUnifiedKvCache/subTitle": "Steuert, ob gleichzeitige Vorhersagen einen gemeinsamen KV-Cache teilen, um Speicher zu sparen. Das Deaktivieren dieser Option stellt sicher, dass jede Vorhersage die volle Kontextlänge nutzen kann, kostet aber mehr Speicher",
+  "load.gpuStrictVramCap/title": "Modell-Auslagerung auf dedizierten GPU-Speicher begrenzen",
+  "load.gpuStrictVramCap/customSubTitleOff": "OFF: Erlaubt das Auslagern von Modellgewichten in den gemeinsamen Speicher, wenn der dedizierte GPU-Speicher voll ist",
+  "load.gpuStrictVramCap/customSubTitleOn": "ON: Das System begrenzt das Auslagern von Modellgewichten auf dedizierten GPU-Speicher und RAM. Kontext kann weiterhin gemeinsamen Speicher verwenden",
+  "load.gpuStrictVramCap/customGpuOffloadWarning": "Modell-Auslagerung auf dedizierten GPU-Speicher begrenzt. Die tatsächliche Anzahl der ausgelagerten Schichten kann abweichen",
+  "load.allGpusDisabledWarning": "Alle GPUs sind derzeit deaktiviert. Aktivieren Sie mindestens eine, um auszulagern",
+
   "llm.load.contextLength/title": "Kontextlänge",
   "llm.load.contextLength/subTitle": "Die maximale Anzahl von Token, die das Modell in einem Prompt berücksichtigen kann. Weitere Möglichkeiten zur Verwaltung finden Sie unter den Optionen für den Konversationsüberlauf unter \"Inferenzparameter\"",
   "llm.load.contextLength/info": "Gibt die maximale Anzahl von Token an, die das Modell gleichzeitig berücksichtigen kann, was sich darauf auswirkt, wie viel Kontext es während der Verarbeitung beibehält",
@@ -118,7 +143,10 @@
   "llm.load.seed/title": "Seed",
   "llm.load.seed/subTitle": "Der Seed für den Zufallszahlengenerator, der bei der Textgenerierung verwendet wird. -1 ist zufällig",
   "llm.load.seed/info": "Zufalls-Seed: Legt den Seed für die Zufallszahlengenerierung fest, um reproduzierbare Ergebnisse zu gewährleisten",
-
+  "llm.load.numCpuExpertLayersRatio/title": "Anzahl der Schichten, für die MoE-Gewichte auf CPU erzwungen werden",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "Anzahl der Schichten, für die die MoE-Gewichte auf CPU erzwungen werden. Spart VRAM und kann schneller sein als partielles GPU-Auslagern. Nicht empfohlen, wenn das Modell vollständig in den VRAM passt.",
+  "llm.load.numCpuExpertLayersRatio/info": "Gibt die Anzahl der Schichten an, für die MoE-Gewichte auf CPU erzwungen werden. Lässt Aufmerksamkeitsschichten auf GPU, spart VRAM und hält die Inferenz ziemlich schnell.",
+  
   "llm.load.llama.evalBatchSize/title": "Evaluierungs-Batchgröße",
   "llm.load.llama.evalBatchSize/subTitle": "Anzahl der Eingabetoken, die gleichzeitig verarbeitet werden sollen. Eine Erhöhung erhöht die Leistung auf Kosten der Speichernutzung",
   "llm.load.llama.evalBatchSize/info": "Legt die Anzahl der Beispiele fest, die während der Evaluierung in einem Batch zusammen verarbeitet werden, was sich auf Geschwindigkeit und Speichernutzung auswirkt",
@@ -219,7 +247,10 @@
     "legacy/description": "Dies ist eine Legacy-Voreinstellung. Sie enthält die folgenden Felder, die entweder jetzt automatisch verarbeitet werden oder nicht mehr anwendbar sind.",
     "button/publish": "Im Hub veröffentlichen",
     "button/pushUpdate": "Änderungen an den Hub übertragen",
-    "button/export": "Exportieren"
+    "button/noChangesToPush": "Keine Änderungen zum Übertragen",
+    "button/export": "Exportieren",
+    "hubLabel": "Hub-Preset von {{user}}",
+    "ownHubLabel": "Dein Hub-Preset"
   },
 
   "customInputs": {
@@ -348,21 +379,21 @@
 
   "presets": {
     "title": "Voreinstellung",
-    "commitChanges": "Änderungen festschreiben",
-    "commitChanges/description": "Schreiben Sie Ihre Änderungen an der Voreinstellung fest.",
-    "commitChanges.manual": "Neue Felder erkannt. Sie können auswählen, welche Änderungen in die Voreinstellung aufgenommen werden sollen.",
-    "commitChanges.manual.hold.0": "Halten Sie",
-    "commitChanges.manual.hold.1": "gedrückt, um auszuwählen, welche Änderungen an der Voreinstellung festgeschrieben werden sollen.",
-    "commitChanges.saveAll.hold.0": "Halten Sie",
-    "commitChanges.saveAll.hold.1": "gedrückt, um alle Änderungen zu speichern.",
-    "commitChanges.saveInPreset.hold.0": "Halten Sie",
-    "commitChanges.saveInPreset.hold.1": "gedrückt, um nur Änderungen an Feldern zu speichern, die bereits in der Voreinstellung enthalten sind.",
-    "commitChanges/error": "Änderungen an der Voreinstellung konnten nicht festgeschrieben werden.",
-    "commitChanges.manual/description": "Wählen Sie aus, welche Änderungen in die Voreinstellung aufgenommen werden sollen.",
+    "saveChanges": "Änderungen festschreiben",
+    "saveChanges/description": "Schreiben Sie Ihre Änderungen an der Voreinstellung fest.",
+    "saveChanges.manual": "Neue Felder erkannt. Sie können auswählen, welche Änderungen in die Voreinstellung aufgenommen werden sollen.",
+    "saveChanges.manual.hold.0": "Halten Sie",
+    "saveChanges.manual.hold.1": "gedrückt, um auszuwählen, welche Änderungen an der Voreinstellung festgeschrieben werden sollen.",
+    "saveChanges.saveAll.hold.0": "Halten Sie",
+    "saveChanges.saveAll.hold.1": "gedrückt, um alle Änderungen zu speichern.",
+    "saveChanges.saveInPreset.hold.0": "Halten Sie",
+    "saveChanges.saveInPreset.hold.1": "gedrückt, um nur Änderungen an Feldern zu speichern, die bereits in der Voreinstellung enthalten sind.",
+    "saveChanges/error": "Änderungen an der Voreinstellung konnten nicht festgeschrieben werden.",
+    "saveChanges.manual/description": "Wählen Sie aus, welche Änderungen in die Voreinstellung aufgenommen werden sollen.",
     "saveAs": "Speichern als neu...",
     "presetNamePlaceholder": "Geben Sie einen Namen für die Voreinstellung ein...",
     "cannotCommitChangesLegacy": "Dies ist eine Legacy-Voreinstellung und kann nicht geändert werden. Sie können eine Kopie erstellen, indem Sie \"Speichern als neu...\" verwenden.",
-    "cannotCommitChangesNoChanges": "Keine Änderungen zum Festschreiben.",
+    "cannotSaveChangesNoChanges": "Keine Änderungen zum speichern.",
     "emptyNoUnsaved": "Voreinstellung auswählen...",
     "emptyWithUnsaved": "Ungespeicherte Voreinstellung",
     "saveEmptyWithUnsaved": "Voreinstellung speichern als...",
@@ -378,10 +409,12 @@
     "discardChanges/info": "Alle nicht festgeschriebenen Änderungen verwerfen und die Voreinstellung in ihren ursprünglichen Zustand zurückversetzen",
     "newEmptyPreset": "+ Neue Voreinstellung",
     "importPreset": "Importieren",
+    "contextMenuCopyIdentifier": "Voreinstellungs-Kennung kopieren",
     "contextMenuSelect": "Voreinstellung anwenden",
     "contextMenuDelete": "Löschen...",
     "contextMenuShare": "Veröffentlichen...",
     "contextMenuOpenInHub": "Im Hub anzeigen",
+    "contextMenuPullFromHub": "Neue Version vom Hub beziehen...",
     "contextMenuPushChanges": "Änderungen an den Hub übertragen",
     "contextMenuPushingChanges": "Wird übertragen...",
     "contextMenuPushedChanges": "Änderungen übertragen",
@@ -405,7 +438,11 @@
       "pushedToHub": "Ihre Voreinstellung wurde an den Hub übertragen",
       "descriptionPlaceholder": "Beschreibung eingeben...",
       "willBePublic": "Durch das Veröffentlichen Ihrer Voreinstellung wird sie öffentlich",
+      "willBePrivate": "Nur Sie können diese Voreinstellung sehen",
+      "willBeOrgVisible": "Diese Voreinstellung ist für alle in der Organisation sichtbar.",
       "publicSubtitle": "Ihre Voreinstellung ist <custom-bold>Öffentlich</custom-bold>. Andere können sie auf lmstudio.ai herunterladen und forken",
+      "privateUsageReached": "Limit für private Voreinstellungen erreicht",
+      "continueInBrowser": "Im Browser fortfahren...",
       "confirmShareButton": "Veröffentlichen",
       "error": "Voreinstellung konnte nicht veröffentlicht werden",
       "createFreeAccount": "Erstellen Sie ein kostenloses Konto im Hub, um Voreinstellungen zu veröffentlichen"
@@ -421,6 +458,44 @@
       "createFreeAccount": "Erstellen Sie ein kostenloses Konto im Hub, um Voreinstellungen zu veröffentlichen",
       "error": "Update konnte nicht übertragen werden",
       "confirmUpdateButton": "Übertragen"
+    },
+    "resolve": {
+      "title": "Konflikte auflösen...",
+      "tooltip": "Öffnen Sie ein Modal, um Unterschiede mit der Hub-Version aufzulösen"
+    },
+    "loginToManage": {
+      "title": "Zum Verwalten von Voreinstellungen im Hub anmelden"
+    },
+    "downloadFromHub": {
+      "title": "Download",
+      "downloading": "Übertragung läuft...",
+      "success": "Übertragung abgeschlossen!",
+      "error": "Übertragung fehlgeschlagen"
+    },
+    "push": {
+      "title": "Änderungen an den Hub übertragen",
+      "pushing": "Übertragung läuft...",
+      "success": "Übertragung abgeschlossen",
+      "tooltip": "Übertragen Sie Ihre lokalen Änderungen auf die auf dem Hub gehostete Version",
+      "error": "Übertragung fehlgeschlagen"
+    },
+    "saveAsNewModal": {
+      "title": "Ups! Voreinstellungen konnten nicht gefunden werden",
+      "confirmSaveAsNewDescription": "Möchten Sie diese Voreinstellung als neue Voreinstellung veröffentlichen?",
+      "confirmButton": "Als neue Voreinstellung veröffentlichen"
+    },
+    "pull": {
+      "title": "Neueste Version vom Hub beziehen",
+      "error": "Übertragung fehlgeschlagen",
+      "contextMenuErrorMessage": "Übertragung fehlgeschlagen",
+      "success": "Übertragung abgeschlossen",
+      "pulling": "Übertragung läuft...",
+      "upToDate": "AAuf dem neusten Stand!",
+      "unsavedChangesModal": {
+        "title": "Es bestehen ungespeicherte Änderungen",
+        "bodyContent": "Dateitransfer vom Hub erfordert, dass alle ungespeicherten Änderungen verworfen werden. Möchten Sie fortfahren?",
+        "confirmButton": "Ungespeicherte Änderungen überschreiben"
+      }
     },
     "import": {
       "title": "Eine Voreinstellung aus einer Datei importieren",
@@ -488,24 +563,59 @@
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
   "hardware": {
-    "advancedGpuSettings": "Erweiterte GPU-Einstellungen",
-    "advancedGpuSettings.info": "Wenn Sie sich nicht sicher sind, belassen Sie diese bei ihren Standardwerten",
-    "advancedGpuSettings.reset": "Auf Standard zurücksetzen",
-    "environmentVariables": {
-      "title": "Umgebungsvariablen",
-      "description": "Aktive Umgebungsvariablen während der Modelllebensdauer.",
-      "key.placeholder": "Variable auswählen...",
-      "value.placeholder": "Wert"
+    "environmentVariables": "Umgebungsvariablen",
+    "environmentVariables.info": "Wenn Sie sich nicht sicher sind, belassen Sie diese bei ihren Standardwerten",
+    "environmentVariables.reset": "Auf Standard zurücksetzen",
+
+    "gpus.information": "Erkannte Grafikbeschleuniger (GPUs) konfigurieren",
+    "gpuSettings": {
+      "editMaxCapacity": "Maximale Kapazität bearbeiten",
+      "hideEditMaxCapacity": "Verstecke Bearbeiten der maximalen Kapazität",
+      "allOffWarning": "Alle GPUs sind ausgeschaltet oder deaktiviert, stellen Sie sicher, dass es eine GPU-Zuweisung gibt, um Modelle zu laden",
+      "split": {
+        "title": "Strategie zur Aufteilung des GPU-Speichers",
+        "placeholder": "GPU-Speicheraufteilung auswählen...",
+        "options": {
+          "generalDescription": "Konfigurieren Sie, wie der GPU-Speicher für dieses Modell auf mehrere GPUs aufgeteilt wird.",
+          "evenly": {
+            "title": "Gleichmäßige Verteilung",
+            "description": "Speicher gleichmäßig auf alle ausgewählten GPUs verteilen"
+          },
+          "priorityOrder": {
+            "title": "Prioritätsreihenfolge",
+            "description": "Ziehen Sie Grafikbeschleuniger, um die Priorität neu anzuordnen. Das System versucht, mehr Speicher auf den zuerst aufgelisteten GPUs zuzuweisen"
+          },
+          "custom": {
+            "title": "Benutzerdefiniert",
+            "description": "Speicher zuteilen",
+            "maxAllocation": "Maximale Zuweisung"
+          }
+        }
+      },
+      "deviceId.info": "Einzigartige Kennung der GPU",
+      "changesOnlyAffectNewlyLoadedModels": "Änderungen wirken sich nur auf neu geladene Modelle aus",
+      "toggleGpu": "GPU ein-/ausschalten"
+    }
+  },
+
+  "load.gpuSplitConfig/title": "GPU Aufteilungskonfiguration",
+  "envVars/title": "Umgebungsvariable festlegen",
+  "envVars": {
+    "select": {
+      "placeholder": "Wählen Sie eine Umgebungsvariable aus...",
+      "noOptions": "Keine Umgebungsvariablen verfügbar",
+      "filter": {
+        "placeholder": "Suchergebnisse filtern",
+        "resultsFound_zero": "Keine Ergebnisse gefunden",
+        "resultsFound_one": "1 Ergebnis gefunden",
+        "resultsFound_other": "{{count}} Ergebnisse gefunden"
+      }
     },
-    "mainGpu": {
-      "title": "Haupt-GPU",
-      "description": "Die GPU, die für die Modellberechnung priorisiert werden soll.",
-      "placeholder": "Haupt-GPU auswählen..."
+    "inputValue": {
+      "placeholder": "Wert eingeben"
     },
-    "splitStrategy": {
-      "title": "Aufteilungsstrategie",
-      "description": "Wie die Modellberechnung auf GPUs aufgeteilt werden soll.",
-      "placeholder": "Aufteilungsstrategie auswählen..."
+    "values": {
+      "title": "Aktuelle Werte"
     }
   }
 }

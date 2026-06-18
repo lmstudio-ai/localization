@@ -1,5 +1,15 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Wird extrahiert...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Wird extrahiert...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Wird extrahiert...",
+  "postDownloadActionExecutor.modifyModelData/status": "Aktualisiere Modell-Daten...",
+  "postDownloadActionExecutor.notification/status": "Benutzer benachrichtigen...",
+  "postDownloadActionExecutor.writeString/status": "Metadaten schreiben...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Ausgewählte Version aktualisieren...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Ungenutzte Erweiterungen löschen...",
+  "postDownloadActionExecutor.pluginInstall/status": "Plugin installieren...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Plugin deinstallieren...",
+  
   "finalizing": "Download wird abgeschlossen... (dies kann einen Moment dauern)",
   "noOptions": "Keine kompatiblen Optionen zum Download verfügbar",
 
@@ -19,5 +29,15 @@
 
   "downloadsPanel/title": "Downloads",
   "downloadsPanel/sectionTitle/ongoing": "Laufend",
-  "downloadsPanel/sectionTitle/completed": "Abgeschlossen"
+  "downloadsPanel/sectionTitle/completed": "Abgeschlossen",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Im Finder anzeigen",
+      "mac/error": "Fehler beim Anzeigen im Finder",
+      "nonMac": "Im Datei-Explorer anzeigen",
+      "nonMac/error": "Fehler beim Anzeigen im Datei-Explorer"
+    },
+    "completed": "Dateiübertragung abgeschlossen",
+    "loadModel": "Modell laden"
+  }
 }
