@@ -1,95 +1,104 @@
 {
-  "tabs/server": "本機伺服器",
+  "tabs/server": "本地伺服器",
   "tabs/extensions": "LM 執行階段",
   "loadSettings/title": "載入設定",
-  "modelSettings/placeholder": "選擇一個模型以配置它",
+  "modelSettings/placeholder": "未選擇模型",
 
-  "loadedModels/noModels": "沒有載入任何模型",
+  "loadedModels/noModels": "沒有已載入的模型",
 
   "serverOptions/title": "伺服器選項",
-  "serverOptions/configurableTitle": "可配置選項",
-  "serverOptions/port/hint": "設定本機伺服器使用的網路埠。預設情況下，LM Studio 使用 1234 埠。如果該埠已被使用，您可能需要變更它。",
-  "serverOptions/port/subtitle": "要監聽的埠",
+  "serverOptions/configurableTitle": "可設定選項",
+  "serverOptions/port/hint": "設定本地伺服器將使用的網路通訊埠 (Port)。預設情況下，LM Studio 使用連接埠 1234。如果該通訊埠已被佔用，您可能需要進行變更。",
+  "serverOptions/port/subtitle": "監聽的通訊埠 (Port)",
   "serverOptions/autostart/title": "自動啟動伺服器",
-  "serverOptions/autostart/hint": "在應用程式或服務啟動時自動開啟 LM Studio 的本機 LLMs 伺服器",
-  "serverOptions/port/integerWarning": "埠號碼必須是整數",
-  "serverOptions/port/invalidPortWarning": "埠必須介於 1 和 65535 之間",
+  "serverOptions/autostart/hint": "在應用程式或服務啟動時自動開啟 LM Studio 的本地 LLM 伺服器",
+  "serverOptions/port/integerWarning": "通訊埠必須是整數",
+  "serverOptions/port/invalidPortWarning": "通訊埠必須介於 1 和 65535 之間",
   "serverOptions/cors/title": "啟用 CORS",
-  "serverOptions/cors/hint1": "啟用 CORS (跨來源資源共用) 將允許您訪問的網站向 LM Studio 伺服器發送請求。",
-  "serverOptions/cors/hint2": "從網頁或 VS Code / 其他擴充功能發送請求時，可能需要 CORS。",
+  "serverOptions/cors/hint1": "啟用 CORS（跨來源資源共用）將允許您瀏覽的網站向 LM Studio 伺服器發出請求。",
+  "serverOptions/cors/hint2": "從網頁或 VS Code 等擴充功能發出請求時可能需要啟用 CORS。",
   "serverOptions/cors/subtitle": "允許跨來源請求",
-  "serverOptions/network/title": "在本地網路中提供服務",
+  "serverOptions/network/title": "在區域網路提供服務",
   "serverOptions/network/subtitle": "將伺服器暴露給網路上的裝置",
-  "serverOptions/network/hint1": "是否允許來自網路中其他裝置的連接。",
-  "serverOptions/network/hint2": "如果未勾選，伺服器只會監聽 localhost。",
-  "serverOptions/verboseLogging/title": "詳細記錄",
-  "serverOptions/verboseLogging/subtitle": "啟用本機伺服器的詳細記錄",
-  "serverOptions/contentLogging/title": "記錄提示和回應",
-  "serverOptions/contentLogging/subtitle": "本機請求 / 回應記錄設定",
-  "serverOptions/contentLogging/hint": "是否在本地伺服器日誌檔案中記錄提示和/或回應。",
-  "serverOptions/redactContent/title": "編輯內容",
-  "serverOptions/redactContent/hint": "啟用時，可防止敏感資料（例如請求和回應的內容）被記錄。",
-  "serverOptions/logIncomingTokens/title": "記錄傳入的 Token",
-  "serverOptions/logIncomingTokens/hint": "是否記錄每個在生成中的 Token。",
+  "serverOptions/network/hint1": "是否允許來自網路上其他裝置的連線。",
+  "serverOptions/network/hint2": "若未勾選，伺服器將僅監聽 localhost (本機)。",
+  "serverOptions/verboseLogging/title": "詳細日誌記錄",
+  "serverOptions/verboseLogging/subtitle": "啟用本地伺服器的詳細日誌記錄",
+  "serverOptions/contentLogging/title": "記錄提示詞與回覆",
+  "serverOptions/contentLogging/subtitle": "本地請求/回覆日誌設定",
+  "serverOptions/contentLogging/hint": "是否在本地伺服器日誌檔案中記錄提示詞和/或回覆。",
+  "serverOptions/redactContent/title": "遮蔽內容",
+  "serverOptions/redactContent/hint": "啟用時，可防止敏感資料（如請求和回覆的內容）被記錄下來。",
+  "serverOptions/logIncomingTokens/title": "記錄傳入 Tokens",
+  "serverOptions/logIncomingTokens/hint": "是否在生成 Tokens 時逐一記錄每個 Token。",
   "serverOptions/fileLoggingMode/title": "檔案記錄模式",
   "serverOptions/fileLoggingMode/off/title": "關閉",
-  "serverOptions/fileLoggingMode/off/hint": "不要建立日誌檔案",
+  "serverOptions/fileLoggingMode/off/hint": "不建立日誌檔案",
   "serverOptions/fileLoggingMode/succinct/title": "簡潔",
-  "serverOptions/fileLoggingMode/succinct/hint": "記錄與控制台相同的內容。較長的請求將被截斷。",
+  "serverOptions/fileLoggingMode/succinct/hint": "記錄與控制台相同的內容。過長的請求將被截斷。",
   "serverOptions/fileLoggingMode/full/title": "完整",
-  "serverOptions/fileLoggingMode/full/hint": "不要截斷較長的請求。",
-  "serverOptions/jitModelLoading/title": "即時模型載入",
-  "serverOptions/jitModelLoading/hint": "啟用時，如果請求中指定了尚未載入的模型，它將會自動載入並使用。此外，「/v1/models」端點也會包含尚未載入的模型。",
-  "serverOptions/loadModel/error": "模型載入失敗",
-  "serverOptions/jitModelLoadingTTL/title": "自動卸載未使用的即時載入模型",
-  "serverOptions/jitModelLoadingTTL/hint": "為了服務 API 請求而使用即時 (JIT) 載入的模型，在閒置一段時間（TTL）後將會自動卸載。",
+  "serverOptions/fileLoggingMode/full/hint": "不截斷過長的請求。",
+  "serverOptions/jitModelLoading/title": "即時 (JIT) 載入模型",
+  "serverOptions/jitModelLoading/hint": "啟用後，如果請求指定了一個尚未載入的模型，它將自動被載入並使用。此外，「/v1/models」端點也將包含尚未載入的模型。",
+  "serverOptions/loadModel/error": "載入模型失敗",
+  "serverOptions/jitModelLoadingTTL/title": "自動卸載閒置的 JIT 載入模型",
+  "serverOptions/jitModelLoadingTTL/hint": "為提供 API 請求而即時 (JIT) 載入的模型，將在閒置一段時間 (TTL) 後自動被卸載。",
   "serverOptions/jitModelLoadingTTL/ttl/label": "最大閒置 TTL",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分鐘",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "僅保留上次即時載入的模型",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "確保在任何給定的時間最多只有 1 個模型透過 JIT 載入（卸載先前的模型）",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "僅保留最後一個 JIT 載入模型",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "確保任何時候最多只有 1 個透過 JIT 載入的模型（卸載先前的模型）",
+  "serverOptions/allowMcp/title": "允許遠端 MCP",
+  "serverOptions/allowMcp/hint": "允許使用不在您的 mcp.json 中的 MCP。這些 MCP 連線是暫時的，僅在請求期間存在。目前僅支援遠端 MCP。",
+  "serverOptions/allowMcp/mode/off": "關閉",
+  "serverOptions/allowMcp/mode/off/hint": "不允許伺服器請求使用 MCP",
+  "serverOptions/allowMcp/mode/remote": "遠端",
+  "serverOptions/allowMcp/mode/remote/hint": "允許連接到遠端 MCP 伺服器",
 
-  "serverLogs/scrollToBottom": "跳到底部",
-  "serverLogs/clearLogs": "清除記錄 ({{shortcut}})",
+  "serverOptions/start/error": "啟動伺服器失敗",
+  "serverOptions/stop/error": "停止伺服器失敗",
+
+  "serverLogs/scrollToBottom": "跳到最底部",
+  "serverLogs/clearLogs": "清除日誌 ({{shortcut}})",
   "serverLogs/openLogsFolder": "開啟伺服器日誌資料夾",
 
   "runtimeSettings/title": "執行階段設定",
-  "runtimeSettings/chooseRuntime/title": "選擇",
-  "runtimeSettings/chooseRuntime/description": "為每個模型格式選取要使用的引擎",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "顯示所有擴充套件版本",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "預設情況下，LM Studio 只會顯示每個擴充套件的最新版本。啟用此選項以查看所有可用的擴充套件。",
-  "runtimeSettings/chooseRuntime/select/placeholder": "選擇引擎",
+  "runtimeSettings/chooseRuntime/title": "選擇項目",
+  "runtimeSettings/chooseRuntime/description": "選擇每個模型格式要使用的引擎",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "顯示所有擴充套件包",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "預設情況下，LM Studio 僅顯示每個擴充套件包的最新版本。啟用此選項可查看所有可用的擴充套件包。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "選擇一個引擎",
 
-  "runtimeSettings/chooseFrameworks/title": "框架",
-  "runtimeSettings/chooseFrameworks/description": "為每個功能選擇一個框架。",
+  "runtimeSettings/chooseFrameworks/title": "框架 (Frameworks)",
+  "runtimeSettings/chooseFrameworks/description": "選擇每個功能要使用的框架",
   "runtimeSettings/chooseFramework/documentParser/builtIn/label": "內建解析器",
   "runtimeSettings/chooseFramework/documentParser/select/label": "文件解析器",
-  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "選擇文件解析器",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "選擇一個文件解析器",
 
   "runtimeOptions/uninstall": "解除安裝",
-  "runtimeOptions/uninstallDialog/title": "解除安裝 {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "解除安裝此執行階段將從系統中移除它。 此動作不可逆轉。",
-  "runtimeOptions/uninstallDialog/body/caveats": "某些檔案可能只有在重新啟動 LM Studio 後才能移除。",
+  "runtimeOptions/uninstallDialog/title": "解除安裝 {{runtimeName}}？",
+  "runtimeOptions/uninstallDialog/body": "解除安裝此執行階段會將其從系統中移除。此動作無法復原。",
+  "runtimeOptions/uninstallDialog/body/caveats": "某些檔案可能只會在 LM Studio 重新啟動後才會被移除。",
   "runtimeOptions/uninstallDialog/error": "解除安裝執行階段失敗",
   "runtimeOptions/uninstallDialog/confirm": "繼續並解除安裝",
   "runtimeOptions/uninstallDialog/cancel": "取消",
   "runtimeOptions/noCompatibleRuntimes": "找不到相容的執行階段",
-  "runtimeOptions/downloadIncompatibleRuntime": "此執行階段被判斷為與您的機器不相容。 它很可能無法正常運作。",
-  "runtimeOptions/noRuntimes": "未找到任何執行階段",
+  "runtimeOptions/downloadIncompatibleRuntime": "此執行階段被判定為與您的機器不相容。它很可能無法運作。",
+  "runtimeOptions/noRuntimes": "找不到執行階段",
 
   "runtimes": {
     "manageLMRuntimes": "管理 LM 執行階段",
-    "includeOlderRuntimeVersions": "包含較舊的版本",
+    "includeOlderRuntimeVersions": "包含較舊版本",
     "dismiss": "關閉",
     "updateAvailableToast": {
-      "title": "LM 執行階段更新可用！"
+      "title": "有可用的 LM 執行階段更新！"
     },
     "updatedToast": {
       "title": " ✅ LM 執行階段已更新：{{runtime}} → v{{version}}",
-      "preferencesUpdated": "新載入的 {{compatibilityTypes}} 模型將使用更新後的執行階段。"
+      "preferencesUpdated": "新載入的 {{compatibilityTypes}} 模型將使用已更新的執行階段。"
     },
-    "noAvx2ErrorMessage": "所有 LM 執行階段目前需要支援 AVX2 的 CPU",
+    "noAvx2ErrorMessage": "所有 LM 執行階段目前都需要支援 AVX2 的 CPU",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "執行階段擴充套件",
+      "runtimeExtensionPacks": "執行階段擴充套件包",
       "refresh": "重新整理",
       "refreshing": "重新整理中...",
       "filterSegment": {
@@ -104,7 +113,7 @@
     },
     "installedRuntimes": {
       "manage": {
-        "title": "管理作用中執行階段"
+        "title": "管理進行中的執行階段"
       },
       "dropdownOptions": {
         "installedVersions": "管理版本",
@@ -119,24 +128,24 @@
         "installedVersions": "{{runtimeName}} 的已安裝版本",
         "manifestJsonTitle": "Manifest JSON (進階)",
         "releaseNotesTitle": "發行說明",
-        "noReleaseNotes": "此版本的沒有發行說明",
-        "back": "返回",
+        "noReleaseNotes": "沒有此版本的發行說明可供查看",
+        "back": "上一步",
         "close": "關閉"
       },
-      "noEngines": "沒有安裝引擎",
-      "noFrameworks": "沒有安裝框架"
+      "noEngines": "未安裝任何引擎",
+      "noFrameworks": "未安裝任何框架"
     }
   },
 
-  "inferenceParams/noParams": "此模型類型沒有可配置的推論參數",
+  "inferenceParams/noParams": "此模型類型沒有可配置的推理參數",
 
   "quickDocs": {
-    "tabChipTitle": "快速文件",
-    "newToolUsePopover": "程式碼片段現在可以在「快速文件」中取得。點擊這裡開始使用工具！",
-    "newToolUsePopoverTitle": "📚 快速文件",
-    "learnMore": "ℹ️ 👾 若要了解更多關於 LM Studio 本機伺服器端點的資訊，請參閱 [文件](https://lmstudio.ai/docs)。",
+    "tabChipTitle": "開發者文件",
+    "newToolUsePopover": "程式碼片段現在可以在「開發者文件」這裡找到。點擊這裡開始使用工具呼叫！",
+    "newToolUsePopoverTitle": "📚 開發者文件",
+    "learnMore": "ℹ️ 👾 若要進一步了解 LM Studio 本地伺服器端點，請造訪 [文件](https://lmstudio.ai/docs)。",
     "helloWorld": {
-      "title": "Hello, World!"
+      "title": "Hello, World! (世界，你好！)"
     },
     "chat": {
       "title": "聊天"
@@ -148,31 +157,40 @@
       "title": "圖片輸入"
     },
     "embeddings": {
-      "title": "嵌入"
+      "title": "Embeddings (詞向量)"
     },
     "toolUse": {
-      "title": "工具使用",
+      "title": "工具呼叫",
       "tab": {
         "saveAsPythonFile": "另存為 Python 檔案",
-        "runTheScript": "執行腳本:",
-        "savePythonFileCopyPaste": "另存為 Python 檔案以進行複製和貼上指令"
+        "runTheScript": "執行指令碼：",
+        "savePythonFileCopyPaste": "另存為 Python 檔案，以便複製貼上指令"
       }
     },
     "newBadge": "新增"
   },
 
-  "endpoints/openaiCompatRest/title": "支援端點 (OpenAI 類似)",
+  "endpoints/openaiCompatRest/title": "支援的端點 (Endpoints){{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "相容於 OpenAI",
   "endpoints/openaiCompatRest/getModels": "列出目前載入的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文字補全模式。根據提示預測下一個 Token(s)。注意：OpenAI 將此端點視為「已過時」。",
-  "endpoints/openaiCompatRest/postChatCompletions": "聊天補全。將聊天記錄傳送到模型以預測下一個助理的回應",
-  "endpoints/openaiCompatRest/postEmbeddings": "文字嵌入。為給定的文字輸入產生文字嵌入。接受字串或字串陣列。",
+  "endpoints/openaiCompatRest/postCompletions": "文字補全 (Text Completions) 模式。根據提示詞預測下一個 Token。注意：OpenAI 認為此端點已「棄用 (deprecated)」。",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天補全 (Chat Completions)。將聊天紀錄發送給模型，預測下一個助理回覆",
+  "endpoints/openaiCompatRest/postEmbeddings": "文字 Embedding。為給定的文字輸入生成文字 embeddings。接受字串或字串陣列。",
+  "endpoints/openaiCompatRest/postResponses": "用於生成模型回覆的進階介面。藉由傳入先前一次回覆的 id 作為下一次的輸入，以建立具備狀態 (stateful) 的互動。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "列出可用的模型",
+  "endpoints/lmStudioRestV1/postModelsLoad": "載入帶有選項的模型",
+  "endpoints/lmStudioRestV1/postModelsDownload": "下載模型",
+  "endpoints/lmStudioRestV1/postChat": "與模型聊天。支援具備狀態 (stateful) 的多輪對話與 MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "取得模型下載狀態",
+  "endpoints/anthropicCompatRest/segmentedLabel": "相容於 Anthropic",
 
-  "model.createVirtualModelFromInstance": "將設定儲存為新的虛擬模型",
-  "model.createVirtualModelFromInstance/error": "無法將設定儲存為新的虛擬模型",
+  "model.createVirtualModelFromInstance": "將設定另存為新的虛擬模型",
+  "model.createVirtualModelFromInstance/error": "將設定另存為新的虛擬模型失敗",
 
   "model": {
-    "toolUseSectionTitle": "工具使用",
-    "toolUseDescription": "此模型被檢測到是為了工具使用而訓練的\n\n開啟 <custom-link>快速文件</custom-link> 以獲取更多資訊"
+    "toolUseSectionTitle": "工具呼叫",
+    "toolUseDescription": "偵測到此模型已針對工具呼叫進行過訓練\n\n開啟<custom-link>開發者文件</custom-link>以了解更多"
   },
 
   "apiConfigOptions/title": "API 設定"
