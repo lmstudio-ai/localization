@@ -1,18 +1,18 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "解压中...",
-  "postDownloadActionExecutor.tarGzExtraction/status": "解压中...",
-  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "解压中...",
-  "postDownloadActionExecutor.modifyModelData/status": "更新模型文件中...",
-  "postDownloadActionExecutor.notification/status": "通知用户中...",
-  "postDownloadActionExecutor.writeString/status": "写入元数据中...",
-  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "更新选中版本中...",
-  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "删除未使用的扩展中...",
-  "postDownloadActionExecutor.pluginInstall/status": "安装插件中...",
-  "postDownloadActionExecutor.pluginUninstall/status": "卸载插件中...",
+  "postDownloadActionExecutor.zipExtraction/status": "解压中……",
+  "postDownloadActionExecutor.tarGzExtraction/status": "解压中……",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "解压中……",
+  "postDownloadActionExecutor.modifyModelData/status": "更新模型数据中……",
+  "postDownloadActionExecutor.notification/status": "通知用户中……",
+  "postDownloadActionExecutor.writeString/status": "写入元数据中……",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "更新选中版本中……",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "删除未使用的扩展中……",
+  "postDownloadActionExecutor.pluginInstall/status": "安装插件中……",
+  "postDownloadActionExecutor.pluginUninstall/status": "卸载插件中……",
 
-  "finalizing": "完成下载...（这可能需要几分钟）",
+  "finalizing": "完成下载……（这可能需要几分钟）",
   "noOptions": "没有可用的兼容下载选项",
-  
+
   "deeplink/confirmation/title": "从 Hugging Face 下载模型 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "选择推荐项",
@@ -26,7 +26,7 @@
   "deeplink/error/modelNotFound/title": "未找到该模型",
   "deeplink/error/modelNotFound/body": "请再次检查模型名称，并考虑尝试不同的下载选项。",
   "deeplink/actions/trySearching": "尝试在 Hugging Face 上搜索 {{modelName}}",
-  
+
   "downloadsPanel/title": "下载",
   "downloadsPanel/sectionTitle/ongoing": "正在进行",
   "downloadsPanel/sectionTitle/completed": "已完成",
