@@ -60,6 +60,8 @@
   "actions/loadLastModel": "重新載入上次使用的模型",
   "actions/loadLastModel/tooltip": "點擊以載入與此聊天上次使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "重新載入上次使用的模型失敗。",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失敗。",
   "actions/continueCurrentModel": "使用目前模型",
   "actions/continueCurrentModel/tooltip": "目前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "載入 {{lastModel}}",
@@ -155,6 +157,9 @@
     }
   },
 
+  "chatTabOptions/clearAllMessages": "清除所有訊息...",
+  "chatTabOptions/duplicateChat": "複製對話",
+  
   "topBarActions/duplicateChat": "複製",
   "topBarActions/clearChat": "清除全部",
   "topBarActions/clearChatConfirmation": "您確定要清除此對話中的所有訊息嗎？",
