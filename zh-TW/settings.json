@@ -49,6 +49,9 @@
   "sideButtonLabels": "顯示側邊按鈕標籤",
   "showModelFileNames": "我的模型：總是顯示完整的模型檔案名稱",
   "colorThemeLabel": "色彩主題",
+  "appNavigationBarPositionLabel": "導覽列位置",
+  "appNavigationBarPositionTop": "頂部",
+  "appNavigationBarPositionLeft": "左側",
   "complexityLevelLabel": "使用者介面複雜度等級",
   "selectComplexityLevelPlaceholder": "選擇預設的 UI 複雜度等級",
   "userComplexityLevelLabel": "使用者",
@@ -92,6 +95,7 @@
   "changeLanguageLabel": "選擇應用程式語言 (仍在開發中)",
   "developerLabel": "開發者",
   "localServiceLabel": "本機 LLM 服務 (無頭模式)",
+  "modelDefaultsLabel": "模型預設值",
   "showExperimentalFeaturesLabel": "顯示實驗性功能",
   "appFirstLoadLabel": "應用程式首次載入體驗",
   "showDebugInfoBlocksInChatLabel": "在聊天中顯示除錯資訊區塊",
@@ -136,6 +140,7 @@
   "modelLoadingGuardrails.custom.label": "記憶體限制：",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "設定模型載入的自訂記憶體限制。 如果載入模型會超過此限制，則不會載入。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "（不建議）一律允許「仍要載入」，無需按住 Alt/Option 鍵",
 
   "experimentalLoadPresets": "啟用預設配置中模型載入支援",
   "experimentalLoadPresets.description": "是否允許預設包含模型載入配置。 此功能是實驗性的，我們歡迎您的回饋。",
@@ -181,6 +186,19 @@
     "hasBetterFooterCardText": "自您遷移了舊的聊天以來，我們已經改進了聊天遷移器。您可以重新執行遷移過程。（我們會創建一個新的資料夾來包含新遷移的聊天。）",
     "dismissConfirm": "關閉",
     "dismissConfirmDescription": "您可以在設定中隨時處理聊天遷移。"
+  },
+  "defaultContextLength": {
+    "label": "預設上下文長度",
+    "maxTitle": "模型上限",
+    "customTitle": "自訂值",
+    "maxSubtitle": "使用每個模型支援的最大上下文長度。",
+    "customSubtitle": "設定載入新模型時的預設上下文長度。如果模型支援的最大上下文長度較小，則會使用該值。",
+    "invalidNaNError": "無效的上下文長度值。使用 {{value}}",
+    "invalidRangeError": "無效的上下文長度值。應介於 1 到 2^30 之間。使用 {{value}}",
+    "largeContextWarning": "上下文長度越高，模型佔用的記憶體就越多。如果您不確定，請不要變更預設值"
+  },
+  "jitTTL": {
+    "subtitle": "JIT 載入的模型在閒置指定時間後將自動卸載。"
   },
   "toolConfirmation": {
     "label": "工具呼叫確認",
