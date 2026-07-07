@@ -355,7 +355,7 @@
   },
   "applyConflictResolution": {
     "title": "保留哪些值？",
-    "description": "您有未提交的更改与即将应用的预设有重叠",
+    "description": "您有未保存的更改与即将应用的预设有重叠",
     "instructions": "点击一个值以保留它",
     "userValues": "当前值",
     "presetValues": "即将应用的预设值",
@@ -399,7 +399,7 @@
     "select/error": "选择预设失败。",
     "delete/error": "删除预设失败。",
     "discardChanges": "丢弃未保存的更改",
-    "discardChanges/info": "丢弃所有未提交的更改并恢复预设至原始状态",
+    "discardChanges/info": "丢弃所有未保存的更改并恢复预设至原始状态",
     "newEmptyPreset": "创建新的空预设...",
     "importPreset": "导入",
     "contextMenuCopyIdentifier": "复制预设标识符",
