@@ -134,7 +134,6 @@
   "llm.load.useUnifiedKvCache/subTitle": "Controls whether concurrent predictions share a single KV cache, saving memory. Disabling this ensures each prediction can utilize the full context length, at the cost of using more memory",
   "llm.load.llama.contextCheckpoints/title": "Context Checkpoints",
   "llm.load.llama.contextCheckpoints/subTitle": "Maximum number of context checkpoints to keep per slot. Lower values reduce RAM usage for SWA/recurrent models. 0 disables checkpoints.",
-  "llm.load.llama.contextCheckpoints/info": "Controls llama-server's --ctx-checkpoints setting. Checkpoints help reuse prompt cache for SWA/recurrent models but consume additional host memory.",
   "load.gpuStrictVramCap/title": "Limit Model Offload to Dedicated GPU Memory",
   "load.gpuStrictVramCap.customSubTitleOff": "OFF: Allow model weights to offload to shared memory if dedicated GPU memory is full",
   "load.gpuStrictVramCap.customSubTitleOn": "ON: The system will limit offload of model weights to dedicated GPU memory and RAM only. Context may still use shared memory",
