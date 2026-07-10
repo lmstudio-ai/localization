@@ -149,7 +149,7 @@
   "llm.load.numCpuExpertLayersRatio/subTitle": "Number of layers to force the experts into CPU. Saves VRAM and can be faster than partial GPU offload. Not recommended if the model fits entirely in VRAM.",
   "llm.load.numCpuExpertLayersRatio/info": "Specifies the number of layers to force the expert into CPU. Leaves attention layers on GPU, saving VRAM while keeping inference fairly fast.",
 
-  "llm.load.llama.autoFit/title": "llama.cpp Fit",
+  "llm.load.llama.autoFit/title": "Automatic Optimize Based on Hardware",
   "llm.load.llama.autoFit/subTitle": "Let llama.cpp choose context and GPU placement at load time based on available memory",
   "llm.load.llama.evalBatchSize/title": "Evaluation Batch Size",
   "llm.load.llama.evalBatchSize/subTitle": "Maximum number of prompt tokens to schedule during prompt processing. Larger values may improve performance, but can use more memory",
