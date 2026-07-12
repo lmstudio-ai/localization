@@ -11,8 +11,8 @@
                 "description": "每次最多可上傳5個文件，總大小不超過30MB。支援格式包括PDF、DOCX、TXT與CSV。"
             },
             "be_specific": {
-                "title": "具體説明",
-                "description": "提問時請盡可能詳細説明，這有助於系統從您的文件中檢索最相關的信息。"
+                "title": "具體說明",
+                "description": "提問時請盡可能詳細說明，這有助於系統從您的文件中檢索最相關的信息。"
             },
             "get_responses": {
                 "title": "獲取回應並試驗",
@@ -29,7 +29,7 @@
         },
         "step_1": {
             "title": "開始工具使用",
-            "toolUseCanWorkWithAnyModel": "訓練過工具使用的模型表現會更好，但您也可以試圖用任何模型進行工具使用。閲讀<customlink>説明文件</customlink>以瞭解更多。\n訓練過工具使用的模型會有新的徽章標示：",
+            "toolUseCanWorkWithAnyModel": "訓練過工具使用的模型表現會更好，但您也可以試圖用任何模型進行工具使用。閱讀<customlink>說明文件</customlink>以瞭解更多。\n訓練過工具使用的模型會有新的徽章標示：",
             "hasCompatibleModel": "🎉 看來您已經有經過工具支持的模型了！",
             "downloadRecommendedModel": "下載一個訓練過工具使用的模型："
         },
