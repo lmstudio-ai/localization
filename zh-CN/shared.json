@@ -1,5 +1,270 @@
 {
   "copyLmStudioLinkButton/toolTip": "复制模型下载链接",
-
-  "filter.noMatches": "没有匹配项"
+  "filter.noMatches": "没有匹配项",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "解压资源"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "检查运行时兼容性"
+    },
+    "indexingRuntimes": {
+      "badge": "索引运行时"
+    },
+    "indexingModels": {
+      "badge": "索引模型"
+    },
+    "authenticating": {
+      "badge": "身份验证中"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "正在更新扩展包 ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "登录到 LM Studio Hub",
+    "authError": "身份验证失败",
+    "noAccount": "没有账户？",
+    "signUp": "注册",
+    "havingTrouble": "遇到问题？",
+    "retry": "重试"
+  },
+  "artifacts": {
+    "fetchError": "获取工件失败",
+    "organizationVisible": "组织可见"
+  },
+  "incompatible": "不兼容",
+  "compatible": "兼容",
+  "public": "公开",
+  "private": "私有",
+  "yes": "是",
+  "no": "否",
+  "go": "前往",
+  "proceedWithEllipsis": "继续...",
+  "proceed": "继续",
+  "inProgress": "进行中...",
+  "failed": "失败",
+  "pending": "待处理",
+  "doneWithExclamation": "完成！",
+  "done": "完成",
+  "beta": "Beta 测试版",
+  "complete": {
+    "completeWithEllipsis": "完成...",
+    "complete": "完成",
+    "completingWithEllipsis": "正在完成...",
+    "completing": "正在完成",
+    "completedWithExclamation": "已完成！",
+    "completed": "已完成"
+  },
+  "cancel": {
+    "cancelWithEllipsis": "取消...",
+    "cancel": "取消",
+    "cancelingWithEllipsis": "正在取消...",
+    "canceling": "正在取消",
+    "canceled": "已取消"
+  },
+  "next": {
+    "nextWithEllipsis": "下一步...",
+    "next": "下一步"
+  },
+  "back": {
+    "backWithEllipsis": "上一步...",
+    "back": "上一步"
+  },
+  "close": {
+    "closeWithEllipsis": "关闭...",
+    "close": "关闭",
+    "closingWithEllipsis": "正在关闭...",
+    "closing": "正在关闭",
+    "closedWithExclamation": "已关闭！",
+    "closed": "已关闭"
+  },
+  "delete": {
+    "deleteWithEllipsis": "删除",
+    "delete": "删除",
+    "deletingWithEllipsis": "正在删除...",
+    "deleting": "正在删除",
+    "deletedWithExclamation": "已删除！",
+    "deleted": "已删除"
+  },
+  "retry": {
+    "retryWithEllipsis": "重试...",
+    "retry": "重试",
+    "retryingWithEllipsis": "正在重试...",
+    "retrying": "正在重试"
+  },
+  "refresh": {
+    "refreshWithEllipsis": "刷新...",
+    "refresh": "刷新",
+    "refreshingWithEllipsis": "正在刷新...",
+    "refreshing": "正在刷新",
+    "refreshedWithExclamation": "已刷新！",
+    "refreshed": "已刷新"
+  },
+  "confirm": {
+    "confirm": "确认",
+    "confirmingWithEllipsis": "正在确认...",
+    "confirming": "正在确认",
+    "confirmedWithExclamation": "已确认！",
+    "confirmed": "已确认"
+  },
+  "copy": {
+    "copyWithEllipsis": "复制...",
+    "copy": "复制",
+    "copyingWithEllipsis": "正在复制...",
+    "copying": "正在复制",
+    "copiedWithExclamation": "已复制！",
+    "copied": "已复制"
+  },
+  "edit": {
+    "editWithEllipsis": "编辑...",
+    "edit": "编辑",
+    "editingWithEllipsis": "正在编辑...",
+    "editing": "正在编辑",
+    "editedWithExclamation": "已编辑！",
+    "edited": "已编辑"
+  },
+  "load": {
+    "loadWithEllipsis": "加载...",
+    "load": "加载",
+    "loadingWithEllipsis": "正在加载...",
+    "loading": "加载中",
+    "loadedWithExclamation": "已加载！",
+    "loaded": "已加载"
+  },
+  "save": {
+    "saveWithEllipsis": "保存...",
+    "save": "保存",
+    "savingWithEllipsis": "正在保存...",
+    "saving": "正在保存",
+    "savedWithExclamation": "已保存！",
+    "saved": "已保存"
+  },
+  "saveAs": {
+    "saveAsWithEllipsis": "另存为...",
+    "saveAs": "另存为"
+  },
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "另存为新...",
+    "saveAsNew": "另存为新"
+  },
+  "search": {
+    "searchWithEllipsis": "搜索...",
+    "search": "搜索",
+    "searchingWithEllipsis": "正在搜索...",
+    "searching": "正在搜索"
+  },
+  "update": {
+    "updateWithEllipsis": "更新...",
+    "update": "更新",
+    "updatingWithEllipsis": "正在更新...",
+    "updating": "正在更新",
+    "updatedWithExclamation": "已更新！",
+    "updated": "已更新"
+  },
+  "create": {
+    "createWithEllipsis": "新建...",
+    "create": "＋新建",
+    "creatingWithEllipsis": "正在创建",
+    "creating": "正在创建",
+    "createdWithExclamation": "已创建！",
+    "created": "已创建"
+  },
+  "reset": {
+    "resetWithEllipsis": "重置...",
+    "reset": "重置",
+    "resettingWithEllipsis": "正在重置...",
+    "resetting": "正在重置"
+  },
+  "pause": {
+    "pause": "暂停",
+    "pausingWithEllipsis": "正在暂停...",
+    "pausing": "正在暂停",
+    "paused": "已暂停"
+  },
+  "download": {
+    "download": "下载",
+    "downloadingWithEllipsis": "正在下载...",
+    "downloading": "正在下载",
+    "downloadedWithExclamation": "已下载！",
+    "downloaded": "已下载"
+  },
+  "upload": {
+    "uploadWithEllipsis": "上传...",
+    "upload": "上传",
+    "uploadingWithEllipsis": "正在上传...",
+    "uploading": "正在上传",
+    "uploadedWithExclamation": "已上传！",
+    "uploaded": "已上传"
+  },
+  "remove": {
+    "removeWithEllipsis": "移除...",
+    "remove": "移除",
+    "removingWithEllipsis": "正在移除...",
+    "removing": "正在移除",
+    "removedWithExclamation": "已移除！",
+    "removed": "已移除"
+  },
+  "uninstall": {
+    "uninstallWithEllipsis": "卸载...",
+    "uninstall": "卸载",
+    "uninstallingWithEllipsis": "正在卸载...",
+    "uninstalling": "正在卸载",
+    "uninstalledWithExclamation": "已卸载！",
+    "uninstalled": "已卸载"
+  },
+  "resume": {
+    "resumeWithEllipsis": "恢复...",
+    "resume": "恢复",
+    "resumingWithEllipsis": "正在继续...",
+    "resuming": "正在继续"
+  },
+  "start": {
+    "startWithEllipsis": "开始...",
+    "start": "开始",
+    "startingWithEllipsis": "正在启动...",
+    "starting": "正在启动",
+    "started": "已启动"
+  },
+  "stop": {
+    "stopWithEllipsis": "停止...",
+    "stop": "停止",
+    "stoppingWithEllipsis": "正在停止...",
+    "stopping": "正在停止",
+    "stoppedWithExclamation": "已停止！",
+    "stopped": "已停止"
+  },
+  "import": {
+    "importWithEllipsis": "导入...",
+    "import": "导入",
+    "importingWithEllipsis": "正在导入...",
+    "importing": "正在导入",
+    "importedWithExclamation": "已导入！",
+    "imported": "已导入"
+  },
+  "letsGo": {
+    "letsGo": "开始",
+    "letsGoWithEllipsis": "开始...",
+    "letsGoWithExclamation": "开始！"
+  },
+  "run": {
+    "runWithEllipsis": "运行...",
+    "run": "运行",
+    "runningWithEllipsis": "正在运行...",
+    "running": "正在运行"
+  },
+  "configure": {
+    "configureWithEllipsis": "配置...",
+    "configure": "配置",
+    "configuringWithEllipsis": "正在配置...",
+    "configured": "已配置"
+  },
+  "publish": {
+    "publishWithEllipsis": "发布...",
+    "publish": "发布",
+    "publishingWithEllipsis": "正在发布...",
+    "publishing": "正在发布",
+    "publishedWithExclamation": "已发布！",
+    "published": "已发布"
+  }
 }
