@@ -1,0 +1,246 @@
+{
+  "modelLoaderPlaceholder": "Roghnaigh samhail le luchtú",
+  "systemPromptPlaceholder": "Socraigh leid chórais",
+  "userRoleText": "Úsáideoir",
+  "assistantRoleText": "Cúntóir",
+  "addMessageButtonText": "Cuir leis",
+  "addMessageButtonText/toolTip": "Cuir teachtaireacht isteach sa chomhthéacs gan tuar a spreagadh",
+  "sendMessageButtonText": "Seol",
+  "sendMessageButtonText/toolTip": "Seol do stair leideanna agus comhrá chuig an tsamhail lena phróiseáil",
+  "ejectButtonText": "Díbirt",
+  "unloadTooltip": "Díbirt an tsamhail ón gcuimhne",
+  "cancelButtonText": "Cealaigh",
+  "loadButtonText": "Lódáil",
+  "advancedSegmentText": "Ard",
+  "chatSegmentText": "Comhrá",
+  "chatSidebarTitle": "Comhráite",
+  "newChatButton": "Nua",
+  "newFolderButton": "Fillteán Nua",
+  "viewModeLabel": "Mód Amhairc",
+  "noChatSelected": "Níl aon chomhrá roghnaithe",
+  "chatViewOptions": "Roghanna radhairc comhrá",
+  "uiControls/title": "Socruithe Taispeána",
+  "noChatSelectedPlaceholder": "Roghnaigh comhrá",
+  "unnamedChat": "Comhrá Gan Ainm",
+  "emptyFolder": "Tá an fillteán folamh",
+
+  "tokenCount": "Líon na gcomharthaí",
+  "messageTokenCount": "Líon na gcomharthaí ionchuir",
+  "tokenCount/hint": "Líon na gcomharthaí sa teachtaireacht. Á chomhaireamh ag baint úsáide as comharthaí an samhail atá roghnaithe faoi láthair.\n\nÉilíonn sé seo go n-uaslódálfar an tsamhail.",
+  "messageTokenCount/hint": "Líon na gcomharthaí sa teachtaireacht. Á chomhaireamh ag baint úsáide as comharthaí an samhail atá roghnaithe faoi láthair.\n\nNí áirítear meastachán ar chomharthaí i gceangaltáin comhaid **NÍL** ann.",
+
+  "notes": "Nótaí Comhrá",
+  "notes/add/first": "Cuir nóta leis",
+  "notes/add/another": "Cuir nóta eile leis",
+  "notes/hint": "Sábháil nótaí chuig an gcomhrá seo. Is le haghaidh tagartha amháin atá na nótaí agus ní sheoltar chuig an tsamhail iad. Sábháiltear gach athrú go huathoibríoch.",
+  "notes/placeholder": "Clóscríobh do nótaí anseo...",
+  "notes/delete": "Scrios nóta",
+  "notes/noteLabel": "Nóta",
+  "notes/copyContent": "Cóipeáil ábhar an nóta",
+
+  "actions/sendMessage/error": "Theip ar an teachtaireacht a sheoladh",
+  "actions/loadModel/error": "🥲 Theip ar an tsamhail a lódáil",
+  "actions/addFile": "[Turgnamhach] Ceangail comhad leis an \nteachtaireacht seo (.pdf, téacs simplí, nó .docx)",
+  "actions/addFile/label": "Ceangail Comhad",
+  "actions/changeRole": "Athraigh idir róil Úsáideora agus Chúntóra.\n\nTá sé seo úsáideach chun an comhrá a stiúradh i dtreo áirithe.\n\nIs féidir é a úsáid chun cásanna 'foghlaim cúpla-uaire' nó 'foghlaim i gcomhthéacs' a chur ar stáitse",
+  "actions/addImage": "Ceangail íomhá",
+  "actions/deleteMessage": "Scrios an teachtaireacht",
+  "actions/deleteMessage/confirmation": "An bhfuil tú cinnte gur mian leat an teachtaireacht seo a scriosadh?",
+  "actions/copyMessage": "Cóipeáil teachtaireacht",
+  "actions/editMessage": "Cuir teachtaireacht in eagar",
+  "actions/editMessage/cannotEditPreprocessed": "Ní féidir teachtaireachtaí réamhphróiseáilte a chur in eagar mar go ndéanfar iad a athscríobh tar éis an réamhphróiseálaí a rith. Chun an teachtaireacht a chur in eagar, déan ceann amháin díobh seo a leanas: \n\n -Athraigh go dtí an teachtaireacht bhunaidh agus cuir in eagar í ina ionad, nó\n - Athraigh an réamhphróiseálaí ionas go dtáirgfidh sé an t-aschur atá ag teastáil.",
+  "actions/regenerateMessage": "Athghin an teachtaireacht",
+  "actions/regenerateMessage/error": "Theip ar an teachtaireacht a athghiniúint",
+  "actions/branchChat": "Comhrá brainse tar éis an teachtaireachta seo",
+  "actions/branchChat/error": "Theip ar chomhrá brainseála",
+  "actions/continueAssistantMessage": "Lean ar aghaidh le teachtaireacht an chúntóra",
+  "actions/continueAssistantMessage/error": "Theip ar leanúint leis an teachtaireacht chúntóra",
+  "actions/predictNext": "Gin Freagairt AI",
+  "actions/predictNext/error": "Theip ar fhreagairt AI a ghiniúint",
+  "actions/loadLastModel": "Athlódáil an tsamhail dheireanach a úsáideadh",
+  "actions/loadLastModel/tooltip": "Cliceáil chun an tsamhail a úsáideadh go deireanach leis an gcomhrá seo a luchtú:\n\n{{lastModel}}",
+  "actions/loadLastModel/error": "Theip ar an tsamhail dheireanach a úsáideadh a lódáil.",
+  "actions/continueCurrentModel": "Úsáid an tsamhail reatha",
+  "actions/continueCurrentModel/tooltip": "Samhail reatha: {{currentModel}}",
+  "actions/changeToLastUsedModel": "Lódáil {{lastModel}}",
+  "actions/changeToLastUsedModel/error": "Theip ar athrú go dtí an tsamhail dheireanach a úsáideadh.",
+  "actions/changeToLastUsedModel/tooltip": "D'úsáid tú samhail dhifriúil an uair dheireanach a sheol tú teachtaireacht sa chomhrá seo. Cliceáil chun an tsamhail atá roghnaithe faoi láthair ({{currentModel}}) a dhíluchtú agus an tsamhail a úsáideadh go deireanach leis an gcomhrá seo a luchtú:\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel": "Athraigh go {{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "Cliceáil chun aistriú go dtí an tsamhail a úsáideadh go deireanach leis an gcomhrá seo:\n\n{{lastModel}}",
+  "actions/loadModel": "Luchtaigh samhail",
+  "actions/toggleViewingProcessed/currentlyFalse": "Ag féachaint ar an teachtaireacht bhunaidh faoi láthair. Cliceáil chun an teachtaireacht réamhphróiseáilte a fheiceáil.",
+  "actions/toggleViewingProcessed/currentlyTrue": "Ag féachaint ar an teachtaireacht réamhphróiseáilte faoi láthair. Cliceáil chun an teachtaireacht bhunaidh a fheiceáil.",
+  "actions/toggleViewingProcessed/hint": "Sula seoltar teachtaireacht chuig an tsamhail, féadfaidh réamhphróiseálaí pras í a réamhphróiseáil. Cliceáil chun aistriú idir an teachtaireacht bhunaidh agus an teachtaireacht réamhphróiseáilte a fheiceáil. Ní théann ach an teachtaireacht réamhphróiseáilte chuig an tsamhail.",
+  "editMessageConfirm/title": "Coinnigh na hathruithe?",
+  "editMessageConfirm/message": "Tá athruithe déanta agat ar theachtaireacht. Ar mhaith leat iad a choinneáil?",
+  "editMessageConfirm/keepEditing": "Lean ar aghaidh ag eagarthóireacht",
+  "editMessageConfirm/save": "Sábháil",
+  "editMessageConfirm/discard": "Scrios Athruithe",
+  "tokenCount/totalNotAvailable": "Comharthaí: {{current}}",
+  "tokenCount/totalAvailable": "Comharthaí: {{current}}/{{total}}",
+  "tokenCount/totalAvailablePercentage": "Tá an comhthéacs {{percentage}}% lán",
+  "tokenCount/contextOverflow": "Tá an comhthéacs neamhphróiseáilte níos mó ná uasteorainn chomharthaí an samhail. Ag brath ar do Pholasaí um Ró-Shreabhadh Comhthéacs, féadfar an comhthéacs a ghiorrú nó féadfar an teachtaireacht a sheachaint.",
+  "modelLoader/manualLoadParams/label": "Roghnaigh paraiméadair ualaigh samhail de láimh",
+  "modelLoader/manualLoadParams/hint/before": "(nó coinnigh",
+  "modelLoader/manualLoadParams/hint/after": ")",
+  "actions/move/error": "Theip ar bhogadh",
+  "actions/rename/error": "Theip ar athainmniú",
+  "actions/createChatAtRoot": "Comhrá Nua...",
+  "actions/createChatAtRoot/error": "Theip ar chomhrá a chruthú ag an bhfréamh",
+  "actions/createFolderAtRoot": "Fillteán Nua...",
+  "actions/createFolderAtRoot/error": "Theip ar fhillteán a chruthú ag an bhfréamh",
+  "actions/openInFolder/mac": "Nocht i Finder",
+  "actions/openInFolder/pc": "Nocht i Taiscéalaí Comhad",
+
+  "actions/createChat/error": "Theip ar an gcomhrá a chruthú",
+  "actions/deleteChat/errorTitle": "Theip ar an gcomhrá a scriosadh",
+
+  "userFile/fileSizeLimit": "Is é teorainn méid an chomhaid",
+  "userFile/noImageSupport": "Ní thacaíonn an tsamhail le hionchur íomhá",
+  "userFile/errorPrefix": "Earráid - ",
+  "userFile/supportedImagePrefix": "Cineál íomhá nach dtacaítear leis - amháin",
+  "userFile/supportedImageSuffix": "atá tacaithe",
+  "userFile/unsupportedFileType": "Cineál comhaid nach dtacaítear leis - ní thacaítear ach le híomhánna, PDFanna agus comhaid .txt.",
+  "userFile/maxFilesPerMessage": "Shroich an líon uasta comhad in aghaidh an teachtaireachta. Ní féidir níos mó ná {{files}} comhad a chur leis.. ",
+  "userFile/maxFileSizePerMessage": "Uasmhéid comhaid in aghaidh an teachtaireachta sroichte. Ní féidir comhaid níos mó ná {{size}} a chur leis. ",
+  "userFile/maxFileSizePerConversation": "Uasmhéid comhaid in aghaidh an chomhrá sroichte. Ní féidir comhaid níos mó ná {{size}} a chur leis.",
+  "userFile/failedToUploadError/title": "Theip ar an gcomhad a uaslódáil",
+  "userFile/failedToAddFile/title": "Theip ar chomhad a chur leis an gcomhrá",
+  "errorTitle": "Earráid",
+  "userFile/chatTerminalDocumentsCount_one": "Doiciméad {{count}} sa chomhrá",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} doiciméad sa chomhrá",
+
+  "prediction/busyModel/title": "Tá an múnla gnóthach",
+  "prediction/busyModel/message": "Fan go dtí go mbeidh an tsamhail críochnaithe agus déan iarracht arís",
+  "prediction/noModel/title": "Níl aon samhail roghnaithe",
+  "prediction/modelLoading": "Teachtaireacht curtha i scuaine, seolfar í nuair a bheidh an tsamhail críochnaithe ag luchtú",
+  "prediction/noModel/message": "Roghnaigh samhail le teachtaireacht a sheoladh",
+  "prediction/unloadModel/error": "Theip ar an tsamhail a dhíluchtú",
+
+  "retrieval/user/processingLabel": "Tá an AI ag smaoineamh...",
+  "retrieval/powerUser/intermediateStepsHidden": "Céimeanna idirmheánacha i bhfolach. Cliceáil chun leathnú.",
+  "retrieval/actions/clickToExpand": "Cliceáil chun céimeanna idirmheánacha a leathnú",
+  "retrieval/actions/clickToCollapse": "Cliceáil chun céimeanna idirmheánacha a dhúnadh",
+
+  "style": "Dealramh",
+
+  "style/viewMode/markdown": "Markdown",
+  "style/viewMode/plaintext": "Téacs simplí",
+  "style/viewMode/monospace": "Monaspás",
+
+  "speculativeDecodingVisualization/toggle": "Amharcléiriú ar chomharthaí dréachta glactha",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Glacadh leis an dréacht-chomhartha",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Comharthaí dréachta glactha",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "Tá rogha mód radhairc díchumasaithe agus comharthaí dréachta á n-amharc.",
+
+  "style/fontSize/label": "Méid Cló",
+  "style/fontSize/medium": "Réamhshocrú",
+  "style/fontSize/large": "Mór",
+  "style/fontSize/small": "Beag",
+
+  "style/debugBlocks/label": "Taispeáin Bloic Faisnéise Dífhabhtaithe",
+
+  "style/thinkingUI/label": "Leathnaigh bloic réasúnaíochta de réir réamhshocraithe",
+  "style/chatFullWidth/label": "Leathnaigh an coimeádán comhrá go leithead na fuinneoige",
+
+  "style/chatUtilityMenusShowLabel/label": "Taispeáin lipéid roghchláir fóntais comhrá",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Leathnaigh an t-ábhar",
+    "collapseBlockTooltip": "Laghdaigh an t-ábhar",
+    "debug": {
+      "label": "EOLAS DÍBHÚCHÁIN",
+      "collapseTooltip": "Laghdaigh bloc faisnéise dífhabhtaithe",
+      "expandTooltip": "Leathnaigh bloc faisnéise dífhabhtaithe"
+    }
+  },
+
+  "chatTabOptions/clearAllMessages": "Glan gach teachtaireacht...",
+  "chatTabOptions/duplicateChat": "Comhrá dúblach",
+
+  "topBarActions/duplicateChat": "Dúblach",
+  "topBarActions/clearChat": "Glan Gach Rud",
+  "topBarActions/clearChatConfirmation": "An bhfuil tú cinnte gur mian leat gach teachtaireacht sa chomhrá seo a ghlanadh?",
+  "topBarActions/clearChatCancel": "Cealaigh",
+  "topBarActions/clearChatDelete": "Glan Gach Rud",
+
+  "noModels.indexing": "Ag innéacsú comhaid samhail... (d’fhéadfadh sé seo nóiméad a thógáil)",
+  "noModels.downloading": "Ag íoslódáil do chéad LLM...",
+  "noModels": "Gan aon LLManna fós! Íoslódáil ceann le tosú!",
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Breiseán",
+      "multiplePlugins": "Breiseáin {{dynamicValue}}"
+    },
+    "pluginSelect": {
+      "title": "Breiseáin",
+      "dropdown": {
+        "configure": "Cumraigh",
+        "disable": "Díchumasaigh",
+        "fork": "Forc",
+        "uninstall": "Díshuiteáil"
+      },
+      "actionButtons": {
+        "create": "Cruthaigh",
+        "import": "Iompórtáil",
+        "discover": "Faigh amach"
+      },
+      "recentlyCreated": {
+        "title": "Breiseáin a Cruthaíodh Le Déanaí",
+        "placeholder": "Beidh breiseáin a chruthaíonn tú le feiceáil anseo"
+      },
+      "startRunningDevelopmentPlugin/error": "Theip ar an mbreiseán a thosú ag rith i mód forbartha",
+      "stopRunningDevelopmentPlugin/error": "Theip ar an mbreiseán a stopadh i mód forbartha",
+      "forceReInitPlugin/error": "Theip ar atosú an breiseáin"
+    },
+    "pluginConfiguration": {
+      "title": "Cumraíocht Breiseán",
+      "selectAPlugin": "Roghnaigh breiseán chun a chumraíochtaí a chur in eagar",
+      "preprocessorAndGenerator": "Tá réamhphróiseálaí agus gineadóir saincheaptha sa bhreiseán seo",
+      "generatorOnly": "Tá gineadóir saincheaptha sa bhreiseán seo",
+      "preprocessorOnly": "Tá réamhphróiseálaí saincheaptha sa bhreiseán seo"
+    },
+    "instructions": {
+      "runTheFollowing": "Chun do bhreiseán a rith, oscail críochfort agus cuir isteach",
+      "pushTo": "Roinn do bhreiseán le daoine eile trí bhrú chuig an Mol (roghnach)",
+      "createdSuccessfully": "Cruthaíodh an breiseán go rathúil",
+      "creatingPlugin": "Breiseán á chruthú...",
+      "projectFilesTitle": "Comhaid Tionscadail",
+      "buttons": {
+        "documentation": "Doiciméadú",
+        "dismiss": "Díbhe",
+        "publish": "Foilsigh",
+        "openInZed": "Oscail i Zed",
+        "openInVscode": "Oscail i VS Code",
+        "revealInFinder": "Nocht i Finder",
+        "openInFileExplorer": "Oscail in Taiscéalaí Comhad"
+      }
+    },
+    "localFork": {
+      "error": "Theip ar chóip forbartha áitiúil den bhreiseán a chruthú."
+    },
+    "restartErrorPlugin/error": "Theip ar atosú an breiseáin"
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} comhartha/soic",
+    "predictedTokensCount": "{{predictedTokensCount}} comharthaí",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s chuig an gcéad chomhartha",
+    "stopReason": "Cúis stad: {{stopReason}}",
+    "stopReason.userStopped": "Úsáideoir Stoptha",
+    "stopReason.modelUnloaded": "Múnla Díluchtaithe",
+    "stopReason.failed": "Theip ar an nGiniúint",
+    "stopReason.eosFound": "Comhartha EOS aimsithe",
+    "stopReason.stopStringFound": "Fuarthas Teaghrán Stop",
+    "stopReason.toolCalls": "Glaonna Uirlisí",
+    "stopReason.maxPredictedTokensReached": "Uasmhéid na gComharthaí Tuartha Sroichte",
+    "stopReason.contextLengthReached": "Teorainn Fad an Chomhthéacs Shroichte",
+    "speculativeDecodedBy": "Dréacht samhail: {{decodedBy}}",
+    "speculativeDecodingStats": "Glacadh le {{accepted}}/{{total}} dréachtchomharthaí ({{percentage}}%)"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Eagarthóireacht ar Phraghas an Chórais"
+  }
+}

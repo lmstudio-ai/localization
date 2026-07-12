@@ -1,20 +1,20 @@
 {
   "modelLoaderPlaceholder": "选择要加载的模型",
-  "systemPromptPlaceholder": "设置系统提示词",
+  "systemPromptPlaceholder": "设置系统提示",
   "userRoleText": "用户",
   "assistantRoleText": "助手",
   "addMessageButtonText": "添加",
   "addMessageButtonText/toolTip": "在不触发预测的情况下将消息插入上下文中",
   "sendMessageButtonText": "发送",
-  "sendMessageButtonText/toolTip": "将您的提示词和对话历史发送给模型进行处理",
-  "ejectButtonText": "弹出",
+  "sendMessageButtonText/toolTip": "将您的提示和对话历史发送给模型进行处理",
+  "ejectButtonText": "卸载",
   "unloadTooltip": "从内存中卸载模型",
   "cancelButtonText": "取消",
   "loadButtonText": "加载",
   "advancedSegmentText": "高级",
   "chatSegmentText": "聊天",
   "chatSidebarTitle": "聊天列表",
-  "newChatButton": "新建",
+  "newChatButton": "新建聊天",
   "newFolderButton": "新建文件夹",
   "viewModeLabel": "视图模式",
   "noChatSelected": "未选择聊天",
@@ -23,62 +23,65 @@
   "noChatSelectedPlaceholder": "请选择一个聊天",
   "unnamedChat": "未命名聊天",
   "emptyFolder": "文件夹为空",
-  "tokenCount": "词元数",
-  "messageTokenCount": "输入词元数",
-  "tokenCount/hint": "消息中的词元数。使用当前所选模型的分词器计数。\n\n需要加载模型。",
-  "messageTokenCount/hint": "消息中的词元数。使用当前所选模型的分词器计数。\n\n**不**包括文件附件中词元的估算值。",
+
+  "tokenCount": "token数",
+  "messageTokenCount": "输入token数",
+  "tokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
+  "messageTokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的token估计值。",
+
   "notes": "对话笔记",
   "notes/add/first": "添加笔记",
   "notes/add/another": "再加一条笔记",
-  "notes/hint": "将笔记保存到此聊天。笔记仅供您参考，不会发送给模型。所有更改自动保存。",
+  "notes/hint": "保存此聊天的笔记。笔记仅供您参考，不会发送给模型。所有更改将会自动保存。",
   "notes/placeholder": "在这里键入您的笔记...",
   "notes/delete": "删除笔记",
   "notes/noteLabel": "笔记",
   "notes/copyContent": "复制笔记内容",
+
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
-  "actions/addFile": "[实验性] 将文件附加到此消息\n（.pdf、纯文本或 .docx）",
+  "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
   "actions/addFile/label": "附加文件",
-  "actions/changeRole": "在用户和助手角色之间切换。\n\n这对于引导对话朝着特定方向进行很有用。\n\n可用于搭建“少样本学习”或“情境学习”场景",
+  "actions/changeRole": "在用户和助手角色之间切换。\n\n这对于引导对话朝特定方向发展非常有用。\n\n可用于构建‘少样本学习’或‘情境学习’场景",
   "actions/addImage": "添加图片",
   "actions/deleteMessage": "删除消息",
   "actions/deleteMessage/confirmation": "您确定要删除这条消息吗？",
   "actions/copyMessage": "复制消息",
   "actions/editMessage": "编辑消息",
-  "actions/editMessage/cannotEditPreprocessed": "无法编辑预处理消息，因为运行预处理器后它们会被覆盖。要编辑消息，请执行以下任一操作： \n\n - 切换到原始消息并改为编辑它，或\n - 更改预处理器以使其生成所需的输出。",
+  "actions/editMessage/cannotEditPreprocessed": "无法编辑预处理的消息，因为它们在运行预处理器后会被覆盖。要编辑消息，您可以：\n\n - 切换到原始消息并对其进行编辑，或者\n - 更改预处理器，使其产生所需的输出。",
   "actions/regenerateMessage": "重新生成消息",
   "actions/regenerateMessage/error": "重新生成消息失败",
   "actions/branchChat": "在此消息之后分支聊天",
   "actions/branchChat/error": "分支聊天失败",
   "actions/continueAssistantMessage": "继续助手消息",
   "actions/continueAssistantMessage/error": "继续助手消息失败",
-  "actions/predictNext": "生成 AI 响应",
-  "actions/predictNext/error": "生成 AI 响应失败",
+  "actions/predictNext": "生成AI响应",
+  "actions/predictNext/error": "生成AI响应失败",
   "actions/loadLastModel": "重新加载上次使用的模型",
-  "actions/loadLastModel/tooltip": "点击加载此聊天上次使用的模型：\n\n{{lastModel}}",
+  "actions/loadLastModel/tooltip": "点击以加载上次与该聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "加载上次使用的模型失败。",
   "actions/continueCurrentModel": "使用当前模型",
   "actions/continueCurrentModel/tooltip": "当前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "加载 {{lastModel}}",
   "actions/changeToLastUsedModel/error": "切换到上次使用的模型失败。",
-  "actions/changeToLastUsedModel/tooltip": "您上次在此聊天中发送消息时使用了不同的模型。点击卸载当前选择的模型 ({{currentModel}}) 并加载此聊天上次使用的模型：\n\n{{lastModel}}",
+  "actions/changeToLastUsedModel/tooltip": "您上次在这个聊天中发送消息时使用了不同的模型。点击以卸载当前选定的模型({{currentModel}})并加载上次与这个聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/switchToLastUsedModel": "切换到 {{lastModel}}",
-  "actions/switchToLastUsedModel/tooltip": "点击切换到此聊天上次使用的模型：\n\n{{lastModel}}",
+  "actions/switchToLastUsedModel/tooltip": "点击以切换到上次与这个聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadModel": "加载模型",
-  "actions/toggleViewingProcessed/currentlyFalse": "当前正在查看原始消息。点击查看预处理消息。",
-  "actions/toggleViewingProcessed/currentlyTrue": "当前正在查看预处理消息。点击查看原始消息。",
-  "actions/toggleViewingProcessed/hint": "在消息发送到模型之前，可能会由提示词预处理器进行预处理。点击在查看原始消息和预处理消息之间切换。只有预处理后的消息会发送给模型。",
+  "actions/toggleViewingProcessed/currentlyFalse": "当前查看的是原始消息。点击以查看预处理后的消息。",
+  "actions/toggleViewingProcessed/currentlyTrue": "当前查看的是预处理后的消息。点击以查看原始消息。",
+  "actions/toggleViewingProcessed/hint": "在消息发送给模型之前，它可能会被提示预处理器预处理。点击以切换查看原始消息和预处理后的消息。只有预处理后的消息会发送给模型。",
   "editMessageConfirm/title": "保留更改？",
-  "editMessageConfirm/message": "您已对消息进行了更改。是否要保留这些更改？",
+  "editMessageConfirm/message": "您已对消息进行了更改。您想要保留这些更改吗？",
   "editMessageConfirm/keepEditing": "继续编辑",
   "editMessageConfirm/save": "保存",
   "editMessageConfirm/discard": "放弃更改",
-  "tokenCount/totalNotAvailable": "词元：{{current}}",
-  "tokenCount/totalAvailable": "词元：{{current}}/{{total}}",
+  "tokenCount/totalNotAvailable": "token：{{current}}",
+  "tokenCount/totalAvailable": "token：{{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
-  "tokenCount/contextOverflow": "未处理的上下文大于模型的最大词元限制。根据您的上下文溢出策略，上下文可能会被截断或消息可能无法发送。",
+  "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大token限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
-  "modelLoader/manualLoadParams/hint/before": "(或按住 ",
+  "modelLoader/manualLoadParams/hint/before": "(或按住",
   "modelLoader/manualLoadParams/hint/after": ")",
   "actions/move/error": "移动失败",
   "actions/rename/error": "重命名失败",
@@ -88,48 +91,60 @@
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
   "actions/openInFolder/mac": "在 Finder 中显示",
   "actions/openInFolder/pc": "在文件资源管理器中显示",
+
   "actions/createChat/error": "创建聊天失败",
   "actions/deleteChat/errorTitle": "删除聊天失败",
-  "userFile/fileSizeLimit": "文件大小限制为 ",
+
+  "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
   "userFile/errorPrefix": "错误 - ",
-  "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持 ",
-  "userFile/supportedImageSuffix": " 。",
+  "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持",
+  "userFile/supportedImageSuffix": "。",
   "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
-  "userFile/maxFilesPerMessage": "每条消息的文件数已达到上限。不能添加超过 {{files}} 个文件。 ",
-  "userFile/maxFileSizePerMessage": "每条消息的文件大小已达到上限。不能添加大于 {{size}} 的文件。 ",
-  "userFile/maxFileSizePerConversation": "每个对话的文件大小已达到上限。不能添加大于 {{size}} 的文件。 ",
+  "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
+  "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
+  "userFile/maxFileSizePerConversation": "会话的文件大小已达上限，无法添加大于 {{size}} 的文件。",
   "userFile/failedToUploadError/title": "文件上传失败",
   "userFile/failedToAddFile/title": "文件添加到对话失败",
   "errorTitle": "错误",
   "userFile/chatTerminalDocumentsCount_one": "对话中有 {{count}} 个文档",
   "userFile/chatTerminalDocumentsCount_other": "对话中有 {{count}} 个文档",
+
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
   "prediction/noModel/title": "未选择模型",
-  "prediction/modelLoading": "消息已排队，会在模型加载完成后发送",
+  "prediction/modelLoading": "消息已排队，将在模型加载完成后发送",
   "prediction/noModel/message": "选择一个模型以发送消息",
   "prediction/unloadModel/error": "卸载模型失败",
+
   "retrieval/user/processingLabel": "AI 正在思考...",
-  "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击展开。",
+  "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击以展开。",
   "retrieval/actions/clickToExpand": "点击以展开中间步骤",
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
+
   "style": "聊天外观",
+
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
-  "speculativeDecodingVisualization/toggle": "可视化已采纳的草稿词元",
-  "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的草稿词元",
-  "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的草稿词元",
-  "speculativeDecodingVisualization/cannotChangeViewMode": "可视化草稿词元时无法切换显示模式。",
+
+  "speculativeDecodingVisualization/toggle": "可视化已采纳的草稿token",
+  "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的草稿token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的草稿token",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "可视化草稿token时无法切换显示模式。",
+
   "style/fontSize/label": "字体大小",
   "style/fontSize/medium": "默认",
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
+
   "style/debugBlocks/label": "显示调试信息块",
+
   "style/thinkingUI/label": "默认展开推理块",
   "style/chatFullWidth/label": "聊天容器宽度适应窗口",
-  "style/chatUtilityMenusShowLabel/label": "显示聊天工具菜单标签",
+
+  "style/chatUtilityMenusShowLabel/label": "显示聊天实用工具菜单",
+
   "messageBlocks": {
     "expandBlockTooltip": "展开内容",
     "collapseBlockTooltip": "收起内容",
@@ -139,14 +154,20 @@
       "expandTooltip": "展开调试信息块"
     }
   },
+  
+  "chatTabOptions/clearAllMessages": "清空所有聊天记录...",
+  "chatTabOptions/duplicateChat": "复制聊天",
+
   "topBarActions/duplicateChat": "复制聊天",
-  "topBarActions/clearChat": "清除全部",
+  "topBarActions/clearChat": "清除所有消息",
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
   "topBarActions/clearChatCancel": "取消",
-  "topBarActions/clearChatDelete": "清除全部",
-  "noModels.indexing": "正在索引模型文件...（这可能需要一点时间）",
-  "noModels.downloading": "正在下载您的第一个 LLM...",
-  "noModels": "还没有 LLM！下载一个以开始使用！",
+  "topBarActions/clearChatDelete": "全部清除",
+  
+  "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
+  "noModels.downloading": "正在下载您的第一个LLM...",
+  "noModels": "还没有LLM！下载一个开始吧！",
+  
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "插件",
@@ -157,7 +178,7 @@
       "dropdown": {
         "configure": "配置",
         "disable": "禁用",
-        "fork": "复刻",
+        "fork": "派生",
         "uninstall": "卸载"
       },
       "actionButtons": {
@@ -167,10 +188,11 @@
       },
       "recentlyCreated": {
         "title": "最近创建的插件",
-        "placeholder": "您创建的插件会显示在这里"
+        "placeholder": "你创建的插件会显示在这里"
       },
       "startRunningDevelopmentPlugin/error": "开发模式插件启动失败",
-      "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败"
+      "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败",
+      "forceReInitPlugin/error": "重启插件失败"
     },
     "pluginConfiguration": {
       "title": "插件配置",
@@ -180,7 +202,7 @@
       "preprocessorOnly": "此插件包含自定义预处理器"
     },
     "instructions": {
-      "runTheFollowing": "要运行您的插件，请打开终端并输入：",
+      "runTheFollowing": "要运行你的插件，请打开终端并输入：",
       "pushTo": "将插件推送到 Hub 与他人分享（可选）",
       "createdSuccessfully": "插件创建成功",
       "creatingPlugin": "正在创建插件...",
@@ -196,27 +218,29 @@
       }
     },
     "localFork": {
-      "error": "创建插件的本地开发副本失败。"
+      "error": "创建插件的本地副本失败"
     },
     "restartErrorPlugin/error": "重启插件失败"
   },
+
   "genInfo": {
-    "tokensPerSecond": "{{tokensPerSecond}} 个词元/秒",
-    "predictedTokensCount": "{{predictedTokensCount}} 个词元",
-    "timeToFirstTokenSec": "首个词元用时 {{timeToFirstTokenSec}} 秒",
-    "stopReason": "停止原因：{{stopReason}}",
+    "tokensPerSecond": "{{tokensPerSecond}} token/s",
+    "predictedTokensCount": "{{predictedTokensCount}} token",
+    "timeToFirstTokenSec": "首个token用时 {{timeToFirstTokenSec}} s",
+    "stopReason": "停止原因: {{stopReason}}",
     "stopReason.userStopped": "用户已停止",
     "stopReason.modelUnloaded": "模型已卸载",
     "stopReason.failed": "生成失败",
-    "stopReason.eosFound": "检测到 EOS 词元",
+    "stopReason.eosFound": "检测到 EOS token",
     "stopReason.stopStringFound": "发现停止字符串",
     "stopReason.toolCalls": "工具调用",
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿词元（{{percentage}}%）"
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
   },
+
   "tabs": {
-    "systemPromptEditorTab.headerLabel": "正在编辑系统提示词"
+    "systemPromptEditorTab.headerLabel": "编辑系统提示词"
   }
 }

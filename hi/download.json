@@ -1,0 +1,43 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "फाइलें निकाली जा रही हैं...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "फाइलें निकाली जा रही हैं...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "फाइलें निकाली जा रही हैं...",
+  "postDownloadActionExecutor.modifyModelData/status": "मॉडल डेटा अपडेट किया जा रहा है...",
+  "postDownloadActionExecutor.notification/status": "उपयोगकर्ता को सूचित किया जा रहा है...",
+  "postDownloadActionExecutor.writeString/status": "मेटाडेटा लिखा जा रहा है...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "चयनित संस्करण अपडेट किया जा रहा है...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "अनुपयोगी एक्सटेंशन हटाए जा रहे हैं...",
+  "postDownloadActionExecutor.pluginInstall/status": "प्लगइन इंस्टॉल किया जा रहा है...",
+  "postDownloadActionExecutor.pluginUninstall/status": "प्लगइन अनइंस्टॉल किया जा रहा है...",
+
+  "finalizing": "डाउनलोड को अंतिम रूप दिया जा रहा है... (इसमें कुछ समय लग सकता है)",
+  "noOptions": "डाउनलोड के लिए कोई संगत विकल्प उपलब्ध नहीं है",
+
+  "deeplink/confirmation/title": "Hugging Face 🤗 से मॉडल डाउनलोड करें",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "सुझाए गए का चयन करें",
+  "deeplink/confirmation/selectOption": "डाउनलोड विकल्प का चयन करें",
+  "deeplink/confirmation/recommendedOption": "अधिकांश उपयोगकर्ताओं के लिए सबसे अच्छा विकल्प",
+  "deeplink/confirmation/downloadButton": "डाउनलोड करें",
+  "deeplink/confirmation/nevermindButton": "कोई बात नहीं",
+  "deeplink/confirmation/modelPresent/title": "Hugging Face मॉडल मिल गया ✅",
+  "deeplink/confirmation/modelPresent/body": "खुशखबरी! यह मॉडल फाइल आपके स्थानीय मशीन पर पहले से उपलब्ध है।",
+  "deeplink/confirmation/loadInChat": "{{ modelName }} को नई चैट में लोड करें",
+  "deeplink/error/modelNotFound/title": "अरे, हम इस मॉडल को खोजने में असमर्थ रहे",
+  "deeplink/error/modelNotFound/body": "मॉडल नाम दोबारा जांचें और एक अलग डाउनलोड विकल्प आजमाने पर विचार करें।",
+  "deeplink/actions/trySearching": "Hugging Face पर {{modelName}} खोजने की कोशिश करें",
+
+  "downloadsPanel/title": "डाउनलोड",
+  "downloadsPanel/sectionTitle/ongoing": "चल रहा है",
+  "downloadsPanel/sectionTitle/completed": "पूर्ण",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finder में दिखाएं",
+      "mac/error": "Finder में दिखाने में विफल",
+      "nonMac": "File Explorer में दिखाएं",
+      "nonMac/error": "File Explorer में दिखाने में विफल"
+    },
+    "completed": "डाउनलोड पूर्ण",
+    "loadModel": "मॉडल लोड करें"
+  }
+}
