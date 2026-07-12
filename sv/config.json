@@ -21,21 +21,36 @@
 	"loadParameters/title": "Ladda parametrar",
 	"loadParameters/description": "Inställningar för att kontrollera hur modellen initieras och laddas i minnet.",
 	"loadParameters/reload": "Ladda om för att tillämpa ändringar",
+	"loadParameters/reload/error": "Misslyckades med att ladda om modellen",
 	"discardChanges": "Ångra ändringar",
 	"loadModelToSeeOptions": "Ladda en modell för att se alternativ",
+	"schematicsError.title": "Konfigurationsschemat innehåller fel i följande fält:",
+	"manifestSections": {
+		"structuredOutput/title": "Strukturerad utdata",
+		"speculativeDecoding/title": "Spekulativ avkodning",
+		"sampling/title": "Sampling",
+		"settings/title": "Inställningar",
+		"toolUse/title": "Verktygsanvändning",
+		"promptTemplate/title": "Promptmall",
+		"customFields/title": "Anpassade fält"
+  },
+
 	"llm.prediction.systemPrompt/title": "Systemprompt",
 	"llm.prediction.systemPrompt/description": "Använd detta fält för att ge bakgrundsinstruktioner till modellen, såsom en uppsättning regler, begränsningar eller allmänna krav.",
 	"llm.prediction.systemPrompt/subTitle": "Riktlinjer för AI:n",
+	"llm.prediction.systemPrompt/openEditor": "Redigerare",
+	"llm.prediction.systemPrompt/closeEditor": "Stäng redigerare",
+	"llm.prediction.systemPrompt/openedEditor": "Öppnad i redigerare...",
 	"llm.prediction.temperature/title": "Temperatur",
 	"llm.prediction.temperature/subTitle": "Hur mycket slumpmässighet som ska introduceras. 0 ger samma resultat varje gång, medan högre värden ökar kreativiteten och variationen",
-	"llm.prediction.temperature/info": "Från llama.cpp hjälpdokument: \"Standardvärdet är <{{dynamicValue}}>, vilket ger en balans mellan slumpmässighet och determinism. I extrema fall kommer en temperatur på 0 alltid att välja den mest sannolika nästa token, vilket leder till identiska utdata vid varje körning\"",
+	"llm.prediction.temperature/info": "Från llama.cpp hjälpdokumentation: \"Standardvärdet är <{{dynamicValue}}>, vilket ger en balans mellan slumpmässighet och determinism. I extrema fall kommer en temperatur på 0 alltid att välja den mest sannolika nästa token, vilket leder till identiska utdata vid varje körning\"",
 	"llm.prediction.llama.sampling/title": "Sampling",
 	"llm.prediction.topKSampling/title": "Top K Sampling",
 	"llm.prediction.topKSampling/subTitle": "Begränsar nästa token till en av de top-k mest sannolika token. Fungerar liknande som temperatur",
-	"llm.prediction.topKSampling/info": "Från llama.cpp hjälpdokument:\n\nTop-k sampling är en textgenereringsmetod som väljer nästa token endast från de top k mest sannolika token som modellen förutspår.\n\nDet hjälper till att minska risken för att generera låg sannolikhet eller nonsens token, men det kan också begränsa mångfalden i utdata.\n\nEtt högre värde för top-k (t.ex. 100) kommer att överväga fler token och leda till mer varierad text, medan ett lägre värde (t.ex. 10) kommer att fokusera på de mest sannolika token och generera mer konservativ text.\n\n• Standardvärdet är <{{dynamicValue}}>",
+	"llm.prediction.topKSampling/info": "Från llama.cpp hjälpdokumentation:\n\nTop-k sampling är en textgenereringsmetod som väljer nästa tecken endast från de k mest sannolika som modellen förutspår.\n\nDet hjälper till att minska risken för att generera låg-sannolikhet eller nonsens-tecken, men kan också begränsa mångfalden i utdata.\n\nEtt högre värde för top-k (t.ex. 100) kommer att överväga fler tecken och leda till mer varierad text, medan ett lägre värde (t.ex. 10) fokuserar på de mest sannolika och genererar mer konservativ text.\n\n• Standardvärdet är <{{dynamicValue}}>",
 	"llm.prediction.llama.cpuThreads/title": "CPU-trådar",
-	"llm.prediction.llama.cpuThreads/subTitle": "Antal CPU-trådar att använda under inferens",
-	"llm.prediction.llama.cpuThreads/info": "Antalet trådar att använda under beräkning. Att öka antalet trådar korrelerar inte alltid med bättre prestanda. Standardvärdet är <{{dynamicValue}}>.",
+	"llm.prediction.llama.cpuThreads/subTitle": "Antal CPU-trådar att använda vid inferens",
+	"llm.prediction.llama.cpuThreads/info": "Antalet trådar som används vid beräkning. Att öka antalet trådar ger inte alltid bättre prestanda. Standardvärdet är <{{dynamicValue}}>.",
 	"llm.prediction.maxPredictedTokens/title": "Begränsa svarslängd",
 	"llm.prediction.maxPredictedTokens/subTitle": "Valfritt begränsa längden på AI:s svar",
 	"llm.prediction.maxPredictedTokens/info": "Kontrollera maxlängden på chatbotens svar. Slå på för att ställa in en gräns för maxlängden på ett svar, eller slå av för att låta chatboten bestämma när den ska sluta.",
@@ -61,6 +76,15 @@
 	"llm.prediction.llama.presencePenalty/title": "Närvarobegränsning",
 	"llm.prediction.llama.tailFreeSampling/title": "Tail-Free Sampling",
 	"llm.prediction.llama.locallyTypicalSampling/title": "Lokalt typisk sampling",
+	"llm.prediction.llama.xtcProbability/title": "XTC-sannolikhet",
+	"llm.prediction.llama.xtcProbability/subTitle": "XTC (Exclude Top Choices) sampling aktiveras endast med denna sannolikhet per genererat tecken. XTC sampling kan öka kreativiteten och minska klichéer",
+	"llm.prediction.llama.xtcProbability/info": "XTC (Exclude Top Choices) sampling aktiveras endast med denna sannolikhet per genererat tecken. XTC sampling ökar vanligtvis kreativiteten och minskar klichéer",
+	"llm.prediction.llama.xtcThreshold/title": "XTC-tröskel",
+	"llm.prediction.llama.xtcThreshold/subTitle": "XTC (Exclude Top Choices) tröskel. Med en chans på `xtc-probability`, sök efter tecken med sannolikheter mellan `xtc-threshold` och 0.5, och ta bort alla utom det minst sannolika",
+	"llm.prediction.llama.xtcThreshold/info": "XTC (Exclude Top Choices) tröskel. Med en chans på `xtc-probability`, sök efter tecken med sannolikheter mellan `xtc-threshold` och 0.5, och ta bort alla utom det minst sannolika",
+	"llm.prediction.mlx.topKSampling/title": "Top K Sampling",
+	"llm.prediction.mlx.topKSampling/subTitle": "Begränsar nästa tecken till en av de k mest sannolika. Fungerar liknande som temperatur",
+	"llm.prediction.mlx.topKSampling/info": "Begränsar nästa tecken till en av de k mest sannolika. Fungerar liknande som temperatur",
 	"llm.prediction.onnx.topKSampling/title": "Top K Sampling",
 	"llm.prediction.onnx.topKSampling/subTitle": "Begränsar nästa token till en av de top-k mest sannolika token. Fungerar liknande som temperatur",
 	"llm.prediction.onnx.topKSampling/info": "Från ONNX-dokumentation:\n\nAntal högsta sannolikhetsvokabulärtoken att behålla för top-k-filtrering\n\n• Detta filter är avstängt som standard",
@@ -85,20 +109,20 @@
 	"llm.load.seed/info": "Slumpmässig Seed: Ställer in seed för slumptalsgenerering för att säkerställa reproducerbara resultat",
 	
 	"llm.load.llama.evalBatchSize/title": "Utvärderingsbatchstorlek",
-	"llm.load.llama.evalBatchSize/subTitle": "Antal input-token att bearbeta åt gången. Att öka detta ökar prestandan på bekostnad av minnesanvändning",
-	"llm.load.llama.evalBatchSize/info": "Ställer in antalet exempel som bearbetas tillsammans i en batch under utvärdering, vilket påverkar hastighet och minnesanvändning",
-	"llm.load.llama.ropeFrequencyBase/title": "RoPE Basfrekvens",
-	"llm.load.llama.ropeFrequencyBase/subTitle": "Anpassad basfrekvens för roterande positionsinbäddningar (RoPE). Att öka detta kan möjliggöra bättre prestanda vid höga kontextlängder",
-	"llm.load.llama.ropeFrequencyBase/info": "[Avancerat] Justerar basfrekvensen för roterande positionskodning, vilket påverkar hur positionsinformation inbäddas",
-	"llm.load.llama.ropeFrequencyScale/title": "RoPE Frekvensskala",
-	"llm.load.llama.ropeFrequencyScale/subTitle": "Kontextlängden skalas med denna faktor för att utöka effektiv kontext med hjälp av RoPE",
-	"llm.load.llama.ropeFrequencyScale/info": "[Avancerat] Modifierar skalningen av frekvensen för roterande positionskodning för att kontrollera positionskodningens granularitet",
-	"llm.load.llama.acceleration.offloadRatio/title": "GPU-avlastning",
+	"llm.load.llama.evalBatchSize/subTitle": "Antal inmatningstokens att bearbeta åt gången. Att öka detta ökar prestandan men kräver mer minne",
+	"llm.load.llama.evalBatchSize/info": "Anger antalet exempel som bearbetas tillsammans i en batch under utvärdering, vilket påverkar hastighet och minnesanvändning",
+	"llm.load.llama.ropeFrequencyBase/title": "RoPE-frekvensbas",
+	"llm.load.llama.ropeFrequencyBase/subTitle": "Anpassad basfrekvens för roterande positionsinbäddningar (RoPE). Att öka detta kan ge bättre prestanda vid höga kontextlängder",
+	"llm.load.llama.ropeFrequencyBase/info": "[Avancerat] Justerar basfrekvensen för Rotary Positional Encoding, vilket påverkar hur positionsinformation bäddas in",
+	"llm.load.llama.ropeFrequencyScale/title": "RoPE-frekvensskalning",
+	"llm.load.llama.ropeFrequencyScale/subTitle": "Kontextlängden skalas med denna faktor för att förlänga effektiv kontext med RoPE",
+	"llm.load.llama.ropeFrequencyScale/info": "[Avancerat] Ändrar skalningen av frekvensen för Rotary Positional Encoding för att styra granulariteten i positionsinbäddningen",
+	"llm.load.llama.acceleration.offloadRatio/title": "GPU-offload",
 	"llm.load.llama.acceleration.offloadRatio/subTitle": "Antal diskreta modellager att beräkna på GPU för GPU-acceleration",
 	"llm.load.llama.acceleration.offloadRatio/info": "Ställ in antalet lager som ska avlastas till GPU:n.",
 	"llm.load.llama.flashAttention/title": "Flash Attention",
-	"llm.load.llama.flashAttention/subTitle": "Minskar minnesanvändning och genereringstid på vissa modeller",
-	"llm.load.llama.flashAttention/info": "Accelererar uppmärksamhetsmekanismer för snabbare och mer effektiv bearbetning",
+	"llm.load.llama.flashAttention/subTitle": "Minskar minnesanvändning och genereringstid för vissa modeller",
+	"llm.load.llama.flashAttention/info": "Snabbar upp attention-mekanismer för snabbare och effektivare bearbetning",
 	"llm.load.numExperts/title": "Antal experter",
 	"llm.load.numExperts/subTitle": "Antal experter att använda i modellen",
 	"llm.load.numExperts/info": "Antalet experter att använda i modellen",
@@ -108,107 +132,189 @@
 	"llm.load.llama.useFp16ForKVCache/title": "Använd FP16 för KV-cache",
 	"llm.load.llama.useFp16ForKVCache/info": "Minskar minnesanvändningen genom att lagra cache i halvprecision (FP16)",
 	"llm.load.llama.tryMmap/title": "Försök med mmap()",
-	"llm.load.llama.tryMmap/subTitle": "Förbättrar laddningstiden för modellen. Att inaktivera detta kan förbättra prestandan när modellen är större än tillgängligt system-RAM",
-	"llm.load.llama.tryMmap/info": "Ladda modellfiler direkt från disk till minne",
+	"llm.load.llama.tryMmap/subTitle": "Förbättrar inläsningstiden för modellen. Att inaktivera detta kan förbättra prestandan när modellen är större än tillgängligt systemminne",
+	"llm.load.llama.tryMmap/info": "Läs in modellfiler direkt från disk till minne",
+	"llm.load.llama.cpuThreadPoolSize/title": "CPU-trådpoolstorlek",
+	"llm.load.llama.cpuThreadPoolSize/subTitle": "Antal CPU-trådar att tilldela trådpoolen som används för modellberäkning",
+	"llm.load.llama.cpuThreadPoolSize/info": "Antal CPU-trådar att tilldela trådpoolen som används för modellberäkning. Att öka antalet trådar ger inte alltid bättre prestanda. Standardvärdet är <{{dynamicValue}}>",
+	"llm.load.llama.kCacheQuantizationType/title": "K-cache-kvantiseringstyp",
+	"llm.load.llama.kCacheQuantizationType/subTitle": "Lägre värden minskar minnesanvändningen men kan försämra kvaliteten. Effekten varierar mycket mellan modeller.",
+	"llm.load.llama.vCacheQuantizationType/title": "V-cache-kvantiseringstyp",
+	"llm.load.llama.vCacheQuantizationType/subTitle": "Lägre värden minskar minnesanvändningen men kan försämra kvaliteten. Effekten varierar mycket mellan modeller.",
+	"llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ Du måste inaktivera detta värde om Flash Attention inte är aktiverat",
+	"llm.load.llama.vCacheQuantizationType/disabledMessage": "Kan endast aktiveras när Flash Attention är aktiverat",
+	"llm.load.llama.vCacheQuantizationType/invalidF32MetalState": "⚠️ Du måste inaktivera Flash Attention när du använder F32",
+	"llm.load.mlx.kvCacheBits/title": "KV-cache-kvantisering",
+	"llm.load.mlx.kvCacheBits/subTitle": "Antal bitar som KV-cachen ska kvantiseras till",
+	"llm.load.mlx.kvCacheBits/info": "Antal bitar som KV-cachen ska kvantiseras till",
+	"llm.load.mlx.kvCacheBits/turnedOnWarning": "Inställningen för kontextlängd ignoreras när KV-cache-kvantisering används",
+	"llm.load.mlx.kvCacheGroupSize/title": "KV-cache-kvantisering: Gruppstorlek",
+	"llm.load.mlx.kvCacheGroupSize/subTitle": "Gruppstorlek vid kvantiseringsoperationen för KV-cachen. Högre gruppstorlek minskar minnesanvändningen men kan försämra kvaliteten",
+	"llm.load.mlx.kvCacheGroupSize/info": "Antal bitar som KV-cachen ska kvantiseras till",
+	"llm.load.mlx.kvCacheQuantizationStart/title": "KV-cache-kvantisering: Börja kvantisera när kontexten passerar denna längd",
+	"llm.load.mlx.kvCacheQuantizationStart/subTitle": "Kontextlängdströskel för att börja kvantisera KV-cachen",
+	"llm.load.mlx.kvCacheQuantizationStart/info": "Kontextlängdströskel för att börja kvantisera KV-cachen",
+	"llm.load.mlx.kvCacheQuantization/title": "KV-cache-kvantisering",
+	"llm.load.mlx.kvCacheQuantization/subTitle": "Kvantisera modellens KV-cache. Detta kan ge snabbare generering och lägre minnesanvändning,\npå bekostnad av modellens utdata-kvalitet.",
+	"llm.load.mlx.kvCacheQuantization/bits/title": "KV-cache-kvantiseringsbitar",
+	"llm.load.mlx.kvCacheQuantization/bits/tooltip": "Antal bitar att kvantisera KV-cachen till",
+	"llm.load.mlx.kvCacheQuantization/bits/bits": "Bitar",
+	"llm.load.mlx.kvCacheQuantization/groupSize/title": "Gruppstorleksstrategi",
+	"llm.load.mlx.kvCacheQuantization/groupSize/accuracy": "Noggrannhet",
+	"llm.load.mlx.kvCacheQuantization/groupSize/balanced": "Balanserad",
+	"llm.load.mlx.kvCacheQuantization/groupSize/speedy": "Snabb",
+	"llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Avancerat: Kvantiserad 'matmul group size'-konfiguration\n\n• Noggrannhet = gruppstorlek 32\n• Balanserad = gruppstorlek 64\n• Snabb = gruppstorlek 128\n",
+	"llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Börja kvantisera när kontexten når denna längd",
+	"llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "När kontexten når detta antal tokens,\nbörja kvantisera KV-cachen",
 
 	"embedding.load.contextLength/title": "Kontextlängd",
-	"embedding.load.contextLength/subTitle": "Det maximala antalet token som modellen kan hantera i en prompt. Se alternativen för kontextöverflöd under \"Prediktionsparametrar\" för fler sätt att hantera detta",
-	"embedding.load.contextLength/info": "Anger det maximala antalet token som modellen kan överväga samtidigt, vilket påverkar hur mycket kontext den behåller under bearbetning",
-	"embedding.load.llama.ropeFrequencyBase/title": "RoPE Basfrekvens",
-	"embedding.load.llama.ropeFrequencyBase/subTitle": "Anpassad basfrekvens för roterande positionsinbäddningar (RoPE). Att öka detta kan möjliggöra bättre prestanda vid höga kontextlängder",
-	"embedding.load.llama.ropeFrequencyBase/info": "[Avancerat] Justerar basfrekvensen för roterande positionskodning, vilket påverkar hur positionsinformation inbäddas",
+	"embedding.load.contextLength/subTitle": "Maximalt antal tokens modellen kan hantera i en prompt. Se alternativen för kontextöverskridande under \"Inferensparametrar\" för fler sätt att hantera detta",
+	"embedding.load.contextLength/info": "Anger det maximala antalet tokens modellen kan ta hänsyn till samtidigt, vilket påverkar hur mycket kontext den behåller under bearbetning",
+	"embedding.load.llama.ropeFrequencyBase/title": "RoPE-frekvensbas",
+	"embedding.load.llama.ropeFrequencyBase/subTitle": "Anpassad basfrekvens för roterande positionsinbäddningar (RoPE). Att öka detta kan ge bättre prestanda vid höga kontextlängder",
+	"embedding.load.llama.ropeFrequencyBase/info": "[Avancerat] Justerar basfrekvensen för Rotary Positional Encoding, vilket påverkar hur positionsinformation bäddas in",
 	"embedding.load.llama.evalBatchSize/title": "Utvärderingsbatchstorlek",
-	"embedding.load.llama.evalBatchSize/subTitle": "Antal input-token att bearbeta åt gången. Att öka detta ökar prestandan på bekostnad av minnesanvändning",
-	"embedding.load.llama.evalBatchSize/info": "Ställer in antalet token som bearbetas tillsammans i en batch under utvärdering",
-	"embedding.load.llama.ropeFrequencyScale/title": "RoPE Frekvensskala",
-	"embedding.load.llama.ropeFrequencyScale/subTitle": "Kontextlängden skalas med denna faktor för att utöka effektiv kontext med hjälp av RoPE",
-	"embedding.load.llama.ropeFrequencyScale/info": "[Avancerat] Modifierar skalningen av frekvensen för roterande positionskodning för att kontrollera positionskodningens granularitet",
-	"embedding.load.llama.acceleration.offloadRatio/title": "GPU-avlastning",
+	"embedding.load.llama.evalBatchSize/subTitle": "Antal inmatningstokens att bearbeta åt gången. Att öka detta ökar prestandan men kräver mer minne",
+	"embedding.load.llama.evalBatchSize/info": "Anger antalet tokens som bearbetas tillsammans i en batch under utvärdering",
+	"embedding.load.llama.ropeFrequencyScale/title": "RoPE-frekvensskalning",
+	"embedding.load.llama.ropeFrequencyScale/subTitle": "Kontextlängden skalas med denna faktor för att förlänga effektiv kontext med RoPE",
+	"embedding.load.llama.ropeFrequencyScale/info": "[Avancerat] Ändrar skalningen av frekvensen för Rotary Positional Encoding för att styra granulariteten i positionsinbäddningen",
+	"embedding.load.llama.acceleration.offloadRatio/title": "GPU-offload",
 	"embedding.load.llama.acceleration.offloadRatio/subTitle": "Antal diskreta modellager att beräkna på GPU för GPU-acceleration",
 	"embedding.load.llama.acceleration.offloadRatio/info": "Ställ in antalet lager som ska avlastas till GPU:n.",
 	"embedding.load.llama.keepModelInMemory/title": "Behåll modell i minnet",
-	"embedding.load.llama.keepModelInMemory/subTitle": "Reservera systemminne för modellen, även när den avlastas till GPU. Förbättrar prestanda men kräver mer system-RAM",
-	"embedding.load.llama.keepModelInMemory/info": "Förhindrar att modellen byts ut till disk, vilket säkerställer snabbare åtkomst på bekostnad av högre RAM-användning",
+	"embedding.load.llama.keepModelInMemory/subTitle": "Reservera systemminne för modellen, även när den avlastas till GPU. Förbättrar prestanda men kräver mer RAM",
+	"embedding.load.llama.keepModelInMemory/info": "Förhindrar att modellen swappas ut till disk, vilket ger snabbare åtkomst på bekostnad av högre RAM-användning",
 	"embedding.load.llama.tryMmap/title": "Försök med mmap()",
-	"embedding.load.llama.tryMmap/subTitle": "Förbättrar laddningstiden för modellen. Att inaktivera detta kan förbättra prestandan när modellen är större än tillgängligt system-RAM",
-	"embedding.load.llama.tryMmap/info": "Ladda modellfiler direkt från disk till minne",
+	"embedding.load.llama.tryMmap/subTitle": "Förbättrar inläsningstiden för modellen. Att inaktivera detta kan förbättra prestandan när modellen är större än tillgängligt systemminne",
+	"embedding.load.llama.tryMmap/info": "Läs in modellfiler direkt från disk till minne",
 	"embedding.load.seed/title": "Seed",
 	"embedding.load.seed/subTitle": "Seed för slumptalsgeneratorn som används vid textgenerering. -1 är slumpmässig",
 
 	"embedding.load.seed/info": "Slumpmässig Seed: Ställer in seed för slumptalsgenerering för att säkerställa reproducerbara resultat",
 
 	"presetTooltip": {
-			"included/title": "Förinställda värden",
-			"included/description": "Följande fält kommer att tillämpas",
-			"included/empty": "Inga fält i denna förinställning gäller i denna kontext.",
-			"included/conflict": "Du kommer att bli ombedd att välja om du vill tillämpa detta värde",
-			"separateLoad/title": "Konfiguration vid laddning",
-			"separateLoad/description.1": "Förinställningen inkluderar också följande konfiguration vid laddning. Konfiguration vid laddning är modellövergripande och kräver omladdning av modellen för att träda i kraft. Håll",
-			"separateLoad/description.2": "för att tillämpa på",
-			"separateLoad/description.3": ".",
-			"excluded/title": "Kanske inte gäller",
-			"excluded/description": "Följande fält ingår i förinställningen men gäller inte i den aktuella kontexten.",
-			"legacy/title": "Legacy-förinställning",
-			"legacy/description": "Denna förinställning är en legacy-förinställning. Den inkluderar följande fält som antingen hanteras automatiskt nu eller inte längre är tillämpliga."
-		},
+		"included/title": "Förinställda värden",
+		"included/description": "Följande fält kommer att tillämpas",
+		"included/empty": "Inga fält i denna förinställning gäller i detta sammanhang.",
+		"included/conflict": "Du kommer att bli ombedd att välja om detta värde ska tillämpas",
+		"separateLoad/title": "Konfiguration vid inläsning",
+		"separateLoad/description.1": "Förinställningen innehåller även följande konfiguration vid inläsning. Konfiguration vid inläsning gäller för hela modellen och kräver att modellen laddas om för att träda i kraft. Håll ned",
+		"separateLoad/description.2": "för att tillämpa på",
+		"separateLoad/description.3": ".",
+		"excluded/title": "Kanske inte gäller",
+		"excluded/description": "Följande fält ingår i förinställningen men gäller inte i det aktuella sammanhanget.",
+		"legacy/title": "Legacy-förinställning",
+		"legacy/description": "Denna förinställning är en äldre förinställning. Den innehåller följande fält som antingen hanteras automatiskt nu eller inte längre är tillämpliga.",
+		"button/publish": "Publicera till Hub",
+		"button/pushUpdate": "Skicka ändringar till Hub",
+		"button/noChangesToPush": "Inga ändringar att skicka",
+		"button/export": "Exportera",
+		"hubLabel": "Förinställning från Hub av {{user}}",
+		"ownHubLabel": "Din förinställning från Hub"
+	},
 
   "customInputs": {
     "string": {
-      "emptyParagraph": "<Empty>"
+      "emptyParagraph": "<Tom>"
     },
-    "checkboxNumeric": {
-      "off": "AV"
+		"checkboxNumeric": {
+			"off": "AV"
+		},
+		"llamaCacheQuantizationType": {
+			"off": "AV"
+		},
+		"mlxKvCacheBits": {
+			"off": "AV"
     },
     "stringArray": {
-      "empty": "<Empty>"
+      "empty": "<Tom>"
     },
-    "llmPromptTemplate": {
-      "type": "Typ",
+		"llmPromptTemplate": {
+			"type": "Typ",
 			"types.jinja/label": "Mall (Jinja)",
-			"jinja.bosToken/label": "BOS Token",
-			"jinja.eosToken/label": "EOS Token",
+			"jinja.bosToken/label": "BOS-token",
+			"jinja.eosToken/label": "EOS-token",
 			"jinja.template/label": "Mall",
-			"jinja/error": "Misslyckades med att tolka Jinja-mallen: {{error}}",
-			"jinja/empty": "Vänligen ange en Jinja-mall ovan.",
-			"jinja/unlikelyToWork": "Jinja-mallen du angav ovan kommer troligen inte att fungera eftersom den inte refererar till variabeln \"messages\". Vänligen dubbelkolla om du har angett en korrekt mall.",
+			"jinja/error": "Misslyckades med att tolka Jinja-mall: {{error}}",
+			"jinja/empty": "Ange en Jinja-mall ovan.",
+			"jinja/unlikelyToWork": "Jinja-mallen du angav ovan verkar inte fungera eftersom den inte refererar till variabeln \"messages\". Kontrollera att du har angett en korrekt mall.",
 			"types.manual/label": "Manuell",
 			"manual.subfield.beforeSystem/label": "Före System",
-			"manual.subfield.beforeSystem/placeholder": "Ange System-prefix...",
+			"manual.subfield.beforeSystem/placeholder": "Ange systemprefix...",
 			"manual.subfield.afterSystem/label": "Efter System",
-			"manual.subfield.afterSystem/placeholder": "Ange System-suffix...",
+			"manual.subfield.afterSystem/placeholder": "Ange systemsuffix...",
 			"manual.subfield.beforeUser/label": "Före Användare",
-			"manual.subfield.beforeUser/placeholder": "Ange Användar-prefix...",
+			"manual.subfield.beforeUser/placeholder": "Ange användarprefix...",
 			"manual.subfield.afterUser/label": "Efter Användare",
-			"manual.subfield.afterUser/placeholder": "Ange Användar-suffix...",
+			"manual.subfield.afterUser/placeholder": "Ange användarsuffix...",
 			"manual.subfield.beforeAssistant/label": "Före Assistent",
-			"manual.subfield.beforeAssistant/placeholder": "Ange Assistent-prefix...",
+			"manual.subfield.beforeAssistant/placeholder": "Ange assistentprefix...",
 			"manual.subfield.afterAssistant/label": "Efter Assistent",
 			"manual.subfield.afterAssistant/placeholder": "Ange Assistent-suffix...",
 			"stopStrings/label": "Ytterligare Stoppsträngar",
 			"stopStrings/subTitle": "Mall-specifika stoppsträngar som kommer att användas utöver användarspecificerade stoppsträngar."
     },
 		"contextLength": {
-			"maxValueTooltip": "Detta är det maximala antalet token som modellen tränades att hantera. Klicka för att ställa in kontexten till detta värde",
+			"maxValueTooltip": "Detta är det maximala antalet token som modellen tränades för att hantera. Klicka för att sätta kontexten till detta värde",
 			"maxValueTextStart": "Modellen stöder upp till",
 			"maxValueTextEnd": "token",
-			"tooltipHint": "Även om en modell kan stödja upp till ett visst antal token, kan prestandan försämras om din maskins resurser inte kan hantera belastningen - var försiktig när du ökar detta värde"
+			"tooltipHint": "Även om en modell kan stödja upp till ett visst antal token, kan prestandan försämras om din dators resurser inte räcker till – var försiktig när du ökar detta värde"
 		},
 		"contextOverflowPolicy": {
 			"stopAtLimit": "Stoppa vid gräns",
-			"stopAtLimitSub": "Sluta generera när modellens minne blir fullt",
+			"stopAtLimitSub": "Sluta generera när modellens minne är fullt",
 			"truncateMiddle": "Trunkera mitten",
-			"truncateMiddleSub": "Tar bort meddelanden från mitten av konversationen för att ge plats åt nyare. Modellen kommer fortfarande att minnas början av konversationen",
+			"truncateMiddleSub": "Tar bort meddelanden från mitten av konversationen för att ge plats åt nya. Modellen kommer fortfarande ihåg början av konversationen",
 			"rollingWindow": "Rullande fönster",
-			"rollingWindowSub": "Modellen kommer alltid att få de senaste meddelandena men kan glömma början av konversationen"
-    },
+			"rollingWindowSub": "Modellen får alltid de senaste meddelandena men kan glömma början av konversationen"
+		},
     "llamaAccelerationOffloadRatio": {
       "max": "MAX",
       "off": "AV"
-    }
+    },
+		"gpuSplitStrategy": {
+			"evenly": "Dela jämnt",
+			"favorMainGpu": "Prioritera huvud-GPU"
+		},
+		"speculativeDecodingDraftModel": {
+			"readMore": "Läs hur det fungerar",
+			"placeholder": "Välj en kompatibel utkastmodell",
+			"noCompatible": "Inga kompatibla utkastmodeller hittades för din nuvarande modellval",
+			"stillLoading": "Identifierar kompatibla utkastmodeller...",
+			"notCompatible": "Den valda utkastmodellen (<draft/>) är inte kompatibel med det aktuella modellvalet (<current/>).",
+			"off": "AV",
+			"loadModelToSeeOptions": "Ladda modell <keyboard-shortcut /> för att se kompatibla alternativ",
+			"compatibleWithNumberOfModels": "Rekommenderas för minst {{dynamicValue}} av dina modeller",
+			"recommendedForSomeModels": "Rekommenderas för vissa modeller",
+			"recommendedForLlamaModels": "Rekommenderas för Llama-modeller",
+			"recommendedForQwenModels": "Rekommenderas för Qwen-modeller",
+			"onboardingModal": {
+			"introducing": "Introducerar",
+			"speculativeDecoding": "Spekulativ avkodning",
+			"firstStepBody": "Snabbare inferens för <custom-span>llama.cpp</custom-span> och <custom-span>MLX</custom-span>-modeller",
+			"secondStepTitle": "Snabbare inferens med spekulativ avkodning",
+			"secondStepBody": "Spekulativ avkodning är en teknik där två modeller samarbetar:\n - En större \"huvud\"modell\n - En mindre \"utkast\"modell\n\nUnder generering föreslår utkastmodellen snabbt tokens som den större huvudmodellen verifierar. Att verifiera tokens är mycket snabbare än att faktiskt generera dem, vilket ger hastighetsvinster. **Generellt gäller att ju större skillnad i storlek mellan huvudmodellen och utkastmodellen, desto större hastighetsökning**.\n\nFör att bibehålla kvalitet accepterar huvudmodellen endast tokens som stämmer överens med vad den själv skulle ha genererat, vilket möjliggör svarskvaliteten från den större modellen men med snabbare inferens. Båda modellerna måste dela samma vokabulär.",
+			"draftModelRecommendationsTitle": "Rekommendationer för utkastmodell",
+			"basedOnCurrentModels": "Baserat på dina nuvarande modeller",
+			"close": "Stäng",
+			"next": "Nästa",
+			"done": "Klar"
+			},
+			"speculativeDecodingLoadModelToSeeOptions": "Ladda först en modell <model-badge /> ",
+			"errorEngineNotSupported": "Spekulativ avkodning kräver minst version {{minVersion}} av motorn {{engineName}}. Uppdatera motorn (<key/>) och ladda om modellen för att använda denna funktion.",
+			"errorEngineNotSupported/noKey": "Spekulativ avkodning kräver minst version {{minVersion}} av motorn {{engineName}}. Uppdatera motorn och ladda om modellen för att använda denna funktion."
+		},
+		"llmReasoningParsing": {
+			"startString/label": "Startsträng",
+			"startString/placeholder": "Ange startsträng...",
+			"endString/label": "Slutsträng",
+			"endString/placeholder": "Ange slutsträng..."
+		}
   },
 	"saveConflictResolution": {
 		"title": "Välj vilka värden som ska inkluderas i förinställningen",
-		"description": "Välj och välj vilka värden du vill behålla",
+		"description": "Välj vilka värden du vill behålla",
 		"instructions": "Klicka på ett värde för att inkludera det",
 		"userValues": "Tidigare värde",
 		"presetValues": "Nytt värde",
@@ -217,31 +323,38 @@
 	},
 	"applyConflictResolution": {
 		"title": "Vilka värden ska behållas?",
-		"description": "Du har obekräftade ändringar som överlappar med den inkommande förinställningen",
+		"description": "Du har osparade ändringar som överlappar med den inkommande förinställningen",
 		"instructions": "Klicka på ett värde för att behålla det",
 		"userValues": "Nuvarande värde",
 		"presetValues": "Inkommande förinställningsvärde",
 		"confirm": "Bekräfta",
 		"cancel": "Avbryt"
 	},
-	"empty": "<Empty>",
-  "presets": {
+	"empty": "<Tom>",
+	"noModelSelected": "Ingen modell vald",
+	"apiIdentifier.label": "API-identifierare",
+	"apiIdentifier.hint": "Ange valfritt en identifierare för denna modell. Den kommer att användas i API-förfrågningar. Lämna tomt för att använda standardidentifieraren.",
+	"idleTTL.label": "Ladda ur automatiskt vid inaktivitet (TTL)",
+	"idleTTL.hint": "Om angivet kommer modellen automatiskt att laddas ur efter att ha varit inaktiv under angiven tid.",
+	"idleTTL.mins": "min",
+
+	"presets": {
 		"title": "Förinställning",
-		"commitChanges": "Verkställ ändringar",
-		"commitChanges/description": "Verkställ dina ändringar till förinställningen.",
+		"commitChanges": "Spara ändringar",
+		"commitChanges/description": "Spara dina ändringar i förinställningen.",
 		"commitChanges.manual": "Nya fält upptäckta. Du kommer att kunna välja vilka ändringar som ska inkluderas i förinställningen.",
-		"commitChanges.manual.hold.0": "Håll",
-		"commitChanges.manual.hold.1": "för att välja vilka ändringar som ska verkställas till förinställningen.",
-		"commitChanges.saveAll.hold.0": "Håll",
+		"commitChanges.manual.hold.0": "Håll ned",
+		"commitChanges.manual.hold.1": "för att välja vilka ändringar som ska sparas i förinställningen.",
+		"commitChanges.saveAll.hold.0": "Håll ned",
 		"commitChanges.saveAll.hold.1": "för att spara alla ändringar.",
-		"commitChanges.saveInPreset.hold.0": "Håll",
-		"commitChanges.saveInPreset.hold.1": "för att endast spara ändringar till fält som redan är inkluderade i förinställningen.",
-		"commitChanges/error": "Misslyckades med att verkställa ändringar till förinställningen.",
+		"commitChanges.saveInPreset.hold.0": "Håll ned",
+		"commitChanges.saveInPreset.hold.1": "för att endast spara ändringar i fält som redan ingår i förinställningen.",
+		"commitChanges/error": "Misslyckades med att spara ändringar i förinställningen.",
 		"commitChanges.manual/description": "Välj vilka ändringar som ska inkluderas i förinställningen.",
-		"saveAs": "Spara som...",
+		"saveAs": "Spara som ny...",
 		"presetNamePlaceholder": "Ange ett namn för förinställningen...",
-		"cannotCommitChangesLegacy": "Detta är en legacy-förinställning och kan inte modifieras. Du kan skapa en kopia genom att använda \"Spara som ny...\".",
-		"cannotCommitChangesNoChanges": "Inga ändringar att verkställa.",
+		"cannotCommitChangesLegacy": "Detta är en äldre förinställning och kan inte ändras. Du kan skapa en kopia genom att använda \"Spara som ny...\".",
+		"cannotCommitChangesNoChanges": "Inga ändringar att spara.",
 		"emptyNoUnsaved": "Välj en förinställning...",
 		"emptyWithUnsaved": "Osparad förinställning",
 		"saveEmptyWithUnsaved": "Spara förinställning som...",
@@ -253,16 +366,217 @@
 		"deselect/error": "Misslyckades med att avmarkera förinställningen.",
 		"select/error": "Misslyckades med att välja förinställning.",
 		"delete/error": "Misslyckades med att radera förinställning.",
-		"discardChanges": "Kassera osparade",
-		"discardChanges/info": "Kassera alla icke-verkställda ändringar och återställ förinställningen till dess ursprungliga tillstånd",
-		"newEmptyPreset": "Skapa ny tom förinställning...",
-		"contextMenuSelect": "Välj förinställning",
-		"contextMenuDelete": "Radera"
+		"discardChanges": "Kasta osparade",
+		"discardChanges/info": "Kasta alla osparade ändringar och återställ förinställningen till ursprungligt tillstånd",
+		"newEmptyPreset": "+ Ny förinställning",
+		"importPreset": "Importera",
+		"contextMenuCopyIdentifier": "Kopiera förinställnings-ID",
+		"contextMenuSelect": "Använd förinställning",
+		"contextMenuDelete": "Ta bort...",
+		"contextMenuShare": "Publicera...",
+		"contextMenuOpenInHub": "Visa på webben",
+		"contextMenuPullFromHub": "Hämta senaste",
+		"contextMenuPushChanges": "Skicka ändringar till Hub",
+		"contextMenuPushingChanges": "Skickar...",
+		"contextMenuPushedChanges": "Ändringar skickade",
+		"contextMenuExport": "Exportera fil",
+		"contextMenuRevealInExplorer": "Visa i Utforskaren",
+		"contextMenuRevealInFinder": "Visa i Finder",
+		"share": {
+			"title": "Publicera förinställning",
+			"action": "Dela din förinställning så att andra kan ladda ner, gilla och förgrena den",
+			"presetOwnerLabel": "Ägare",
+			"uploadAs": "Din förinställning kommer att skapas som {{name}}",
+			"presetNameLabel": "Förinställningsnamn",
+			"descriptionLabel": "Beskrivning (valfritt)",
+			"loading": "Publicerar...",
+			"success": "Förinställning publicerad",
+			"presetIsLive": "<preset-name /> är nu live på Hub!",
+			"close": "Stäng",
+			"confirmViewOnWeb": "Visa på webben",
+			"confirmCopy": "Kopiera URL",
+			"confirmCopied": "Kopierad!",
+			"pushedToHub": "Din förinställning har skickats till Hub",
+			"descriptionPlaceholder": "Ange en beskrivning...",
+			"willBePublic": "Denna förinställning blir offentlig. Alla på internet kan se den.",
+			"willBePrivate": "Endast du kan se denna förinställning",
+			"willBeOrgVisible": "Denna förinställning blir synlig för alla i organisationen.",
+			"publicSubtitle": "Din förinställning är <custom-bold>Offentlig</custom-bold>. Andra kan ladda ner och förgrena den på lmstudio.ai",
+			"privateUsageReached": "Gränsen för antal privata förinställningar har uppnåtts.",
+			"continueInBrowser": "Fortsätt i webbläsare",
+			"confirmShareButton": "Publicera",
+			"error": "Misslyckades med att publicera förinställning",
+			"createFreeAccount": "Skapa ett gratis konto i Hub för att publicera förinställningar"
+		},
+		"update": {
+			"title": "Skicka ändringar till Hub",
+			"title/success": "Förinställning uppdaterad",
+			"subtitle": "Gör ändringar i <custom-preset-name /> och skicka dem till Hub",
+			"descriptionLabel": "Beskrivning",
+			"descriptionPlaceholder": "Ange en beskrivning...",
+			"loading": "Skickar...",
+			"cancel": "Avbryt",
+			"createFreeAccount": "Skapa ett gratis konto i Hub för att publicera förinställningar",
+			"error": "Misslyckades med att skicka uppdatering",
+			"confirmUpdateButton": "Skicka"
+		},
+		"resolve": {
+			"title": "Lös konflikter...",
+			"tooltip": "Öppna en dialog för att lösa skillnader med Hub-versionen"
+		},
+		"loginToManage": {
+			"title": "Logga in för att hantera..."
+		},
+		"downloadFromHub": {
+			"title": "Ladda ner",
+			"downloading": "Laddar ner...",
+			"success": "Nedladdad!",
+			"error": "Misslyckades med att ladda ner"
+		},
+		"push": {
+			"title": "Skicka ändringar",
+			"pushing": "Skickar...",
+			"success": "Skickad",
+			"tooltip": "Skicka dina lokala ändringar till den fjärrversion som finns på Hub",
+			"error": "Misslyckades med att skicka"
+		},
+		"saveAsNewModal": {
+			"title": "Hoppsan! Hittade inte förinställningen på Hub",
+			"confirmSaveAsNewDescription": "Vill du publicera denna förinställning som en ny?",
+			"confirmButton": "Publicera som ny"
+		},
+		"pull": {
+			"title": "Hämta senaste",
+			"error": "Misslyckades med att hämta",
+			"contextMenuErrorMessage": "Misslyckades med att hämta",
+			"success": "Hämtad",
+			"pulling": "Hämtar...",
+			"upToDate": "Uppdaterad!",
+			"unsavedChangesModal": {
+				"title": "Du har osparade ändringar.",
+				"bodyContent": "Att hämta från fjärrenheten kommer att skriva över dina osparade ändringar. Fortsätt?",
+				"confirmButton": "Skriv över osparade ändringar"
+			}
+		},
+		"import": {
+			"title": "Importera en förinställning från fil",
+			"dragPrompt": "Dra och släpp förinställningsfiler (.tar.gz eller preset.json) eller <custom-link>välj från din dator</custom-link>",
+			"remove": "Ta bort",
+			"cancel": "Avbryt",
+			"importPreset_zero": "Importera förinställning",
+			"importPreset_one": "Importera förinställning",
+			"importPreset_other": "Importera {{count}} förinställningar",
+			"selectDialog": {
+				"title": "Välj förinställningsfil (preset.json eller .tar.gz)",
+				"button": "Importera"
+			},
+			"error": "Misslyckades med att importera förinställning",
+			"resultsModal": {
+				"titleSuccessSection_one": "1 förinställning importerad",
+				"titleSuccessSection_other": "{{count}} förinställningar importerade",
+				"titleFailSection_zero": "",
+				"titleFailSection_one": "({{count}} misslyckades)",
+				"titleFailSection_other": "({{count}} misslyckades)",
+				"titleAllFailed": "Misslyckades med att importera förinställningar",
+				"importMore": "Importera fler",
+				"close": "Klar",
+				"successBadge": "Lyckades",
+				"alreadyExistsBadge": "Förinställning finns redan",
+				"errorBadge": "Fel",
+				"invalidFileBadge": "Ogiltig fil",
+				"otherErrorBadge": "Misslyckades med att importera förinställning",
+				"errorViewDetailsButton": "Visa detaljer",
+				"seeError": "Visa fel",
+				"noName": "Inget namn",
+				"useInChat": "Använd i chatt"
+			},
+			"importFromUrl": {
+				"button": "Importera från URL...",
+				"title": "Importera från URL",
+				"back": "Importera från fil...",
+				"action": "Klistra in LM Studio Hub-URL:en för förinställningen du vill importera nedan",
+				"invalidUrl": "Ogiltig URL. Kontrollera att du klistrar in en korrekt LM Studio Hub-URL.",
+				"tip": "Du kan installera förinställningen direkt med knappen {{buttonName}} i LM Studio Hub",
+				"confirm": "Importera",
+				"cancel": "Avbryt",
+				"loading": "Importerar...",
+				"error": "Misslyckades med att ladda ner förinställning."
+			}
+		},
+		"download": {
+			"title": "Hämta <preset-name /> från LM Studio Hub",
+			"subtitle": "Spara <custom-name /> till dina förinställningar. Då kan du använda denna förinställning i appen",
+			"button": "Hämta",
+			"button/loading": "Hämtar...",
+			"cancel": "Avbryt",
+			"error": "Misslyckades med att ladda ner förinställning."
+		},
+		"inclusiveness": {
+			"speculativeDecoding": "Inkludera i förinställning"
+		}
 	},
 
 	"flashAttentionWarning": "Flash Attention är en experimentell funktion som kan orsaka problem med vissa modeller. Om du stöter på problem, försök att inaktivera den.",
-	
+	"llamaKvCacheQuantizationWarning": "KV-cache-kvantisering är en experimentell funktion som kan orsaka problem med vissa modeller. Flash Attention måste vara aktiverat för V-cache-kvantisering. Om du stöter på problem, återställ till standardvärdet \"F16\".",
+
 	"seedUncheckedHint": "Slumpmässig Seed",
 	"ropeFrequencyBaseUncheckedHint": "Auto",
-	"ropeFrequencyScaleUncheckedHint": "Auto"
+	"ropeFrequencyScaleUncheckedHint": "Auto",
+
+	"hardware": {
+		"environmentVariables": "Miljövariabler",
+		"environmentVariables.info": "Om du är osäker, lämna dessa på standardvärdena",
+		"environmentVariables.reset": "Återställ till standard",
+
+		"gpus.information": "Konfigurera grafikkort (GPU:er) som upptäckts på din dator",
+		"gpuSettings": {
+			"editMaxCapacity": "Redigera maxkapacitet",
+			"hideEditMaxCapacity": "Dölj redigera maxkapacitet",
+			"allOffWarning": "Alla GPU:er är avstängda eller inaktiverade, se till att det finns någon GPU-allokering för att kunna ladda modeller",
+			"split": {
+				"title": "Strategi",
+				"placeholder": "Välj en GPU-minnesallokering",
+				"options": {
+					"generalDescription": "Konfigurera hur modeller ska laddas på dina GPU:er",
+					"evenly": {
+						"title": "Dela jämnt",
+						"description": "Allokera minne jämnt över GPU:erna"
+					},
+					"priorityOrder": {
+						"title": "Prioritetsordning",
+						"description": "Dra för att ändra prioritet. Systemet försöker allokera mer på GPU:er som listas först"
+					},
+					"custom": {
+						"title": "Anpassad",
+						"description": "Allokera minne",
+						"maxAllocation": "Maximal allokering"
+					}
+				}
+			},
+			"deviceId.info": "Unik identifierare för denna enhet",
+			"changesOnlyAffectNewlyLoadedModels": "Ändringar påverkar endast nyligen inlästa modeller",
+			"toggleGpu": "Aktivera/Inaktivera GPU"
+		}
+	},
+
+	"load.gpuSplitConfig/title": "GPU-splitkonfiguration",
+	"envVars/title": "Ställ in en miljövariabel",
+	"envVars": {
+		"select": {
+			"placeholder": "Välj en miljövariabel...",
+			"noOptions": "Inga fler tillgängliga",
+			"filter": {
+				"placeholder": "Filtrera sökresultat",
+				"resultsFound_zero": "Inga resultat hittades",
+				"resultsFound_one": "1 resultat hittades",
+				"resultsFound_other": "{{count}} resultat hittades"
+			}
+		},
+		"inputValue": {
+			"placeholder": "Ange ett värde"
+		},
+		"values": {
+			"title": "Nuvarande värden"
+		}
+  }
 }

@@ -1,5 +1,304 @@
 {
   "copyLmStudioLinkButton/toolTip": "मॉडल डाउनलोड लिंक कॉपी करें",
 
-  "filter.noMatches": "कोई मेल नहीं"
+  "filter.noMatches": "कोई मिलान नहीं",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "संसाधन निकाले जा रहे हैं"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "रनटाइम संगतता जांची जा रही है"
+    },
+    "indexingRuntimes": {
+      "badge": "रनटाइम अनुक्रमित किए जा रहे हैं"
+    },
+    "indexingModels": {
+      "badge": "मॉडल अनुक्रमित किए जा रहे हैं"
+    },
+    "authenticating": {
+      "badge": "प्रमाणीकरण हो रहा है"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "एक्सटेंशन पैक अपडेट हो रहा है ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "LM Studio Hub में लॉग इन करें",
+    "authError": "प्रमाणीकरण असफल",
+    "noAccount": "खाता नहीं है?",
+    "signUp": "साइन अप करें",
+    "havingTrouble": "समस्या हो रही है?",
+    "retry": "पुनः प्रयास करें"
+  },
+  "artifacts": {
+    "fetchError": "आर्टिफैक्ट लाने में असफल",
+    "organizationVisible": "संगठन दृश्यमान"
+  },
+
+  "incompatible": "असंगत",
+  "compatible": "संगत",
+  "public": "सार्वजनिक",
+  "private": "निजी",
+  "yes": "हाँ",
+  "no": "नहीं",
+  "go": "जाएं",
+
+  "proceedWithEllipsis": "आगे बढ़ें...",
+  "proceed": "आगे बढ़ें",
+  "inProgress": "प्रगति में...",
+  "failed": "असफल",
+  "pending": "लंबित",
+  "doneWithExclamation": "हो गया!",
+  "done": "हो गया",
+
+  "complete": {
+    "completeWithEllipsis": "पूर्ण...",
+    "complete": "पूर्ण",
+    "completingWithEllipsis": "पूर्ण हो रहा है...",
+    "completing": "पूर्ण हो रहा है",
+    "completedWithExclamation": "पूर्ण हो गया!",
+    "completed": "पूर्ण हो गया"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "रद्द करें...",
+    "cancel": "रद्द करें",
+    "cancelingWithEllipsis": "रद्द हो रहा है...",
+    "canceling": "रद्द हो रहा है",
+    "canceled": "रद्द किया गया"
+  },
+
+  "next": {
+    "nextWithEllipsis": "अगला...",
+    "next": "अगला"
+  },
+
+  "back": {
+    "backWithEllipsis": "वापस...",
+    "back": "वापस"
+  },
+
+  "close": {
+    "closeWithEllipsis": "बंद करें...",
+    "close": "बंद करें",
+    "closingWithEllipsis": "बंद हो रहा है...",
+    "closing": "बंद हो रहा है",
+    "closedWithExclamation": "बंद हो गया!",
+    "closed": "बंद हो गया"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "हटाएं...",
+    "delete": "हटाएं",
+    "deletingWithEllipsis": "हटाया जा रहा है...",
+    "deleting": "हटाया जा रहा है",
+    "deletedWithExclamation": "हटा दिया गया!",
+    "deleted": "हटा दिया गया"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "पुनः प्रयास...",
+    "retry": "पुनः प्रयास",
+    "retryingWithEllipsis": "पुनः प्रयास हो रहा है...",
+    "retrying": "पुनः प्रयास हो रहा है"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "रीफ्रेश करें...",
+    "refresh": "रीफ्रेश करें",
+    "refreshingWithEllipsis": "रीफ्रेश हो रहा है...",
+    "refreshing": "रीफ्रेश हो रहा है",
+    "refreshedWithExclamation": "रीफ्रेश हो गया!",
+    "refreshed": "रीफ्रेश हो गया"
+  },
+
+  "confirm": {
+    "confirm": "पुष्टि करें",
+    "confirmingWithEllipsis": "पुष्टि हो रही है...",
+    "confirming": "पुष्टि हो रही है",
+    "confirmedWithExclamation": "पुष्टि हो गई!",
+    "confirmed": "पुष्टि हो गई"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "कॉपी करें...",
+    "copy": "कॉपी करें",
+    "copyingWithEllipsis": "कॉपी हो रहा है...",
+    "copying": "कॉपी हो रहा है",
+    "copiedWithExclamation": "कॉपी हो गया!",
+    "copied": "कॉपी हो गया"
+  },
+
+  "edit": {
+    "editWithEllipsis": "संपादित करें...",
+    "edit": "संपादित करें",
+    "editingWithEllipsis": "संपादित हो रहा है...",
+    "editing": "संपादित हो रहा है",
+    "editedWithExclamation": "संपादित हो गया!",
+    "edited": "संपादित हो गया"
+  },
+
+  "load": {
+    "loadWithEllipsis": "लोड करें...",
+    "load": "लोड करें",
+    "loadingWithEllipsis": "लोड हो रहा है...",
+    "loading": "लोड हो रहा है",
+    "loadedWithExclamation": "लोड हो गया!",
+    "loaded": "लोड हो गया"
+  },
+
+  "save": {
+    "saveWithEllipsis": "सेव करें...",
+    "save": "सेव करें",
+    "savingWithEllipsis": "सेव हो रहा है...",
+    "saving": "सेव हो रहा है",
+    "savedWithExclamation": "सेव हो गया!",
+    "saved": "सेव हो गया"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "इस रूप में सेव करें...",
+    "saveAs": "इस रूप में सेव करें"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "नया करके सेव करें...",
+    "saveAsNew": "नया करके सेव करें"
+  },
+
+  "search": {
+    "searchWithEllipsis": "खोजें...",
+    "search": "खोजें",
+    "searchingWithEllipsis": "खोज रहा है...",
+    "searching": "खोज रहा है"
+  },
+
+  "update": {
+    "updateWithEllipsis": "अपडेट करें...",
+    "update": "अपडेट करें",
+    "updatingWithEllipsis": "अपडेट हो रहा है...",
+    "updating": "अपडेट हो रहा है",
+    "updatedWithExclamation": "अपडेट हो गया!",
+    "updated": "अपडेट हो गया"
+  },
+
+  "create": {
+    "createWithEllipsis": "बनाएं...",
+    "create": "बनाएं",
+    "creatingWithEllipsis": "बन रहा है...",
+    "creating": "बन रहा है",
+    "createdWithExclamation": "बन गया!",
+    "created": "बन गया"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "रीसेट करें...",
+    "reset": "रीसेट करें",
+    "resettingWithEllipsis": "रीसेट हो रहा है...",
+    "resetting": "रीसेट हो रहा है"
+  },
+
+  "pause": {
+    "pause": "रोकें",
+    "pausingWithEllipsis": "रुक रहा है...",
+    "pausing": "रुक रहा है",
+    "paused": "रुका हुआ"
+  },
+
+  "download": {
+    "download": "डाउनलोड करें",
+    "downloadingWithEllipsis": "डाउनलोड हो रहा है...",
+    "downloading": "डाउनलोड हो रहा है",
+    "downloadedWithExclamation": "डाउनलोड हो गया!",
+    "downloaded": "डाउनलोड हो गया"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "अपलोड करें...",
+    "upload": "अपलोड करें",
+    "uploadingWithEllipsis": "अपलोड हो रहा है...",
+    "uploading": "अपलोड हो रहा है",
+    "uploadedWithExclamation": "अपलोड हो गया!",
+    "uploaded": "अपलोड हो गया"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "हटाएं...",
+    "remove": "हटाएं",
+    "removingWithEllipsis": "हटाया जा रहा है...",
+    "removing": "हटाया जा रहा है",
+    "removedWithExclamation": "हटा दिया गया!",
+    "removed": "हटा दिया गया"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "अनइंस्टॉल करें...",
+    "uninstall": "अनइंस्टॉल करें",
+    "uninstallingWithEllipsis": "अनइंस्टॉल हो रहा है...",
+    "uninstalling": "अनइंस्टॉल हो रहा है",
+    "uninstalledWithExclamation": "अनइंस्टॉल हो गया!",
+    "uninstalled": "अनइंस्टॉल हो गया"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "फिर से शुरू करें...",
+    "resume": "फिर से शुरू करें",
+    "resumingWithEllipsis": "फिर से शुरू हो रहा है...",
+    "resuming": "फिर से शुरू हो रहा है"
+  },
+
+  "start": {
+    "startWithEllipsis": "शुरू करें...",
+    "start": "शुरू करें",
+    "startingWithEllipsis": "शुरू हो रहा है...",
+    "starting": "शुरू हो रहा है",
+    "started": "शुरू हो गया"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "रोकें...",
+    "stop": "रोकें",
+    "stoppingWithEllipsis": "रुक रहा है...",
+    "stopping": "रुक रहा है",
+    "stoppedWithExclamation": "रुक गया!",
+    "stopped": "रुक गया"
+  },
+
+  "import": {
+    "importWithEllipsis": "इंपोर्ट करें...",
+    "import": "इंपोर्ट करें",
+    "importingWithEllipsis": "इंपोर्ट हो रहा है...",
+    "importing": "इंपोर्ट हो रहा है",
+    "importedWithExclamation": "इंपोर्ट हो गया!",
+    "imported": "इंपोर्ट हो गया"
+  },
+
+  "letsGo": {
+    "letsGo": "चलिए शुरू करते हैं",
+    "letsGoWithEllipsis": "चलिए शुरू करते हैं...",
+    "letsGoWithExclamation": "चलिए शुरू करते हैं!"
+  },
+
+  "run": {
+    "runWithEllipsis": "चलाएं...",
+    "run": "चलाएं",
+    "runningWithEllipsis": "चल रहा है...",
+    "running": "चल रहा है"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "कॉन्फ़िगर करें...",
+    "configure": "कॉन्फ़िगर करें",
+    "configuringWithEllipsis": "कॉन्फ़िगर हो रहा है...",
+    "configured": "कॉन्फ़िगर हो गया"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "प्रकाशित करें...",
+    "publish": "प्रकाशित करें",
+    "publishingWithEllipsis": "प्रकाशित हो रहा है...",
+    "publishing": "प्रकाशित हो रहा है",
+    "publishedWithExclamation": "प्रकाशित हो गया!",
+    "published": "प्रकाशित हो गया"
+  }
 }

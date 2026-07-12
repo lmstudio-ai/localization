@@ -3,22 +3,40 @@
   "action.next": "次へ",
   "action.back": "戻る",
   "action.finish": "完了",
-  
+
   "dismissable_rag_modal": {
-    "description": "検索拡張生成（RAG）を使用して、あなたのドキュメントを元にチャットができます。使い方はこちら:",
+    "description": "Retrieval Augmented Generation (RAG)によってドキュメントと対話できます。これがやり方です:",
     "instructions": {
       "attach_files": {
         "title": "ファイルを添付",
-        "description": "最大5つ、合計サイズ30MBまでのファイルをアップロードできます。対応フォーマットはPDF、DOCX、TXT、CSVです。"
+        "description": "一度に最大5つのファイルをアップロードでき、合計サイズは30MBまでです。サポートされている形式はPDF、DOCX、TXT、CSVです。"
       },
       "be_specific": {
         "title": "具体的に",
-        "description": "質問する際には、できるだけ詳細を伝えましょう。これにより、システムが最も関連性の高い情報をドキュメントから取得できます。"
+        "description": "質問をする際は、できるだけ多くの詳細を述べてください。これにより、システムはドキュメントから最も関連性の高い情報を取得できます。"
       },
       "get_responses": {
-        "title": "応答を取得して実験",
-        "description": "LLMがあなたのクエリとドキュメントから抽出された内容を元に、応答を生成します。さまざまなクエリを試して、最適な方法を見つけましょう。"
+        "title": "応答を取得し、実験する",
+        "description": "LLMはあなたのクエリとドキュメントから取得した抜粋を見て、応答を生成しようとします。さまざまなクエリを試して、最適なものを見つけてください。"
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "ベータ: Tool Use 🛠️ (Function Calling)",
+      "text_0": "一部のモデル（例: Llama 3.1/3.2、Mistral、Qwenなど）は、ツールを使用するようにトレーニングされています。",
+      "text_1": "これは実際には、特定の形式でLLMに「ツール」（関数シグネチャ）の配列を提供し、ユーザーのプロンプトに基づいてLLMがそれらを「呼び出す」かどうかを決定できることを意味します。",
+      "text_2": "APIをクエリしたり、コードを実行したり、関数呼び出しとして表現できるほぼすべてのことを想像できます。"
+    },
+    "step_1": {
+      "title": "Tool Useを開始する",
+      "toolUseCanWorkWithAnyModel": "ツール使用のためにトレーニングされたモデルは他のモデルよりも優れたパフォーマンスを発揮しますが、あらゆるモデルでツールを使用しようとすることができます。詳細については、<customlink>ドキュメント</customlink>をお読みください。\nツール使用のためにトレーニングされたモデルには新しいバッジが付けられます:",
+      "hasCompatibleModel": "🎉 すでにツールサポートのあるモデルをお持ちのようです！",
+      "downloadRecommendedModel": "ツール使用のためにトレーニングされたモデルをダウンロード:"
+    },
+    "nextButton": "次へ",
+    "letsGoButton": "モデルを読み込み、サーバーを起動",
+    "doneButton": "閉じる"
   }
 }

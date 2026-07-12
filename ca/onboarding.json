@@ -1,24 +1,42 @@
 {
-  "action.skipOnboarding": "Salta't el tutorial",
+  "action.skipOnboarding": "Salta't la introducció",
   "action.next": "Següent",
-  "action.back": "Anterior",
-  "action.finish": "Acaba",
+  "action.back": "Endarrere",
+  "action.finish": "Finalitza",
 
   "dismissable_rag_modal": {
-    "description": "Ara pots xatejar amb els teus documents utilitzant Generació Augmentada amb Recuperació (RAG). Així funciona:",
+    "description": "Ara pots xatejar amb els teus documents utilitzant Retrieval Augmented Generation (RAG). Així funciona:",
     "instructions": {
       "attach_files": {
-        "title": "Adjunta fitxers",
-        "description": "Adjunta fins a 5 fitxers a la vegada, amb una mesura combinada màxima de 30MB. Els formats suportats són: PDF, DOCX, TXT, i CSV."
+        "title": "Adjunta Fitxers",
+        "description": "Puja fins a 5 de cop, amb una mida combinada màxima de 30MB. Els formats suportats són PDF, DOCX, TXT i CSV."
       },
       "be_specific": {
-        "title": "Sigues específic",
-        "description": "Quan facis preguntes, menciona tots els detalls possibles. Això ajuda al sistema al moment de recuperar la informació més rellevant dels teus documents."
+        "title": "Sigues Específic",
+        "description": "Quan facis preguntes, menciona tants detalls com et sigui possible. Això ajudarà al sistema a recuperar la informació més rellevant dels teus documents."
       },
       "get_responses": {
-        "title": "Aconsegueix respostes i experimenta",
-        "description": "El LLM mirarà la teva pregunta i els extractes recuperats dels teus documents, i d'aquí generarà una resposta. Experimenta amb diferents preguntes fins trobar la millor resposta."
+        "title": "Obtén Respostes i Experimenta",
+        "description": "El LLM llegirà la teva consulta i els extractes recuperats dels teus documents, i provarà de generar una resposta. Experimenta amb diferents consultes per obtenir els millors resultats."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Ús d'Eines 🛠️ (Cridar a Funcions)",
+      "text_0": "Alguns models (p.ex. Llama 3.1/3.2, Mistral, Qwen i d'altres) han estat entrenats per utilitzar eines.",
+      "text_1": "Què significa això? Tu el dones un conjunt 'd'eines' (function signatures) en un format concret, i el LLM pot decidir si vol 'cridar-les' basant-se en el prompt de l'usuari.",
+      "text_2": "Pots imaginar-te les aplicacions d'això: consultar una API, executar codi, o qualsevol cosa que pugui ser expressada com una function call."
+    },
+    "step_1": {
+      "title": "Inicia't amb Ús d'Eines",
+      "toolUseCanWorkWithAnyModel": "Els models específicament entrenats per utilitzar eines tindran un millor rendiment que altres, però pots utilitzar-les amb qualsevol model que vulguis. Llegeix-te la <customlink>documentació</customlink> per aprendre'n més.\nEls models que han estat entrenats per utilitzar eines estaran marcats amb una nova icona:",
+      "hasCompatibleModel": "🎉 Sembla que ja tens models que suportin eines!",
+      "downloadRecommendedModel": "Descarrega't un model que estigui entrenat per utilitzar eines:"
+    },
+    "nextButton": "Següent",
+    "letsGoButton": "Carrega el model i inicia un servidor",
+    "doneButton": "Ignora"
   }
 }

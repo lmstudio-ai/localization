@@ -23,6 +23,7 @@
   "download.option.recommended/description": "Baserat på din hårdvara rekommenderas detta alternativ.",
   "download.option.downloaded/title": "Nedladdad",
   "download.option.downloading/title": "Laddar ner ({{progressPercentile}}%)",
+  "failedToStartDownload": "Det gick inte att starta nedladdningen",
 
   "feed.action.refresh": "Uppdatera flöde"
 }

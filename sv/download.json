@@ -1,5 +1,15 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "Extraherar...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extraherar filer...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraherar filer...",
+  "postDownloadActionExecutor.modifyModelData/status": "Uppdaterar modelldata...",
+  "postDownloadActionExecutor.notification/status": "Notifierar användare...",
+  "postDownloadActionExecutor.writeString/status": "Skriver metadata...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Uppdaterar vald version...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Tar bort oanvända tillägg...",
+  "postDownloadActionExecutor.pluginInstall/status": "Installerar plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Avinstallerar plugin...",
+
   "finalizing": "Slutför nedladdning... (detta kan ta en stund)",
   "noOptions": "Inga kompatibla alternativ tillgängliga för nedladdning",
   
@@ -19,5 +29,15 @@
 
   "downloadsPanel/title": "Nedladdningar",
   "downloadsPanel/sectionTitle/ongoing": "Pågående",
-  "downloadsPanel/sectionTitle/completed": "Slutförda"
+  "downloadsPanel/sectionTitle/completed": "Slutförda",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Visa i Finder",
+      "mac/error": "Kunde inte visa i Finder",
+      "nonMac": "Visa i Utforskaren",
+      "nonMac/error": "Kunde inte visa i Utforskaren"
+    },
+    "completed": "Nedladdning slutförd",
+    "loadModel": "Ladda modell"
+  }
 }
