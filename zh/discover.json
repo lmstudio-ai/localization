@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "收藏夹",
+  "collectionsColumn/collectionError": "加载收藏夹详情时错误，请尝试刷新",
+  "bookmarksColumn": "书签",
+  "searchBar/placeholder": "在 Hugging Face 上搜索模型...",
+  "searchBar/huggingFaceError": "从 Hugging Face 获取结果时出错，请稍后再试",
+  "sortBy": "排序方式",
+  "searchSortKey.default/title": "最佳匹配",
+  "searchSortKey.likes/title": "最多喜欢",
+  "searchSortKey.downloads/title": "最多下载",
+  "searchSortKey.lastModified/title": "最近更新",
+  "searchSortKey.createdAt/title": "最近创建",
+  "download.option.willFitEstimation.caveat": "可能还有其他因素导致无法加载，如模型的结构、模型文件的完整性或计算机可用内存的大小等。",
+  "download.option.willFitEstimation.fullGPUOffload/title": "GPU 可能完全离线",
+  "download.option.willFitEstimation.fullGPUOffload/description": "此模型或许适配您的 GPU 显存，这可以大大加快模型的推理速度。",
+  "download.option.willFitEstimation.partialGPUOffload/title": "GPU 可能部分离线",
+  "download.option.willFitEstimation.partialGPUOffload/description": "此模型可能部分适配您的 GPU 显存， 这通常会加快模型的推理速度。",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "可能适用",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "此模型可能适合您的设备内存。",
+  "download.option.willFitEstimation.willNotFit/title": "对此设备来说可能太大了",
+  "download.option.willFitEstimation.willNotFit/description": "成功使用该模型文件所需的内存可能超出您设备上的可用资源，不建议下载此模型文件。",
+  "download.option.recommended/title": "推荐",
+  "download.option.recommended/description": "根据您的硬件情况，建议使用此选项。",
+  "download.option.downloaded/title": "下载中",
+  "download.option.downloading/title": "下载中 ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "刷新动态"
+}
