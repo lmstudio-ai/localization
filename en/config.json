@@ -59,6 +59,8 @@
   "llm.prediction.maxPredictedTokens/info": "Control the max length of the chatbot's response. Turn on to set a limit on the max length of a response, or turn off to let the chatbot decide when to stop.",
   "llm.prediction.maxPredictedTokens/inputLabel": "Maximum response length (tokens)",
   "llm.prediction.maxPredictedTokens/wordEstimate": "About {{maxWords}} words",
+  "llm.prediction.reasoning.budgetTokens/title": "Reasoning Budget",
+  "llm.prediction.reasoning.budgetTokens/subTitle": "Token budget for thinking: off for unrestricted, 0 for immediate end, N > 0 for token budget",
   "llm.prediction.repeatPenalty/title": "Repeat Penalty",
   "llm.prediction.repeatPenalty/subTitle": "How much to discourage repeating the same token",
   "llm.prediction.repeatPenalty/info": "From llama.cpp help docs: \"Helps prevent the model from generating repetitive or monotonous text.\n\nA higher value (e.g., 1.5) will penalize repetitions more strongly, while a lower value (e.g., 0.9) will be more lenient.\" • The default value is <{{dynamicValue}}>",
@@ -134,6 +136,8 @@
   "llm.load.useUnifiedKvCache/subTitle": "Controls whether concurrent predictions share a single KV cache, saving memory. Disabling this ensures each prediction can utilize the full context length, at the cost of using more memory",
   "llm.load.llama.contextCheckpoints/title": "Context Checkpoints",
   "llm.load.llama.contextCheckpoints/subTitle": "Maximum number of context checkpoints to keep per slot. Lower values reduce RAM usage for SWA/recurrent models. 0 disables checkpoints.",
+  "llm.load.llama.reasoningBudgetMessage/title": "Reasoning Budget Message",
+  "llm.load.llama.reasoningBudgetMessage/subTitle": "Message injected before the end-of-thinking tag when reasoning budget is exhausted (default: none)",
   "load.gpuStrictVramCap/title": "Limit Model Offload to Dedicated GPU Memory",
   "load.gpuStrictVramCap.customSubTitleOff": "OFF: Allow model weights to offload to shared memory if dedicated GPU memory is full",
   "load.gpuStrictVramCap.customSubTitleOn": "ON: The system will limit offload of model weights to dedicated GPU memory and RAM only. Context may still use shared memory",
@@ -563,6 +567,7 @@
   "llamaKvCacheQuantizationWarning": "KV Cache Quantization is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantization. If you encounter problems, reset to the default \"F16\".",
 
   "seedUncheckedHint": "Random Seed",
+  "reasoningBudgetUncheckedHint": "Unrestricted",
   "ropeFrequencyBaseUncheckedHint": "Auto",
   "ropeFrequencyScaleUncheckedHint": "Auto",
 
