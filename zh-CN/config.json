@@ -34,7 +34,6 @@
     "promptTemplate/title": "提示词模板",
     "customFields/title": "自定义字段"
   },
-
   "llm.prediction.systemPrompt/title": "系统提示",
   "llm.prediction.systemPrompt/description": "使用此字段向模型提供背景指令,如一套规则、约束或一般要求。",
   "llm.prediction.systemPrompt/subTitle": "AI 指南",
@@ -117,7 +116,6 @@
   "llm.prediction.speculativeDecoding.draftModel/title": "草稿模型",
   "llm.prediction.reasoning.parsing/title": "推理过程解析方式",
   "llm.prediction.reasoning.parsing/subTitle": "控制模型输出中推理过程的解析方式",
-
   "llm.load.mainGpu/title": "主 GPU",
   "llm.load.mainGpu/subTitle": "用于模型计算的 GPU 优先级",
   "llm.load.mainGpu/placeholder": "选择主 GPU...",
@@ -131,7 +129,6 @@
   "load.gpuStrictVramCap.customSubTitleOn": "开启：系统将限制模型权重的卸载仅限于专用 GPU 内存及 RAM 。上下文仍可能使用共享内存",
   "load.gpuStrictVramCap.customGpuOffloadWarning": "模型的卸载仅限于专用 GPU 内存。实际卸载的层数可能会有所不同",
   "load.allGpusDisabledWarning": "所有 GPU 目前均被禁用。请启用至少一个以进行卸载",
-
   "llm.load.contextLength/title": "上下文长度",
   "llm.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "llm.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -139,7 +136,6 @@
   "llm.load.seed/title": "种子",
   "llm.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机",
   "llm.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
-
   "llm.load.llama.evalBatchSize/title": "评估批处理大小",
   "llm.load.llama.evalBatchSize/subTitle": "每次处理的输入token数量。增加此值会提高性能，但会增加内存使用量",
   "llm.load.llama.evalBatchSize/info": "设置评估期间一起处理的示例数量,影响速度和内存使用",
@@ -198,7 +194,6 @@
   "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "高级：量化乘法的分组大小配置\n\n• 高精度 = 分组 32\n• 均衡 = 分组 64\n• 极速 = 分组 128\n",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "达到此上下文长度后开始量化",
   "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "当上下文长度达到该值时，开始对 KV 缓存进行量化",
-
   "embedding.load.contextLength/title": "上下文长度",
   "embedding.load.contextLength/subTitle": "模型可以一次性关注的token最大数量。请参阅“推理参数”下的“对话溢出”选项以获取更多管理方式",
   "embedding.load.contextLength/info": "指定模型一次可以考虑的最大token数量，影响其处理过程中保留的上下文量",
@@ -222,9 +217,7 @@
   "embedding.load.llama.tryMmap/info": "直接从磁盘加载模型文件到内存",
   "embedding.load.seed/title": "种子",
   "embedding.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机种子",
-
   "embedding.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
-
   "presetTooltip": {
     "included/title": "预设值",
     "included/description": "以下字段将会被应用",
@@ -245,7 +238,6 @@
     "hubLabel": "来自 {{user}} 的 Hub 预设",
     "ownHubLabel": "您的 Hub 预设"
   },
-
   "customInputs": {
     "string": {
       "emptyParagraph": "<空>"
@@ -369,24 +361,11 @@
   "idleTTL.label": "空闲时自动卸载",
   "idleTTL.hint": "如设置，模型在空闲指定时间后将自动卸载。",
   "idleTTL.mins": "分钟",
-
   "presets": {
     "title": "预设",
-    "commitChanges": "提交更改",
-    "commitChanges/description": "将您的更改提交给预设。",
-    "commitChanges.manual": "检测到新的字段。您将能够选择要包含在预设中的更改。",
-    "commitChanges.manual.hold.0": "按住",
-    "commitChanges.manual.hold.1": "选择要提交给预设的更改。",
-    "commitChanges.saveAll.hold.0": "按住",
-    "commitChanges.saveAll.hold.1": "保存所有更改。",
-    "commitChanges.saveInPreset.hold.0": "按住",
-    "commitChanges.saveInPreset.hold.1": "仅保存已经包含在预设中的字段的更改。",
-    "commitChanges/error": "未能将更改提交给预设。",
-    "commitChanges.manual/description": "选择要包含在预设中的更改。",
     "saveAs": "另存为新预设...",
     "presetNamePlaceholder": "为预设输入一个名称...",
     "cannotCommitChangesLegacy": "这是一个旧版预设,无法修改。您可以使用“另存为新预设...”创建一个副本。",
-    "cannotCommitChangesNoChanges": "没有更改可以提交。",
     "emptyNoUnsaved": "选择一个预设...",
     "emptyWithUnsaved": "未保存的预设",
     "saveEmptyWithUnsaved": "保存预设为...",
@@ -545,21 +524,29 @@
     },
     "inclusiveness": {
       "speculativeDecoding": "包含在预设中"
-    }
+    },
+    "saveChanges": "保存",
+    "saveChanges/description": "将更改保存到预设。",
+    "saveChanges.manual": "检测到新字段。您将能够选择要包含在预设中的更改。",
+    "saveChanges.manual.hold.0": "按住",
+    "saveChanges.manual.hold.1": "选择要保存到预设的更改。",
+    "saveChanges.manual/description": "选择要包含在预设中的更改。",
+    "saveChanges.saveAll.hold.0": "按住",
+    "saveChanges.saveAll.hold.1": "保存所有更改。",
+    "saveChanges.saveInPreset.hold.0": "按住",
+    "saveChanges.saveInPreset.hold.1": "仅保存预设中已有的字段的更改。",
+    "saveChanges/error": "保存对预设的更改失败。",
+    "cannotSaveChangesNoChanges": "没有可保存的更改。"
   },
-
   "flashAttentionWarning": "Flash Attention 是一项实验性功能,可能会导致某些模型出现问题。如果您遇到问题,请尝试禁用它。",
   "llamaKvCacheQuantizationWarning": "KV 缓存量化是一项实验性功能，可能会导致某些模型出现问题。V 缓存量化必须启用 Flash Attention。如果遇到问题，请将默认值重置为\"F16\"。",
-
   "seedUncheckedHint": "随机种子",
   "ropeFrequencyBaseUncheckedHint": "自动",
   "ropeFrequencyScaleUncheckedHint": "自动",
-
   "hardware": {
     "environmentVariables": "环境变量",
     "environmentVariables.info": "如果不确定,请保留默认值",
     "environmentVariables.reset": "重置为默认值",
-    
     "gpus.information": "配置检测到的图形处理单元 (GPU）",
     "gpuSettings": {
       "editMaxCapacity": "编辑最大容量",
@@ -590,7 +577,6 @@
       "toggleGpu": "启用/禁用 GPU"
     }
   },
-
   "load.gpuSplitConfig/title": "GPU 分配配置",
   "envVars/title": "设置环境变量",
   "envVars": {
@@ -610,5 +596,25 @@
     "values": {
       "title": "当前值"
     }
-  }
+  },
+  "reasoningBudgetUncheckedHint": "无限制",
+  "llm.load.numParallelSessions/title": "最大并发预测数",
+  "llm.load.numParallelSessions/subTitle": "模型在给定时间内可同时运行的最大预测数。单个预测的速度可能会随着并发数增加而降低，但每个预测的启动会更快，总吞吐量可以更高",
+  "llm.load.useUnifiedKvCache/title": "统一 KV 缓存",
+  "llm.load.useUnifiedKvCache/subTitle": "控制并发预测是否共享单一 KV 缓存以节省内存。禁用此选项可确保每个预测都能使用完整的上下文长度，但会消耗更多内存",
+  "llm.load.promptTemplate/title": "聊天模板",
+  "llm.load.promptTemplate/subTitle": "引擎协议用于聊天、工具、推理和多模态格式化的模板。更改此设置需要重新加载模型。",
+  "llm.load.llama.contextCheckpoints/title": "上下文检查点",
+  "llm.load.llama.contextCheckpoints/subTitle": "每个槽位最多保留的上下文检查点数量。较低的值可减少 SWA/循环模型的 RAM 使用量。0 禁用检查点。",
+  "llm.load.llama.reasoningBudgetMessage/title": "推理预算消息",
+  "llm.load.llama.reasoningBudgetMessage/subTitle": "在推理预算耗尽时，在结束推理标签之前注入的消息（默认：无）",
+  "llm.load.llama.autoFit/title": "自动适配",
+  "llm.load.llama.autoFit/subTitle": "自动调整上下文长度以适应可用内存",
+  "llm.load.llama.physicalBatchSize/title": "物理批处理大小",
+  "llm.load.llama.physicalBatchSize/subTitle": "物理批处理大小",
+  "llm.load.numCpuExpertLayersRatio/title": "强制将 MoE 权重加载到 CPU 的层数",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "强制将专家层加载到 CPU 的层数。可节省显存，且可能比部分 GPU 卸载更快。",
+  "llm.load.numCpuExpertLayersRatio/info": "强制将专家层加载到 CPU 的层数。可节省显存，且可能比部分 GPU 卸载更快。",
+  "llm.prediction.reasoning.budgetTokens/title": "推理预算",
+  "llm.prediction.reasoning.budgetTokens/subTitle": "思考的 token 预算：关闭为无限制，0 为立即结束，N > 0 为 token 预算"
 }
