@@ -3,12 +3,10 @@
   "filterModels.placeholder": "筛选模型...",
   "aggregate_one": "您有 {{count}} 个本地模型，占用了 {{size}} 的磁盘空间。",
   "aggregate_other": "您有 {{count}} 个本地模型，占用了 {{size}} 的磁盘空间。",
-
   "noModels.title": "您的本地 LLM 将显示在这里。",
   "noModels.discoverButtonText.prefix": "点击左侧边栏的",
   "noModels.discoverButtonText.suffix": "按钮来发现有趣的 LLM。",
   "noModels.discoverModelsPrompt": "去探索一些本地 LLM 吧！",
-
   "modelsTable.arch/label": "架构",
   "modelsTable.params/label": "参数量",
   "modelsTable.publisher/label": "发布者",
@@ -17,21 +15,19 @@
   "modelsTable.size/label": "尺寸",
   "modelsTable.dateModified/label": "修改日期",
   "modelsTable.actions/label": "操作",
-
   "modelsTable.quant/label": "量化规格",
   "modelsTable.llms/label": "语言模型",
   "modelsTable.embeddingModels/label": "嵌入模型",
-
   "action.model.delete": "删除",
   "action.model.delete.full": "删除模型",
   "action.model.delete.confirmation/title": "删除 {{name}}",
   "action.model.delete.confirmation/description": "您确定吗？这将永久删除与此模型相关的所有文件，此操作不可逆。",
   "action.model.delete.confirmation/confirm": "删除",
   "action.model.delete/error": "删除模型失败",
-
   "loader.model.bundled": "捆绑",
   "action.cancel": "取消",
   "indexingOngoing": "正在索引模型... 这可能需要几秒钟",
+  "indexingPageLoaderText": "正在索引模型...",
   "index/error_one": "索引以下文件夹失败：",
   "index/error_other": "索引以下文件夹失败：",
   "badModels/title_one": "索引以下模型失败：",
@@ -46,7 +42,6 @@
   "unresolvedVirtualModels.revealInExplorer": "在文件资源管理器中显示",
   "unresolvedVirtualModels.revealInFinder": "在 Finder 中显示",
   "unresolvedVirtualModels.reveal/error": "显示失败",
-
   "modelsDirectory": "模型目录",
   "modelsDirectory.change": "更改...",
   "modelsDirectory.change/error": "修改模型路径失败",
@@ -67,7 +62,7 @@
   "contextMenu/unpin": "取消固定",
   "contextMenu/copyAbsolutePath": "复制绝对路径",
   "contextMenu/copyModelName": "复制模型路径",
- "contextMenu/copyModelDefaultIdentifier": "复制默认标识符",
+  "contextMenu/copyModelDefaultIdentifier": "复制默认标识符",
   "contextMenu/showRawMetadata": "查看原始元数据",
   "contextMenu/openOnHuggingFace": "在 Hugging Face 上打开",
   "contextMenu": {
@@ -85,17 +80,24 @@
   "tooltip/editModelDefaultConfig/override": "编辑模型默认配置（*当前有覆盖）",
   "tooltip/visionBadge": "此模型支持图像输入",
   "tooltip/toolUseBadge": "此模型经过工具使用的训练",
-
   "visionBadge/label": "此模型支持图像输入",
   "toolUseBadge/label": "此模型经过工具使用的训练",
-
   "loader.action.load": "加载模型",
   "loader.action.clearChanges": "清除更改",
   "loader.action.cancel": "取消",
   "loader.info.clickOnModelToLoad": "点击模型以加载",
   "loader.info.configureLoadParameters": "配置模型加载参数",
   "loader.info.activeGeneratorWarning": "您正在使用带有自定义生成器的插件。当前加载的模型是否适用于该插件，取决于生成器的具体实现方式",
-
+  "loader.guardrails.estimatedMemoryUsage": "预估内存使用量",
+  "loader.guardrails.total": "总计",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "此模型的预估内存不可用",
+  "loader.guardrails.notEnoughResources": "当前设置下资源不足以加载此模型",
+  "loader.guardrails.notEnoughResources/options": "选项",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "系统似乎没有足够内存加载此模型。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在设置中调整模型加载保护，或按住 <altOptionKey /> 强制加载。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "加载过大的模型可能导致系统过载并卡死。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（不推荐）始终允许不按 Alt/Option 直接“强制加载”",
   "virtual": {
     "local": {
       "create": "创建虚拟模型",
