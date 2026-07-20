@@ -1,6 +1,7 @@
 {
   "settingsDialogTitle": "Cài Đặt Ứng Dụng",
   "settingsDialogButtonTooltip": "Cài Đặt Ứng Dụng",
+"accountDialogButtonTooltip": "Tài khoản",
 
   "settingsNewButtonPopover": {
     "primary": "Cài đặt ứng dụng hiện nằm ở góc dưới bên phải",
@@ -48,6 +49,10 @@
   "sideButtonLabels": "Hiển thị nhãn nút bên",
   "showModelFileNames": "Mô Hình Của Tôi: luôn hiển thị tên tệp mô hình đầy đủ",
   "colorThemeLabel": "Chủ đề màu sắc",
+  "appNavigationBarPositionLabel": "Vị trí thanh điều hướng",
+  "appNavigationBarPositionTop": "Trên cùng",
+  "appNavigationBarPositionLeft": "Bên trái",
+
   "complexityLevelLabel": "Mức độ phức tạp giao diện người dùng",
   "selectComplexityLevelPlaceholder": "Chọn mức độ phức tạp giao diện người dùng mặc định",
   "userComplexityLevelLabel": "Người dùng",
@@ -91,6 +96,7 @@
   "changeLanguageLabel": "Thay đổi ngôn ngữ của ứng dụng",
   "developerLabel": "Nhà phát triển",
   "localServiceLabel": "Dịch Vụ LLM Cục Bộ (không giao diện)",
+  "modelDefaultsLabel": "Mặc định của mô hình",
   "showExperimentalFeaturesLabel": "Hiển thị các tính năng thử nghiệm",
   "appFirstLoadLabel": "Trải nghiệm tải ứng dụng lần đầu",
   "showDebugInfoBlocksInChatLabel": "Hiển thị các khối thông tin gỡ lỗi trong chat",
@@ -135,11 +141,13 @@
   "modelLoadingGuardrails.custom.label": "Giới hạn bộ nhớ: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Đặt giới hạn bộ nhớ tùy chỉnh cho việc tải mô hình. Các mô hình sẽ không được tải nếu việc tải chúng sẽ vượt quá giới hạn này.",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(Không khuyến nghị) Luôn cho phép 'Vẫn tải' mà không cần giữ phím Alt/Option",
 
   "experimentalLoadPresets": "Bật hỗ trợ cấu hình tải mô hình trong các cài đặt trước",
   "experimentalLoadPresets.description": "Cho phép các cài đặt trước bao gồm cấu hình tải mô hình hay không. Tính năng này đang thử nghiệm và chúng tôi hoan nghênh phản hồi.",
 
   "unloadPreviousJITModelOnLoad": "Mô hình JIT tự động đẩy ra: đảm bảo tối đa 1 mô hình được tải qua JIT tại bất kỳ thời điểm nào (dỡ mô hình trước đó)",
+  "autoDeleteExtensionPacks": "Tự động xóa các Gói tiện ích mở rộng thời gian chạy ít được sử dụng gần đây nhất",
   "autoUpdateExtensionPacks": "Tự động cập nhật các Gói Mở Rộng Thời Gian Chạy đã chọn",
   "useHFProxy.label": "Sử dụng Proxy Hugging Face của LM Studio",
   "useHFProxy.hint": "Sử dụng Proxy Hugging Face của LM Studio để tìm kiếm và tải xuống các mô hình. Điều này có thể giúp người dùng gặp khó khăn khi truy cập trực tiếp Hugging Face.",
@@ -179,5 +187,30 @@
     "hasBetterFooterCardText": "Chúng tôi đã cải thiện công cụ di chuyển trò chuyện kể từ khi bạn di chuyển các cuộc trò chuyện cũ của mình. Bạn có thể chạy lại quá trình di chuyển. (Chúng tôi sẽ tạo một thư mục mới để chứa các cuộc trò chuyện mới được di chuyển.)",
     "dismissConfirm": "Bỏ qua",
     "dismissConfirmDescription": "Bạn luôn có thể xử lý việc di chuyển trò chuyện trong Cài đặt"
+  },
+  "toolConfirmation": {
+    "label": "Xác nhận gọi công cụ",
+    "neverAsk": {
+      "label": "Không bao giờ yêu cầu xác nhận trước khi chạy một công cụ(KHÔNG ĐƯỢC KHUYẾN NGHỊ)",
+      "hint": "Vô hiệu hóa xác nhận trước khi chạy một công cụ. Điều này không được khuyến khích.",
+      "warnTitle": "Bạn có chắc không??",
+      "warnDescription": "Vô hiệu hóa xác nhận gọi công cụ là nguy hiểm. Nếu bất kỳ plugin nào của bạn đóng góp một công cụ có khả năng thực hiện các hành động phá hoại (chẳng hạn như chạy lệnh, xóa tệp, ghi đè tệp, tải tệp lên, v.v.), mô hình sẽ có thể thực hiện điều đó mà không cần bất kỳ xác nhận nào. Bạn luôn có thể tắt xác nhận trên cơ sở từng công cụ hoặc thậm chí từng plugin. Kích hoạt tùy chọn này KHÔNG được khuyến khích. Xin hãy cẩn thận.",
+      "warnButton": "Tôi hiểu những rủi ro"
+    }
+  },
+
+  "defaultContextLength": {
+    "label": "Độ dài ngữ cảnh mặc định",
+    "maxTitle": "Tối đa của mô hình",
+    "customTitle": "Giá trị tùy chỉnh",
+    "maxSubtitle": "Sử dụng độ dài ngữ cảnh tối đa mà mỗi mô hình hỗ trợ.",
+    "customSubtitle": "Đặt độ dài ngữ cảnh mặc định để tải mô hình mới. Nếu độ dài ngữ cảnh tối đa được hỗ trợ của mô hình thấp hơn thì giá trị đó sẽ được sử dụng.",
+    "invalidNaNError": "Giá trị độ dài ngữ cảnh không hợp lệ. Sử dụng {{value}}",
+    "invalidRangeError": "Giá trị độ dài ngữ cảnh không hợp lệ. Phải nằm trong khoảng 1 và 2^30. Sử dụng  {{value}}",
+    "largeContextWarning": "Độ dài ngữ cảnh càng lớn thì mô hình sẽ càng sử dụng nhiều bộ nhớ. Nếu bạn không chắc chắn, đừng thay đổi giá trị mặc định"
+  },
+      "jitTTL": {
+    "subtitle": "Các mô hình được tải Theo yêu cầu (JIT) sẽ tự động được gỡ khỏi bộ nhớ  sau khi không hoạt động trong khoảng thời gian được chỉ định."
   }
+
 }
