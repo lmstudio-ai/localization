@@ -1,35 +1,179 @@
 {
-  "loadSettings/title": "Cargar configuraciones",
-  "modelSettings/placeholder": "Seleccione un modelo para configurarlo",
-  
+  "tabs/server": "Servidor Local",
+  "tabs/extensions": "Tiempos de Ejecución LM",
+  "loadSettings/title": "Configuraciones de carga",
+  "modelSettings/placeholder": "Selecciona un modelo para configurarlo",
+
+  "loadedModels/noModels": "No hay modelos cargados",
+
   "serverOptions/title": "Opciones del Servidor",
-  "serverOptions/port/hint": "Qué puerto escuchar. Por defecto, LM Studio usa el puerto 1234. Es posible que deba cambiar esto si el puerto ya está en uso.",
+  "serverOptions/configurableTitle": "Opciones Configurables",
+  "serverOptions/port/hint": "Establece qué puerto de red usará el servidor local. Por defecto, LM Studio usa el puerto 1234. Es posible que necesites cambiar esto si el puerto ya está siendo usado.",
+  "serverOptions/port/subtitle": "El puerto en el que escuchar",
+  "serverOptions/autostart/title": "Iniciar servidor automáticamente",
+  "serverOptions/autostart/hint": "Activar automáticamente el servidor local de LLMs de LM Studio al iniciar la aplicación o servicio",
+  "serverOptions/port/integerWarning": "El número de puerto debe ser un número entero",
+  "serverOptions/port/invalidPortWarning": "El puerto debe estar entre 1 y 65535",
   "serverOptions/cors/title": "Habilitar CORS",
-  "serverOptions/cors/hint1": "Habilitar CORS (Compartición de Recursos de Origen Cruzado) permitiría que los sitios web que visitas hagan solicitudes al servidor de LM Studio.",
+  "serverOptions/cors/hint1": "Habilitar CORS (Compartir Recursos de Origen Cruzado) permitiría que las páginas web que visites hagan solicitudes al servidor de LM Studio.",
   "serverOptions/cors/hint2": "CORS podría ser necesario al hacer solicitudes desde una página web o VS Code / otra extensión.",
-  "serverOptions/network/title": "Permitir Conexiones de Red",
-  "serverOptions/network/hint1": "Si se permiten conexiones desde otros dispositivos en la red.",
+  "serverOptions/cors/subtitle": "Permitir solicitudes de origen cruzado",
+  "serverOptions/network/title": "Servir en Red Local",
+  "serverOptions/network/subtitle": "Exponer servidor a dispositivos en la red",
+  "serverOptions/network/hint1": "Si permitir conexiones desde otros dispositivos en la red.",
   "serverOptions/network/hint2": "Si no está marcado, el servidor solo escuchará en localhost.",
   "serverOptions/verboseLogging/title": "Registro Detallado",
-  "serverOptions/contentLogging/title": "Registrar Solicitudes y Respuestas",
-  "serverOptions/contentLogging/hint": "Si registrar solicitudes y/o respuestas en el archivo de registro del servidor local.",
+  "serverOptions/verboseLogging/subtitle": "Habilitar registro detallado para el servidor local",
+  "serverOptions/contentLogging/title": "Registrar Prompts y Respuestas",
+  "serverOptions/contentLogging/subtitle": "Configuraciones de registro local de solicitudes / respuestas",
+  "serverOptions/contentLogging/hint": "Si registrar prompts y/o las respuestas en el archivo de registro del servidor local.",
+  "serverOptions/redactContent/title": "Ocultar Contenido",
+  "serverOptions/redactContent/hint": "Cuando está habilitado, previene que datos sensibles, como el contenido de las solicitudes y respuestas, sean registrados.",
+  "serverOptions/logIncomingTokens/title": "Registrar Tokens Entrantes",
+  "serverOptions/logIncomingTokens/hint": "Si registrar cada token mientras se están generando.",
+  "serverOptions/fileLoggingMode/title": "Modo de Registro de Archivos",
+  "serverOptions/fileLoggingMode/off/title": "DESACTIVADO",
+  "serverOptions/fileLoggingMode/off/hint": "No crear archivos de registro",
+  "serverOptions/fileLoggingMode/succinct/title": "Resumido",
+  "serverOptions/fileLoggingMode/succinct/hint": "Registra el mismo contenido que en la consola. Las solicitudes largas serán truncadas.",
+  "serverOptions/fileLoggingMode/full/title": "Completo",
+  "serverOptions/fileLoggingMode/full/hint": "No truncar solicitudes largas.",
+  "serverOptions/jitModelLoading/title": "Carga de Modelo Justo a Tiempo",
+  "serverOptions/jitModelLoading/hint": "Cuando está habilitado, si una solicitud especifica un modelo que no está cargado, se cargará automáticamente y se usará. Además, el endpoint \"/v1/models\" también incluirá modelos que aún no están cargados.",
   "serverOptions/loadModel/error": "No se pudo cargar el modelo",
-  
-  "serverLogs/scrollToBottom": "Saltar al fondo",
-  "serverLogs/clearLogs": "Borrar registros ({{shortcut}})",
+  "serverOptions/jitModelLoadingTTL/title": "Descargar automáticamente modelos JIT no usados",
+  "serverOptions/jitModelLoadingTTL/hint": "Un modelo que fue cargado Justo a Tiempo (JIT) para servir una solicitud de API se descargará automáticamente después de no ser usado por cierta duración (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "TTL máximo de inactividad",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "minutos",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Solo Mantener el Último Modelo JIT Cargado",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Asegurar que máximo 1 modelo esté cargado vía JIT en cualquier momento (descarga el modelo anterior)",
 
-  "runtimeSettings/title": "Configuraciones de Ejecución",
-  "runtimeSettings/chooseRuntime/title": "Configurar Entornos de Ejecución",
-  "runtimeSettings/chooseRuntime/description": "Establecer un entorno de ejecución predeterminado para el tipo de motor",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todas las versiones",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por defecto, LM Studio solo muestra la última versión de cada entorno de ejecución. Habilite esta opción para ver todas las versiones disponibles.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Seleccione un entorno de ejecución",
+  "serverLogs/scrollToBottom": "Ir al fondo",
+  "serverLogs/clearLogs": "Limpiar registros ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Abrir carpeta de registros del servidor",
+
+  "runtimeSettings/title": "Configuraciones de tiempo de ejecución",
+  "runtimeSettings/chooseRuntime/title": "Selecciones",
+  "runtimeSettings/chooseRuntime/description": "Selecciona un motor para usar con cada formato de modelo",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Mostrar todos los paquetes de extensión",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Por defecto, LM Studio solo muestra la última versión de cada paquete de extensión. Activa esta opción para ver todos los paquetes de extensión disponibles.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Selecciona un motor",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Selecciona un framework para usar con cada funcionalidad",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Analizador integrado",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Analizador de Documentos",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Selecciona un analizador de documentos",
 
   "runtimeOptions/uninstall": "Desinstalar",
   "runtimeOptions/uninstallDialog/title": "¿Desinstalar {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Desinstalar este entorno de ejecución lo eliminará del sistema. Esta acción es irreversible.",
+  "runtimeOptions/uninstallDialog/body": "Desinstalar este tiempo de ejecución lo eliminará del sistema. Esta acción no se puede deshacer.",
   "runtimeOptions/uninstallDialog/body/caveats": "Algunos archivos solo se pueden eliminar después de reiniciar LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "No se pudo desinstalar el entorno de ejecución",
-  "runtimeOptions/uninstallDialog/confirm": "Continuar y desinstalar",
-  "runtimeOptions/uninstallDialog/cancel": "Cancelar"
+  "runtimeOptions/uninstallDialog/error": "No se pudo desinstalar el tiempo de ejecución",
+  "runtimeOptions/uninstallDialog/confirm": "Continuar y Desinstalar",
+  "runtimeOptions/uninstallDialog/cancel": "Cancelar",
+  "runtimeOptions/noCompatibleRuntimes": "No se encontraron tiempos de ejecución compatibles",
+  "runtimeOptions/downloadIncompatibleRuntime": "Se determinó que este tiempo de ejecución es incompatible con tu máquina. Muy probablemente no funcionará.",
+  "runtimeOptions/noRuntimes": "No se encontraron tiempos de ejecución",
+
+  "runtimes": {
+    "manageLMRuntimes": "Administrar Tiempos de Ejecución LM",
+    "includeOlderRuntimeVersions": "Incluir versiones anteriores",
+    "dismiss": "Descartar",
+    "updateAvailableToast": {
+      "title": "¡Actualización de Tiempo de Ejecución LM Disponible!"
+    },
+    "updatedToast": {
+      "title": " ✅ Tiempo de Ejecución LM Actualizado: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Los modelos {{compatibilityTypes}} recién cargados usarán el tiempo de ejecución actualizado."
+    },
+    "noAvx2ErrorMessage": "Todos los Tiempos de Ejecución LM actualmente requieren una CPU con soporte AVX2",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Paquetes de Extensión de Tiempo de Ejecución",
+      "refresh": "Actualizar",
+      "refreshing": "Actualizando...",
+      "filterSegment": {
+        "compatibleOnly": "Solo Compatibles",
+        "all": "Todos"
+      },
+      "card": {
+        "releaseNotes": "Notas de la Versión",
+        "latestVersionInstalled": "Última Versión Instalada",
+        "updateAvailable": "Actualización Disponible"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Administrar Tiempos de Ejecución Activos"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Administrar Versiones",
+        "close": "Cerrar"
+      },
+      "tabs": {
+        "all": "Todos",
+        "frameworks": "Mis Frameworks",
+        "engines": "Mis Motores"
+      },
+      "detailsModal": {
+        "installedVersions": "Versiones instaladas para {{runtimeName}}",
+        "manifestJsonTitle": "JSON del Manifiesto (avanzado)",
+        "releaseNotesTitle": "Notas de la Versión",
+        "noReleaseNotes": "No hay notas de versión disponibles para esta versión",
+        "back": "Atrás",
+        "close": "Cerrar"
+      },
+      "noEngines": "No hay motores instalados",
+      "noFrameworks": "No hay frameworks instalados"
+    }
+  },
+
+  "inferenceParams/noParams": "No hay parámetros de inferencia configurables disponibles para este tipo de modelo",
+
+  "quickDocs": {
+    "tabChipTitle": "Docs Rápidos",
+    "newToolUsePopover": "Los Fragmentos de Código ahora están disponibles aquí en \"Docs Rápidos\". ¡Haz clic aquí para comenzar con el uso de herramientas!",
+    "newToolUsePopoverTitle": "📚 Docs Rápidos",
+    "learnMore": "ℹ️ 👾 Para aprender más sobre los endpoints del servidor local de LM Studio, visita la [documentación](https://lmstudio.ai/docs).",
+    "helloWorld": {
+      "title": "¡Hola, Mundo!"
+    },
+    "chat": {
+      "title": "Chat"
+    },
+    "structuredOutput": {
+      "title": "Salida Estructurada"
+    },
+    "imageInput": {
+      "title": "Entrada de Imagen"
+    },
+    "embeddings": {
+      "title": "Embeddings"
+    },
+    "toolUse": {
+      "title": "Uso de Herramientas",
+      "tab": {
+        "saveAsPythonFile": "Guardar como archivo Python",
+        "runTheScript": "Ejecutar el script:",
+        "savePythonFileCopyPaste": "Guardar como archivo Python para un comando de copiar y pegar"
+      }
+    },
+    "newBadge": "Nuevo"
+  },
+
+  "endpoints/openaiCompatRest/title": "Endpoints soportados (tipo OpenAI)",
+  "endpoints/openaiCompatRest/getModels": "Listar los modelos actualmente cargados",
+  "endpoints/openaiCompatRest/postCompletions": "Modo de Completado de Texto. Predice el/los siguiente(s) token(s) dado un prompt. Nota: OpenAI considera este endpoint 'deprecado'.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Completados de chat. Envía un historial de chat al modelo para predecir la siguiente respuesta del asistente",
+  "endpoints/openaiCompatRest/postEmbeddings": "Embedding de Texto. Genera embeddings de texto para una entrada de texto dada. Acepta una cadena o arreglo de cadenas.",
+
+  "model.createVirtualModelFromInstance": "Guardar Configuraciones como un Nuevo Modelo Virtual",
+  "model.createVirtualModelFromInstance/error": "No se pudieron guardar las configuraciones como un nuevo modelo virtual",
+
+  "model": {
+    "toolUseSectionTitle": "Uso de Herramientas",
+    "toolUseDescription": "Se detectó que este modelo ha sido entrenado para uso de herramientas\n\nAbre <custom-link>docs rápidos</custom-link> para más información"
+  },
+
+  "apiConfigOptions/title": "Configuración de API"
 }
