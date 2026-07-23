@@ -23,6 +23,6 @@
   "download.option.recommended/description": "Исходя из вашего оборудования, этот вариант рекомендуется.",
   "download.option.downloaded/title": "Загружено",
   "download.option.downloading/title": "Загрузка ({{progressPercentile}}%)",
-
+  "failedToStartDownload": "Не удалось начать загрузку",
   "feed.action.refresh": "Обновить ленту"
 }
