@@ -1,0 +1,44 @@
+{
+  "loadParameters/description": "Settings to control the way the model is initialised and loaded into memory.",
+
+  "llm.prediction.repeatPenalty/info": "From llama.cpp help docs: \"Helps prevent the model from generating repetitive or monotonous text.\n\nA higher value (e.g., 1.5) will penalise repetitions more strongly, while a lower value (e.g., 0.9) will be more lenient.\" • The default value is <{{dynamicValue}}>",
+
+  "llm.prediction.promptTemplate/subTitle": "The format in which messages in chat are sent to the model. Changing this may introduce unexpected behaviour - make sure you know what you're doing!",
+
+  "llm.load.mainGpu/subTitle": "The GPU to prioritise for model computation",
+
+  "llm.load.llama.kCacheQuantizationType/title": "K Cache Quantisation Type",
+
+  "llm.load.llama.vCacheQuantizationType/title": "V Cache Quantisation Type",
+
+  "llm.load.mlx.kvCacheBits/title": "KV Cache Quantisation",
+  "llm.load.mlx.kvCacheBits/subTitle": "Number of bits that the KV cache should be quantised to",
+  "llm.load.mlx.kvCacheBits/info": "Number of bits that the KV cache should be quantised to",
+  "llm.load.mlx.kvCacheBits/turnedOnWarning": "Context Length setting is ignored when using KV Cache Quantisation",
+  "llm.load.mlx.kvCacheGroupSize/title": "KV Cache Quantisation: Group Size",
+  "llm.load.mlx.kvCacheGroupSize/subTitle": "Group size during quantisation operation for the KV cache. Higher group size reduces memory usage but may decrease quality",
+  "llm.load.mlx.kvCacheGroupSize/info": "Number of bits that the KV cache should be quantised to",
+  "llm.load.mlx.kvCacheQuantizationStart/title": "KV Cache Quantisation: Start quantising when ctx crosses this length",
+  "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Context length threshold to start quantisating the KV cache",
+  "llm.load.mlx.kvCacheQuantizationStart/info": "Context length threshold to start quantisating the KV cache",
+  "llm.load.mlx.kvCacheQuantization/title": "KV Cache Quantisation",
+  "llm.load.mlx.kvCacheQuantization/subTitle": "Quantise the model's KV cache. This may result in faster generation and lower memory footprint,\nat the expense of the quality of the model output.",
+  "llm.load.mlx.kvCacheQuantization/bits/title": "KV cache quantisation bits",
+  "llm.load.mlx.kvCacheQuantization/bits/tooltip": "Number of bits to quantise the KV cache to",
+
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Start quantising when ctx reaches this length",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "When the context reaches this amount of tokens,\nbegin quantising the KV cache",
+
+  "presets": {
+
+    "share": {
+
+      "willBeOrgVisible": "This preset will be visible to everyone in the organisation."
+
+    }
+
+  },
+
+  "llamaKvCacheQuantizationWarning": "KV Cache Quantisation is an experimental feature that may cause issues with some models. Flash Attention must be enabled for V cache quantisation. If you encounter problems, reset to the default \"F16\"."
+
+}
