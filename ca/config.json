@@ -19,13 +19,31 @@
   "noListedConfigs": "Cap paràmetre configurable",
   "generationParameters/info": "Experimenta amb paràmetres bàsics que impactin en la generació de text.",
   "loadParameters/title": "Carrega els Paràmetres",
-  "loadParameters/description": "Settings to control the way the model is initialized and loaded into memory.",
+  "loadParameters/description": "Configuració per controlar la manera en que s'inicialitza i es carrega el model a la memòria.",
   "loadParameters/reload": "Recarrega per aplicar els canvis",
+  "loadParameters/reload/error": "No s'ha pogut recarregar el model",
   "discardChanges": "Descarta els canvis",
-  "loadModelToSeeOptions": "Load a model to see options",
+  "loadModelToSeeOptions": "Carrega un model per veure les opcions",
+  "schematicsError.title": "L'esquema de configuració conté errors en els camps següents:",
+
+  "manifestSections": {
+    "structuredOutput/title": "Output Estructurat",
+    "speculativeDecoding/title": "Descodificació Especulativa",
+    "sampling/title": "Sampling",
+    "settings/title": "Configuració",
+    "toolUse/title": "Ús d'Eines",
+    "promptTemplate/title": "Plantilla del Prompt",
+    "customFields/title": "Camps Personalitzats"
+  },
   "llm.prediction.systemPrompt/title": "Plantilla del Sistema",
-  "llm.prediction.systemPrompt/description": "Usa aquest camp per donar instruccions de fons al model, com unes regle, limitacions, o requisits generals.",
+  "llm.prediction.systemPrompt/description": "Usa aquest camp per donar instruccions de fons al model, com unes regles, limitacions, o requisits generals.",
   "llm.prediction.systemPrompt/subTitle": "Directrius per la IA",
+  "llm.prediction.systemPrompt/openEditor": "Editor",
+  "llm.prediction.systemPrompt/closeEditor": "Tanca l'Editor",
+  "llm.prediction.systemPrompt/openedEditor": "Obert a l'Editor...",
+  "llm.prediction.systemPrompt/edit": "Edita el Prompt del Sistema...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "Afegeix instruccions...",
+  "llm.prediction.systemPrompt/addInstructions": "Afegeix instruccions",
   "llm.prediction.temperature/title": "Temperatura",
   "llm.prediction.temperature/subTitle": "Què tan aleatòria és la resposta. 0 provocarà les mateixes respostes sempre, mentre que valors més alts augmentaran la creativitat i diferenciació",
   "llm.prediction.temperature/info": "De la documentació de llama.cpp: \"El valor predeterminat és <{{dynamicValue}}>, el qual dona un equilibri entre aleatorietat i determinisme. En l'extrem, la temperatura 0 sempre escollirà el token més probable, causant resultats idèntics cada vegada que s'executi\"",
@@ -61,6 +79,15 @@
   "llm.prediction.llama.presencePenalty/title": "Presence Penalty",
   "llm.prediction.llama.tailFreeSampling/title": "Tail-Free Sampling",
   "llm.prediction.llama.locallyTypicalSampling/title": "Locally Typical Sampling",
+  "llm.prediction.llama.xtcProbability/title": "Probabilitat de Sampling XTC",
+  "llm.prediction.llama.xtcProbability/subTitle": "El sampler XTC (Exclou les Millors Opcions) s'activarà amb aquesta probabilitat per token generat. El sampling XTC pot augmentar la creativitat i reduir els clixés",
+  "llm.prediction.llama.xtcProbability/info": "El sampling XTC (Exclou les Millors Opcions) s'activarà amb aquesta probabilitat per token generat. El sampling XTC sol augmentar la creativitat i reduir els clixés",
+  "llm.prediction.llama.xtcThreshold/title": "Llindar de Sampling XTC",
+  "llm.prediction.llama.xtcThreshold/subTitle": "Llindar XTC (Exclou les Millors Opcions). Amb una probabilitat de `xtc-probability`, cerca tokens amb probabilitats entre `xtc-threshold` i 0.5, i elimina tots excepte el menys probable",
+  "llm.prediction.llama.xtcThreshold/info": "Llindar XTC (Exclou les Millors Opcions). Amb una probabilitat de `xtc-probability`, cerca tokens amb probabilitats entre `xtc-threshold` i 0.5, i elimina tots excepte el menys probable",
+  "llm.prediction.mlx.topKSampling/title": "Top K Sampling",
+  "llm.prediction.mlx.topKSampling/subTitle": "Limita el pròxim token a un dels top-k tokens més probables. Actua de manera semblant a la temperatura",
+  "llm.prediction.mlx.topKSampling/info": "Limita el pròxim token a un dels top-k tokens més probables. Actua de manera semblant a la temperatura",
   "llm.prediction.onnx.topKSampling/title": "Top K Sampling",
   "llm.prediction.onnx.topKSampling/subTitle": "Limits the next token to one of the top-k most probable tokens. Acts similarly to temperature",
   "llm.prediction.onnx.topKSampling/info": "From ONNX documentation:\n\nNumber of highest probability vocabulary tokens to keep for top-k-filtering\n\n• This filter is turned off by default",
@@ -74,8 +101,40 @@
   "llm.prediction.structured/title": "Output Estructurat",
   "llm.prediction.structured/info": "Output Estructurat",
   "llm.prediction.structured/description": "Avançat: pots carregar un JSON Schema per estructurar cert format a l'hora d'obtenir un output del model. Llegeix-te la [documentació](https://lmstudio.ai/docs/advanced/structured-output) per aprendre'n més",
+  "llm.prediction.tools/title": "Ús d'Eines",
+  "llm.prediction.tools/description": "Avançat: pots proporcionar una llista d'eines en format JSON perquè el model pugui demanar-ne l'execució. Llegeix-te la [documentació](https://lmstudio.ai/docs/advanced/tool-use) per aprendre'n més",
+  "llm.prediction.tools/serverPageDescriptionAddon": "Passa-ho al cos de la petició com a `tools` quan s'usi l'API del servidor",
   "llm.prediction.promptTemplate/title": "Plantilla del Prompt",
   "llm.prediction.promptTemplate/subTitle": "El format en què els missatges s'envien al model. Canviar-ho pot provocar comportaments inesperats - assegura't de saber què coi estàs fent!",
+  "llm.prediction.speculativeDecoding.numDraftTokensExact/title": "Tokens d'Esborrany a Generar",
+  "llm.prediction.speculativeDecoding.numDraftTokensExact/subTitle": "Nombre de tokens a generar amb el model d'esborrany per token del model principal. Troba el punt òptim entre càlcul i rendiment",
+  "llm.prediction.speculativeDecoding.minContinueDraftingProbability/title": "Llindar de Probabilitat d'Esborranys",
+  "llm.prediction.speculativeDecoding.minContinueDraftingProbability/subTitle": "Continua fent esborranys fins que la probabilitat d'un token caigui per sota d'aquest llindar. Valors més alts impliquen menor risc i menor recompensa",
+  "llm.prediction.speculativeDecoding.minDraftLengthToConsider/title": "Mida Mínima de l'Esborrany",
+  "llm.prediction.speculativeDecoding.minDraftLengthToConsider/subTitle": "Els esborranys més petits que això seran ignorats pel model principal. Valors més alts impliquen menor risc i menor recompensa",
+  "llm.prediction.speculativeDecoding.maxTokensToDraft/title": "Mida Màxima de l'Esborrany",
+  "llm.prediction.speculativeDecoding.maxTokensToDraft/subTitle": "Nombre màxim de tokens permesos en un esborrany. Límit superior si totes les probabilitats de tokens superen el llindar. Valors més baixos impliquen menor risc i menor recompensa",
+  "llm.prediction.speculativeDecoding.draftModel/title": "Model d'Esborrany",
+  "llm.prediction.reasoning.parsing/title": "Anàlisi de Seccions de Raonament",
+  "llm.prediction.reasoning.parsing/subTitle": "Com analitzar les seccions de raonament a la sortida del model",
+
+  "llm.load.mainGpu/title": "GPU Principal",
+  "llm.load.mainGpu/subTitle": "La GPU prioritzada per al càlcul del model",
+  "llm.load.mainGpu/placeholder": "Selecciona la GPU principal...",
+  "llm.load.splitStrategy/title": "Estratègia de Divisió",
+  "llm.load.splitStrategy/subTitle": "Com dividir el càlcul del model entre les GPUs",
+  "llm.load.splitStrategy/placeholder": "Selecciona l'estratègia de divisió...",
+  "llm.load.offloadKVCacheToGpu/title": "Descarrega la KV Cache a la Memòria GPU",
+  "llm.load.offloadKVCacheToGpu/subTitle": "Descarrega la KV cache a la memòria GPU. Millora el rendiment però requereix més memòria GPU",
+  "llm.load.numParallelSessions/title": "Prediccions Concurrents Màximes",
+  "llm.load.numParallelSessions/subTitle": "Nombre màxim de prediccions que el model pot executar alhora. La velocitat de cada predicció individual pot disminuir amb la concurrència, però cada predicció s'iniciarà més ràpidament i s'aconseguirà un major rendiment total",
+  "llm.load.useUnifiedKvCache/title": "KV Cache Unificada",
+  "llm.load.useUnifiedKvCache/subTitle": "Controla si les prediccions concurrents comparteixen una sola KV cache per estalviar memòria. Desactivar-ho assegura que cada predicció pugui aprofitar la longitud de context completa, a costa d'usar més memòria",
+  "load.gpuStrictVramCap/title": "Limita la Descàrrega del Model a la Memòria GPU Dedicada",
+  "load.gpuStrictVramCap.customSubTitleOff": "APAGAT: Permet que els pesos del model es descarreguin a la memòria compartida si la memòria GPU dedicada és plena",
+  "load.gpuStrictVramCap.customSubTitleOn": "ACTIVAT: El sistema limitarà la descàrrega dels pesos del model a la memòria GPU dedicada i la RAM. El context pot seguir usant la memòria compartida",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "La descàrrega del model limitada a la memòria GPU dedicada. El nombre real de capes descarregades pot diferir",
+  "load.allGpusDisabledWarning": "Totes les GPUs estan desactivades. Activa'n almenys una per poder descarregar",
 
   "llm.load.contextLength/title": "Llargada del Context",
   "llm.load.contextLength/subTitle": "El nombre màxim de tokens que al qual el model pot respondre per pregunta. Mira les opcions de Sobrecàrrega de la Conversa sota \"Paràmetres d'Inference\" per gestionar-ho de més maneres",
@@ -108,6 +167,42 @@
   "llm.load.llama.keepModelInMemory/info": "Prevents the model from being swapped out to disk, ensuring faster access at the cost of higher RAM usage",
   "llm.load.llama.useFp16ForKVCache/title": "Utilitza FP16 Per La KV Cau",
   "llm.load.llama.useFp16ForKVCache/info": "Redueix l'ús de memòria cau emmagatzemant-la amb semi-precisió (FP16)",
+  "llm.load.numCpuExpertLayersRatio/title": "Nombre de capes per forçar els pesos MoE a la CPU",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "Nombre de capes per forçar els experts a la CPU. Estalvia VRAM i pot ser més ràpid que la descàrrega parcial a la GPU. No recomanat si el model cap completament a la VRAM.",
+  "llm.load.numCpuExpertLayersRatio/info": "Especifica el nombre de capes per forçar els experts a la CPU. Deixa les capes d'atenció a la GPU, estalviant VRAM mentre manté la inferència força ràpida.",
+  "llm.load.llama.cpuThreadPoolSize/title": "Mida del Pool de Fils de la CPU",
+  "llm.load.llama.cpuThreadPoolSize/subTitle": "Nombre de fils de la CPU a assignar al pool usat per al càlcul del model",
+  "llm.load.llama.cpuThreadPoolSize/info": "El nombre de fils de la CPU a assignar al pool usat per al càlcul del model. Augmentar el nombre de fils no sempre correlaciona amb un millor rendiment. El valor predeterminat és <{{dynamicValue}}>.",
+  "llm.load.llama.kCacheQuantizationType/title": "Tipus de Quantificació de la K Cache",
+  "llm.load.llama.kCacheQuantizationType/subTitle": "Valors més baixos redueixen l'ús de memòria però poden disminuir la qualitat. L'efecte varia significativament entre models.",
+  "llm.load.llama.vCacheQuantizationType/title": "Tipus de Quantificació de la V Cache",
+  "llm.load.llama.vCacheQuantizationType/subTitle": "Valors més baixos redueixen l'ús de memòria però poden disminuir la qualitat. L'efecte varia significativament entre models.",
+  "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ Has de desactivar aquest valor si l'Atenció Flash no està activada",
+  "llm.load.llama.vCacheQuantizationType/disabledMessage": "Només es pot activar quan l'Atenció Flash està activada",
+  "llm.load.llama.vCacheQuantizationType/invalidF32MetalState": "⚠️ Has de desactivar l'atenció flash quan s'usa F32",
+  "llm.load.mlx.kvCacheBits/title": "Quantificació de la KV Cache",
+  "llm.load.mlx.kvCacheBits/subTitle": "Nombre de bits als quals s'ha de quantificar la KV cache",
+  "llm.load.mlx.kvCacheBits/info": "Nombre de bits als quals s'ha de quantificar la KV cache",
+  "llm.load.mlx.kvCacheBits/turnedOnWarning": "La configuració de Llargada de Context s'ignora quan s'usa la Quantificació de la KV Cache",
+  "llm.load.mlx.kvCacheGroupSize/title": "Quantificació KV Cache: Mida del Grup",
+  "llm.load.mlx.kvCacheGroupSize/subTitle": "Mida del grup durant l'operació de quantificació de la KV cache. Una mida de grup més gran redueix l'ús de memòria però pot disminuir la qualitat",
+  "llm.load.mlx.kvCacheGroupSize/info": "Nombre de bits als quals s'ha de quantificar la KV cache",
+  "llm.load.mlx.kvCacheQuantizationStart/title": "Quantificació KV Cache: Inicia la quantificació quan el ctx supera aquesta llargada",
+  "llm.load.mlx.kvCacheQuantizationStart/subTitle": "Llindar de llargada de context per iniciar la quantificació de la KV cache",
+  "llm.load.mlx.kvCacheQuantizationStart/info": "Llindar de llargada de context per iniciar la quantificació de la KV cache",
+  "llm.load.mlx.kvCacheQuantization/title": "Quantificació de la KV Cache",
+  "llm.load.mlx.kvCacheQuantization/subTitle": "Quantifica la KV cache del model. Això pot resultar en una generació més ràpida i un menor consum de memòria,\na costa de la qualitat de la sortida del model.",
+  "llm.load.mlx.kvCacheQuantization/bits/title": "Bits de quantificació de la KV cache",
+  "llm.load.mlx.kvCacheQuantization/bits/tooltip": "Nombre de bits per quantificar la KV cache",
+  "llm.load.mlx.kvCacheQuantization/bits/bits": "Bits",
+  "llm.load.mlx.kvCacheQuantization/groupSize/title": "Estratègia de mida de grup",
+  "llm.load.mlx.kvCacheQuantization/groupSize/accuracy": "Precisió",
+  "llm.load.mlx.kvCacheQuantization/groupSize/balanced": "Equilibrat",
+  "llm.load.mlx.kvCacheQuantization/groupSize/speedy": "Ràpid",
+  "llm.load.mlx.kvCacheQuantization/groupSize/tooltip": "Avançat: configuració de 'mida de grup de matmul' quantificat\n\n• Precisió = mida de grup 32\n• Equilibrat = mida de grup 64\n• Ràpid = mida de grup 128\n",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/title": "Inicia la quantificació quan el ctx assoleix aquesta llargada",
+  "llm.load.mlx.kvCacheQuantization/quantizedStart/tooltip": "Quan el context assoleix aquesta quantitat de tokens,\ncomença a quantificar la KV cache",
+
   "llm.load.llama.tryMmap/title": "prova mmap()",
   "llm.load.llama.tryMmap/subTitle": "Millora el temps de càrrega del model. Desactivar-ho pot millorar el rendiment del model quan és més gran que la memòria RAM disponible",
   "llm.load.llama.tryMmap/info": "Carrega fitxers del model directament del disc a la memòria",
@@ -150,7 +245,13 @@
     "excluded/title": "Potser no aplica",
     "excluded/description": "Els següents camps estan inclosos en la plantilla però no s'apliquen en l'actual context.",
     "legacy/title": "Plantilla llegada",
-    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable."
+    "legacy/description": "This preset is a legacy preset. It includes the following fields which are either handled automatically now, or are no longer applicable.",
+    "button/publish": "Publica al Hub",
+    "button/pushUpdate": "Envia els Canvis al Hub",
+    "button/noChangesToPush": "Sense canvis per enviar",
+    "button/export": "Exporta",
+    "hubLabel": "Plantilla del Hub per {{user}}",
+    "ownHubLabel": "La teva plantilla del Hub"
   },
 
   "customInputs": {
@@ -205,6 +306,50 @@
     "llamaAccelerationOffloadRatio": {
       "max": "MÀX",
       "off": "NO"
+    },
+    "llamaCacheQuantizationType": {
+      "off": "NO"
+    },
+    "mlxKvCacheBits": {
+      "off": "NO"
+    },
+    "gpuSplitStrategy": {
+      "evenly": "De manera uniforme",
+      "favorMainGpu": "Prioritza la GPU Principal"
+    },
+    "speculativeDecodingDraftModel": {
+      "readMore": "Llegeix com funciona",
+      "placeholder": "Selecciona un model d'esborrany compatible",
+      "noCompatible": "No s'han trobat models d'esborrany compatibles per a la selecció de model actual",
+      "stillLoading": "Identificant models d'esborrany compatibles...",
+      "notCompatible": "El model d'esborrany seleccionat (<draft/>) no és compatible amb la selecció de model actual (<current/>).",
+      "off": "NO",
+      "loadModelToSeeOptions": "Carrega el model <keyboard-shortcut /> per veure les opcions compatibles",
+      "compatibleWithNumberOfModels": "Recomanat per almenys {{dynamicValue}} dels teus models",
+      "recommendedForSomeModels": "Recomanat per a alguns models",
+      "recommendedForLlamaModels": "Recomanat per a models Llama",
+      "recommendedForQwenModels": "Recomanat per a models Qwen",
+      "onboardingModal": {
+        "introducing": "Presentem",
+        "speculativeDecoding": "Descodificació Especulativa",
+        "firstStepBody": "Acceleració de la inferència per a models <custom-span>llama.cpp</custom-span> i <custom-span>MLX</custom-span>",
+        "secondStepTitle": "Acceleració de la Inferència amb Descodificació Especulativa",
+        "secondStepBody": "La Descodificació Especulativa és una tècnica que implica la col·laboració de dos models:\n - Un model \"principal\" més gran\n - Un model \"d'esborrany\" més petit\n\nDurant la generació, el model d'esborrany proposa ràpidament tokens que el model principal més gran ha de verificar. Verificar tokens és un procés molt més ràpid que generar-los, i aquí rau el guany en velocitat. **En general, com més gran sigui la diferència de mida entre el model principal i el model d'esborrany, major serà l'acceleració**.\n\nPer mantenir la qualitat, el model principal només accepta tokens que s'alineen amb el que hauria generat ell mateix, aconseguint la qualitat de resposta del model més gran a velocitats d'inferència més ràpides. Tots dos models han de compartir el mateix vocabulari.",
+        "draftModelRecommendationsTitle": "Recomanacions de models d'esborrany",
+        "basedOnCurrentModels": "Basat en els teus models actuals",
+        "close": "Tanca",
+        "next": "Següent",
+        "done": "Fet"
+      },
+      "speculativeDecodingLoadModelToSeeOptions": "Si us plau, carrega un model primer <model-badge /> ",
+      "errorEngineNotSupported": "La descodificació especulativa requereix almenys la versió {{minVersion}} del motor {{engineName}}. Si us plau, actualitza el motor (<key/>) i recarrega el model per usar aquesta funció.",
+      "errorEngineNotSupported/noKey": "La descodificació especulativa requereix almenys la versió {{minVersion}} del motor {{engineName}}. Si us plau, actualitza el motor i recarrega el model per usar aquesta funció."
+    },
+    "llmReasoningParsing": {
+      "startString/label": "Cadena d'Inici",
+      "startString/placeholder": "Introdueix la cadena d'inici...",
+      "endString/label": "Cadena de Fi",
+      "endString/placeholder": "Introdueix la cadena de fi..."
     }
   },
   "saveConflictResolution": {
@@ -226,8 +371,29 @@
     "cancel": "Cancel·lar"
   },
   "empty": "<Buit>",
+  "noModelSelected": "Cap model seleccionat",
+  "apiIdentifier.label": "Identificador de l'API",
+  "apiIdentifier.hint": "Proporciona opcionalment un identificador per a aquest model. S'usarà a les peticions de l'API. Deixa'l en blanc per usar l'identificador per defecte.",
+  "idleTTL.label": "Descarrega Automàticament si Inactiu (TTL)",
+  "idleTTL.hint": "Si s'estableix, el model es descarregarà automàticament després d'estar inactiu durant el temps especificat.",
+  "idleTTL.mins": "min",
+
   "presets": {
     "title": "Plantilla",
+    "saveChanges": "Desa",
+    "saveChanges/description": "Desa els canvis a la plantilla.",
+    "saveChanges.manual": "Nous camps detectats. Podràs escollir quins canvis s'inclouran a la plantilla.",
+    "saveChanges.manual.hold.0": "Manté",
+    "saveChanges.manual.hold.1": "per elegir quins canvis desar a la plantilla.",
+    "saveChanges.saveAll.hold.0": "Manté",
+    "saveChanges.saveAll.hold.1": "per desar tots els canvis.",
+    "saveChanges.saveInPreset.hold.0": "Manté",
+    "saveChanges.saveInPreset.hold.1": "per desar només els canvis a camps que estan inclosos en la plantilla.",
+    "saveChanges/error": "Error en desar els canvis a la plantilla.",
+    "saveChanges.manual/description": "Escull els canvis a incloure en la plantilla.",
+    "cannotSaveChangesNoChanges": "Sense canvis a desar.",
+    "importPreset": "Importa",
+    "contextMenuCopyIdentifier": "Copia l'Identificador de la Plantilla",
     "commitChanges": "Envia els Canvis",
     "commitChanges/description": "Envia els canvis fets a la plantilla.",
     "commitChanges.manual": "Nous camps detectats. Podràs escollir quins canvis s'inclouran a la plantilla.",
@@ -258,12 +424,210 @@
     "discardChanges/info": "Descarta tots els canvis no desats i restaura la plantilla a l'estat inicial",
     "newEmptyPreset": "Crea nova plantilla buida...",
     "contextMenuSelect": "Selecciona Plantilla",
-    "contextMenuDelete": "Elimina"
+    "contextMenuDelete": "Elimina...",
+    "contextMenuShare": "Publica...",
+    "contextMenuOpenInHub": "Mostra al Web",
+    "contextMenuPullFromHub": "Descarrega l'Última Versió",
+    "contextMenuPushChanges": "Envia els Canvis al Hub",
+    "contextMenuPushingChanges": "Enviant...",
+    "contextMenuPushedChanges": "Canvis enviats",
+    "contextMenuExport": "Exporta el Fitxer",
+    "contextMenuRevealInExplorer": "Mostra a l'Explorador de Fitxers",
+    "contextMenuRevealInFinder": "Mostra al Finder",
+    "share": {
+      "title": "Publica la Plantilla",
+      "action": "Comparteix la teva plantilla perquè altres puguin descarregar-la, agradar-la i bifurcar-la",
+      "presetOwnerLabel": "Propietari",
+      "uploadAs": "La teva plantilla es crearà com {{name}}",
+      "presetNameLabel": "Nom de la Plantilla",
+      "descriptionLabel": "Descripció (opcional)",
+      "loading": "Publicant...",
+      "success": "Plantilla Publicada amb Èxit",
+      "presetIsLive": "<preset-name /> ara és en directe al Hub!",
+      "close": "Tanca",
+      "confirmViewOnWeb": "Mostra al web",
+      "confirmCopy": "Copia l'URL",
+      "confirmCopied": "Copiat!",
+      "pushedToHub": "La teva plantilla s'ha enviat al Hub",
+      "descriptionPlaceholder": "Introdueix una descripció...",
+      "willBePublic": "Aquesta plantilla serà pública. Qualsevol persona a internet podrà veure-la.",
+      "willBePrivate": "Només tu podràs veure aquesta plantilla",
+      "willBeOrgVisible": "Aquesta plantilla serà visible per a tothom de l'organització.",
+      "publicSubtitle": "La teva plantilla és <custom-bold>Pública</custom-bold>. Altres poden descarregar-la i bifurcar-la a lmstudio.ai",
+      "privateUsageReached": "S'ha assolit el límit de plantilles privades.",
+      "continueInBrowser": "Continua al Navegador",
+      "confirmShareButton": "Publica",
+      "error": "No s'ha pogut publicar la plantilla",
+      "createFreeAccount": "Crea un compte gratuït al Hub per publicar plantilles"
+    },
+    "update": {
+      "title": "Envia els Canvis al Hub",
+      "title/success": "Plantilla Actualitzada amb Èxit",
+      "subtitle": "Fes canvis a <custom-preset-name /> i envia'ls al Hub",
+      "descriptionLabel": "Descripció",
+      "descriptionPlaceholder": "Introdueix una descripció...",
+      "loading": "Enviant...",
+      "cancel": "Cancel·la",
+      "createFreeAccount": "Crea un compte gratuït al Hub per publicar plantilles",
+      "error": "No s'ha pogut enviar l'actualització",
+      "confirmUpdateButton": "Envia"
+    },
+    "resolve": {
+      "title": "Resol conflictes...",
+      "tooltip": "Obre un diàleg per resoldre les diferències amb la versió del Hub"
+    },
+    "loginToManage": {
+      "title": "Inicia sessió per gestionar..."
+    },
+    "downloadFromHub": {
+      "title": "Descarrega",
+      "downloading": "Descarregant...",
+      "success": "Descarregat!",
+      "error": "No s'ha pogut descarregar"
+    },
+    "push": {
+      "title": "Envia els canvis",
+      "pushing": "Enviant...",
+      "success": "Enviat",
+      "tooltip": "Envia els teus canvis locals a la versió remota allotjada al Hub",
+      "error": "No s'ha pogut enviar"
+    },
+    "saveAsNewModal": {
+      "title": "Ups! No s'ha trobat la plantilla al Hub",
+      "confirmSaveAsNewDescription": "Vols publicar aquesta plantilla com una de nova?",
+      "confirmButton": "Publica com a Nova"
+    },
+    "pull": {
+      "title": "Descarrega l'Última Versió",
+      "error": "No s'ha pogut descarregar",
+      "contextMenuErrorMessage": "No s'ha pogut descarregar",
+      "success": "Descarregat",
+      "pulling": "Descarregant...",
+      "upToDate": "Estàs al dia!",
+      "unsavedChangesModal": {
+        "title": "Tens canvis sense desar.",
+        "bodyContent": "Descarregar des del remot sobreescriurà els teus canvis sense desar. Continues?",
+        "confirmButton": "Sobreescriu els Canvis Sense Desar"
+      }
+    },
+    "import": {
+      "title": "Importa una Plantilla des d'un Fitxer",
+      "dragPrompt": "Arrossega i deixa anar fitxers de plantilla (.tar.gz o preset.json) o <custom-link>selecciona des del teu ordinador</custom-link>",
+      "remove": "Elimina",
+      "cancel": "Cancel·la",
+      "importPreset_zero": "Importa la Plantilla",
+      "importPreset_one": "Importa la Plantilla",
+      "importPreset_other": "Importa {{count}} Plantilles",
+      "selectDialog": {
+        "title": "Selecciona el Fitxer de Plantilla (preset.json o .tar.gz)",
+        "button": "Importa"
+      },
+      "error": "No s'ha pogut importar la plantilla",
+      "resultsModal": {
+        "titleSuccessSection_one": "S'ha importat 1 plantilla amb èxit",
+        "titleSuccessSection_other": "S'han importat {{count}} plantilles amb èxit",
+        "titleFailSection_zero": "",
+        "titleFailSection_one": "({{count}} ha fallat)",
+        "titleFailSection_other": "({{count}} han fallat)",
+        "titleAllFailed": "No s'han pogut importar les plantilles",
+        "importMore": "Importa Més",
+        "close": "Fet",
+        "successBadge": "Èxit",
+        "alreadyExistsBadge": "La plantilla ja existeix",
+        "errorBadge": "Error",
+        "invalidFileBadge": "Fitxer invàlid",
+        "otherErrorBadge": "No s'ha pogut importar la plantilla",
+        "errorViewDetailsButton": "Mostra els Detalls",
+        "seeError": "Mostra l'Error",
+        "noName": "Sense nom de plantilla",
+        "useInChat": "Usa al Xat"
+      },
+      "importFromUrl": {
+        "button": "Importa des d'una URL...",
+        "title": "Importa des d'una URL",
+        "back": "Importa des d'un Fitxer...",
+        "action": "Enganxa l'URL del Hub del LM Studio de la plantilla que vols importar aquí baix",
+        "invalidUrl": "URL invàlida. Assegura't d'enganxar una URL correcta del Hub del LM Studio.",
+        "tip": "Pots instal·lar la plantilla directament amb el botó {{buttonName}} al Hub del LM Studio",
+        "confirm": "Importa",
+        "cancel": "Cancel·la",
+        "loading": "Important...",
+        "error": "No s'ha pogut descarregar la plantilla."
+      }
+    },
+    "download": {
+      "title": "Descarrega <preset-name /> del Hub del LM Studio",
+      "subtitle": "Desa <custom-name /> a les teves plantilles. Això et permetrà usar aquesta plantilla a l'app",
+      "button": "Descarrega",
+      "button/loading": "Descarregant...",
+      "cancel": "Cancel·la",
+      "error": "No s'ha pogut descarregar la plantilla."
+    },
+    "inclusiveness": {
+      "speculativeDecoding": "Inclou a la Plantilla"
+    }
   },
 
   "flashAttentionWarning": "Atenció Flash és una característica experimental que pot presentar problemes en alguns models. En cas de trobar-ne, prova desactivant la característica.",
+  "llamaKvCacheQuantizationWarning": "La Quantificació de la KV Cache és una característica experimental que pot presentar problemes en alguns models. L'Atenció Flash ha d'estar activada per a la quantificació de la V cache. En cas de trobar problemes, restableix al valor predeterminat \"F16\".",
 
   "seedUncheckedHint": "Llavor aleatòria",
   "ropeFrequencyBaseUncheckedHint": "Auto",
-  "ropeFrequencyScaleUncheckedHint": "Auto"
+  "ropeFrequencyScaleUncheckedHint": "Auto",
+
+  "hardware": {
+    "environmentVariables": "Variables d'Entorn",
+    "environmentVariables.info": "Si no n'estàs segur, deixa-les amb els valors predeterminats",
+    "environmentVariables.reset": "Restableix als valors predeterminats",
+    "gpus.information": "Configura les unitats de processament gràfic (GPUs) detectades al teu sistema",
+    "gpuSettings": {
+      "editMaxCapacity": "Edita la Capacitat Màxima",
+      "hideEditMaxCapacity": "Amaga l'Edició de la Capacitat Màxima",
+      "allOffWarning": "Totes les GPUs estan apagades o desactivades, assegura't que hi hagi alguna assignació de GPU per poder carregar models",
+      "split": {
+        "title": "Estratègia",
+        "placeholder": "Selecciona una assignació de memòria GPU",
+        "options": {
+          "generalDescription": "Configura com es carregaran els models a les teves GPUs",
+          "evenly": {
+            "title": "Divideix uniformement",
+            "description": "Assigna la memòria de manera uniforme entre les GPUs"
+          },
+          "priorityOrder": {
+            "title": "Ordre de prioritat",
+            "description": "Arrossega per reordenar la prioritat. El sistema intentarà assignar més memòria a les GPUs de la llista primeres"
+          },
+          "custom": {
+            "title": "Personalitzat",
+            "description": "Assigna la memòria",
+            "maxAllocation": "Assignació Màxima"
+          }
+        }
+      },
+      "deviceId.info": "Identificador únic per a aquest dispositiu",
+      "changesOnlyAffectNewlyLoadedModels": "Els canvis només afectaran els models carregats de nou",
+      "toggleGpu": "Activa/Desactiva la GPU"
+    }
+  },
+
+  "load.gpuSplitConfig/title": "Configuració de Divisió de GPUs",
+  "envVars/title": "Estableix una Variable d'Entorn",
+  "envVars": {
+    "select": {
+      "placeholder": "Selecciona una variable d'entorn...",
+      "noOptions": "No n'hi ha més de disponibles",
+      "filter": {
+        "placeholder": "Filtra els resultats de cerca",
+        "resultsFound_zero": "No s'han trobat resultats",
+        "resultsFound_one": "S'ha trobat 1 resultat",
+        "resultsFound_other": "S'han trobat {{count}} resultats"
+      }
+    },
+    "inputValue": {
+      "placeholder": "Introdueix un valor"
+    },
+    "values": {
+      "title": "Valors Actuals"
+    }
+  }
 }
