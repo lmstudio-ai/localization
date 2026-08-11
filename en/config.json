@@ -168,6 +168,8 @@
   "llm.load.llama.ropeFrequencyScale/info": "[Advanced] Modifies the scaling of frequency for Rotary Positional Encoding to control positional encoding granularity",
   "llm.load.mlx.autoFit/title": "Automatic Context Sizing",
   "llm.load.mlx.autoFit/subTitle": "Let the MLX runtime choose a safe context length at load time based on available memory",
+  "llm.load.mlx.diskCache/title": "Prompt Disk Cache",
+  "llm.load.mlx.diskCache/subTitle": "Reuse prompt states across requests by caching them on disk",
   "llm.load.llama.acceleration.offloadRatio/title": "GPU Offload",
   "llm.load.llama.acceleration.offloadRatio/subTitle": "Number of discrete model layers to compute on the GPU for GPU acceleration",
   "llm.load.llama.acceleration.offloadRatio/info": "Set the number of layers to offload to the GPU.",
