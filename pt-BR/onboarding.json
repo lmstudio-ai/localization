@@ -1,42 +1,42 @@
 {
-  "action.skipOnboarding": "Pular apresentação",
-  "action.next": "Próximo",
-  "action.back": "Voltar",
-  "action.finish": "Concluir",
+    "action.skipOnboarding": "Pular apresentação",
+    "action.next": "Próximo",
+    "action.back": "Voltar",
+    "action.finish": "Terminar",
 
-  "dismissable_rag_modal": {
-    "description": "Agora você pode conversar com seus próprios documentos usando a Geração Aumentada por Recuperação (RAG). Veja como funciona:",
-    "instructions": {
-      "attach_files": {
-        "title": "Anexe Arquivos",
-        "description": "Envie até 5 arquivos por vez, com um tamanho total máximo de 30MB. Formatos suportados incluem PDF, DOCX, TXT e CSV."
-      },
-      "be_specific": {
-        "title": "Seja Específico",
-        "description": "Ao fazer perguntas, mencione o máximo de detalhes possível. Isso ajuda o sistema a recuperar as informações mais relevantes dos seus documentos."
-      },
-      "get_responses": {
-        "title": "Obtenha Respostas e Experimente",
-        "description": "O LLM analisará sua pergunta e os trechos recuperados de seus documentos para tentar gerar uma resposta. Experimente diferentes perguntas para ver o que funciona melhor."
-      }
+    "dismissable_rag_modal": {
+        "description": "Você agora pode conversar com seus próprios documentos usando Geração Aumentada por Recuperação (RAG). Veja como funciona:",
+        "instructions": {
+            "attach_files": {
+                "title": "Anexar Arquivos",
+                "description": "Envie até 5 arquivos por vez, com um tamanho máximo combinado de 30MB. Formatos suportados incluem PDF, DOCX, TXT e CSV."
+            },
+            "be_specific": {
+                "title": "Seja Específico",
+                "description": "Ao fazer perguntas, mencione o máximo de detalhes possível. Isso ajuda o sistema a recuperar as informações mais relevantes de seus documentos."
+            },
+            "get_responses": {
+                "title": "Obtenha Respostas e Experimente",
+                "description": "O LLM olhará para sua consulta e os trechos recuperados de seus documentos, e tentará gerar uma resposta. Experimente com diferentes consultas para encontrar o que funciona melhor."
+            }
+        }
+    },
+
+    "toolUse": {
+        "step_0": {
+            "title": "Beta: Uso de Ferramentas 🛠️ (Chamada de Função)",
+            "text_0": "Alguns modelos (ex: Llama 3.1/3.2, Mistral, Qwen e mais) foram treinados para usar ferramentas.",
+            "text_1": "O que isso significa na prática é: você fornece um array de 'ferramentas' (assinaturas de função) para o LLM em um formato muito particular, e o LLM pode decidir se deve 'chamá-las' baseado no prompt do usuário.",
+            "text_2": "Você pode imaginar casos de uso como consultar uma API, rodar código, ou realmente qualquer coisa que possa ser expressa como uma chamada de função."
+        },
+        "step_1": {
+            "title": "Comece com Uso de Ferramentas",
+            "toolUseCanWorkWithAnyModel": "Modelos que foram treinados para uso de ferramentas terão melhor desempenho que outros, mas você pode tentar usar ferramentas com qualquer modelo. Leia a <customlink>documentação</customlink> para saber mais.\nModelos que foram treinados para uso de ferramentas serão marcados com um novo emblema:",
+            "hasCompatibleModel": "🎉 Parece que você já tem modelos com suporte a ferramentas!",
+            "downloadRecommendedModel": "Baixe um modelo que foi treinado para uso de ferramentas:"
+        },
+        "nextButton": "Próximo",
+        "letsGoButton": "Carregar modelo e iniciar servidor",
+        "doneButton": "Dispensar"
     }
-  },
-
-  "toolUse": {
-    "step_0": {
-      "title": "Beta: Uso de Ferramentas 🛠️ (Chamada de Função)",
-      "text_0": "Alguns modelos (como Llama 3.1/3.2, Mistral, Qwen e outros) foram treinados para usar ferramentas.",
-      "text_1": "Na prática, isso significa que você fornece uma lista de 'ferramentas' (assinaturas de função) ao LLM em um formato específico, e o LLM pode decidir se deve 'chamá-las' com base no prompt do usuário.",
-      "text_2": "Você pode imaginar casos de uso como consultar uma API, executar código ou qualquer outra coisa que possa ser expressa como uma chamada de função."
-    },
-    "step_1": {
-      "title": "Comece com o Uso de Ferramentas",
-      "toolUseCanWorkWithAnyModel": "Modelos que foram treinados para usar ferramentas terão um desempenho melhor, mas você pode tentar usar ferramentas com qualquer modelo. Leia a <customlink>documentação</customlink> para saber mais.\nModelos treinados para uso de ferramentas serão marcados com um novo selo:",
-      "hasCompatibleModel": "🎉 Parece que você já tem modelos com suporte a ferramentas!",
-      "downloadRecommendedModel": "Baixe um modelo que foi treinado para o uso de ferramentas:"
-    },
-    "nextButton": "Próximo",
-    "letsGoButton": "Carregar modelo e iniciar servidor",
-    "doneButton": "Dispensar"
-  }
 }

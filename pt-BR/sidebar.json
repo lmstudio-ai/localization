@@ -1,9 +1,9 @@
 {
-  "chat": "Conversas",
-  "discover": "Descobrir",
-  "myModels": "Meus Modelos",
-  "developer": "Desenvolvedor",
-  "runtimes": "Tempo de Execução",
-  "settings": "Configurações",
-  "download": "Downloads"
+    "chat": "Conversa",
+    "discover": "Descobrir",
+    "myModels": "Meus Modelos",
+    "developer": "Desenvolvedor",
+    "runtimes": "Tempo de Execução",
+    "settings": "Configurações",
+    "download": "Downloads"
 }
