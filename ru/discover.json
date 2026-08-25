@@ -10,7 +10,7 @@
   "searchSortKey.downloads/title": "С наибольшим количеством загрузок",
   "searchSortKey.lastModified/title": "Недавно обновлено",
   "searchSortKey.createdAt/title": "Недавно создано",
-  "download.option.willFitEstimation.caveat": "Могут быть и другие факторы, которые могут помешать загрузке, такие как архитектура модели, целостность файла модели или объем доступной оперативной памяти на вашем компьютере.",
+  "download.option.willFitEstimation.caveat": "Могут быть и другие факторы, которые могут помешать загрузке, такие как архитектура модели, целостность файла модели или объём доступной оперативной памяти на вашем компьютере.",
   "download.option.willFitEstimation.fullGPUOffload/title": "Полная выгрузка на GPU возможна",
   "download.option.willFitEstimation.fullGPUOffload/description": "Эта модель может полностью поместиться в память вашего GPU. Это может значительно ускорить инференс.",
   "download.option.willFitEstimation.partialGPUOffload/title": "Частичная выгрузка на GPU возможна",
@@ -23,6 +23,6 @@
   "download.option.recommended/description": "Исходя из вашего оборудования, этот вариант рекомендуется.",
   "download.option.downloaded/title": "Загружено",
   "download.option.downloading/title": "Загрузка ({{progressPercentile}}%)",
-
+  "failedToStartDownload": "Не удалось начать скачивание",
   "feed.action.refresh": "Обновить ленту"
 }
