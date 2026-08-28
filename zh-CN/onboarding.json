@@ -3,7 +3,7 @@
   "action.next": "下一步",
   "action.back": "上一步",
   "action.finish": "完成",
-  
+
   "dismissable_rag_modal": {
     "description": "现在您可以使用检索增强生成 (RAG) 以使用自己的文档与模型进行聊天。以下是其工作原理：",
     "instructions": {
