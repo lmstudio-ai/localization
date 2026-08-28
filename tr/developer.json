@@ -1,68 +1,197 @@
 {
   "tabs/server": "Yerel Sunucu",
-  "tabs/extensions": "LM Çalışma Zamanları",
+  "tabs/extensions": "LM Çalışma Zamanları (Runtimes)",
   "loadSettings/title": "Ayarları Yükle",
-  "modelSettings/placeholder": "Bir model seçin ve yapılandırın",
+  "modelSettings/placeholder": "Model seçilmedi",
 
-  "loadedModels/noModels": "Yüklenen model yok",
+  "loadedModels/noModels": "Yüklü model yok",
 
   "serverOptions/title": "Sunucu Seçenekleri",
-  "serverOptions/configurableTitle": " Yapılandırılabilir Seçenekler",
-  "serverOptions/port/hint": "Yerel sunucunun kullanacağı ağ portunu ayarlayın. Varsayılan olarak LM Studio, portu 1234 kullanır. Eğer bu port zaten kullanımdaysa bunu değiştirmeniz gerekebilir.",
+  "serverOptions/configurableTitle": "Yapılandırılabilir Seçenekler",
+  "serverOptions/port/hint": "Yerel sunucunun kullanacağı ağ portunu ayarlayın. Varsayılan olarak LM Studio 1234 portunu kullanır. Eğer port kullanımda ise değiştirmeniz gerekebilir.",
   "serverOptions/port/subtitle": "Dinlenecek port",
-  "serverOptions/autostart/title": "Sunucuyu Otomatik Başlat",
-  "serverOptions/autostart/hint": "Bir model yüklendiğinde yerel sunucuyu otomatik olarak başlat",
-  "serverOptions/port/integerWarning": "Port numarası bir tamsayı olmalıdır",
-  "serverOptions/port/invalidPortWarning": "Port 1 ve 65535 arasında olmalıdır",
-  "serverOptions/cors/title": "CORS'ı Etkinleştir",
-  "serverOptions/cors/hint1": "CORS (Çapraz Kaynak Paylaşımı) etkinleştirmek, ziyaret ettiğiniz web sitelerinin LM Studio sunucusuna istek yapmasına olanak tanır.",
-  "serverOptions/cors/hint2": "Web sayfasından veya VS Code / diğer eklentiden istek gönderirken CORS gerekebilir.",
-  "serverOptions/cors/subtitle": "Çapraz kaynak isteklerine izin ver",
+  "serverOptions/autostart/title": "Sunucuyu otomatik başlat",
+  "serverOptions/autostart/hint": "Uygulama veya servis başladığında LM Studio yerel LLM sunucusunu otomatik olarak çalıştır",
+  "serverOptions/port/integerWarning": "Port numarası bir tam sayı olmalıdır",
+  "serverOptions/port/invalidPortWarning": "Port 1 ile 65535 arasında olmalıdır",
+  "serverOptions/cors/title": "CORS'u Etkinleştir",
+  "serverOptions/cors/hint1": "CORS (Cross-origin Resource Sharing) özelliğini etkinleştirmek, ziyaret ettiğiniz web sitelerinin LM Studio sunucusuna istek göndermesine izin verir.",
+  "serverOptions/cors/hint2": "Bir web sayfası veya VS Code / diğer eklentilerden istek gönderirken CORS gerekebilir.",
+  "serverOptions/cors/subtitle": "Çapraz kökenli (cross-origin) isteklere izin ver",
   "serverOptions/network/title": "Yerel Ağda Sun",
-  "serverOptions/network/subtitle": "Ağdaki cihazlara sunucu'yu göster",
-  "serverOptions/network/hint1": "Ağdaki diğer cihazlardan bağlantı izin verilsin mi?",
-  "serverOptions/network/hint2": "Eğer işaretlenmezse, sunucu sadece localhost'a dinleyecek.",
-  "serverOptions/verboseLogging/title": "Detaylı Günlüğe Kaydet",
-  "serverOptions/verboseLogging/subtitle": "Yerel sunucu için ayrıntılı günlük kaydı etkinleştir",
-  "serverOptions/contentLogging/title": "İstek ve Yanıtları Günlüğe Kaydet",
-  "serverOptions/contentLogging/subtitle": "Yerel istek / yanıt günlük ayarları",
-  "serverOptions/contentLogging/hint": "Günlük dosyasına istekleri ve/veya yanıtları kaydetmek mi istersiniz?",
-  "serverOptions/jitModelLoading/title": "Just-in-Time Model Yükleme",
-  "serverOptions/jitModelLoading/hint": "Etkinleştirildiğinde, bir istek belirli bir modeli yüklemeymişse otomatik olarak yükleyecek ve kullanacaktır. Ayrıca, \"/v1/models\" uç noktası ayrıca henüz yüklenmemiş modelleri de içerecektir.",
-  "serverOptions/loadModel/error": "Model yükleme başarısız oldu",
+  "serverOptions/network/subtitle": "Sunucuyu ağdaki cihazlara aç",
+  "serverOptions/network/hint1": "Ağdaki diğer cihazlardan gelen bağlantılara izin verilip verilmeyeceği.",
+  "serverOptions/network/hint2": "İşaretlenmezse, sunucu sadece 'localhost' üzerinden dinleme yapacaktır.",
+  "serverOptions/verboseLogging/title": "Ayrıntılı Günlük Kaydı (Verbose)",
+  "serverOptions/verboseLogging/subtitle": "Yerel sunucu için ayrıntılı günlük kaydını etkinleştir",
+  "serverOptions/contentLogging/title": "İstem (Prompt) ve Yanıtları Kaydet",
+  "serverOptions/contentLogging/subtitle": "Yerel istek / yanıt günlüğü ayarları",
+  "serverOptions/contentLogging/hint": "İstemlerin ve/veya yanıtların yerel sunucu günlük dosyasına kaydedilip kaydedilmeyeceği.",
+  "serverOptions/redactContent/title": "İçeriği Gizle (Redact)",
+  "serverOptions/redactContent/hint": "Etkinleştirildiğinde, isteklerin ve yanıtların içeriği gibi hassas verilerin günlüğe kaydedilmesini engeller.",
+  "serverOptions/logIncomingTokens/title": "Gelen Belirteçleri (Tokens) Kaydet",
+  "serverOptions/logIncomingTokens/hint": "Her bir belirtecin oluşturulma anında günlüğe kaydedilip kaydedilmeyeceği.",
+  "serverOptions/fileLoggingMode/title": "Dosya Günlüğü Modu",
+  "serverOptions/fileLoggingMode/off/title": "KAPALI",
+  "serverOptions/fileLoggingMode/off/hint": "Günlük dosyası oluşturma",
+  "serverOptions/fileLoggingMode/succinct/title": "Kısa ve Öz",
+  "serverOptions/fileLoggingMode/succinct/hint": "Konsol ile aynı içeriği kaydeder. Uzun istekler kısaltılır.",
+  "serverOptions/fileLoggingMode/full/title": "Tam",
+  "serverOptions/fileLoggingMode/full/hint": "Uzun istekleri kısaltmadan kaydeder.",
+  "serverOptions/jitModelLoading/title": "Anında (Just-in-Time) Model Yükleme",
+  "serverOptions/jitModelLoading/hint": "Etkinleştirildiğinde, bir istekte yüklü olmayan bir model belirtilirse, bu model otomatik olarak yüklenir ve kullanılır. Ayrıca \"/v1/models\" uç noktası henüz yüklenmemiş modelleri de içerir.",
+  "serverOptions/loadModel/error": "Model yüklenemedi",
+  "serverOptions/jitModelLoadingTTL/title": "Kullanılmayan JIT Modellerini Otomatik Kaldır",
+  "serverOptions/jitModelLoadingTTL/hint": "Bir API isteğine yanıt vermek için anında (JIT) yüklenen bir model, belirli bir süre (TTL) kullanılmadığında otomatik olarak bellekten kaldırılır.",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Maksimum Boşta Kalma Süresi (TTL)",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "dakika",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Sadece Son JIT Modelini Tut",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Herhangi bir zamanda JIT aracılığıyla en fazla 1 modelin yüklü olmasını sağlar (önceki modeli kaldırır)",
+  "serverOptions/allowMcp/title": "Uzak MCP'ye İzin Ver",
+  "serverOptions/allowMcp/hint": "mcp.json dosyanızda bulunmayan MCP'lerin kullanımına izin verin. Bu MCP bağlantıları geçicidir ve sadece istek süresince aktif kalır. Şu an için sadece uzak MCP'ler desteklenmektedir.",
+  "serverOptions/allowMcp/mode/off": "Kapalı",
+  "serverOptions/allowMcp/mode/off/hint": "Sunucu isteklerinin MCP kullanmasına izin verme",
+  "serverOptions/allowMcp/mode/remote": "Uzak",
+  "serverOptions/allowMcp/mode/remote/hint": "Uzak MCP sunucularına bağlantıya izin ver",
 
-  "serverLogs/scrollToBottom": "Sonuna git",
-  "serverLogs/clearLogs": "Günlükleri Temizle ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Sunucu günlükler klasörü aç",
+  "serverOptions/start/error": "Sunucu başlatılamadı",
+  "serverOptions/stop/error": "Sunucu durdurulamadı",
+
+  "serverLogs/scrollToBottom": "En alta git",
+  "serverLogs/clearLogs": "Günlükleri temizle ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Sunucu günlükleri klasörünü aç",
 
   "runtimeSettings/title": "Çalışma Zamanı Ayarları",
-  "runtimeSettings/chooseRuntime/title": "Çalışma Zamanlarını Yapılandır",
-  "runtimeSettings/chooseRuntime/description": "Her model formatı için bir çalışma zamanı seçin",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tüm çalışma zamanlarını göster",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "Varsayılan olarak, LM Studio sadece her uyumlu çalışma zamanının en son sürümünü gösterir. Bu seçeneği etkinleştirdiğinizde tüm kullanılabilir çalışma zamanlarını görebilirsiniz.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Bir Çalışma Zamanı Seçin",
+  "runtimeSettings/chooseRuntime/title": "Seçimler",
+  "runtimeSettings/chooseRuntime/description": "Her model formatı için kullanılacak bir motor seçin",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Tüm eklenti paketlerini göster",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "LM Studio varsayılan olarak her eklenti paketinin sadece en son sürümünü gösterir. Mevcut tüm paketleri görmek için bu seçeneği etkinleştirin.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Bir motor seçin",
+
+  "runtimeSettings/chooseFrameworks/title": "Çerçeveler (Frameworks)",
+  "runtimeSettings/chooseFrameworks/description": "Her işlev için kullanılacak bir çerçeve seçin",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Yerleşik ayrıştırıcı",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Belge Ayrıştırıcı",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Bir belge ayrıştırıcı seçin",
 
   "runtimeOptions/uninstall": "Kaldır",
   "runtimeOptions/uninstallDialog/title": "{{runtimeName}} kaldırılsın mı?",
-  "runtimeOptions/uninstallDialog/body": "Bu çalışma zamanını kaldırmak, sistemden çıkaracaktır. Bu eylem geri alınamaz.",
-  "runtimeOptions/uninstallDialog/body/caveats": "Bazı dosyalar sadece LM Studio yeniden başlatıldıktan sonra kaldırılabilir.",
-  "runtimeOptions/uninstallDialog/error": "Çalışma zamanını kaldırmak başarısız oldu",
-  "runtimeOptions/uninstallDialog/confirm": "Kaldır ve Devam Et",
+  "runtimeOptions/uninstallDialog/body": "Bu çalışma zamanını kaldırmak onu sistemden silecektir. Bu işlem geri alınamaz.",
+  "runtimeOptions/uninstallDialog/body/caveats": "Bazı dosyalar ancak LM Studio yeniden başlatıldıktan sonra silinebilir.",
+  "runtimeOptions/uninstallDialog/error": "Çalışma zamanı kaldırılamadı",
+  "runtimeOptions/uninstallDialog/confirm": "Devam Et ve Kaldır",
   "runtimeOptions/uninstallDialog/cancel": "İptal",
   "runtimeOptions/noCompatibleRuntimes": "Uyumlu çalışma zamanı bulunamadı",
-  "runtimeOptions/downloadIncompatibleRuntime": "Bu çalışma zamanı, cihazınızla uyumlu belirlenmiştir. Muhtemelen çalışmayacaktır.",
+  "runtimeOptions/downloadIncompatibleRuntime": "Bu çalışma zamanının makinenizle uyumsuz olduğu belirlendi. Büyük ihtimalle çalışmayacaktır.",
   "runtimeOptions/noRuntimes": "Çalışma zamanı bulunamadı",
 
-  "inferenceParams/noParams": "Bu model türü için yapılandırılabilir tahmin parametreleri yok",
+  "runtimes": {
+    "manageLMRuntimes": "LM Çalışma Zamanlarını Yönet",
+    "includeOlderRuntimeVersions": "Eski sürümleri dahil et",
+    "dismiss": "Kapat",
+    "updateAvailableToast": {
+      "title": "LM Çalışma Zamanı Güncellemesi Mevcut!"
+    },
+    "updatedToast": {
+      "title": " ✅ LM Çalışma Zamanı Güncellendi: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Yeni yüklenen {{compatibilityTypes}} modelleri güncellenmiş çalışma zamanını kullanacak."
+    },
+    "noAvx2ErrorMessage": "Tüm LM çalışma zamanları şu anda AVX2 desteğine sahip bir işlemci gerektirir",
+    "downloadableRuntimes": {
+      "runtimeExtensionPacks": "Çalışma Zamanı Eklenti Paketleri",
+      "refresh": "Yenile",
+      "refreshing": "Yenileniyor...",
+      "filterSegment": {
+        "compatibleOnly": "Sadece Uyumlu",
+        "all": "Hepsi"
+      },
+      "card": {
+        "releaseNotes": "Sürüm Notları",
+        "latestVersionInstalled": "En Son Sürüm Yüklü",
+        "updateAvailable": "Güncelleme Mevcut"
+      }
+    },
+    "installedRuntimes": {
+      "manage": {
+        "title": "Aktif Çalışma Zamanlarını Yönet"
+      },
+      "dropdownOptions": {
+        "installedVersions": "Sürümleri Yönet",
+        "close": "Kapat"
+      },
+      "tabs": {
+        "all": "Hepsi",
+        "frameworks": "Çerçevelerim",
+        "engines": "Motorlarım"
+      },
+      "detailsModal": {
+        "installedVersions": "{{runtimeName}} için yüklü sürümler",
+        "manifestJsonTitle": "Manifest JSON (gelişmiş)",
+        "releaseNotesTitle": "Sürüm Notları",
+        "noReleaseNotes": "Bu sürüm için sürüm notu bulunmuyor",
+        "back": "Geri",
+        "close": "Kapat"
+      },
+      "noEngines": "Yüklü motor yok",
+      "noFrameworks": "Yüklü çerçeve yok"
+    }
+  },
 
-  "endpoints/openaiCompatRest/title": "Desteklenen Uç Noktalar (OpenAI benzeri)",
-  "endpoints/openaiCompatRest/getModels": "Şu anda yüklü modelleri listele",
-  "endpoints/openaiCompatRest/postCompletions": "Metin Tamamlama Modu. Belirli bir öne çıkan belirteçleri tahmin etme. Not: OpenAI bu uç noktayı 'kullanımdan kaldırılmış' olarak kabul ediyor.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Sohbet Tamamlama. Sohbet geçmişi modeline gönderin ve son assistant yanıtını tahmin edin",
-  "endpoints/openaiCompatRest/postEmbeddings": "Metin Gömme. Belirli bir metin girişi için metin gömeleri oluşturun. Dize veya dize dizisi alır.",
+  "inferenceParams/noParams": "Bu model tipi için yapılandırılabilir çıkarım parametresi bulunmuyor",
+
+  "quickDocs": {
+    "tabChipTitle": "Geliştirici Dokümanları",
+    "newToolUsePopover": "Kod parçacıkları artık burada, \"Geliştirici Dokümanları\" altında. Araç kullanımıyla (tool use) başlamak için buraya tıklayın!",
+    "newToolUsePopoverTitle": "📚 Geliştirici Dokümanları",
+    "learnMore": "ℹ️ 👾 LM Studio yerel sunucu uç noktaları hakkında daha fazla bilgi edinmek için [dokümantasyonu](https://lmstudio.ai/docs) ziyaret edin.",
+    "helloWorld": {
+      "title": "Merhaba Dünya!"
+    },
+    "chat": {
+      "title": "Sohbet"
+    },
+    "structuredOutput": {
+      "title": "Yapılandırılmış Çıktı"
+    },
+    "imageInput": {
+      "title": "Görüntü Girişi"
+    },
+    "embeddings": {
+      "title": "Vektör Temsilleri (Embeddings)"
+    },
+    "toolUse": {
+      "title": "Araç Kullanımı",
+      "tab": {
+        "saveAsPythonFile": "Python dosyası olarak kaydet",
+        "runTheScript": "Betiği çalıştır:",
+        "savePythonFileCopyPaste": "Kopyala-yapıştır komutu için Python dosyası olarak kaydet"
+      }
+    },
+    "newBadge": "Yeni"
+  },
+
+  "endpoints/openaiCompatRest/title": "Desteklenen uç noktalar{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI benzeri",
+  "endpoints/openaiCompatRest/getModels": "Şu an yüklü olan modelleri listele",
+  "endpoints/openaiCompatRest/postCompletions": "Metin Tamamlama modu. Verilen istemden sonraki belirteçleri tahmin eder. Not: OpenAI bu uç noktayı 'kullanımdan kaldırılmış' saymaktadır.",
+  "endpoints/openaiCompatRest/postChatCompletions": "Sohbet tamamlamaları. Bir sonraki asistan yanıtını tahmin etmek için modele sohbet geçmişini gönderin",
+  "endpoints/openaiCompatRest/postEmbeddings": "Metin Gömme. Verilen metin girişi için vektör temsilleri oluşturur. Bir dize veya dize dizisi alır.",
+  "endpoints/openaiCompatRest/postResponses": "Model yanıtları oluşturmak için gelişmiş arayüz. Önceki yanıtların kimliğini giriş olarak vererek durum bilgisi olan etkileşimler oluşturun.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Mevcut modelleri listele",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Seçeneklerle bir model yükle",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Bir model indir",
+  "endpoints/lmStudioRestV1/postChat": "Bir modelle sohbet et. Çok turlu konuşmaları ve MCP'yi destekler",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Bir model indirmesinin durumunu al",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic uyumlu",
 
   "model.createVirtualModelFromInstance": "Ayarları Yeni Bir Sanal Model Olarak Kaydet",
-  "model.createVirtualModelFromInstance/error": "Yeni sanal model olarak ayarları kaydetme başarısız oldu",
+  "model.createVirtualModelFromInstance/error": "Ayarlar yeni bir sanal model olarak kaydedilemedi",
 
-  "apiConfigOptions/title": "API Yapılandırma"
+  "model": {
+    "toolUseSectionTitle": "Araç Kullanımı",
+    "toolUseDescription": "Bu modelin araç kullanımı (tool use) için eğitildiği tespit edildi\n\nDaha fazla bilgi için <custom-link>geliştirici dokümanlarını</custom-link> açın"
+  },
+
+  "apiConfigOptions/title": "API Yapılandırması"
 }
