@@ -4,9 +4,9 @@
 	"aggregate_one": "Du har {{count}} lokal modell, som tar upp {{size}} i diskutrymme.",
 	"aggregate_other": "Du har {{count}} lokala modeller, som tar upp {{size}} i diskutrymme.",
 	
-	"noModels.title": "Dina lokala LLM:er kommer att visas här.",
+	"noModels.title": "Dina modeller kommer att visas här.",
 	"noModels.discoverButtonText.prefix": "Klicka på",
-	"noModels.discoverButtonText.suffix": "knappen i vänstra sidofältet för att upptäcka intressanta LLM:er att ladda ner.",
+	"noModels.discoverButtonText.suffix": "knappen för att hitta modeller att ladda ner.",
 	"noModels.discoverModelsPrompt": "Gå och utforska några lokala LLM:er!",
 	
 	"modelsTable.arch/label": "Arkitektur",
@@ -15,7 +15,7 @@
 	"modelsTable.displayName/label": "Namn",
 	"modelsTable.modelKey/label": "Modellnyckel",
 	"modelsTable.size/label": "Storlek",
-	"modelsTable.dateModified/label": "Ändringsdatum",
+	"modelsTable.dateModified/label": "Ändrad",
 	"modelsTable.actions/label": "Åtgärder",
 	
 	"modelsTable.llms/label": "LLM",
@@ -55,7 +55,7 @@
 	"modelsDirectory.reveal.nonMac": "Öppna i Utforskaren",
 	"modelsDirectory.reveal.mac/error": "Misslyckades med att öppna i Finder",
 	"modelsDirectory.reveal.nonMac/error": "Misslyckades med att öppna i Utforskaren",
-	"modelsDirectory.forceReindex": "Uppdatera",
+	"modelsDirectory.forceReindex": "Uppdatera modellista",
 	"loadState/loaded": "Inläst",
 	"loadState/loading": "Läser in",
 	"loadState/unloaded": "Ej inläst",
@@ -110,6 +110,12 @@
 			"next": "Nästa",
 			"confirm": "Skapa",
 			"error": "Misslyckades med att skapa virtuell modell"
+		},
+		"altsSelect": {
+			"title": "Byt modellkälla",
+			"resetButton": "Återställ till standard",
+			"description": "Det finns flera tillgängliga källfiler för denna modell.",
+			"trigger": "Varianter"
 		}
 	}
 }
