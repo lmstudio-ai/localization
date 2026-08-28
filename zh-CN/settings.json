@@ -51,6 +51,9 @@
   "colorThemeLabel": "颜色主题",
   "complexityLevelLabel": "用户界面复杂度级别",
   "selectComplexityLevelPlaceholder": "选择默认的UI复杂度级别",
+  "appNavigationBarPositionLeft": "左侧",
+  "complexityLevelLabel": "用户界面复杂度等级",
+  "selectComplexityLevelPlaceholder": "选择默认的 UI 复杂度等级",
   "userComplexityLevelLabel": "普通用户",
   "powerUserComplexityLevelLabel": "高级用户",
   "developerComplexityLevelLabel": "开发者",
@@ -191,5 +194,19 @@
       "warnDescription": "禁用工具调用确认非常危险。如果您的插件中包含可能执行破坏性操作的工具（例如运行命令、删除文件、覆盖文件、上传文件等），模型将无需确认即可执行这些操作。您可以通过逐个工具或逐个插件的方式禁用确认提示。强烈不建议启用此选项。请谨慎操作。",
       "warnButton": "我了解风险"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "默认上下文长度",
+    "maxTitle": "模型最大值",
+    "customTitle": "自定义值",
+    "maxSubtitle": "使用每个模型所支持的最大上下文长度。",
+    "customSubtitle": "设置加载新模型时的默认上下文长度。如果模型支持的最大上下文长度低于该值，则将使用模型的最大值。",
+    "invalidNaNError": "无效的上下文长度值。将使用 {{value}}",
+    "invalidRangeError": "无效的上下文长度值。取值范围应为 1 到 2^30。将使用 {{value}}",
+    "largeContextWarning": "上下文长度越高，模型占用的内存就越多。如果不确定，请不要更改默认值。"
+  },
+  "jitTTL": {
+    "subtitle": "JIT 加载的模型在闲置超过指定时长后将被自动卸载。"
   }
 }
