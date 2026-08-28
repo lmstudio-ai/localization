@@ -3,12 +3,10 @@
   "filterModels.placeholder": "Filtra models...",
   "aggregate_one": "Tens {{count}} model local, que ocupa {{size}} del teu disc.",
   "aggregate_other": "Tens {{count}} models locals, que ocupen {{size}} del teu disc.",
-
   "noModels.title": "Els teus models locals apareixeran aquí.",
   "noModels.discoverButtonText.prefix": "Fes clic al",
   "noModels.discoverButtonText.suffix": "botó a la barra lateral esquerra per descobrir LLMs interessants per descarregar.",
   "noModels.discoverModelsPrompt": "Ves a explorar alguns LLMs locals!",
-
   "modelsTable.arch/label": "Arc",
   "modelsTable.params/label": "Paràms",
   "modelsTable.publisher/label": "Editor",
@@ -17,21 +15,19 @@
   "modelsTable.size/label": "Mida",
   "modelsTable.dateModified/label": "Última Modificació",
   "modelsTable.actions/label": "Accions",
-
-  "modelsTable.quant/label": "Quant",
+  "modelsTable.quant/label": "Quant.",
   "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "Embedding Model",
-
+  "modelsTable.embeddingModels/label": "Model d'embeddings",
   "action.model.delete": "Elimina",
   "action.model.delete.full": "Eliminar Model",
   "action.model.delete.confirmation/title": "Eliminar {{name}}",
   "action.model.delete.confirmation/description": "Estàs segur? Això eliminarà tots els fitxers associats al model permanentment. Aquesta acció és irreversible.",
   "action.model.delete.confirmation/confirm": "Elimina",
   "action.model.delete/error": "Error en eliminar el model",
-
   "loader.model.bundled": "Empaquetat",
   "action.cancel": "Cancel·la",
   "indexingOngoing": "Indexant models... Pot trigar una estona",
+  "indexingPageLoaderText": "Indexant models...",
   "index/error_one": "No s'ha pogut indexar la següent carpeta:",
   "index/error_other": "No s'ha pogut indexar les següents carpetes:",
   "badModels/title_one": "No s'ha pogut indexar el següent model:",
@@ -46,7 +42,6 @@
   "unresolvedVirtualModels.revealInExplorer": "Mostra a l'Explorador de Fitxers",
   "unresolvedVirtualModels.revealInFinder": "Mostra al Finder",
   "unresolvedVirtualModels.reveal/error": "No s'ha pogut mostrar",
-
   "modelsDirectory": "Ruta dels Models",
   "modelsDirectory.change": "Canvia...",
   "modelsDirectory.change/error": "No s'ha pogut canviar la ruta dels models",
@@ -73,7 +68,7 @@
   "contextMenu": {
     "showOnWeb": "Mostra al Web",
     "pullLatest": {
-      "label": "Pull Latest",
+      "label": "Obtén l'última versió",
       "checking": "Cercant actualitzacions...",
       "upToDate": "Estàs al dia",
       "error": "No s'ha pogut cercar actualitzacions"
@@ -85,17 +80,24 @@
   "tooltip/editModelDefaultConfig/override": "Edita la configuració per defecte del model (* has fet canvis)",
   "tooltip/visionBadge": "Aquest model suporta el processament d'imatges",
   "tooltip/toolUseBadge": "Aquest model ha estat entrenat per utilitzar eines",
-
   "visionBadge/label": "Visió Activada",
   "toolUseBadge/label": "Entrenat per Ús d'Eines",
-
   "loader.action.load": "Carrega el Model",
   "loader.action.clearChanges": "Descarta els Canvis",
   "loader.action.cancel": "Cancel·la",
   "loader.info.clickOnModelToLoad": "Fes clic en un model per carregar-lo",
   "loader.info.configureLoadParameters": "Configura els paràmetres de càrrega del model",
   "loader.info.activeGeneratorWarning": "Estàs utilitzant un plugin amb un generador personalitzat. El plugin pot o no afectar al model ja carregat, depenent de la implementació del plugin",
-
+  "loader.guardrails.estimatedMemoryUsage": "Ús de memòria estimat",
+  "loader.guardrails.total": "Total",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "L'estimació de memòria no està disponible per a aquest model",
+  "loader.guardrails.notEnoughResources": "No hi ha prou recursos per carregar el model amb la configuració actual",
+  "loader.guardrails.notEnoughResources/options": "Opcions",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "Sembla que el teu sistema no té prou memòria per carregar aquest model.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Pots ajustar les proteccions de càrrega de models a la configuració o mantenir <altOptionKey /> per carregar-lo igualment.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Carregar un model massa gran pot sobrecarregar el sistema i fer que es congeli.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre «Carrega igualment» sense mantenir Alt/Opció",
   "virtual": {
     "local": {
       "create": "Crea un Model Virtual",
@@ -110,6 +112,12 @@
       "next": "Següent",
       "confirm": "Crea",
       "error": "No s'ha pogut crear el model virtual"
+    },
+    "altsSelect": {
+      "title": "Canvia l'origen del model",
+      "resetButton": "Restableix els valors per defecte",
+      "description": "Hi ha diversos fitxers d'origen disponibles per a aquest model.",
+      "trigger": "Variants"
     }
   }
 }

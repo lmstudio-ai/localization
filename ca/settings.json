@@ -2,7 +2,6 @@
   "settingsDialogTitle": "Configuració",
   "settingsDialogButtonTooltip": "Configuració de l'App",
   "accountDialogButtonTooltip": "Compte",
-
   "settingsNewButtonPopover": {
     "primary": "La configuració ara es troba a la cantonada dreta inferior",
     "secondary": "Fes clic a l'icona ⚙️ per obrir-la.",
@@ -32,8 +31,8 @@
   "appUpdatedToastTitle": "Actualitzat a {{title}}",
   "appUpdatedToastDescriptionPrefix": "Llegeix les ",
   "AppUpdatedToastDescriptionReleaseNotes": "Notes de la Versió",
-  "toolUseToastTitle": "Nou a la Beta: Tool Use and Function Calls API",
-  "toolUseToastDescription": "Drop-in replacement for OpenAI Tool Use with select models such as Llama 3.1/3.2, Mistral, and Qwen.",
+  "toolUseToastTitle": "Nou a la Beta: API d'ús d'eines i crides a funcions",
+  "toolUseToastDescription": "Substitut directe de l'ús d'eines d'OpenAI amb models seleccionats com Llama 3.1/3.2, Mistral i Qwen.",
   "toolUseToastButtonText": "Dirigeix-te a la pàgina de desenvolupadors per provar-ho",
   "doItLater": "Ho faré més tard",
   "failedToUpdate": "Error en actualitzar. Si us plau, comprova la teva connexió a internet o torna a intentar-ho en una estona.",
@@ -49,6 +48,9 @@
   "sideButtonLabels": "Mostra etiquetes als botons laterals",
   "showModelFileNames": "Els Meus Models: mostra sempre el nom complet del fitxer del model",
   "colorThemeLabel": "Esquema de color",
+  "appNavigationBarPositionLabel": "Posició de la barra de navegació",
+  "appNavigationBarPositionTop": "Superior",
+  "appNavigationBarPositionLeft": "Esquerra",
   "complexityLevelLabel": "Nivell de Complexitat de l'Intefície d'Usuari",
   "selectComplexityLevelPlaceholder": "Escull un nivell de complexitat predeterminat per a la IU",
   "userComplexityLevelLabel": "Usuari",
@@ -71,13 +73,11 @@
   "chat/keyboardShortcuts/verbPrefix": "Utilitza",
   "chat/keyboardShortcuts/regenerate": "per regenerar l'últim missatge del xat",
   "chat/keyboardShortcuts/sendMessage": "per enviar el missatge",
-
   "onboarding/blockTitle": "Pistes d'Introducció",
   "onboarding/dismissedHints": "Pistes d'Introducció Ignorades",
   "onboarding/resetHintTooltip": "Fes clic per reactivar les pistes d'introducció",
   "onboarding/resetAllHints": "Reactiva Totes les Pistes d'Introducció",
   "onboarding/noneDismissed": "Cap pista ignorada, actualment totes les piestes t'ajudaran fins que les desactivis",
-
   "firstTimeExperienceLabel": "Experiència de xat nou",
   "firstTimeExperienceMarkCompletedLabel": "Marca com Completa",
   "firstTimeExperienceResetLabel": "Reinicia",
@@ -91,30 +91,27 @@
   "changeLanguageLabel": "Selecciona l'idioma de l'app (en desenvolupament)",
   "developerLabel": "Desenvolupador",
   "localServiceLabel": "Servei Local LLM (headless)",
+  "modelDefaultsLabel": "Valors predeterminats del model",
   "showExperimentalFeaturesLabel": "Mostra característiques experimentals",
   "appFirstLoadLabel": "Experiència de primer inici de l'app",
   "showDebugInfoBlocksInChatLabel": "Mostra blocs de depuració al xat",
   "autoLoadBundledLLMLabel": "Carrega automàticament un model LLM bundled l'inici",
   "showReleaseNotes": "Mostra les notes de versió",
   "hideReleaseNotes": "Oculta les notes de versió",
-
   "backendDownloadNewUpdate": "Nous backends disponibles!",
   "backendDownloadNewUpdateAction": "Ves a la pàgina de desenvolupadors",
-
   "backendDownloadChannel.label": "Canal de Descàrrega de Paquets d'Extensió del LM Studio",
   "backendDownloadChannel.value.stable": "Estable",
   "backendDownloadChannel.value.beta": "Beta",
   "backendDownloadChannel.value.latest": "Dev",
   "backendDownloadChannel.shortLabel": "Canal de Descàrrega d'Entorns d'Execució",
   "backendDownloadChannel.hint": "Escull el canal d'on descarregar els paquets d'extensió del LM Studio. \"{{stableName}}\" és el canal recomanat a la majoria d'usuaris.",
-
   "appUpdateChannel.label": "Canal d'Actualitzacions",
   "appUpdateChannel.value.stable": "Estable",
   "appUpdateChannel.value.beta": "Beta",
   "appUpdateChannel.value.alpha": "Alfa",
   "appUpdateChannel.shortLabel": "Canal d'actualitzacions de l'app",
   "appUpdateChannel.hint": "Escull el canal d'on rebre actualitzacions del LM Studio. \"{{stableName}}\" és el canal recomanat a la majoria d'usuaris.",
-
   "modelLoadingGuardrails.label": "Protecció de Sobrecàrrega de Models",
   "modelLoadingGuardrails.description": "Carregar models que excedeixin les capacitats del maquinari pot causar inestabilitats o congelaments. La protecció de sobrècarrega prova d'evitar aquests problemes. Ajusta els límits aquí si fos necessari, però sigues conscient que carregar models per sobre de les capacitats del teu maquinari pot reduir l'estabilitat.",
   "modelLoadingGuardrails.value.off": "APAGAT (No Recomanat)",
@@ -135,10 +132,9 @@
   "modelLoadingGuardrails.custom.label": "Límit de Memòria: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Estableix un límit de memòria personalitzat per carregar models. Els models que excedeixin aquest límit no carregaran.",
-
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre «Carrega igualment» sense mantenir Alt/Opció",
   "experimentalLoadPresets": "Activa el suport de configuracions de càrrega per a models presets",
   "experimentalLoadPresets.description": "Decideix si permetre als presets incloure configuracions de càrrega per als models. Aquesta característica és experimental i agrairíem els comentaris.",
-
   "unloadPreviousJITModelOnLoad": "Expulsar models JIT automàticament: assegura't que mai hi haurà més d'1 model carregat via JIT en qualsevol moment (descarregarà altres models)",
   "autoDeleteExtensionPacks": "Elimina automàticament el Paquet d'Extensió d'Entorns d'Execució menys utilitzat últimament",
   "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Extensió d'Entorns d'Execució seleccionats",
@@ -146,16 +142,12 @@
   "useHFProxy.hint": "Utilitza el Proxy Hugging Face Proxy del LM Studio per cercar i descarregar models. Això pot ser útil si tens problemes a l'hora d'accedir a Hugging Face directament.",
   "separateReasoningContentInResponses": "Quan sigui possible, separa `reasoning_content` i `content` a les respostes per a les API",
   "separateReasoningContentInResponses/hint": "Això només funcionarà per models amb raonament com el Deepseek R1, les seves variants destil·lades i altres models que produeixin CoT a les etiquetes `<think>` i `</think>`.",
-
   "promptWhenCommittingUnsavedChangesWithNewFields": "Presets: Mostra diàlegs de confirmació quan s'afegeixin nous camps al preset",
   "promptWhenCommittingUnsavedChangesWithNewFields.description": "Això és útil si vols evitar afegir nous camps als presets accidentalment",
-
   "enableLocalService": "Activa el Servei Local LLM",
   "enableLocalService.subtitle": "Activa el servidor LLM del LM Studio sense haver de mantenir l'apicació LM Studio oberta",
   "enableLocalService.description": "Quan s'activi, el Servei Local LLM del LM Studio s'iniciarà en encendre l'ordinador. Tancar el LM Studio no afectarà al Servei Local LLM del LM Studio, que continuarà funcionant a la barra de tasques.",
-
   "expandConfigsOnClick": "Mostra les configuracions en fer clic en comptes de passar per sobre",
-
   "migrateChats": {
     "label": "Migra Xats pre-0.3.0",
     "hasBetterLabel": "Torna a Migrar Xats pre-0.3.0",
@@ -190,5 +182,18 @@
       "warnDescription": "Desactivar les confirmacions a l'hora d'usar eines és perillós. Si un dels teus plugins ha contribuït a una eina que té el potencial de portar a terme accions destructives (com executar ordres al terminal, eliminar fitxers, sobreescriure fitxers, pujar fitxers, etc.), el model serà capaç de fer tot això sense demanar-te permís. Sempre podràs desactivar les confirmacions individualment per a cadascuna de les eines o dels plugins. NO es recomana activar aquesta opció. Si us plau, sigues curós.",
       "warnButton": "Entenc els riscos"
     }
+  },
+  "defaultContextLength": {
+    "label": "Llargada de context predeterminada",
+    "maxTitle": "Màxim del model",
+    "customTitle": "Valor personalitzat",
+    "maxSubtitle": "Utilitza la llargada de context màxima admesa per cada model.",
+    "customSubtitle": "Estableix la llargada de context predeterminada per carregar models nous. Si la llargada màxima de context admesa pel model és inferior, s'utilitzarà aquell valor.",
+    "invalidNaNError": "Valor de llargada de context no vàlid. S'utilitza {{value}}",
+    "invalidRangeError": "Valor de llargada de context no vàlid. Hauria d'estar dins del rang entre 1 i 2^30. S'utilitza {{value}}",
+    "largeContextWarning": "Com més alta sigui la llargada del context, més memòria ocuparà el model. Si no n'estàs segur, no canviïs el valor predeterminat"
+  },
+  "jitTTL": {
+    "subtitle": "Els models carregats amb JIT es descarregaran automàticament després d'estar inactius durant la durada especificada."
   }
 }
