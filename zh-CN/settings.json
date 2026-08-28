@@ -49,6 +49,9 @@
   "sideButtonLabels": "显示侧边按钮标签",
   "showModelFileNames": "在“我的模型”中始终显示完整模型文件名",
   "colorThemeLabel": "颜色主题",
+  "appNavigationBarPositionLabel": "导航栏位置",
+  "appNavigationBarPositionTop": "顶部",
+  "appNavigationBarPositionLeft": "左侧",
   "complexityLevelLabel": "用户界面复杂度级别",
   "selectComplexityLevelPlaceholder": "选择默认的UI复杂度级别",
   "userComplexityLevelLabel": "普通用户",
@@ -92,6 +95,7 @@
   "changeLanguageLabel": "选择应用语言（仍在开发中）",
   "developerLabel": "开发者",
   "localServiceLabel": "本地 LLM 服务（无界面）",
+  "modelDefaultsLabel": "模型默认设置",
   "showExperimentalFeaturesLabel": "显示实验性功能",
   "appFirstLoadLabel": "应用首次加载体验",
   "showDebugInfoBlocksInChatLabel": "在聊天中显示调试信息块",
@@ -136,6 +140,7 @@
   "modelLoadingGuardrails.custom.label": "内存限制：",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "为模型加载设置自定义内存限制。如果加载的模型会超过此限制，则不会加载模型。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(不推荐) 始终允许“强制加载”，无需按住 Alt/Option 键",
 
   "experimentalLoadPresets": "在预设中启用模型加载配置支持",
   "experimentalLoadPresets.description": "是否允许预设包含模型加载配置。此功能尚处于试验阶段，我们欢迎反馈。",
@@ -191,5 +196,19 @@
       "warnDescription": "禁用工具调用确认非常危险。如果您的插件中包含可能执行破坏性操作的工具（例如运行命令、删除文件、覆盖文件、上传文件等），模型将无需确认即可执行这些操作。您可以通过逐个工具或逐个插件的方式禁用确认提示。强烈不建议启用此选项。请谨慎操作。",
       "warnButton": "我了解风险"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "默认上下文长度",
+    "maxTitle": "模型最大值",
+    "customTitle": "自定义数值",
+    "maxSubtitle": "使用每个模型支持的最大上下文长度。",
+    "customSubtitle": "设置加载新模型时的默认上下文长度。如果模型支持的最大长度低于此值，将以模型最大值为准。",
+    "invalidNaNError": "上下文长度数值无效。当前使用：{{value}}",
+    "invalidRangeError": "上下文长度数值无效。范围应在 1 到 2^30 之间。当前使用：{{value}}",
+    "largeContextWarning": "上下文长度越高，模型占用的内存/显存就越多。如果您不确定，请勿更改默认设置。"
+  },
+  "jitTTL": {
+    "subtitle": "即时加载 (JIT) 的模型在闲置指定时长后将自动卸载。"
   }
 }
