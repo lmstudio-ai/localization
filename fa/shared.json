@@ -1,38 +1,270 @@
 {
-  "copyLmStudioLinkButton/toolTip": "کپی لینک دانلود مدل",
-
-  "filter.noMatches": "هیچ موردی یافت نشد",
+  "copyLmStudioLinkButton/toolTip": "کپی پیوند دانلود مدل",
+  "filter.noMatches": "موردی یافت نشد",
   "longRunningTask": {
     "unbundlingDependencies": {
-      "badge": "استخراج منابع"
+      "badge": "در حال استخراج منابع"
     },
     "performingBackendHardwareSurvey": {
-      "badge": "بررسی سازگاری‌های زمان اجرا"
+      "badge": "در حال بررسی سازگاری موتورهای اجرا"
     },
     "indexingRuntimes": {
-      "badge": "ایندکس کردن زمان‌های اجرا"
+      "badge": "در حال نمایه‌سازی موتورهای اجرا"
     },
     "indexingModels": {
-      "badge": "ایندکس کردن مدل‌ها"
+      "badge": "در حال نمایه‌سازی مدل‌ها"
     },
     "authenticating": {
-      "badge": "احراز هویت"
+      "badge": "در حال احراز هویت"
     },
     "autoUpdatingExtensionPack": {
-      "badge": "بروزرسانی بسته افزونه ({{name}} v{{version}})"
+      "badge": "در حال به‌روزرسانی بستهٔ افزونه ({{name}} v{{version}})"
     }
   },
   "auth": {
-    "prompt": "وارد حساب LM Studio Hub شوید",
+    "prompt": "ورود به LM Studio Hub",
     "authError": "احراز هویت ناموفق بود",
     "noAccount": "حساب کاربری ندارید؟",
-    "signUp": "ثبت نام",
-    "havingTrouble": "دچار مشکل شده‌اید؟",
-    "retry": "تلاش مجدد"
+    "signUp": "ثبت‌نام",
+    "havingTrouble": "مشکلی پیش آمده؟",
+    "retry": "تلاش دوباره"
   },
   "artifacts": {
-    "fetchError": "دریافت منابع با شکست مواجه شد"
+    "fetchError": "دریافت محتوا انجام نشد",
+    "organizationVisible": "قابل‌مشاهده برای سازمان"
   },
   "incompatible": "ناسازگار",
-  "compatible": "سازگار"
+  "compatible": "سازگار",
+  "public": "عمومی",
+  "private": "خصوصی",
+  "yes": "بله",
+  "no": "خیر",
+  "go": "رفتن",
+  "proceedWithEllipsis": "ادامه…",
+  "proceed": "ادامه",
+  "inProgress": "در حال انجام…",
+  "failed": "ناموفق",
+  "pending": "در انتظار",
+  "doneWithExclamation": "انجام شد!",
+  "done": "انجام شد",
+  "beta": "بتا",
+  "complete": {
+    "completeWithEllipsis": "تکمیل…",
+    "complete": "تکمیل",
+    "completingWithEllipsis": "در حال تکمیل…",
+    "completing": "در حال تکمیل",
+    "completedWithExclamation": "تکمیل شد!",
+    "completed": "تکمیل شد"
+  },
+  "cancel": {
+    "cancelWithEllipsis": "لغو…",
+    "cancel": "لغو",
+    "cancelingWithEllipsis": "در حال لغو…",
+    "canceling": "در حال لغو",
+    "canceled": "لغو شد"
+  },
+  "next": {
+    "nextWithEllipsis": "بعدی…",
+    "next": "بعدی"
+  },
+  "back": {
+    "backWithEllipsis": "بازگشت…",
+    "back": "بازگشت"
+  },
+  "close": {
+    "closeWithEllipsis": "بستن…",
+    "close": "بستن",
+    "closingWithEllipsis": "در حال بستن…",
+    "closing": "در حال بستن",
+    "closedWithExclamation": "بسته شد!",
+    "closed": "بسته شد"
+  },
+  "delete": {
+    "deleteWithEllipsis": "حذف…",
+    "delete": "حذف",
+    "deletingWithEllipsis": "در حال حذف…",
+    "deleting": "در حال حذف",
+    "deletedWithExclamation": "حذف شد!",
+    "deleted": "حذف شد"
+  },
+  "retry": {
+    "retryWithEllipsis": "تلاش دوباره…",
+    "retry": "تلاش دوباره",
+    "retryingWithEllipsis": "در حال تلاش دوباره…",
+    "retrying": "در حال تلاش دوباره"
+  },
+  "refresh": {
+    "refreshWithEllipsis": "تازه‌سازی…",
+    "refresh": "تازه‌سازی",
+    "refreshingWithEllipsis": "در حال تازه‌سازی…",
+    "refreshing": "در حال تازه‌سازی",
+    "refreshedWithExclamation": "تازه‌سازی شد!",
+    "refreshed": "تازه‌سازی شد"
+  },
+  "confirm": {
+    "confirm": "تأیید",
+    "confirmingWithEllipsis": "در حال تأیید…",
+    "confirming": "در حال تأیید",
+    "confirmedWithExclamation": "تأیید شد!",
+    "confirmed": "تأیید شد"
+  },
+  "copy": {
+    "copyWithEllipsis": "کپی…",
+    "copy": "کپی",
+    "copyingWithEllipsis": "در حال کپی…",
+    "copying": "در حال کپی",
+    "copiedWithExclamation": "کپی شد!",
+    "copied": "کپی شد"
+  },
+  "edit": {
+    "editWithEllipsis": "ویرایش…",
+    "edit": "ویرایش",
+    "editingWithEllipsis": "در حال ویرایش…",
+    "editing": "در حال ویرایش",
+    "editedWithExclamation": "ویرایش شد!",
+    "edited": "ویرایش شد"
+  },
+  "load": {
+    "loadWithEllipsis": "بارگذاری…",
+    "load": "بارگذاری",
+    "loadingWithEllipsis": "در حال بارگذاری…",
+    "loading": "در حال بارگذاری",
+    "loadedWithExclamation": "بارگذاری شد!",
+    "loaded": "بارگذاری شد"
+  },
+  "save": {
+    "saveWithEllipsis": "ذخیره…",
+    "save": "ذخیره",
+    "savingWithEllipsis": "در حال ذخیره…",
+    "saving": "در حال ذخیره",
+    "savedWithExclamation": "ذخیره شد!",
+    "saved": "ذخیره شد"
+  },
+  "saveAs": {
+    "saveAsWithEllipsis": "ذخیره به‌عنوان…",
+    "saveAs": "ذخیره به‌عنوان"
+  },
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "ذخیره به‌عنوان مورد جدید…",
+    "saveAsNew": "ذخیره به‌عنوان مورد جدید"
+  },
+  "search": {
+    "searchWithEllipsis": "جست‌وجو…",
+    "search": "جست‌وجو",
+    "searchingWithEllipsis": "در حال جست‌وجو…",
+    "searching": "در حال جست‌وجو"
+  },
+  "update": {
+    "updateWithEllipsis": "به‌روزرسانی…",
+    "update": "به‌روزرسانی",
+    "updatingWithEllipsis": "در حال به‌روزرسانی…",
+    "updating": "در حال به‌روزرسانی",
+    "updatedWithExclamation": "به‌روزرسانی شد!",
+    "updated": "به‌روزرسانی شد"
+  },
+  "create": {
+    "createWithEllipsis": "ایجاد…",
+    "create": "ایجاد",
+    "creatingWithEllipsis": "در حال ایجاد",
+    "creating": "در حال ایجاد",
+    "createdWithExclamation": "ایجاد شد!",
+    "created": "ایجاد شد"
+  },
+  "reset": {
+    "resetWithEllipsis": "بازنشانی…",
+    "reset": "بازنشانی",
+    "resettingWithEllipsis": "در حال بازنشانی…",
+    "resetting": "در حال بازنشانی"
+  },
+  "pause": {
+    "pause": "مکث",
+    "pausingWithEllipsis": "در حال مکث…",
+    "pausing": "در حال مکث",
+    "paused": "در حالت مکث"
+  },
+  "download": {
+    "download": "دانلود",
+    "downloadingWithEllipsis": "در حال دانلود…",
+    "downloading": "در حال دانلود",
+    "downloadedWithExclamation": "دانلود شد!",
+    "downloaded": "دانلود شد"
+  },
+  "upload": {
+    "uploadWithEllipsis": "آپلود…",
+    "upload": "آپلود",
+    "uploadingWithEllipsis": "در حال آپلود…",
+    "uploading": "در حال آپلود",
+    "uploadedWithExclamation": "آپلود شد!",
+    "uploaded": "آپلود شد"
+  },
+  "remove": {
+    "removeWithEllipsis": "حذف…",
+    "remove": "حذف",
+    "removingWithEllipsis": "در حال حذف…",
+    "removing": "در حال حذف",
+    "removedWithExclamation": "حذف شد!",
+    "removed": "حذف شد"
+  },
+  "uninstall": {
+    "uninstallWithEllipsis": "حذف از سیستم…",
+    "uninstall": "حذف از سیستم",
+    "uninstallingWithEllipsis": "در حال حذف از سیستم…",
+    "uninstalling": "در حال حذف از سیستم",
+    "uninstalledWithExclamation": "از سیستم حذف شد!",
+    "uninstalled": "از سیستم حذف شد"
+  },
+  "resume": {
+    "resumeWithEllipsis": "ازسرگیری…",
+    "resume": "ازسرگیری",
+    "resumingWithEllipsis": "در حال ازسرگیری…",
+    "resuming": "در حال ازسرگیری"
+  },
+  "start": {
+    "startWithEllipsis": "شروع…",
+    "start": "شروع",
+    "startingWithEllipsis": "در حال شروع…",
+    "starting": "در حال شروع",
+    "started": "شروع شد"
+  },
+  "stop": {
+    "stopWithEllipsis": "توقف…",
+    "stop": "توقف",
+    "stoppingWithEllipsis": "در حال توقف…",
+    "stopping": "در حال توقف",
+    "stoppedWithExclamation": "متوقف شد!",
+    "stopped": "متوقف شد"
+  },
+  "import": {
+    "importWithEllipsis": "وارد کردن…",
+    "import": "وارد کردن",
+    "importingWithEllipsis": "در حال وارد کردن…",
+    "importing": "در حال وارد کردن",
+    "importedWithExclamation": "وارد شد!",
+    "imported": "وارد شد"
+  },
+  "letsGo": {
+    "letsGo": "بزن بریم",
+    "letsGoWithEllipsis": "بزن بریم…",
+    "letsGoWithExclamation": "بزن بریم!"
+  },
+  "run": {
+    "runWithEllipsis": "اجرا…",
+    "run": "اجرا",
+    "runningWithEllipsis": "در حال اجرا…",
+    "running": "در حال اجرا"
+  },
+  "configure": {
+    "configureWithEllipsis": "پیکربندی…",
+    "configure": "پیکربندی",
+    "configuringWithEllipsis": "در حال پیکربندی…",
+    "configured": "پیکربندی شد"
+  },
+  "publish": {
+    "publishWithEllipsis": "انتشار…",
+    "publish": "انتشار",
+    "publishingWithEllipsis": "در حال انتشار…",
+    "publishing": "در حال انتشار",
+    "publishedWithExclamation": "منتشر شد!",
+    "published": "منتشر شد"
+  }
 }
