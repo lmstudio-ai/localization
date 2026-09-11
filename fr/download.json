@@ -1,6 +1,16 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extraction...",
-  "finalizing": "Finalisation... (cela peut prendre quelques instants)",
+  "postDownloadActionExecutor.zipExtraction/status": "Extraction des fichiers ...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extraction des fichiers ...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extraction des fichiers ...",
+  "postDownloadActionExecutor.modifyModelData/status": "Mise à jour données modèle ...",
+  "postDownloadActionExecutor.notification/status": "Notification utilisateur ...",
+  "postDownloadActionExecutor.writeString/status": "Écriture métadonnées ...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Mise à jour version sélectionnée ...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Suppression extensions inutilisées ...",
+  "postDownloadActionExecutor.pluginInstall/status": "Installation de plugin ...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Désinstallation de plugin...",
+
+  "finalizing": "Finalisation du téléchargement ... (cela peut prendre quelques instants)",
   "noOptions": "Aucune option compatible disponible pour le téléchargement",
   
   "deeplink/confirmation/title": "Télécharger le modèle depuis Hugging Face 🤗",
@@ -20,4 +30,14 @@
   "downloadsPanel/title": "Téléchargements",
   "downloadsPanel/sectionTitle/ongoing": "En cours",
   "downloadsPanel/sectionTitle/completed": "Terminé"
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Révéler dans le Finder",
+      "mac/error": "Échec à révéler dans le Finder",
+      "nonMac": "Révéler dans l'explorateur de fichiers",
+      "nonMac/error": "Échec à révéler dans l'explorateur de fichiers"
+    },
+    "completed": "Téléchargement terminé",
+    "loadModel": "Charger modèle"
+  }
 }
