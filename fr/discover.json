@@ -23,6 +23,7 @@
   "download.option.recommended/description": "En fonction de votre matériel, cette option est recommandée.",
   "download.option.downloaded/title": "Téléchargé",
   "download.option.downloading/title": "Téléchargement ({{progressPercentile}}%)",
+  "failedToStartDownload": "Échec à lancer le téléchargement",
 
   "feed.action.refresh": "Actualiser le flux"
 }
