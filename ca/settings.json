@@ -49,6 +49,9 @@
   "sideButtonLabels": "Mostra etiquetes als botons laterals",
   "showModelFileNames": "Els Meus Models: mostra sempre el nom complet del fitxer del model",
   "colorThemeLabel": "Esquema de color",
+  "appNavigationBarPositionLabel": "Posició de la Barra de Navegació",
+  "appNavigationBarPositionTop": "Amunt",
+  "appNavigationBarPositionLeft": "Esquerra",
   "complexityLevelLabel": "Nivell de Complexitat de l'Intefície d'Usuari",
   "selectComplexityLevelPlaceholder": "Escull un nivell de complexitat predeterminat per a la IU",
   "userComplexityLevelLabel": "Usuari",
@@ -58,6 +61,7 @@
   "chat/alwaysShowPromptTemplate": "Mostra sempre una plantilla de prompt a la barra lateral del Xat",
   "chat/highlightChatMessageOnHover": "Remarca els missatges dels xats al passar per sobre",
   "chat/doubleClickMessageToEdit": "Fes doble clic a un missatge per editar-lo",
+
   "chat/aiNaming/label": "Anomenar els Xats amb IA",
   "chat/aiNaming/mode/label": "Noms dels Xats Generats amb IA",
   "chat/aiNaming/mode/value/never": "Mai",
@@ -87,10 +91,11 @@
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sépia",
   "unloadPreviousModelLabel": "Quan seleccionis un model a carregar, descarrega'n primer tots els altres models",
-  "languageLabel": "Idioma",
+  "languageLabel": "Idioma de l'App",
   "changeLanguageLabel": "Selecciona l'idioma de l'app (en desenvolupament)",
   "developerLabel": "Desenvolupador",
   "localServiceLabel": "Servei Local LLM (headless)",
+  "modelDefaultsLabel": "Configuració per Defecte del Model",
   "showExperimentalFeaturesLabel": "Mostra característiques experimentals",
   "appFirstLoadLabel": "Experiència de primer inici de l'app",
   "showDebugInfoBlocksInChatLabel": "Mostra blocs de depuració al xat",
@@ -105,7 +110,7 @@
   "backendDownloadChannel.value.stable": "Estable",
   "backendDownloadChannel.value.beta": "Beta",
   "backendDownloadChannel.value.latest": "Dev",
-  "backendDownloadChannel.shortLabel": "Canal de Descàrrega d'Entorns d'Execució",
+  "backendDownloadChannel.shortLabel": "Canal de Descàrrega de Runtimes",
   "backendDownloadChannel.hint": "Escull el canal d'on descarregar els paquets d'extensió del LM Studio. \"{{stableName}}\" és el canal recomanat a la majoria d'usuaris.",
 
   "appUpdateChannel.label": "Canal d'Actualitzacions",
@@ -135,13 +140,14 @@
   "modelLoadingGuardrails.custom.label": "Límit de Memòria: ",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "Estableix un límit de memòria personalitzat per carregar models. Els models que excedeixin aquest límit no carregaran.",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carregar Igualment' sense mantenir presionat Alt/Option",
 
   "experimentalLoadPresets": "Activa el suport de configuracions de càrrega per a models presets",
   "experimentalLoadPresets.description": "Decideix si permetre als presets incloure configuracions de càrrega per als models. Aquesta característica és experimental i agrairíem els comentaris.",
 
   "unloadPreviousJITModelOnLoad": "Expulsar models JIT automàticament: assegura't que mai hi haurà més d'1 model carregat via JIT en qualsevol moment (descarregarà altres models)",
-  "autoDeleteExtensionPacks": "Elimina automàticament el Paquet d'Extensió d'Entorns d'Execució menys utilitzat últimament",
-  "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Extensió d'Entorns d'Execució seleccionats",
+  "autoDeleteExtensionPacks": "Elimina automàticament el Paquet d'Extensió de Runtime menys utilitzat últimament",
+  "autoUpdateExtensionPacks": "Actualitza automàticament els Paquets d'Extensió de Runtime seleccionats",
   "useHFProxy.label": "Utilitza el Proxy Hugging Face Proxy del LM Studio",
   "useHFProxy.hint": "Utilitza el Proxy Hugging Face Proxy del LM Studio per cercar i descarregar models. Això pot ser útil si tens problemes a l'hora d'accedir a Hugging Face directament.",
   "separateReasoningContentInResponses": "Quan sigui possible, separa `reasoning_content` i `content` a les respostes per a les API",
@@ -184,11 +190,25 @@
   "toolConfirmation": {
     "label": "Confirmació d'Ús d'Eines",
     "neverAsk": {
-      "label": "No demanis permís mai abans d'executar eines (NO RECOMANAT)",
-      "hint": "Desactiva la confirmació abans d'executar una eina. No es recomana.",
+      "label": "No demanis mai permís abans d'utilitzar eines (NO RECOMANAT)",
+      "hint": "Desactiva la confirmació abans d'utilitzar una eina. No es recomana activar-ho.",
       "warnTitle": "Estàs segur?",
       "warnDescription": "Desactivar les confirmacions a l'hora d'usar eines és perillós. Si un dels teus plugins ha contribuït a una eina que té el potencial de portar a terme accions destructives (com executar ordres al terminal, eliminar fitxers, sobreescriure fitxers, pujar fitxers, etc.), el model serà capaç de fer tot això sense demanar-te permís. Sempre podràs desactivar les confirmacions individualment per a cadascuna de les eines o dels plugins. NO es recomana activar aquesta opció. Si us plau, sigues curós.",
       "warnButton": "Entenc els riscos"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "Llargada del Context per Defecte",
+    "maxTitle": "Màxim del Model",
+    "customTitle": "Valor personalitzat",
+    "maxSubtitle": "Utilitza la llargada de context màxima que suporti cada model.",
+    "customSubtitle": "Estableix la llargada del context a l'hora de carregar nous models. Si la llargada del context màxima suportada pel model és inferior, s'ignorarà el teu valor.",
+    "invalidNaNError": "Valor per la llargada del context invàl·lida. Utilitzant {{value}}",
+    "invalidRangeError": "Valor per la llargada del context invàl·lida. Ha d'estar entre 1 i 2^30. Utilitzant {{value}}",
+    "largeContextWarning": "Contra més llarg sigui el context, més ocuparà a la memòria. Si no estàs segur, deixa el valor per defecte."
+  },
+  "jitTTL": {
+    "subtitle": "Els models carregats amb JIT es descarregaran automàticament després d'estar en repòs durant el temps especificat."
   }
 }
