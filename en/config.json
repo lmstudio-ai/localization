@@ -169,7 +169,7 @@
   "llm.load.mlx.autoFit/title": "Automatic Context Sizing",
   "llm.load.mlx.autoFit/subTitle": "Let the MLX runtime choose a safe context length at load time based on available memory",
   "llm.load.yuzu.autoFit/title": "Automatic Context Sizing",
-  "llm.load.yuzu.autoFit/subTitle": "Let the Yuzu runtime choose a safe context length at load time based on available memory",
+  "llm.load.yuzu.autoFit/subTitle": "Let the runtime choose a safe context length at load time based on available memory",
   "llm.load.mlx.diskCache/title": "Prompt Disk Cache",
   "llm.load.mlx.diskCache/subTitle": "Reuse prompt states across requests by caching them on disk",
   "llm.load.llama.acceleration.offloadRatio/title": "GPU Offload",
