@@ -300,5 +300,7 @@
     "publishing": "发布中",
     "publishedWithExclamation": "已发布！",
     "published": "已发布"
-  }
+  },
+
+  "beta": "测试版"
 }
