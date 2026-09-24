@@ -151,11 +151,20 @@
     "newBadge": "Новый"
   },
 
-  "endpoints/openaiCompatRest/title": "Поддерживаемые конечные точки (подобные OpenAI)",
+  "endpoints/openaiCompatRest/title": "Поддерживаемые конечные точки (подобные OpenAI) {{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI-like",
   "endpoints/openaiCompatRest/getModels": "Список загруженных моделей",
   "endpoints/openaiCompatRest/postCompletions": "Режим завершения текста. Предсказание следующего токена(ов) на основе запроса. Обратите внимание: OpenAI считает этот конечный пункт 'устаревшим'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Завершения чата. Отправка истории чата модели для предсказания следующего ответа ассистента",
   "endpoints/openaiCompatRest/postEmbeddings": "Векторное представление текста. Генерация векторных представлений текста на основе заданного текстового ввода. Принимает строку или массив строк.",
+  "endpoints/openaiCompatRest/postResponses": "Расширенный интерфейс для генерации ответов модели. Позволяет создавать взаимодействия с сохранением состояния, передавая в качестве входных данных идентификатор (id) предыдущего ответа для формирования следующего.",
+
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Список доступных моделей",
+  "endpoints/lmStudioRestV1/postModelsLoad": "загрузить модель с опциями",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Скачать модель",
+  "endpoints/lmStudioRestV1/postChat": "Чат с моделью. Поддерживает многошаговые диалоги с сохранением состояния и протокол MCP (Model Context Protocol).",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Получить статус скачиваемой модели.",
 
   "model.createVirtualModelFromInstance": "Сохранить настройки как новую виртуальную модель",
   "model.createVirtualModelFromInstance/error": "Не удалось сохранить настройки в качестве новой виртуальной модели",
