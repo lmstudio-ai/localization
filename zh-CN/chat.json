@@ -1,12 +1,12 @@
 {
   "modelLoaderPlaceholder": "选择要加载的模型",
-  "systemPromptPlaceholder": "设置系统提示",
+  "systemPromptPlaceholder": "设置系统提示词",
   "userRoleText": "用户",
   "assistantRoleText": "助手",
   "addMessageButtonText": "添加",
   "addMessageButtonText/toolTip": "在不触发预测的情况下将消息插入上下文中",
   "sendMessageButtonText": "发送",
-  "sendMessageButtonText/toolTip": "将您的提示和对话历史发送给模型进行处理",
+  "sendMessageButtonText/toolTip": "将您的提示词和对话历史发送给模型进行处理",
   "ejectButtonText": "卸载",
   "unloadTooltip": "从内存中卸载模型",
   "cancelButtonText": "取消",
@@ -60,6 +60,8 @@
   "actions/loadLastModel": "重新加载上次使用的模型",
   "actions/loadLastModel/tooltip": "点击以加载上次与该聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "加载上次使用的模型失败。",
+  "actions/clearLastUsedModel": "清除上次使用的模型记录",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型记录失败。",
   "actions/continueCurrentModel": "使用当前模型",
   "actions/continueCurrentModel/tooltip": "当前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "加载 {{lastModel}}",
@@ -78,8 +80,8 @@
   "editMessageConfirm/discard": "放弃更改",
   "tokenCount/totalNotAvailable": "token：{{current}}",
   "tokenCount/totalAvailable": "token：{{current}}/{{total}}",
-  "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
-  "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大token限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
+  "tokenCount/totalAvailablePercentage": "上下文已使用 {{percentage}}%",
+  "tokenCount/contextOverflow": "未经处理的上下文已超过模型的最大token限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能无法发送。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
   "modelLoader/manualLoadParams/hint/before": "(或按住",
   "modelLoader/manualLoadParams/hint/after": ")",
@@ -98,14 +100,14 @@
   "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
   "userFile/errorPrefix": "错误 - ",
-  "userFile/supportedImagePrefix": "不支持的图片类型 - 仅支持",
-  "userFile/supportedImageSuffix": "。",
-  "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图片、PDF 和 .txt 文件。",
-  "userFile/maxFilesPerMessage": "每条消息的最大文件数已达到。不能添加超过 {{files}} 个文件。",
-  "userFile/maxFileSizePerMessage": "每条消息的最大文件大小已达到。不能添加超过 {{size}} 的文件。",
-  "userFile/maxFileSizePerConversation": "会话的文件大小已达上限，无法添加大于 {{size}} 的文件。",
-  "userFile/failedToUploadError/title": "文件上传失败",
-  "userFile/failedToAddFile/title": "文件添加到对话失败",
+  "userFile/supportedImagePrefix": "不支持的图像类型 - 仅支持 ",
+  "userFile/supportedImageSuffix": "",
+  "userFile/unsupportedFileType": "不支持的文件类型 - 仅支持图像、PDF 和 .txt 文件。",
+  "userFile/maxFilesPerMessage": "已达到每条消息的最大文件数。无法添加超过 {{files}} 个文件。",
+  "userFile/maxFileSizePerMessage": "已达到每条消息的最大文件大小。无法添加超过 {{size}} 的文件。",
+  "userFile/maxFileSizePerConversation": "已达到每次对话的最大文件大小。无法添加超过 {{size}} 的文件。",
+  "userFile/failedToUploadError/title": "上传文件失败",
+  "userFile/failedToAddFile/title": "将文件添加到聊天失败",
   "errorTitle": "错误",
   "userFile/chatTerminalDocumentsCount_one": "对话中有 {{count}} 个文档",
   "userFile/chatTerminalDocumentsCount_other": "对话中有 {{count}} 个文档",
@@ -123,15 +125,14 @@
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
 
   "style": "聊天外观",
-
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
 
-  "speculativeDecodingVisualization/toggle": "可视化已采纳的草稿token",
-  "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的草稿token",
-  "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的草稿token",
-  "speculativeDecodingVisualization/cannotChangeViewMode": "可视化草稿token时无法切换显示模式。",
+  "speculativeDecodingVisualization/toggle": "可视化已采纳的推测token",
+  "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的推测token",
+  "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的推测token",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "可视化推测token时无法切换显示模式。",
 
   "style/fontSize/label": "字体大小",
   "style/fontSize/medium": "默认",
@@ -154,7 +155,7 @@
       "expandTooltip": "展开调试信息块"
     }
   },
-  
+
   "chatTabOptions/clearAllMessages": "清空所有聊天记录...",
   "chatTabOptions/duplicateChat": "复制聊天",
 
@@ -163,11 +164,11 @@
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
   "topBarActions/clearChatCancel": "取消",
   "topBarActions/clearChatDelete": "全部清除",
-  
+
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
   "noModels": "还没有LLM！下载一个开始吧！",
-  
+
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "插件",
@@ -192,7 +193,9 @@
       },
       "startRunningDevelopmentPlugin/error": "开发模式插件启动失败",
       "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败",
-      "forceReInitPlugin/error": "重启插件失败"
+      "forceReInitPlugin/error": "重启插件失败",
+      "signOutMcpPlugin/error": "登出插件失败",
+      "cancelMcpAuthentication/error": "取消插件身份验证失败"
     },
     "pluginConfiguration": {
       "title": "插件配置",
@@ -236,8 +239,10 @@
     "stopReason.toolCalls": "工具调用",
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
-    "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
+    "speculativeDecodedBy": "推测模型：{{decodedBy}}",
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个推测token（{{percentage}}%）",
+    "speculativeDecodingAcceptedPercentage": "推测token采纳率 {{percentage}}%",
+    "speculativeDecodingTooltip": "采纳 {{accepted}}/{{total}} 个推测tokens"
   },
 
   "tabs": {

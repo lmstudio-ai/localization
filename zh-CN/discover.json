@@ -24,6 +24,6 @@
   "download.option.downloaded/title": "已下载",
   "download.option.downloading/title": "正在下载 ({{progressPercentile}}%)",
   "failedToStartDownload": "开始下载失败",
-  
+
   "feed.action.refresh": "刷新动态"
 }
