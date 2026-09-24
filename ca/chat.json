@@ -60,6 +60,8 @@
   "actions/loadLastModel": "Carrega l'últim model utilitzat",
   "actions/loadLastModel/tooltip": "Fes clic per carregar l'últim model utilitzat en aquest xat:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "No s'ha pogut carregar l'útim model utilitzat.",
+  "actions/clearLastUsedModel": "Esborra l'últim model utilitzat",
+  "actions/clearLastUsedModel/error": "No s'ha pogut esborrar l'últim model utilitzat.",
   "actions/continueCurrentModel": "Utilitza el model actual",
   "actions/continueCurrentModel/tooltip": "Model actual: {{currentModel}}",
   "actions/changeToLastUsedModel": "Carrega {{lastModel}}",
@@ -239,7 +241,9 @@
     "stopReason.maxPredictedTokensReached": "Predicció de Tokens Màxima Assolida",
     "stopReason.contextLengthReached": "Límit de Llargada de Context Assolit",
     "speculativeDecodedBy": "Esborrany del model: {{decodedBy}}",
-    "speculativeDecodingStats": "Acceptats {{accepted}}/{{total}} tokens previstos ({{percentage}}%) [TODO]" 
+    "speculativeDecodingStats": "Acceptats {{accepted}}/{{total}} tokens previstos ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% tokens d'esborrany acceptats",
+    "speculativeDecodingTooltip": "Acceptats {{accepted}}/{{total}} tokens d'esborrany"
   },
 
   "tabs": {
