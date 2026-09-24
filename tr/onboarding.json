@@ -1,25 +1,42 @@
 {
-  "action.skipOnboarding": "Başlangıç Kılavuzunu Atla",
+  "action.skipOnboarding": "Tanıtımı atla",
   "action.next": "İleri",
   "action.back": "Geri",
   "action.finish": "Bitir",
 
   "dismissable_rag_modal": {
-    "description": "Şimdi Kendi Belgelerinizle Retrieval Augmented Generation (RAG) kullanarak sohbet edebilirsiniz. İşte nasıl çalıştığı:",
+    "description": "Artık Artırılmış Geri Getirimli Üretim (RAG) kullanarak kendi belgelerinizle sohbet edebilirsiniz. İşte çalışma mantığı:",
     "instructions": {
       "attach_files": {
-        "title": "Dosyaları Ekle",
-        "description": "Aynı anda en fazla 5 dosya yükleyebilir ve toplam boyutları 30MB olabilir. Desteklenen formatlar PDF, DOCX, TXT ve CSV'dir."
+        "title": "Dosya Ekle",
+        "description": "Aynı anda en fazla 5 dosya yükleyin (toplam boyut sınırı 30MB). Desteklenen formatlar: PDF, DOCX, TXT ve CSV."
       },
       "be_specific": {
-        "title": "Ayrıntılı Olun",
-        "description": "Sorularınızı sorduğunuzda mümkün olduğunca detay verin. Bu, sistemin belgelerinizden en ilgili bilgiyi almaya yardımcı olur."
+        "title": "Belirgin Olun",
+        "description": "Soru sorarken mümkün olduğunca fazla detay verin. Bu, sistemin belgelerinizden en alakalı bilgileri bulmasına yardımcı olur."
       },
       "get_responses": {
-        "title": "Cevaplar Alın ve Deney Yapın",
-        "description": "LLM, sorunuzu ve belgelerinizden alınan alıntıları inceleyecek ve bir yanıt üretecektir. En iyi sonucu bulmak için farklı sorgular deneyin."
+        "title": "Yanıt Alın ve Deneyin",
+        "description": "Büyük Dil Modeli (LLM), sorgunuza ve belgelerinizden alınan parçalara bakarak bir yanıt oluşturmaya çalışacaktır. En iyi sonucu bulmak için farklı sorgularla denemeler yapın."
       }
     }
+  },
+
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Araç Kullanımı 🛠️ (Fonksiyon Çağırma)",
+      "text_0": "Bazı modeller (örneğin Llama 3.1/3.2, Mistral, Qwen ve dahası) araç kullanmak üzere eğitilmiştir.",
+      "text_1": "Bunun pratikteki anlamı şudur: LLM'e belirli bir formatta 'araçlar' (fonksiyon imzaları) dizisi sunarsınız ve LLM, kullanıcının komutuna göre bunları 'çağırıp' çağırmamaya karar verir.",
+      "text_2": "Bir API'yi sorgulamak, kod çalıştırmak veya fonksiyon çağrısı olarak ifade edilebilecek herhangi bir kullanım durumunu hayal edebilirsiniz."
+    },
+    "step_1": {
+      "title": "Araç Kullanımına Başlayın",
+      "toolUseCanWorkWithAnyModel": "Araç kullanımı için eğitilmiş modeller diğerlerinden daha iyi performans gösterir, ancak araçları herhangi bir modelle kullanmayı deneyebilirsiniz. Daha fazlasını öğrenmek için <customlink>dokümantasyonu</customlink> okuyun.\nAraç kullanımı için eğitilmiş modeller yeni bir rozetle işaretlenecektir:",
+      "hasCompatibleModel": "🎉 Görünüşe göre halihazırda araç desteği olan modelleriniz var!",
+      "downloadRecommendedModel": "Araç kullanımı için eğitilmiş bir model indirin:"
+    },
+    "nextButton": "İleri",
+    "letsGoButton": "Modeli yükle ve sunucuyu başlat",
+    "doneButton": "Kapat"
   }
 }
-
