@@ -59,6 +59,8 @@
 	"actions/loadLastModel": "Ladda senaste använda modellen",
 	"actions/loadLastModel/tooltip": "Klicka för att ladda modellen som senast användes med denna chatt:\n\n{{lastModel}}",
 	"actions/loadLastModel/error": "Misslyckades med att ladda senaste använda modellen.",
+	"actions/clearLastUsedModel": "Rensa senaste använda modellen",
+	"actions/clearLastUsedModel/error": "Misslyckades med att rensa senaste använda modellen.",
 	"actions/continueCurrentModel": "Använd aktuell modell",
 	"actions/continueCurrentModel/tooltip": "Aktuell modell: {{currentModel}}",
 	"actions/changeToLastUsedModel": "Ladda {{lastModel}}",
@@ -188,7 +190,10 @@
 				"placeholder": "Plugins du skapar kommer visas här"
 			},
 			"startRunningDevelopmentPlugin/error": "Misslyckades med att starta plugin i utvecklingsläge",
-			"stopRunningDevelopmentPlugin/error": "Misslyckades med att stoppa plugin i utvecklingsläge"
+			"stopRunningDevelopmentPlugin/error": "Misslyckades med att stoppa plugin i utvecklingsläge",
+			"forceReInitPlugin/error": "Misslyckades med att starta om pluginen",
+			"signOutMcpPlugin/error": "Misslyckades med att logga ut från pluginen",
+			"cancelMcpAuthentication/error": "Misslyckades med att avbryta pluginautentisering"
 		},
 		"pluginConfiguration": {
 			"title": "Pluginkonfiguration",
@@ -233,7 +238,9 @@
 		"stopReason.maxPredictedTokensReached": "Maximalt antal förutsedda token uppnåddes",
 		"stopReason.contextLengthReached": "Kontextlängdsgräns uppnåddes",
 		"speculativeDecodedBy": "Utkastmodell: {{decodedBy}}",
-		"speculativeDecodingStats": "Accepterade {{accepted}}/{{total}} utkasttoken ({{percentage}}%)"
+		"speculativeDecodingStats": "Accepterade {{accepted}}/{{total}} utkasttoken ({{percentage}}%)",
+		"speculativeDecodingAcceptedPercentage": "{{percentage}}% utkasttoken accepterade",
+		"speculativeDecodingTooltip": "Accepterade {{accepted}}/{{total}} utkasttoken"
 	},
 
 	"tabs": {
