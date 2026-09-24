@@ -1,0 +1,15 @@
+{
+
+  "artifacts": {
+
+    "organizationVisible": "Organisation Visible"
+  },
+
+  "cancel": {
+
+    "cancelingWithEllipsis": "Cancelling...",
+    "canceling": "Cancelling"
+
+  }
+
+}
