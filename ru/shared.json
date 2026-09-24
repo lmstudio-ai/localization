@@ -1,6 +1,5 @@
 {
   "copyLmStudioLinkButton/toolTip": "Копировать ссылку для скачивания модели",
-
   "filter.noMatches": "Нет результатов",
   "longRunningTask": {
     "unbundlingDependencies": {
@@ -31,8 +30,241 @@
     "retry": "Повторить"
   },
   "artifacts": {
-    "fetchError": "Не удалось получить артефакты"
+    "fetchError": "Не удалось получить артефакты",
+    "organizationVisible": "Доступно в организации"
   },
   "incompatible": "Несовместимо",
-  "compatible": "Совместимо"
+  "compatible": "Совместимо",
+  "public": "Публичный",
+  "private": "Приватный",
+  "yes": "Да",
+  "no": "Нет",
+  "go": "Перейти",
+  "proceedWithEllipsis": "Продолжить...",
+  "proceed": "Продолжить",
+  "inProgress": "В процессе...",
+  "failed": "Сбой",
+  "pending": "В ожидании",
+  "doneWithExclamation": "Готово!",
+  "done": "Готово",
+  "beta": "Бета",
+  "complete": {
+    "completeWithEllipsis": "Завершить...",
+    "complete": "Завершить",
+    "completingWithEllipsis": "Завершается...",
+    "completing": "Завершается",
+    "completedWithExclamation": "Завершено!",
+    "completed": "Завершено"
+  },
+  "cancel": {
+    "cancelWithEllipsis": "Отменить...",
+    "cancel": "Отменить",
+    "cancelingWithEllipsis": "Отменяется...",
+    "canceling": "Отменяется",
+    "canceled": "Отменено"
+  },
+  "next": {
+    "nextWithEllipsis": "Далее...",
+    "next": "Далее"
+  },
+  "back": {
+    "backWithEllipsis": "Назад...",
+    "back": "Назад"
+  },
+  "close": {
+    "closeWithEllipsis": "Закрыть...",
+    "close": "Закрыть",
+    "closingWithEllipsis": "Закрывается...",
+    "closing": "Закрывается",
+    "closedWithExclamation": "Закрыто!",
+    "closed": "Закрыто"
+  },
+  "delete": {
+    "deleteWithEllipsis": "Удалить...",
+    "delete": "Удалить",
+    "deletingWithEllipsis": "Удаляется...",
+    "deleting": "Удаляется",
+    "deletedWithExclamation": "Удалено!",
+    "deleted": "Удалено"
+  },
+  "retry": {
+    "retryWithEllipsis": "Повторить...",
+    "retry": "Повторить",
+    "retryingWithEllipsis": "Повторная попытка...",
+    "retrying": "Повторная попытка"
+  },
+  "refresh": {
+    "refreshWithEllipsis": "Обновить...",
+    "refresh": "Обновить",
+    "refreshingWithEllipsis": "Обновляется...",
+    "refreshing": "Обновляется",
+    "refreshedWithExclamation": "Обновлено!",
+    "refreshed": "Обновлено"
+  },
+  "confirm": {
+    "confirm": "Подтвердить",
+    "confirmingWithEllipsis": "Подтверждается...",
+    "confirming": "Подтверждается",
+    "confirmedWithExclamation": "Подтверждено!",
+    "confirmed": "Подтверждено"
+  },
+  "copy": {
+    "copyWithEllipsis": "Скопировать...",
+    "copy": "Скопировать",
+    "copyingWithEllipsis": "Копируется...",
+    "copying": "Копируется",
+    "copiedWithExclamation": "Скопировано!",
+    "copied": "Скопировано"
+  },
+  "edit": {
+    "editWithEllipsis": "Редактировать...",
+    "edit": "Редактировать",
+    "editingWithEllipsis": "Редактируется...",
+    "editing": "Редактируется",
+    "editedWithExclamation": "Отредактировано!",
+    "edited": "Отредактировано"
+  },
+  "load": {
+    "loadWithEllipsis": "Загрузить...",
+    "load": "Загрузить",
+    "loadingWithEllipsis": "Загружается...",
+    "loading": "Загружается",
+    "loadedWithExclamation": "Загружено!",
+    "loaded": "Загружено"
+  },
+  "save": {
+    "saveWithEllipsis": "Сохранить...",
+    "save": "Сохранить",
+    "savingWithEllipsis": "Сохраняется...",
+    "saving": "Сохраняется",
+    "savedWithExclamation": "Сохранено!",
+    "saved": "Сохранено"
+  },
+  "saveAs": {
+    "saveAsWithEllipsis": "Сохранить как...",
+    "saveAs": "Сохранить как"
+  },
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Сохранить как новое...",
+    "saveAsNew": "Сохранить как новое"
+  },
+  "search": {
+    "searchWithEllipsis": "Поиск...",
+    "search": "Поиск",
+    "searchingWithEllipsis": "Идёт поиск...",
+    "searching": "Идёт поиск"
+  },
+  "update": {
+    "updateWithEllipsis": "Обновить...",
+    "update": "Обновить",
+    "updatingWithEllipsis": "Обновляется...",
+    "updating": "Обновляется",
+    "updatedWithExclamation": "Обновлено!",
+    "updated": "Обновлено"
+  },
+  "create": {
+    "createWithEllipsis": "Создать...",
+    "create": "Создать",
+    "creatingWithEllipsis": "Создаётся...",
+    "creating": "Создаётся",
+    "createdWithExclamation": "Создано!",
+    "created": "Создано"
+  },
+  "reset": {
+    "resetWithEllipsis": "Сбросить...",
+    "reset": "Сбросить",
+    "resettingWithEllipsis": "Сбрасывается...",
+    "resetting": "Сбрасывается"
+  },
+  "pause": {
+    "pause": "Пауза",
+    "pausingWithEllipsis": "Приостанавливается...",
+    "pausing": "Приостанавливается",
+    "paused": "Приостановлено"
+  },
+  "download": {
+    "download": "Скачать",
+    "downloadingWithEllipsis": "Скачивается...",
+    "downloading": "Скачивается",
+    "downloadedWithExclamation": "Скачано!",
+    "downloaded": "Скачано"
+  },
+  "upload": {
+    "uploadWithEllipsis": "Загрузить...",
+    "upload": "Загрузить",
+    "uploadingWithEllipsis": "Загружается...",
+    "uploading": "Загружается",
+    "uploadedWithExclamation": "Загружено!",
+    "uploaded": "Загружено"
+  },
+  "remove": {
+    "removeWithEllipsis": "Удалить...",
+    "remove": "Удалить",
+    "removingWithEllipsis": "Удаляется...",
+    "removing": "Удаляется",
+    "removedWithExclamation": "Удалено!",
+    "removed": "Удалено"
+  },
+  "uninstall": {
+    "uninstallWithEllipsis": "Удалить...",
+    "uninstall": "Удалить",
+    "uninstallingWithEllipsis": "Удаляется...",
+    "uninstalling": "Удаляется",
+    "uninstalledWithExclamation": "Удалено!",
+    "uninstalled": "Удалено"
+  },
+  "resume": {
+    "resumeWithEllipsis": "Возобновить...",
+    "resume": "Возобновить",
+    "resumingWithEllipsis": "Возобновляется...",
+    "resuming": "Возобновляется"
+  },
+  "start": {
+    "startWithEllipsis": "Запустить...",
+    "start": "Запустить",
+    "startingWithEllipsis": "Запускается...",
+    "starting": "Запускается",
+    "started": "Запущено"
+  },
+  "stop": {
+    "stopWithEllipsis": "Остановить...",
+    "stop": "Остановить",
+    "stoppingWithEllipsis": "Останавливается...",
+    "stopping": "Останавливается",
+    "stoppedWithExclamation": "Остановлено!",
+    "stopped": "Остановлено"
+  },
+  "import": {
+    "importWithEllipsis": "Импортировать...",
+    "import": "Импортировать",
+    "importingWithEllipsis": "Импортируется...",
+    "importing": "Импортируется",
+    "importedWithExclamation": "Импортировано!",
+    "imported": "Импортировано"
+  },
+  "letsGo": {
+    "letsGo": "Поехали",
+    "letsGoWithEllipsis": "Поехали...",
+    "letsGoWithExclamation": "Поехали!"
+  },
+  "run": {
+    "runWithEllipsis": "Запустить...",
+    "run": "Запустить",
+    "runningWithEllipsis": "Выполняется...",
+    "running": "Выполняется"
+  },
+  "configure": {
+    "configureWithEllipsis": "Настроить...",
+    "configure": "Настроить",
+    "configuringWithEllipsis": "Настраивается...",
+    "configured": "Настроено"
+  },
+  "publish": {
+    "publishWithEllipsis": "Опубликовать...",
+    "publish": "Опубликовать",
+    "publishingWithEllipsis": "Публикуется...",
+    "publishing": "Публикуется",
+    "publishedWithExclamation": "Опубликовано!",
+    "published": "Опубликовано"
+  }
 }

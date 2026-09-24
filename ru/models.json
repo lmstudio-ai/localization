@@ -3,12 +3,10 @@
   "filterModels.placeholder": "Фильтровать модели...",
   "aggregate_one": "У вас {{count}} локальная модель, занимающая {{size}} места на диске.",
   "aggregate_other": "У вас {{count}} локальных моделей, занимающих {{size}} места на диске.",
-
   "noModels.title": "Ваши локальные LLM будут отображаться здесь.",
   "noModels.discoverButtonText.prefix": "Нажмите на",
   "noModels.discoverButtonText.suffix": "кнопку на левой боковой панели, чтобы найти интересные LLM для загрузки.",
-  "noModels.discoverModelsPrompt": "Идите и исследуйте некоторые локальные LLM!",
-
+  "noModels.discoverModelsPrompt": "Откройте для себя локальные LLM!",
   "modelsTable.arch/label": "Архитектура",
   "modelsTable.params/label": "Параметры",
   "modelsTable.publisher/label": "Издатель",
@@ -17,32 +15,19 @@
   "modelsTable.size/label": "Размер",
   "modelsTable.dateModified/label": "Дата изменения",
   "modelsTable.actions/label": "Действия",
-
   "modelsTable.quant/label": "Квант.",
   "modelsTable.llms/label": "LLM",
   "modelsTable.embeddingModels/label": "Векторная модель",
-
   "action.model.delete": "Удалить",
   "action.model.delete.full": "Удалить модель",
   "action.model.delete.confirmation/title": "Удалить {{name}}",
   "action.model.delete.confirmation/description": "Вы уверены? Это действие навсегда удалит все файлы, связанные с этой моделью, с вашего компьютера. Это действие необратимо.",
   "action.model.delete.confirmation/confirm": "Удалить",
-
-  "action.createVirtual": "Создать пресет",
-  "action.createVirtual.details/title": "Создать пресет",
-  "action.createVirtual.details/create": "Создать",
-  "action.createVirtual.details/cancel": "Отмена",
-  "action.createVirtual.details.base/label": "Базовая модель",
-  "action.createVirtual.details.name/label": "Имя",
-  "action.createVirtual.details.includeMachineDependent/label": "Включить машинозависимые конфигурации",
-  "action.createVirtual.details.includeMachineDependent/hint": "Включить ли машинозависимые конфигурации (например, настройки GPU) в предустановку. Не рекомендуется для обмена.",
-  "action.createVirtual.details.config/label": "Переопределения конфигурации",
-  "action.createVirtual.details.config.empty": "Нет переопределений конфигурации",
-  "action.createVirtual.details/error": "Не удалось создать виртуальную модель.",
-
+  "action.model.delete/error": "Не удалось удалить модель",
   "loader.model.bundled": "В комплекте",
   "action.cancel": "Отмена",
   "indexingOngoing": "Индексирование моделей... Это может занять несколько секунд",
+  "indexingPageLoaderText": "Индексация моделей...",
   "index/error_one": "Не удалось индексировать следующую папку:",
   "index/error_other": "Не удалось индексировать следующие папки:",
   "badModels/title_one": "Не удалось индексировать следующую модель:",
@@ -53,12 +38,18 @@
   "unresolvedVirtualModels/title_other": "Не удалось разрешить следующие виртуальные модели:",
   "unresolvedVirtualModels.missingModel": "Отсутствует зависимая модель: {{missing}}. Путь зависимости:\n{{chain}}",
   "unresolvedVirtualModels.circular": "Обнаружена круговая зависимость.",
-
+  "unresolvedVirtualModels.fix": "Исправить",
+  "unresolvedVirtualModels.revealInExplorer": "Показать в Проводнике",
+  "unresolvedVirtualModels.revealInFinder": "Показать в Finder",
+  "unresolvedVirtualModels.reveal/error": "Не удалось показать",
   "modelsDirectory": "Каталог моделей",
   "modelsDirectory.change": "Изменить...",
+  "modelsDirectory.change/error": "Не удалось изменить директорию моделей",
   "modelsDirectory.reset": "Сбросить к умолчанию",
   "modelsDirectory.reveal.mac": "Показать в Finder",
   "modelsDirectory.reveal.nonMac": "Открыть в Проводнике",
+  "modelsDirectory.reveal.mac/error": "Не удалось открыть в Finder",
+  "modelsDirectory.reveal.nonMac/error": "Не удалось открыть в Проводнике",
   "modelsDirectory.forceReindex": "Обновить",
   "loadState/loaded": "Загружено",
   "loadState/loading": "Загрузка",
@@ -74,20 +65,59 @@
   "contextMenu/copyModelDefaultIdentifier": "Копировать идентификатор по умолчанию",
   "contextMenu/showRawMetadata": "Показать необработанные метаданные",
   "contextMenu/openOnHuggingFace": "Открыть на Hugging Face",
+  "contextMenu": {
+    "showOnWeb": "Показать в браузере",
+    "pullLatest": {
+      "label": "Загрузить последнюю версию",
+      "checking": "Проверка обновлений...",
+      "upToDate": "Актуальная версия",
+      "error": "Не удалось проверить обновления"
+    }
+  },
   "tooltip/moreActions": "Другие действия",
   "tooltip/getInfo": "Получить информацию",
   "tooltip/editModelDefaultConfig": "Редактировать конфигурацию модели по умолчанию",
   "tooltip/editModelDefaultConfig/override": "Редактировать конфигурацию модели по умолчанию (* в настоящее время есть переопределения",
   "tooltip/visionBadge": "Эта модель может обрабатывать изображения",
   "tooltip/toolUseBadge": "Эта модель обучена для использования инструментов",
-
   "visionBadge/label": "Включена обработка изображений",
   "toolUseBadge/label": "Обучен для использования инструментов",
-
   "loader.action.load": "Загрузить модель",
   "loader.action.clearChanges": "Очистить изменения",
   "loader.action.cancel": "Отмена",
   "loader.info.clickOnModelToLoad": "Щелкните на модель, чтобы загрузить ее",
   "loader.info.configureLoadParameters": "Настройте параметры загрузки модели",
-  "loader.info.activeGeneratorWarning": "Вы используете плагин с пользовательским генератором. Ваша текущая загруженная модель может быть применена или нет, в зависимости от реализации генератора"
+  "loader.info.activeGeneratorWarning": "Вы используете плагин с пользовательским генератором. Ваша текущая загруженная модель может быть применена или нет, в зависимости от реализации генератора",
+  "loader.guardrails.estimatedMemoryUsage": "Оценка использования памяти",
+  "loader.guardrails.total": "Всего",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "Оценка памяти недоступна для этой модели",
+  "loader.guardrails.notEnoughResources": "Недостаточно ресурсов для загрузки модели с текущими настройками",
+  "loader.guardrails.notEnoughResources/options": "Варианты",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "Похоже, в вашей системе недостаточно памяти для загрузки этой модели.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Если вы считаете, что это неверно, вы можете изменить защитные ограничения загрузки модели в настройках или удерживать <altOptionKey />, чтобы всё равно загрузить модель.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Загрузка слишком большой модели может перегрузить систему и привести к её зависанию.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(Не рекомендуется) Всегда разрешать \"Загрузить всё равно\" без удерживания Alt/Option",
+  "virtual": {
+    "local": {
+      "create": "Создать виртуальную модель",
+      "title": "Создать локальную виртуальную модель",
+      "description": "Создайте виртуальную модель, объединив модель с набором конфигураций. Исходные веса не будут дублироваться.",
+      "modelKey.label": "Ключ модели",
+      "modelKey.placeholder": "Введите уникальный ключ модели",
+      "modelKey.normalized": "Ключ вашей модели будет приведён к виду: {{normalized}}",
+      "baseModel.label": "Базовая модель",
+      "baseModel.placeholder": "Выберите базовую модель",
+      "baseModel.empty": "Скачайте модель, чтобы использовать её как базовую",
+      "next": "Далее",
+      "confirm": "Создать",
+      "error": "Не удалось создать виртуальную модель"
+    },
+    "altsSelect": {
+      "title": "Сменить источник модели",
+      "resetButton": "Сбросить по умолчанию",
+      "description": "Для этой модели доступно несколько исходных файлов.",
+      "trigger": "Варианты"
+    }
+  }
 }
