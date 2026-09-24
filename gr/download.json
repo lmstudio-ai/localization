@@ -1,24 +1,43 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Εξαγωγή...",
+  "postDownloadActionExecutor.zipExtraction/status": "Εξαγωγή αρχείων...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Εξαγωγή αρχείων...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Εξαγωγή αρχείων...",
+  "postDownloadActionExecutor.modifyModelData/status": "Ενημέρωση δεδομένων μοντέλου...",
+  "postDownloadActionExecutor.notification/status": "Ειδοποίηση χρήστη...",
+  "postDownloadActionExecutor.writeString/status": "Γράψιμο μεταδεδομένων...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Ενημέρωση επιλεγμένης έκδοσης...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Διαγραφή αχρησιμοποίητων επεκτάσεων...",
+  "postDownloadActionExecutor.pluginInstall/status": "Εγκατάσταση plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Απεγκατάσταση plugin...",
+
   "finalizing": "Οριστικοποίηση λήψης... (αυτό μπορεί να πάρει λίγα λεπτά)",
-  "noOptions": "Δεν υπάρχουν διαθέσιμες συμβατές επιλογές για λήψη",
-  
-  "deeplink/confirmation/title": "Λήψη μοντέλου από το Hugging Face 🤗",
+  "noOptions": "Δεν υπάρχουν συμβατές επιλογές διαθέσιμες για λήψη",
+
+  "deeplink/confirmation/title": "Λήψη μοντέλου από Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
-  "deeplink/confirmation/selectRecommended": "Επιλέξτε το συνιστώμενο",
-  "deeplink/confirmation/selectOption": "Επιλέξτε την επιλογή λήψης",
+  "deeplink/confirmation/selectRecommended": "Επιλέξτε την προτεινόμενη επιλογή",
+  "deeplink/confirmation/selectOption": "Επιλέξτε επιλογή λήψης",
   "deeplink/confirmation/recommendedOption": "Πιθανώς η καλύτερη επιλογή για τους περισσότερους χρήστες",
   "deeplink/confirmation/downloadButton": "Λήψη",
-  "deeplink/confirmation/nevermindButton": "Ακύρωση",
-  "deeplink/confirmation/modelPresent/title": "Μοντέλο Hugging Face βρέθηκε ✅",
+  "deeplink/confirmation/nevermindButton": "Όχι τώρα",
+  "deeplink/confirmation/modelPresent/title": "Βρέθηκε Μοντέλο Hugging Face ✅",
   "deeplink/confirmation/modelPresent/body": "Καλά νέα! Αυτό το αρχείο μοντέλου είναι ήδη διαθέσιμο στον τοπικό σας υπολογιστή.",
-  "deeplink/confirmation/loadInChat": "Φόρτωση {{ modelName }} σε μια νέα συνομιλία",
-  "deeplink/error/modelNotFound/title": "Δεν μπορέσαμε να βρούμε αυτό το μοντέλο",
-  "deeplink/error/modelNotFound/body": "Ελέγξτε ξανά το όνομα του μοντέλου και εξετάστε το ενδεχόμενο να δοκιμάσετε μια διαφορετική επιλογή λήψης.",
-  "deeplink/actions/trySearching": "Προσπαθήστε να αναζητήσετε {{modelName}} στο Hugging Face",
+  "deeplink/confirmation/loadInChat": "Φόρτωση {{ modelName }} σε νέα συνομιλία",
+  "deeplink/error/modelNotFound/title": "Ωπα, δεν μπορέσαμε να βρούμε αυτό το μοντέλο",
+  "deeplink/error/modelNotFound/body": "Ελέγξτε ξανά το όνομα του μοντέλου ή δοκιμάστε μια διαφορετική επιλογή λήψης.",
+  "deeplink/actions/trySearching": "Δοκιμάστε αναζήτηση για {{modelName}} στο Hugging Face",
 
   "downloadsPanel/title": "Λήψεις",
   "downloadsPanel/sectionTitle/ongoing": "Σε εξέλιξη",
-  "downloadsPanel/sectionTitle/completed": "Ολοκληρωμένο"
+  "downloadsPanel/sectionTitle/completed": "Ολοκληρωμένες",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Αποκάλυψη στον Finder",
+      "mac/error": "Αποτυχία αποκάλυψης στον Finder",
+      "nonMac": "Αποκάλυψη στον Εξερευνητή Αρχείων",
+      "nonMac/error": "Αποτυχία αποκάλυψης στον Εξερευνητή Αρχείων"
+    },
+    "completed": "Η Λήψη Ολοκληρώθηκε",
+    "loadModel": "Φόρτωση Μοντέλου"
+  }
 }
-  
