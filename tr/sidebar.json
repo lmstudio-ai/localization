@@ -1,8 +1,9 @@
 {
-  "chat": "Sohbet",
-  "discover": "Keşfet",
-  "myModels": "Modellerim",
-  "developer": "Geliştirici",
-  "settings": "Ayarlar",
-  "download": "İndirilenler"
+    "chat": "Sohbet",
+    "discover": "Keşfet",
+    "myModels": "Modellerim",
+    "developer": "Geliştirici",
+    "runtimes": "Çalışma Zamanları",
+    "settings": "Ayarlar",
+    "download": "İndirilenler"
 }
