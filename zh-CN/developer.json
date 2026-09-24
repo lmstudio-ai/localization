@@ -175,5 +175,23 @@
     "toolUseDescription": "检测到此模型经过工具使用的训练\n\n打开<custom-link>快速文档</custom-link>以了解更多信息。"
   },
 
-  "apiConfigOptions/title": "API 配置"
+  "apiConfigOptions/title": "API 配置",
+
+  "serverOptions/allowMcp/hint": "允许使用不在您的 mcp.json 中的 MCP。这些 MCP 连接是临时的，仅在请求期间存在。目前仅支持远程 MCP。",
+  "serverOptions/stop/error": "停止服务器失败",
+  "endpoints/lmStudioRestV1/postModelsLoad": "使用选项加载模型",
+  "serverOptions/allowMcp/mode/off": "关闭",
+  "endpoints/lmStudioRestV1/postModelsDownload": "下载模型",
+  "endpoints/openaiCompatRest/segmentedLabel": "类 OpenAI",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic 兼容",
+  "serverOptions/start/error": "启动服务器失败",
+  "endpoints/lmStudioRestV1/getModels": "列出可用模型",
+  "endpoints/lmStudioRestV1/postChat": "与模型聊天。支持有状态的多轮对话和 MCP",
+  "serverOptions/allowMcp/title": "允许远程 MCP",
+  "serverOptions/allowMcp/mode/remote": "远程",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "获取模型下载状态",
+  "endpoints/openaiCompatRest/postResponses": "生成模型响应的高级接口。通过将前一个响应的 ID 作为输入传递给下一个响应来创建有状态交互。",
+  "serverOptions/allowMcp/mode/off/hint": "不允许服务器请求使用 MCP",
+  "serverOptions/allowMcp/mode/remote/hint": "允许连接到远程 MCP 服务器",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio"
 }

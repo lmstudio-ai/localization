@@ -111,5 +111,17 @@
       "confirm": "创建",
       "error": "创建虚拟模型失败"
     }
-  }
+  },
+
+  "indexingPageLoaderText": "正在索引模型...",
+  "loader.guardrails.notEnoughResources/options": "选项",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "您的系统似乎没有足够的内存来加载此模型。",
+  "loader.guardrails.unavailable": "此模型的内存估计不可用",
+  "loader.guardrails.total": "总计",
+  "loader.guardrails.notEnoughResources": "当前设置下没有足够的资源来加载模型",
+  "loader.guardrails.estimatedMemoryUsage": "估计内存使用量",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（不推荐）始终允许“强制加载”而无需按住 Alt/Option",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在设置中调整模型加载保护，或按住 <altOptionKey /> 来强制加载。",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "加载过大的模型可能会使系统过载并导致死机。"
 }
