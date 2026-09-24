@@ -1,41 +1,41 @@
 {
-  "action.skipOnboarding": "跳過新手引導",
-  "action.next": "下一頁",
-  "action.back": "返回",
+  "action.skipOnboarding": "略過導覽",
+  "action.next": "下一步",
+  "action.back": "上一步",
   "action.finish": "完成",
 
   "dismissable_rag_modal": {
-    "description": "您現在可以使用檢索增強生成 (RAG) 與自己的文件進行聊天。以下是其工作原理：",
+    "description": "您現在可以使用檢索增強生成 (RAG) 技術與您自己的文件對話。運作方式如下：",
     "instructions": {
       "attach_files": {
         "title": "附加檔案",
-        "description": "一次上傳最多 5 個檔案，最大合併大小為 30MB。支援的格式包括 PDF、DOCX、TXT 和 CSV。"
+        "description": "一次最多可上傳 5 個檔案，總大小限制為 30MB。支援的格式包含 PDF、DOCX、TXT 與 CSV。"
       },
       "be_specific": {
         "title": "具體說明",
-        "description": "在提問時，請盡可能提及更多細節。這有助於系統從您的文件中檢索到最相關的信息。"
+        "description": "提出問題時，請盡可能提供詳細資訊。這有助於系統從您的文件中檢索出最相關的資訊。"
       },
       "get_responses": {
-        "title": "取得回應與實驗",
-        "description": "LLM 將會查看您的查詢和從您的文件中檢索到的摘錄，並嘗試生成回應。實驗不同的查詢以找到最有效的方法。"
+        "title": "取得回覆並嘗試",
+        "description": "LLM 會檢視您的提問及從文件中檢索到的摘錄，並嘗試生成回覆。您可以嘗試不同的提問方式，找出最適合的用法。"
       }
     }
   },
 
   "toolUse": {
     "step_0": {
-      "title": "Beta：工具使用 🛠️ (函數呼叫)",
-      "text_0": "某些模型（例如 Llama 3.1/3.2、Mistral、Qwen 等）經過訓練以使用工具。",
-      "text_1": "這在實務上的意義是：您以非常特定的格式將 '工具' (函數簽章) 陣列提供給 LLM，而 LLM 可以根據用戶的提示決定是否要 '呼叫' 這些工具。",
-      "text_2": "您可以想像使用案例，例如查詢 API、執行程式碼或任何可以表達為函數呼叫的事情。"
+      "title": "Beta：工具呼叫 🛠️ (Function Calling)",
+      "text_0": "部分模型 (例如 Llama 3.1/3.2、Mistral、Qwen 等) 具備呼叫工具的能力。",
+      "text_1": "這在實務上的意義是：您以特定格式將「工具」陣列（函式簽章）提供給 LLM，LLM 即可根據使用者的提示詞，決定是否「呼叫」它們。",
+      "text_2": "您可以想像其應用場景，例如查詢 API、執行程式碼，或是任何能以函式呼叫表達的操作。"
     },
     "step_1": {
-      "title": "開始使用工具",
-      "toolUseCanWorkWithAnyModel": "經過訓練以使用工具的模型將比其他模型表現更好，但您可以嘗試使用任何模型來使用工具。閱讀 <customlink>文件</customlink> 以了解更多資訊。\n經過訓練以使用工具的模型將會標示有新的徽章：",
-      "hasCompatibleModel": "🎉 看起來您已經擁有支援工具的模型了！",
-      "downloadRecommendedModel": "下載一個經過訓練以使用工具的模型："
+      "title": "開始使用工具呼叫",
+      "toolUseCanWorkWithAnyModel": "經過工具呼叫訓練的模型會有較好的表現，但您也可以嘗試在任何模型上使用工具。請閱讀<customlink>文件</customlink>以了解更多。\n經過工具呼叫訓練的模型將標示一個新徽章：",
+      "hasCompatibleModel": "🎉 看來您已經擁有支援工具呼叫的模型了！",
+      "downloadRecommendedModel": "下載經過工具呼叫訓練的模型："
     },
-    "nextButton": "下一頁",
+    "nextButton": "下一步",
     "letsGoButton": "載入模型並啟動伺服器",
     "doneButton": "關閉"
   }
