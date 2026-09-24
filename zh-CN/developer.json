@@ -1,110 +1,119 @@
 {
   "tabs/server": "本地服务器",
-  "tabs/extensions": "LM 运行环境",
+  "tabs/extensions": "LM 运行时",
   "loadSettings/title": "加载设置",
-  "modelSettings/placeholder": "选择一个模型进行配置",
+  "modelSettings/placeholder": "未选择模型",
 
-  "loadedModels/noModels": "没有已加载的模型",
+  "loadedModels/noModels": "未加载模型",
 
   "serverOptions/title": "服务器选项",
   "serverOptions/configurableTitle": "可配置选项",
-  "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果该端口已被占用，您可能需要更改此设置。",
+  "serverOptions/port/hint": "设置本地服务器将使用的网络端口。默认情况下，LM Studio 使用端口 1234。如果端口已被占用，你可能需要更改此设置。",
   "serverOptions/port/subtitle": "监听的端口",
   "serverOptions/autostart/title": "自动启动服务器",
-  "serverOptions/autostart/hint": "当加载模型时自动启动本地服务器",
+  "serverOptions/autostart/hint": "在应用或服务启动时自动开启 LM Studio 的本地大语言模型服务器",
   "serverOptions/port/integerWarning": "端口号必须是整数",
-  "serverOptions/port/invalidPortWarning": "端口号必须介于 1 到 65535 之间",
+  "serverOptions/port/invalidPortWarning": "端口必须在 1 到 65535 之间",
   "serverOptions/cors/title": "启用 CORS",
-  "serverOptions/cors/hint1": "启用 CORS (跨源资源共享) 允许您访问的网站向 LM Studio 服务器发起请求。",
-  "serverOptions/cors/hint2": "当从网页或 VS Code 或其他扩展发起请求时，可能需要启用 CORS。",
-  "serverOptions/cors/subtitle": "允许跨源请求",
-  "serverOptions/network/title": "在网络中提供服务",
-  "serverOptions/network/subtitle": "向网络中的设备开放服务器",
-  "serverOptions/network/hint1": "是否允许来自网络中其他设备的连接。",
-  "serverOptions/network/hint2": "如果未选中，服务器将仅监听本地主机。",
-  "serverOptions/verboseLogging/title": "详细日志记录",
-  "serverOptions/verboseLogging/subtitle": "为本地服务器启用详细日志记录",
-  "serverOptions/contentLogging/title": "记录提示和响应",
-  "serverOptions/contentLogging/subtitle": "本地请求/响应日志记录设置",
-  "serverOptions/contentLogging/hint": "是否在本地服务器日志文件中记录提示和/或响应。",
-  "serverOptions/redactContent/title": "内容脱敏",
-  "serverOptions/redactContent/hint": "启用后，可防止敏感数据（如请求和响应内容）被记录在日志中。",
-  "serverOptions/logIncomingTokens/title": "记录传入的 Token",
-  "serverOptions/logIncomingTokens/hint": "是否在生成过程中记录每个 Token",
+  "serverOptions/cors/hint1": "启用 CORS（跨域资源共享）将允许你访问的网站向 LM Studio 服务器发送请求。",
+  "serverOptions/cors/hint2": "从网页或 VS Code / 其他扩展发送请求时可能需要 CORS。",
+  "serverOptions/cors/subtitle": "允许跨域请求",
+  "serverOptions/network/title": "在本地网络上提供服务",
+  "serverOptions/network/subtitle": "向网络上的设备暴露服务器",
+  "serverOptions/network/hint1": "是否允许来自网络上的其他设备的连接。",
+  "serverOptions/network/hint2": "如果未勾选，服务器将仅监听 localhost。",
+  "serverOptions/verboseLogging/title": "详细日志",
+  "serverOptions/verboseLogging/subtitle": "为本地服务器启用详细日志",
+  "serverOptions/contentLogging/title": "记录提示词和响应",
+  "serverOptions/contentLogging/subtitle": "本地请求/响应日志设置",
+  "serverOptions/contentLogging/hint": "是否在本地服务器日志文件中记录提示词和/或响应。",
+  "serverOptions/redactContent/title": "编辑内容",
+  "serverOptions/redactContent/hint": "启用后，防止敏感数据（如请求和响应的内容）被记录。",
+  "serverOptions/logIncomingTokens/title": "记录传入 Token",
+  "serverOptions/logIncomingTokens/hint": "是否在生成过程中记录每个 Token。",
   "serverOptions/fileLoggingMode/title": "文件日志模式",
   "serverOptions/fileLoggingMode/off/title": "关闭",
   "serverOptions/fileLoggingMode/off/hint": "不创建日志文件",
   "serverOptions/fileLoggingMode/succinct/title": "简洁",
   "serverOptions/fileLoggingMode/succinct/hint": "记录与控制台相同的内容。长请求将被截断。",
   "serverOptions/fileLoggingMode/full/title": "完整",
-  "serverOptions/fileLoggingMode/full/hint": "不对长请求进行截断。",
-  "serverOptions/jitModelLoading/title": "JIT（即时）模型加载",
-  "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了一个未加载的模型，该模型将自动加载并使用。此外，\"/v1/models\" 端点还将包含尚未加载的模型。",
+  "serverOptions/fileLoggingMode/full/hint": "不截断长请求。",
+  "serverOptions/jitModelLoading/title": "即时模型加载",
+  "serverOptions/jitModelLoading/hint": "启用后，如果请求指定了未加载的模型，它将自动加载并使用。此外，\"/v1/models\" 端点也将包含尚未加载的模型。",
   "serverOptions/loadModel/error": "加载模型失败",
   "serverOptions/jitModelLoadingTTL/title": "自动卸载未使用的即时加载模型",
-  "serverOptions/jitModelLoadingTTL/hint": "通过 API 请求即时加载的模型，若在一段时间内未被使用，将会被自动卸载(TTL)",
+  "serverOptions/jitModelLoadingTTL/hint": "为服务 API 请求而即时加载（JIT）的模型将在闲置一段时间后（TTL）自动卸载。",
   "serverOptions/jitModelLoadingTTL/ttl/label": "最大空闲 TTL",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分钟",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "仅保留最后一个即时加载的模型",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保在任意时刻最多只有一个即时加载的模型（会卸载之前的模型）",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "确保在任何给定时间最多只有 1 个模型通过 JIT 加载（卸载之前的模型）",
+  "serverOptions/allowMcp/title": "允许远程 MCP",
+  "serverOptions/allowMcp/hint": "允许使用不在你的 mcp.json 中的 MCP。这些 MCP 连接是临时的，仅在请求存在期间存在。目前，仅支持远程 MCP。",
+  "serverOptions/allowMcp/mode/off": "关闭",
+  "serverOptions/allowMcp/mode/off/hint": "不允许服务器请求使用 MCP",
+  "serverOptions/allowMcp/mode/remote": "远程",
+  "serverOptions/allowMcp/mode/remote/hint": "允许连接到远程 MCP 服务器",
+
+  "serverOptions/start/error": "启动服务器失败",
+  "serverOptions/stop/error": "停止服务器失败",
 
   "serverLogs/scrollToBottom": "跳转到底部",
-  "serverLogs/clearLogs": "清除日志 ({{shortcut}})",
+  "serverLogs/clearLogs": "清除日志（{{shortcut}}）",
   "serverLogs/openLogsFolder": "打开服务器日志文件夹",
 
-  "runtimeSettings/title": "运行环境设置",
-  "runtimeSettings/chooseRuntime/title": "配置运行环境",
-  "runtimeSettings/chooseRuntime/description": "为每个模型格式选择一个运行环境",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有运行环境",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 只显示每个兼容运行环境的最新版本。启用此选项可以查看所有可用的运行环境。",
-  "runtimeSettings/chooseRuntime/select/placeholder": "选择一个运行环境",
+  "runtimeSettings/title": "运行时设置",
+  "runtimeSettings/chooseRuntime/title": "选择",
+  "runtimeSettings/chooseRuntime/description": "为每种模型格式选择要使用的引擎",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "显示所有扩展包",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "默认情况下，LM Studio 仅显示每个扩展包的最新版本。启用此选项以查看所有可用的扩展包。",
+  "runtimeSettings/chooseRuntime/select/placeholder": "选择引擎",
 
   "runtimeSettings/chooseFrameworks/title": "框架",
-  "runtimeSettings/chooseFrameworks/description": "为每个功能选择要使用的框架",
+  "runtimeSettings/chooseFrameworks/description": "为每种功能选择要使用的框架",
   "runtimeSettings/chooseFramework/documentParser/builtIn/label": "内置解析器",
   "runtimeSettings/chooseFramework/documentParser/select/label": "文档解析器",
-  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "请选择文档解析器",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "选择文档解析器",
 
   "runtimeOptions/uninstall": "卸载",
   "runtimeOptions/uninstallDialog/title": "卸载 {{runtimeName}}？",
-  "runtimeOptions/uninstallDialog/body": "卸载此运行环境将从系统中移除它。此操作不可逆。",
-  "runtimeOptions/uninstallDialog/body/caveats": "某些文件可能需要在重启 LM Studio 后才能被移除。",
-  "runtimeOptions/uninstallDialog/error": "卸载运行环境失败",
+  "runtimeOptions/uninstallDialog/body": "卸载此运行时将将其从系统中移除。此操作不可逆。",
+  "runtimeOptions/uninstallDialog/body/caveats": "某些文件可能仅在 LM Studio 重启后才能移除。",
+  "runtimeOptions/uninstallDialog/error": "卸载运行时失败",
   "runtimeOptions/uninstallDialog/confirm": "继续并卸载",
   "runtimeOptions/uninstallDialog/cancel": "取消",
-  "runtimeOptions/noCompatibleRuntimes": "未找到兼容的运行环境",
-  "runtimeOptions/downloadIncompatibleRuntime": "此运行环境被认为与您的机器不兼容。它很可能无法正常工作。",
-  "runtimeOptions/noRuntimes": "未找到运行环境",
+  "runtimeOptions/noCompatibleRuntimes": "未找到兼容的运行时",
+  "runtimeOptions/downloadIncompatibleRuntime": "此运行时被确定为与你的机器不兼容。它很可能无法工作。",
+  "runtimeOptions/noRuntimes": "未找到运行时",
 
   "runtimes": {
-    "manageLMRuntimes": "管理 LM 运行环境",
+    "manageLMRuntimes": "管理 LM 运行时",
     "includeOlderRuntimeVersions": "包含旧版本",
     "dismiss": "关闭",
     "updateAvailableToast": {
-      "title": "LM 运行环境更新可用！"
+      "title": "LM 运行时有可用更新！"
     },
     "updatedToast": {
-      "title": " ✅ LM 运行环境已更新：{{runtime}} → v{{version}}",
-      "preferencesUpdated": "新加载的 {{compatibilityTypes}} 模型将使用更新后的运行环境。"
+      "title": " ✅ LM 运行时已更新：{{runtime}} → v{{version}}",
+      "preferencesUpdated": "新加载的 {{compatibilityTypes}} 模型将使用更新的运行时。"
     },
-    "noAvx2ErrorMessage": "所有 LM 运行环境当前都需要支持 AVX2 指令集的 CPU",
+    "noAvx2ErrorMessage": "所有 LM 运行时目前都需要支持 AVX2 的 CPU",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "运行环境扩展包",
+      "runtimeExtensionPacks": "运行时扩展包",
       "refresh": "刷新",
       "refreshing": "刷新中...",
       "filterSegment": {
-        "compatibleOnly": "仅兼容",
+        "compatibleOnly": "仅兼容的",
         "all": "全部"
       },
       "card": {
-        "releaseNotes": "版本说明",
+        "releaseNotes": "发布说明",
         "latestVersionInstalled": "已安装最新版本",
-        "updateAvailable": "更新可用"
+        "updateAvailable": "有可用更新"
       }
     },
     "installedRuntimes": {
       "manage": {
-        "title": "管理可用的运行环境"
+        "title": "管理活动运行时"
       },
       "dropdownOptions": {
         "installedVersions": "管理版本",
@@ -116,10 +125,10 @@
         "engines": "我的引擎"
       },
       "detailsModal": {
-        "installedVersions": "{{runtimeName}}的已安装版本",
-        "manifestJsonTitle": "清单 JSON（高级）",
-        "releaseNotesTitle": "版本说明",
-        "noReleaseNotes": "该版本无可用的版本说明",
+        "installedVersions": "{{runtimeName}} 的已安装版本",
+        "manifestJsonTitle": "Manifest JSON（高级）",
+        "releaseNotesTitle": "发布说明",
+        "noReleaseNotes": "此版本没有可用的发布说明",
         "back": "返回",
         "close": "关闭"
       },
@@ -128,15 +137,15 @@
     }
   },
 
-  "inferenceParams/noParams": "此模型类型无可用配置的推理参数",
+  "inferenceParams/noParams": "此模型类型没有可配置的推理参数",
 
   "quickDocs": {
-    "tabChipTitle": "快速文档",
-    "newToolUsePopover": "代码片段现已在“快速文档”中提供。点击此处开始使用工具！",
-    "newToolUsePopoverTitle": "📚 快速文档",
-    "learnMore": "ℹ️ 👾 要了解有关 LM Studio 本地服务器端的更多信息，请访问[文档](https://lmstudio.ai/docs)。",
+    "tabChipTitle": "开发者文档",
+    "newToolUsePopover": "代码片段现已在\"开发者文档\"中提供。点击此处开始使用工具使用功能！",
+    "newToolUsePopoverTitle": "📚 开发者文档",
+    "learnMore": "ℹ️ 👾 要了解更多关于 LM Studio 本地服务器端点的信息，请访问[文档](https://lmstudio.ai/docs)。",
     "helloWorld": {
-      "title": "你好，世界！"
+      "title": "Hello, World!"
     },
     "chat": {
       "title": "聊天"
@@ -145,34 +154,43 @@
       "title": "结构化输出"
     },
     "imageInput": {
-      "title": "图像输入"
+      "title": "图片输入"
     },
     "embeddings": {
-      "title": "文本嵌入"
+      "title": "嵌入"
     },
     "toolUse": {
       "title": "工具使用",
       "tab": {
-        "saveAsPythonFile": "保存为Python文件",
+        "saveAsPythonFile": "保存为 Python 文件",
         "runTheScript": "运行脚本：",
-        "savePythonFileCopyPaste": "保存为Python文件以进行复制粘贴命令"
+        "savePythonFileCopyPaste": "保存为 Python 文件以复制粘贴命令"
       }
     },
-    "newBadge": "新功能"
+    "newBadge": "新"
   },
 
-  "endpoints/openaiCompatRest/title": "支持的端点 (与 OpenAI 兼容的格式)",
-  "endpoints/openaiCompatRest/getModels": "列出当前已加载的模型",
-  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。给定一个提示，预测下一个token。注意：OpenAI 认为此端点已'弃用'。",
-  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。向模型发送聊天历史以预测下一个助手响应。",
+  "endpoints/openaiCompatRest/title": "支持的端点{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "类 OpenAI",
+  "endpoints/openaiCompatRest/getModels": "列出当前加载的模型",
+  "endpoints/openaiCompatRest/postCompletions": "文本补全模式。根据提示预测下一个 Token。注意：OpenAI 认为此端点已\"弃用\"。",
+  "endpoints/openaiCompatRest/postChatCompletions": "聊天补全。将聊天历史发送给模型以预测下一个助手回复",
   "endpoints/openaiCompatRest/postEmbeddings": "文本嵌入。为给定的文本输入生成文本嵌入。接受字符串或字符串数组。",
+  "endpoints/openaiCompatRest/postResponses": "生成模型响应的高级接口。通过将之前响应的 id 作为输入传递给下一个来创建有状态的交互。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "列出可用模型",
+  "endpoints/lmStudioRestV1/postModelsLoad": "加载带选项的模型",
+  "endpoints/lmStudioRestV1/postModelsDownload": "下载模型",
+  "endpoints/lmStudioRestV1/postChat": "与模型聊天。支持有状态的多轮对话和 MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "获取模型下载状态",
+  "endpoints/anthropicCompatRest/segmentedLabel": "兼容 Anthropic",
 
-  "model.createVirtualModelFromInstance": "另存为新的虚拟模型",
-  "model.createVirtualModelFromInstance/error": "另存为新的虚拟模型失败",
+  "model.createVirtualModelFromInstance": "将设置保存为新虚拟模型",
+  "model.createVirtualModelFromInstance/error": "将设置保存为新虚拟模型失败",
 
   "model": {
     "toolUseSectionTitle": "工具使用",
-    "toolUseDescription": "检测到此模型经过工具使用的训练\n\n打开<custom-link>快速文档</custom-link>以了解更多信息。"
+    "toolUseDescription": "检测到该模型已针对工具使用进行训练\n\n打开<custom-link>开发者文档</custom-link>了解更多信息"
   },
 
   "apiConfigOptions/title": "API 配置"
