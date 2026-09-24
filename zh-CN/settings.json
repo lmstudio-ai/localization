@@ -5,18 +5,18 @@
 
   "settingsNewButtonPopover": {
     "primary": "应用设置现已移至右下角",
-    "secondary": "点击⚙️按钮来打开",
+    "secondary": "点击 ⚙️ 按钮来打开",
     "tertiary": "或者按"
   },
   "appUpdate": "应用更新",
-  "checkingAppUpdate": "正在检查更新...",
+  "checkingAppUpdate": "正在检查更新…",
   "checkForUpdates": "检查更新",
   "failedCheckingAppUpdate": "检查更新失败",
   "newUpdateAvailable": "LM Studio 有新版本可用！🎉",
   "newBetaUpdateAvailable": "LM Studio 有新测试版可用！🛠️🎉",
-  "downloadingInProgress": "正在下载更新...",
+  "downloadingInProgress": "正在下载更新…",
   "downloadUpdate": "更新至 LM Studio {{version}}",
-  "downloadBetaUpdate": "更新至 LM Studio 测试版 {{version}} (版本号 {{build}})",
+  "downloadBetaUpdate": "更新至 LM Studio 测试版 {{version}}（版本号 {{build}}）",
   "downloadCompleted": "下载完成！",
   "updateDownloadComplete": "更新下载成功！",
   "updateDownloadFailed": "更新失败！",
@@ -26,7 +26,7 @@
   "downloadLabel": "立即更新",
   "downloadLabel/Linux": "下载更新",
   "cancelDownloadLabel": "取消",
-  "downloadingUpdate": "正在下载 {{item}}...",
+  "downloadingUpdate": "正在下载 {{item}}…",
   "updateDownloaded": "新更新已成功下载。重启应用以应用更新",
   "restartAppToUpdate": "重新启动应用以应用更新",
   "appUpdatedToastTitle": "已更新至 {{title}}",
@@ -47,10 +47,10 @@
   "preferences": "偏好设置",
   "general": "常规",
   "sideButtonLabels": "显示侧边按钮标签",
-  "showModelFileNames": "在“我的模型”中始终显示完整模型文件名",
+  "showModelFileNames": "在「我的模型」中始终显示完整模型文件名",
   "colorThemeLabel": "颜色主题",
   "complexityLevelLabel": "用户界面复杂度级别",
-  "selectComplexityLevelPlaceholder": "选择默认的UI复杂度级别",
+  "selectComplexityLevelPlaceholder": "选择默认的 UI 复杂度级别",
   "userComplexityLevelLabel": "普通用户",
   "powerUserComplexityLevelLabel": "高级用户",
   "developerComplexityLevelLabel": "开发者",
@@ -59,15 +59,15 @@
   "chat/highlightChatMessageOnHover": "鼠标悬停时高亮显示聊天消息",
   "chat/doubleClickMessageToEdit": "双击聊天消息以编辑",
 
-  "chat/aiNaming/label": "AI命名聊天",
-  "chat/aiNaming/mode/label": "AI生成的聊天名称",
+  "chat/aiNaming/label": "AI 命名聊天",
+  "chat/aiNaming/mode/label": "AI 生成的聊天名称",
   "chat/aiNaming/mode/value/never": "关闭",
-  "chat/aiNaming/mode/value/never/subTitle": "不使用AI生成聊天名称",
+  "chat/aiNaming/mode/value/never/subTitle": "不使用 AI 生成聊天名称",
   "chat/aiNaming/mode/value/auto": "自动",
-  "chat/aiNaming/mode/value/auto/subTitle": "根据生成速度自动决定是否使用AI生成聊天名称",
+  "chat/aiNaming/mode/value/auto/subTitle": "根据生成速度自动决定是否使用 AI 生成聊天名称",
   "chat/aiNaming/mode/value/always": "开启",
-  "chat/aiNaming/mode/value/always/subTitle": "使用AI生成聊天名称",
-  "chat/aiNaming/emoji": "在AI生成的聊天名称中使用表情符号",
+  "chat/aiNaming/mode/value/always/subTitle": "使用 AI 生成聊天名称",
+  "chat/aiNaming/emoji": "在 AI 生成的聊天名称中使用表情符号",
   "chat/keyboardShortcuts/label": "键盘快捷键",
   "chat/keyboardShortcuts/verbPrefix": "使用",
   "chat/keyboardShortcuts/regenerate": "重新生成聊天中的最后一条消息",
@@ -92,6 +92,7 @@
   "changeLanguageLabel": "选择应用语言（仍在开发中）",
   "developerLabel": "开发者",
   "localServiceLabel": "本地 LLM 服务（无界面）",
+  "modelDefaultsLabel": "模型默认设置",
   "showExperimentalFeaturesLabel": "显示实验性功能",
   "appFirstLoadLabel": "应用首次加载体验",
   "showDebugInfoBlocksInChatLabel": "在聊天中显示调试信息块",
@@ -136,16 +137,17 @@
   "modelLoadingGuardrails.custom.label": "内存限制：",
   "modelLoadingGuardrails.custom.unitGB": "GB",
   "modelLoadingGuardrails.custom.description": "为模型加载设置自定义内存限制。如果加载的模型会超过此限制，则不会加载模型。",
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "（不推荐）始终允许「强制加载」而无需按住 Alt/Option 键",
 
   "experimentalLoadPresets": "在预设中启用模型加载配置支持",
   "experimentalLoadPresets.description": "是否允许预设包含模型加载配置。此功能尚处于试验阶段，我们欢迎反馈。",
 
-  "unloadPreviousJITModelOnLoad": "模型自动卸载：始终仅允许一个JIT模型加载（加载新模型时卸载上一个）",
+  "unloadPreviousJITModelOnLoad": "模型自动卸载：始终仅允许一个 JIT 模型加载（加载新模型时卸载上一个）",
   "autoDeleteExtensionPacks": "自动删除最近最少使用的运行环境扩展包",
   "autoUpdateExtensionPacks": "自动更新选中运行环境扩展包",
   "useHFProxy.label": "使用 LM Studio 的 Hugging Face 代理",
   "useHFProxy.hint": "使用 LM Studio 提供的 Hugging Face 代理进行模型搜索和下载。适用于无法直接访问 Hugging Face 的用户。",
-  "separateReasoningContentInResponses": "在API响应中区分 `reasoning_content` 和 `content`（如适用）",
+  "separateReasoningContentInResponses": "在 API 响应中区分 `reasoning_content` 和 `content`（如适用）",
   "separateReasoningContentInResponses/hint": "该设置仅适用于像 DeepSeek R1 及其蒸馏模型等输出带有 <think> 和 </think> 标记的推理模型。",
 
   "promptWhenCommittingUnsavedChangesWithNewFields": "提交新字段到预设时显示确认对话框",
@@ -162,7 +164,7 @@
     "hasBetterLabel": "重新迁移 0.3.0 之前的聊天记录",
     "action_one": "迁移 1 条聊天记录",
     "action_other": "迁移 {{count}} 条聊天记录",
-    "inProgress": "正在迁移聊天记录...",
+    "inProgress": "正在迁移聊天记录…",
     "hint": {
       "primary": "我们对 v0.3.0+ 版本的聊天记录内部数据结构进行了改造，以支持多版本聊天消息等功能。为了让旧聊天记录出现在应用中，需要将其迁移到新格式。",
       "details": "迁移过程不会删除您的旧聊天记录，而是会创建一个新格式的副本。",
@@ -191,5 +193,19 @@
       "warnDescription": "禁用工具调用确认非常危险。如果您的插件中包含可能执行破坏性操作的工具（例如运行命令、删除文件、覆盖文件、上传文件等），模型将无需确认即可执行这些操作。您可以通过逐个工具或逐个插件的方式禁用确认提示。强烈不建议启用此选项。请谨慎操作。",
       "warnButton": "我了解风险"
     }
+  },
+
+  "defaultContextLength": {
+    "label": "默认上下文长度",
+    "maxTitle": "模型最大值",
+    "customTitle": "自定义值",
+    "maxSubtitle": "使用每个模型支持的最大上下文长度。",
+    "customSubtitle": "设置加载新模型的默认上下文长度。如果模型支持的最大上下文长度较低，则将使用该值。",
+    "invalidNaNError": "无效的上下文长度值。正在使用 {{value}}",
+    "invalidRangeError": "无效的上下文长度值。应在 1 到 2^30 范围内。正在使用 {{value}}",
+    "largeContextWarning": "上下文长度越高，模型占用的内存就越多。如果不确定，请勿更改默认值"
+  },
+  "jitTTL": {
+    "subtitle": "即时加载的模型将在空闲指定时长后自动卸载。"
   }
 }

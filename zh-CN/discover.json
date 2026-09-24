@@ -2,7 +2,7 @@
   "collectionsColumn": "集合",
   "collectionsColumn/collectionError": "加载集合详情时出错，请尝试上方的刷新按钮",
   "bookmarksColumn": "书签",
-  "searchBar/placeholder": "在 Hugging Face 上搜索模型...",
+  "searchBar/placeholder": "在 Hugging Face 上搜索模型……",
   "searchBar/huggingFaceError": "从 Hugging Face 获取结果时出现错误，请稍后再试",
   "sortBy": "排序依据",
   "searchSortKey.default/title": "最佳匹配",
@@ -22,8 +22,8 @@
   "download.option.recommended/title": "推荐",
   "download.option.recommended/description": "基于您的硬件，推荐选择这个选项。",
   "download.option.downloaded/title": "已下载",
-  "download.option.downloading/title": "正在下载 ({{progressPercentile}}%)",
+  "download.option.downloading/title": "正在下载（{{progressPercentile}}%）",
   "failedToStartDownload": "开始下载失败",
-  
+
   "feed.action.refresh": "刷新动态"
 }
