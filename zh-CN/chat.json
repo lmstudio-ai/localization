@@ -23,12 +23,10 @@
   "noChatSelectedPlaceholder": "请选择一个聊天",
   "unnamedChat": "未命名聊天",
   "emptyFolder": "文件夹为空",
-
   "tokenCount": "token数",
   "messageTokenCount": "输入token数",
   "tokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n需要加载模型。",
   "messageTokenCount/hint": "消息中的token数量。使用当前选定模型的分词器计算。\n\n**不包括**附件中的token估计值。",
-
   "notes": "对话笔记",
   "notes/add/first": "添加笔记",
   "notes/add/another": "再加一条笔记",
@@ -37,7 +35,6 @@
   "notes/delete": "删除笔记",
   "notes/noteLabel": "笔记",
   "notes/copyContent": "复制笔记内容",
-
   "actions/sendMessage/error": "发送消息失败",
   "actions/loadModel/error": "🥲 加载模型失败",
   "actions/addFile": "[实验性] 将文件附加到此消息\n(.pdf, 纯文本, 或 .docx)",
@@ -60,6 +57,8 @@
   "actions/loadLastModel": "重新加载上次使用的模型",
   "actions/loadLastModel/tooltip": "点击以加载上次与该聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "加载上次使用的模型失败。",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失败。",
   "actions/continueCurrentModel": "使用当前模型",
   "actions/continueCurrentModel/tooltip": "当前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "加载 {{lastModel}}",
@@ -91,10 +90,8 @@
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
   "actions/openInFolder/mac": "在 Finder 中显示",
   "actions/openInFolder/pc": "在文件资源管理器中显示",
-
   "actions/createChat/error": "创建聊天失败",
   "actions/deleteChat/errorTitle": "删除聊天失败",
-
   "userFile/fileSizeLimit": "文件大小限制为",
   "userFile/noImageSupport": "模型不支持图片输入",
   "userFile/errorPrefix": "错误 - ",
@@ -109,42 +106,32 @@
   "errorTitle": "错误",
   "userFile/chatTerminalDocumentsCount_one": "对话中有 {{count}} 个文档",
   "userFile/chatTerminalDocumentsCount_other": "对话中有 {{count}} 个文档",
-
   "prediction/busyModel/title": "模型忙碌中",
   "prediction/busyModel/message": "请等待模型完成后再试",
   "prediction/noModel/title": "未选择模型",
   "prediction/modelLoading": "消息已排队，将在模型加载完成后发送",
   "prediction/noModel/message": "选择一个模型以发送消息",
   "prediction/unloadModel/error": "卸载模型失败",
-
   "retrieval/user/processingLabel": "AI 正在思考...",
   "retrieval/powerUser/intermediateStepsHidden": "中间步骤已隐藏。点击以展开。",
   "retrieval/actions/clickToExpand": "点击以展开中间步骤",
   "retrieval/actions/clickToCollapse": "点击以折叠中间步骤",
-
   "style": "聊天外观",
-
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "纯文本",
   "style/viewMode/monospace": "等宽字体",
-
   "speculativeDecodingVisualization/toggle": "可视化已采纳的草稿token",
   "speculativeDecodingVisualization/fromDraftModel_one": "已采纳的草稿token",
   "speculativeDecodingVisualization/fromDraftModel_other": "已采纳的草稿token",
   "speculativeDecodingVisualization/cannotChangeViewMode": "可视化草稿token时无法切换显示模式。",
-
   "style/fontSize/label": "字体大小",
   "style/fontSize/medium": "默认",
   "style/fontSize/large": "大",
   "style/fontSize/small": "小",
-
   "style/debugBlocks/label": "显示调试信息块",
-
   "style/thinkingUI/label": "默认展开推理块",
   "style/chatFullWidth/label": "聊天容器宽度适应窗口",
-
   "style/chatUtilityMenusShowLabel/label": "显示聊天实用工具菜单",
-
   "messageBlocks": {
     "expandBlockTooltip": "展开内容",
     "collapseBlockTooltip": "收起内容",
@@ -154,20 +141,16 @@
       "expandTooltip": "展开调试信息块"
     }
   },
-  
   "chatTabOptions/clearAllMessages": "清空所有聊天记录...",
   "chatTabOptions/duplicateChat": "复制聊天",
-
   "topBarActions/duplicateChat": "复制聊天",
   "topBarActions/clearChat": "清除所有消息",
   "topBarActions/clearChatConfirmation": "您确定要清除此聊天中的所有消息吗？",
   "topBarActions/clearChatCancel": "取消",
   "topBarActions/clearChatDelete": "全部清除",
-  
   "noModels.indexing": "正在索引模型文件...（这可能需要一段时间）",
   "noModels.downloading": "正在下载您的第一个LLM...",
   "noModels": "还没有LLM！下载一个开始吧！",
-  
   "plugins": {
     "pluginTrigger": {
       "noPlugins": "插件",
@@ -222,7 +205,6 @@
     },
     "restartErrorPlugin/error": "重启插件失败"
   },
-
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} token/s",
     "predictedTokensCount": "{{predictedTokensCount}} token",
@@ -239,7 +221,6 @@
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
     "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
   },
-
   "tabs": {
     "systemPromptEditorTab.headerLabel": "编辑系统提示词"
   }
