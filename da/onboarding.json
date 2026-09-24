@@ -1,0 +1,40 @@
+{
+  "action.skipOnboarding": "Spring onboarding over",
+  "action.next": "Næste",
+  "action.back": "Tilbage",
+  "action.finish": "Afslut",
+  "dismissable_rag_modal": {
+    "description": "Du kan nu chatte med dine egne dokumenter ved hjælp af Retrieval Augmented Generation (RAG). Sådan fungerer det:",
+    "instructions": {
+      "attach_files": {
+        "title": "Vedhæft filer",
+        "description": "Upload op til 5 filer ad gangen med en samlet maksimal størrelse på 30 MB. Understøttede formater er PDF, DOCX, TXT og CSV."
+      },
+      "be_specific": {
+        "title": "Vær specifik",
+        "description": "Når du stiller spørgsmål, så inkluder så mange detaljer som muligt. Det hjælper systemet med at finde de mest relevante oplysninger i dine dokumenter."
+      },
+      "get_responses": {
+        "title": "Få svar og eksperimentér",
+        "description": "LLM’en vil analysere din forespørgsel sammen med de hentede uddrag fra dine dokumenter og forsøge at generere et svar. Prøv forskellige formuleringer for at se, hvad der virker bedst."
+      }
+    }
+  },
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Værktøjsbrug 🛠️ (Function Calling)",
+      "text_0": "Nogle modeller (f.eks. Llama 3.1/3.2, Mistral, Qwen m.fl.) er trænet til at bruge værktøjer.",
+      "text_1": "I praksis betyder det, at du kan give modellen en liste af 'værktøjer' (funktionssignaturer) i et bestemt format, og modellen kan derefter vælge at 'kalde' dem baseret på brugerens prompt.",
+      "text_2": "Du kan forestille dig brugsscenarier som at kalde et API, køre kode eller i princippet alt, der kan beskrives som et funktionskald."
+    },
+    "step_1": {
+      "title": "Kom i gang med værktøjsbrug",
+      "toolUseCanWorkWithAnyModel": "Modeller, der er trænet til værktøjsbrug, vil fungere bedst, men du kan forsøge at bruge værktøjer med alle modeller. Læs <customlink>dokumentationen</customlink> for at få mere at vide.\nModeller med værktøjsunderstøttelse vil være markeret med et nyt badge:",
+      "hasCompatibleModel": "🎉 Det ser ud til, at du allerede har modeller med værktøjsunderstøttelse!",
+      "downloadRecommendedModel": "Download en model, der er trænet til værktøjsbrug:"
+    },
+    "nextButton": "Næste",
+    "letsGoButton": "Indlæs model og start server",
+    "doneButton": "Luk"
+  }
+}
