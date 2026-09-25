@@ -2,7 +2,7 @@
   "postDownloadActionExecutor.zipExtraction/status": "解压中...",
   "postDownloadActionExecutor.tarGzExtraction/status": "解压中...",
   "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "解压中...",
-  "postDownloadActionExecutor.modifyModelData/status": "更新模型文件中...",
+  "postDownloadActionExecutor.modifyModelData/status": "正在更新模型数据...",
   "postDownloadActionExecutor.notification/status": "通知用户中...",
   "postDownloadActionExecutor.writeString/status": "写入元数据中...",
   "postDownloadActionExecutor.updateSelectedBackendVersions/status": "更新选中版本中...",
