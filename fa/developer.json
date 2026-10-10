@@ -1,100 +1,111 @@
 {
   "tabs/server": "سرور محلی",
-  "tabs/extensions": "اجرای مدل‌های زبانی",
-  "loadSettings/title": "بارگذاری تنظیمات",
-  "modelSettings/placeholder": "مدلی را برای پیکربندی انتخاب کنید",
-
+  "tabs/extensions": "موتورهای اجرای LM",
+  "loadSettings/title": "تنظیمات بارگذاری",
+  "modelSettings/placeholder": "هیچ مدلی انتخاب نشده است",
   "loadedModels/noModels": "هیچ مدلی بارگذاری نشده است",
-
-  "serverOptions/title": "تنظیمات سرور",
-  "serverOptions/configurableTitle": "تنظیمات قابل پیکربندی",
-  "serverOptions/port/hint": "پورت شبکه‌ای که سرور محلی از آن استفاده می‌کند را تنظیم کنید. به طور پیش‌فرض، LM Studio از پورت 1234 استفاده می‌کند. ممکن است نیاز به تغییر آن داشته باشید اگر پورت در حال استفاده باشد.",
-  "serverOptions/port/subtitle": "پورت برای گوش دادن",
+  "serverOptions/title": "گزینه‌های سرور",
+  "serverOptions/configurableTitle": "گزینه‌های قابل‌پیکربندی",
+  "serverOptions/port/hint": "پورت شبکهٔ مورد استفادهٔ سرور محلی را تعیین کنید. LM Studio به‌طور پیش‌فرض از پورت 1234 استفاده می‌کند. اگر این پورت در حال استفاده باشد، ممکن است لازم باشد آن را تغییر دهید.",
+  "serverOptions/port/subtitle": "پورتی که سرور روی آن گوش می‌دهد",
   "serverOptions/autostart/title": "راه‌اندازی خودکار سرور",
-  "serverOptions/autostart/hint": "سرور مدل‌های زبان محلی LM Studio را هنگام راه‌اندازی برنامه یا سرویس به طور خودکار روشن کنید",
-  "serverOptions/port/integerWarning": "شماره پورت باید یک عدد صحیح باشد",
+  "serverOptions/autostart/hint": "سرور LLMهای محلی LM Studio را هنگام شروع برنامه یا سرویس به‌طور خودکار روشن کنید",
+  "serverOptions/port/integerWarning": "شمارهٔ پورت باید عددی صحیح باشد",
   "serverOptions/port/invalidPortWarning": "پورت باید بین 1 و 65535 باشد",
   "serverOptions/cors/title": "فعال‌سازی CORS",
-  "serverOptions/cors/hint1": "فعال کردن CORS (Cross-origin Resource Sharing) اجازه می‌دهد وب‌سایت‌هایی که بازدید می‌کنید درخواست‌هایی به سرور LM Studio ارسال کنند.",
-  "serverOptions/cors/hint2": "CORS ممکن است زمانی مورد نیاز باشد که از یک صفحه وب یا VS Code / افزونه‌های دیگر درخواست ارسال شود.",
-  "serverOptions/cors/subtitle": "اجازه درخواست‌های متقابل از منابع",
-  "serverOptions/network/title": "ارائه سرور در شبکه محلی",
-  "serverOptions/network/subtitle": "افشای سرور به دستگاه‌های شبکه",
-  "serverOptions/network/hint1": "آیا اجازه می‌دهید ارتباطاتی از دستگاه‌های دیگر در شبکه برقرار شود؟",
-  "serverOptions/network/hint2": "اگر تیک نزنید، سرور تنها روی localhost گوش خواهد داد.",
-  "serverOptions/verboseLogging/title": "گزارش‌گیری دقیق",
-  "serverOptions/verboseLogging/subtitle": "فعال‌سازی گزارش‌گیری دقیق برای سرور محلی",
-  "serverOptions/contentLogging/title": "گزارش‌گیری درخواست‌ها و پاسخ‌ها",
-  "serverOptions/contentLogging/subtitle": "تنظیمات گزارش‌گیری درخواست‌ها / پاسخ‌ها در سرور محلی",
-  "serverOptions/contentLogging/hint": "آیا درخواست‌ها و / یا پاسخ‌ها در فایل گزارش سرور محلی ثبت شوند؟",
-  "serverOptions/fileLoggingMode/title": "حالت گزارش‌گیری فایل",
+  "serverOptions/cors/hint1": "فعال‌سازی CORS (اشتراک‌گذاری منابع بین مبدأها) به وب‌سایت‌هایی که بازدید می‌کنید اجازه می‌دهد به سرور LM Studio درخواست ارسال کنند.",
+  "serverOptions/cors/hint2": "ممکن است برای ارسال درخواست از صفحهٔ وب، VS Code یا افزونه‌ای دیگر به CORS نیاز باشد.",
+  "serverOptions/cors/subtitle": "اجازه به درخواست‌های بین‌مبدأیی",
+  "serverOptions/network/title": "ارائهٔ سرور در شبکهٔ محلی",
+  "serverOptions/network/subtitle": "در دسترس قرار دادن سرور برای دستگاه‌های شبکه",
+  "serverOptions/network/hint1": "تعیین می‌کند اتصال از دستگاه‌های دیگر شبکه مجاز باشد یا نه.",
+  "serverOptions/network/hint2": "اگر انتخاب نشود، سرور فقط روی localhost گوش می‌دهد.",
+  "serverOptions/verboseLogging/title": "ثبت گزارش تفصیلی",
+  "serverOptions/verboseLogging/subtitle": "فعال‌سازی ثبت گزارش تفصیلی برای سرور محلی",
+  "serverOptions/contentLogging/title": "ثبت پرامپت‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/subtitle": "تنظیمات ثبت محلی درخواست‌ها و پاسخ‌ها",
+  "serverOptions/contentLogging/hint": "تعیین می‌کند پرامپت‌ها و/یا پاسخ در فایل گزارش سرور محلی ثبت شوند یا نه.",
+  "serverOptions/redactContent/title": "پنهان‌سازی محتوا",
+  "serverOptions/redactContent/hint": "در صورت فعال‌سازی، از ثبت داده‌های حساس مانند محتوای درخواست‌ها و پاسخ‌ها جلوگیری می‌شود.",
+  "serverOptions/logIncomingTokens/title": "ثبت توکن‌های ورودی",
+  "serverOptions/logIncomingTokens/hint": "تعیین می‌کند هر توکن هنگام تولید ثبت شود یا نه.",
+  "serverOptions/fileLoggingMode/title": "حالت ثبت گزارش در فایل",
   "serverOptions/fileLoggingMode/off/title": "خاموش",
-  "serverOptions/fileLoggingMode/off/hint": "ایجاد فایل گزارش را متوقف کنید",
+  "serverOptions/fileLoggingMode/off/hint": "فایل گزارش ایجاد نشود",
   "serverOptions/fileLoggingMode/succinct/title": "مختصر",
-  "serverOptions/fileLoggingMode/succinct/hint": "محتوای مشابه کنسول را گزارش‌گیری کنید. درخواست‌های طولانی کوتاه خواهند شد.",
+  "serverOptions/fileLoggingMode/succinct/hint": "همان محتوای کنسول ثبت شود. درخواست‌های طولانی بریده می‌شوند.",
   "serverOptions/fileLoggingMode/full/title": "کامل",
-  "serverOptions/fileLoggingMode/full/hint": "درخواست‌های طولانی کوتاه نشوند.",
-  "serverOptions/jitModelLoading/title": "بارگذاری مدل به موقع",
-  "serverOptions/jitModelLoading/hint": "هنگام فعال شدن، اگر درخواستی مدلی را مشخص کند که بارگذاری نشده است، به طور خودکار بارگذاری و استفاده خواهد شد. علاوه بر این، نقطه پایانی \"/v1/models\" مدل‌هایی که هنوز بارگذاری نشده‌اند را شامل خواهد شد.",
-  "serverOptions/loadModel/error": "بارگذاری مدل شکست خورد",
-  "serverOptions/jitModelLoadingTTL/title": "بارگذاری خودکار مدل‌های JIT غیر استفاده شده",
-  "serverOptions/jitModelLoadingTTL/hint": "مدلی که به موقع (JIT) بارگذاری شده باشد برای سرویس‌دهی به درخواست API، پس از مدتی (TTL) غیر فعال خواهد شد.",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "حداکثر مدت زمان بی‌استفاده",
+  "serverOptions/fileLoggingMode/full/hint": "درخواست‌های طولانی بریده نشوند.",
+  "serverOptions/jitModelLoading/title": "بارگذاری مدل هنگام نیاز (JIT)",
+  "serverOptions/jitModelLoading/hint": "در صورت فعال‌سازی، اگر درخواستی مدلی را مشخص کند که بارگذاری نشده است، آن مدل به‌طور خودکار بارگذاری و استفاده می‌شود. همچنین نقطهٔ پایانی API «/v1/models» مدل‌هایی را که هنوز بارگذاری نشده‌اند نیز دربر می‌گیرد.",
+  "serverOptions/loadModel/error": "بارگذاری مدل ناموفق بود",
+  "serverOptions/jitModelLoadingTTL/title": "خارج‌کردن خودکار مدل‌های بارگذاری‌شده با JIT از حافظه در صورت بی‌استفاده‌ماندن",
+  "serverOptions/jitModelLoadingTTL/hint": "مدلی که به‌صورت آنی (JIT) برای پاسخ‌گویی به یک درخواست API بارگذاری شده باشد، پس از مدتی بدون استفاده ماندن (TTL) به‌طور خودکار از حافظه خارج می‌شود.",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "حداکثر TTL بیکاری",
   "serverOptions/jitModelLoadingTTL/ttl/unit": "دقیقه",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "فقط مدل JIT آخر بارگذاری شده را نگه دارید",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "اطمینان حاصل کنید که در هر زمان فقط یک مدل JIT بارگذاری شود (مدل قبلی بارگذاری شده تخلیه شود).",
-
-  "serverLogs/scrollToBottom": "پرش به پایین",
-  "serverLogs/clearLogs": "پاک کردن گزارش‌ها ({{shortcut}})",
-  "serverLogs/openLogsFolder": "باز کردن پوشه گزارش‌های سرور",
-
-  "runtimeSettings/title": "تنظیمات زمان اجرا",
-  "runtimeSettings/chooseRuntime/title": "انتخاب‌های پیش‌فرض",
-  "runtimeSettings/chooseRuntime/description": "یک زمان‌اجرای پیش‌فرض برای هر فرمت مدل انتخاب کنید",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش همه نسخه‌ها",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "به طور پیش‌فرض، LM Studio فقط آخرین نسخه از هر زمان‌اجرای سازگار را نمایش می‌دهد. این گزینه را فعال کنید تا تمام زمان‌های اجرا موجود را مشاهده کنید.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "یک زمان‌اجرا انتخاب کنید",
-
-  "runtimeOptions/uninstall": "حذف نصب",
-  "runtimeOptions/uninstallDialog/title": "آیا {{runtimeName}} را حذف کنیم؟",
-  "runtimeOptions/uninstallDialog/body": "حذف این زمان‌اجرا از سیستم آن را از سیستم حذف خواهد کرد. این عمل غیرقابل بازگشت است.",
-  "runtimeOptions/uninstallDialog/body/caveats": "برخی از فایل‌ها ممکن است فقط پس از راه‌اندازی مجدد LM Studio حذف شوند.",
-  "runtimeOptions/uninstallDialog/error": "حذف زمان‌اجرا شکست خورد",
-  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف نصب",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "فقط آخرین مدل بارگذاری‌شده با JIT نگه داشته شود",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "در هر لحظه حداکثر یک مدل بارگذاری‌شده با JIT در حافظه نگه داشته شود (مدل قبلی از حافظه خارج می‌شود)",
+  "serverOptions/allowMcp/title": "اجازه به MCP راه‌دور",
+  "serverOptions/allowMcp/hint": "اجازه دهید از MCPهایی استفاده شود که در mcp.json شما نیستند. این اتصال‌های MCP موقتی‌اند و فقط تا پایان درخواست وجود دارند. در حال حاضر فقط MCPهای راه‌دور پشتیبانی می‌شوند.",
+  "serverOptions/allowMcp/mode/off": "خاموش",
+  "serverOptions/allowMcp/mode/off/hint": "درخواست‌های سرور اجازهٔ استفاده از MCP را نداشته باشند",
+  "serverOptions/allowMcp/mode/remote": "راه‌دور",
+  "serverOptions/allowMcp/mode/remote/hint": "اجازهٔ اتصال به سرورهای MCP راه‌دور",
+  "serverOptions/start/error": "راه‌اندازی سرور ناموفق بود",
+  "serverOptions/stop/error": "توقف سرور ناموفق بود",
+  "serverLogs/scrollToBottom": "رفتن به انتها",
+  "serverLogs/clearLogs": "پاک‌کردن گزارش‌ها ({{shortcut}})",
+  "serverLogs/openLogsFolder": "بازکردن پوشهٔ گزارش‌های سرور",
+  "runtimeSettings/title": "تنظیمات موتور اجرا",
+  "runtimeSettings/chooseRuntime/title": "انتخاب‌ها",
+  "runtimeSettings/chooseRuntime/description": "برای هر قالب مدل، یک موتور اجرا انتخاب کنید",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "نمایش همهٔ بسته‌های افزونه",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "LM Studio به‌طور پیش‌فرض فقط جدیدترین نسخهٔ هر بستهٔ افزونه را نمایش می‌دهد. برای مشاهدهٔ همهٔ بسته‌های افزونهٔ موجود، این گزینه را فعال کنید.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "یک موتور اجرا انتخاب کنید",
+  "runtimeSettings/chooseFrameworks/title": "چارچوب‌ها",
+  "runtimeSettings/chooseFrameworks/description": "برای هر قابلیت، چارچوبی را انتخاب کنید",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "تجزیه‌گر داخلی",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "تجزیه‌گر سند",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "یک تجزیه‌گر سند انتخاب کنید",
+  "runtimeOptions/uninstall": "حذف",
+  "runtimeOptions/uninstallDialog/title": "{{runtimeName}} حذف شود؟",
+  "runtimeOptions/uninstallDialog/body": "با حذف این موتور اجرا، آن از سیستم پاک می‌شود. این اقدام برگشت‌ناپذیر است.",
+  "runtimeOptions/uninstallDialog/body/caveats": "ممکن است برخی فایل‌ها فقط پس از راه‌اندازی مجدد LM Studio حذف شوند.",
+  "runtimeOptions/uninstallDialog/error": "حذف موتور اجرا ناموفق بود",
+  "runtimeOptions/uninstallDialog/confirm": "ادامه و حذف",
   "runtimeOptions/uninstallDialog/cancel": "لغو",
-  "runtimeOptions/noCompatibleRuntimes": "هیچ زمان‌اجرای سازگاری یافت نشد",
-  "runtimeOptions/downloadIncompatibleRuntime": "این زمان‌اجرا مشخص شده که با ماشین شما سازگار نیست. احتمالاً کار نخواهد کرد.",
-  "runtimeOptions/noRuntimes": "هیچ زمان‌اجرایی پیدا نشد",
-
+  "runtimeOptions/noCompatibleRuntimes": "هیچ موتور اجرای سازگاری یافت نشد",
+  "runtimeOptions/downloadIncompatibleRuntime": "این موتور اجرا با دستگاه شما ناسازگار تشخیص داده شده است و به‌احتمال زیاد کار نخواهد کرد.",
+  "runtimeOptions/noRuntimes": "هیچ موتور اجرایی یافت نشد",
   "runtimes": {
-    "manageLMRuntimes": "مدیریت اجرای مدل‌های زبان",
-    "includeOlderRuntimeVersions": "گنجاندن نسخه‌های قدیمی‌تر زمان‌اجرای مدل",
-    "dismiss": "صرف‌نظر کردن",
+    "manageLMRuntimes": "مدیریت موتور اجرای LM",
+    "includeOlderRuntimeVersions": "نمایش نسخه‌های قدیمی‌تر",
+    "dismiss": "بستن",
     "updateAvailableToast": {
-      "title": "بروزرسانی زمان‌اجرای مدل زبان موجود است!"
+      "title": "به‌روزرسانی موتور اجرای LM در دسترس است!"
     },
     "updatedToast": {
-      "title": " ✅ زمان‌اجرای مدل زبان بروزرسانی شد: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "مدل‌های جدید بارگذاری شده با استفاده از زمان‌اجرای بروزرسانی شده خواهند بود."
+      "title": " ✅ موتور اجرای LM به‌روزرسانی شد: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "مدل‌های {{compatibilityTypes}} که از این پس بارگذاری شوند، از موتور اجرای به‌روزشده استفاده خواهند کرد."
     },
-    "noAvx2ErrorMessage": "تمامی زمان‌اجرای مدل‌های زبان فعلی به پشتیبانی از AVX2 نیاز دارند",
+    "noAvx2ErrorMessage": "همهٔ موتورهای اجرای LM در حال حاضر به CPU با پشتیبانی AVX2 نیاز دارند",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "بسته‌های افزونه زمان‌اجرای مدل زبان",
-      "refresh": "بارگذاری مجدد",
-      "refreshing": "در حال بارگذاری مجدد...",
+      "runtimeExtensionPacks": "بسته‌های افزونهٔ موتور اجرا",
+      "refresh": "تازه‌سازی",
+      "refreshing": "در حال تازه‌سازی…",
       "filterSegment": {
-        "compatibleOnly": "فقط سازگار",
+        "compatibleOnly": "فقط سازگارها",
         "all": "همه"
       },
       "card": {
-        "releaseNotes": "یادداشت‌های نسخه",
-        "latestVersionInstalled": "آخرین نسخه نصب شده",
-        "updateAvailable": "بروزرسانی موجود"
+        "releaseNotes": "یادداشت‌های انتشار",
+        "latestVersionInstalled": "جدیدترین نسخه نصب شده است",
+        "updateAvailable": "به‌روزرسانی موجود است"
       }
     },
     "installedRuntimes": {
       "manage": {
-        "title": "مدیریت زمان‌اجرای فعال"
+        "title": "مدیریت موتورهای اجرای فعال"
       },
       "dropdownOptions": {
         "installedVersions": "مدیریت نسخه‌ها",
@@ -103,67 +114,70 @@
       "tabs": {
         "all": "همه",
         "frameworks": "چارچوب‌های من",
-        "engines": "موتورهای من"
+        "engines": "موتورهای اجرای من"
       },
       "detailsModal": {
-        "installedVersions": "نسخه‌های نصب شده برای {{runtimeName}}",
-        "manifestJsonTitle": "فایل JSON Manifest (پیشرفته)",
-        "releaseNotesTitle": "یادداشت‌های نسخه",
-        "noReleaseNotes": "یادداشت نسخه‌ای برای این نسخه موجود نیست",
+        "installedVersions": "نسخه‌های نصب‌شدهٔ {{runtimeName}}",
+        "manifestJsonTitle": "مانیفست JSON (پیشرفته)",
+        "releaseNotesTitle": "یادداشت‌های انتشار",
+        "noReleaseNotes": "برای این نسخه یادداشت انتشاری موجود نیست",
         "back": "بازگشت",
         "close": "بستن"
       },
-      "noEngines": "هیچ موتوری نصب نشده است",
+      "noEngines": "هیچ موتور اجرایی نصب نشده است",
       "noFrameworks": "هیچ چارچوبی نصب نشده است"
     }
   },
-
-  "inferenceParams/noParams": "هیچ پارامتر استنتاجی قابل پیکربندی برای این نوع مدل موجود نیست",
-
+  "inferenceParams/noParams": "هیچ پارامتر استنتاج قابل‌پیکربندی برای این نوع مدل موجود نیست",
   "quickDocs": {
-    "tabChipTitle": "اسناد سریع",
-    "newToolUsePopover": "قطعه‌های کد اکنون در \"اسناد سریع\" در دسترس هستند. اینجا را کلیک کنید تا با استفاده از ابزار آشنا شوید!",
-    "newToolUsePopoverTitle": "📚 اسناد سریع",
-    "learnMore": "ℹ️ 👾 برای یادگیری بیشتر در مورد نقاط پایانی سرور محلی LM Studio، به [مستندات](https://lmstudio.ai/docs) مراجعه کنید.",
+    "tabChipTitle": "مستندات توسعه‌دهندگان",
+    "newToolUsePopover": "اکنون قطعه‌کدها در «مستندات توسعه‌دهندگان» در دسترس‌اند. برای شروع استفاده از ابزارها اینجا کلیک کنید!",
+    "newToolUsePopoverTitle": "📚 مستندات توسعه‌دهندگان",
+    "learnMore": "ℹ️ 👾 برای آشنایی بیشتر با نقاط پایانی API سرور محلی LM Studio، به [مستندات](https://lmstudio.ai/docs) مراجعه کنید.",
     "helloWorld": {
       "title": "سلام، دنیا!"
     },
     "chat": {
-      "title": "چت"
+      "title": "گفت‌وگو"
     },
     "structuredOutput": {
-      "title": "خروجی ساختار یافته"
+      "title": "خروجی ساخت‌یافته"
     },
     "imageInput": {
       "title": "ورودی تصویر"
     },
     "embeddings": {
-      "title": "برداشت‌ها"
+      "title": "بردارهای تعبیه"
     },
     "toolUse": {
       "title": "استفاده از ابزار",
       "tab": {
-        "saveAsPythonFile": "ذخیره به عنوان فایل پایتون",
+        "saveAsPythonFile": "ذخیره به‌صورت فایل Python",
         "runTheScript": "اجرای اسکریپت:",
-        "savePythonFileCopyPaste": "ذخیره به عنوان فایل پایتون برای دستور کپی و چسباندن"
+        "savePythonFileCopyPaste": "ذخیره به‌صورت فایل Python برای دستور قابل کپی و جای‌گذاری"
       }
     },
     "newBadge": "جدید"
   },
-
-  "endpoints/openaiCompatRest/title": "نقاط پایانی پشتیبانی‌شده (مشابه OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "مدل‌های بارگذاری شده کنونی را فهرست کنید",
-  "endpoints/openaiCompatRest/postCompletions": "حالت تکمیل متن. پیش‌بینی توکن(ها) بعدی با توجه به یک پرسش. توجه: OpenAI این نقطه پایانی را \"منسوخ شده\" در نظر می‌گیرد.",
-  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل‌های چت. ارسال تاریخچه چت به مدل برای پیش‌بینی پاسخ بعدی دستیار",
-  "endpoints/openaiCompatRest/postEmbeddings": "برداشت‌های متن. ایجاد برداشت‌های متن برای یک ورودی متنی داده‌شده. یک رشته یا آرایه‌ای از رشته‌ها را می‌گیرد.",
-
-  "model.createVirtualModelFromInstance": "ذخیره تنظیمات به عنوان یک مدل مجازی جدید",
-  "model.createVirtualModelFromInstance/error": "خطا در ذخیره تنظیمات به عنوان یک مدل مجازی جدید",
-
+  "endpoints/openaiCompatRest/title": "نقاط پایانی API پشتیبانی‌شده{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "مشابه OpenAI",
+  "endpoints/openaiCompatRest/getModels": "فهرست مدل‌های بارگذاری‌شدهٔ فعلی",
+  "endpoints/openaiCompatRest/postCompletions": "حالت تکمیل متن. با دریافت یک پرامپت، توکن یا توکن‌های بعدی را پیش‌بینی می‌کند. توجه: OpenAI این نقطهٔ پایانی API را «منسوخ» می‌داند.",
+  "endpoints/openaiCompatRest/postChatCompletions": "تکمیل گفت‌وگو. تاریخچهٔ گفت‌وگو را برای پیش‌بینی پاسخ بعدی دستیار به مدل ارسال کنید",
+  "endpoints/openaiCompatRest/postEmbeddings": "بردار تعبیهٔ متن. برای ورودی متنی داده‌شده، بردارهای تعبیه تولید می‌کند. یک رشته یا آرایه‌ای از رشته‌ها را می‌پذیرد.",
+  "endpoints/openaiCompatRest/postResponses": "رابطی پیشرفته برای تولید پاسخ‌های مدل. با ارسال شناسهٔ یکی از پاسخ‌های قبلی به‌عنوان ورودی پاسخ بعدی، تعامل‌های حالت‌مند ایجاد کنید.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "فهرست مدل‌های موجود",
+  "endpoints/lmStudioRestV1/postModelsLoad": "بارگذاری مدل با گزینه‌ها",
+  "endpoints/lmStudioRestV1/postModelsDownload": "دانلود مدل",
+  "endpoints/lmStudioRestV1/postChat": "گفت‌وگو با مدل. از گفت‌وگوهای چندمرحله‌ای حالت‌مند و MCP پشتیبانی می‌کند",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "دریافت وضعیت دانلود مدل",
+  "endpoints/anthropicCompatRest/segmentedLabel": "سازگار با Anthropic",
+  "model.createVirtualModelFromInstance": "ذخیرهٔ تنظیمات به‌عنوان مدل مجازی جدید",
+  "model.createVirtualModelFromInstance/error": "ذخیرهٔ تنظیمات به‌عنوان مدل مجازی جدید ناموفق بود",
   "model": {
     "toolUseSectionTitle": "استفاده از ابزار",
-    "toolUseDescription": "این مدل شناسایی شده است که برای استفاده از ابزارها آموزش دیده است\n\nبرای اطلاعات بیشتر، <custom-link>اسناد سریع</custom-link> را باز کنید"
+    "toolUseDescription": "تشخیص داده شد که این مدل برای استفاده از ابزارها آموزش دیده است\n\nبرای اطلاعات بیشتر، <custom-link>مستندات توسعه‌دهندگان</custom-link> را باز کنید"
   },
-
   "apiConfigOptions/title": "پیکربندی API"
 }
