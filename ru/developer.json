@@ -1,87 +1,106 @@
 {
   "tabs/server": "Локальный сервер",
-  "tabs/extensions": "LM Runtimes",
-  "loadSettings/title": "Загрузить настройки",
-  "modelSettings/placeholder": "Выбрать модель для настройки",
+  "tabs/extensions": "Среды выполнения LM",
+  "loadSettings/title": "Настройки загрузки",
+  "modelSettings/placeholder": "Модель не выбрана",
 
   "loadedModels/noModels": "Нет загруженных моделей",
 
-  "serverOptions/title": "Настройки сервера",
+  "serverOptions/title": "Параметры сервера",
   "serverOptions/configurableTitle": "Настраиваемые параметры",
-  "serverOptions/port/hint": "Укажите порт, который будет использоваться локальным сервером. По умолчанию LM Studio использует порт 1234. Возможно, вам потребуется изменить его, если этот порт уже используется.",
+  "serverOptions/port/hint": "Укажите сетевой порт, который будет использовать локальный сервер. По умолчанию LM Studio использует порт 1234. Возможно, его потребуется изменить, если порт уже занят.",
   "serverOptions/port/subtitle": "Порт для прослушивания",
   "serverOptions/autostart/title": "Автозапуск сервера",
-  "serverOptions/autostart/hint": "Включите автоматический запуск локального сервера LLM LM Studio при запуске приложения или службы.",
+  "serverOptions/autostart/hint": "Автоматически включать локальный сервер LLM в LM Studio при запуске приложения или службы",
   "serverOptions/port/integerWarning": "Номер порта должен быть целым числом",
-  "serverOptions/port/invalidPortWarning": "Порт должен находиться в диапазоне от 1 до 65535",
+  "serverOptions/port/invalidPortWarning": "Порт должен быть в диапазоне от 1 до 65535",
   "serverOptions/cors/title": "Включить CORS",
-  "serverOptions/cors/hint1": "Включение CORS (Cross-origin Resource Sharing) позволит сайтам, которые вы посещаете, отправлять запросы на сервер LM Studio.",
-  "serverOptions/cors/hint2": "CORS может потребоваться при выполнении запросов с веб-страницы или VS Code / других расширений.",
-  "serverOptions/cors/subtitle": "Разрешить межсайтовые запросы",
-  "serverOptions/network/title": "Обслуживание по локальной сети",
-  "serverOptions/network/subtitle": "Опубликовать сервер в сети",
-  "serverOptions/network/hint1": "Включить ли разрешены подключения с других устройств в сети.",
-  "serverOptions/network/hint2": "Если не отмечено, сервер будет прослушивать только localhost.",
+  "serverOptions/cors/hint1": "Включение CORS (Cross-Origin Resource Sharing, совместное использование ресурсов между источниками) позволит посещаемым вами сайтам отправлять запросы к серверу LM Studio.",
+  "serverOptions/cors/hint2": "CORS может потребоваться при отправке запросов с веб-страницы или из VS Code / других расширений.",
+  "serverOptions/cors/subtitle": "Разрешить кросс-доменные запросы",
+  "serverOptions/network/title": "Работать в локальной сети",
+  "serverOptions/network/subtitle": "Открыть сервер для устройств в сети",
+  "serverOptions/network/hint1": "Разрешать ли подключения с других устройств в сети.",
+  "serverOptions/network/hint2": "Если флажок не установлен, сервер будет прослушивать только localhost.",
   "serverOptions/verboseLogging/title": "Подробное логирование",
   "serverOptions/verboseLogging/subtitle": "Включить подробное логирование для локального сервера",
-  "serverOptions/contentLogging/title": "Логировать запросы и ответы",
-  "serverOptions/contentLogging/subtitle": "Настройки ведения журнала запросов / ответов локального сервера",
-  "serverOptions/contentLogging/hint": "Включить или нет логирование запросов и/или ответов в журнале логов локального сервера.",
-  "serverOptions/fileLoggingMode/title": "Режим ведения логирования файлов",
-  "serverOptions/fileLoggingMode/off/title": "ОТКЛЮЧЕНО",
-  "serverOptions/fileLoggingMode/off/hint": "Не создавать файлы логов",
-  "serverOptions/fileLoggingMode/succinct/title": "Сжимать",
-  "serverOptions/fileLoggingMode/succinct/hint": "Логировать то же, что и в консоли. Длинные запросы будут обрезаны.",
-  "serverOptions/fileLoggingMode/full/title": "Полное",
-  "serverOptions/fileLoggingMode/full/hint": "Не обрезать длинные запросы.",
-  "serverOptions/jitModelLoading/title": "Загрузка модели по требованию",
-  "serverOptions/jitModelLoading/hint": "При включении, если запрос указал модель, которая не загружена, она будет автоматически загружена и использована. Кроме того, конечная точка '/v1/models' также будет включать модели, которые еще не загружены.",
+  "serverOptions/contentLogging/title": "Логировать промпты и ответы",
+  "serverOptions/contentLogging/subtitle": "Настройки логирования локальных запросов / ответов",
+  "serverOptions/contentLogging/hint": "Записывать ли промпты и/или ответы в файл журнала локального сервера.",
+  "serverOptions/redactContent/title": "Скрывать содержимое",
+  "serverOptions/redactContent/hint": "Если включено, конфиденциальные данные, такие как содержимое запросов и ответов, не будут попадать в журнал.",
+  "serverOptions/logIncomingTokens/title": "Логировать входящие токены",
+  "serverOptions/logIncomingTokens/hint": "Записывать ли каждый токен по мере его генерации.",
+  "serverOptions/fileLoggingMode/title": "Режим записи в файл",
+  "serverOptions/fileLoggingMode/off/title": "ВЫКЛ.",
+  "serverOptions/fileLoggingMode/off/hint": "Не создавать файлы журнала",
+  "serverOptions/fileLoggingMode/succinct/title": "Краткий",
+  "serverOptions/fileLoggingMode/succinct/hint": "Записывать то же содержимое, что и в консоли. Длинные запросы будут усечены.",
+  "serverOptions/fileLoggingMode/full/title": "Полный",
+  "serverOptions/fileLoggingMode/full/hint": "Не усекать длинные запросы.",
+  "serverOptions/jitModelLoading/title": "Загрузка моделей по требованию (JIT)",
+  "serverOptions/jitModelLoading/hint": "Если включено, то при запросе к модели, которая не загружена, она будет автоматически загружена и использована. Кроме того, эндпоинт \"/v1/models\" будет также включать модели, которые ещё не загружены.",
   "serverOptions/loadModel/error": "Не удалось загрузить модель",
-  "serverOptions/jitModelLoadingTTL/title": "Автоматическая разгрузка неиспользуемых моделей JIT",
-  "serverOptions/jitModelLoadingTTL/hint": "Модель, которая была загружена Just-in-time (JIT) для обслуживания API-запроса, будет автоматически разгружена после того, как она не использовалась в течение определенного периода времени (TTL).",
-  "serverOptions/jitModelLoadingTTL/ttl/label": "Максимальное время простоя TTL",
-  "serverOptions/jitModelLoadingTTL/ttl/unit": "минуты",
-  "serverOptions/unloadPreviousJITModelOnLoad/title": "Сохранять только последнюю загруженную модель JIT",
-  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Убедитесь, что одновременно загружена не более одной модели через JIT (разгружается предыдущая модель)",
+  "serverOptions/jitModelLoadingTTL/title": "Автоматически выгружать неиспользуемые модели, загруженные по требованию (JIT)",
+  "serverOptions/jitModelLoadingTTL/hint": "Модель, загруженная по требованию (Just-in-Time, JIT) для обработки API-запроса, будет автоматически выгружена, если она не использовалась в течение заданного времени (TTL).",
+  "serverOptions/jitModelLoadingTTL/ttl/label": "Макс. время простоя (TTL)",
+  "serverOptions/jitModelLoadingTTL/ttl/unit": "мин.",
+  "serverOptions/unloadPreviousJITModelOnLoad/title": "Хранить только последнюю модель, загруженную по требованию",
+  "serverOptions/unloadPreviousJITModelOnLoad/hint": "Гарантировать, что одновременно загружено не более одной модели, загруженной по требованию (предыдущая модель выгружается)",
+  "serverOptions/allowMcp/title": "Разрешить удалённые MCP",
+  "serverOptions/allowMcp/hint": "Разрешить использование MCP, которых нет в вашем mcp.json. Такие MCP-подключения временные и существуют только на время запроса. На данный момент поддерживаются только удалённые MCP.",
+  "serverOptions/allowMcp/mode/off": "Выкл.",
+  "serverOptions/allowMcp/mode/off/hint": "Не разрешать серверным запросам использовать MCP",
+  "serverOptions/allowMcp/mode/remote": "Удалённые",
+  "serverOptions/allowMcp/mode/remote/hint": "Разрешить подключение к удалённым MCP-серверам",
 
-  "serverLogs/scrollToBottom": "Перейти в конец",
-  "serverLogs/clearLogs": "Очистить логи ({{shortcut}})",
-  "serverLogs/openLogsFolder": "Открыть папку с логами сервера",
+  "serverOptions/start/error": "Не удалось запустить сервер",
+  "serverOptions/stop/error": "Не удалось остановить сервер",
 
-  "runtimeSettings/title": "Настройки Runtime",
-  "runtimeSettings/chooseRuntime/title": "По умолчанию",
-  "runtimeSettings/chooseRuntime/description": "Выберите предустановленный runtime для каждого формата модели",
-  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показать все runtimes",
-  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждого совместимого runtime. Включите этоот параметр, чтобы увидеть все доступные runtimes.",
-  "runtimeSettings/chooseRuntime/select/placeholder": "Выбрать Runtime",
+  "serverLogs/scrollToBottom": "Перейти вниз",
+  "serverLogs/clearLogs": "Очистить журнал ({{shortcut}})",
+  "serverLogs/openLogsFolder": "Открыть папку с журналами сервера",
+
+  "runtimeSettings/title": "Настройки среды выполнения",
+  "runtimeSettings/chooseRuntime/title": "Выбор",
+  "runtimeSettings/chooseRuntime/description": "Выберите движок для каждого формата моделей",
+  "runtimeSettings/chooseRuntime/showAllVersions/label": "Показывать все пакеты расширений",
+  "runtimeSettings/chooseRuntime/showAllVersions/hint": "По умолчанию LM Studio показывает только последнюю версию каждого пакета расширений. Включите этот параметр, чтобы увидеть все доступные пакеты расширений.",
+  "runtimeSettings/chooseRuntime/select/placeholder": "Выберите движок",
+
+  "runtimeSettings/chooseFrameworks/title": "Фреймворки",
+  "runtimeSettings/chooseFrameworks/description": "Выберите фреймворк для каждой функции",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Встроенный парсер",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Парсер документов",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Выберите парсер документов",
 
   "runtimeOptions/uninstall": "Удалить",
   "runtimeOptions/uninstallDialog/title": "Удалить {{runtimeName}}?",
-  "runtimeOptions/uninstallDialog/body": "Удаление этого runtime удалит его из системы. Это действие необратимо.",
+  "runtimeOptions/uninstallDialog/body": "Удаление этой среды выполнения уберёт её из системы. Это действие необратимо.",
   "runtimeOptions/uninstallDialog/body/caveats": "Некоторые файлы могут быть удалены только после перезапуска LM Studio.",
-  "runtimeOptions/uninstallDialog/error": "Не удалось удалить runtime",
+  "runtimeOptions/uninstallDialog/error": "Не удалось удалить среду выполнения",
   "runtimeOptions/uninstallDialog/confirm": "Продолжить и удалить",
   "runtimeOptions/uninstallDialog/cancel": "Отмена",
-  "runtimeOptions/noCompatibleRuntimes": "Не найдено совместимых runtimes",
-  "runtimeOptions/downloadIncompatibleRuntime": "Этот runtime был определён как несовместимый с вашим устройством. Скорее всего, он не будет работать.",
-  "runtimeOptions/noRuntimes": "Нет runtimes",
+  "runtimeOptions/noCompatibleRuntimes": "Совместимые среды выполнения не найдены",
+  "runtimeOptions/downloadIncompatibleRuntime": "Эта среда выполнения признана несовместимой с вашим компьютером. Скорее всего, она не будет работать.",
+  "runtimeOptions/noRuntimes": "Среды выполнения не найдены",
 
   "runtimes": {
-    "manageLMRuntimes": "Управление LM Runtimes",
-    "includeOlderRuntimeVersions": "Включить старые версии runtime",
-    "dismiss": "Отмена",
+    "manageLMRuntimes": "Управление средами выполнения LM",
+    "includeOlderRuntimeVersions": "Включать более старые версии",
+    "dismiss": "Закрыть",
     "updateAvailableToast": {
-      "title": "Доступно обновление LM Runtime!"
+      "title": "Доступно обновление среды выполнения LM!"
     },
     "updatedToast": {
-      "title": " ✅ LM Runtime обновлен: {{runtime}} → v{{version}}",
-      "preferencesUpdated": "Новые загруженные модели с {{compatibilityTypes}} будут использовать обновленный runtime."
+      "title": " ✅ Среда выполнения LM обновлена: {{runtime}} → v{{version}}",
+      "preferencesUpdated": "Модели {{compatibilityTypes}}, загружаемые теперь, будут использовать обновлённую среду выполнения."
     },
-    "noAvx2ErrorMessage": "Все LM Runtimes требуют процессора с AVX2",
+    "noAvx2ErrorMessage": "Для всех сред выполнения LM сейчас требуется процессор с поддержкой AVX2",
     "downloadableRuntimes": {
-      "runtimeExtensionPacks": "Пакеты расширений runtime",
+      "runtimeExtensionPacks": "Пакеты расширений среды выполнения",
       "refresh": "Обновить",
-      "refreshing": "Загрузка...",
+      "refreshing": "Обновление...",
       "filterSegment": {
         "compatibleOnly": "Только совместимые",
         "all": "Все"
@@ -94,7 +113,7 @@
     },
     "installedRuntimes": {
       "manage": {
-        "title": "Управление активными runtime"
+        "title": "Управление активными средами выполнения"
       },
       "dropdownOptions": {
         "installedVersions": "Управление версиями",
@@ -106,10 +125,10 @@
         "engines": "Мои движки"
       },
       "detailsModal": {
-        "installedVersions": "Установленные версии для {{runtimeName}}",
-        "manifestJsonTitle": "Manifest JSON (продвинутый)",
+        "installedVersions": "Установленные версии {{runtimeName}}",
+        "manifestJsonTitle": "Манифест JSON (для опытных пользователей)",
         "releaseNotesTitle": "Примечания к выпуску",
-        "noReleaseNotes": "Нет доступных примечаний к выпуску для этой версии",
+        "noReleaseNotes": "Для этой версии нет примечаний к выпуску",
         "back": "Назад",
         "close": "Закрыть"
       },
@@ -118,15 +137,15 @@
     }
   },
 
-  "inferenceParams/noParams": "Параметры инференса не доступны для данного типа модели",
+  "inferenceParams/noParams": "Для этого типа модели нет настраиваемых параметров инференса",
 
   "quickDocs": {
-    "tabChipTitle": "Быстрые справки",
-    "newToolUsePopover": "Кодовые фрагменты теперь доступны здесь в \"Быстрых справках\". Нажмите здесь, чтобы начать использовать инструменты!",
-    "newToolUsePopoverTitle": "📚 Быстрые справки",
-    "learnMore": "ℹ️ 👾 Чтобы узнать больше о конечных точках локального сервера LM Studio, посетите [документацию](https://lmstudio.ai/docs).",
+    "tabChipTitle": "Документация для разработчиков",
+    "newToolUsePopover": "Фрагменты кода теперь доступны здесь, в разделе «Документация для разработчиков». Нажмите, чтобы начать работу с инструментами!",
+    "newToolUsePopoverTitle": "📚 Документация для разработчиков",
+    "learnMore": "ℹ️ 👾 Чтобы узнать больше об эндпоинтах локального сервера LM Studio, посетите [документацию](https://lmstudio.ai/docs).",
     "helloWorld": {
-      "title": "Привет, Мир!"
+      "title": "Привет, мир!"
     },
     "chat": {
       "title": "Чат"
@@ -138,32 +157,41 @@
       "title": "Ввод изображений"
     },
     "embeddings": {
-      "title": "Векторные представления"
+      "title": "Эмбеддинги"
     },
     "toolUse": {
       "title": "Использование инструментов",
       "tab": {
         "saveAsPythonFile": "Сохранить как файл Python",
-        "runTheScript": "Запустить скрипт:",
-        "savePythonFileCopyPaste": "Сохранить как файл Python для команды копирования и вставки"
+        "runTheScript": "Запустите скрипт:",
+        "savePythonFileCopyPaste": "Сохраните как файл Python для команды, которую можно скопировать и вставить"
       }
     },
-    "newBadge": "Новый"
+    "newBadge": "Новое"
   },
 
-  "endpoints/openaiCompatRest/title": "Поддерживаемые конечные точки (подобные OpenAI)",
-  "endpoints/openaiCompatRest/getModels": "Список загруженных моделей",
-  "endpoints/openaiCompatRest/postCompletions": "Режим завершения текста. Предсказание следующего токена(ов) на основе запроса. Обратите внимание: OpenAI считает этот конечный пункт 'устаревшим'.",
-  "endpoints/openaiCompatRest/postChatCompletions": "Завершения чата. Отправка истории чата модели для предсказания следующего ответа ассистента",
-  "endpoints/openaiCompatRest/postEmbeddings": "Векторное представление текста. Генерация векторных представлений текста на основе заданного текстового ввода. Принимает строку или массив строк.",
+  "endpoints/openaiCompatRest/title": "Поддерживаемые эндпоинты{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "В стиле OpenAI",
+  "endpoints/openaiCompatRest/getModels": "Список загруженных в данный момент моделей",
+  "endpoints/openaiCompatRest/postCompletions": "Режим текстовых дополнений (Text Completions). Предсказывает следующие токены по заданному промпту. Примечание: OpenAI считает этот эндпоинт «устаревшим».",
+  "endpoints/openaiCompatRest/postChatCompletions": "Дополнения чата (Chat Completions). Отправьте модели историю чата, чтобы предсказать следующий ответ ассистента",
+  "endpoints/openaiCompatRest/postEmbeddings": "Текстовые эмбеддинги. Генерирует эмбеддинги для заданного текстового ввода. Принимает строку или массив строк.",
+  "endpoints/openaiCompatRest/postResponses": "Расширенный интерфейс для генерации ответов модели. Позволяет создавать диалоги с сохранением состояния: передайте идентификатор предыдущего ответа на вход следующему запросу.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Список доступных моделей",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Загрузка модели с параметрами",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Загрузка модели",
+  "endpoints/lmStudioRestV1/postChat": "Чат с моделью. Поддерживает многоходовые диалоги с сохранением состояния и MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Получение статуса загрузки модели",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Совместимый с Anthropic",
 
   "model.createVirtualModelFromInstance": "Сохранить настройки как новую виртуальную модель",
-  "model.createVirtualModelFromInstance/error": "Не удалось сохранить настройки в качестве новой виртуальной модели",
+  "model.createVirtualModelFromInstance/error": "Не удалось сохранить настройки как новую виртуальную модель",
 
   "model": {
     "toolUseSectionTitle": "Использование инструментов",
-    "toolUseDescription": "Обнаружено, что эта модель обучена для использования инструментов\n\nОткройте <custom-link>quick docs</custom-link> для получения дополнительной информации"
+    "toolUseDescription": "Обнаружено, что эта модель обучена использованию инструментов\n\nОткройте <custom-link>документацию для разработчиков</custom-link>, чтобы узнать больше"
   },
 
-  "apiConfigOptions/title": "Настройки API"
+  "apiConfigOptions/title": "Конфигурация API"
 }
