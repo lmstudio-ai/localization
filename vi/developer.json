@@ -27,6 +27,10 @@
   "serverOptions/contentLogging/title": "Ghi lại Lời nhắc và Phản hồi",
   "serverOptions/contentLogging/subtitle": "Cài đặt ghi nhật ký yêu cầu / phản hồi cục bộ",
   "serverOptions/contentLogging/hint": "Có ghi lại lời nhắc và/hoặc phản hồi trong tệp nhật ký máy chủ cục bộ.",
+  "serverOptions/redactContent/title": "Redact Content",
+  "serverOptions/redactContent/hint": "When enabled, prevent sensitive data, such as the content of the requests and responses from being logged.",
+  "serverOptions/logIncomingTokens/title": "Ghi nhật ký token ",
+  "serverOptions/logIncomingTokens/hint": "Ghi nhật kí từng token khi mô hình đang tạo phản hồi.",
   "serverOptions/fileLoggingMode/title": "Chế Độ Ghi Nhật Ký Tệp",
   "serverOptions/fileLoggingMode/off/title": "TẮT",
   "serverOptions/fileLoggingMode/off/hint": "Không tạo tệp nhật ký",
@@ -43,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "phút",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Chỉ Giữ Lại Mô Hình Đã Tải JIT Cuối Cùng",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Đảm bảo tối đa 1 mô hình được tải qua JIT tại bất kỳ thời điểm nào (dỡ mô hình trước đó)",
+  "serverOptions/allowMcp/title": "Cho phép sử dụng máy chủ  MCP từ xa",
+  "serverOptions/allowMcp/hint": "Cho phép sử dụng các máy chủ MCP không có trong mcp.json của bạn. Các kết nối MCP này là tạm thời, chỉ được tạo khi có yêu cầu và sẽ tự động hủy sau khi yêu cầu hoàn tất. Hiện tại chỉ hỗ trợ MCP từ xa.",
+  "serverOptions/allowMcp/mode/off": "Tắt",
+  "serverOptions/allowMcp/mode/off/hint": "Không cho phép yêu cầu sử dụng máy chủ MCP",
+  "serverOptions/allowMcp/mode/remote": "Từ xa",
+  "serverOptions/allowMcp/mode/remote/hint": "Cho phép kết nối với máy chủ MCP từ xa",
+
+  "serverOptions/start/error": "Không thể khởi động máy chủ",
+  "serverOptions/stop/error": "Không thể dừng máy chủ",
 
   "serverLogs/scrollToBottom": "Nhảy đến cuối",
   "serverLogs/clearLogs": "Xóa logs ({{shortcut}})",
@@ -54,6 +67,11 @@
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Hiển thị tất cả các phiên bản",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Mặc định, LM Studio chỉ hiển thị phiên bản mới nhất của mỗi runtime. Bật tùy chọn này để xem tất cả các phiên bản có sẵn.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Chọn Runtime",
+  "runtimeSettings/chooseFrameworks/title": "các framework",
+  "runtimeSettings/chooseFrameworks/description": "Chọn một framework để sử dụng cho từng chức năng",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Trình phân tích cú pháp tích hợp",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Trình phân tích tài liệu",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Chọn trình phân tích cú pháp tài liệu",
 
   "runtimeOptions/uninstall": "Gỡ cài đặt",
   "runtimeOptions/uninstallDialog/title": "Gỡ cài đặt {{runtimeName}}?",
@@ -121,9 +139,9 @@
   "inferenceParams/noParams": "Không có tham số suy luận nào có thể cấu hình cho loại mô hình này",
 
   "quickDocs": {
-    "tabChipTitle": "Tài Liệu Nhanh",
-    "newToolUsePopover": "Các đoạn mã hiện đã có ở đây trong \"Tài Liệu Nhanh\". Nhấn vào đây để bắt đầu sử dụng công cụ!",
-    "newToolUsePopoverTitle": "📚 Tài Liệu Nhanh",
+    "tabChipTitle": "Tài Liệu Dành Cho nhà Phát Triển",
+    "newToolUsePopover": "Các đoạn mã hiện đã có ở đây trong \"Tài Liệu Dành cho nhà phát triển\". Nhấn vào đây để bắt đầu sử dụng công cụ!",
+    "newToolUsePopoverTitle": "📚 Tài Liệu Dành Cho Nhà Phát Triển",
     "learnMore": "ℹ️ 👾 Để tìm hiểu thêm về các điểm cuối máy chủ cục bộ của LM Studio, hãy truy cập [tài liệu](https://lmstudio.ai/docs).",
     "helloWorld": {
       "title": "Xin Chào Thế Giới!"
@@ -152,10 +170,20 @@
   },
 
   "endpoints/openaiCompatRest/title": "Các endpoint được hỗ trợ (tương tự OpenAI)",
+  "endpoints/openaiCompatRest/segmentedLabel": "Tương thích OpenAI",
   "endpoints/openaiCompatRest/getModels": "Liệt kê các mô hình hiện đang được tải",
   "endpoints/openaiCompatRest/postCompletions": "Chế độ Hoàn Tất Văn Bản. Dự đoán token tiếp theo dựa trên một lời nhắc. Lưu ý: OpenAI coi endpoint này là 'đã lỗi thời'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Hoàn Tất Cuộc Trò Chuyện. Gửi lịch sử trò chuyện đến mô hình để dự đoán phản hồi tiếp theo của trợ lý",
   "endpoints/openaiCompatRest/postEmbeddings": "Nhúng Văn Bản. Tạo các nhúng văn bản cho một đầu vào văn bản đã cho. Nhận một chuỗi hoặc mảng chuỗi.",
+  "endpoints/openaiCompatRest/postResponses": "Giao diện nâng cao để tạo phản hồi mô hình. Tạo các tương tác có trạng thái bằng cách chuyển id của phản hồi trước đó làm đầu vào cho phản hồi tiếp theo.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Liệt kê các mô hình có sẵn",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Tải mô hình với các tùy chọn",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Tải xuống một mô hình",
+  "endpoints/lmStudioRestV1/postChat": "Trò chuyện với một mô hình. Hỗ trợ các cuộc hội thoại nhiều lượt có trạng thái và MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Nhận trạng thái tải xuống của mô hình",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Tương thích Anthropic",
+
 
   "model.createVirtualModelFromInstance": "Lưu Cài Đặt Thành Mô Hình Ảo Mới",
   "model.createVirtualModelFromInstance/error": "Không thể lưu cài đặt thành mô hình ảo mới",
