@@ -1,0 +1,11 @@
+{
+
+  "virtual": {
+    "local": {
+
+      "modelKey.normalized": "Your model key will be normalised to: {{normalized}}"
+
+    }
+
+  }
+}

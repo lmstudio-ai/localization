@@ -1,0 +1,7 @@
+{
+  "tokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokeniser.\n\nRequires the model to be loaded.",
+  "messageTokenCount/hint": "The number of tokens in the message. Counted using the currently selected model's tokeniser.\n\nDoes **NOT** include an estimate of tokens in file attachments.",
+
+  "speculativeDecodingVisualization/toggle": "Visualise accepted draft tokens",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "View mode selection is disabled when visualising draft tokens."
+}
