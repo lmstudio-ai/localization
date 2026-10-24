@@ -38,6 +38,7 @@
   "actions/sendMessage/error": "Не удалось отправить сообщение",
   "actions/loadModel/error": "🥲 Не удалось загрузить модель",
   "actions/addFile": "[Экспериментально] Прикрепить файл к этому сообщению\n(.pdf, текст или .docx)",
+  "actions/addFile/label": "Прикрепить файл",
   "actions/changeRole": "Переключиться между ролями Пользователя и Ассистента.\n\nЭто полезно для направления диалога в определенное русло.\n\nМожно использовать для моделирования сценариев 'обучения на нескольких примерах' или 'обучения в контексте'.",
   "actions/addImage": "Добавить изображение",
   "actions/deleteMessage": "Удалить сообщение",
@@ -56,6 +57,8 @@
   "actions/loadLastModel": "Перезагрузить последнюю использованную модель",
   "actions/loadLastModel/tooltip": "Нажмите, чтобы загрузить модель, которую вы последний раз использовали с этим чатом:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "Ошибка при загрузке последней использованной модели.",
+  "actions/clearLastUsedModel": "Очистить последнюю использованную модель",
+  "actions/clearLastUsedModel/error": "Не удалось очистить последнюю использованную модель.",
   "actions/continueCurrentModel": "Использовать текущую модель",
   "actions/continueCurrentModel/tooltip": "Текущая модель: {{currentModel}}",
   "actions/changeToLastUsedModel": "Загрузить {{lastModel}}",
@@ -85,6 +88,8 @@
   "actions/createChatAtRoot/error": "Не удалось создать чат на корневом уровне",
   "actions/createFolderAtRoot": "Создать новую папку",
   "actions/createFolderAtRoot/error": "Не удалось создать папку на корневом уровне",
+  "actions/openInFolder/mac": "Показать в Finder",
+  "actions/openInFolder/pc": "Показать в Проводнике",
   "actions/createChat/error": "Не удалось создать чат",
   "actions/deleteChat/errorTitle": "Не удалось удалить чат",
   "userFile/fileSizeLimit": "Ограничение размера файла: ",
@@ -126,6 +131,7 @@
   "style/debugBlocks/label": "Показывать блоки отладки",
   "style/thinkingUI/label": "Разворачивать блоки рассуждений по умолчанию",
   "style/chatFullWidth/label": "Растягивать чат на всю ширину",
+  "style/chatUtilityMenusShowLabel/label": "Показывать подписи в меню утилит чата",
   "messageBlocks": {
     "expandBlockTooltip": "Развернуть содержимое",
     "collapseBlockTooltip": "Свернуть содержимое",
@@ -135,6 +141,8 @@
       "expandTooltip": "Развернуть блок информации отладки"
     }
   },
+  "chatTabOptions/clearAllMessages": "Очистить все сообщения...",
+  "chatTabOptions/duplicateChat": "Дублировать чат",
   "topBarActions/duplicateChat": "Дублировать",
   "topBarActions/clearChat": "Очистить чат",
   "topBarActions/clearChatConfirmation": "Вы уверены, что хотите удалить все сообщения из этого чата?",
@@ -166,7 +174,10 @@
         "placeholder": "Созданные вами плагины будут отображаться здесь"
       },
       "startRunningDevelopmentPlugin/error": "Не удалось запустить плагин в режиме разработки",
-      "stopRunningDevelopmentPlugin/error": "Не удалось остановить плагин в режиме разработки"
+      "stopRunningDevelopmentPlugin/error": "Не удалось остановить плагин в режиме разработки",
+      "forceReInitPlugin/error": "Не удалось перезапустить плагин",
+      "signOutMcpPlugin/error": "Не удалось выйти из плагина",
+      "cancelMcpAuthentication/error": "Не удалось отменить аутентификацию плагина"
     },
     "pluginConfiguration": {
       "title": "Настройка плагина",
@@ -190,7 +201,11 @@
         "revealInFinder": "Показать в Finder",
         "openInFileExplorer": "Открыть в проводнике"
       }
-    }
+    },
+    "localFork": {
+      "error": "Не удалось создать локальную копию плагина для разработки."
+    },
+    "restartErrorPlugin/error": "Не удалось перезапустить плагин"
   },
   "genInfo": {
     "tokensPerSecond": "{{tokensPerSecond}} токенов/сек",
@@ -206,6 +221,11 @@
     "stopReason.maxPredictedTokensReached": "Достигнут максимальный лимит предсказанных токенов",
     "stopReason.contextLengthReached": "Достигнут лимит длины контекста",
     "speculativeDecodedBy": "Черновая модель: {{decodedBy}}",
-    "speculativeDecodingStats": "Принято {{accepted}}/{{total}} черновых токенов ({{percentage}}%)"
+    "speculativeDecodingStats": "Принято {{accepted}}/{{total}} черновых токенов ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% черновых токенов принято",
+    "speculativeDecodingTooltip": "Принято {{accepted}}/{{total}} черновых токенов"
+  },
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Редактирование системного промпта"
   }
 }
