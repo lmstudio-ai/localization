@@ -27,22 +27,12 @@
   "action.model.delete.confirmation/title": "{{name}} löschen",
   "action.model.delete.confirmation/description": "Sind Sie sicher? Dadurch werden alle mit diesem Modell verbundenen Dateien dauerhaft von Ihrem Computer gelöscht. Diese Aktion ist unwiderruflich.",
   "action.model.delete.confirmation/confirm": "Löschen",
-
-  "action.createVirtual": "Voreinstellung erstellen",
-  "action.createVirtual.details/title": "Eine Voreinstellung erstellen",
-  "action.createVirtual.details/create": "Erstellen",
-  "action.createVirtual.details/cancel": "Abbrechen",
-  "action.createVirtual.details.base/label": "Basismodell",
-  "action.createVirtual.details.name/label": "Name",
-  "action.createVirtual.details.includeMachineDependent/label": "Maschinenabhängige Konfigurationen einschließen",
-  "action.createVirtual.details.includeMachineDependent/hint": "Ob maschinenabhängige Konfigurationen (wie GPU-Einstellungen) in die Voreinstellung aufgenommen werden sollen. Nicht zum Teilen empfohlen.",
-  "action.createVirtual.details.config/label": "Konfigurationsüberschreibungen",
-  "action.createVirtual.details.config.empty": "Keine Konfigurationsüberschreibungen",
-  "action.createVirtual.details/error": "Virtuelles Modell konnte nicht erstellt werden.",
+  "action.model.delete/error": "Modell konnte nicht gelöscht werden",
 
   "loader.model.bundled": "Gebündelt",
   "action.cancel": "Abbrechen",
   "indexingOngoing": "Modelle werden indiziert... Dies kann einige Sekunden dauern",
+  "indexingPageLoaderText": "Modelle werden indiziert...",
   "index/error_one": "Fehler beim Indizieren des folgenden Ordners:",
   "index/error_other": "Fehler beim Indizieren der folgenden Ordner:",
   "badModels/title_one": "Fehler beim Indizieren des folgenden Modells:",
@@ -53,12 +43,19 @@
   "unresolvedVirtualModels/title_other": "Fehler beim Auflösen der folgenden virtuellen Modelle:",
   "unresolvedVirtualModels.missingModel": "Ein abhängiges Modell fehlt: {{missing}}. Abhängigkeitspfad:\n{{chain}}",
   "unresolvedVirtualModels.circular": "Zirkuläre Abhängigkeit erkannt.",
+  "unresolvedVirtualModels.fix": "Anheften",
+  "unresolvedVirtualModels.revealInExplorer": "Im Datei-Explorer anzeigen",
+  "unresolvedVirtualModels.revealInFinder": "Im Finder anzeigen",
+  "unresolvedVirtualModels.reveal/error": "Fehler beim Anzeigen",
 
   "modelsDirectory": "Modellverzeichnis",
   "modelsDirectory.change": "Ändern...",
+  "modelsDirectory.change/error": "Fehler beim Ändern des Modellverzeichnisses",
   "modelsDirectory.reset": "Auf Standardpfad zurücksetzen",
   "modelsDirectory.reveal.mac": "Im Finder anzeigen",
   "modelsDirectory.reveal.nonMac": "Im Datei-Explorer öffnen",
+  "modelsDirectory.reveal.mac/error": "Fehler beim Öffnen im Finder",
+  "modelsDirectory.reveal.nonMac/error": "Fehler beim Öffnen im Datei-Explorer",
   "modelsDirectory.forceReindex": "Aktualisieren",
   "loadState/loaded": "Geladen",
   "loadState/loading": "Wird geladen",
@@ -74,12 +71,21 @@
   "contextMenu/copyModelDefaultIdentifier": "Standardkennung kopieren",
   "contextMenu/showRawMetadata": "Rohmetadaten anzeigen",
   "contextMenu/openOnHuggingFace": "Auf Hugging Face öffnen",
+  "contextMenu": {
+    "showOnWeb": "Im Web anzeigen",
+    "pullLatest": {
+      "label": "Neueste Version herunterladen",
+      "checking": "Suche nach Aktualisierung...",
+      "upToDate": "Aktuell",
+      "error": "Fehler beim Suchen nach Aktualisiererungen"
+    }
+  },
   "tooltip/moreActions": "Weitere Aktionen",
   "tooltip/getInfo": "Info abrufen",
   "tooltip/editModelDefaultConfig": "Standardkonfiguration des Modells bearbeiten",
   "tooltip/editModelDefaultConfig/override": "Standardkonfiguration des Modells bearbeiten (* hat Überschreibungen)",
   "tooltip/visionBadge": "Dieses Modell kann Bildeingaben verarbeiten",
-  "tooltip/toolUseBadge": "Dieses Modell wurde für die Toolverwendung trainiert",
+  "tooltip/toolUseBadge": "Dieses Modell wurde für die Werkzeugverwendung trainiert",
 
   "visionBadge/label": "Vision aktiviert",
   "toolUseBadge/label": "Für Toolverwendung trainiert",
@@ -89,5 +95,38 @@
   "loader.action.cancel": "Abbrechen",
   "loader.info.clickOnModelToLoad": "Klicken Sie auf ein Modell, um es zu laden",
   "loader.info.configureLoadParameters": "Konfigurieren Sie die Modellladeparameter",
-  "loader.info.activeGeneratorWarning": "Sie verwenden ein Plugin mit einem benutzerdefinierten Generator. Ihr aktuell geladenes Modell wird möglicherweise unter diesem Plugin angewendet oder nicht, abhängig von der Implementierung des Generators"
+  "loader.info.activeGeneratorWarning": "Sie verwenden ein Plugin mit einem benutzerdefinierten Generator. Ihr aktuell geladenes Modell wird möglicherweise unter diesem Plugin angewendet oder nicht, abhängig von der Implementierung des Generators",
+  "loader.guardrails.estimatedMemoryUsage": "Geschätzte Speichernutzung:",
+  "loader.guardrails.total": "Gesamt",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "Speicherschätzung für dieses Modell nicht verfügbar",
+  "loader.guardrails.notEnoughResources": "Nicht genügend Ressourcen, um das Modell mit den aktuellen Einstellungen zu laden",
+  "loader.guardrails.notEnoughResources/options": "Optionen",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "Es scheint, dass Ihr System nicht genügend Speicher hat, um dieses Modell zu laden.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "Sie können die Modellladegrenzen in den Einstellungen anpassen oder <altOptionKey /> gedrückt halten, um dennoch zu laden.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "Das Laden eines zu großen Modells kann Ihr System überlasten und zum Absturz führen.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(Nicht Empfohlen) Immer laden erlauben, auch ohne Alt/Option gedrückt zu halten",
+
+  "virtual": {
+    "local": {
+      "create": "Erstellen Sie ein virtuelles Modell",
+      "title": "Erstellen Sie ein lokales virtuelles Modell",
+      "description": "Erstellen sie ein virtuelles Modell, indem sie ein Modell mit einem Satz von Konfigurationen bündeln. Die zugrunde liegenden Modell-Gewichte werden dabei nicht dupliziert.",
+      "modelKey.label": "Modellschlüssel",
+      "modelKey.placeholder": "Geben Sie einen eindeutigen Modellschlüssel ein",
+      "modelKey.normalized": "Ihr Modellschlüssel wird normalisiert zu: {{normalized}}",
+      "baseModel.label": "Basismodell",
+      "baseModel.placeholder": "Wählen Sie ein Basismodell aus",
+      "baseModel.empty": "Laden Sie ein Modell herunter, um es als Basismodell zu verwenden",
+      "next": "Weiter",
+      "confirm": "Erstellen",
+      "error": "Fehler beim Erstellen des virtuellen Modells"
+    },
+    "altsSelect": {
+      "title": "Modell-Quelle wechseln",
+      "resetButton": "Auf Standard zurücksetzen",
+      "description": "Es gibt mehrere verfügbare Quelldateien für dieses Modell.",
+      "trigger": "Varianten"
+    }
+  }
 }

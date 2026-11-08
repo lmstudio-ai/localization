@@ -24,7 +24,7 @@
 
     "toolUse": {
       "step_0": {
-        "title": "Beta: Toolverwendung 🛠️ (Funktionsaufruf)",
+        "title": "Beta: Werkzeugverwendung 🛠️ (Funktionsaufruf)",
         "text_0": "Einige Modelle (z. B. Llama 3.1/3.2, Mistral, Qwen und mehr) wurden trainiert, um Werkzeuge zu verwenden.",
         "text_1": "Was das in der Praxis bedeutet: Sie stellen dem LLM ein Array von 'Werkzeugen' (Funktionssignaturen) in einem sehr bestimmten Format zur Verfügung, und das LLM kann entscheiden, ob es diese basierend auf der Eingabe des Benutzers 'aufrufen' möchte.",
         "text_2": "Sie können sich Anwendungsfälle wie das Abfragen einer API, das Ausführen von Code oder wirklich alles vorstellen, was als Funktionsaufruf ausgedrückt werden kann."

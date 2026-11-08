@@ -27,6 +27,10 @@
   "serverOptions/contentLogging/title": "Prompts und Antworten protokollieren",
   "serverOptions/contentLogging/subtitle": "Einstellungen für die lokale Anfrage-/Antwortprotokollierung",
   "serverOptions/contentLogging/hint": "Ob Prompts und/oder die Antwort in der lokalen Serverprotokolldatei protokolliert werden sollen.",
+  "serverOptions/redactContent/title": "Inhalte redigieren",
+  "serverOptions/redactContent/hint": "Wenn aktiviert, werden sensible Daten wie der Inhalt von Anfragen und Antworten nicht protokolliert.",
+  "serverOptions/logIncomingTokens/title": "Eingehende Token protokollieren",
+  "serverOptions/logIncomingTokens/hint": "Aktiviert/Deaktiviert die Protokollierung der Token während der Textgenerierung.",
   "serverOptions/fileLoggingMode/title": "Dateiprotokollierungsmodus",
   "serverOptions/fileLoggingMode/off/title": "AUS",
   "serverOptions/fileLoggingMode/off/hint": "Keine Protokolldateien erstellen",
@@ -43,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "Minuten",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "Nur das letzte JIT-geladene Modell behalten",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "Stellen Sie sicher, dass zu jedem Zeitpunkt höchstens 1 Modell über JIT geladen ist (entlädt das vorherige Modell)",
+  "serverOptions/allowMcp/title": "Remote MCP erlauben",
+  "serverOptions/allowMcp/hint": "Erlaubt das Verwenden von MCPs, die nicht in Ihrer mcp.json enthalten sind. Diese MCP-Verbindungen sind flüchtig und existieren nur so lange wie die Anfrage. Momentan werden nur Remote-MCPs unterstützt.",
+  "serverOptions/allowMcp/mode/off": "Aus",
+  "serverOptions/allowMcp/mode/off/hint": "Server-Anfragen dürfen keine MCPs verwenden",
+  "serverOptions/allowMcp/mode/remote": "Remote",
+  "serverOptions/allowMcp/mode/remote/hint": "Erlaube die Verbindungen zu Remote-MCP Servern",
+
+  "serverOptions/start/error": "Server konnte nicht gestartet werden",
+  "serverOptions/stop/error": "Server konnte nicht gestoppt werden",
 
   "serverLogs/scrollToBottom": "Zum Ende springen",
   "serverLogs/clearLogs": "Protokolle löschen ({{shortcut}})",
@@ -54,6 +67,12 @@
   "runtimeSettings/chooseRuntime/showAllVersions/label": "Alle Laufzeiten anzeigen",
   "runtimeSettings/chooseRuntime/showAllVersions/hint": "Standardmäßig zeigt LM Studio nur die neueste Version jeder kompatiblen Laufzeit an. Aktivieren Sie diese Option, um alle verfügbaren Laufzeiten anzuzeigen.",
   "runtimeSettings/chooseRuntime/select/placeholder": "Wählen Sie eine Laufzeit aus",
+
+  "runtimeSettings/chooseFrameworks/title": "Frameworks",
+  "runtimeSettings/chooseFrameworks/description": "Wählen Sie ein Framework für die jeweilige Funktionalität aus",
+  "runtimeSettings/chooseFramework/documentParser/builtIn/label": "Eingebauter Dokumentparser",
+  "runtimeSettings/chooseFramework/documentParser/select/label": "Dokumentparser",
+  "runtimeSettings/chooseFramework/documentParser/select/placeholder": "Wählen Sie einen Dokumentparser aus",
 
   "runtimeOptions/uninstall": "Deinstallieren",
   "runtimeOptions/uninstallDialog/title": "{{runtimeName}} deinstallieren?",
@@ -151,18 +170,27 @@
     "newBadge": "Neu"
   },
 
-  "endpoints/openaiCompatRest/title": "Unterstützte Endpunkte (OpenAI-ähnlich)",
-  "endpoints/openaiCompatRest/getModels": "Die aktuell geladenen Modelle auflisten",
-  "endpoints/openaiCompatRest/postCompletions": "Textvervollständigungsmodus. Sagen Sie das/die nächste(n) Token(s) für einen gegebenen Prompt voraus. Hinweis: OpenAI betrachtet diesen Endpunkt als 'veraltet'.",
+  "endpoints/openaiCompatRest/title": "Unterstützte Endpunkte {{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI-ähnlich",
+  "endpoints/openaiCompatRest/getModels": "Listet die aktuell geladenen Modelle auf",
+  "endpoints/openaiCompatRest/postCompletions": "Textvervollständigungsmodus. Vorhersage der nächsten Token für einen gegebenen Prompt. Hinweis: OpenAI betrachtet diesen Endpunkt als 'veraltet'.",
   "endpoints/openaiCompatRest/postChatCompletions": "Chat-Vervollständigungen. Senden Sie einen Chatverlauf an das Modell, um die nächste Assistentenantwort vorherzusagen",
   "endpoints/openaiCompatRest/postEmbeddings": "Texteinbettung. Generieren Sie Texteinbettungen für eine gegebene Texteingabe. Akzeptiert eine Zeichenfolge oder ein Array von Zeichenfolgen.",
+  "endpoints/openaiCompatRest/postResponses": "Erweiterte Schnittstelle zur Generierung von Modellantworten. Erstellen Sie zustandsabhängig Interaktionen, indem Sie die ID einer vorherigen Antwort als Eingabe an die nächste übergeben.",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "Auflistung der verfügbaren Modelle",
+  "endpoints/lmStudioRestV1/postModelsLoad": "Laden Sie ein Modell mit Optionen",
+  "endpoints/lmStudioRestV1/postModelsDownload": "Ein Modell herunterladen",
+  "endpoints/lmStudioRestV1/postChat": "Chat mit einem Modell. Unterstützt zustandsabhängige Multi-Turn-Konversationen und MCP",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "Status eines Modell-Downloads abrufen",
+  "endpoints/anthropicCompatRest/segmentedLabel": "Anthropic-kompatibel",
 
   "model.createVirtualModelFromInstance": "Einstellungen als neues virtuelles Modell speichern",
   "model.createVirtualModelFromInstance/error": "Einstellungen konnten nicht als neues virtuelles Modell gespeichert werden",
 
   "model": {
-    "toolUseSectionTitle": "Toolverwendung",
-    "toolUseDescription": "Dieses Modell wurde erkannt, um für die Toolverwendung trainiert worden zu sein\n\nÖffnen Sie die <custom-link>Kurzdokumentation</custom-link> für weitere Informationen"
+    "toolUseSectionTitle": "Werkzeugverwendung",
+    "toolUseDescription": "Dieses Modell wurde erkannt, speziell für die Werkzeugverwendung trainiert worden zu sein\n\nÖffnen Sie die <custom-link>Kurzdokumentation</custom-link> für weitere Informationen"
   },
 
   "apiConfigOptions/title": "API-Konfiguration"

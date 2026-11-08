@@ -41,6 +41,7 @@
   "actions/sendMessage/error": "Senden der Nachricht fehlgeschlagen",
   "actions/loadModel/error": "🥲 Laden des Modells fehlgeschlagen",
   "actions/addFile": "[Experimentell] Datei an diese Nachricht anhängen\n(.pdf, Klartext oder .docx)",
+  "actions/addFile/label": "Datei anhängen",
   "actions/changeRole": "Zwischen Benutzer- und Assistentenrollen wechseln.\n\nNützlich, um das Gespräch in eine bestimmte Richtung zu lenken.\n\nKann für 'few-shot learning' oder 'in-context learning'-Szenarien verwendet werden.",
   "actions/addImage": "Bild hinzufügen",
   "actions/deleteMessage": "Nachricht löschen",
@@ -59,6 +60,8 @@
   "actions/loadLastModel": "Zuletzt verwendetes Modell erneut laden",
   "actions/loadLastModel/tooltip": "Klicken, um das Modell zu laden, das zuletzt in diesem Chat verwendet wurde:\n\n{{lastModel}}",
   "actions/loadLastModel/error": "Fehler beim Laden des zuletzt verwendeten Modells",
+  "actions/clearLastUsedModel": "Letztes verwendete Modell entfernen",
+  "actions/clearLastUsedModel/error": "Fehler beim Entfernen des zuletzt verwendeten Modells",
   "actions/continueCurrentModel": "Aktuelles Modell verwenden",
   "actions/continueCurrentModel/tooltip": "Aktuelles Modell: {{currentModel}}",
   "actions/changeToLastUsedModel": "Lade {{lastModel}}",
@@ -88,9 +91,12 @@
   "actions/createChatAtRoot/error": "Chat konnte nicht im Stammverzeichnis erstellt werden",
   "actions/createFolderAtRoot": "Neuer Ordner...",
   "actions/createFolderAtRoot/error": "Ordner konnte nicht im Stammverzeichnis erstellt werden",
+  "actions/openInFolder/mac": "Im Finder anzeigen",
+  "actions/openInFolder/pc": "Im Datei-Explorer anzeigen",
+
   "actions/createChat/error": "Chat konnte nicht erstellt werden",
   "actions/deleteChat/errorTitle": "Chat konnte nicht gelöscht werden",
-
+  
   "userFile/fileSizeLimit": "Dateigrößenlimit beträgt ",
   "userFile/noImageSupport": "Modell unterstützt keine Bild-Eingabe",
   "userFile/errorPrefix": "Fehler - ",
@@ -139,6 +145,8 @@
   "style/thinkingUI/label": "Denk-Blöcke standardmäßig erweitern",
   "style/chatFullWidth/label": "Chat-Container auf Fensterbreite erweitern",
 
+  "style/chatUtilityMenusShowLabel/label": "Chat-Utility-Labels anzeigen",
+
   "messageBlocks": {
     "expandBlockTooltip": "Inhalt erweitern",
     "collapseBlockTooltip": "Inhalt reduzieren",
@@ -148,6 +156,9 @@
       "expandTooltip": "Debug-Info-Block erweitern"
     }
   },
+
+  "chatTabOptions/clearAllMessages": "Alle Nachrichten löschen",
+  "chatTabOptions/duplicateChat": "Chat duplizieren",
 
   "topBarActions/duplicateChat": "Duplizieren",
   "topBarActions/clearChat": "Alles löschen",
@@ -182,7 +193,8 @@
         "placeholder": "Von Ihnen erstellte Plugins werden hier angezeigt"
       },
       "startRunningDevelopmentPlugin/error": "Fehler beim starten des Plugins im Entwicklungsmodus",
-      "stopRunningDevelopmentPlugin/error": "Fehler beim stoppen des Plugins im Entwicklungsmodus"
+      "stopRunningDevelopmentPlugin/error": "Fehler beim stoppen des Plugins im Entwicklungsmodus",
+      "forceReInitPlugin/error": "Fehler bei der reinitialisierung des Plugins"
     },
     "pluginConfiguration": {
       "title": "Plugin-Konfiguration",
@@ -206,7 +218,11 @@
         "revealInFinder": "Im Finder anzeigen",
         "openInFileExplorer": "Im Datei-Explorer öffnen"
       }
-    }
+    },
+    "localFork": {
+      "error": "Fehler beim Erstellen einer lokalen Entwicklungskopie des Plugins."
+    },
+    "restartErrorPlugin/error": "Fehler beim Neustart des Plugins"
   },
 
   "genInfo": {
@@ -223,6 +239,12 @@
     "stopReason.maxPredictedTokensReached": "Maximale vorhergesagte Tokens erreicht",
     "stopReason.contextLengthReached": "Kontextlängenlimit erreicht",
     "speculativeDecodedBy": "Entwurfsmodell: {{decodedBy}}",
-    "speculativeDecodingStats": "{{accepted}}/{{total}} Entwurfstoken akzeptiert ({{percentage}}%)"
+    "speculativeDecodingStats": "{{accepted}}/{{total}} Entwurfstoken akzeptiert ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% Entwurfstoken akzeptiert",
+    "speculativeDecodingTooltip": "Akzeptierte {{accepted}}/{{total}} Entwurfstoken"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "System Prompt bearbeiten"
   }
 }
