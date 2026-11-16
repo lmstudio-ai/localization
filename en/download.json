@@ -9,6 +9,7 @@
   "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Deleting unused extensions...",
   "postDownloadActionExecutor.pluginInstall/status": "Installing plugin...",
   "postDownloadActionExecutor.pluginUninstall/status": "Uninstalling plugin...",
+  "postDownloadActionExecutor.wslVendorLibInstallation/status": "Installing in WSL...",
 
   "finalizing": "Finalizing download... (this may take a few moments)",
   "noOptions": "No compatible options available for download",
