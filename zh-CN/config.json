@@ -176,6 +176,8 @@
   "llm.load.llama.vCacheQuantizationType/turnedOnWarning": "⚠️ 如未启用Flash Attention，请务必关闭该选项",
   "llm.load.llama.vCacheQuantizationType/disabledMessage": "仅在启用Flash Attention时可用",
   "llm.load.llama.vCacheQuantizationType/invalidF32MetalState": "⚠️ 使用 F32 时请禁用Flash Attention",
+  "llm.load.mlx.diskCache/title": "提示词磁盘缓存",
+  "llm.load.mlx.diskCache/subTitle": "将提示词状态缓存到磁盘，以便在不同请求之间复用",
   "llm.load.mlx.kvCacheBits/title": "KV 缓存量化位数",
   "llm.load.mlx.kvCacheBits/subTitle": "KV 缓存量化使用的位数",
   "llm.load.mlx.kvCacheBits/info": "设置 KV 缓存需要量化成的位数",
