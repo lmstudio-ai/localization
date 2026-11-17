@@ -60,6 +60,8 @@
   "actions/loadLastModel": "重新加载上次使用的模型",
   "actions/loadLastModel/tooltip": "点击以加载上次与该聊天一起使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "加载上次使用的模型失败。",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "无法清除上次使用的模型",
   "actions/continueCurrentModel": "使用当前模型",
   "actions/continueCurrentModel/tooltip": "当前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "加载 {{lastModel}}",
@@ -76,8 +78,8 @@
   "editMessageConfirm/keepEditing": "继续编辑",
   "editMessageConfirm/save": "保存",
   "editMessageConfirm/discard": "放弃更改",
-  "tokenCount/totalNotAvailable": "token：{{current}}",
-  "tokenCount/totalAvailable": "token：{{current}}/{{total}}",
+  "tokenCount/totalNotAvailable": "Tokens: {{current}}",
+  "tokenCount/totalAvailable": "Tokens: {{current}}/{{total}}",
   "tokenCount/totalAvailablePercentage": "上下文已满 {{percentage}}%",
   "tokenCount/contextOverflow": "未经处理的上下文大于模型的最大token限制。根据您的上下文溢出策略，上下文可能会被截断，或者消息可能不会被发送。",
   "modelLoader/manualLoadParams/label": "手动选择模型加载参数",
@@ -89,7 +91,7 @@
   "actions/createChatAtRoot/error": "在根目录创建聊天失败",
   "actions/createFolderAtRoot": "新建文件夹...",
   "actions/createFolderAtRoot/error": "在根目录创建文件夹失败",
-  "actions/openInFolder/mac": "在 Finder 中显示",
+  "actions/openInFolder/mac": "在访达中显示",
   "actions/openInFolder/pc": "在文件资源管理器中显示",
 
   "actions/createChat/error": "创建聊天失败",
@@ -192,7 +194,9 @@
       },
       "startRunningDevelopmentPlugin/error": "开发模式插件启动失败",
       "stopRunningDevelopmentPlugin/error": "开发模式插件停止失败",
-      "forceReInitPlugin/error": "重启插件失败"
+      "forceReInitPlugin/error": "重启插件失败",
+      "signOutMcpPlugin/error": "插件退出登录失败",
+      "cancelMcpAuthentication/error": "无法取消插件身份验证"
     },
     "pluginConfiguration": {
       "title": "插件配置",
@@ -237,7 +241,9 @@
     "stopReason.maxPredictedTokensReached": "达到最大预测词元",
     "stopReason.contextLengthReached": "达到上下文长度上限",
     "speculativeDecodedBy": "草稿模型：{{decodedBy}}",
-    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）"
+    "speculativeDecodingStats": "已采纳 {{accepted}}/{{total}} 个草稿token（{{percentage}}%）",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% 已采纳草稿token",
+    "speculativeDecodingTooltip": "已采纳 {{accepted}}/{{total}} 个草稿token"
   },
 
   "tabs": {
