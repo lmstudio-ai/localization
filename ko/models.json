@@ -14,34 +14,25 @@
   "modelsTable.publisher/label": "발행자",
   "modelsTable.displayName/label": "이름",
   "modelsTable.modelKey/label": "모델 키",
-  "modelsTable.llms/label": "LLM",
-  "modelsTable.embeddingModels/label": "임베딩 모델",
-  "modelsTable.quant/label": "양자화",
   "modelsTable.size/label": "크기",
   "modelsTable.dateModified/label": "수정 날짜",
   "modelsTable.actions/label": "실행",
+
+  "modelsTable.quant/label": "양자화",
+  "modelsTable.llms/label": "LLM",
+  "modelsTable.embeddingModels/label": "임베딩 모델",
 
   "action.model.delete": "삭제",
   "action.model.delete.full": "모델 삭제",
   "action.model.delete.confirmation/title": "{{name}} 삭제",
   "action.model.delete.confirmation/description": "정말로 삭제하시겠습니까? 이 작업은 이 모델과 관련된 모든 파일을 기기에서 영구적으로 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
   "action.model.delete.confirmation/confirm": "삭제",
-
-  "action.createVirtual": "프리셋 생성",
-  "action.createVirtual.details/title": "프리셋 생성",
-  "action.createVirtual.details/create": "생성",
-  "action.createVirtual.details/cancel": "취소",
-  "action.createVirtual.details.base/label": "기본 모델",
-  "action.createVirtual.details.name/label": "이름",
-  "action.createVirtual.details.includeMachineDependent/label": "기계 종속 설정 포함",
-  "action.createVirtual.details.includeMachineDependent/hint": "프리셋에 기계 종속 설정(GPU 설정 등)을 포함할지 여부입니다. 공유에는 권장되지 않습니다.",
-  "action.createVirtual.details.config/label": "구성 재정의",
-  "action.createVirtual.details.config.empty": "구성 재정의 없음",
-  "action.createVirtual.details/error": "가상 모델 생성 실패.",
+  "action.model.delete/error": "모델 삭제 실패",
 
   "loader.model.bundled": "번들됨",
   "action.cancel": "취소",
   "indexingOngoing": "모델 색인 중... 몇 초 정도 걸릴 수 있습니다",
+  "indexingPageLoaderText": "모델 인덱싱 중...",
   "index/error_one": "다음 폴더를 색인하는 데 실패했습니다:",
   "index/error_other": "다음 폴더들을 색인하는 데 실패했습니다:",
   "badModels/title_one": "다음 모델을 색인하는 데 실패했습니다:",
@@ -52,12 +43,19 @@
   "unresolvedVirtualModels/title_other": "다음 가상 모델들을 해결하는 데 실패했습니다:",
   "unresolvedVirtualModels.missingModel": "종속 모델이 누락되었습니다: {{missing}}. 종속 경로:\n{{chain}}",
   "unresolvedVirtualModels.circular": "순환 종속성이 감지되었습니다.",
+  "unresolvedVirtualModels.fix": "수정",
+  "unresolvedVirtualModels.revealInExplorer": "탐색기에서 보기",
+  "unresolvedVirtualModels.revealInFinder": "Finder에서 보기",
+  "unresolvedVirtualModels.reveal/error": "열기 실패",
 
   "modelsDirectory": "모델 디렉토리",
   "modelsDirectory.change": "변경...",
+  "modelsDirectory.change/error": "모델 디렉터리 변경 실패",
   "modelsDirectory.reset": "기본 경로로 재설정",
   "modelsDirectory.reveal.mac": "Finder에서 보기",
   "modelsDirectory.reveal.nonMac": "파일 탐색기에서 열기",
+  "modelsDirectory.reveal.mac/error": "Finder에서 열기 실패",
+  "modelsDirectory.reveal.nonMac/error": "파일 탐색기에서 열기 실패",
   "modelsDirectory.forceReindex": "새로 고침",
   "loadState/loaded": "로드됨",
   "loadState/loading": "로드 중",
@@ -73,6 +71,15 @@
   "contextMenu/copyModelDefaultIdentifier": "기본 식별자 복사",
   "contextMenu/showRawMetadata": "원시 메타데이터 보기",
   "contextMenu/openOnHuggingFace": "Hugging Face에서 열기",
+  "contextMenu": {
+    "showOnWeb": "웹에서 보기",
+    "pullLatest": {
+      "label": "최신 내용 가져오기",
+      "checking": "업데이트 확인 중...",
+      "upToDate": "최신 상태",
+      "error": "업데이트 확인 실패"
+    }
+  },
   "tooltip/moreActions": "추가 작업",
   "tooltip/getInfo": "정보 얻기",
   "tooltip/editModelDefaultConfig": "모델 기본 구성 편집",
@@ -88,5 +95,38 @@
   "loader.action.cancel": "취소",
   "loader.info.clickOnModelToLoad": "로드할 모델을 클릭하세요",
   "loader.info.configureLoadParameters": "모델 로드 매개변수 구성",
-  "loader.info.activeGeneratorWarning": "사용자 정의 생성기가 있는 플러그인을 사용 중입니다. 현재 로드된 모델은 생성기의 구현에 따라 이 플러그인에서 적용될 수도 있고 적용되지 않을 수도 있습니다"
+  "loader.info.activeGeneratorWarning": "사용자 정의 생성기가 있는 플러그인을 사용 중입니다. 현재 로드된 모델은 생성기의 구현에 따라 이 플러그인에서 적용될 수도 있고 적용되지 않을 수도 있습니다",
+  "loader.guardrails.estimatedMemoryUsage": "예상 메모리 사용량",
+  "loader.guardrails.total": "전체",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "이 모델의 메모리 예상을 사용할 수 없습니다",
+  "loader.guardrails.notEnoughResources": "현재 설정으로 모델을 로드하기에 리소스가 부족합니다",
+  "loader.guardrails.notEnoughResources/options": "옵션",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "모델을 로드하기에 시스템 메모리가 부족한 것 같습니다.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "설정에서 모델 로딩 가드레일을 조정하거나 Alt/Option을 누른 채 즉시 로드할 수 있습니다.",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "너무 큰 모델을 로드하면 시스템 과부하로 멈출 수 있습니다.",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "(권장 안 함) Alt/Option을 누르지 않고 '강제 로드' 항상 허용",
+
+  "virtual": {
+    "local": {
+      "create": "가상 모델 생성",
+      "title": "로컬 가상 모델 생성",
+      "description": "모델과 여러 설정을 묶어 가상 모델을 생성합니다. 원본 가중치는 복제되지 않습니다.",
+      "modelKey.label": "모델 키",
+      "modelKey.placeholder": "고유한 모델 키 입력",
+      "modelKey.normalized": "모델 키가 다음과 같이 정규화됩니다: {{normalized}}",
+      "baseModel.label": "기본 모델",
+      "baseModel.placeholder": "기본 모델 선택",
+      "baseModel.empty": "기본 모델로 사용할 모델을 다운로드하세요",
+      "next": "다음",
+      "confirm": "생성",
+      "error": "가상 모델 생성 실패"
+    },
+    "altsSelect": {
+      "title": "모델 소스 전환",
+      "resetButton": "기본값으로 재설정",
+      "description": "이 모델에 대해 사용 가능한 소스 파일이 여러 개 있습니다.",
+      "trigger": "변형"
+    }
+  }
 }

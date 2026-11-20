@@ -1,8 +1,18 @@
 {
   "postDownloadActionExecutor.zipExtraction/status": "추출 중...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "파일 추출 중...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "파일 추출 중...",
+  "postDownloadActionExecutor.modifyModelData/status": "모델 데이터 업데이트 중...",
+  "postDownloadActionExecutor.notification/status": "사용자에게 알리는 중...",
+  "postDownloadActionExecutor.writeString/status": "메타데이터 쓰는 중...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "선택한 버전 업데이트 중...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "사용하지 않는 확장 삭제 중...",
+  "postDownloadActionExecutor.pluginInstall/status": "플러그인 설치 중...",
+  "postDownloadActionExecutor.pluginUninstall/status": "플러그인 제거 중...",
+
   "finalizing": "다운로드 마무리 중... (잠시만 기다려 주세요)",
   "noOptions": "다운로드 가능한 호환 옵션이 없습니다",
-  
+
   "deeplink/confirmation/title": "Hugging Face에서 모델 다운로드 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "권장 옵션 선택",
@@ -19,5 +29,15 @@
 
   "downloadsPanel/title": "다운로드",
   "downloadsPanel/sectionTitle/ongoing": "진행 중",
-  "downloadsPanel/sectionTitle/completed": "완료됨"
+  "downloadsPanel/sectionTitle/completed": "완료됨",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Finder에서 보기",
+      "mac/error": "Finder에서 보기 실패",
+      "nonMac": "파일 탐색기에서 보기",
+      "nonMac/error": "파일 탐색기에서 보기 실패"
+    },
+    "completed": "다운로드 완료",
+    "loadModel": "모델 로드"
+  }
 }
