@@ -32,6 +32,7 @@
   "loader.model.bundled": "已打包",
   "action.cancel": "取消",
   "indexingOngoing": "正在索引模型... 這可能需要幾秒鐘。",
+  "indexingPageLoaderText": "正在索引模型...",
   "index/error_one": "無法索引以下資料夾：",
   "index/error_other": "無法索引以下資料夾：",
   "badModels/title_one": "無法索引下列模型：",
@@ -95,6 +96,16 @@
   "loader.info.clickOnModelToLoad": "點擊模型以載入它",
   "loader.info.configureLoadParameters": "配置模型的載入參數",
   "loader.info.activeGeneratorWarning": "您正在使用具有自訂產生器的插件。 您目前載入的模型可能或不適用於此插件，取決於產生器的實作。",
+  "loader.guardrails.estimatedMemoryUsage": "預估記憶體用量",
+  "loader.guardrails.total": "總計",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "此模型無法估算記憶體用量",
+  "loader.guardrails.notEnoughResources": "目前設定下資源不足，無法載入模型",
+  "loader.guardrails.notEnoughResources/options": "選項",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "您的系統似乎沒有足夠的記憶體來載入此模型。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在設定中調整模型載入防護機制，或按住 <altOptionKey /> 強制載入。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "載入過大的模型可能使系統過載並造成當機。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（不建議）不按住 Alt/Option 也可始終允許「強制載入」",
 
   "virtual": {
     "local": {
@@ -110,6 +121,12 @@
       "next": "下一步",
       "confirm": "建立",
       "error": "建立虛擬模型失敗"
+    },
+    "altsSelect": {
+      "title": "切換模型來源",
+      "resetButton": "重設為預設",
+      "description": "此模型有多個可用的來源檔案。",
+      "trigger": "變體"
     }
   }
 }

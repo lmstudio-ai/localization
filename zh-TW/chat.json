@@ -60,6 +60,8 @@
   "actions/loadLastModel": "重新載入上次使用的模型",
   "actions/loadLastModel/tooltip": "點擊以載入與此聊天上次使用的模型：\n\n{{lastModel}}",
   "actions/loadLastModel/error": "重新載入上次使用的模型失敗。",
+  "actions/clearLastUsedModel": "清除上次使用的模型",
+  "actions/clearLastUsedModel/error": "清除上次使用的模型失敗。",
   "actions/continueCurrentModel": "使用目前模型",
   "actions/continueCurrentModel/tooltip": "目前模型：{{currentModel}}",
   "actions/changeToLastUsedModel": "載入 {{lastModel}}",
@@ -155,6 +157,9 @@
     }
   },
 
+  "chatTabOptions/clearAllMessages": "清除所有訊息...",
+  "chatTabOptions/duplicateChat": "複製對話",
+  
   "topBarActions/duplicateChat": "複製",
   "topBarActions/clearChat": "清除全部",
   "topBarActions/clearChatConfirmation": "您確定要清除此對話中的所有訊息嗎？",
@@ -189,7 +194,9 @@
       },
       "startRunningDevelopmentPlugin/error": "啟動開發模式插件失敗",
       "stopRunningDevelopmentPlugin/error": "停止開發模式插件執行失敗",
-      "forceReInitPlugin/error": "重新啟動插件失敗"
+      "forceReInitPlugin/error": "重新啟動插件失敗",
+      "signOutMcpPlugin/error": "登出插件失敗",
+      "cancelMcpAuthentication/error": "取消插件驗證失敗"
     },
     "pluginConfiguration": {
       "title": "插件設定",
@@ -234,7 +241,9 @@
     "stopReason.maxPredictedTokensReached": "達到最大預測 Token 數量",
     "stopReason.contextLengthReached": "達到上下文長度限制",
     "speculativeDecodedBy": "草稿模型: {{decodedBy}}",
-    "speculativeDecodingStats": "接受了 {{accepted}}/{{total}} 個草稿 Token ({{percentage}}%)"
+    "speculativeDecodingStats": "接受了 {{accepted}}/{{total}} 個草稿 Token ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "已接受 {{percentage}}% 草稿 Token",
+    "speculativeDecodingTooltip": "已接受 {{accepted}}/{{total}} 個草稿 Token"
   },
 
   "tabs": {
