@@ -1,0 +1,24 @@
+{
+  "action.skipOnboarding": "跳过引导环节",
+  "action.next": "向后",
+  "action.back": "返回",
+  "action.finish": "完成",
+
+  "dismissable_rag_modal": {
+    "description": "现在你能够借助检索增强生成（RAG）技术，与你的文档进行对话了。下面我来简单介绍一下它是如何工作的:",
+    "instructions": {
+      "attach_files": {
+        "title": "附加文件",
+        "description": "您可以一次性上传最多 5 个文件，这些文件的总容量不能超过 30MB。支持的文件格式有 PDF、DOCX、TXT 和 CSV。"
+      },
+      "be_specific": {
+        "title": "具体说明",
+        "description": "提问时，尽量详细地描述问题。这样做可以帮助系统从您的文档中找到最匹配的信息。"
+      },
+      "get_responses": {
+        "title": "获取反馈并进行实验",
+        "description": "大语言模型会分析您的查询并从您的文档中提取相关段落，然后尝试生成一个回答。您可以尝试使用不同的查询方式，看看哪种效果最好。"
+      }
+    }
+  }
+}
