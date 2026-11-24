@@ -1,6 +1,5 @@
 {
   "copyLmStudioLinkButton/toolTip": "Copia l'Enllaç de Descàrrega del Model",
-
   "filter.noMatches": "Cap coincidència",
   "longRunningTask": {
     "unbundlingDependencies": {
@@ -34,7 +33,6 @@
     "fetchError": "No s'han pogut obtenir els artifacts",
     "organizationVisible": "Organització Visible"
   },
-
   "incompatible": "Incompatible",
   "compatible": "Compatible",
   "public": "Públic",
@@ -42,7 +40,6 @@
   "yes": "Sí",
   "no": "No",
   "go": "Ves",
-
   "proceedWithEllipsis": "Procedeix...",
   "proceed": "Procedeix",
   "inProgress": "En progrés...",
@@ -50,7 +47,7 @@
   "pending": "Pendent",
   "doneWithExclamation": "Fet!",
   "done": "Fet",
-
+  "beta": "Beta",
   "complete": {
     "completeWithEllipsis": "Complet...",
     "complete": "Complet",
@@ -59,7 +56,6 @@
     "completedWithExclamation": "Complet!",
     "completed": "Complet"
   },
-
   "cancel": {
     "cancelWithEllipsis": "Cancel·la...",
     "cancel": "Cancel·la",
@@ -67,17 +63,14 @@
     "canceling": "Cancel·lant",
     "canceled": "Cancel·lat"
   },
-
   "next": {
     "nextWithEllipsis": "Següent...",
     "next": "Següent"
   },
-
   "back": {
     "backWithEllipsis": "Enrere...",
     "back": "Enrere"
   },
-
   "close": {
     "closeWithEllipsis": "Tanca...",
     "close": "Tanca",
@@ -86,7 +79,6 @@
     "closedWithExclamation": "Tancat!",
     "closed": "Tancat"
   },
-
   "delete": {
     "deleteWithEllipsis": "Elimina...",
     "delete": "Elimina",
@@ -95,14 +87,12 @@
     "deletedWithExclamation": "Eliminat!",
     "deleted": "Eliminat"
   },
-
   "retry": {
     "retryWithEllipsis": "Torna a intentar...",
     "retry": "Torna a intentar",
     "retryingWithEllipsis": "Intentant...",
     "retrying": "Intentant"
   },
-
   "refresh": {
     "refreshWithEllipsis": "Refresca...",
     "refresh": "Refresca",
@@ -111,7 +101,6 @@
     "refreshedWithExclamation": "Refrescat!",
     "refreshed": "Refrescat"
   },
-
   "confirm": {
     "confirm": "Confirma",
     "confirmingWithEllipsis": "Confirmant...",
@@ -119,7 +108,6 @@
     "confirmedWithExclamation": "Confirmat!",
     "confirmed": "Confirmat"
   },
-
   "copy": {
     "copyWithEllipsis": "Copia...",
     "copy": "Copia",
@@ -128,7 +116,6 @@
     "copiedWithExclamation": "Copiat!",
     "copied": "Copiat"
   },
-
   "edit": {
     "editWithEllipsis": "Edita...",
     "edit": "Edita",
@@ -137,7 +124,6 @@
     "editedWithExclamation": "Editat!",
     "edited": "Editat"
   },
-
   "load": {
     "loadWithEllipsis": "Carrega...",
     "load": "Carrega",
@@ -146,7 +132,6 @@
     "loadedWithExclamation": "Carregat!",
     "loaded": "Carregat"
   },
-
   "save": {
     "saveWithEllipsis": "Desa...",
     "save": "Desa",
@@ -155,24 +140,20 @@
     "savedWithExclamation": "Desat!",
     "saved": "Desat"
   },
-
   "saveAs": {
     "saveAsWithEllipsis": "Desa Com...",
     "saveAs": "Desa Com"
   },
-
   "saveAsNew": {
     "saveAsNewWithEllipsis": "Desa Com a Nou...",
     "saveAsNew": "Desa Com a Nou"
   },
-
   "search": {
     "searchWithEllipsis": "Cerca...",
     "search": "Cerca",
     "searchingWithEllipsis": "Cercant...",
     "searching": "Cercant"
   },
-
   "update": {
     "updateWithEllipsis": "Actualitza...",
     "update": "Actualitza",
@@ -181,7 +162,6 @@
     "updatedWithExclamation": "Actualitzat!",
     "updated": "Actualitzat"
   },
-
   "create": {
     "createWithEllipsis": "Crea...",
     "create": "Crea",
@@ -190,21 +170,18 @@
     "createdWithExclamation": "Creat!",
     "created": "Creat"
   },
-
   "reset": {
     "resetWithEllipsis": "Restablir...",
     "reset": "Restablir",
     "resettingWithEllipsis": "Restablint...",
     "resetting": "Restablint"
   },
-
   "pause": {
     "pause": "Pausa",
     "pausingWithEllipsis": "Pausant...",
     "pausing": "Pausant",
     "paused": "Pausat"
   },
-
   "download": {
     "download": "Descarrega",
     "downloadingWithEllipsis": "Descarregant...",
@@ -212,7 +189,6 @@
     "downloadedWithExclamation": "Descarregat!",
     "downloaded": "Descarregat"
   },
-
   "upload": {
     "uploadWithEllipsis": "Pujar...",
     "upload": "Pujar",
@@ -221,7 +197,6 @@
     "uploadedWithExclamation": "Pujat!",
     "uploaded": "Pujat"
   },
-
   "remove": {
     "removeWithEllipsis": "Eliminar...",
     "remove": "Eliminar",
@@ -230,7 +205,6 @@
     "removedWithExclamation": "Eliminat!",
     "removed": "Eliminat"
   },
-
   "uninstall": {
     "uninstallWithEllipsis": "Desinstal·la...",
     "uninstall": "Desinstal·la",
@@ -239,14 +213,12 @@
     "uninstalledWithExclamation": "Desinstal·lat!",
     "uninstalled": "Desinstal·lat"
   },
-
   "resume": {
     "resumeWithEllipsis": "Reprèn...",
     "resume": "Reprèn",
     "resumingWithEllipsis": "Reprenent...",
     "resuming": "Reprenent"
   },
-
   "start": {
     "startWithEllipsis": "Comença...",
     "start": "Comença",
@@ -254,7 +226,6 @@
     "starting": "Començant",
     "started": "Començat"
   },
-
   "stop": {
     "stopWithEllipsis": "Atura...",
     "stop": "Atura",
@@ -263,7 +234,6 @@
     "stoppedWithExclamation": "Aturat!",
     "stopped": "Aturat"
   },
-
   "import": {
     "importWithEllipsis": "Importa...",
     "import": "Importa",
@@ -272,27 +242,23 @@
     "importedWithExclamation": "Importat!",
     "imported": "Importat"
   },
-
   "letsGo": {
     "letsGo": "Anem-hi",
     "letsGoWithEllipsis": "Anem-hi...",
     "letsGoWithExclamation": "Anem-hi!"
   },
-
   "run": {
     "runWithEllipsis": "Executa...",
     "run": "Executa",
     "runningWithEllipsis": "Executant...",
     "running": "Executant"
   },
-
   "configure": {
     "configureWithEllipsis": "Configura...",
     "configure": "Configura",
     "configuringWithEllipsis": "Configurant...",
     "configured": "Configurat"
   },
-
   "publish": {
     "publishWithEllipsis": "Publica...",
     "publish": "Publica",
