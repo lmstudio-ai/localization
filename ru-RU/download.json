@@ -1,0 +1,43 @@
+﻿{
+  "postDownloadActionExecutor.zipExtraction/status": "Извлечение файлов...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Извлечение файлов...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Извлечение файлов...",
+  "postDownloadActionExecutor.modifyModelData/status": "Обновление данных модели...",
+  "postDownloadActionExecutor.notification/status": "Уведомление пользователя...",
+  "postDownloadActionExecutor.writeString/status": "Запись метаданных...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Обновление выбранной версии...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Удаление неиспользуемых расширений...",
+  "postDownloadActionExecutor.pluginInstall/status": "Установка плагина...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Удаление плагина...",
+
+  "finalizing": "Завершение загрузки... (это может занять некоторое время)",
+  "noOptions": "Нет совместимых вариантов для загрузки",
+
+  "deeplink/confirmation/title": "Загрузить модель с Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Выбрать рекомендуемый",
+  "deeplink/confirmation/selectOption": "Выбрать вариант загрузки",
+  "deeplink/confirmation/recommendedOption": "Вероятно, лучший вариант для большинства пользователей",
+  "deeplink/confirmation/downloadButton": "Загрузить",
+  "deeplink/confirmation/nevermindButton": "Отмена",
+  "deeplink/confirmation/modelPresent/title": "Модель Hugging Face найдена ✅",
+  "deeplink/confirmation/modelPresent/body": "Хорошие новости! Этот файл модели уже доступен на вашем локальном компьютере.",
+  "deeplink/confirmation/loadInChat": "Загрузить {{ modelName }} в новый чат",
+  "deeplink/error/modelNotFound/title": "Ой, мы не смогли найти эту модель",
+  "deeplink/error/modelNotFound/body": "Проверьте название модели ещё раз или попробуйте другой вариант загрузки.",
+  "deeplink/actions/trySearching": "Попробуйте найти {{modelName}} на Hugging Face",
+
+  "downloadsPanel/title": "Загрузки",
+  "downloadsPanel/sectionTitle/ongoing": "В процессе",
+  "downloadsPanel/sectionTitle/completed": "Завершено",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Показать в Finder",
+      "mac/error": "Не удалось показать в Finder",
+      "nonMac": "Показать в Проводнике",
+      "nonMac/error": "Не удалось показать в Проводнике"
+    },
+    "completed": "Загрузка завершена",
+    "loadModel": "Загрузить модель"
+  }
+}
