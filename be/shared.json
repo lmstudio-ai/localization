@@ -1,0 +1,305 @@
+{
+  "copyLmStudioLinkButton/toolTip": "Атрымаць спасылку для спампавання мадэлі",
+
+  "filter.noMatches": "Няма супадзенняў",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Выманне рэсурсаў"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Праверка стасоўнасці з асяроддзем выканання"
+    },
+    "indexingRuntimes": {
+      "badge": "Індэксацыя асяроддзяў выканання"
+    },
+    "indexingModels": {
+      "badge": "Індэксацыя мадэляў"
+    },
+    "authenticating": {
+      "badge": "Аўтэнтыфікацыя"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Абнаўленне пакета пашырэнняў ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Увайдзі ў хаб LM Studio",
+    "authError": "Не магу аўтэнтыфікавацца",
+    "noAccount": "Няма ўліковага запісу?",
+    "signUp": "Зарэгістравацца",
+    "havingTrouble": "Ёсць цяжкасці?",
+    "retry": "Паўтарыць"
+  },
+  "artifacts": {
+    "fetchError": "Не магу атрымаць артэфакты",
+    "organizationVisible": "Бачна для арганізацыі"
+  },
+
+  "incompatible": "Недастасоўна",
+  "compatible": "Дастасоўна",
+  "public": "Публічна",
+  "private": "Прыватна",
+  "yes": "Так",
+  "no": "Не",
+  "go": "Перайсці",
+
+  "proceedWithEllipsis": "Працягнуць...",
+  "proceed": "Працягнуць",
+  "inProgress": "Працую...",
+  "failed": "Не магу выканаць",
+  "pending": "У чаканні",
+  "doneWithExclamation": "Гатова!",
+  "done": "Гатова",
+  "beta": "Бэта",
+
+  "complete": {
+    "completeWithEllipsis": "Скончыць...",
+    "complete": "Скончыць",
+    "completingWithEllipsis": "Заканчэнне...",
+    "completing": "Заканчэнне",
+    "completedWithExclamation": "Скончана!",
+    "completed": "Скончана"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "Скасаваць...",
+    "cancel": "Скасаваць",
+    "cancelingWithEllipsis": "Скасаванне...",
+    "canceling": "Скасаванне",
+    "canceled": "Скасавана"
+  },
+
+  "next": {
+    "nextWithEllipsis": "Далей...",
+    "next": "Далей"
+  },
+
+  "back": {
+    "backWithEllipsis": "Назад...",
+    "back": "Назад"
+  },
+
+  "close": {
+    "closeWithEllipsis": "Закрыць...",
+    "close": "Закрыць",
+    "closingWithEllipsis": "Закрыццё...",
+    "closing": "Закрыццё",
+    "closedWithExclamation": "Закрыта!",
+    "closed": "Закрыта"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "Выдаліць...",
+    "delete": "Выдаліць",
+    "deletingWithEllipsis": "Выдаленне...",
+    "deleting": "Выдаленне",
+    "deletedWithExclamation": "Выдалена!",
+    "deleted": "Выдалена"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "Паўтарыць...",
+    "retry": "Паўтарыць",
+    "retryingWithEllipsis": "Паўтор...",
+    "retrying": "Паўтор"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "Абнавіць...",
+    "refresh": "Абнавіць",
+    "refreshingWithEllipsis": "Абнаўленне...",
+    "refreshing": "Абнаўленне",
+    "refreshedWithExclamation": "Абноўлена!",
+    "refreshed": "Абноўлена"
+  },
+
+  "confirm": {
+    "confirm": "Пацвердзіць",
+    "confirmingWithEllipsis": "Пацвярджэнне...",
+    "confirming": "Пацвярджэнне",
+    "confirmedWithExclamation": "Пацверджана!",
+    "confirmed": "Пацверджана"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "Капіяваць...",
+    "copy": "Капіяваць",
+    "copyingWithEllipsis": "Капіяванне...",
+    "copying": "Капіяванне",
+    "copiedWithExclamation": "Скапіявана!",
+    "copied": "Скапіявана"
+  },
+
+  "edit": {
+    "editWithEllipsis": "Рэдагаваць...",
+    "edit": "Рэдагаваць",
+    "editingWithEllipsis": "Рэдагаванне...",
+    "editing": "Рэдагаванне",
+    "editedWithExclamation": "Адрэдагавана!",
+    "edited": "Адрэдагавана"
+  },
+
+  "load": {
+    "loadWithEllipsis": "Загрузіць...",
+    "load": "Загрузіць",
+    "loadingWithEllipsis": "Загрузка...",
+    "loading": "Загрузка",
+    "loadedWithExclamation": "Загружана!",
+    "loaded": "Загружана"
+  },
+
+  "save": {
+    "saveWithEllipsis": "Захаваць...",
+    "save": "Захаваць",
+    "savingWithEllipsis": "Захаванне...",
+    "saving": "Захаванне",
+    "savedWithExclamation": "Захавана!",
+    "saved": "Захавана"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "Захаваць як...",
+    "saveAs": "Захаваць як"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Захаваць як новы...",
+    "saveAsNew": "Захаваць як новы"
+  },
+
+  "search": {
+    "searchWithEllipsis": "Шукаць...",
+    "search": "Шукаць",
+    "searchingWithEllipsis": "Пошук...",
+    "searching": "Пошук"
+  },
+
+  "update": {
+    "updateWithEllipsis": "Абнавіць...",
+    "update": "Абнавіць",
+    "updatingWithEllipsis": "Абнаўленне...",
+    "updating": "Абнаўленне",
+    "updatedWithExclamation": "Абноўлена!",
+    "updated": "Абноўлена"
+  },
+
+  "create": {
+    "createWithEllipsis": "Стварыць...",
+    "create": "Стварыць",
+    "creatingWithEllipsis": "Стварэнне...",
+    "creating": "Стварэнне",
+    "createdWithExclamation": "Створана!",
+    "created": "Створана"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "Скінуць...",
+    "reset": "Скінуць",
+    "resettingWithEllipsis": "Скід...",
+    "resetting": "Скід"
+  },
+
+  "pause": {
+    "pause": "Прыпыніць",
+    "pausingWithEllipsis": "Прыпыненне...",
+    "pausing": "Прыпыненне",
+    "paused": "Прыпынена"
+  },
+
+  "download": {
+    "download": "Спампаваць",
+    "downloadingWithEllipsis": "Спампоўванне...",
+    "downloading": "Спампоўванне",
+    "downloadedWithExclamation": "Спампавана!",
+    "downloaded": "Спампавана"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "Загрузіць...",
+    "upload": "Загрузіць",
+    "uploadingWithEllipsis": "Загрузка...",
+    "uploading": "Загрузка",
+    "uploadedWithExclamation": "Загружана!",
+    "uploaded": "Загружана"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "Выдаліць...",
+    "remove": "Выдаліць",
+    "removingWithEllipsis": "Выдаленне...",
+    "removing": "Выдаленне",
+    "removedWithExclamation": "Выдалена!",
+    "removed": "Выдалена"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "Дэўсталяваць...",
+    "uninstall": "Дэўсталяваць",
+    "uninstallingWithEllipsis": "Дэўсталяванне...",
+    "uninstalling": "Дэўсталяванне",
+    "uninstalledWithExclamation": "Дэўсталявана!",
+    "uninstalled": "Дэўсталявана"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "Працягнуць...",
+    "resume": "Працягнуць",
+    "resumingWithEllipsis": "Працяг...",
+    "resuming": "Працяг"
+  },
+
+  "start": {
+    "startWithEllipsis": "Запусціць...",
+    "start": "Запусціць",
+    "startingWithEllipsis": "Запуск...",
+    "starting": "Запуск",
+    "started": "Запушчана"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "Спыніць...",
+    "stop": "Спыніць",
+    "stoppingWithEllipsis": "Спыненне...",
+    "stopping": "Спыненне",
+    "stoppedWithExclamation": "Спынена!",
+    "stopped": "Спынена"
+  },
+
+  "import": {
+    "importWithEllipsis": "Імпартаваць...",
+    "import": "Імпартаваць",
+    "importingWithEllipsis": "Імпарт...",
+    "importing": "Імпарт",
+    "importedWithExclamation": "Імпартавана!",
+    "imported": "Імпартавана"
+  },
+
+  "letsGo": {
+    "letsGo": "Паехалі",
+    "letsGoWithEllipsis": "Паехалі...",
+    "letsGoWithExclamation": "Паехалі!"
+  },
+
+  "run": {
+    "runWithEllipsis": "Выканаць...",
+    "run": "Выканаць",
+    "runningWithEllipsis": "Выконваецца...",
+    "running": "Выконваецца"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "Наладзіць...",
+    "configure": "Наладзіць",
+    "configuringWithEllipsis": "Наладжванне...",
+    "configured": "Наладжана"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Апублікаваць...",
+    "publish": "Апублікаваць",
+    "publishingWithEllipsis": "Публікацыя...",
+    "publishing": "Публікацыя",
+    "publishedWithExclamation": "Апублікавана!",
+    "published": "Апублікавана"
+  }
+}
