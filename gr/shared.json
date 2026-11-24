@@ -1,5 +1,305 @@
 {
-  "copyLmStudioLinkButton/toolTip": "Αντιγραφή συνδέσμου λήψης μοντέλου",
+  "copyLmStudioLinkButton/toolTip": "Αντιγραφή Συνδέσμου Λήψης Μοντέλου",
 
-  "filter.noMatches": "Δεν υπάρχουν αντιστοιχίες"
+  "filter.noMatches": "Δεν υπάρχουν αντιστοιχίες",
+  "longRunningTask": {
+    "unbundlingDependencies": {
+      "badge": "Εξαγωγή Πόρων"
+    },
+    "performingBackendHardwareSurvey": {
+      "badge": "Έλεγχος Συμβατότητας Runtime"
+    },
+    "indexingRuntimes": {
+      "badge": "Δημιουργία Ευρετηρίου Runtime"
+    },
+    "indexingModels": {
+      "badge": "Δημιουργία Ευρετηρίου Μοντέλων"
+    },
+    "authenticating": {
+      "badge": "Πιστοποίηση"
+    },
+    "autoUpdatingExtensionPack": {
+      "badge": "Ενημέρωση Πακέτου Επέκτασης ({{name}} v{{version}})"
+    }
+  },
+  "auth": {
+    "prompt": "Σύνδεση στο LM Studio Hub",
+    "authError": "Η πιστοποίηση απέτυχε",
+    "noAccount": "Δεν έχετε λογαριασμό;",
+    "signUp": "Εγγραφή",
+    "havingTrouble": "Έχετε πρόβλημα;",
+    "retry": "Επανάληψη"
+  },
+  "artifacts": {
+    "fetchError": "Αποτυχία ανάκτησης artifacts",
+    "organizationVisible": "Οργάνωση Ορατή"
+  },
+
+  "incompatible": "Ασύμβατο",
+  "compatible": "Συμβατό",
+  "public": "Δημόσιο",
+  "private": "Ιδιωτικό",
+  "yes": "Ναι",
+  "no": "Όχι",
+  "go": "Πήγαινε",
+
+  "proceedWithEllipsis": "Συνέχεια...",
+  "proceed": "Συνέχεια",
+  "inProgress": "Σε εξέλιξη...",
+  "failed": "Απέτυχε",
+  "pending": "Εκκρεμεί",
+  "doneWithExclamation": "Ολοκληρώθηκε!",
+  "done": "Ολοκληρώθηκε",
+  "beta": "Beta",
+
+  "complete": {
+    "completeWithEllipsis": "Ολοκλήρωση...",
+    "complete": "Ολοκλήρωση",
+    "completingWithEllipsis": "Ολοκλήρωση...",
+    "completing": "Ολοκλήρωση",
+    "completedWithExclamation": "Ολοκληρώθηκε!",
+    "completed": "Ολοκληρώθηκε"
+  },
+
+  "cancel": {
+    "cancelWithEllipsis": "Ακύρωση...",
+    "cancel": "Ακύρωση",
+    "cancelingWithEllipsis": "Ακύρωση...",
+    "canceling": "Ακύρωση",
+    "canceled": "Ακυρώθηκε"
+  },
+
+  "next": {
+    "nextWithEllipsis": "Επόμενο...",
+    "next": "Επόμενο"
+  },
+
+  "back": {
+    "backWithEllipsis": "Πίσω...",
+    "back": "Πίσω"
+  },
+
+  "close": {
+    "closeWithEllipsis": "Κλείσιμο...",
+    "close": "Κλείσιμο",
+    "closingWithEllipsis": "Κλείσιμο...",
+    "closing": "Κλείσιμο",
+    "closedWithExclamation": "Κλειστό!",
+    "closed": "Κλειστό"
+  },
+
+  "delete": {
+    "deleteWithEllipsis": "Διαγραφή...",
+    "delete": "Διαγραφή",
+    "deletingWithEllipsis": "Διαγραφή...",
+    "deleting": "Διαγραφή",
+    "deletedWithExclamation": "Διαγράφηκε!",
+    "deleted": "Διαγράφηκε"
+  },
+
+  "retry": {
+    "retryWithEllipsis": "Επανάληψη...",
+    "retry": "Επανάληψη",
+    "retryingWithEllipsis": "Επανάληψη...",
+    "retrying": "Επανάληψη"
+  },
+
+  "refresh": {
+    "refreshWithEllipsis": "Ανανέωση...",
+    "refresh": "Ανανέωση",
+    "refreshingWithEllipsis": "Ανανέωση...",
+    "refreshing": "Ανανέωση",
+    "refreshedWithExclamation": "Ανανεώθηκε!",
+    "refreshed": "Ανανεώθηκε"
+  },
+
+  "confirm": {
+    "confirm": "Επιβεβαίωση",
+    "confirmingWithEllipsis": "Επιβεβαίωση...",
+    "confirming": "Επιβεβαίωση",
+    "confirmedWithExclamation": "Επιβεβαιώθηκε!",
+    "confirmed": "Επιβεβαιώθηκε"
+  },
+
+  "copy": {
+    "copyWithEllipsis": "Αντιγραφή...",
+    "copy": "Αντιγραφή",
+    "copyingWithEllipsis": "Αντιγραφή...",
+    "copying": "Αντιγραφή",
+    "copiedWithExclamation": "Αντιγράφηκε!",
+    "copied": "Αντιγράφηκε"
+  },
+
+  "edit": {
+    "editWithEllipsis": "Επεξεργασία...",
+    "edit": "Επεξεργασία",
+    "editingWithEllipsis": "Επεξεργασία...",
+    "editing": "Επεξεργασία",
+    "editedWithExclamation": "Επεξεργάστηκε!",
+    "edited": "Επεξεργάστηκε"
+  },
+
+  "load": {
+    "loadWithEllipsis": "Φόρτωση...",
+    "load": "Φόρτωση",
+    "loadingWithEllipsis": "Φόρτωση...",
+    "loading": "Φόρτωση",
+    "loadedWithExclamation": "Φορτώθηκε!",
+    "loaded": "Φορτώθηκε"
+  },
+
+  "save": {
+    "saveWithEllipsis": "Αποθήκευση...",
+    "save": "Αποθήκευση",
+    "savingWithEllipsis": "Αποθήκευση...",
+    "saving": "Αποθήκευση",
+    "savedWithExclamation": "Αποθηκεύτηκε!",
+    "saved": "Αποθηκεύτηκε"
+  },
+
+  "saveAs": {
+    "saveAsWithEllipsis": "Αποθήκευση Ως...",
+    "saveAs": "Αποθήκευση Ως"
+  },
+
+  "saveAsNew": {
+    "saveAsNewWithEllipsis": "Αποθήκευση Ως Νέο...",
+    "saveAsNew": "Αποθήκευση Ως Νέο"
+  },
+
+  "search": {
+    "searchWithEllipsis": "Αναζήτηση...",
+    "search": "Αναζήτηση",
+    "searchingWithEllipsis": "Αναζήτηση...",
+    "searching": "Αναζήτηση"
+  },
+
+  "update": {
+    "updateWithEllipsis": "Ενημέρωση...",
+    "update": "Ενημέρωση",
+    "updatingWithEllipsis": "Ενημέρωση...",
+    "updating": "Ενημέρωση",
+    "updatedWithExclamation": "Ενημερώθηκε!",
+    "updated": "Ενημερώθηκε"
+  },
+
+  "create": {
+    "createWithEllipsis": "Δημιουργία...",
+    "create": "Δημιουργία",
+    "creatingWithEllipsis": "Δημιουργία",
+    "creating": "Δημιουργία",
+    "createdWithExclamation": "Δημιουργήθηκε!",
+    "created": "Δημιουργήθηκε"
+  },
+
+  "reset": {
+    "resetWithEllipsis": "Επαναφορά...",
+    "reset": "Επαναφορά",
+    "resettingWithEllipsis": "Επαναφορά...",
+    "resetting": "Επαναφορά"
+  },
+
+  "pause": {
+    "pause": "Παύση",
+    "pausingWithEllipsis": "Παύση...",
+    "pausing": "Παύση",
+    "paused": "Σε παύση"
+  },
+
+  "download": {
+    "download": "Λήψη",
+    "downloadingWithEllipsis": "Λήψη...",
+    "downloading": "Λήψη",
+    "downloadedWithExclamation": "Λήφθηκε!",
+    "downloaded": "Λήφθηκε"
+  },
+
+  "upload": {
+    "uploadWithEllipsis": "Μεταφόρτωση...",
+    "upload": "Μεταφόρτωση",
+    "uploadingWithEllipsis": "Μεταφόρτωση...",
+    "uploading": "Μεταφόρτωση",
+    "uploadedWithExclamation": "Μεταφορτώθηκε!",
+    "uploaded": "Μεταφορτώθηκε"
+  },
+
+  "remove": {
+    "removeWithEllipsis": "Αφαίρεση...",
+    "remove": "Αφαίρεση",
+    "removingWithEllipsis": "Αφαίρεση...",
+    "removing": "Αφαίρεση",
+    "removedWithExclamation": "Αφαιρέθηκε!",
+    "removed": "Αφαιρέθηκε"
+  },
+
+  "uninstall": {
+    "uninstallWithEllipsis": "Απεγκατάσταση...",
+    "uninstall": "Απεγκατάσταση",
+    "uninstallingWithEllipsis": "Απεγκατάσταση...",
+    "uninstalling": "Απεγκατάσταση",
+    "uninstalledWithExclamation": "Απεγκαταστάθηκε!",
+    "uninstalled": "Απεγκαταστάθηκε"
+  },
+
+  "resume": {
+    "resumeWithEllipsis": "Συνέχιση...",
+    "resume": "Συνέχιση",
+    "resumingWithEllipsis": "Συνέχιση...",
+    "resuming": "Συνέχιση"
+  },
+
+  "start": {
+    "startWithEllipsis": "Έναρξη...",
+    "start": "Έναρξη",
+    "startingWithEllipsis": "Έναρξη...",
+    "starting": "Έναρξη",
+    "started": "Ξεκίνησε"
+  },
+
+  "stop": {
+    "stopWithEllipsis": "Διακοπή...",
+    "stop": "Διακοπή",
+    "stoppingWithEllipsis": "Διακοπή...",
+    "stopping": "Διακοπή",
+    "stoppedWithExclamation": "Διακόπηκε!",
+    "stopped": "Διακόπηκε"
+  },
+
+  "import": {
+    "importWithEllipsis": "Εισαγωγή...",
+    "import": "Εισαγωγή",
+    "importingWithEllipsis": "Εισαγωγή...",
+    "importing": "Εισαγωγή",
+    "importedWithExclamation": "Εισήχθη!",
+    "imported": "Εισήχθη"
+  },
+
+  "letsGo": {
+    "letsGo": "Πάμε",
+    "letsGoWithEllipsis": "Πάμε...",
+    "letsGoWithExclamation": "Πάμε!"
+  },
+
+  "run": {
+    "runWithEllipsis": "Εκτέλεση...",
+    "run": "Εκτέλεση",
+    "runningWithEllipsis": "Εκτέλεση...",
+    "running": "Εκτέλεση"
+  },
+
+  "configure": {
+    "configureWithEllipsis": "Διαμόρφωση...",
+    "configure": "Διαμόρφωση",
+    "configuringWithEllipsis": "Διαμόρφωση...",
+    "configured": "Διαμορφώθηκε"
+  },
+
+  "publish": {
+    "publishWithEllipsis": "Δημοσίευση...",
+    "publish": "Δημοσίευση",
+    "publishingWithEllipsis": "Δημοσίευση...",
+    "publishing": "Δημοσίευση",
+    "publishedWithExclamation": "Δημοσιεύθηκε!",
+    "published": "Δημοσιεύθηκε"
+  }
 }
