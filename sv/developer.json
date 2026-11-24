@@ -2,7 +2,7 @@
 	"tabs/server": "Lokal server",
 	"tabs/extensions": "LM-körmiljöer",
 	"loadSettings/title": "Laddningsinställningar",
-	"modelSettings/placeholder": "Välj en modell för att konfigurera den",
+	"modelSettings/placeholder": "Ingen modell vald",
 	
 	"loadedModels/noModels": "Inga modeller inlästa",
 	
@@ -47,6 +47,8 @@
 	"serverOptions/jitModelLoadingTTL/ttl/unit": "minuter",
 	"serverOptions/unloadPreviousJITModelOnLoad/title": "Behåll endast senaste JIT-inlästa modell",
 	"serverOptions/unloadPreviousJITModelOnLoad/hint": "Säkerställ att högst 1 modell är inläst via JIT åt gången (avlastar föregående modell)",
+	"serverOptions/allowMcp/title": "Tillåt MCP",
+	"serverOptions/allowMcp/hint": "När aktiverad tillåts serverförfrågningar att ansluta till fjärr-MCP:er som inte finns listade i mcp.json. Dessa anslutningar är tillfälliga. Aktivera med försiktighet, eftersom vissa MCP-servrar kan vara osäkra. För närvarande stöds endast fjärr-MCP:er.",
 
 	"serverLogs/scrollToBottom": "Hoppa till botten",
 	"serverLogs/clearLogs": "Rensa loggar ({{shortcut}})",
@@ -166,6 +168,10 @@
 	"endpoints/openaiCompatRest/postCompletions": "Textkompletteringsläge. Förutsäg nästa token(s) givet en prompt. Obs: OpenAI anser att denna slutpunkt är 'föråldrad'.",
 	"endpoints/openaiCompatRest/postChatCompletions": "Chattkompletteringar. Skicka en chattlogg till modellen för att förutsäga nästa assistentsvar",
 	"endpoints/openaiCompatRest/postEmbeddings": "Textinbäddning. Generera textinbäddningar för en given textinmatning. Tar en sträng eller en array av strängar.",
+	"endpoints/lmStudioRestV1/postModelsDownload": "Ladda ner en modell",
+	"endpoints/lmStudioRestV1/postChat": "Chatta med en modell. Stöder tillståndsbaserade flervändskonversationer och MCP",
+	"endpoints/lmStudioRestV1/getModelsDownloadStatus": "Hämta status för en modellnedladdning",
+	"endpoints/anthropicCompatRest/segmentedLabel": "Anthropic-kompatibel",
 
 	"model.createVirtualModelFromInstance": "Spara inställningar som en ny virtuell modell",
 	"model.createVirtualModelFromInstance/error": "Misslyckades med att spara inställningar som en ny virtuell modell",
