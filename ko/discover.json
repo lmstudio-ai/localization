@@ -23,6 +23,6 @@
   "download.option.recommended/description": "하드웨어를 기반으로 이 옵션이 권장됩니다.",
   "download.option.downloaded/title": "다운로드됨",
   "download.option.downloading/title": "다운로드 중 ({{progressPercentile}}%)",
-
+  "failedToStartDownload": "다운로드 시작 실패",
   "feed.action.refresh": "피드 새로 고침"
 }
