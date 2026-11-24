@@ -139,6 +139,9 @@
   "llm.load.seed/title": "种子",
   "llm.load.seed/subTitle": "用于文本生成的随机数生成器的种子。-1 表示随机",
   "llm.load.seed/info": "随机种子：设置随机数生成的种子以确保可重复的结果",
+  "llm.load.numCpuExpertLayersRatio/title": "强制将模型专家权重置于CPU",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "是否将MoE专家权重强制加载到CPU内存中。此举可节省显存（VRAM），并且在某些情况下比部分GPU卸载速度更快。如果模型能完全放入显存，则不建议启用此选项。",
+  "llm.load.numCpuExpertLayersRatio/info": "指定是否将所有MoE专家层移至CPU内存。注意力层保留在GPU上，可在节省显存的同时保持较快的推理速度。",
 
   "llm.load.llama.evalBatchSize/title": "评估批处理大小",
   "llm.load.llama.evalBatchSize/subTitle": "每次处理的输入token数量。增加此值会提高性能，但会增加内存使用量",
