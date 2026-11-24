@@ -37,6 +37,7 @@
   "badModels/title_one": "索引以下模型失败：",
   "badModels/title_other": "索引以下模型失败：",
   "badModels.virtualModelIncorrectPlacement": "虚拟模型放置错误。预期位置为 {{expected}}。实际位置为 {{actual}}。",
+  "badModels.virtualModelIncorrectPlacement": "虚拟模型放置位置不正确。预期位置为 {{expected}}。实际位置为 {{actual}}。",
   "badModels.virtualModelBadManifest": "无效的虚拟模型清单 (model.yaml)：",
   "unresolvedVirtualModels/title_one": "解析以下虚拟模型失败：",
   "unresolvedVirtualModels/title_other": "解析以下虚拟模型失败：",
@@ -95,6 +96,16 @@
   "loader.info.clickOnModelToLoad": "点击模型以加载",
   "loader.info.configureLoadParameters": "配置模型加载参数",
   "loader.info.activeGeneratorWarning": "您正在使用带有自定义生成器的插件。当前加载的模型是否适用于该插件，取决于生成器的具体实现方式",
+  "loader.guardrails.estimatedMemoryUsage": "预估内存使用量",
+  "loader.guardrails.total": "总计",
+  "loader.guardrails.gpu": "GPU",
+  "loader.guardrails.unavailable": "此模型无法估算内存用量",
+  "loader.guardrails.notEnoughResources": "当前设置下没有足够资源加载模型",
+  "loader.guardrails.notEnoughResources/options": "选项",
+  "loader.guardrails.notEnoughResources.moreInfoSection.appearsNotEnoughMemory": "您的系统似乎没有足够的内存来加载此模型。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.ifYouBelieveThisIsIncorrect": "您可以在设置中调整模型加载保护，或按住 <altOptionKey /> 强制加载。",
+  "loader.guardrails.notEnoughResources.moreInfoSection.warning": "加载过大的模型可能会使系统过载并导致卡死。",
+  "loader.guardrails.notEnoughResources.alwaysAllowLoadAnyway": "（不推荐）始终允许“强制加载”而无需按住 Alt/Option",
 
   "virtual": {
     "local": {
@@ -110,6 +121,12 @@
       "next": "下一步",
       "confirm": "创建",
       "error": "创建虚拟模型失败"
+    },
+    "altsSelect": {
+      "title": "切换模型来源",
+      "resetButton": "重置为默认",
+      "description": "此模型存在多个可用的源文件。",
+      "trigger": "变体"
     }
   }
 }
