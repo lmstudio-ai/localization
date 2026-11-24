@@ -31,11 +31,18 @@
     "sampling/title": "Выборка",
     "settings/title": "Настройки",
     "toolUse/title": "Использование инструментов",
-    "promptTemplate/title": "Шаблон запроса"
+    "promptTemplate/title": "Шаблон запроса",
+    "customFields/title": "Пользовательские поля"
   },
   "llm.prediction.systemPrompt/title": "Системный промпт",
   "llm.prediction.systemPrompt/description": "Используйте это поле для предоставления фона модели, такого как набор правил, ограничений или общих требований. Это поле также часто называется \"системной подсказкой\".",
   "llm.prediction.systemPrompt/subTitle": "Руководство для ИИ",
+  "llm.prediction.systemPrompt/openEditor": "Редактор",
+  "llm.prediction.systemPrompt/closeEditor": "Закрыть редактор",
+  "llm.prediction.systemPrompt/openedEditor": "Открыто в редакторе...",
+  "llm.prediction.systemPrompt/edit": "Редактировать системный промпт...",
+  "llm.prediction.systemPrompt/addInstructionsWithMore": "Добавить инструкции...",
+  "llm.prediction.systemPrompt/addInstructions": "Добавить инструкции",
   "llm.prediction.temperature/title": "Температура",
   "llm.prediction.temperature/subTitle": "Уровень случайности. 0 даёт одинаковый результат, более высокие значения повышают креативность и разнообразие",
   "llm.prediction.temperature/info": "Из документации llama.cpp: \"Значение по умолчанию <{{dynamicValue}}> обеспечивает баланс между случайностью и детерминизмом. В крайнем случае, температура 0 всегда будет выбирать наиболее вероятный следующий токен, приводя к идентичным результатам при каждом запуске\"",
@@ -109,6 +116,23 @@
   "llm.prediction.speculativeDecoding.draftModel/title": "Модель черновика",
   "llm.prediction.reasoning.parsing/title": "Парсинг секций рассуждений",
   "llm.prediction.reasoning.parsing/subTitle": "Как обрабатывать разделы рассуждений в выводе модели",
+  "llm.load.mainGpu/title": "Основной GPU",
+  "llm.load.mainGpu/subTitle": "GPU, которому будет отдан приоритет для вычислений модели",
+  "llm.load.mainGpu/placeholder": "Выберите основной GPU...",
+  "llm.load.splitStrategy/title": "Стратегия разделения",
+  "llm.load.splitStrategy/subTitle": "Как разделять вычисления модели между GPU",
+  "llm.load.splitStrategy/placeholder": "Выберите стратегию разделения...",
+  "llm.load.offloadKVCacheToGpu/title": "Выгружать KV-кэш в память GPU",
+  "llm.load.offloadKVCacheToGpu/subTitle": "Выгружать KV-кэш в память GPU. Повышает производительность, но требует больше памяти GPU",
+  "llm.load.numParallelSessions/title": "Максимум одновременных предсказаний",
+  "llm.load.numParallelSessions/subTitle": "Максимальное число предсказаний, которые модель может выполнять одновременно. При параллельной работе скорость каждого отдельного предсказания может снижаться, но каждое предсказание будет запускаться быстрее, а общая пропускная способность может вырасти",
+  "llm.load.useUnifiedKvCache/title": "Единый KV-кэш",
+  "llm.load.useUnifiedKvCache/subTitle": "Определяет, будут ли одновременные предсказания использовать общий KV-кэш, экономя память. Отключение гарантирует, что каждое предсказание сможет использовать полный контекст, но потребует больше памяти",
+  "load.gpuStrictVramCap/title": "Ограничить выгрузку модели выделенной памятью GPU",
+  "load.gpuStrictVramCap.customSubTitleOff": "ВЫКЛ: Разрешить выгрузку весов модели в общую память, если выделенная память GPU заполнена",
+  "load.gpuStrictVramCap.customSubTitleOn": "ВКЛ: Система ограничит выгрузку весов модели только в выделенную память GPU и ОЗУ. Контекст по-прежнему может использовать общую память",
+  "load.gpuStrictVramCap.customGpuOffloadWarning": "Выгрузка модели ограничена выделенной памятью GPU. Фактическое число выгруженных слоёв может отличаться",
+  "load.allGpusDisabledWarning": "Все GPU сейчас отключены. Включите хотя бы один, чтобы выполнять выгрузку",
   "llm.load.contextLength/title": "Длина контекста",
   "llm.load.contextLength/subTitle": "Максимальное число токенов в одном запросе. Смотрите опции управления переполнением под «Параметры вывода» для других способов",
   "llm.load.contextLength/info": "Определяет максимальное количество токенов, которое модель может рассматривать одновременно, влияя на то, сколько контекста она сохраняет во время обработки",
@@ -116,6 +140,9 @@
   "llm.load.seed/title": "Сид",
   "llm.load.seed/subTitle": "Начальное значение генератора случайных чисел. -1 — случайное",
   "llm.load.seed/info": "Случайный сид: Устанавливает сид для генерации случайных чисел, чтобы обеспечить воспроизводимые результаты",
+  "llm.load.numCpuExpertLayersRatio/title": "Количество слоёв, для которых веса MoE принудительно переносятся на CPU",
+  "llm.load.numCpuExpertLayersRatio/subTitle": "Количество слоёв, для которых веса экспертов принудительно переносятся на CPU. Экономит VRAM и может быть быстрее, чем частичная выгрузка на GPU. Не рекомендуется, если модель целиком помещается в VRAM.",
+  "llm.load.numCpuExpertLayersRatio/info": "Указывает количество слоёв, для которых веса экспертов принудительно переносятся на CPU. Внимание остаётся на GPU, что экономит VRAM и сохраняет приемлемую скорость вывода.",
   "llm.load.llama.evalBatchSize/title": "Размер пакета оценки",
   "llm.load.llama.evalBatchSize/subTitle": "Число входных токенов в одном пакете. Больше — быстрее, но выше нагрузка на память",
   "llm.load.llama.evalBatchSize/info": "Устанавливает количество примеров, обрабатываемых вместе в одном пакете во время оценки, что влияет на скорость и использование памяти.",
@@ -213,7 +240,10 @@
     "legacy/description": "Эта предустановка является устаревшей. Она включает в себя следующие поля, которые теперь автоматически обрабатываются или больше не актуальны.",
     "button/publish": "Опубликовать на Хабе",
     "button/pushUpdate": "Отправить изменения на Хаб",
-    "button/export": "Экспорт"
+    "button/noChangesToPush": "Нет изменений для отправки",
+    "button/export": "Экспорт",
+    "hubLabel": "Предустановка из Хаба от {{user}}",
+    "ownHubLabel": "Ваша предустановка из Хаба"
   },
   "customInputs": {
     "string": {
@@ -274,7 +304,7 @@
       "max": "МАКС",
       "off": "ВЫКЛ"
     },
-    "llamaAccelerationSplitStrategy": {
+    "gpuSplitStrategy": {
       "evenly": "Равномерно",
       "favorMainGpu": "Предпочитать основной GPU"
     },
@@ -340,21 +370,21 @@
   "idleTTL.mins": "мин.",
   "presets": {
     "title": "Предустановка",
-    "commitChanges": "Зафиксировать изменения",
-    "commitChanges/description": "Зафиксируйте ваши изменения в предустановке.",
-    "commitChanges.manual": "Обнаружены новые поля. Вы сможете выбрать, какие изменения включить в предустановку.",
-    "commitChanges.manual.hold.0": "Приостановить",
-    "commitChanges.manual.hold.1": "чтобы выбрать, какие изменения зафиксировать в предустановке.",
-    "commitChanges.saveAll.hold.0": "Приостановить",
-    "commitChanges.saveAll.hold.1": "чтобы сохранить все изменения.",
-    "commitChanges.saveInPreset.hold.0": "Приостановить",
-    "commitChanges.saveInPreset.hold.1": "только чтобы сохранить изменения в поля, которые уже включены в предустановку.",
-    "commitChanges/error": "Не удалось зафиксировать изменения в предустановке.",
-    "commitChanges.manual/description": "Выберите, какие изменения включить в предустановку.",
+    "saveChanges": "Зафиксировать изменения",
+    "saveChanges/description": "Зафиксируйте ваши изменения в предустановке.",
+    "saveChanges.manual": "Обнаружены новые поля. Вы сможете выбрать, какие изменения включить в предустановку.",
+    "saveChanges.manual.hold.0": "Приостановить",
+    "saveChanges.manual.hold.1": "чтобы выбрать, какие изменения зафиксировать в предустановке.",
+    "saveChanges.saveAll.hold.0": "Приостановить",
+    "saveChanges.saveAll.hold.1": "чтобы сохранить все изменения.",
+    "saveChanges.saveInPreset.hold.0": "Приостановить",
+    "saveChanges.saveInPreset.hold.1": "только чтобы сохранить изменения в поля, которые уже включены в предустановку.",
+    "saveChanges/error": "Не удалось зафиксировать изменения в предустановке.",
+    "saveChanges.manual/description": "Выберите, какие изменения включить в предустановку.",
     "saveAs": "Сохранить как...",
     "presetNamePlaceholder": "Введите имя для предустановки...",
     "cannotCommitChangesLegacy": "Это устаревшая предустановка и ее нельзя изменять. Вы можете скопировать ее, используя «Сохранить как...».",
-    "cannotCommitChangesNoChanges": "Нет изменений для фиксации.",
+    "cannotSaveChangesNoChanges": "Нет изменений для фиксации.",
     "emptyNoUnsaved": "Выберите предустановку...",
     "emptyWithUnsaved": "Несохраненная предустановка",
     "saveEmptyWithUnsaved": "Сохранить предустановку как...",
@@ -370,10 +400,12 @@
     "discardChanges/info": "Отменить все незафиксированные изменения и восстановить предустановку в ее исходное состояние",
     "newEmptyPreset": "+ Новая предустановка",
     "importPreset": "Импорт",
+    "contextMenuCopyIdentifier": "Копировать идентификатор предустановки",
     "contextMenuSelect": "Применить предустановку",
     "contextMenuDelete": "Удалить...",
     "contextMenuShare": "Опубликовать...",
     "contextMenuOpenInHub": "Просмотреть на Хабе",
+    "contextMenuPullFromHub": "Загрузить последнюю версию",
     "contextMenuPushChanges": "Отправить изменения в Хаб",
     "contextMenuPushingChanges": "Отправка изменений...",
     "contextMenuPushedChanges": "Изменения отправлены",
@@ -397,7 +429,11 @@
       "pushedToHub": "Ваша предустановка была опубликована на Хабе",
       "descriptionPlaceholder": "Введите описание...",
       "willBePublic": "Публикация вашей предустановки сделает ее общедоступной",
+      "willBePrivate": "Эта предустановка будет видна только вам",
+      "willBeOrgVisible": "Эта предустановка будет видна всем в организации.",
       "publicSubtitle": "Ваша предустановка <custom-bold>общедоступна</custom-bold>. Другие могут скачивать и создавать ее копию на lmstudio.ai",
+      "privateUsageReached": "Достигнут лимит количества приватных предустановок.",
+      "continueInBrowser": "Продолжить в браузере",
       "confirmShareButton": "Опубликовать",
       "error": "Не удалось опубликовать предустановку",
       "createFreeAccount": "Создайте бесплатную учетную запись в Хабе, чтобы публиковать предустановки"
@@ -413,6 +449,44 @@
       "createFreeAccount": "Создайте бесплатную учетную запись в Хабе, чтобы публиковать предустановки",
       "error": "Не удалось отправить обновление",
       "confirmUpdateButton": "Отправить"
+    },
+    "resolve": {
+      "title": "Разрешить конфликты...",
+      "tooltip": "Открыть окно для разрешения различий с версией из Хаба"
+    },
+    "loginToManage": {
+      "title": "Войти для управления..."
+    },
+    "downloadFromHub": {
+      "title": "Скачать",
+      "downloading": "Скачивание...",
+      "success": "Скачано!",
+      "error": "Не удалось скачать"
+    },
+    "push": {
+      "title": "Отправить изменения",
+      "pushing": "Отправка...",
+      "success": "Отправлено",
+      "tooltip": "Отправить локальные изменения в удалённую версию, размещённую в Хабе",
+      "error": "Не удалось отправить"
+    },
+    "saveAsNewModal": {
+      "title": "Не удалось найти предустановку в Хабе",
+      "confirmSaveAsNewDescription": "Хотите опубликовать эту предустановку как новую?",
+      "confirmButton": "Опубликовать как новую"
+    },
+    "pull": {
+      "title": "Загрузить последнюю версию",
+      "error": "Не удалось загрузить изменения",
+      "contextMenuErrorMessage": "Не удалось загрузить изменения",
+      "success": "Загружено",
+      "pulling": "Загрузка...",
+      "upToDate": "Актуальная версия!",
+      "unsavedChangesModal": {
+        "title": "У вас есть несохранённые изменения.",
+        "bodyContent": "Загрузка изменений из удалённого источника перезапишет ваши несохранённые изменения. Продолжить?",
+        "confirmButton": "Перезаписать несохранённые изменения"
+      }
     },
     "import": {
       "title": "Импортировать предустановку из файла",
@@ -477,24 +551,57 @@
   "ropeFrequencyBaseUncheckedHint": "Авто",
   "ropeFrequencyScaleUncheckedHint": "Авто",
   "hardware": {
-    "advancedGpuSettings": "Дополнительные настройки GPU",
-    "advancedGpuSettings.info": "Если вы не уверены что это, оставьте эти параметры со значениями по умолчанию",
-    "advancedGpuSettings.reset": "Сбросить до значений по умолчанию",
-    "environmentVariables": {
-      "title": "Переменные окружения",
-      "description": "Активные переменные окружения во время работы модели.",
-      "key.placeholder": "Выбрать переменную...",
-      "value.placeholder": "Значение"
+    "environmentVariables": "Переменные окружения",
+    "environmentVariables.info": "Если не уверены, оставьте значения по умолчанию",
+    "environmentVariables.reset": "Сбросить к значениям по умолчанию",
+    "gpus.information": "Настройка графических процессоров (GPU), обнаруженных на вашем устройстве",
+    "gpuSettings": {
+      "editMaxCapacity": "Изменить максимальную ёмкость",
+      "hideEditMaxCapacity": "Скрыть изменение максимальной ёмкости",
+      "allOffWarning": "Все GPU отключены или недоступны. Убедитесь, что выделена хотя бы часть GPU-ресурсов, чтобы можно было загружать модели",
+      "split": {
+        "title": "Стратегия",
+        "placeholder": "Выберите распределение памяти GPU",
+        "options": {
+          "generalDescription": "Настройте, как модели будут загружаться на ваши GPU",
+          "evenly": {
+            "title": "Равномерно",
+            "description": "Распределить память равномерно между GPU"
+          },
+          "priorityOrder": {
+            "title": "Порядок приоритета",
+            "description": "Перетащите, чтобы изменить приоритет. Система попытается выделить больше памяти на GPU, указанных первыми"
+          },
+          "custom": {
+            "title": "Пользовательский",
+            "description": "Выделить память",
+            "maxAllocation": "Максимальное выделение"
+          }
+        }
+      },
+      "deviceId.info": "Уникальный идентификатор этого устройства",
+      "changesOnlyAffectNewlyLoadedModels": "Изменения повлияют только на вновь загруженные модели",
+      "toggleGpu": "Включить/выключить GPU"
+    }
+  },
+  "load.gpuSplitConfig/title": "Конфигурация разделения GPU",
+  "envVars/title": "Задать переменную окружения",
+  "envVars": {
+    "select": {
+      "placeholder": "Выберите переменную окружения...",
+      "noOptions": "Больше нет доступных",
+      "filter": {
+        "placeholder": "Фильтр результатов поиска",
+        "resultsFound_zero": "Результаты не найдены",
+        "resultsFound_one": "Найден 1 результат",
+        "resultsFound_other": "Найдено {{count}} результатов"
+      }
     },
-    "mainGpu": {
-      "title": "Основной GPU",
-      "description": "GPU, который следует отдавать приоритету для вычислений модели.",
-      "placeholder": "Выбрать основной GPU..."
+    "inputValue": {
+      "placeholder": "Введите значение"
     },
-    "splitStrategy": {
-      "title": "Стратегия разделения",
-      "description": "Как распределить вычисления модели между GPU.",
-      "placeholder": "Выбрать стратегию разделения..."
+    "values": {
+      "title": "Текущие значения"
     }
   }
 }
