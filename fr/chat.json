@@ -88,7 +88,11 @@
   "actions/createChatAtRoot/error": "Échec de la création du chat à la racine",
   "actions/createFolderAtRoot": "Nouveau Dossier...",
   "actions/createFolderAtRoot/error": "Échec de la création du dossier à la racine",
+  "actions/openInFolder/mac": "Révéler dans le Finder",
+  "actions/openInFolder/pc": "Révéler dans l'explorateur de fichiers",
+
   "actions/createChat/error": "Échec de la création du chat",
+  "actions/deleteChat/errorTitle": "Échec de la suppression du chat",
 
   "userFile/fileSizeLimit": "La taille limite du fichier est ",
   "userFile/noImageSupport": "Le modèle ne prend pas en charge l'entrée d'images",
@@ -98,7 +102,13 @@
   "userFile/unsupportedFileType": "Type de fichier non pris en charge - seuls les images, PDFs et fichiers .txt sont pris en charge.",
   "userFile/maxFilesPerMessage": "Nombre maximum de fichiers par message atteint. Impossible d'ajouter plus de {{files}} fichiers. ",
   "userFile/maxFileSizePerMessage": "Taille maximale de fichier par message atteinte. Impossible d'ajouter des fichiers plus grands que {{size}}. ",
+  "userFile/maxFileSizePerMessage": "Taille maximale par message atteinte. Impossible d'ajouter des fichiers plus grands que {{size}}. ",
+  "userFile/maxFileSizePerConversation": "Taille maximale par conversation atteinte. Impossible d'ajouter des fichiers plus grands que {{size}}. ",
+  "userFile/failedToUploadError/title": "Échec à uploader le fichier",
+  "userFile/failedToAddFile/title": "Échec à ajouter un fichier au chat",
   "errorTitle": "Erreur",
+  "userFile/chatTerminalDocumentsCount_one": "{{count}} document dans le chat",
+  "userFile/chatTerminalDocumentsCount_other": "{{count}} documents dans le chat",
 
   "prediction/busyModel/title": "Le modèle est occupé",
   "prediction/busyModel/message": "Veuillez attendre que le modèle termine et réessayez",
@@ -112,16 +122,41 @@
   "retrieval/actions/clickToExpand": "Cliquez pour développer les étapes intermédiaires",
   "retrieval/actions/clickToCollapse": "Cliquez pour réduire les étapes intermédiaires",
 
-  "style": "Apparence du Chat",
+  "style": "Apparence",
 
   "style/viewMode/markdown": "Markdown",
   "style/viewMode/plaintext": "Texte brut",
   "style/viewMode/monospace": "Police à espacement fixe",
 
+  "speculativeDecodingVisualization/toggle": "Visualiser les jetons brouillons acceptés",
+  "speculativeDecodingVisualization/fromDraftModel_one": "Jeton brouillon accepté",
+  "speculativeDecodingVisualization/fromDraftModel_other": "Jetons brouillons acceptés",
+  "speculativeDecodingVisualization/cannotChangeViewMode": "La sélection du mode d’affichage est désactivée lors de la visualisation des jetons brouillons.",
+
   "style/fontSize/label": "Taille de police",
   "style/fontSize/medium": "Par défaut",
   "style/fontSize/large": "Grande",
   "style/fontSize/small": "Petite",
+
+  "style/debugBlocks/label": "Afficher blocs d’informations de débogage",
+
+  "style/thinkingUI/label": "Étendre blocs de raisonnement par défaut",
+  "style/chatFullWidth/label": "Agrandir conteneur de chat à largeur de fenêtre",
+
+  "style/chatUtilityMenusShowLabel/label": "Afficher étiquettes du menu utilitaires de chat",
+
+  "messageBlocks": {
+    "expandBlockTooltip": "Étendre le contenu",
+    "collapseBlockTooltip": "Réduire contenu",
+    "debug": {
+      "label": "DEBUG INFO",
+      "collapseTooltip": "Réduire bloc d’informations de débogage",
+      "expandTooltip": "Étendre bloc d’informations de débogage"
+    }
+  },
+
+  "chatTabOptions/clearAllMessages": "Effacer tous messages...",
+  "chatTabOptions/duplicateChat": "Dupliquer chat",
 
   "topBarActions/duplicateChat": "Dupliquer le chat",
   "topBarActions/clearChat": "Effacer tous les messages",
@@ -132,4 +167,84 @@
   "noModels.indexing": "Indexation des fichiers modèles... (cela peut prendre un moment)",
   "noModels.downloading": "Téléchargement de votre premier LLM...",
   "noModels": "Pas encore de LLM ! Téléchargez-en un pour commencer !"
+
+  "plugins": {
+    "pluginTrigger": {
+      "noPlugins": "Plugin",
+      "multiplePlugins": "{{dynamicValue}} plugins"
+    },
+    "pluginSelect": {
+      "title": "Plugins",
+      "dropdown": {
+        "configure": "Configurer",
+        "disable": "Désactiver",
+        "fork": "Fork",
+        "uninstall": "Désinstaller"
+      },
+      "actionButtons": {
+        "create": "Créer",
+        "import": "Importer",
+        "discover": "Découvrir"
+      },
+      "recentlyCreated": {
+        "title": "Plugins récemment créés",
+        "placeholder": "Les plugins que vous créez apparaîtront ici"
+      },
+      "startRunningDevelopmentPlugin/error": "Échec à démarrer l’exécution du plugin en mode développement",
+      "stopRunningDevelopmentPlugin/error": "Échec à stopper l’exécution du plugin en mode développement",
+      "forceReInitPlugin/error": "Échec du redémarrage du plugin",
+      "signOutMcpPlugin/error": "Échec de déconnexion du plugin",
+      "cancelMcpAuthentication/error": "Échec d'annulation de l'authentification du plugin"
+    },
+    "pluginConfiguration": {
+      "title": "Configuration Plugin",
+      "selectAPlugin": "Sélectionnez un plug-in pour modifier ses configurations",
+      "preprocessorAndGenerator": "Ce plugin contient un préprocesseur et un générateur personnalisés",
+      "generatorOnly": "Ce plugin contient un générateur personnalisé",
+      "preprocessorOnly": "Ce plugin contient un préprocesseur personnalisé"
+    },
+    "instructions": {
+      "runTheFollowing": "Pour exécuter votre plugin, ouvrez un terminal et saisissez",
+      "pushTo": "Partager votre plugin avec d’autres en le poussant vers la plateforme (facultatif)",
+      "createdSuccessfully": "Plugin créé avec succès",
+      "creatingPlugin": "Création plugin...",
+      "projectFilesTitle": "Fichiers de projet",
+      "buttons": {
+        "documentation": "Documentation",
+        "dismiss": "Écarter",
+        "publish": "Publier",
+        "openInZed": "Ouvrir dans Zed",
+        "openInVscode": "Ouvrir dans VS Code",
+        "revealInFinder": "Révéler dans Finder",
+        "openInFileExplorer": "Ouvrir dans explorateur de fichiers"
+      }
+    },
+    "localFork": {
+      "error": "Échec à créer une copie de développement local du plug-in."
+    },
+    "restartErrorPlugin/error": "Échec à redémarrer le plugin"
+  },
+
+  "genInfo": {
+    "tokensPerSecond": "{{tokensPerSecond}} tok/sec",
+    "predictedTokensCount": "{{predictedTokensCount}} tokens",
+    "timeToFirstTokenSec": "{{timeToFirstTokenSec}}s vers premier token",
+    "stopReason": "Raison de l'arrêt : {{stopReason}}",
+    "stopReason.userStopped": "L'utilisateur a stoppé",
+    "stopReason.modelUnloaded": "Modèle déchargé",
+    "stopReason.failed": "Génération échouée",
+    "stopReason.eosFound": "Token EOS trouvé",
+    "stopReason.stopStringFound": "Chaîne Stop trouvée",
+    "stopReason.toolCalls": "Appels d'outil",
+    "stopReason.maxPredictedTokensReached": "Jetons prédits max. atteints",
+    "stopReason.contextLengthReached": "Limite de longueur du contexte atteinte",
+    "speculativeDecodedBy": "Projet de modèle : {{decodedBy}}",
+    "speculativeDecodingStats": "Accepted {{accepted}}/{{total}} draft tokens ({{percentage}}%)",
+    "speculativeDecodingAcceptedPercentage": "{{percentage}}% draft tokens accepted",
+    "speculativeDecodingTooltip": "Accepted {{accepted}}/{{total}} draft tokens"
+  },
+
+  "tabs": {
+    "systemPromptEditorTab.headerLabel": "Édition prompt système"
+  }
 }
