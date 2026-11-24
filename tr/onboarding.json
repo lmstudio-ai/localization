@@ -1,25 +1,40 @@
 {
-  "action.skipOnboarding": "Başlangıç Kılavuzunu Atla",
-  "action.next": "İleri",
-  "action.back": "Geri",
-  "action.finish": "Bitir",
-
-  "dismissable_rag_modal": {
-    "description": "Şimdi Kendi Belgelerinizle Retrieval Augmented Generation (RAG) kullanarak sohbet edebilirsiniz. İşte nasıl çalıştığı:",
-    "instructions": {
-      "attach_files": {
-        "title": "Dosyaları Ekle",
-        "description": "Aynı anda en fazla 5 dosya yükleyebilir ve toplam boyutları 30MB olabilir. Desteklenen formatlar PDF, DOCX, TXT ve CSV'dir."
-      },
-      "be_specific": {
-        "title": "Ayrıntılı Olun",
-        "description": "Sorularınızı sorduğunuzda mümkün olduğunca detay verin. Bu, sistemin belgelerinizden en ilgili bilgiyi almaya yardımcı olur."
-      },
-      "get_responses": {
-        "title": "Cevaplar Alın ve Deney Yapın",
-        "description": "LLM, sorunuzu ve belgelerinizden alınan alıntıları inceleyecek ve bir yanıt üretecektir. En iyi sonucu bulmak için farklı sorgular deneyin."
-      }
+    "action.skipOnboarding": "Başlangıç Kılavuzunu Atla",
+    "action.next": "İleri",
+    "action.back": "Geri",
+    "action.finish": "Bitir",
+    "dismissable_rag_modal": {
+        "description": "Şimdi Kendi Belgelerinizle Retrieval Augmented Generation (RAG) kullanarak sohbet edebilirsiniz. İşte nasıl çalıştığı:",
+        "instructions": {
+            "attach_files": {
+                "title": "Dosyaları Ekle",
+                "description": "Aynı anda en fazla 5 dosya yükleyebilir ve toplam boyutları 30MB olabilir. Desteklenen formatlar PDF, DOCX, TXT ve CSV'dir."
+            },
+            "be_specific": {
+                "title": "Ayrıntılı Olun",
+                "description": "Sorularınızı sorduğunuzda mümkün olduğunca detay verin. Bu, sistemin belgelerinizden en ilgili bilgiyi almaya yardımcı olur."
+            },
+            "get_responses": {
+                "title": "Cevaplar Alın ve Deney Yapın",
+                "description": "LLM, sorunuzu ve belgelerinizden alınan alıntıları inceleyecek ve bir yanıt üretecektir. En iyi sonucu bulmak için farklı sorgular deneyin."
+            }
+        }
+    },
+    "toolUse": {
+        "step_0": {
+            "title": "Beta: Araç Kullanımı 🛠️ (Fonksiyon Çağırma)",
+            "text_0": "Bazı modeller (örneğin Llama 3.1/3.2, Mistral, Qwen ve daha fazlası) araç kullanmak üzere eğitilmiştir.",
+            "text_1": "Bunun pratik anlamı şudur: LLM'ye çok özel bir formatta bir 'araçlar' dizisi (fonksiyon imzaları) sağlarsınız ve LLM, kullanıcının komutuna göre bunları 'çağırıp' çağırmayacağına karar verebilir.",
+            "text_2": "Bir API'yi sorgulamak, kod çalıştırmak veya gerçekten bir fonksiyon çağrısı olarak ifade edilebilecek her türlü kullanım durumunu hayal edebilirsiniz."
+        },
+        "step_1": {
+            "title": "Araç Kullanımına Başlayın",
+            "toolUseCanWorkWithAnyModel": "Araç kullanımı için eğitilmiş modeller diğerlerinden daha iyi performans gösterecektir, ancak herhangi bir modelle araçları denemeyi seçebilirsiniz. Daha fazlasını öğrenmek için <customlink>dokümantasyonu</customlink> okuyun.\nAraç kullanımı için eğitilmiş modeller yeni bir rozetle işaretlenecektir:",
+            "hasCompatibleModel": "🎉 Görünüşe göre araç desteğine sahip modelleriniz zaten var!",
+            "downloadRecommendedModel": "Araç kullanımı için eğitilmiş bir model indirin:"
+        },
+        "nextButton": "İleri",
+        "letsGoButton": "Modeli yükle ve sunucuyu başlat",
+        "doneButton": "Kapat"
     }
-  }
 }
-
