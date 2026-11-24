@@ -1,24 +1,40 @@
 {
-  "action.skipOnboarding": "Omite el tutorial de bienvenida, sé lo que hago",
+  "action.skipOnboarding": "Saltar introducción",
   "action.next": "Siguiente",
-  "action.back": "Anterior",
+  "action.back": "Atrás",
   "action.finish": "Terminar",
-
   "dismissable_rag_modal": {
-    "description": "Ahora puedes chatear con tus propios documentos utilizando la Generación Aumentada de Recuperación (RAG). Así es como funciona:",
+    "description": "Ahora puedes chatear con tus propios documentos usando Generación Aumentada por Recuperación (RAG). Así es como funciona:",
     "instructions": {
       "attach_files": {
-        "title": "Adjuntar archivos",
-        "description": "Adjuntar archivos: Sube hasta 5 archivos a la vez, con un tamaño máximo combinado de 30 MB. Los formatos admitidos son PDF, DOCX, TXT y CSV."
+        "title": "Adjuntar Archivos",
+        "description": "Sube hasta 5 archivos a la vez, con un tamaño máximo combinado de 30MB. Los formatos soportados incluyen PDF, DOCX, TXT y CSV."
       },
       "be_specific": {
-        "title": "Sea específico",
-        "description": "Cuando haga preguntas, mencione tantos detalles como sea posible. Esto ayuda al sistema a recuperar la información más relevante de sus documentos."
+        "title": "Sé Específico",
+        "description": "Al hacer preguntas, menciona tantos detalles como sea posible. Esto ayuda al sistema a recuperar la información más relevante de tus documentos."
       },
       "get_responses": {
-        "title": "Obtenga respuestas y experimente",
-        "description": "El LLM examinará tu consulta y los extractos recuperados de tus documentos e intentará generar una respuesta. Experimenta con diferentes consultas para encontrar la que mejor funciona."
+        "title": "Obtén Respuestas y Experimenta",
+        "description": "El LLM revisará tu consulta y los extractos recuperados de tus documentos, e intentará generar una respuesta. Experimenta con diferentes consultas para encontrar lo que funciona mejor."
       }
     }
+  },
+  "toolUse": {
+    "step_0": {
+      "title": "Beta: Uso de Herramientas 🛠️ (Llamadas de Función)",
+      "text_0": "Algunos modelos (ej. Llama 3.1/3.2, Mistral, Qwen y más) fueron entrenados para usar herramientas.",
+      "text_1": "Lo que esto significa en la práctica es: le proporcionas un arreglo de 'herramientas' (firmas de función) al LLM en un formato muy particular, y el LLM puede decidir si 'llamarlas' basándose en el prompt del usuario.",
+      "text_2": "Puedes imaginar casos de uso como consultar una API, ejecutar código, o realmente cualquier cosa que se pueda expresar como una llamada de función."
+    },
+    "step_1": {
+      "title": "Comienza con el Uso de Herramientas",
+      "toolUseCanWorkWithAnyModel": "Los modelos que fueron entrenados para uso de herramientas funcionarán mejor que otros, pero puedes intentar usar herramientas con cualquier modelo. Lee la <customlink>documentación</customlink> para aprender más.\nLos modelos que fueron entrenados para uso de herramientas estarán marcados con una nueva insignia:",
+      "hasCompatibleModel": "🎉 ¡Parece que ya tienes modelos con soporte para herramientas!",
+      "downloadRecommendedModel": "Descarga un modelo que fue entrenado para uso de herramientas:"
+    },
+    "nextButton": "Siguiente",
+    "letsGoButton": "Cargar modelo e iniciar servidor",
+    "doneButton": "Cerrar"
   }
 }

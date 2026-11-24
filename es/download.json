@@ -1,23 +1,40 @@
 {
-  "postDownloadActionExecutor.zipExtraction/status": "Extrayendo...",
-  "finalizing": "Finalizando descarga... (esto puede tardar unos momentos)",
-  "noOptions": "No hay opciones compatibles disponibles para descargar",
-  
+  "postDownloadActionExecutor.zipExtraction/status": "Extrayendo archivos...",
+  "postDownloadActionExecutor.tarGzExtraction/status": "Extrayendo archivos...",
+  "postDownloadActionExecutor.runtimeIndexerTarGzExtraction/status": "Extrayendo archivos...",
+  "postDownloadActionExecutor.modifyModelData/status": "Actualizando datos del modelo...",
+  "postDownloadActionExecutor.notification/status": "Notificando al usuario...",
+  "postDownloadActionExecutor.writeString/status": "Escribiendo metadatos...",
+  "postDownloadActionExecutor.updateSelectedBackendVersions/status": "Actualizando versión seleccionada...",
+  "postDownloadActionExecutor.extensionPackAutoDeletion/status": "Eliminando extensiones no usadas...",
+  "postDownloadActionExecutor.pluginInstall/status": "Instalando plugin...",
+  "postDownloadActionExecutor.pluginUninstall/status": "Desinstalando plugin...",
+  "finalizing": "Finalizando descarga... (esto puede tomar unos momentos)",
+  "noOptions": "No hay opciones compatibles disponibles para descarga",
   "deeplink/confirmation/title": "Descargar modelo de Hugging Face 🤗",
   "deeplink/confirmation/subtitle": "{{modelName}}",
   "deeplink/confirmation/selectRecommended": "Seleccionar recomendado",
   "deeplink/confirmation/selectOption": "Seleccionar opción de descarga",
-  "deeplink/confirmation/recommendedOption": "Probablemente la mejor opción para la mayoría de los usuarios",
+  "deeplink/confirmation/recommendedOption": "Probablemente la mejor opción para la mayoría de usuarios",
   "deeplink/confirmation/downloadButton": "Descargar",
-  "deeplink/confirmation/nevermindButton": "No importa",
+  "deeplink/confirmation/nevermindButton": "Mejor no",
   "deeplink/confirmation/modelPresent/title": "Modelo de Hugging Face Encontrado ✅",
-  "deeplink/confirmation/modelPresent/body": "¡Buenas noticias! Este archivo de modelo ya está disponible en su máquina local.",
+  "deeplink/confirmation/modelPresent/body": "¡Buenas noticias! Este archivo de modelo ya está disponible en tu máquina local.",
   "deeplink/confirmation/loadInChat": "Cargar {{ modelName }} en un nuevo chat",
-  "deeplink/error/modelNotFound/title": "Vaya, no pudimos encontrar este modelo",
-  "deeplink/error/modelNotFound/body": "Verifique el nombre del modelo y considere intentar una opción de descarga diferente.",
-  "deeplink/actions/trySearching": "Intente buscar {{modelName}} en Hugging Face",
-  
+  "deeplink/error/modelNotFound/title": "Ay no, no pudimos encontrar este modelo",
+  "deeplink/error/modelNotFound/body": "Verifica bien el nombre del modelo y considera intentar una opción de descarga diferente.",
+  "deeplink/actions/trySearching": "Intenta buscar {{modelName}} en Hugging Face",
   "downloadsPanel/title": "Descargas",
-  "downloadsPanel/sectionTitle/ongoing": "En curso",
-  "downloadsPanel/sectionTitle/completed": "Completado"
+  "downloadsPanel/sectionTitle/ongoing": "En Progreso",
+  "downloadsPanel/sectionTitle/completed": "Completadas",
+  "downloadsPanel": {
+    "reveal": {
+      "mac": "Mostrar en Finder",
+      "mac/error": "No se pudo mostrar en Finder",
+      "nonMac": "Mostrar en Explorador de Archivos",
+      "nonMac/error": "No se pudo mostrar en Explorador de Archivos"
+    },
+    "completed": "Descarga Completada",
+    "loadModel": "Cargar Modelo"
+  }
 }
