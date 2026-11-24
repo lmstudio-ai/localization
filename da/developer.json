@@ -1,0 +1,19 @@
+{
+  "runtimeSettings/title": "Runtime-indstillinger",
+  "loadSettings/title": "Indlæsningsindstillinger",
+  "modelSettings/placeholder": "Vælg en model for at konfigurere den",
+  "serverOptions/title": "Serverindstillinger",
+  "serverOptions/port/hint": "Hvilken port der skal lyttes på. Som standard bruger LM Studio port 1234. Du skal muligvis ændre den, hvis porten allerede er i brug.",
+  "serverOptions/cors/title": "Aktivér CORS",
+  "serverOptions/cors/hint1": "Hvis CORS (Cross-origin Resource Sharing) aktiveres, kan de websteder, du besøger, sende forespørgsler til LM Studio-serveren.",
+  "serverOptions/cors/hint2": "CORS kan være nødvendigt, når du sender forespørgsler fra en webside eller fra VS Code / en anden udvidelse.",
+  "serverOptions/network/title": "Tillad netværksforbindelser",
+  "serverOptions/network/hint1": "Om forbindelser fra andre enheder på netværket skal tillades.",
+  "serverOptions/network/hint2": "Hvis det ikke er markeret, vil serveren kun lytte på localhost.",
+  "serverOptions/verboseLogging/title": "Detaljeret logning",
+  "serverOptions/contentLogging/title": "Log spørgsmål og svar",
+  "serverOptions/contentLogging/hint": "Om spørgsmål og/eller svar skal logges i den lokale serverlogfil.",
+  "serverOptions/loadModel/error": "Kunne ikke indlæse model",
+  "serverLogs/scrollToBottom": "Hop til bunden",
+  "serverLogs/clearLogs": "Ryd logs ({{shortcut}})"
+}
