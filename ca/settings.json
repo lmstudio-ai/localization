@@ -46,6 +46,11 @@
   "uptodate": "Estàs al dia! La versió actual és {{version}}",
   "preferences": "Preferències",
   "general": "General",
+  "appNavigationBarPositionLabel": "Posició de la barra de navegació",
+  "appNavigationBarPositionTop": "A dalt",
+  "appNavigationBarPositionLeft": "A l'esquerra",
+  "modelDefaultsLabel": "Valors Predeterminats del Model",
+
   "sideButtonLabels": "Mostra etiquetes als botons laterals",
   "showModelFileNames": "Els Meus Models: mostra sempre el nom complet del fitxer del model",
   "colorThemeLabel": "Esquema de color",
@@ -86,6 +91,17 @@
   "lightThemeLabel": "Clar",
   "systemThemeLabel": "Auto",
   "sepiaThemeLabel": "Sépia",
+  "defaultContextLength.label": "Llargada de Context Predeterminada",
+  "defaultContextLength.maxTitle": "Màxim del Model",
+  "defaultContextLength.customTitle": "Valor personalitzat",
+  "defaultContextLength.maxSubtitle": "Utilitza la llargada de context màxima suportada per cada model.",
+  "defaultContextLength.customSubtitle": "Estableix la llargada de context predeterminada per carregar nous models.",
+  "defaultContextLength.invalidNaNError": "Valor de llargada de context invàlid. S'utilitza {{value}}",
+  "defaultContextLength.invalidRangeError": "Valor de llargada de context invàlid. Ha d'estar entre 1 i 2^30. S'utilitza {{value}}",
+  "defaultContextLength.largeContextWarning": "Com més gran sigui la llargada de context, més memòria consumirà el model.",
+
+  "jitTTL.subtitle": "Els models carregats via JIT es descarregaran automàticament després d'estar inactius durant el temps especificat.",
+
   "unloadPreviousModelLabel": "Quan seleccionis un model a carregar, descarrega'n primer tots els altres models",
   "languageLabel": "Idioma",
   "changeLanguageLabel": "Selecciona l'idioma de l'app (en desenvolupament)",
@@ -115,6 +131,7 @@
   "appUpdateChannel.shortLabel": "Canal d'actualitzacions de l'app",
   "appUpdateChannel.hint": "Escull el canal d'on rebre actualitzacions del LM Studio. \"{{stableName}}\" és el canal recomanat a la majoria d'usuaris.",
 
+  "modelLoadingGuardrails.alwaysAllowLoadAnyway": "(No recomanat) Permet sempre 'Carrega igualment' sense mantenir premuda Alt/Option",
   "modelLoadingGuardrails.label": "Protecció de Sobrecàrrega de Models",
   "modelLoadingGuardrails.description": "Carregar models que excedeixin les capacitats del maquinari pot causar inestabilitats o congelaments. La protecció de sobrècarrega prova d'evitar aquests problemes. Ajusta els límits aquí si fos necessari, però sigues conscient que carregar models per sobre de les capacitats del teu maquinari pot reduir l'estabilitat.",
   "modelLoadingGuardrails.value.off": "APAGAT (No Recomanat)",
