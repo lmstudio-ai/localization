@@ -47,6 +47,15 @@
   "serverOptions/jitModelLoadingTTL/ttl/unit": "分",
   "serverOptions/unloadPreviousJITModelOnLoad/title": "最後のJITロードモデルのみを保持",
   "serverOptions/unloadPreviousJITModelOnLoad/hint": "任意の時点でJITを介してロードされるモデルは最大1つに制限されます（以前のモデルはアンロードされます）",
+  "serverOptions/allowMcp/title": "MCPを許可",
+  "serverOptions/allowMcp/hint": "サーバーリクエストがMCPを使用できるようにする方法を選択します。MCPサーバーのインストールと使用には常に注意してください。安全でない可能性があります。",
+  "serverOptions/allowMcp/mode/off": "オフ",
+  "serverOptions/allowMcp/mode/off/hint": "サーバーリクエストがMCPを使用することを許可しない",
+  "serverOptions/allowMcp/mode/remote": "リモート",
+  "serverOptions/allowMcp/mode/remote/hint": "リモートMCPサーバーへの接続を許可する",
+
+  "serverOptions/start/error": "サーバーの起動に失敗しました",
+  "serverOptions/stop/error": "サーバーの停止に失敗しました",
 
   "serverLogs/scrollToBottom": "一番下に移動",
   "serverLogs/clearLogs": "ログをクリア ({{shortcut}})",
@@ -161,11 +170,19 @@
     "newBadge": "新規"
   },
 
-  "endpoints/openaiCompatRest/title": "対応エンドポイント（OpenAI互換）",
+  "endpoints/openaiCompatRest/title": "対応エンドポイント{{extra}}",
+  "endpoints/openaiCompatRest/segmentedLabel": "OpenAI互換",
   "endpoints/openaiCompatRest/getModels": "現在ロードされているモデル一覧",
   "endpoints/openaiCompatRest/postCompletions": "テキスト補完モード。プロンプトに基づき次のトークンを予測します。※OpenAIではこのエンドポイントは非推奨です。",
   "endpoints/openaiCompatRest/postChatCompletions": "チャット補完。チャット履歴をモデルに送信し、次のアシスタント応答を予測します",
   "endpoints/openaiCompatRest/postEmbeddings": "テキスト埋め込み。指定したテキスト入力に対して埋め込みベクトルを生成します。文字列または文字列配列を受け付けます。",
+  "endpoints/openaiCompatRest/postResponses": "高度なインターフェース。前回の応答のIDを次の入力として渡すことで状態を持つ対話を作成します。",
+  "endpoints/lmStudioRest/segmentedLabel": "LM Studio",
+  "endpoints/lmStudioRestV1/getModels": "利用可能なモデルの一覧を取得",
+  "endpoints/lmStudioRestV1/postModelsLoad": "オプション付きでモデルを読み込む",
+  "endpoints/lmStudioRestV1/postModelsDownload": "モデルをダウンロードする",
+  "endpoints/lmStudioRestV1/postChat": "モデルとチャットする。状態を持つマルチターン会話とMCPをサポート",
+  "endpoints/lmStudioRestV1/getModelsDownloadStatus": "モデルダウンロードの状態を取得する",
 
   "model.createVirtualModelFromInstance": "設定を新しい仮想モデルとして保存",
   "model.createVirtualModelFromInstance/error": "設定の仮想モデル保存に失敗しました",
